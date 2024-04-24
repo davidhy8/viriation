@@ -1,0 +1,9 @@
+[submodule "submodules/autocorpus"]
+	path = submodules/autocorpus
+	url = https://github.com/omicsNLP/Auto-CORPus.git
+[submodule "submodules/submodules/jats-conversion"]
+	path = submodules/submodules/jats-conversion
+	url = https://github.com/PeerJ/jats-conversion.git
+[submodule "submodules/jats-conversion"]
+	path = submodules/jats-conversion
+	url = https://github.com/PeerJ/jats-conversion.git
