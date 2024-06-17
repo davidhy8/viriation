@@ -1,0 +1,1578 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "www-fda-gov_media_146217_download",
+      "inputfile": "../../data/processed/html/html_other/www-fda-gov_media_146217_download.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "TITLE",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "On February 4, 2021, Janssen Biotech, Inc. (the Sponsor) submitted an Emergency Use Authorization (EUA) request to FDA for an investigational vaccine intended to prevent COVID-19 caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The vaccine, known as Ad26.COV2.S, is a replication-incompetent adenovirus type 26 (Ad26) vectored vaccine encoding a stabilized variant of the SARS-CoV-2 S protein. The proposed use under an EUA is for active immunization to prevent COVID-19 caused by SARS-CoV-2 in individuals 18 years of age and older. The proposed dosing regimen is a single intramuscular injection at the dose level of 5×10 10 viral particles (vp). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 698,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "In support of their EUA request, Janssen has submitted safety and efficacy data from an ongoing multi-national Phase 3 randomized, double-blind and placebo-controlled trial of a single dose (5x10 10 vp) of Ad26.COV2.S in approximately 40,000 participants. The EUA request followed a successful protocol-specified primary analysis that evaluated co-primary efficacy endpoints of molecularly confirmed, moderate to severe/critical COVID-19 with onset at least 14 and 28 days, respectively, after vaccination in participants without evidence of SARS-CoV-2 infection prior to vaccination. The co-primary efficacy analysis (data cutoff of January 22, 2021) included 39,321 randomized (1:1) participants with a median follow-up time of 2 months postvaccination. These participants were included in the per-protocol efficacy analysis population. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1537,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Vaccine efficacy (VE) against central laboratory-confirmed moderate to severe/critical COVID-19 across all geographic areas in which the trial was conducted was 66.9% (95% CI 59.0, 73.4) when considering cases occurring at least 14 days after the single-dose vaccination and 66.1% (55.0, 74.8) when considering cases occurring at least 28 days after vaccination. For the vaccine and placebo groups, respectively, there were 116 and 348 COVID-19 cases that occurred at least 14 days after vaccination, and 66 and 193 cases that occurred at least 28 days after vaccination. Analyses of secondary endpoints demonstrated vaccine efficacy against central laboratory confirmed and blind-adjudicated severe/critical COVID-19 occurring at least 14 days and at least 28 days after vaccination of 76.7% (54.6, 89.1) and 85.4% (54.2, 96.9), respectively. VE estimates for prevention of moderate to severe/critical COVID-19 and for prevention of severe/critical COVID-19 including positive PCR results still awaiting confirmation by the central laboratory were similar (but with narrower confidence intervals) to the VE estimates that included only centrally-confirmed cases. In a post hoc analysis of all COVID-19 related hospitalizations starting 14 days after vaccination, including non-centrally confirmed cases, there were 2 cases in the vaccine group (with no cases after 28 days) compared with 29 cases in the placebo group (with 16 cases after 28 days). As of February 5, 2021, there were 7 COVID-19 related deaths in the study in the placebo group and no COVID-19 related deaths in the vaccine group. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3135,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "In general, VE among the subgroups (age, comorbidity, race, ethnicity) appears to be similar to the VE in the overall study population. A lower VE estimate was observed for the subgroup of participants 60 years of age and older with comorbidities compared with the overall population, but with an observed trend of increasing VE with narrower confidence intervals as numbers of cases included in the analysis increased (i.e., counting cases from 14 days rather than 28 days and including cases not yet centrally confirmed). There were no COVID-19-related deaths and no COVID-19 cases requiring medical intervention occurring 28 days or more post-vaccination among participants age 60 years or older with medical comorbidities in the vaccine group. The VE results for some other subgroups with small numbers of participants (≥75 years of age, certain racial subgroups) have limited interpretability. Data were insufficient to assess VE in participants with evidence of prior SARS-CoV-2 infection. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4131,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "There was country-to-country variation in VE estimates for the prevention of moderate to severe/critical COVID-19 and severe/critical COVID-19, but the confidence intervals were overlapping. Predominant strains among those sequenced were Wuhan-H1 variant D614G in the U.S. (96.4% of sequenced cases), 20H/501Y.V2 variant (B.1.351) in South Africa (94.5% of sequenced cases), and variant of the P.2 lineage in Brazil (69.4% of sequenced cases, with the remaining 30.6% Wuhan-H1 variant D614G). There were no cases identified as B.1.1.7 or P1 lineages as of February 12, 2021. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4706,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Safety analysis through the January 22, 2021 data cutoff included 43,783 randomized (1:1) participants ≥18 years of age with 2-month median follow-up. The analysis supported a favorable safety profile with no specific safety concerns identified that would preclude issuance of an EUA. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4991,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "A subset of participants (N=6,736) was followed for solicited reactions within 7 days following vaccination and unsolicited reactions within 28 days following vaccination. The most common solicited adverse reactions associated with Ad26.COV2.S were injection site pain (48.6%), headache (38.9%), fatigue (38.2%), and myalgia (33.2%); these were predominately mild and moderate, with 0.7% and 1.8% of local and systemic solicited adverse reactions, respectively, reported as grade 3. Reports of solicited reactions were less common among participants ≥60 years of age. Reactogenicity to Ad26.COV2.S in adults ≥18 years of age was demonstrated to be transient, and most solicited adverse events (AEs) generally resolved in 1 to 2 days postvaccination. There were no meaningful imbalances between vaccine and placebo recipients in unsolicited adverse events reported during the 28 days following vaccination. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5897,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Among all adverse events collected through the January 22, 2021 data cutoff, a numerical imbalance was seen in non-serious urticaria events reported in the vaccine group (n=5) compared to placebo group (n=1) within 7 days following vaccination which is possibly related to the vaccine. Numerical imbalances were observed between vaccine and placebo recipients for thromboembolic events (15 versus 10) and tinnitus (6 versus 0). Data at this time are insufficient to determine a causal relationship between these events and the vaccine. There were no other notable patterns or numerical imbalances in the available data as of the cutoff date between treatment groups for specific categories of adverse events that would suggest a causal relationship to Ad26.COV2.S. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6662,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Non-fatal serious adverse events, excluding those attributed to COVID-19, were infrequent and balanced between study groups with respect to rates and types of events (0.4% in both groups). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6851,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "One serious event of a hypersensitivity reaction, not classified as anaphylaxis, beginning two days following vaccination was likely related to receipt of the vaccine. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7019,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "There was more frequent, generally mild to moderate reactogenicity in participants 18 to 59 years of age compared to older participants. There were no specific safety concerns identified in subgroup analyses by age, race, ethnicity, medical comorbidities, or prior SARS-CoV-2 infection. Occurrence of solicited, unsolicited, and serious adverse events in these subgroups was generally consistent with the overall study population. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7450,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "This meeting of the Vaccines and Related Biological Products Advisory Committee (VRBPAC) is being convened to discuss and provide recommendations whether, based on the totality of scientific evidence available, the benefits of the Ad26.COV2.S vaccine outweigh its risks for active immunization to prevent COVID-19 caused by SARS-CoV-2 in individuals 18 years of age and older. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7827,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Janssen Ad26.COV2.S (COVID-19) Vaccine VRBPAC Briefing Document ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7891,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The SARS-CoV-2 pandemic presents an extraordinary challenge to global health and, as of February 17, 2021, has caused more than 110 million cases of COVID-19 and claimed the lives of more than 2.4 million people worldwide. In the United States, more than 27 million cases and 486,000 deaths have been reported to the Centers for Disease Control and Prevention (CDC). On January 31, 2020, the U.S. Secretary of Health and Human Services (HHS) declared a public health emergency related to COVID-19 and mobilized the Operating Divisions of HHS. Following the World Health Organization's declaration of the novel coronavirus pandemic on March 11, 2020, the U.S. President declared a national emergency in response to COVID-19 on March 13, 2020. Vaccines to protect against COVID-19 are critical to mitigate the current SARS-CoV-2 pandemic and to prevent future disease outbreaks. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8768,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "SARS-CoV-2 is a novel, zoonotic coronavirus that emerged in late 2019 in patients with pneumonia of unknown cause. 1 The virus was named SARS-CoV-2 because of its similarity to the coronavirus responsible for severe acute respiratory syndrome (SARS-CoV, a lineage B betacoronavirus). 2 SARS-CoV-2 is an enveloped, positive sense, single stranded RNA virus sharing more than 70% of its sequence with SARS-CoV, and ~50% with the coronavirus responsible for Middle Eastern respiratory syndrome (MERS-CoV). 3 The SARS-CoV-2 spike glycoprotein (S), which is the main target for neutralizing antibodies, binds to its receptor human angiotensin converting enzyme 2 (hACE2) to initiate infection. 4 SARS-CoV-2 is the cause of COVID-19, an infectious disease with respiratory and systemic manifestations. Disease symptoms vary, with many persons presenting with asymptomatic or mild disease and some progressing to severe respiratory tract disease including pneumonia and acute respiratory distress syndrome (ARDS), leading to multiorgan failure and death. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9816,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "In an attempt to prevent the spread of disease and to control the pandemic, numerous COVID-19 vaccine candidates are in development. FDA issued emergency use authorizations for two mRNA vaccines, developed by Pfizer and Moderna, respectively, in December 2020. Other COVID-19 vaccines currently in development are based on various platforms and include mRNA, DNA, viral vectored, subunit, inactivated, and live-attenuated vaccines. Most COVID-19 candidate vaccines express the spike protein or parts of the spike protein, i.e., the receptor binding domain, as the immunogenic determinant. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10405,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Janssen Biotech, Inc. is developing a replication-incompetent adenovirus type 26 (Ad26)vectored vaccine encoding a stabilized variant of the SARS-CoV-2 S protein, to prevent coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in individuals 18 years of age and older. The Ad26.COV2.S vaccine is administered as a single intramuscular injection of 5x10 10 vp. The vaccine is supplied as a multidose vial (5 doses) containing a refrigerated suspension with a shelf life of 3 months when stored at 2º to 8º C. The vaccine does not contain a preservative. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11012,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "A Phase 3 randomized and placebo-controlled trial of the single-dose Ad26.COV2.S in approximately 40,000 participants is currently ongoing to evaluate the vaccine's safety and efficacy. The primary analysis of 39,321 participants using a data cutoff date of January 22, 2021 demonstrated vaccine efficacy (VE) of 66.9% (adjusted 95% CI 59.0%, 73.4%) for the prevention of moderate to severe/critical COVID-19 occurring at least 14 days vaccination, and Janssen Ad26.COV2.S (COVID-19) Vaccine VRBPAC Briefing Document 66.1% (adjusted 95% CI 55.0%, 74.8%) for the prevention of cases occurring at least 28 days after vaccination. Safety data from a January 22, 2021 data cutoff with a median of 58 days follow-up after vaccination were reported to demonstrate an acceptable tolerability profile with no significant safety concerns. On February 4, 2021, Janssen Biotech, Inc. submitted an EUA request to FDA, based on the primary analyses described above, for Ad26.COV2.S for active immunization for the prevention of COVID-19 in adults 18 years of age and older. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12073,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Based on the declaration by the Secretary of HHS that the COVID-19 pandemic constitutes a public health emergency with a significant potential to affect national security or the health and security of United States citizens living abroad, FDA may issue an EUA after determining that certain statutory requirements are met (section 564 of the FD&C Act (21 U.S.C. 360bbb-3)). 5 • The chemical, biological, radiological, or nuclear (CBRN) agent referred to in the March 27, 2020 EUA declaration by the Secretary of HHS (SARS-CoV-2) can cause a serious or life-threatening disease or condition. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12664,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "• Based on the totality of scientific evidence available, including data from adequate and well-controlled trials, if available, it is reasonable to believe that the product may be effective to prevent, diagnose, or treat such serious or life-threatening disease or condition that can be caused by SARS-CoV-2, or to mitigate a serious or life-threatening disease or condition caused by an FDA-regulated product used to diagnose, treat, or prevent a disease or condition caused by SARS-CoV-2. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13156,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "• The known and potential benefits of the product, when used to diagnose, prevent, or treat the identified serious or life-threatening disease or condition, outweigh the known and potential risks of the product. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13368,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "• There is no adequate, approved, and available alternative to the product for diagnosing, preventing, or treating the disease or condition. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13509,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "If these criteria are met, under an EUA, FDA can allow unapproved medical products (or unapproved uses of approved medical products) to be used in an emergency to diagnose, treat, or prevent serious or life-threatening diseases or conditions caused by threat agents. FDA has been providing regulatory advice to COVID-19 vaccine manufacturers regarding the data needed to determine that a vaccine's benefit outweigh its risks. This includes demonstrating that manufacturing information ensures product quality and consistency along with data from at least one Phase 3 clinical trial demonstrating a vaccine's safety and efficacy in a clear and compelling manner. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14171,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "In the event an EUA is issued for this product, it would still be considered unapproved and would continue under further investigation (under an Investigational New Drug Application). Licensure of a COVID-19 vaccine will be based on review of additional manufacturing, efficacy, and safety data, providing greater assurance of the comparability of licensed product to product tested in the clinical trials, greater assurance of safety based on larger numbers of vaccine recipients who have been followed for a longer period of time, and additional information about efficacy that addresses, among other questions, the potential for waning of protection over time. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14835,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "No vaccine or other medical product is FDA approved for prevention of COVID-19. On October 22, 2020, FDA approved remdesivir for use in adult and pediatric patients 12 years of age and Janssen Ad26.COV2.S (COVID-19) Vaccine VRBPAC Briefing Document older and weighing at least 40 kilograms for the treatment of COVID-19 requiring hospitalization. Several other therapies are currently available under EUA, but not FDA approved, for treatment of COVID-19. On December 11, 2020, FDA issued an EUA for the Pfizer-BioNTech COVID-19 vaccine for active immunization for prevention of COVID-19 due to SARS-CoV-2 in individuals 16 years of age and older, administered as 2 doses 3 weeks apart. On December 18, 2020, FDA issued an EUA for the Moderna COVID-19 vaccine for use in individuals 18 years of age and older, administered as 2 doses 4 weeks apart. These COVID-19 vaccines are considered unapproved products, and current supplies are insufficient to vaccinate all persons in the U.S. for whom use of the vaccines are authorized. Thus, there is no adequate, approved, and available alternative to the product for diagnosing, preventing, or treating the disease or condition. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16008,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "An EUA for a COVID-19 vaccine allows for the rapid and widespread deployment for administration to millions of individuals, including healthy people and thus, data are needed demonstrating that the known and potential benefits of the vaccine outweigh its known and potential risks. FDA published guidance for industry Emergency Use Authorization for Vaccines to Prevent COVID-19 (October 2020) describing FDA's current recommendations regarding the manufacturing, nonclinical, and clinical data and information needed under section 564 of the FD&C Act to support the issuance of an EUA for an investigational vaccine to prevent COVID-19, including a discussion of FDA's current thinking regarding the circumstances under which an EUA for a COVID-19 vaccine would be appropriate. 6  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16790,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Issuance of an EUA requires a determination that the known and potential benefits of the vaccine outweigh the known and potential risks. Data adequate to inform an assessment of the vaccine's benefits and risks, and thus support issuance of an EUA, would include meeting the prespecified success criteria for the study's primary efficacy endpoint, as described in the guidance for industry Development and Licensure of Vaccines to Prevent COVID-19 (June 2020) (i.e., a point estimate for a placebo-controlled efficacy trial of at least 50%, with a lower bound of the appropriately alpha-adjusted confidence interval around the primary efficacy endpoint point estimate of >30%). 6  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17471,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "An EUA request for a COVID-19 vaccine should include all safety data accumulated from studies conducted with the vaccine, with data from Phase 1 and 2 focused on serious adverse events, adverse events of special interest, and cases of severe COVID-19 among study participants. Phase 3 safety data should include characterization of reactogenicity (common and expected adverse reactions shortly following vaccination) in a sufficient number of participants from relevant age groups and should include a high proportion of enrolled participants (numbering well over 3,000) followed for serious adverse events and adverse events of special interest for at least one month after completion of the full vaccination regimen. The Phase 1 and 2 safety data likely will be of a longer duration than the available safety data from the Phase 3 trial at the time of submission of an EUA request and thus, are intended to complement the available data from safety follow-up from ongoing Phase 3 studies. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18462,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Data from Phase 3 studies should include a median follow-up duration of at least 2 months after completion of the full vaccination regimen to provide adequate information to assess a vaccine's benefit-risk profile. From a safety perspective, a 2-month median follow-up following completion of the full vaccination regimen will allow identification of potential adverse events that were not apparent in the immediate postvaccination period. Adverse events considered plausibly linked to vaccination generally start within 6 weeks of vaccine receipt. 7 From the perspective of vaccine efficacy, a 2-month median follow-up is the shortest follow-up period to achieve some confidence that any protection against COVID-19 is likely to be more than short-lived. The EUA request should include a plan for active follow-up for safety (including deaths, hospitalizations, and other serious or clinically significant adverse events) among individuals administered the vaccine under an EUA in order to inform ongoing benefit-risk determinations to support continuation of the EUA. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19532,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "FDA does not consider availability of a COVID-19 vaccine under EUA, in and of itself, as grounds for immediately stopping blinded follow-up in an ongoing clinical trial or grounds for offering vaccine to all placebo recipients. To minimize the risk that use of an unapproved vaccine under EUA will interfere with long-term assessment of safety and efficacy in ongoing trials, it is critical to continue to gather data about the vaccine even after it is made available under EUA. An EUA request should therefore include strategies that will be implemented to ensure that ongoing clinical trials of the vaccine are able to assess long-term safety and efficacy (including evaluating for vaccine-associated enhanced respiratory disease and decreased effectiveness as immunity wanes over time) in sufficient numbers of participants to support vaccine licensure. These strategies should address how ongoing trial(s) will handle requests for unblinding and crossover of placebo recipients to receive vaccine in the trial and loss of followup information for study participants who choose to withdraw from the study in order to receive the vaccine under an EUA. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20686,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "On October 22, 2020, the VRBPAC met in open session to discuss, in general, the development, authorization, and/or licensure of vaccines to prevent COVID-19. No specific application was discussed at this meeting. Topics discussed at the meeting included: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20941,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "• FDA's approach to safety and effectiveness, and chemistry, manufacturing and control (CMC) data as outlined in the respective guidance documents • Considerations for continuation of blinded Phase 3 clinical trials if an EUA has been issued for an investigational COVID-19 vaccine • Studies following licensure and/or issuance of an EUA for COVID-19 vaccines to: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21305,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "-Further evaluate safety, effectiveness and immune markers of protection -Evaluate the safety and effectiveness in specific populations.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21443,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The Vaccines and Related Biological Products Advisory Committee will convene on February 26, 2021, to discuss and provide recommendations on whether based on the totality of scientific evidence available, the benefits of the Janssen Ad26.COV2.S vaccine outweigh its risks for use in individuals 18 years of age and older. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21765,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The Janssen Ad26.COV2.S vaccine is a colorless to slightly yellow, clear to very opalescent sterile suspension for intramuscular injection. The vaccine consists of a replication-incompetent recombinant adenovirus type 26 (Ad26) vector expressing the severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) spike (S) protein in a stabilized conformation. The vaccine also contains the following inactive ingredients: citric acid monohydrate, trisodium citrate dihydrate, ethanol, 2-hydroxypropyl-β-cyclodextrin (HBCD), polysorbate 80, sodium chloride, sodium hydroxide, and hydrochloric acid. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22362,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The Ad26 vector expressing the SARS-CoV-2 S protein is grown in PER.C6® TetR Cell Line, in media containing amino acids and no animal-derived proteins. After propagation, the vaccine is processed through several purification steps, formulated with inactive ingredients and filled into vials. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22654,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The Ad26.COV2.S vaccine is provided as a refrigerated suspension [stored at 2°C to 8°C (36°F to 46°F)] in a multi-dose vial containing 5 doses (0.5 mL each). The vials should be protected from light. Unpunctured vials may be stored between 9°C to 25°C (47°F to 77°F) for up to 12 hours. After the first dose has been withdrawn, the vial should be held between 2° to 8°C (36° to 46°F) for up to 6 hours or at room temperature (maximally 25°C/77°F) for up to 2 hours. The vial should be discarded if the vaccine is not used within these times. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23196,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Ad26.COV2.S (5×10 10 vp) is administered as a single intramuscular injection (0.5 mL dose). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23288,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "FDA has reviewed the CMC data submitted to date for this vaccine and has determined that the CMC information is consistent with the recommendations set forth in FDA's guidance Emergency Use Authorization for Vaccines to Prevent COVID-19 (October 2020). As such, FDA has determined that the Sponsor has provided adequate information to ensure the vaccine's quality and consistency for authorization of the product under an EUA. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23715,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23720,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The proposed use of the Ad26.COV2.S vaccine under an EUA is for active immunization to prevent coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in individuals 18 years of age and older. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23964,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "There are five ongoing clinical studies with Ad26.COV2.S, which are summarized in Table 1 below. All listed trials are randomized, double-blind, and placebo-controlled. Study VAC31518COV3001 (Study 3001) is a Phase 3 efficacy and safety study with a single-dose regimen and is the focus of the EUA review. Study 3009 is a Phase 3 efficacy and safety study with a 2-dose regimen than began in November 2020, for which only blinded safety data was available at the time of the EUA request. Study 2001 is a Phase 2a dose-ranging study exploring 4 dose levels and 1-dose and 2-dose regimens in adults and adolescents and will not be discussed in detail. Studies 1002 and 1001 are Phase 1 dose-ranging studies and will also not be discussed in detail. Summaries of the designs and results to date of Studies 1001, 1002, 2001, and 3009 may be found in Appendix A, page 60. . Samples from locally diagnosed COVID-19 cases were to be sent to the central laboratory for confirmatory testing. Molecular confirmation of SARS-CoV-2 infection (using the Abbott Real Time SARS-CoV-2 RT-PCR assay) by the central laboratory was required to meet the co-primary and secondary efficacy endpoint case definitions. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25159,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The co-primary endpoints were efficacy of a single dose of vaccine to prevent centrally confirmed, moderate to severe/critical COVID-19 occurring (1) at least 14 days after vaccination and (2) at least 28 days after vaccination in study participants without evidence of prior SARS-CoV-2 infection at baseline. Evaluation of the co-primary endpoints was triggered by prespecified criteria: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25548,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "1. The first 50% of participants have at least 2 months of follow-up after vaccination 2. At least 42 moderate to severe/critical cases of COVID-19 with onset at least 28 days after vaccination 3. At least 6 cases of COVID-19 among participants ≥60 years of age (onset ≥28 days after vaccination) 4. At least 5 severe/critical cases of COVID-19 in the placebo group (onset ≥28 days after vaccination) with a favorable vaccine-to-placebo split for both co-primary endpoints. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26022,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The protocol-specified \"final analysis\" will be performed when the last participant completes the visit 12 months post-vaccination or discontinues earlier. The end-of-study analysis will be performed when all participants have completed the visit 24 months post-vaccination or discontinued earlier. The expected duration of study participation is approximately 25 months. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26394,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The case definition for moderate COVID-19 was a SARS-CoV-2 positive RT-PCR or molecular test result from any available respiratory tract sample (e.g., nasal, throat, sputum, saliva) or other sample, and at any time during the course of observation: The case definition for severe/critical COVID-19 was a RT-PCR or molecular test result from samples described above and any one of the following at any time during the course of observation: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26834,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "• Clinical signs at rest indicative of severe systemic illness (respiratory rate ≥30 breaths/minute, heart rate ≥125 beats/minute, oxygen saturation (SpO2) ≤93% on room air at sea level, or partial pressure of oxygen/fraction of inspired oxygen (PaO2/FiO2) <300 mmHg) All cases meeting the severe/critical criteria were adjudicated by a blinded clinical severity adjudication committee to determine if the case was severe/critical in their judgement. Janssen Ad26.COV2.S (COVID-19) Vaccine VRBPAC Briefing Document Additionally, all cases meeting the moderate case definition and that included >3 signs and/or symptoms from the list of signs and symptoms were evaluated by the clinical severity adjudication committee to determine if the case was severe/critical in their judgement. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27617,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The originally specified primary endpoint was efficacy of the vaccine to prevent centrally confirmed, moderate to severe/critical COVID-19 occurring at least 14 days post-vaccination in SARS-CoV-2 seronegative adults (with \"seronegative\" defined as negative RT-PCR and negative serology against SARS-CoV-2 nucleocapsid on Day 1). Study protocol amendment 3 (December 14, 2020) added a co-primary endpoint counting COVID-19 cases from 28 days post-vaccination. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28077,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The primary analysis was based on the per-protocol set defined as those participants in the full analysis set (FAS) who received study vaccine, were seronegative at the time of vaccination, and had no major protocol deviations that were judged to possibly impact the efficacy of the vaccine. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28369,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "A successful primary efficacy conclusion required two conditions: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28435,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "1. Rejecting the null hypothesis H0: VE ≤30% for each co-primary endpoint at a 2.5% onesided significance level and a VE point estimate ≥50% for each co-primary endpoint; and 2. A favorable split vaccine:placebo for the subset of primary endpoints meeting the severe/critical COVID-19 case definition (expressed as a VE point estimate against severe/critical COVID-19 molecularly confirmed endpoints ≥50%) and a minimum of 5 events in the placebo group. This requirement needed to be met for severe/critical events with onset at least 14 days after vaccination and 28 days after vaccination. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29027,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Both conditions 1 and 2 simultaneously had to be met for both co-primary endpoints at the same calendar timepoint. Exact Poisson regression was used to estimate VE and associated confidence intervals taking into account the follow-up time. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29267,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Secondary endpoints included vaccine efficacy to prevent or vaccine impact on: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29346,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "•  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29349,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "In Study 3001, the safety objective was evaluation of the safety of Ad26.COV2.S following vaccination. In a subset of participants (n=6736), local and systemic reactions were recorded from for 7 days following vaccination, and unsolicited AEs were collected from vaccination to day 28 after vaccination. In all participants, medically attended adverse events (MAAEs) were collected from vaccination to months after vaccination, and MAAEs leading to study discontinuation and serious AEs (SAEs) were collected from vaccination to the end of the study. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29900,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Safety assessments included the following: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29943,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "• Solicited local and systemic adverse reactions (ARs) that occurred during the 7 days following vaccination. Solicited ARs were recorded daily using eDiaries • Unsolicited AEs observed or reported during the 28 days following vaccination. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30183,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Unsolicited AEs are those not included in the protocol-defined solicited ARs Monitoring for risk of vaccine-enhanced disease was performed by an unblinded team supporting the Data Monitoring Committee that reviewed cases of severe COVID-19 as they were received and reviewed AEs at least weekly for additional potential cases of severe COVID-19. A stopping rule would be triggered if the 1-sided probability of observing the same or a more extreme case split was 5% or less when the true incidence of severe disease was the same for vaccine and placebo participants. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30750,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "For the purposes of analysis, the following populations are defined: All participants who are randomized, regardless of the treatment status during the study. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30909,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "All randomized participants with a documented study vaccine administration. The FAS was used for all analyses of safety except solicited adverse reactions. Per-protocol set All participants in the FAS who had no immunologic or virologic evidence of prior COVID-19 at the time of vaccination and no major protocol deviations that were judged to possibly impact the efficacy of the vaccine. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31298,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Subset of the full analysis set for the analysis of solicited and unsolicited AEs. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31381,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "At the time of the primary analysis, the median follow-up duration for participants in the efficacy and safety analysis populations was 8 weeks after vaccination, which FDA considers to be Janssen Ad26.COV2.S (COVID-19) Vaccine VRBPAC Briefing Document equivalent to 2 months and which meets the FDA expectation for follow-up after completion of the full vaccination regimen. Phased enrollment by age group and comorbidity risk resulted in slight differences in follow-up time between participants in these groups, with an approximately 2-week difference in the median follow up time between the first group enrolled (18-59 without comorbidities) and last group enrolled (60 years and older with comorbidities). Table 3 shows the median follow-up time by age and comorbidities in the FAS. Follow-up time in the perprotocol set is similar (data not shown).  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32238,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The tables below show the disposition of participants in the efficacy analysis population (Table  4) and safety analysis population ( Table 5 ). The proportions of participants excluded from the per-protocol set were balanced between treatment groups, with the majority of those excluded due to positive baseline SARS-CoV-2 status. Overall, few participants were discontinued or lost to follow-up, and these and other analysis population exclusions were generally balanced between treatment groups. In the per-protocol set, 54.6% of vaccine recipients and 54.7% of placebo recipients completed at least 8 weeks follow-up after vaccination. As of the data cutoff date, 5.3% of participants in the vaccine group and 5.8% of participants in the placebo group in the per-protocol set were unblinded by request after they became eligible to receive an authorized COVID-19 vaccine under EUA. A slightly greater proportion of participants ≥60 years of age were unblinded (6.6%) compared to those 18 to 59 years of age (4.4%). The vast majority (93.0%) of participants who were unblinded were from US study sites. These participants were included in the per-protocol set until the time of the unblinding. The table below summarizes the disposition of the safety analysis population. In the FAS, 54.6% of participants completed at least 8 weeks follow-up. The proportion of participants who discontinued from the study was 0.3% (n=145) across study groups, with a greater number in the placebo group (n=96) compared with the vaccine group (n=49). The most frequently reported reason was withdrawal by participant. In the safety subset, almost all (99.9%) participants completed assessments through 29 days post-vaccination. As of the data cutoff date of January 22, 2021, in the FAS, 4.9% of participants in the vaccine group and 5.4% of participants in the placebo group were unblinded due to request by participant after the participant became eligible to receive an authorized COVID-19 vaccine under EUA. Baseline demographics in US participants included in the study were similar to that of the global demographics, with the exception of lower percentages of subjects who were American Indian or Alaska Native (1.0%) and subjects who identified as Hispanic or Latino (14.2%). There was a similar distribution of demographic characteristics between the treatment groups. The demographic characteristics among vaccine and placebo participants in the FAS were similar. There were no significant imbalances in demographic or other baseline characteristics between the per-protocol set and FAS. Overall, 9.6% of vaccinated participants in the study had evidence of previous infection with SARS-CoV-2 at baseline, as assessed by serology prior to vaccination. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34987,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Janssen Ad26.COV2.S (COVID-19) Vaccine VRBPAC Briefing Document The following table provides the proportions of participants with one or more comorbidities associated with an increased risk of progression to severe COVID-19. In the FAS, 40.8% of participants had one or more comorbidities at baseline. The most common comorbidities were obesity (28.5%) and hypertension (10.3%). The study also included participants who were HIV positive (2.8%). The proportions of individuals with comorbidities were similar between the vaccine and placebo groups and between the FAS and per-protocol set. Subjects in the safety subset were enrolled from 45 sites in 3 Tier 1 countries (US, Brazil and South Africa). The Tier 1 countries were selected based on rapid start-up capacity and projected incidence rates for COVID-19 that would allow for rapid efficacy signal detection. At the site level, investigators questioned participants on their willingness to be part of the safety subset. Selection and randomization of the participants was then completed through a web-based randomization system. In safety subset, 48.3% of participants were female, and 23.0% were ≥65 years of age, which is similar to the FAS. A larger percentage of participants in the safety subset were white (83.4%) compared to the FAS (58.7%). Geographically, the safety subset was limited to participants in the United States (51.4%), South Africa (10.2%), and Brazil (38.5%). Fewer participants in the safety subset compared to the FAS were seropositive at baseline (4.5% versus 9.6%) and had a least one comorbidity (34.1% versus 40.8%). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36590,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Janssen Ad26.COV2.S (COVID-19) Vaccine VRBPAC Briefing Document  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36655,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The primary efficacy analysis was based on the per-protocol set, which consisted of all vaccinated participants who were SARS-CoV-2 seronegative at time of vaccination and who had no major protocol deviations. The co-primary efficacy endpoints were vaccine efficacy (VE) in preventing protocol-defined moderate to severe/critical COVID-19, confirmed by the central laboratory, occurring at least 14 days and at least 28 days after vaccination, respectively. The primary efficacy success criterion would be met if the null hypothesis of VE ≤30% is rejected and the VE point estimate is ≥50% for both co-primary endpoints at the primary analysis. As shown in Source: Sponsor tables GEFPE02_A and GEFPE02_C a N=Total number of participants at risk per category b Person-years include time from vaccination to the onset of moderate to severe/critical COVID-19, discontinuation from study, major protocol deviation, unblinding to receive alternative vaccine, or data cutoff, whichever comes first. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37648,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Due to the high incidence rate of COVID-19 during the study, not all positive PCR tests had been confirmed by the central laboratory at the time of data cutoff. Of 682 primary endpoint cases with positive PCR from any lab accrued at the time of the data cutoff date, 464 were centrally confirmed. The statistical analysis plan specified that the primary and secondary endpoints would be based on centrally confirmed COVID-19, and thus only centrally confirmed cases were included in analyses of vaccine efficacy. For the subgroup analyses for the primary and secondary endpoints, positive PCR results from any source were used to increase the number of cases and the precision of the estimate. At the time of the data cutoff, there was high concordance between all local and central laboratory PCR results (90.3%). Evaluation of the primary efficacy endpoint including non-centrally-confirmed cases yielded results similar to those reported above (66.3% and 65.5% for onset at least 14 days and at least 28 days after vaccination, respectively). On February 12, the Sponsor submitted an update on centrally confirmed cases as an amendment to the EUA request; based on cases accrued by the time of the data cutoff and analyzed by the central laboratory by February 8, 582 primary endpoint cases were centrally confirmed. Vaccine efficacy based on this updated dataset was similar to that reported above (67.4% and 66.2% for onset at least 14 days and at least 28 days after vaccination, respectively). The high rate of concordance between local and central lab PCR tests and similar co-primary analysis results regardless of inclusion or exclusion of non-centrally Janssen Ad26.COV2.S (COVID-19) Vaccine VRBPAC Briefing Document confirmed cases support the inclusion of cases awaiting central laboratory confirmation in subgroup analyses to increase their robustness and improve interpretability. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39544,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The demographics of participants with moderate to severe/critical COVID-19, including noncentrally confirmed cases, with onset at least 14 days after vaccination are displayed below. The majority of COVID-19 cases were among participants in the United States, South Africa, and Brazil. Study participants with comorbidities were not over-represented among COVID-19 cases as compared to the overall study population.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39961,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Subgroup analyses for the co-primary efficacy endpoints provide additional information on the applicability of these results across the general population. For the subgroup analyses, cases with any positive PCR, including those still awaiting confirmation by the central laboratory, were included. In general, VE among the subgroups are similar to the VE in the overall study population. The VE results for subgroups with small numbers of participants (e.g., participants ≥75 years of age, certain racial subgroups) have limited interpretability but are displayed for completeness. Additional subgroup analyses were conducted to evaluate vaccine efficacy by risk factor for severe COVID-19. Vaccine efficacy against moderate to severe/critical COVID-19 with onset at least 28 days after vaccination was lower for individuals with comorbid conditions than for those without such conditions, especially in the subgroup of participants ≥60 years of age. However, the confidence intervals are wide, and the uncertainty of the point estimate is large, as shown in Table 13 . The wide confidence intervals for the ≥28 days endpoint are attributable to lower numbers of cases due to the relatively shorter follow up duration (median of approximately 7 weeks) and with a greater proportion of participants in this subgroup who were unblinded (6.0% compared to 4.4% for 18-59 years cohort overall) due to eligibility for authorized COVID-19 vaccine under EUA, smaller number of participants, and lower incidence of COVID-19 in the cohort of those ≥60 years with comorbidities. For this and several other subgroups, the VE estimate increased and the confidence interval narrowed as the number of cases included in the analysis increased (with inclusion of non-centrally confirmed cases and with cases starting after 14 days), indicating that the apparent lower VE estimates in certain analyses potentially reflect imprecision associated with smaller numbers of cases. For a majority of individual comorbid conditions, interpretation of the results is limited by small sample size and low incidence of VRBPAC Briefing Document COVID-19. However, for subgroups with higher incidence of COVID-19, such as participants with obesity, the VE was similar to the VE estimate in the overall study population. Source: Sponsor tables GEFPE09A, GEFPE09C N=Total number of participants at risk per category a If fewer than 6 cases are observed for an endpoint then the VE is not shown. b Results not shown for comorbidities which did not have any cases in either arm for either of the two time periods Among the 4,156 participants with positive baseline SARS-CoV-2 status who would have otherwise fulfilled the criteria for the Per Protocol Set, there were 7 moderate to severe/critical COVID-19 cases which occurred at least 14 days post-vaccination (3 in vaccine group, 4 in placebo group), of which 3 cases occurred at least 28 days post-vaccination (1 in vaccine group, 2 in placebo group). One case, in a participant in the vaccine group, was assessed as severe. Of the 7 cases, only one case was centrally confirmed at the time of the data cutoff. There is insufficient data at this time to evaluate vaccine efficacy in previously infected individuals.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43198,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Cumulative incidence of moderate to severe/critical COVID-19 in the FAS was similar in both the vaccine and placebo groups until around Day 14, following which the curves diverge, with more cases accumulating in the placebo group than the vaccine group. Janssen Ad26.COV2.S (COVID-19) Vaccine VRBPAC Briefing Document ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43516,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Efficacy against any symptomatic COVID-19 (including mild disease) and efficacy based on a less restrictive case definition (FDA harmonized case definition), with onset at least 14 days or 28 days after vaccination, were overall similar to results obtained for the primary efficacy endpoint of efficacy against moderate to severe/critical COVID-19. There were only 4 centrally confirmed mild COVID-19 cases (1 in vaccine group, 3 in placebo group) with onset ≥14 days post-vaccination, indicating that the moderate to severe/critical primary efficacy endpoint definition captured almost all cases of symptomatic COVID-19.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44139,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "All COVID-19 cases which met the severe/critical definition as specified by the study protocol and all moderate cases with a total of 3 or more signs and/or symptoms were assessed independently by a clinical severity adjudication committee. Only cases classified as severe/critical by the adjudication committee are included in the severe/critical endpoint. Table  16 shows efficacy against severe/critical COVID-19 including only centrally confirmed cases and efficacy against severe/critical COVID-19 when non-centrally confirmed cases are also included. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44696,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "As of the cutoff date for adjudication (January 19, 2021), there were 74 centrally confirmed, adjudicated severe/critical COVID-19 cases with an onset at least 14 days after vaccination and 39 cases with an onset at least 28 days after vaccination. Efficacy against severe disease appears to be greater when cases that occurred before 28 days are excluded. Point estimates of efficacy were lower in participants ≥60 years of age compared to participants 18 to 59 yearsold when evaluating only centrally confirmed cases; however, the confidence intervals are wide. When non-centrally confirmed cases were included, the VE estimate for participants ≥60 years of age increased (and the confidence interval narrowed) and was more similar to the VE estimates for 18 to 59 year-olds and the overall population. Severe cases which occurred after the cutoff date for adjudication were included in the primary Janssen Ad26.COV2.S (COVID-19) Vaccine VRBPAC Briefing Document efficacy analysis but were not included as severe/critical cases, which is based on adjudicated cases only. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45769,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The endpoint of COVID-19 requiring medical intervention is defined as participant requiring hospitalization, ICU admission, mechanical ventilation, and/or ECMO, linked to objective measures such as decreased oxygenation, X-ray or computed tomography (CT) findings, and linked to any molecularly confirmed, COVID-19 with onset at least 14 days and at least 28 days post-vaccination. This endpoint was collected using the Medical Resource Utilization (MRU) form to be completed by the investigator on Days 3 through 5 and/or Day 29 of the COVID-19 episode. The vaccine appears to offer protection against COVID-19 requiring medical intervention starting at least 14 days post-vaccination. In the vaccine group, there were no COVID-19 cases requiring medical intervention, per MRU forms, after 28 days post-vaccination, compared to 5 such cases in the placebo group counting only centrally confirmed cases (7 cases in the placebo group counting any positive PCR). The 2 COVID-19 related hospitalizations that occurred at least 14 days after vaccination in the vaccine group were both participants ≥60 years of age with comorbidities (obesity and hypertension). In the subgroup of participants ≥60 years with comorbidities, 2 of 22 total moderate to severe/critical COVID-19 cases in vaccine recipients resulted in hospitalization (both prior to 28 days) compared to 11 of 63 moderate to severe/critical cases in placebo recipients (with 5 occurring after 28 days). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47231,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "As of February 5, 2021, there were 7 COVID-19-related deaths reported in the study. All participants had a documented positive SARS-CoV-2 RT-PCR around the time of the event, but not all have been centrally confirmed to date. All 7 deaths occurred in the placebo group and were in study sites in South Africa. All of these participants had one or more comorbidities which placed them at higher risk for severe COVID-19. One death was in a participant PCR positive at baseline, who had onset of illness 10 days after vaccination. These results suggest that the vaccine is efficacious against mortality associated with COVID-19. Outcomes related to an exploratory all-cause mortality endpoint are discussed in a separate section below.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47966,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The secondary endpoint for asymptomatic infection was defined in the protocol as a participant who does not fulfill the criteria for suspected COVID-19 based on signs and symptoms (further specified as no symptoms on the day preceding, the day of, or any time after the positive PCR test) AND has a SARS-CoV-2 positive RT-PCR test result OR develops a positive serology based on a SARS-CoV-2 N-specific immunoglobulin assay (Elecsys®, Roche) during the study. SARS CoV-2 seropositivity by non-S protein was assessed at Day 1 (pre-vaccination), Day 29 (28 days post-vaccination), and Day 71. On manual review of the cases included in this endpoint, the Sponsor identified multiple cases in which the participants were symptomatic 2 days or more prior to the positive PCR or serology test. Manual review identified 2 centrallyconfirmed cases in the vaccine group which were classified as asymptomatic based on the statistical analysis plan (SAP) but would meet the moderate case definition, and one centrallyconfirmed SAP-classified asymptomatic case in the placebo group which would meet the mild case definition, with onset after 14 days post-vaccination. These cases were not included in the primary or secondary efficacy analyses, which are based on SAP-defined cases, but are not expected to significantly change the efficacy results. To remove possibly symptomatic COVID-19 cases from the analysis of asymptomatic infection, the Sponsor conducted a post hoc analysis including only participants without COVID-19 symptoms since screening. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49508,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "As specified in the SAP, the secondary endpoint of efficacy against all SARS-CoV-2 infection with onset from Day 29 (including asymptomatic infection) will only be tested when at least 15,000 participants with Day 71 serology are available, and the secondary endpoint of efficacy against asymptomatic or undetected infection with onset from Day 29 will only be tested when all participants have at least 6 months of follow-up.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49936,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Additional vaccine efficacy analyses were conducted and described below. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50009,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "As of the cutoff date for the primary analysis, 19 deaths were reported in the study. Of these 19 deaths, 6 were related to COVID-19, all in the placebo group. There is suggestion of a positive effect on all-cause mortality; however, the confidence interval is wide, with a lower bound below 0 after 28 days post-vaccination. An update on deaths reported from the time period of January 22 to February 5 included an additional 6 deaths. Of these 6 deaths, 2 occurred in the vaccine group and 4 occurred in the placebo group. One of the cases in the placebo group and none in the vaccine group was related to COVID-19. In Brazil, 69.3% of cases have been sequenced, of which 69.4% were identified as variant of the P.2 lineage and 30.6% were identified as the Wuhan-H1 variant D614G. As of February 12, 2021, there were no sequenced cases from the B1.1.7 or P.1 lineages. Because strain sequencing of all COVID-19 cases in the study is incomplete at the time of this analysis, and due to selection bias involved in prioritizing the cases to be sequenced first (moderate to severe/critical cases, cases with onset at least 14 days after vaccination, samples with viral load >200 copies/mL), vaccine efficacy against specific SARS-CoV-2 variants cannot be evaluated at this time. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51286,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The data from the primary efficacy analysis, with a cutoff date of January 22, 2021, and median follow-up for efficacy of 2 months post-vaccination, met the prespecified success criteria established in the study protocol. Efficacy of the vaccine to prevent protocol-defined moderate to severe/critical COVID-19 occurring at least 14 days after vaccination was 66.9% (95% CI 59.0; 73.4), and 66.1% (95% CI 55.0; 74.8) for moderate to severe/critical COVID-19 occurring at least 28 days after vaccination, in participants without prior evidence of SARS-CoV-2 infection. Results for the secondary endpoint of vaccine efficacy against protocol-defined symptomatic COVID-19 of any severity (mild, moderate, or severe/critical) were similar to those of the primary endpoint of vaccine efficacy against moderate to severe/critical disease. For prevention of centrally confirmed, adjudicated severe/critical disease, vaccine efficacy (95% CI) was 76.7% (54.6, 89.1) with onset at least 14 days after vaccination and 85.4% (54.2, 96.9) with onset at least 28 days after vaccination. In a post hoc analysis of all COVID-19 related hospitalizations starting 14 days after vaccination, including non-centrally confirmed cases, there were 2 cases in the vaccine group (with no cases after 28 days) compared with 29 cases in the placebo group (with 16 cases after 28 days). The evaluation of vaccine efficacy against asymptomatic disease and its interpretation are limited at this time, since the measurements were performed in a small subset of participants. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 52832,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Efficacy estimates across demographic subgroups in supportive analyses of primary and secondary endpoints were generally consistent with the efficacy estimates in the overall study population, but the small numbers of participants and cases in certain subgroups (e.g., certain racial subgroups, individual comorbid conditions) limit the interpretability of subgroup-specific efficacy results. Neither age nor presence of comorbidities alone impacted the efficacy estimates for the primary endpoints of moderate to severe/critical COVID-19, with the exception of a lower efficacy estimate for COVID-19 with onset at least 28 days post-vaccination in participants with comorbidities compared to those without comorbidities ( Table 10 and Table  13 ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 53581,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The efficacy estimate for moderate to severe/critical COVID-19 with onset at least 28 days postvaccination was lower for the subgroup of participants ≥60 years of age with comorbidities than for younger participants and participants ≥60 years of age without comorbidities (Table 13) . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 53866,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Confidence intervals for efficacy estimates across subgroups generally overlapped, and efficacy estimates in participants ≥60 years of age with comorbidities increased as the number of cases included in the analysis increased (i.e., with inclusion of non-centrally confirmed cases and cases starting at 14 days post-vaccination), indicating that lower efficacy estimates in this subgroup potentially reflect imprecision associated with smaller numbers of cases. Efficacy estimates against centrally confirmed severe/critical COVID-19 were reduced in participants ≥60 years of age as compared to younger participants, but there was no meaningful reduction when cases not yet centrally confirmed were included in the analysis (Table 16 ). The two hospitalizations in vaccine recipients due to COVID-19 with onset at least 14 days postvaccination occurred in participants ≥60 years of age with comorbidities (as compared to 11 hospitalizations in placebo recipients ≥60 years of age with comorbidities). No vaccine recipients were hospitalized due to COVID-19 with onset at least 28 days post-vaccination. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 54969,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "To explore the possible impact of circulation of variant strains on vaccine efficacy, a subgroup analysis of vaccine efficacy against moderate to severe/critical and severe/critical COVID-19 was done for the United States, South Africa, and Brazil. There was a lower efficacy against moderate to severe/critical disease endpoints observed in South Africa [52.0% (95% CI 30.3, 67.4) and 64.0% (95% CI 41.2, 78.7) starting 14 days and 28 days after vaccination, respectively] compared to the United States (74.4% (65.0, 81.6) and 72.0% (58.2, 81.7) starting 14 days and 28 days after vaccination, respectively), but vaccine efficacy against severe/critical COVID-19 at the two timepoints were similarly high in all 3 countries. Strain sequencing of COVID-19 cases in the study to inform the vaccine efficacy analysis by region is ongoing. As of February 12, 2021, 71.7% of central laboratory confirmed primary analysis cases have been sequenced. In the U.S., 96.4% of the sequenced cases were identified as the SARS-CoV-2 Wuhan-H1 variant D614G. In South Africa, 94.5% of the sequenced cases were identified as 20H/501Y.V2 variant (B.1.351). In Brazil, 69.4% were identified as variant of the P.2 lineage and Janssen Ad26.COV2.S (COVID-19) Vaccine VRBPAC Briefing Document 30.6% were identified as the Wuhan-H1 variant D614G. As of February 12, 2021, there were no cases identified from B.1.1.7 or P1 lineages. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 56378,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The safety analyses presented in this review are derived from safety data available through the cutoff date of January 22, 2021. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 56507,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The protocol specified safety monitoring for the following: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 56567,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "• Solicited local and systemic reactions during the 7 days following vaccination in the safety subset (N=6,736) • Unsolicited AEs during the 28 days following vaccination in the safety subset • MAAEs during the 6 months following vaccination in the FAS (N=43,783) ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 56831,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "• SAEs and AEs leading to study discontinuation for the duration of the study in the FAS Overall, the proportions of participants with MAAEs, SAEs, and deaths were balanced between the vaccine and placebo groups. Rates of unsolicited AEs were also balanced across treatment groups; however, a greater percentage of participants in the vaccine group had unsolicited AEs considered to be related to the study product. As compared to the placebo group, a greater percentage of participants in the vaccine group experienced local and systemic solicited ARs. Rates of ARs were lower in participants ≥60 years of age compared to participants 18 to 59 years of age. The table below summarizes rates of AEs by treatment group and age group. The following issues were identified during the safety review: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 57627,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "1. Several reports of solicited reactions and non-serious, unsolicited adverse events were omitted from the analyses due to incorrectly coded start dates. However, the omissions did not have a major impact on the estimated event rates (0% to 0.3% of the safety subset of the respective treatment group) and thus did not impact the safety conclusions. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 57978,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "2. Discrepancies were identified between the number of solicited reactions reported by participants in source documents and the number of events reported by the investigator and included in the datasets upon which the safety analyses were based. In response to an FDA information request, the Sponsor conducted queries of potential missing clinical event data for 210 subjects, of which 40% of the queried events were determined to not meet reporting criteria (e.g., participants who did not experience any solicited symptom during the planned 7-day evaluation period or those who experienced an event with toxicity \n",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 58595,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Other than 44 open queries, the remaining queries resulted in corrected reporting of previously missing clinical event data to the relevant datasets that will be included in final safety analyses with the submission of the licensure application. However, based on FDA evaluation of the impacted data, and the fact that these participants represent a small proportion of the safety subset, the corrected solicited ARs are expected to have a minor impact on the rates submitted by the Sponsor in its EUA request. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 59106,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Solicited local and systemic ARs with onset within 7 days after vaccination were assessed across groups and are presented in the tables below stratified by age (18 to 59 years; ≥60 years) for participants in the safety subset (N=6,736). Solicited ARs were recorded daily by study participants using eDiaries and included the assessment of local injection site reactions (pain, erythema and swelling) and systemic reactions (fatigue, headache, myalgia, nausea and fever). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 59577,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Solicited local ARs were reported at higher rates in vaccine recipients than placebo recipients. The proportions of participants reporting any local AR were 50.2% and 19.4% in vaccine and placebo groups, respectively. The proportions reporting at least one grade 3 local AR were 0.7% and 0.2% in vaccine and placebo groups, respectively. There were no reports of grade 4 local reactions in either group. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 59981,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The most frequently reported local AR was injection site pain, reported by 48.6% of vaccine recipients and 16.7% of placebo recipients. Grade 3 pain was reported in 0.3% of vaccine recipients and <0.1% of placebo recipients. Erythema (vaccine versus placebo: 7.3% versus 3.9%) and swelling (5.3% versus 1.6%) were reported less frequently. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 60321,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "All local ARs were reported more frequently among younger (18-59 years) than older (≥60 years) participants. Among participants in the vaccine group, injection site pain was reported in 58.6% of 18-59-year-olds and 33.3% of ≥60-year-olds. Erythema and swelling were similarly reported at higher rates among younger than older participants in the vaccine group (Table 24) . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 60694,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Among participants in the vaccine group, the overall rate of local ARs was similar between those who were seronegative for SARS-CoV-2 at baseline (n=3,202) and those who were seropositive at baseline (n=154): 50.0% versus 53.9%. Rates for local ARs by baseline serostatus were as follows (seronegative vs. seropositive): injection site pain 48.4% vs. 53.2%; swelling 5.2% vs. 6.5%; erythema 7.4% vs. 4.5%. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 61100,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The table below provides rates of local ARs by treatment group and age group. Table TSFAESOLLOC27 a Safety subset: Subset of Full-Analysis Set for analysis of solicited and unsolicited AEs n = number of participants with specified reaction N = number of exposed participants who submitted any data for the event, percentages are based on n/N. b Pain-Grade 3: any use of Rx pain reliever/prevents daily activity; c Erythema and Swelling/Induration-Grade 3: >100mm; Note: No grade 4 solicited local adverse reactions were reported. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 61630,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The median time to onset of local ARs was within 2 days of vaccination, and the median duration was 2 days for erythema and pain and 3 days for swelling. Pain was reported to last greater than 7 days in 2.3% of participants in the vaccine group and 2.1% of participants in the Janssen Ad26.COV2.S (COVID-19) Vaccine VRBPAC Briefing Document placebo group. Among participants in the vaccine group, erythema and swelling had a duration >7 days in 0.8% and 0.5% of participants, respectively. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 62120,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The table below provides time to onset and duration of local ARs by treatment group. Table TSFAESOLLOC25 a Safety subset: Subset of Full-Analysis Set for analysis of solicited and unsolicited AEs n = number of participants with specified reaction N = number of exposed participants who submitted any data for the event, percentages are based on n/N. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 62470,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Solicited systemic ARs were reported at higher rates in vaccine than placebo recipients. The proportions of participants reporting any systemic ARs were 55.1% in the vaccine group and 35.1% in the placebo group. The proportions reporting at least one grade 3 systemic AR were 1.8% in the vaccine group and 0.6% in the placebo group. There were no reports of grade 4 systemic reactions in either group. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 62872,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The most frequently reported systemic ARs were headache (vaccine versus placebo: 38.9% versus 23.7%) and fatigue (38.2% versus 21.5%). Rates of other systemic ARs in the vaccine versus placebo groups were as follows: myalgia (33.2% versus 12.7%); nausea (14.2% versus 9.7%); and fever (9.0% versus 0.6%). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 63177,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Grade 3 systemic ARs were reported infrequently. The most frequently reported grade 3 systemic ARs were fatigue and myalgia, reported in 1.0% vs 0.3% and 1.0% vs. 0.2% of vaccine recipients and placebo recipients, respectively. Grade 3 fever (102.1-104°F) was reported in 0.2% of vaccine recipients and no placebo recipients. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 63503,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Among participants in the vaccine group, all systemic ARs were reported more frequently among younger (18-59 years) than older (≥60 years) participants, although nausea was reported at more similar rates: 15.5% in participants 18-59 years and 12.3% in participants ≥60 years. Among vaccine group participants, rates of other systemic ARs by age group were as follows (18-59 and ≥60 years): headache (44.4% and 30.4); fatigue (43.8% and 29.7%); myalgia (39.1% and 24.0%); fever (12.8% and 3.1%). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 63998,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Janssen Ad26.COV2.S (COVID-19) Vaccine VRBPAC Briefing Document A higher percentage of participants in the vaccine group used antipyretics/analgesics in the 7 days following vaccination compared to participants the placebo group; 19.9% versus 5.7%. This was primarily driven by participants 18-59 years old. Among participants in the vaccine group, 26.4% of those 18-59 years used antipyretics/analgesics compared to 9.8% of those ≥60 years old. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 64444,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The overall rate of systemic ARs was similar in vaccine recipients who were seronegative for SARS-CoV-2 at baseline (n=3,202) and those who were seropositive at baseline (n=154): 55.4% versus 50.0%. Rates for systemic ARs by baseline serostatus were as follows (seronegative vs. Among participants in the vaccine group, the median time to onset of all solicited systemic ARs was within 2 days of vaccination. Median durations of systemic reactions in vaccine group participants were as follows: 2 days for fatigue, headache, and myalgia and 1 day for nausea and fever. Systemic reactions with a duration longer than 7 days were reported in vaccinated participants for all systemic ARs with the exception of fever. Percentages of vaccine group participants reporting systemic ARs with duration longer than 7 days were as follows: fatigue 1.6%, myalgia 1.1%, headache 0.7%, nausea 0.3%. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 65329,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The table below provides time to onset and duration of systemic ARs by treatment group. 1.0 (1, 7) 1.0 (1, 3) >7 days duration 0 0 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 65460,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Source: Sponsor Table TSFAESOLSYS25 a Safety subset: Subset of Full-Analysis Set for analysis of solicited and unsolicited AEs n = number of participants with specified reaction N = number of exposed participants who submitted any data for the event, percentages are based on n/N. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 65741,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Through the January 22, 2021 data cutoff, 54.6% of participants in the FAS (N=43,783) had at least 2 months of follow-up. The median duration of follow-up post-vaccination for all participants was 58 days. In the safety subset (N=6,736), 99.9% of participants completed the study through Day 28. The following unsolicited AEs were specified in the protocol: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 66099,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "• Unsolicited AEs during the 28 days following vaccination in the safety subset • MAAEs during the 6 months following vaccination in the FAS • SAEs for the duration of the study in the FAS • AEs leading to discontinuation from study participation in the FAS Additional unsolicited AEs collected from the spontaneous reports were also analyzed in the FAS. Determination of severity for all unsolicited AE were made by investigator assessment based on definitions of severity as grades 1 through 4 (mild to potentially life threatening). Causal relationship to study vaccine was determined by study investigator and classified as \"related\" or \"not related.\" ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 66755,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "AEs associated with molecularly confirmed SARS-CoV-2 infection were not included in the analysis of AEs. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 66860,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The table below shows rates of unsolicited AEs in the safety subset that occurred within 28 days of vaccination and at rates of ≥1% in the vaccine group. The proportions of participants with Janssen Ad26.COV2.S (COVID-19) Vaccine VRBPAC Briefing Document unsolicited AE were 13.1% and 12.0% in the vaccine and placebo groups, respectively. Overall, rates of unsolicited adverse events, including events grade 3 or higher, were similar between the treatment groups. Tables TSFAEUNSOL02_D & TSFAEUNSOL03_D a safety subset: Subset of Full-Analysis Set for analysis of solicited and unsolicited AEs n = # of participants with specified reaction N = number of exposed participants who submitted any data for the event, percentages are based on n/N. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 67604,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Unsolicited AEs considered related by the investigator to study vaccination were reported by 7.2% of vaccine recipients and 4.6% of placebo recipients. The proportions of participants who reported grade 3 or higher unsolicited AEs were 0.6% following vaccine (19 participants) and 0.5% following placebo (18 participants). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 67927,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "FDA conducted both broad and narrow Standardized MedDRA Queries (SMQs) using FDAdeveloped software to evaluate unsolicited adverse events of clinical interest by searching preferred terms (PTs) that could together represent various conditions, including but not limited to allergic, neurologic, inflammatory, vascular, and autoimmune disorders. Narrow searches were done to identify cases highly likely to be the condition of interest whereas broad searches were done to identify all possible cases. Ten SMQs (broad and narrow combined) were conducted on AEs reported through the data cutoff date (requiring 2 months median follow-up following vaccination) and included events that occurred in the FAS (N=43,783). AEs in the FAS were collected through protocol specified collection methods as well as spontaneous reporting by study participants. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 68773,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "SMQs and associated PTs for which adverse events were reported at higher rates in vaccine recipients compared to placebo recipients are discussed below. For the additional SMQs, rates were comparable between vaccine and placebo recipients. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 69013,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The SMQ for \"embolic and thrombotic events\" in the FAS demonstrated a slight numerical imbalance; data through the cutoff date includes reports of such events among 0.06% of vaccine recipients (15 events in 14 participants) compared to 0.05% of placebo recipients (10 events in 10 participants). By PT, deep vein thrombosis (including PTs for \"deep vein thrombosis,\" \"venous thrombosis limb\" and \"embolism venous\") was reported in 6 vaccine recipients (5 events within 28 days of vaccination) and 2 placebo recipients (2 events within 28 days of vaccination). Pulmonary embolism was reported in 4 vaccine recipients (2 events within 28 days of vaccination) and 1 placebo recipient (1 event within 28 days of vaccination). Cerebrovascular events (including PTs \"cerebral infarction\", \"transverse sinus thrombosis\", \"hemiparesis\", \"cerebrovascular accident\", \"carotid artery occlusion\" and \"ischemic stroke\") were reported in 3 vaccine recipients (4 events, 3 events within 28 days of vaccination) and 3 placebo recipients (3 events within 28 days of vaccination). Myocardial infarction was reported in 1 vaccine recipient (1 event within 28 days of vaccination) and 3 placebo recipients (2 events within 28 days of vaccination). One placebo recipient reported thrombosed hemorrhoids within 28 days of vaccination. Table 29 summarizes thromboembolic events in both vaccine and placebo recipients including investigator assessment of grade, seriousness and causality. • A 52-year-old male with obesity (body mass index: 32.4 kg/m 2 ) experienced a deep vein thrombosis (DVT) on Day 27 following vaccination. The participant experienced calf pain following physical activity on Day 13. An ultrasound on Day 27 demonstrated a DVT in a vein of the left calf. The event was considered non-serious by the investigator and related to the study product. The Sponsor considered the event not related to the study product. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 70924,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "• A 63-year-old male with type 2 diabetes, hypertension and osteoarthritis experienced a DVT on Day 23 following vaccination. The event was considered non-serious and not related to the study product by the investigator. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 71145,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "• A 49-year-old female with no past medical history and medication use including medroxyprogesterone experienced hemiparesis on Day 28 following vaccination. The event was considered serious by the investigator. No laboratory or imaging results were reported. The event was unresolved and ongoing on Day 51. The event was not considered related to the study product by the investigator or the Sponsor. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 71547,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Assessment of the cases above is confounded by the presence of risk factors in the individual participants. Nevertheless, given the numerical imbalance between vaccine and placebo recipients and temporal relationship, vaccine cannot be excluded as a contributing factor. As such, data at this time are insufficient to determine if there a causal relationship between the vaccine and thromboembolic events. FDA will recommend surveillance for further evaluation of thromboembolic events with deployment of the vaccine into larger populations. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 72089,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The SMQ for \"convulsions\" in the FAS demonstrated a numerical imbalance, with single events in 4 vaccine recipients and 1 event in a placebo recipient. All of the convulsion events reported by the vaccine recipients occurred within 28 days of vaccination. Two events in the vaccine groups were considered serious. Of the two serious events, one event was discussed above and occurred secondary to a cerebral hemorrhage in a participant with a transverse sinus thrombosis. The other serious event and one of the non-serious events occurred in participants with a history of seizures. FDA's assessment is that these events are unlikely related to the study vaccine. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 72753,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The SMQ for \"hearing and vestibular disorders\" included the PT \"tinnitus\" for which was a numerical imbalance was observed across treatment groups. Tinnitus was reported in 6 vaccine recipients ( In FDA's opinion following review of narratives, the following 3 SAEs in the vaccine group are considered likely related to the study vaccine: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 73092,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "• A 42-year-old male with no personal or family history of allergic reactions experienced diffuse urticaria beginning on Day 3 following vaccination accompanied with systemic symptoms of fatigue, myalgia and arthralgia. Over the following two days the urticaria progressed, and the participant experienced angioedema of the lips as well as the sensation of itchy and tight throat, but no hypoxia or respiratory distress. The event did not meet Brighton Criteria for anaphylaxis. FDA's assessment is that this event was likely a hypersensitivity reaction to the study vaccine. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 73668,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "• A 30-year-old male was reported to have \"brachial neuritis following vaccination\" (PT: \"radiculitis brachial\") with pain at the site of vaccine administration on Day 1 which persisted and worsened over several days and was unresponsive to non-prescription analgesics. Evaluation included electroconductive studies, which revealed intact nerves with no denervation of the evaluated muscles, and MRI of the cervical spine, which did not reveal an etiology of the participant's symptoms. FDA's assessment of this event is that the pain at injection site is likely related to vaccination, however the diagnosis of brachial neuritis is unlikely given the findings on electroconductive studies. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 74359,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "• A 35-year-old male experienced generalized malaise, weakness, myalgia, shortness of breath, headache, sensation of numbness and tingling in upper extremities, chest pain and fever beginning on Day 2 following vaccination. The participant was hospitalized for exacerbated generalized weakness. Abnormal vital signs included fever (39.4°C), blood pressure (129/103 mmHg), heart rate (112bpm) and respiratory rate (19 breaths per minute). There was no hypoxia. On exam he complained of diffuse tenderness in the extremities. No abnormalities were noted on neurologic exam which included normal reflexes. Abnormal laboratory findings included a mild elevation of creatine kinase attributed to mild myositis. Laboratory testing was negative for COVID-19, influenza and RSV. Symptoms resolved by Day 4. FDA's assessment of this event is that it is likely systemic reactogenicity related to the study vaccine. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 75264,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "For the SAE of pericarditis, as no alternative etiology was determined, FDA's assessment is that the possibility that the vaccine contributed to the event cannot be excluded. Review of Janssen's safety database including all Ad26-based vaccines did not reveal any additional reports of pericarditis. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 75564,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Reports of facial paralysis (Bell's Palsy) were overall balanced between vaccine and placebo recipients (2 vaccine, 2 placebo). In addition to the 2 SAEs of facial paralysis presented in Table  31 above, a third event in a 54-year-old vaccine recipient occurred on Day 19, described as facial swelling and \"droopiness\" with no facial asymmetry and intact cranial nerves II-XII. This event was not considered related by the investigator. In FDA's assessment, description of this event is not consistent with facial paralysis. Two events of facial paralysis were reported in placebo recipients on Days 2 and 29. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 76174,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "There were single reports of Guillain-Barre Syndrome (GBS) in a 60-year-old vaccine recipient and a 75-year-old placebo recipient occurring on Days 16 and 10, respectively. The event in the vaccine group was preceded by symptoms of chills, nausea, diarrhea and myalgia. In FDA's assessment the events of facial paralysis and GBS are unlikely related to study vaccine but a causal relationship cannot be definitively excluded. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 76600,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "With the exception of more frequent, generally mild to moderate reactogenicity in participants 18-59 years of age, there were no specific safety concerns identified in subgroup analyses by age, race, ethnicity, medical comorbidities, or prior SARS-CoV-2 infection. Occurrence of solicited, unsolicited, and serious adverse events in these subgroups were generally consistent with the overall study population. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 77010,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Study participants of childbearing potential were screened for pregnancy prior to vaccination. Participants were excluded if they were pregnant or planned to become pregnant within 3 months of vaccine administration. The study is collecting outcomes for all reported pregnancies in study participants. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 77312,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Eight pregnancies were reported through January 22, 2021 (4 vaccine, 4 placebo). In 7 participants (3 vaccine, 4 placebo) vaccination was within 30 days after last menstrual period (LMP) and in 1 vaccine recipient vaccination was prior to LMP. Unsolicited AEs related to pregnancy include spontaneous abortion (1 vaccine, 0 placebo), incomplete abortion (0 vaccine, 1 placebo), elective abortion (0 vaccine, 2 placebo) and ectopic pregnancy (1 vaccine, 0 placebo). Among participants in the vaccine group, two pregnancies are ongoing with outcomes unknown at this time. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 77882,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "A combined developmental and perinatal/postnatal reproductive toxicity study of Ad26.COV2.S in rabbits was submitted to FDA on January 19, 2021. FDA review of this study concluded that Ad26.COV.S given prior to mating and during gestation periods at dose of 1x10 11 vp (2 times the human dose) did not have any adverse effects on female reproduction, fetal/embryonal development, or postnatal development. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 78288,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The information provided by the Sponsor was adequate for review and to make conclusions about the safety of the Ad26.COV2.S vaccine in the context of the proposed indication and population for intended use under EUA. The number of participants in the Phase 3 safety population (N=43,783; 21,895 vaccine, 21,888 placebo) meets the expectations for efficacy in FDA's guidance for industry Development and Licensure of Vaccines to Prevent COVID-19 (June 2020). A subset of participants (N=6,736) was followed for solicited reactions within 7 days following vaccination and unsolicited reactions within 28 days following vaccination. The demographic and baseline characteristics of the all-enrolled population and the safety subset were similar with respect to age and sex but had imbalances with respect to race, baseline comorbidities, SARS-CoV-2 serostatus and geographic distribution. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 79173,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Local site reactions and systemic solicited events among vaccine recipients were frequent and mostly mild to moderate. The most common solicited adverse reactions were injection site pain (48.6%), headache (38.9%), fatigue (38.2%) and myalgia (33.2%); 0.7% and 1.8% of local and systemic solicited adverse reactions, respectively, were reported as grade 3. Overall, solicited reactions were reported more commonly in younger participants. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 79612,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "There were no meaningful imbalances in unsolicited adverse events in 28 days following vaccination between vaccine and placebo recipients in the safety subset. Among all adverse events collected through the data cutoff of January 22, 2021, a numerical imbalance was seen in urticaria events reported in the vaccine group (n=5) compared to placebo group (n=1) within 7 days of vaccination which is possibly related to the vaccine. Numerical imbalances were reported between vaccine and placebo recipients for thromboembolic events (15 versus 10) and tinnitus (6 versus 0). Based on currently available information, a contributory effect of the vaccine could not be excluded, although the imbalance was small (representing a difference of 0.06% of vaccine recipients vs. 0.05% of placebo recipients), and many of the participants had predisposing conditions. FDA will recommend surveillance for further evaluation of thromboembolic events with deployment of the vaccine into larger populations. There were no other notable patterns or numerical imbalances between treatment groups for specific categories of adverse events that would suggest a causal relationship to Ad26.COV2.S. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 80790,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "As of February 5, 2021, a total of 25 deaths were reported in the study (5 vaccine, 20 placebo). These deaths represent events and rates that occur in the general population of individuals in these age groups and include 7 deaths in the placebo group due to COVID-19 infection. Nonfatal serious adverse events, excluding those due to COVID-19, were infrequent and balanced between treatment groups with respect to rates and types of events (0.4% in both groups). A serious event of a hypersensitivity reaction, not classified as anaphylaxis, beginning 2 days following vaccination was likely related to receipt of the vaccine. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 81417,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "In the event that the Ad26.COV2.S vaccine receives FDA authorization for emergency use, the Sponsor proposes to submit a protocol amendment to Study 3001 that would allow all participants who received placebo to receive the vaccine (Figure 2 ). This would effectively result in unblinding of participants and investigators. However, participants who crossover from placebo will be encouraged to remain in the study up to 2 years after vaccination so that they may be followed for efficacy/effectiveness, safety, and immunogenicity. The Sponsor anticipates that open-label crossover vaccination would also be offered to placebo recipients in the ongoing Phase 1 and 2 studies. Janssen also proposes offering a single dose of Ad26.COV2.S to enrolled participants who initially received two doses of placebo in study COV3009. Because the study is expected to still be enrolling, participants who received a first dose of placebo will receive a dose of Ad26.COV2.S as their second dose and participants yet to be enrolled will be randomized to either a single-dose or a two-dose schedule of Ad26.COV2.S. Crossover vaccination would be made available to U.S. participants as soon as operationally feasible following the issuance of an EUA. Study investigators will be encouraged to consider current local public health guidance for determining the scheduling priority of participants. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 82797,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The vaccination regimen was effective in preventing PCR-confirmed COVID-19 occurring at least 14 days after receipt of the vaccine. The vaccine was effective in preventing COVID-19 using a less restrictive definition of the disease and for more severe disease, including COVID-19 requiring medical intervention, considering all cases starting 14 days after vaccination. Efficacy findings were also generally consistent across evaluable subgroups, including by age, race, ethnicity, and risk for severe COVID-19. Although VE estimates appeared to be lower in the subgroup of participants 60 years of age and older with comorbidities, an increase in VE estimates and narrowing of the CI was observed with inclusion of more cases (i.e., starting at 14 days post-vaccination and cases not yet centrally confirmed), indicating that the results seen potentially reflect imprecision associated with smaller numbers of cases. Additionally, case splits for COVID-19 requiring medical attention among participants 60 years of age and older with comorbidities further support benefit of the vaccine in this subgroup. Although a lower efficacy overall was observed in South Africa, where there was a predominance of B.1.3.5 lineage during the time period of this study, vaccine efficacy against severe/critical COVID-19 was similarly high across the United States, South Africa, and Brazil. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 84176,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The vaccine is administered as a single dose, which provides operational benefits to mass vaccination campaigns. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 84289,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "As the analyses have a limited length of follow-up, it is not possible to assess sustained efficacy over a period longer than 2 months. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 84425,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Although the proportion of participants at high risk of severe COVID-19 is adequate for the overall evaluation of safety in the available follow-up period, the subsets of certain groups such as immunocompromised individuals (e.g., those with HIV/AIDS) are too small to evaluate efficacy outcomes. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 84722,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Limited data suggest that individuals with prior SARS-CoV-2 infection can be at risk of COVID-19 (i.e., re-infection) and may benefit from vaccination. Regarding the benefit of the Ad26.COV2.S for individuals with prior infection with SARS-CoV2, there were limited cases of COVID-19 among study participants with positive SARS-COV-2 infection status at baseline. The study was not designed to assess the benefit in individuals with prior SARS-CoV-2 infection. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 85182,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "No efficacy data are available from participants ages 17 years and younger. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 85258,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The study enrollment and follow-up occurred during the period of September 21, 2020 to January 22, 2021, in sites across the United States, South Africa, and 6 countries in Latin America, which was a setting of high disease incidence with several regionally circulating SARS-CoV-2 variants. The evolution of the pandemic characteristics, including potential changes in the virus infectivity, antigenically significant mutations to the S protein, and/or the effect of co-infections may potentially limit the generalizability of the efficacy conclusions over time. Continued evaluation of vaccine effectiveness following issuance of an EUA and/or licensure will be critical to address these uncertainties. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 85962,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Available Day 71 N-serology data from a small subset of participants in the study, with infrequent evaluations of serological and virological measurements, are limited to assess the effect of the vaccine in preventing asymptomatic infection. There is uncertainty about the interpretation of these data and definitive conclusions cannot be drawn at this time. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 86321,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Additional evaluations will be needed to assess the effect of the vaccine in preventing asymptomatic infection, including data from clinical trials and from the vaccine's use postauthorization and including additional data to support the sensitivity of serologic and virologic surveillance methods. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 86620,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "COVID-19 disease may have long-term effects on certain organs, and at present it is not possible to assess whether the vaccine will have an impact on specific long-term sequelae of COVID-19 disease in individuals who are infected despite vaccination. Demonstrated high efficacy against symptomatic COVID-19 should translate to overall prevention of COVID-19related sequelae in vaccinated populations, though it is possible that asymptomatic infections may not be prevented as effectively as symptomatic infections and may be associated with sequelae that are either late-onset or undetected at the time of infection (e.g., myocarditis). Additional evaluations will be needed to assess the effect of the vaccine in preventing long-term effects of COVID-19, including data from clinical trials and from the vaccine's use postauthorization. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 87458,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "A larger number of individuals at high risk of COVID-19 and higher attack rates would be needed to confirm efficacy of the vaccine against mortality. However, non-COVID vaccines (e.g., influenza) that are efficacious against disease have also been shown to prevent diseaseassociated death. [8] [9] [10] [11] Benefits in preventing death should be evaluated in large observational studies following authorization. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 87871,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Data are limited to assess the effect of the vaccine against transmission of SARS-CoV-2 from individuals who are infected despite vaccination. Demonstrated high efficacy against symptomatic COVID-19 may translate to overall prevention of transmission in populations with high enough vaccine uptake, though it is possible that if efficacy against asymptomatic infection were lower than efficacy against symptomatic infection, asymptomatic cases in combination with reduced mask-wearing and social distancing could result in significant continued transmission. Additional evaluations including data from clinical trials and from vaccine use post-authorization will be needed to assess the effect of the vaccine in preventing virus shedding and transmission, in particular in individuals with asymptomatic infection. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 88685,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "The vaccine elicited increased local and systemic adverse reactions as compared to those in the placebo arm, usually lasting 1 to 2 days. The most common solicited adverse reactions were injection site pain (48.6%), headache (38.9%), fatigue (38.2%) and myalgia (33.2%). Adverse reactions characterized as reactogenicity were generally mild to moderate; 0.7% and 1.8% of local and systemic solicited adverse reactions, respectively, were reported as grade 3. Overall, solicited reactions were reported more commonly in younger participants. Among all adverse events collected through the data cutoff of January 22, 2021, a numerical imbalance was seen in urticaria events reported in the vaccine group (n=5) compared to placebo group (n=1) within 7 days of vaccination with is possible related to vaccination. Numerical imbalances were also observed between vaccine and placebo recipients for thromboembolic events (15 versus 10) and tinnitus (6 versus 0), with many of the participants experiencing these events having predisposing risk factors. Data at this time are insufficient to determine a causal relationship between these events and the vaccine. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 89840,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Serious adverse events, while uncommon (0.4% in both treatment groups), represented medical events that occur in the general population at similar frequency as observed in the study. Of the 7 SAEs that occurred in the vaccine group, FDA considered 3 as related: hypersensitivity reaction, not classified as anaphylaxis (n=1), severe and persistent injection site pain (n=1), and severe systemic reactogenicity (n=1). For the serious adverse events of pericarditis, facial paralysis and GBS, data are insufficient to determine a causal relationship to vaccination. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 90404,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "No specific safety concerns were identified in subgroup analyses by age, race, ethnicity, medical comorbidities, or prior SARS-CoV-2 infection. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 90548,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "There are currently insufficient data to make conclusions about the safety of the vaccine in subpopulations such as children less than 18 years of age, pregnant and lactating individuals and their infants, and immunocompromised individuals. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 90789,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "FDA review of a combined developmental and perinatal/postnatal reproductive toxicity study of Ad26.COV2.S in female rabbits concluded that Ad26.COV2.S given prior to mating and during gestation periods at dose of 1x10 11 vp (2 times human dose) did not have any effects on female reproduction, fetal/embryonal development, or postnatal development. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 91138,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Adverse reactions that are very uncommon or that require longer follow-up to be detected ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 91227,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Following authorization of the vaccine, use in large numbers of individuals may reveal additional, potentially less frequent and/or more serious adverse events not detected in the trial population of approximately 20,000 vaccine recipients over the period of follow-up at this time. Active and passive safety surveillance will continue during the post-authorization period to detect new safety signals. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 91630,
+          "infons": {
+            "section_title_1": "1. Executive Summary "
+          },
+          "text": "Available data do not indicate a risk of vaccine-enhanced disease, and conversely suggest effectiveness against severe disease within the available follow-up period. However, risk of vaccine-enhanced disease over time, potentially associated with waning immunity, remains unknown and needs to be evaluated further in ongoing clinical trials and in observational studies that could be conducted following authorization and/or licensure. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

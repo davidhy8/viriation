@@ -1,0 +1,38 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1038_s41564-021-01053-0",
+      "inputfile": "../../data/processed/html_papers/10-1038_s41564-021-01053-0.html",
+      "passages": [
+        {
+          "text_short": "OLIS",
+          "text_long_1": "Ontario Laboratories Information System",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RT-PCR",
+          "text_long_1": "reverse transcription polymerase chain reaction",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CCM",
+          "text_long_1": "Contact Management system",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RPDB",
+          "text_long_1": "Registered Persons Database",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CIs",
+          "text_long_1": "confidence intervals",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

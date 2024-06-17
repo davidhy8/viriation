@@ -1,0 +1,28 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-04-19-440414",
+      "inputfile": "../../data/processed/html/10-1101_2021-04-19-440414.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Low dose inocula of SARS-CoV-2 B.1.1.7 variant initiate more robust infections in the upper respiratory tract of hamsters than earlier D614G variants",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

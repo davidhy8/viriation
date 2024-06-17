@@ -1,0 +1,58 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1093_infdis_jiab171",
+      "inputfile": "../../data/processed/html_papers/10-1093_infdis_jiab171.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MMAD",
+          "text_long_1": "mass median aerodynamic diameter",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "APS",
+          "text_long_1": "aerodynamic particle sizer",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "sRTLF",
+          "text_long_1": "simulated respiratory tract lining fluid",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "TNE",
+          "text_long_1": "Tris-NaCl-EDTA",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ANOVA",
+          "text_long_1": "analysis of variance",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "TFF",
+          "text_long_1": "tangential flow filtration",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RH",
+          "text_long_1": "relative humidity",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "coronavirus disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

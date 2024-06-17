@@ -1,0 +1,168 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "virological-org_t_emergence-of-y453f-and-69-70hv-mutations-in-a-lymphoma-patient-with-long-term-covid-19_580",
+      "inputfile": "../../data/processed/html/html_other/virological-org_t_emergence-of-y453f-and-69-70hv-mutations-in-a-lymphoma-patient-with-long-term-covid-19_580.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Emergence of Y453F and Δ69-70HV mutations in a lymphoma patient with long-term COVID-19",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 87,
+          "infons": {
+            "section_title_1": "Skip To Main Content "
+          },
+          "text": " We report a genomic analysis of SARS-CoV-2 from a lymphoma patient with long-term COVID-19. This genome is characterized by an independent gain of 18 new mutations over more than 4 months of the disease. These include the S:Y453F and Δ69-70HV mutations (\"the ΔF combination\") which have formerly been associated with mink-related clusters. Both of these mutations are found at intermediate frequencies in the patient, representing a case of intrahost polymorphism. Phylogenetic analysis indicates that the patient's lineage is not related to the mink cluster, indicating that these mutations were gained anew. Independent acquisition of an identical pair of mutations in a mink and a lymphoma patient, and between multiple immunosuppressed patients, suggests concordant changes in selection.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 900,
+          "infons": {
+            "section_title_1": "Skip To Main Content "
+          },
+          "text": "Persistently positive PCR test for SARS-CoV-2 occurs in a fraction of COVID-19 patients, and is usually associated with suppressed host immune system . In these individuals, SARS-CoV-2 seems to undergo rapid accumulation of mutations, as evidenced by long phylogenetic branches . The question remains to what extent persistent RNA positivity can drive adaptive evolution of SARS-CoV-2 at population level . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1307,
+          "infons": {
+            "section_title_1": "Skip To Main Content "
+          },
+          "text": "Spread of SARS-CoV-2 in minks caused global concern, leading to culling of millions of minks in Denmark. Reasons for alarm included recurrent transmission into minks, rapid spread of the virus in minks, detection of a mink-specific set of mutations at functionally important sites, some of which caused immune escape and/or affected ACE2 binding, and transmission back to humans . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1688,
+          "infons": {
+            "section_title_1": "Skip To Main Content "
+          },
+          "text": "The spillover of SARS-CoV-2 into mink populations has been associated with recurrent acquisition of a number of mutations in the spike protein, which were preserved in subsequent mink-to-human transmission. While a total of 5 mink-associated mutations were identified, a combination of just two of them, Δ69-70HV + Y453F (a.k.a. ΔF), is responsible for the majority of positive samples . The ΔF combination confers ability to rapidly replicate to high titers and to potentially evade recognition by neutralizing antibodies , raising concerns that these mutations may affect vaccine efficiency. Y453F affects the receptor-binding domain (RBD), possibly increasing hACE2 binding . It allows immune escape from monoclonal antibodies and polyclonal sera ; in particular, it has led to 57% escape from the REGN10933 monoclonal antibody, a component of FDA-approved Regeneron's REGN-COV2 cocktail for treatment of COVID-19 patients, although it did not allow escape from the full cocktail of two antibodies (REGN10933+REGN10987) . Δ69-70HV has arisen repeatedly , and is involved in evasion of neutralizing antibodies . The ΔF combination of mutations has arisen in parallel in multiple mink populations; among humans, it was mainly found in cases traceable to minks, indicating reverse transmission . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2984,
+          "infons": {
+            "section_title_1": "Skip To Main Content "
+          },
+          "text": "Here, we report a case of a lymphoma patient with a long-term COVID-19, with positive PCR tests spanning a period of over 4 months. We show that she has acquired 18 mutations de novo, including the ΔF combination. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3198,
+          "infons": {
+            "section_title_1": "Skip To Main Content "
+          },
+          "text": "Detailed case history will be presented elsewhere. In brief, patient S, female, aged 47, diagnosed with non-Hodgkin diffuse B-cell lymphoma IV stage B, was admitted to the hospital for planned chemotherapy on March 27 and was discharged on April 17, 2020. In the period between April 5 -April 8, she received chemotherapy with monoclonal antibody rituximab, R-ICE regimen. Between April 10 and April 16, she had close contacts with an elderly woman, patient A, who was transferred to her ward and later was tested positive by PCR for COVID-19 (the swab was taken on April 10). Patient A later Skip to main content died of COVID-19 pneumonia; paraffin blocks with post-mortem material from her were subsequently analyzed for SARS-CoV-2 by PCR, followed by RNA extraction and sequencing. On April 17, 2020, patient S was discharged from the hospital. On April 30, a nasopharyngeal swab for SARS-CoV-2 performed by an outpatient doctor was positive. By that time, the patient had an onset of COVID-19 symptoms (subfebrile temperature). That original sample was discarded directly after testing and was not available for sequencing. The PANGOLIN package assigns the sample of patient S to the B.1.1.163 lineage on the basis of the A12886G mutation. Although this lineage is predominantly composed of Russian samples, this placement is inconsistent with the phylogenetic position of the patient A sample, which roots the patient S sample at the base of the B.1.1 lineage. Such discrepancy can be explained by the presence of private mutations in the patient S sample which support conflicting positions of the sample within the B.1.1 lineage (Fig. S1 ). In any case, patient S cannot be placed into the cluster 5 clade because cluster 5 is separated from B.1.1 by two additional mutations (those at positions 15656 and 25936) which are absent in patient S (Fig.  S1 ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5062,
+          "infons": {
+            "section_title_1": "Skip To Main Content "
+          },
+          "text": "Among the 18 lineage-specific patient S mutations, 3 are deletions, including S:Δ69-70HV. Another observed deletion is S:Δ141-144; the same deletion has also originated previously in another immunocompomised patient1. The remaining 15 changes are single-Skip to main content nucleotide mutations; of them, 10 are missense (amino acidchanging), 1 is nonsense (stop codon-creating) ( Table 1) , and the remaining 4 are silent (amino acid-preserving). The estimated ratio of the number of nonsynonymous and synonymous substitutions for this branch is 0.99; this is higher than the mean across all external lineages leading to samples of the B.1.1 clade (mean = 0.57, median = 0.55), although the difference is not significant (p = 0.1). Among the 15 nonsynonymous mutations, 5 (33.3%) occur in the spike protein which accounts for 13% of the genome, and two (13%), Y453F and T470N, occur in the RBD which accounts for 2% of the genome. The observed nonsense mutation occurred in codon 18 To validate the phylogenetic position of patient S samples, we sequenced two additional samples from the relapse, dating to 17.08 and 20.08. The three samples from the two timepoints matched at all SNPs that were called in the consensus sequence, and carried within-patient polymorphism at the same positions (Fig. 2 ). The changes in the lineage leading to the patient include the ΔF combination. A closer examination indicates that these mutations were polymorphic within the samples from both timepoints. The Δ69-70HV mutation was observed in 28% of the reads in the August 17 sample, and in 63% and 54% of the reads in the two August 20 samples (Fig. 2 ). The Y453F mutation was observed in 63% and 56% of the reads in the 20.08 sample (in the 17.08 sample, this position was insufficiently covered). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6852,
+          "infons": {
+            "section_title_1": "Skip To Main Content "
+          },
+          "text": "In addition to these two variants, patient S carried another 8 polymorphic mutations at substantial frequencies (above 30% in at least one of the samples; Fig. 2 ). Among the two remaining cluster 5 mutations, one, I692V, was supported by 8 out of the 1246 sequencing reads (0.6%) in one of the samples (3/1875 and 2/376 in Skip to main content the two others), likely representing sequencing errors; the other one, M1229I, was not observed. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7294,
+          "infons": {
+            "section_title_1": "Skip To Main Content "
+          },
+          "text": "The SARS-CoV-2 lineage of patient S underwent rapid evolution within the host. The observed 18 changes accumulated between April 10 and August 20, i.e. over the course of at most 132 days, correspond to a rate of 1.67E-3 changes/nucleotide/year, substantially exceeding the average rate of evolution of SARS-CoV-2. Accelerated evolution of SARS-CoV-2 in an immunocompromised patient is in line with previous findings . The observed excess of nonsynonymous changes suggests that this rate increase is caused by relaxed selective constraint and/or positive selection, rather than an increase in the overall mutation rate or genome editing. The observed excess of changes in the spike protein, and in particular in the RBD, is consistent with the effect of these mutations on hACE2 binding and/or antibody avoidance; in addition, the abundance of nonsynonymous changes at other proteins may suggest a role of cytotoxic T-lymphocyte escape. Some of the acquired variants occur at intermediate frequencies, representing within-host polymorphism. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8335,
+          "infons": {
+            "section_title_1": "Skip To Main Content "
+          },
+          "text": "As of today, patient S represents the only sample in GISAID with the combination of S:Y453F and S:Δ69-70HV mutations outside of cluster 5, i.e., acquired independently of minks (Fig. 3) . The genomic signature of cluster 5 has been used to confirm that farm workers have been infected from the animals 9; however, we now show that getting two of these four mutations is generally not sufficient to call such directionality. While cluster 5 is now probably extinct , our observation of independent acquisition of two of its mutations, both with likely functional effect, in a human may point to the risk of their subsequent onward transmission. Outside minks, S:Δ69-70HV was recently shown to occur in a virus from another immunocompromised patient with COVID-19 . In that study, S:Δ69-70HV has been fixed during convalescent plasma therapy, suggesting antibody selection pressure, which is consistent with decreased virus sensitivity to neutralisation with sera from recovered patients. However, patient S was not treated with convalescent plasma, was taking rituximab, the B-cell-depleting agent, and had no detectable neutralizing antibody response. This suggests that this mutation could have been favored by some other factor of selection. In patient S, both the S:Y453F and the S:Δ69-70HV mutations remain polymorphic, indicating that they were not yet fixed by selection in their favor; alternatively, the presence of both the ancestral and the derived variant at these sites could be maintained by balancing selection, although it is impossible to test this hypothesis with just one time point. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9937,
+          "infons": {
+            "section_title_1": "Skip To Main Content "
+          },
+          "text": "In addition to S:Y453F and S:Δ69-70HV, patient S has acquired two other mutations that were also preferentially obtained by other immunocompromised patients. The first is S:Δ141-144, which has previously arisen in another immunocompromised patient in a case of persistent COVID-19 (Fig. 3) . The second is an early termination of translation (nonsense mutation) in ORF8, which has occurred in the 18th codon in patient S. While the functions of ORF8 and its role in disease are extensively debated , a different nonsense mutation in the 27th codon of ORF8 is one of the lineage-defining mutations of cluster B.1.1.7 which is thought to be founded by a chronically infected individual . Given that ORF8 is thought to suppress immune response, selection against its loss may be relaxed in immuno-compromised patients. Of note, the S:N501Y mutation which currently rapidly spreads as part of the B.1.1.7 and 501.V2 clades was also previously found in a longitudinal study of an immunocompromised patient where it has been acquired after ~3 months of infection . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10996,
+          "infons": {
+            "section_title_1": "Skip To Main Content "
+          },
+          "text": "The fact that all these mutations are acquired concordantly (Fig. 3) indicates that they are favored by selection pressure which is common to immunocompromised patients, and possibly to minks, but distinct from that in the general population. Nevertheless, the variants acquired in immunocompromised patients (and in minks) can later spill over into the general population, affecting the characteristics of circulating strains. Skip to main content ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11445,
+          "infons": {
+            "section_title_1": "Skip To Main Content "
+          },
+          "text": "Raw reads were trimmed with Trimmomatic-0.39 (http://www.usadellab.org/cms/?page=trimmomatic) to remove adapter sequences and low-quality ends. Trimmed reads were mapped onto the Wuhan-Hu-1 (MN908947.3) reference genome with bwa mem. The following reads were then removed from the mapping: reads with abnormal insert length to read ratio (greater than 10 or less than 0.8), reads with insert length greater than 1100, reads with more than 50% soft-clipped bases. Soft-clipped ends were trimmed from the remaining reads, 10 nucleotides were cropped from read ends using custom scripts, and primer sequences were removed with ivar (https://andersen-lab.github.io/ivar/). Only reads with at least 30 nucleotides remaining after the procedure were kept. SNV and short indel calling was done with lofreq (https://csb5.github.io/lofreq/), with SNVs considered consensus if they were covered by at least 4 reads and supported by more than 50% of those reads; indels were considered consensus if they were covered by at least 20 reads with at least 50% of those supporting the variant. Regions that were covered by fewer than 2 reads or that were covered by 2 or 3 reads and called non-reference were masked as N. Consensus was created by bcftools consensus (http://samtools.github.io/bcftools/bcftools.html). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12747,
+          "infons": {
+            "section_title_1": "Skip To Main Content "
+          },
+          "text": "255,389 genomes of SARS-CoV-2 were downloaded from GISAID on December 12, 2020, (Supplementary Data ACKN) and aligned with MAFFT v7.453 71 against the reference genome Wuhan-Hu-1/2019 (NCBI ID: MN908947.3) with --addfragments --keeplength options. 100 nucleotides from the beginning and from the end of the alignment were trimmed. After that, we excluded sequences (1) shorter than 29,000 bp, (2) with more than 300 positions of missing data (Ns) and gaps, (3) excluded by Nextstrain, (4) from animals other than minks, or (5) corresponding to resequencing of the same patients, leaving 201,948 sequences. Identical sequences were then collapsed within each country and host and annotated by the Pangolin package. As the sequence of patient S (EPI_ISL_596228) from the current study is annotated as B.1.1.163 lineage by Pangolin, we further only kept sequences annotated as B.1.1, excluding a large clade defined by mutation G25563T (GH clade in GISAID nomenclature). We additionally masked a highly-homoplasic site 11083. The final set of 49,083 sequences was used to construct the phylogenetic tree with IQ-Tree v2.1.1 72 under GTR substitution model and '-fast' option. Ancestral sequences at the internal tree nodes were reconstructed with TreeTime v0.8.0 73. Pairwise dN/dS between every sample (terminal node) and its nearest ancestor was calculated with codeml program from PAML package (version 4.6) (https://academic.oup.com/mbe/article/24/8/1586/1103731? login=true). To produce the distribution of dN/dS ratios, samples with dN = 0 or dS = 0 were excluded. P-value for Patient S was Skip to main content calculated as the fraction of samples with dN/dS more than or equal to that for Patient S. Figure   Fig. S1 . Patient S cannot be placed in the cluster 5 clade. The abridged phylogeny of the B.1.1 lineage phylogeny is shown. Only those samples are shown which met either of the following conditions: (i) it carried any of the differences found between the B.1.1 root and the patient S sample (black cells), and these mutations had occurred in the branch immediately descendant from the B.1.1 root; or (ii) it carried either the S:Δ69-70HV (blue cells) or the S:Y435F (yellow cells) mutation, independent of the timing of their origin. Additionally, we retained the samples from the branches that separate the cluster 5 clade from the rest of the phylogeny (two additional mutations, purple cells). Samples that didn't meet these criteria were collapsed, with the number of such samples shown in parentheses. The retained samples were then grouped by country, with names formatted as 'country|date of the earliest sample|number of samples'. B.1.1.7 and cluster 5 samples are shaded as in Fig. 1 . The presence of the above-mentioned mutations is indicated by the matrix at the right. Two mutations distinguishing cluster 5 from the B.1.1 root (purple) reject uniting patient S and cluster 5 in the same clade. For patient S, mutations with allele frequency below 50% in all three samples are shown in grey. Missing data ('N's in sequences) are shown as crosses. FFPE, patient A (the presumed source of infection for patient S). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

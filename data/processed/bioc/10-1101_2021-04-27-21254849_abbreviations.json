@@ -1,0 +1,43 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-04-27-21254849",
+      "inputfile": "../../data/processed/html/10-1101_2021-04-27-21254849.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Covid-19",
+          "text_long_1": "coronavirus disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VOC",
+          "text_long_1": "variants of concern",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Qiagen",
+          "text_long_1": "QIASymphony, DSP Virus/Pathogen mini Kit",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RT",
+          "text_long_1": "Reverse transcription",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CI",
+          "text_long_1": "confidence interval",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

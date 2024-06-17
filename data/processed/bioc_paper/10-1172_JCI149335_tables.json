@@ -1,0 +1,576 @@
+{
+  "source": "Auto-CORPus (tables)",
+  "date": "20240501",
+  "key": "autocorpus_tables.key",
+  "infons": {},
+  "documents": [
+    {
+      "inputfile": "../../data/processed/html_papers/10-1172_JCI149335.html",
+      "id": "1",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": ""
+        },
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Table 1. Peptides targeted by vaccine recipients’ CD4+ T cells"
+        },
+        {
+          "offset": 62,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "1.1.1",
+              "cell_text": "Peptide no."
+            },
+            {
+              "cell_id": "1.1.2",
+              "cell_text": "Amino acid no."
+            },
+            {
+              "cell_id": "1.1.3",
+              "cell_text": "Sequence"
+            },
+            {
+              "cell_id": "1.1.4",
+              "cell_text": "Responding VR"
+            },
+            {
+              "cell_id": "1.1.5",
+              "cell_text": "Predicted restricted HLA allele"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.2.1",
+                    "cell_text": 2.0
+                  },
+                  {
+                    "cell_id": "1.2.2",
+                    "cell_text": "8-24"
+                  },
+                  {
+                    "cell_id": "1.2.3",
+                    "cell_text": "LPLVSSQCVNLTTRTQL"
+                  },
+                  {
+                    "cell_id": "1.2.4",
+                    "cell_text": "VR32"
+                  },
+                  {
+                    "cell_id": "1.2.5",
+                    "cell_text": "DRB4*01:01"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.3.1",
+                    "cell_text": 6.0
+                  },
+                  {
+                    "cell_id": "1.3.2",
+                    "cell_text": "36-52"
+                  },
+                  {
+                    "cell_id": "1.3.3",
+                    "cell_text": "VYYPDKVFRSSVLHSTQ"
+                  },
+                  {
+                    "cell_id": "1.3.4",
+                    "cell_text": "VR32"
+                  },
+                  {
+                    "cell_id": "1.3.5",
+                    "cell_text": "DPA1*01:03/DPB1*04:01"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.4.1",
+                    "cell_text": 13.0
+                  },
+                  {
+                    "cell_id": "1.4.2",
+                    "cell_text": "85-101"
+                  },
+                  {
+                    "cell_id": "1.4.3",
+                    "cell_text": "PFNDGVYFASTEKSNII"
+                  },
+                  {
+                    "cell_id": "1.4.4",
+                    "cell_text": "VR28"
+                  },
+                  {
+                    "cell_id": "1.4.5",
+                    "cell_text": "DRB3*02:02"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.5.1",
+                    "cell_text": 15.0
+                  },
+                  {
+                    "cell_id": "1.5.2",
+                    "cell_text": "99-115"
+                  },
+                  {
+                    "cell_id": "1.5.3",
+                    "cell_text": "NIIRGWIFGTTLDSKTQ"
+                  },
+                  {
+                    "cell_id": "1.5.4",
+                    "cell_text": "VR28"
+                  },
+                  {
+                    "cell_id": "1.5.5",
+                    "cell_text": "DPA1*01:03/DPB1*06:01"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.6.1",
+                    "cell_text": 18.0
+                  },
+                  {
+                    "cell_id": "1.6.2",
+                    "cell_text": "120-136"
+                  },
+                  {
+                    "cell_id": "1.6.3",
+                    "cell_text": "VNNATNVVIKVCEFQFC"
+                  },
+                  {
+                    "cell_id": "1.6.4",
+                    "cell_text": "VR28"
+                  },
+                  {
+                    "cell_id": "1.6.5",
+                    "cell_text": "DRB3*02:02"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.7.1",
+                    "cell_text": 20.0
+                  },
+                  {
+                    "cell_id": "1.7.2",
+                    "cell_text": "134-150"
+                  },
+                  {
+                    "cell_id": "1.7.3",
+                    "cell_text": "QFCNDPFLGVYYHKNNK"
+                  },
+                  {
+                    "cell_id": "1.7.4",
+                    "cell_text": "VR28"
+                  },
+                  {
+                    "cell_id": "1.7.5",
+                    "cell_text": "DRB1*11:01"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.8.1",
+                    "cell_text": 21.0
+                  },
+                  {
+                    "cell_id": "1.8.2",
+                    "cell_text": "141-157"
+                  },
+                  {
+                    "cell_id": "1.8.3",
+                    "cell_text": "LGVYYHKNNKSWMESER"
+                  },
+                  {
+                    "cell_id": "1.8.4",
+                    "cell_text": "VR41"
+                  },
+                  {
+                    "cell_id": "1.8.5",
+                    "cell_text": "DRB3*02:02"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.9.1",
+                    "cell_text": 24.0
+                  },
+                  {
+                    "cell_id": "1.9.2",
+                    "cell_text": "162-178"
+                  },
+                  {
+                    "cell_id": "1.9.3",
+                    "cell_text": "SANNCTFEYVSQPFLMD"
+                  },
+                  {
+                    "cell_id": "1.9.4",
+                    "cell_text": "VR32"
+                  },
+                  {
+                    "cell_id": "1.9.5",
+                    "cell_text": "DPA1*01:03/DPB1*04:01"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.10.1",
+                    "cell_text": 28.0
+                  },
+                  {
+                    "cell_id": "1.10.2",
+                    "cell_text": "190-206"
+                  },
+                  {
+                    "cell_id": "1.10.3",
+                    "cell_text": "REFVFKNIDGYFKIYSK"
+                  },
+                  {
+                    "cell_id": "1.10.4",
+                    "cell_text": "VR21, VR32"
+                  },
+                  {
+                    "cell_id": "1.10.5",
+                    "cell_text": "DQA1*01:01/DQB1*05:01 DRB5*01:01"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.11.1",
+                    "cell_text": 51.0
+                  },
+                  {
+                    "cell_id": "1.11.2",
+                    "cell_text": "351-367"
+                  },
+                  {
+                    "cell_id": "1.11.3",
+                    "cell_text": "YAWNRKRISNCVADYSV"
+                  },
+                  {
+                    "cell_id": "1.11.4",
+                    "cell_text": "VR25, VR28"
+                  },
+                  {
+                    "cell_id": "1.11.5",
+                    "cell_text": "DRB3*02:02, DRB4*01:03"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.12.1",
+                    "cell_text": 54.0
+                  },
+                  {
+                    "cell_id": "1.12.2",
+                    "cell_text": "372-388"
+                  },
+                  {
+                    "cell_id": "1.12.3",
+                    "cell_text": "ASFSTFKCYGVSPTKLN"
+                  },
+                  {
+                    "cell_id": "1.12.4",
+                    "cell_text": "VR20, VR28"
+                  },
+                  {
+                    "cell_id": "1.12.5",
+                    "cell_text": "HLA-DRB1*15:02 DPA1*01:03/DPB1*06:01"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.13.1",
+                    "cell_text": 56.0
+                  },
+                  {
+                    "cell_id": "1.13.2",
+                    "cell_text": "386-402"
+                  },
+                  {
+                    "cell_id": "1.13.3",
+                    "cell_text": "KLNDLCFTNVYADSFVI"
+                  },
+                  {
+                    "cell_id": "1.13.4",
+                    "cell_text": "VR28"
+                  },
+                  {
+                    "cell_id": "1.13.5",
+                    "cell_text": "DPA1*02:01/DPB1*14:01"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.14.1",
+                    "cell_text": 58.0
+                  },
+                  {
+                    "cell_id": "1.14.2",
+                    "cell_text": "400-416"
+                  },
+                  {
+                    "cell_id": "1.14.3",
+                    "cell_text": "FVIRGDEVRQIAPGQTG"
+                  },
+                  {
+                    "cell_id": "1.14.4",
+                    "cell_text": "VR28"
+                  },
+                  {
+                    "cell_id": "1.14.5",
+                    "cell_text": "DQA1*05:05/DQB1*03:01"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.15.1",
+                    "cell_text": 64.0
+                  },
+                  {
+                    "cell_id": "1.15.2",
+                    "cell_text": "442-458"
+                  },
+                  {
+                    "cell_id": "1.15.3",
+                    "cell_text": "DSKVGGNYNYLYRLFRK"
+                  },
+                  {
+                    "cell_id": "1.15.4",
+                    "cell_text": "VR14"
+                  },
+                  {
+                    "cell_id": "1.15.5",
+                    "cell_text": "DRB1*11:01"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.16.1",
+                    "cell_text": 88.0
+                  },
+                  {
+                    "cell_id": "1.16.2",
+                    "cell_text": "610-626"
+                  },
+                  {
+                    "cell_id": "1.16.3",
+                    "cell_text": "VLYQDVNCTEVPVAIHA"
+                  },
+                  {
+                    "cell_id": "1.16.4",
+                    "cell_text": "VR25"
+                  },
+                  {
+                    "cell_id": "1.16.5",
+                    "cell_text": "DRB1*13:01"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.17.1",
+                    "cell_text": 94.0
+                  },
+                  {
+                    "cell_id": "1.17.2",
+                    "cell_text": "652-668"
+                  },
+                  {
+                    "cell_id": "1.17.3",
+                    "cell_text": "GAEHVNNSYECDIPIGA"
+                  },
+                  {
+                    "cell_id": "1.17.4",
+                    "cell_text": "VR25"
+                  },
+                  {
+                    "cell_id": "1.17.5",
+                    "cell_text": "DQA1*02:01/DQB1*02:02"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.18.1",
+                    "cell_text": 98.0
+                  },
+                  {
+                    "cell_id": "1.18.2",
+                    "cell_text": "680-696"
+                  },
+                  {
+                    "cell_id": "1.18.3",
+                    "cell_text": "SPRRARSVASQSIIAYT"
+                  },
+                  {
+                    "cell_id": "1.18.4",
+                    "cell_text": "VR41"
+                  },
+                  {
+                    "cell_id": "1.18.5",
+                    "cell_text": "DQA1*01:03/DQB1*06:03"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.19.1",
+                    "cell_text": 103.0
+                  },
+                  {
+                    "cell_id": "1.19.2",
+                    "cell_text": "715-731"
+                  },
+                  {
+                    "cell_id": "1.19.3",
+                    "cell_text": "PTNFTISVTTEILPVSM"
+                  },
+                  {
+                    "cell_id": "1.19.4",
+                    "cell_text": "VR32"
+                  },
+                  {
+                    "cell_id": "1.19.5",
+                    "cell_text": "DRB1*07:01"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.20.1",
+                    "cell_text": 105.0
+                  },
+                  {
+                    "cell_id": "1.20.2",
+                    "cell_text": "729-745"
+                  },
+                  {
+                    "cell_id": "1.20.3",
+                    "cell_text": "VSMTKTSVDCTMYICGD"
+                  },
+                  {
+                    "cell_id": "1.20.4",
+                    "cell_text": "VR20, VR32, VR41"
+                  },
+                  {
+                    "cell_id": "1.20.5",
+                    "cell_text": "DQA1*02:01/DQB1*02:02 DQA1*02:01/DQB1*03:03"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.21.1",
+                    "cell_text": 108.0
+                  },
+                  {
+                    "cell_id": "1.21.2",
+                    "cell_text": "750-766"
+                  },
+                  {
+                    "cell_id": "1.21.3",
+                    "cell_text": "SNLLLQYGSFCTQLNRA"
+                  },
+                  {
+                    "cell_id": "1.21.4",
+                    "cell_text": "VR21, VR36, VR40"
+                  },
+                  {
+                    "cell_id": "1.21.5",
+                    "cell_text": "DRB1*15:01"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.22.1",
+                    "cell_text": 117.0
+                  },
+                  {
+                    "cell_id": "1.22.2",
+                    "cell_text": "813-829"
+                  },
+                  {
+                    "cell_id": "1.22.3",
+                    "cell_text": "SKRSFIEDLLFNKVTLA"
+                  },
+                  {
+                    "cell_id": "1.22.4",
+                    "cell_text": "VR14, VR20, VR21, VR25, VR36, VR40"
+                  },
+                  {
+                    "cell_id": "1.22.5",
+                    "cell_text": "DPA1*01:03/DPB1*04:01 DPA1*02:01/DPB1*01: 01DPA1*02:02/DPB1*02:01"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.23.1",
+                    "cell_text": 132.0
+                  },
+                  {
+                    "cell_id": "1.23.2",
+                    "cell_text": "918-934"
+                  },
+                  {
+                    "cell_id": "1.23.3",
+                    "cell_text": "ENOKLIANOFNSAIGKI"
+                  },
+                  {
+                    "cell_id": "1.23.4",
+                    "cell_text": "VR28"
+                  },
+                  {
+                    "cell_id": "1.23.5",
+                    "cell_text": "DRB3*02:02"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.24.1",
+                    "cell_text": 138.0
+                  },
+                  {
+                    "cell_id": "1.24.2",
+                    "cell_text": "960-976"
+                  },
+                  {
+                    "cell_id": "1.24.3",
+                    "cell_text": "NTLVKQLSSNFGAISSV"
+                  },
+                  {
+                    "cell_id": "1.24.4",
+                    "cell_text": "VR28"
+                  },
+                  {
+                    "cell_id": "1.24.5",
+                    "cell_text": "DRB3*02:02"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

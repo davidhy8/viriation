@@ -1,0 +1,676 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-03-09-434607v9",
+      "inputfile": "../../data/processed/html/10-1101_2021-03-09-434607v9.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "The dual function monoclonal antibodies VIR-7831 and VIR-7832 demonstrate potent in vitro and in vivo activity against SARS-CoV-2",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 129,
+          "infons": {
+            "section_title_1": "INTRODUCTION",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The coronavirus disease (COVID-19) pandemic caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has resulted in more than 114 million confirmed cases and over 2.5 million deaths worldwide1. SARS-CoV-2 infection results in a broad range of disease severity2. Infection fatality rates increase significantly with age, with 28.3% of COVID-19 patients over the age of 85 succumbing to disease2. However, even in mild-to-moderate COVID-19 patients, significant post-infection sequelae can affect overall health and cause long-term disability3. While multiple SARS-CoV-2 vaccines are now authorized for use, issues of supply, vaccine hesitancy and emergence of variants may prevent rapid attainment of herd immunity4–9. In addition, there may be individuals who remain at risk despite vaccination due to disease or underlying immunodeficiency. Thus, additional interventions and potential prophylactic agents are needed to reduce morbidity and mortality due to COVID-19.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1124,
+          "infons": {
+            "section_title_1": "INTRODUCTION",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Several monoclonal antibodies (mAbs) targeting the SARS-CoV-2 spike protein have recently been authorized for use in early treatment of COVID-19 patients10–13 and clinical data have been reported to show promising results in treatment and prophylactic studies12–15. However, rapidly spreading variants including those from the United Kingdom (B.1.1.7), South Africa (B.1.351) and Brazil (P.1) exhibit reduced susceptibility in vitro to currently authorized antibodies that target the receptor binding motif (RBM) of the viral spike (S) glycoprotein 10,11,16,17. Therefore, mAbs targeting unique S epitopes are needed for use alone or in combination with current agents for the treatment and prevention of COVID-19. Furthermore, in addition to viral neutralization, antibodies possessing potent effector function to aid in the killing of virally infected cells and the elicitation of T cell immunity could significantly assist in halting disease progression18–20.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2086,
+          "infons": {
+            "section_title_1": "INTRODUCTION",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "VIR-7831 and VIR-7832 are dual action mAbs derived from the parent antibody S309 identified from a 2003 SARS-CoV survivor21. These mAbs target an epitope containing a glycan (at position N343) that is highly conserved within the Sarbecovirus subgenus in a region of the S receptor binding domain (RBD) that does not compete with angiotensin converting enzyme 2 (ACE2) binding22. This epitope does not overlap with mutations observed in current variants of concern10,11,16,17. The variable region of VIR-7831 and VIR-7832 have been engineered for enhanced developability. In addition, both antibodies possess an Fc “LS” mutation that confers extended half-life by binding to the neonatal Fc receptor and potentially enhances distribution to the respiratory mucosa 23–25. VIR-7832 is identical to VIR-7831 with the exception of the addition of a 3 amino acid GAALIE (G236A, A330L, I332E) modification to the Fc domain26. The GAALIE modification has previously been shown in vitro to enhance binding to FcγIIa and FcγIIIa receptors, decrease affinity for FcγIIb compared to typical IgG1 and evoke protective CD8+ T-cells in the context of viral respiratory infection in vivo 27,28.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3264,
+          "infons": {
+            "section_title_1": "INTRODUCTION",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Here we characterize the antiviral potential of VIR-7831 and VIR-7832. These mAbs effectively neutralize SARS-CoV-2 live virus in vitro as well as in pseudotyped virus assays against emerging variants of concern and variants that confer resistance to currently authorized mAbs29. In addition to the neutralizing capacity, both antibodies demonstrate potent effector function and mediate antibody dependent cellular cytotoxicity (ADCC) and antibody dependent cellular phagocytosis (ADCP) in vitro. Furthermore, resistance selection experiments and epitope conservation analyses indicate the potential for a high barrier to resistance. Data derived from the Syrian golden hamster model demonstrates efficacy in a proof-of-concept in vivo model. Taken together, these data indicate that VIR-7831 and VIR-7832 are promising key components of the arsenal in the fight against COVID-19.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4144,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Previously published work showed that S309 bound SARS-CoV-2 recombinant and cell surface-associated S and neutralized live virus in vitro21. We initiated these studies by repeating and extending these earlier results. To determine the binding activity of VIR-7831 and VIR-7832 to the SARS-CoV-2 S, enzyme-linked immunosorbent assay (ELISA), surface plasmon resonance (SPR) and flow cytometry assays were utilized. VIR-7831 and VIR-7832 bound to recombinant S RBD (amino acids 331-541) with EC50 values of 20.40 ng/mL and 14.9 ng/mL, respectively, by ELISA (Figure 1a). Using SPR, both antibodies demonstrated potent binding to recombinant S RBD with an equilibrium constant (Kd) of 0.21 nM (Figure 1b). As antibody recognition of cell surface-bound S could mediate killing of virally infected cells, flow cytometry-based studies using cells transiently transfected with a S-encoding plasmid were used to examine antibody binding to cell surface-expressed S trimer. By this method, both VIR-7831 and VIR-7832 bound efficiently to surface-expressed S (Figure 1c).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5212,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To examine neutralization capacity, VIR-7831 and VIR-7832 were tested in a VeroE6 cell-based live SARS-CoV-2 virus system. Concentration-dependent viral neutralization was observed for both antibodies, with geometric mean IC50/90 values of 100.1/186.3 ng/mL and 78.3/253.1 ng/mL, respectively (Figure 1d). As variant evolution is a natural part of SARS-CoV-2 biology and emerging live virus variants are not always readily accessible for testing, a vesicular stomatitis virus (VSV)-based pseudotyped virus system targeting Vero E6 cells was used to examine VIR-7831 and VIR-7832 neutralization of UK (B.1.1.7), South Africa (B.1.351) or Brazil (P.1) S. IC50 shifts were <1-fold for both antibodies against the B.1.351 and P.1 pseudotyped viruses while small IC50 shifts were observed for the UK pseudotyped virus (2.30- and 2.50-fold, respectively) indicating that VIR-7831 and VIR-7832 retain activity against these spike variants (Figure 1e; Table 1). Interestingly, antibody neutralization of B.1.1.7 pseudotyped virus did not reach 100% in this assay though recently published data on the S309 mAb against infectious B.1.1.7 showed that full neutralization was achieved30.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6388,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Although direct antiviral mechanisms are crucial to provide protection, Fc-dependent mechanisms mediated by interaction with Fc gamma receptors (FcγRs) on immune cells or with complement, can contribute to overall potency in vivo. The potential for VIR-7831 and VIR-7832 to mediate effector functions were assessed in vitro by measuring binding to FcγRs and C1q and in assays designed to demonstrate antibody-dependent cellular cytotoxicity (ADCC) or antibody-dependent cellular phagocytosis (ADCP)31–34.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6892,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Antibody binding to the human activating FcγRIIa (low-affinity R131 and high affinity H131 alleles), FcγRIIIa (low-affinity F158 and high-affinity V158 alleles), and to the inhibitory FcγRIIb were examined using SPR (Supplemental figure 1a). VIR-7831 similarly bound both the H131 and R131 alleles of FcγRIIa and binds FcγRIIb. VIR-7831 bound both FcγRIIIa alleles, with reduced binding to the F158 allele compared to V158, as is characteristic for human IgG135. Binding of VIR-7831 to C1q was similar to the parental antibody (S309-LS) (Supplemental figure 1b). As previously reported for antibodies encoding the GAALIE mutation26,36, VIR-7832 bound with comparatively higher affinity to activating FcγRIIa and FcγRIIIa than VIR-7831 (Supplemental figure 1a). Conversely, VIR-7832 showed reduced affinity for FcγIIb and abrogation of binding to C1q (Supplemental figure 1b).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7767,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The antibodies were also assessed for the ability to activate human FcγRIIa, FcγRIIb or FcγRIIIa, using a Jurkat cell reporter assay37 (Figure 2a-d). S309-GRLR, which contains the effector function-abrogating G236R, L328R mutations was used as a negative control. Cells stably transfected with the SARS-CoV-2 spike protein (CHO-CoV-2-Spike) served as target cells. Both VIR-7831 and the parental S309-LS activated signaling of the higher-affinity allele FcγRIIa (H131) but did so less efficiently than the GAALIE-containing antibody VIR-7832 (Figure 1a) while VIR-7831, VIR-7832 and S309-LS induced similar low-level activation of the inhibitory receptor FcγRIIb (Figure 1b). VIR-7831 demonstrated substantially lower activation of FcγRIIIa F158 versus V158 as expected while VIR-7832 showed increased activation of both alleles of FcγRIIIa (F158 and V158) (Figures c,d).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8638,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To further elucidate the effector function potential of the antibodies, ADCC and ADCP assays were performed using donor PBMCs or NK cells as effector cells and CHO cells stably expressing S (CHO-CoV-2-Spike) as target cells (Figure 2e-g). The ability of antibodies to activate NK cell-mediated killing was measured in vitro using two genotyped donors expressing homozygous low-affinity (F/F158) or high-affinity (V/V158) (Figure 2e-f). Compared to the parental mAb S309-LS, VIR-7831 had slightly increased capacity to induce NK cell-mediated ADCC when using cells from either F/F158 or V/V158 donors. As expected, VIR-7832 induced NK cell-mediated ADCC in cells from donors expressing the low-affinity F/F158 allele of FcγIIIa more efficiently than VIR-7831. These results were confirmed with NK cells from a heterozygous donor (F/V 158).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9476,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The ability of VIR-7831 and VIR-7832 to facilitate ADCP by primary CD14+ monocytes was measured in vitro by exposing freshly isolated human PBMCs to CHO-CoV-2-Spike cells that were pre-incubated with antibody (Figure 2g). VIR-7831, VIR-7832 and S309-LS induced similar levels of ADCP by CD14+ monocytes. These results indicate that VIR-7831 and VIR-7832 have the potential to trigger ADCC and ADCP of cells displaying SARS CoV-2 S protein.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9915,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "One potential concern with any antibody therapeutic targeting a viral agent is the possibility of antibody-dependent enhancement (ADE). ADE is an in vivo phenomenon in which the presence of an antibody worsens disease. There are several in vitro assays that may provide plausible correlates for ADE in vivo, though none of these have been proven relevant to COVID-19 as to date ADE has not been observed in trials of monoclonal antibodies or plasma13,15,38,39. ADE can occur by several potential mechanisms40. Poorly neutralizing antibodies or subneutralizing levels of antibody could theoretically facilitate enhanced virus entry and infection through Fc receptor interactions. A second theoretical mechanism involves antibody-antigen complex formation leading to enhanced cytokine production. A third mechanism of ADE has been observed in a porcine model of influenza where the kinetics of viral fusion to the target cell was enhanced in a Fab-dependent manner by fusion-enhancing non-neutralizing antibodies41,42.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10931,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To explore whether VIR-7831 and VIR7832 exhibit in vitro activities that might be related to ADE in vivo, we evaluated SARS-CoV-2 replication in human cells that express FcγRs: monocyte-derived dendritic cells (moDCs), peripheral blood mononuclear cells (PBMCs) and the human U937 macrophage cell line (Supplemental Figure 2a-b). Subneutralizing concentrations of VIR-7831 and VIR-7832 were precomplexed with SARS-CoV-2 (MOI =0.01) and added to target cells. Using immunostaining methods, at 24 hours post-infection no productive entry of SARS-CoV-2 into moDCs, PBMCs, or U937 cells was observed in the presence or absence of either mAb, while VeroE6 control cells demonstrated internalization in all conditions evaluated. Reduced internalization of SARS-CoV-2 in VeroE6 cells was observed at the highest concentration of VIR-7831 and VIR-7832 (p-value <0.05), indicating effective virus neutralization prevented virus entry. Using a focus forming assay, virus replication and secretion of infectious virus were detectable by 48 hours post-infection in VeroE6 cells, with comparable levels of replication in the presence or absence of VIR-7831 or VIR-7832. However, no replication of SARS-CoV-2 was detected in moDCs, PBMCs or U937 cells regardless of antibody treatment, indicating lack of productive SARS-CoV-2 infection of these cells, consistent with previously published data43.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12314,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To evaluate the potential for VIR-7831 and VIR-7832 to enhance cytokine release upon SARS-CoV-2 infection in FcγR-expressing cells, cytokines and chemokines were measured in the supernatants from cells infected with SARS-CoV-2-in the presence of VIR-7831 or VIR-7832 (Supplemental figure 2c). Levels of IFN-γ, IL-10, IL-6, IL 8, IP-10, MCP-1, and TNF-α in the supernatant were quantified by MSD at 24- and 48-hours post-infection. For all cell types evaluated, cytokine/chemokine production was similar between all antibody concentrations tested and the no antibody control at both 24- and 48-hours post-infection. Taken together, these in vitro data indicate that neither VIR-7831 nor VIR-7832 exhibit in vitro activities that have been proposed to possibly correlate with ADE in vivo.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13100,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We next determined whether resistant variants could be elicited by serial passage of SARS-CoV-2 in the presence of VIR-7832. As VIR-7831 and VIR-7832 differ only in the Fc region of the antibody, resistance selection experiments were conducted with VIR-7832 as a proxy for both antibodies. SARS-CoV-2 was subjected to 10 passages in the presence of VIR-7832 at fixed concentrations of ~10x, 20x, 50x or 100x IC50 (1, 2, 5, or 10 μg/mL) in VeroE6 cells. No CPE was detected in wells passaged with antibody through 10 passages, while CPE was observed in the no antibody control in all passages. Similarly, no virus was detected by focus forming assay at any concentration of VIR-7832 through all 10 passages even at the lowest concentration tested.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13846,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "As no viral breakthrough was observed in the fixed concentration resistance selection, a second method was employed wherein SARS-CoV-2 virus was passaged in sub-IC50 concentrations of antibody followed by subsequent passaging in the presence of increasing concentrations of mAb in an attempt to force resistance emergence (Supplemental figure 3). Passaging was performed in duplicate wells to account for founder effects, and concentration increases for each well were based on CPE observations. Five sequential passages were conducted using increasing concentrations of VIR-7832 at 0.5, 1, 2, 5 and ~10x IC50 (0.05, 0.1, 0.2, 0.5, 1 μg/mL; Supplemental figure 3a), though no CPE was observed by passages 4 and 5 (0.5 and 1 μg/mL, respectively) indicating that variants originally selected at the lower concentrations were either unfit or susceptible to the higher concentrations of antibody. To further assess whether resistance mutations could be generated, selection was restarted using passage 3 virus generated with ~2x IC50 (0.2 μg/mL) of VIR-7832 in duplicate wells at ~2x and ~5x IC50 (0.2, 0.5 μg/mL), generating two passage lineages (Supplemental figure 3b-c).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15016,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Supernatants were evaluated for detectable virus at each passage by focus forming assay and cell supernatants from viral passages containing detectable virus were tested in SARS-CoV-2 neutralization assays to evaluate IC50 shifts as a marker of reduced susceptibility (Supplemental table 1). With the exception of passage 8, modest fold changes were observed, with shifts in IC50 values ranging from 5.4- to 6.5-fold compared to the wild-type SARS-CoV-2 stock virus. In lineage 1, the passage 8 virus displayed a >10-fold shift in IC50 (greater than highest concentration tested). Sequence analysis detected an identical 4 amino acid insertion in the N-terminal domain (215-216insKLRS) and 5 amino acid deletion in correspondence of the furin cleavage site (675-679del) in both lineages at all passages sequenced, as well as the amino acid substitution E340A in lineage 1, and R682W, and V1128F in lineage 2. The deletion at amino acids 675-679 has been previously described during passaging of SARS-CoV-2 in tissue culture suggesting enrichment to be a result of cell culture adaptation44 while the 215-216insKLRS was detected in the input virus. Neither 215-216insKLRS nor R682W variants were highly enriched with passaging (Supplemental Table 1) and enrichment of 675-679del and V1128F did not profoundly alter the VIR-7832 IC50. However, appearance of the E340A variant at 98.7% did correlate with a >10-fold shift in IC50 suggesting this variant may confer resistance.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16489,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To evaluate whether amino acid variants identified in the resistance selection conferred reduced susceptibility to VIR-7831 and VIR-7832, neutralization of pseudotyped viruses encoding the S variants was assessed (Supplemental table 2). VIR-7831 and VIR-7832 neutralized R682W and V1128F SARS-CoV-2 pseudotyped virus spike variants with IC50 values similar to wild type (< 2-fold change in IC50) indicating that these variants do not alter susceptibility. In contrast, E340A conferred reduced susceptibility to VIR-7831 and VIR-7832 (> 100-fold change in IC50) indicating that E340A is a VIR-7831/VIR-7832 monoclonal antibody resistance mutation (MARM).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17142,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "As VIR-7831/VIR-7832 demonstrated a unique in vitro resistance profile, we investigated the potential for cross-resistance to MARMs that confer reduced susceptibility to the authorized monoclonal antibodies bamlanivimab, imdevimab and casirivimab 10,11,45–47 using pseudotyped virus. Notably, some of these mutations are found in highly prevalent variants of concern17,30,48. VIR-7831 effectively neutralized pseudotyped viruses expressing spike MARMs that alter bamlanivimab, casirivimab and/or imdevimab activity (Table 2). Fold changes in IC50 values compared to wild-type were <3-fold for 18/19 variants tested. A modest 3.4-fold shift in the VIR-7831 IC50 was observed for the V445A variant that confers reduced susceptibility to imdevimab. These data indicate that VIR-7831/VIR-7832 does not display cross-resistance with currently authorized mAbs and supports the potential combination use of VIR-7831/VIR-7832 with other mAb therapeutics.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18088,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The parental antibody of VIR-7831 and VIR-7832 (S309) binds to a highly conserved sarbecovirus epitope that is potentially intolerant of variation. To investigate the current state of epitope conservation, >584,000 spike sequences from SARS-CoV-2 deposited in the GISAID database as of February 26, 2021 were examined for epitope variation. More than 99.96% conservation is seen for those amino acids comprising the epitope among currently available sequences for all positions including 14/22 amino acid positions that were ≥99.99 conserved (Table 3).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18640,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "VIR-7831 activity against viral mutants carrying single substitutions in the epitope was assessed in pseudotyped virus assays. VIR-7831 effectively neutralized epitope variants at most amino acid positions tested (Table 4). Variants at two positions, E340 and P337, resulted in significant IC50 shifts indicating reduced susceptibility to VIR-7831. Moderate shifts in potency were observed for P337H and P337T variants (7.50- and 5.38-fold, respective) while more significant shifts in potency were observed for P337L/R and E340A/K/G (27-fold to >276-fold). Notably, these variants are detected in a low number of sequences and do not have a pattern that suggest emergence in the GISAID database (27 and 30 variant counts out of >584,000 sequences for P337 and E340, respectively). This observation is consistent with the possibility that variations at these positions come with a fitness cost to the virus.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19547,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To evaluate the efficacy of VIR-7831 in vivo, the hamster model was utilized. As it was unknown what effect the LS mutation would have in the hamster, a non-LS version of VIR-7831 (SGHmAb-no-LS) was used for these experiments. Hamsters were administered SGHmAb-no-LS intraperitoneally at Day -1 (30, 5, 0.5 or 0.05 mg/kg) or Day -2 (15, 5, 0.5 or 0.05 mg/kg) prior to intranasal SARS-CoV-2 inoculation (Figure 3a). Satellite animal PK indicated that maximal antibody serum concentrations were achieved at Day 2 and Day 1 for Day -1 and Day -2 dosing, respectively. Using body weight as a marker of degree of clinical disease, doses of ≥5mg/kg resulted in significantly reduced weight loss at Day 4 compared to controls. (Figure 3b-e). Significant decreases in lung viral load were also observed at ≥5mg/kg as measured by RT-qPCR (Figures f-g). Day 4 TCID50 measurements indicated that antibody administered at ≥0.5 mg/kg resulted in significantly lower levels of infectious virus in lung tissue compared to controls (Figure 3h-i). Notably, across these experiments, no enhancement of disease was observed in animals receiving SGHmAb-no-LS based on changes in weight, viral RNA in the lungs, or TCID50 infectious virus levels. Collectively, these data indicate that VIR-7831 prevented in a dose-dependent fashion virus replication and morbidity in SARS-CoV-2 challenged hamsters without signs of ADE at any dose tested.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20965,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Here we show the in vitro and in vivo preclinical characterization of VIR-7831 and VIR-7832, two monoclonal antibodies being advanced into clinical studies49–51. Both antibodies demonstrate high-affinity binding to S in vitro, including on the surface of cells, and effectively neutralize wildtype SARS-CoV-2 in a live virus assay. VIR-7831 and VIR-7832 retain activity against the UK B.1.1.7, South Africa B.1.351 and Brazil P.1 variants in a VSV/VeroE6 pseudotyped virus system, consistent with recently published data using live viruses 29. VIR-7831 bind C1q, activate FcγRs and demonstrate ADCC and ADCP in vitro. Experiments in the hamster model of SARS-CoV-2 infection show proof-of-concept efficacy in vivo. Notably, in vitro and in vivo data did not provide any supporting evidence that these antibodies would demonstrate ADE in a clinical setting.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21831,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "That VIR-7831 and VIR-7832 retain activity against the B.1.1.7, B.1.351 and P.1 spike proteins in pseudotyped virus assays is a key finding at this stage of the pandemic. With the increased transmissibility and potential for more severe disease observed with these viruses, the availability of therapeutic or prophylactic mAbs that remains active against these variants is essential. Current in vitro data indicate that the E484K variant found in both B.1.351, P.1 and other emerging independent lineages, and also recently found in combination with B.1.1.752, confers reduced susceptibility to multiple currently authorized monoclonal antibodies possibly lessening the utility of these antibodies or, worse, rendering them ineffective. In addition to retaining activity against key variants of concern, in pseudotyped virus experiments VIR-7831 showed no significant cross-resistance with variants that reduce the activity of authorized mAbs. These data additionally demonstrate the uniqueness of VIR-7831 and VIR-7832 and further highlight the utility VIR-7831 and VIR-7832 could have, alone or in combination, as clinical agents.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22963,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Notably, even over a year into the pandemic, the VIR-7831/VIR-7832 epitope remains highly conserved among available sequences of circulating virus with ≥99.96% conservation of epitope amino acids. This is consistent with the value of the strategy used for isolation of monoclonal antibodies that neutralize both SARS-CoV and SARS-CoV-2 based on the idea that these two virulent human viruses are phylogenetically divergent within the sarbecovirus subgenus. Furthermore, MARMs identified at positions P337 and E340 are present at very low levels among current sequences. That amino acids P337 and E340 remain >99.99% conserved at this stage of the pandemic indicates that variants at these positions may confer disadvantageous effects on the virus, consistent with the conservation of this epitope across the sarbecovirus family21.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23793,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Viral variants of concern for RBM-targeting mAbs are already spreading53. The vaccines presently being deployed around the world generate high-titer neutralizing antibodies that target the S protein RBM. Importantly, the RBM is highly immunodominant for responses to natural infection54. Vaccine-induced and convalescent immunity may therefore potentially put further mutational pressure on the RBM sequence to evade such antibody responses. In contrast, antibody responses overlapping with the VIR-7831/VIR-7832 epitope are limited after infection 54, possibly because of the shielding effect of the highly conserved N343 glycan. In this regard the epitope may face less vaccine- or infection-generated immune pressure, potentially preserving this conserved epitope long-term.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24570,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Recent data have indicated that the cells used to generate live virus stocks and overexpression of ACE2/TMPRSS2 in target cells used for assays can affect mAb activity in vitro29,55. The VIR-7831/VIR-7832 parental antibody S309 seems particularly sensitive to in vitro methods using ACE2 overexpressing cells55. It is therefore notable that VIR-7831 displays significant efficacy in an in vivo proof-of-concept SARS-CoV-2 infection experiment using hamsters despite the fact that patterns of engagement of hamster FcRs by human IgG1 antibodies may not reflect patterns of human IgG1 antibodies with their cognate human FcRs. These findings argue that in vitro data derived from such ACE2 and/or TMPRSS2 overexpression cell lines do not accurately reflect the in vivo antiviral capacity of tested mAbs. Furthermore, that the significant in vivo effects of VIR-7831 in the hamster model likely occurred in the absence of full effector functions due to species-specific interactions between antibodies and FcRs, argues that effects in COVID-19 patients incorporating both the neutralization capacity of the antibody plus the ability to harness the strength of the immune system could lead to positive clinical outcomes.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25786,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The clinical potential of VIR-7832, with the inclusion of the GAALIE Fc mutation, is of special interest in the context of SARS-CoV-2 infection. Previously published data by the Ravetch laboratory comparing the in vivo efficacy of a hemagglutinin-targeting mAb with and without inclusion of the GAALIE mutation in a transgenic humanized FcγR mouse model of influenza infection demonstrated superior efficacy of the GAALIE-containing antibody in both therapeutic and prophylactic experiments26. These effects were mediated by protective CD8+ T cell responses elicited by the GAALIE antibody. Clinical data examining the contribution of the adaptive immune response in SARS-CoV-2 infection indicate that poor T cell induction correlates with severe disease (reviewed in 56). Thus, the potential for VIR-7832 to augment the T cell response to SARS-CoV-2 infection could conceivably play a crucial role in limiting progression to severe COVID-19 disease or in treatment of severe established disease. This latter possibility is supported by recent publications showing that monoclonal antibodies with effector functions are especially effective in the therapeutic setting via recruitment of tissue-protective monocyte functions 19, and that potency of antibodies in the pre-clinical mouse model does not correlate with in vitro neutralizing activity of antibodies18.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27148,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Taken together, these data indicate that VIR-7831 and VIR-7832 could play a powerful role in the fight against COVID-19 through the dual action of broadly neutralizing activity paired with engagement of the immune system through effector function capabilities.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27408,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Vero E6 cells (ATCC) and Lenti-X 293T cells (Takara) were cultured in Dulbecco’s Modified Eagle’s medium (DMEM), 10% FBS, 1x Penicillin-Streptomycin at 37°C, 5% CO2.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27580,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "VIR-7831 and VIR-7832 were produced at WuXi Biologics (China). SGHmAb-no-LS, S309-LS, and S309-GRLR were produced at Humabs Biomed SA, a subsidiary of Vir Biotechnology (Bellinzona, Switzerland) in expiCHO cells transiently co-transfected with plasmids expressing the heavy and light chain, as previously described 57.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27898,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "SARS-CoV-2 isolate USA-WA1/2020 was obtained from BEI Resources. Virus was propagated on VeroE6 cells in DMEM, 2% BSA, 1X Penicillin-Streptomycin at 37°C, 5% CO2. Supernatants were collected at 72 hours post-infection once cytopathic effect was visible, centrifuged at 500 × g for 5 minutes, followed by a second centrifugation at 1000 × g for 5 minutes. Clarified supernatants were then aliquoted and stored at −80°C.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28316,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "For the ELISA assay, 96-well plates were coated with 100 μl/well recombinant SARS-CoV2 RBD diluted in assay diluent (1% BSA/PBS) at a final concentration of 2 μg/mL and incubated overnight at 4°C. Plates were washed three times with 300 μl/well wash buffer using an automated washer. Assay diluent (100 μl/well) was added to block the plates and incubated for 1 hour at room temperature (RT) with shaking. Assay diluent was removed, and plates washed three times with wash buffer. Serial 1:3 dilutions of mAb (concentration range from 6 μg/mL to 0.33 ng/mL) in assay diluent were dispensed at 100 μl/well and incubated 1 hour at RT with shaking, then washed three times with wash buffer. The HRP-conjugated secondary antibody reagent (1:5,000 dilution in assay diluent) was added to each well (100 μl/well) and incubated for 1 hour at RT with shaking. After three washes with wash buffer, 100 μl/well of 2-component TMB peroxidase substrate solution was dispensed in each well and developed for 5 minutes at RT. The reaction was stopped with 100 μL/well 1M H2SO4 and the OD was read immediately at 450 nm on a SpectraMax M5 Microplate reader. EC50 values were calculated using non-linear regression of log (agonist) versus response in Graph Pad Prism.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29567,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Antibody was diluted to 2 μg/mL (1 mL) in HBS-EP+ buffer and injected at 10 μL/min for 30 seconds across one flow cell of a CM5 sensor chip immobilized with anti-human Fc antibody docked in a Biacore T200. SARS-CoV2-RBD diluted in HBS-EP+ buffer was then injected at a single concentration, 1:3 dilutions from 100 nM to 3.7 nM, across both the flow cell containing captured the antibody as well as a reference flow cell containing only anti-human Fc antibody. Binding was measured with a flow rate of 30 μL/min and an injection time of 600 seconds; dissociation was monitored for 1800 seconds after injection. Data were collected at 10 Hz. After each binding measurement, regeneration reagent was injected to prepare the surface for a new cycle. Experiments were performed at 25°C, with the samples held at 15 °C in the instrument prior to injection.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30417,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Binding of VIR-7831 and VIR-7832 to human recombinant FcγRs was measured by surface plasmon resonance (SPR) on a Biacore T200. Briefly, Biotin CAPture Reagent (modified streptavidin) was injected across all flow cells of a CAP sensor chip docked in a Biacore T200. Biotinylated Fc receptors at 1 μg/mL were injected across a single flow cell at 10 μL/min for 60 seconds (one receptor per flow cell), with one flow cell reserved as a reference surface. VIR 7831 or VIR-7832 at 100 μg/mL (diluted in HBS-EP+) were injected across all flow cells for 200 seconds using a flow rate of 30 μL/min and association was monitored. Dissociation was monitored for another 200 seconds after injection. Data was collected at 10 Hz. After each binding measurement, CAP Regeneration reagent was injected to prepare the surface for a new cycle. Experiments were performed at 25°C, with the samples held at 15°C in the instrument prior to injection.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31348,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Binding of VIR-7831 and VIR-7832 to human complement was measured by biolayer interferometry (BLI) using an Octet Red96 instrument (FortéBio). Briefly, anti-human Fab (CH1-specific) sensors were used to capture VIR-7831 and VIR-7832 at 10 μg/ml for 10 minutes. The IgG-loaded sensors were then exposed to kinetics buffer containing 3 μg/ml of purified human C1q for 4 minutes, followed by a dissociation step in the same buffer for additional 4 minutes. Association and dissociation profiles were measured in real time as changes in the interference pattern.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31906,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The SARS-CoV-2 spike protein coding sequence (YP_009724390.1, Wuhan-Hu-1 strain) was cloned into a cell expression plasmid under the control of the human CMV promoter (phCMV1) to generate phCMV1 WT spike. ExpiCHO-S cells were seeded the day before transfection at 3 × 106 cells/mL in ExpiCHO Expression Medium.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32216,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Immediately before transfection, the cells were seeded at 6 × 106 cells cells/mL in a volume of 15 mL in 125 mL shake flasks. Six μg of phCMV1 WT spike plasmid or vector control were diluted in 1.2 mL of iced OptiPRO SFM., followed by addition of 48 μL of ExpiFectamine CHO Reagent and complexing for 1 minute at RT. The transfection mixture was added dropwise to cells with gentle swirling. Cells were then incubated at 37°C, 8% CO2 with shaking for 42 hours. At 42 hours post-transfection, ExpiCHO-S cells were harvested, washed twice with FACS buffer and resuspended at a concentration of 1.0 × 106 cell/mL in PBS. Cells (5 × 104 cells in 50 μl/wells) were dispensed into a 96-well V-bottom plate. Antibody was serially diluted (1:4, 10 points) starting at a concentration of 10 μg/mL. Cells were pelleted at 300 × g for 5 minutes and resuspended in 50 μL/well of antibody serial dilutions and plates were incubated for 45 mins on ice. Cells were washed twice in FACS buffer. Alexa Fluor 647-labelled Goat Anti-Human IgG secondary Ab was diluted 1:750 in FACS buffer and 50 μL was added to the cell pellet for 15 min on ice. Cells were washed twice with FACS buffer, resuspended in 1% PFA. Data was acquired by flow cytometry (CytoFlex LX).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33459,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Lenti-X™ 293T cells were seeded in 10-cm dishes for 80% next day confluency. The next day, cells were transfected with the plasmid pcDNA3.1(+)-spike-D19 (encoding the SARS-CoV-2 spike protein) or pcDNA3.1(+)-spike-D19 variants using the transfection reagent TransIT-Lenti according to the manufacturer’s instructions. One day post-transfection, cells were infected with VSV-luc (rVSVΔG; Kerafast) at an MOI of 3. The cell supernatant containing SARS-CoV-2 pseudotyped virus was collected at day 2 post-transfection, centrifuged at 1000 × g for 5 minutes to remove cellular debris, aliquoted and frozen at −80°C.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34070,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Vero E6 cells were seeded into clear bottom black walled 96-well plates at 20,000 cells/well in 100 μL medium and cultured overnight at 37°C. Twenty-four hours later, 1:4 9-point serial dilutions of antibody were prepared in media, with each dilution tested in duplicate on each plate (range: 10 μg/mL to 0.15 ng/mL final concentration).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34407,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Pseudovirus was diluted 1:25 in media and added 1:1 to 110 μL of each antibody dilution. Pseudovirus:antibody mixtures were incubated for 1 hour at 37°C. Media was removed from the Vero E6 cells and 50 μL of pseudovirus:antibody mixtures were added to the cells. One hour post-infection, 100 μL of media was added to wells containing pseudovirus:antibody mixtures and incubated for 17 hours at 37°C. Media was then removed and 100 μL of Bio-Glo reagent (diluted 1:1 in DPBS) was added to each well. The plate was shaken on a plate shaker at 300 RPM at room temperature for 20 minutes and RLUs were read on an EnSight plate reader. To control for background, the mean of the RLU values in uninfected wells (n=6 per plate) was calculated and subtracted from all data points. Data were analyzed and graphed using GraphPad Prism software (v8.4.1). The half maximal effective concentration (IC50) values were calculated using a non-linear regression model (variable slope model, 4 parameters) of log(inhibitor) versus response and the IC50 values were interpolated from the curve at y=50. The geometric mean from at least two independent experiments was calculated in Excel (Version 16.36, Microsoft). Fold change in IC50 relative to wild type was calculated for each experiment, and the mean fold change was reported.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35720,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "VeroE6 cells were seeded into flat bottom 96-well plates at 20,000 cells/well and cultured overnight at 37°C. Twenty-four hours later, 9-point 1:4 serial dilutions of antibody were prepared in PBS and each dilution was tested in quadruplicate per plate (range: 25,600 to 0.390 ng/mL final concentration). SARS-CoV-2 virus stock was diluted in infection media for a final concentration of 200 plaque forming units (PFU) per well. Antibody dilutions were added to the virus and incubated for 30 minutes at 37°C. Media was removed from the VeroE6 cells, mAb-virus complexes were added, and cells were incubated at 37°C overnight. At 24 hours post-infection, cells were fixed with 250 μL 4% PFA, incubated for 30 minutes at RT, then washed 3 times with PBS to remove residual PFA. The cells were permeabilized with 50 μL of 0.125% Triton X-100 in PBS for 30 minutes at RT, followed by blocking with 300 μL blocking buffer for 30 minutes at RT. The blocking buffer was removed, 50 μL of SARS-CoV-2 nucleocapsid antibody at 1:3,000 in blocking buffer was added, and plate was incubated for 1 hour at RT. Plates were washed 3 times with PBS and then incubated for 1 hour at RT with 50 μL/well of goat anti-rabbit-Alexa647 secondary antibody at a final dilution of 1:3,000 in blocking buffer. After washing 5 times with PBS, 100 μL of fresh PBS was added for imaging. Plates were imaged on a Cytation5 plate reader. Whole well images were acquired (12 images at 4X magnification per well) and nucleocapsid-positive cells were counted using the manufacturer’s software.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37280,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "One day prior to infection, 1.2×104 VeroE6 cells were plated in black-walled, clear bottomed 96-well plates. Virus samples were diluted 1:5 in infection media and adsorbed onto VeroE6 cells for one hour at 37°C. The cells were washed once and overlaid with 1% methylcellulose/serum-containing media. At 24 hours post-infection, the methylcellulose overlay was removed, and cells were washed with PBS. Cells were fixed with 4% PFA, incubated for 30 minutes at RT, then washed with PBS to remove residual PFA. The cells were permeabilized with 50 μL of 0.25% Triton X-100 in PBS for 30 minutes at RT. The Triton X-100 was removed, cells were washed twice with PBS, and incubated with 50 μL of SARS-CoV-2 nucleocapsid antibody at 1:2,000 in blocking buffer for one hour at RT. Plates were washed three times with PBS and then incubated for one hour at RT with 50 μL/well of goat anti-rabbit-Alexa647 secondary antibody at 1:1,000 in blocking buffer. After washing three times with PBS, 50 μL of Hoechst dye at 1:1,000 in PBS was added for imaging. Plates were imaged on a Cytation5 plate reader. Whole well images were acquired (12 images at 4X magnification per well) and nucleocapsid-positive foci were counted using the manufacturer’s software and used to determine focus-forming units/mL supernatant (FFU/mL).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38590,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "VIR-7831, VIR-7832, S309-LS, and a control mAb with abrogated FcγR binding, S309-GRLR, were serially diluted 6-fold in assay buffer from 10,000 ng/ml to 0.006 ng/ml. Nine-point serial dilutions of mAbs were incubated with 12,500 (for FcγRIIIa and FcγRIIb) or 10,000 (for FcγRIIa) CHO-CoV-2-Spike cells per 96-plate well in a white, flat-bottom plate for 15 minutes at room temperature. Jurkat effector cells expressing indicated FcγRs and stably transfected with an NFAT-driven luciferase gene were thawed, diluted in assay buffer, and added to the plate at an effector to target cell ratio of 6:1 for FcRγIIIa and FcγRIIb or 5:1 for FcγIIa. Control wells were also included that were used to measure antibody-independent activation (containing target cells and effector cells but no antibody) and background luminescence of the plate (wells containing assay buffer only). Plates were incubated for 18 hours at 37°C with 5% CO2. Activation of human FcγRs in this bioassay results in the NFAT-mediated expression of the luciferase reporter gene. Luminescence was measured with a luminometer after adding the Bio GloTM Luciferase Assay Reagent according to the manufacturer’s instructions. To control for background, the mean of the relative luminescence units (RLU) values in wells containing only Assay Buffer was calculated and subtracted from all data points. Data were expressed as the average of RLUs over the background",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40014,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Primary NK cell activation was tested using freshly isolated cells from two previously genotyped donors expressing homozygous low affinity (F158) or high affinity (V158) FcγRIIIa. Serial dilutions of mAbs (serially diluted 10-fold in AIM-V Medium from 40,000 ng/ml to 0.075 ng/ml) were incubated with 7,500 CHO-CoV-2 Spike cells per well of a 96 well round-bottom plate for 10 minutes. Target cell and antibody mixtures were then incubated with primary human NK cells as effectors at an effector-to-target ratio of 10:1. ADCC was measured using lactate dehydrogenase (LDH) release as a readout according to the manufacturer’s instructions (Cytotoxicity Detection Kit (LDH), Roche) after 4 hours of incubation at 37°C. In brief, plates were centrifuged for 4 minutes at 400 × g, and 35 μl of supernatant was transferred to a flat 384 well plate. LDH reagent was prepared and 35 μl were added to each well. Using a kinetic protocol, the absorbance at 490 nm and 650 nm was measured once every 2 minutes for 8 minutes, and the slope of the kinetics curve was used as result. The percent specific lysis was determined by applying the following formula: (specific release – spontaneous release) / (maximum release - spontaneous release) × 100.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41252,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "ADCP assays were performed using human PBMCs freshly isolated from whole blood. CHO CoV-2-Spike cells were used as target cells and were fluorescently labeled with PKH67 Fluorescent Cell Linker Kit (Sigma Aldrich) prior to incubation with mAbs, according to manufacturer’s instructions. Serial dilutions of mAbs (serially diluted 5-fold from 5,000 ng/ml to 0.32 ng/ml in RPMI-1640 + L-glutamine supplemented with 10% Hyclone FBS + 2x anti-anti (antibiotic-antimycotic)) were incubated with 10,000 CHO-CoV-2-Spike cells per well of a 96 well polypropylene plate for 10 minutes. Primary PBMCs were fluorescently labeled with Cell Trace Violet according to the manufacturer’s instructions. Target cell and antibody mixtures were then incubated with labeled PBMCs at an effector-to-target ratio of 16:1. After an overnight incubation at 37°C, monocytes were stained with anti-human CD14-APC antibody (BD Pharmingen). Antibody-mediated phagocytosis was determined by flow cytometry, gating on CD14+ cells that were double positive for cell trace violet and PKH67. Raw data were exported from the flow cytometer into the flow cytometry analysis software FlowJo v10 (Becton Dickinson) for gating and determination of the percentage of CD14+ cells that were also double positive for cell trace violet and PKH67. Cells expressing only cell trace violet or only PKH67 were used to set the positive staining gates.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42655,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The selection of variants in the presence of increasing concentrations of VIR-7832 was conducted in VeroE6 cells. The day before infection, 6 × 104 VeroE6 cells were seeded in 24 well plates and incubated overnight at 37°C. The next day, 600 focus forming units (FFU) of SARS-CoV-2 virus (MOI = 0.01) was incubated with 0.5X IC50 of VIR-7832 (0.05 μg/mL) at 37°C for one hour in infection media. The mAb-virus complexes were adsorbed on VeroE6 cells for one hour at 37°C in duplicate wells. After adsorption, cells were washed with DMEM and overlaid with infection media containing 0.05 μg/mL VIR-7832. Control wells infected without antibody were included with each passage. Infected cells were monitored visually for CPE daily. In general, when infected cells exhibited ≥ 50% CPE, the culture supernatants were harvested, diluted 1:200, and added to fresh VeroE6 cells in 24-well plates with equivalent or increasing concentrations of VIR-7832. At each passage, supernatant was aliquoted and frozen at −80°C for titer and neutralization analyses.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43703,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "VeroE6 cells were plated at 1.25×104 cells/well one day prior to infection. For each independent experiment, moDCs and PBMCs from five unique moDC donors and six unique PBMC donors were used, with three unique donors used for each independent experiment. Cryopreserved monocytes from unique donors were differentiated into moDCs for six days using human moDC differentiation media according to the manufacturer’s protocol. Cryopreserved PBMCs from unique donors are thawed in the presence 0.3 mg/mL DNase and cultured in media for one day prior to infection. On the day of infection, moDCs, PBMCs, and U937 cells were counted and plated at 7.5×104 cells/well.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44362,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "To examine viral entry, 24 hours post-infection, cells were fixed with 4% PFA, incubated for 30 minutes at RT, then washed with PBS to remove residual PFA. The cells were permeabilized with 50 μL of 0.25% Triton X-100 in PBS for 30 minutes at RT. The Triton X-100 was removed, cells were washed twice with PBS, and incubated with 50 μL of SARS-CoV-2 nucleocapsid antibody at 1:2,000 in blocking buffer for one hour at RT. Plates were washed three times with PBS and then incubated for one hour at RT with 50 μL/well of goat anti-rabbit-Alexa647 secondary antibody at 1:1,000 in blocking buffer. After washing three times with PBS, 50 μL of Hoechst dye at 1:1,000 in PBS was added for imaging. Plates were imaged on a Cytation5 plate reader. Whole well images were acquired (12 images at 4X magnification per well) and nucleocapsid-positive cells were counted using the manufacturer’s software. The percent of nucleocapsid+ cells was quantified using the Gen5 Imager software (Biotek, Vermont) as number of Cy5+ cells, [(nucleocapsid+ cells)/number of Hoechst+ cells (total cells)]×100. Data was analyzed using Prism v8.00 (GraphPad Software, La Jolla California USA, www.graphpad.com).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45547,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "In order to quantify chemokines and cytokines from supernatants in a BSL2 laboratory, supernatants were inactivated by 10 minutes exposure to UVC light at 5,000 μJ/cm2. Supernatants were diluted 1:5 in infection media and levels of cytokines/chemokines were quantified using the U-plex 96-well assay according to the manufacturer’s protocol (Meso Scale Diagnostics, Rockville, MD). Quantification of cytokines and chemokines were determined based on an 8-point standard curve in duplicate, provided by the manufacturer. Cytokine data was analyzed using the Discovery Workbench v4.0.13 software (Meso Scale Diagnostics). Data was graphed and statistical analyses were conducted using Prism software.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46245,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "To isolate nucleic acid from the supernatant of viral passages, 120 μL of cell supernatant was added to 360 μL of Trizol and stored at −80°C for further analysis. Trizol collected samples from viral passages where a shift in neutralization > 2-fold relative to wild type was detected were subjected to RNA isolation using PureLink RNA Mini Kit with the incorporation of on-column PureLink DNase Treatment, following manufacturer’s instructions. Reverse transcription reactions were performed with 6 μL of purified RNA and oligoT primers using the NEB ProtoScript II First Strand cDNA Synthesis kit, according to manufacturer’s instructions. The resulting cDNA was used as a template for PCR amplification of the spike gene using the KapaBiosystems polymerase (KAPA HiFi HotStart ReadyMix) with primers 5’ aattatcttggcaaaccacg-3’ and 5’ tgaggcttgtatcggtatcg-3’.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47105,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Amplification conditions included an initial 3 minutes at 95°C, followed by 28 cycles with 20 seconds at 98°C, 15 seconds at 62°C and 72°C for 2 minutes, with a final 4 minutes at 72°C. PCR products were purified using AMPure XP beads following manufacturer’s instructions. The size of the amplicon was confirmed by analyzing 2 μL of PCR products using the Agilent D5000 ScreenTape System. Products were quantified by analyzing 1 μL with the Quant-iT dsDNA High-Sensitivity Assay Kit. Twenty ng of purified PCR product was used as input for library construction using the NEBNext Ultra II FS DNA Library Prep kit following manufacturer’s instructions. DNA fragmentation was performed for 13 minutes. NEBNext Multiplex Oligos for Illumina Dual Index Primer Set 1 was used for library construction, with a total of 6 PCR cycles. Libraries size was determined using the Agilent D1000 ScreenTape System and quantified with the Quant iT dsDNA High-Sensitivity Assay Kit. Equal amounts of each library were pooled together for multiplexing and ‘Protocol A: Standard Normalization Method’ of the Illumina library preparation guide was used to prepare 8 pM final multiplexed libraries with 1% PhiX spike-in for sequencing. The MiSeq Reagent Kit v3 (600-cycle) was used for sequencing the libraries on the Illumina MiSeq platform, with 300 cycles for Read 1, 300 cycles for Read 2, 8 cycles for Index 1, and 8 cycles for Index 2.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48525,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Available genome sequences for SARS-CoV-2 were downloaded from Global Initiative on Sharing All Influenza Data (GISAID; https://www.gisaid.org/) on February 26, 2021. Bat and pangolin sequences were removed to yield human-only sequences. The spike open reading frame was localized by aligning the reference protein sequence (NCBI reference sequence: YP_009724390.1) to the genomic sequence of isolates with Exonerate v.2.4.0. Coding nucleotide sequences were translated in silico using seqkit v.0.12.0. Multiple sequence alignment was performed using MAFFT v.7.455. Variants were determined by comparison of aligned sequences to the reference sequence using the R v3.6.3/Bioconductor v.3.10 package Biostrings v.2.54.0.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49244,
+          "infons": {
+            "section_title_1": "METHODS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Syrian golden hamster studies were conducted at Lovelace Biomedical (Albuquerque, NM). Twelve- to sixteen-week-old male hamsters were interperitoneally administered a non-LS version of VIR-7831 (SGHmAb-no-LS), control antibody or diluent Day -1 or Day -2 prior to virus challenge. Animals were inoculated intranasally at Day 0 with 7.4×104 TCID50 with SARS-CoV-2 (isolate USA-WA1/2020). Animals were also weighed once daily in the morning beginning on study Day -10 and continuing until the end of the study. Following euthanasia, RT-qPCR was performed on lung homogenates using quantitative real-time PCR methods targeting the SARS-CoV-2 N gene and the median tissue culture infections dose (TCID50) was determined per Lovelace internal methodology.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2022-05-09-22274623",
+      "inputfile": "../../data/processed/html/10-1101_2022-05-09-22274623.html",
+      "passages": [
+        {
+          "text_short": "VOC",
+          "text_long_1": "Variant Of Concern",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VE",
+          "text_long_1": "vaccine effectiveness",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VEi",
+          "text_long_1": "VE against symptomatic infection",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "aOR",
+          "text_long_1": "adjusted odds ratios",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VEh|i",
+          "text_long_1": "VE against hospitalization given symptomatic infection",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "HR",
+          "text_long_1": "hazard ratio",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

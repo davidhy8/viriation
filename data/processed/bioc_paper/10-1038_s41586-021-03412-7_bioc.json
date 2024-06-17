@@ -1,0 +1,228 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1038_s41586-021-03412-7",
+      "inputfile": "../../data/processed/html_papers/10-1038_s41586-021-03412-7.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Sensitivity of SARS-CoV-2 B.1.1.7 to mRNA vaccine-elicited antibodies",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 69,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "spike IgG titres and serum neutralization titres (Extended Data Fig. 1b) . A broad range of T cell responses was measured by IFNγ FluoroSpot against SARS-CoV-2 peptides in samples from individuals who received the vaccine after the first dose. These cellular responses did not correlate with serum neutralization titres or IgG spike antibody titres (Extended Data Fig. 1c, d ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 455,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We then generated mutated pseudoviruses carrying the spike protein with the N501Y and A570D substitutions and the H69/V70 deletion (ΔH69/ΔV70). We observed a small increase in the ability of sera from individuals who were vaccinated or had recovered from COVID-19 to inhibit this triple-mutant virus (Extended Data Fig. 2a-c) . We next included the full set of eight mutations in the spike protein that is present in the B.1.1.7 variant ( Fig. 1a ). Of the 29 sera with neutralization activity after the first dose, 20 showed evidence of a reduction in neutralization titres against the B.1.1.7 variant (Fig. 1b, c and Extended Data Fig. 3) , with a fold change of 3.2 ± 5.7 (mean ± s.d.). After the second dose, the GMT was markedly increased compared with the first-dose titres, with a fold change of 1.9 ± 0.9 (mean ± s.d.) ( Fig. 1d, e ). Among sera from 27 individuals who had recovered from COVID-19, the GMT at 50% neutralization was 1,334 for the wild-type spike protein, which is significantly higher than the GMT after the second dose of the vaccine (Fig. 1f, g ). The fold change in ID 50 for neutralization of the B.1.1.7 compared with wild-type (D614G) spike protein was 4.5 ± 8.7 (Fig. 1f, g and Extended Data Fig. 4 ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1689,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The E484K substitution ( Fig. 2a ) has been reported as an escape mutation for several monoclonal antibodies 5 , and is present in the B.1.351 (501Y.V2) and P.1 (501Y.V3) lineages. As of 11 February 2021, 30 B.1.1.7 sequences also had the E484K substitution ( Fig. 2c ). Phylogenetic analysis suggests that there have been multiple independent acquisitions, with one lineage appearing to expand over time, indicating active transmission (Fig. 2b ). This has resulted in Public Health England naming this a variant of concern (VOC 202102/02) 6 . We therefore generated pseudoviruses that carried the B.1.1.7 spike mutations with or without the additional E484K substitution and tested these against sera obtained after the first and second dose of the BNT162b2 mRNA vaccine as well as against convalescent sera. After the second vaccine dose, we observed a considerable loss of neutralizing activity for the pseudovirus with the B.1.1.7 spike mutations and E484K ( Fig. 3d, e ). The mean fold change for the E484K-containing B.1.1.7 spike variant was 6.7 compared with 1.9 for the B.1.1.7 variant, relative to the wild-type spike protein (Fig. 3a-c and Extended Data Fig. 5) . Similarly, when we tested a panel of convalescent sera with a range of neutralization titres (Fig. 1f , g and Extended Data Fig. 5 ), we observed additional loss of activity against the mutant B.1.1.7 spike with E484K, with fold change of 11.4 relative to the wild-type spike protein (Fig. 3f , g and Extended Data Fig. 5 ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3190,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We tested 60 monoclonal antibodies isolated from 15 individuals who had recovered from SARS-CoV-2 infection in early 2020 with an in vitro pseudotyped neutralization assay against the B.1.1.7 spike protein (Supplementary Table 1 ). Out of 60 monoclonal antibodies, 20 (33.3%) showed a greater than twofold loss of neutralizing activity against the B.1.1.7 variant compared to wild-type SARS-CoV-2 ( Fig. 4a, b and Extended Data Fig. 6 ). The B.1.1.7 mutant virus fully escaped neutralization by 8 out of 10 monoclonal antibodies (80%) that target the N-terminal domain (NTD) ( Fig. 4c ). Of the 31 monoclonal antibodies that target the receptor-binding motif (RBM), 5 (16.1%) showed more than 100-fold decrease in B.1.1.7 neutralization, and additional 6 monoclonal antibodies (19.4%) had a partial 2-10-fold reduction ( Fig. 4d) . Finally, all RBD-specific non-RBM-targeting monoclonal antibodies that were tested fully retained neutralizing activity against B.1.1.7 (Fig. 4e) . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4170,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "To address the role of the N501Y substitution in B.1.1.7 in the neutralization escape from RBM-specific antibodies, we tested the binding of 50 RBD-specific monoclonal antibodies to the wild-type and N501Y-mutant RBD by biolayer interferometry ( Fig. 4f and Extended Data Fig. 7 ). The 5 RBM-specific monoclonal antibodies that did not neutralize the B.1.1.7 variant ( Fig. 4d ) showed a complete loss of binding to the N501Y-mutant RBD (Fig. 4g, h ), demonstrating a role for this mutation as an escape mechanism for certain RBM-targeting monoclonal antibodies.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4734,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "To assess the effect of E484K on this panel of monoclonal antibodies, we generated a triple-mutant SARS-CoV-2 pseudotype virus carrying the K417N, E484K and N501Y mutations (spike (N501Y, E484K, K417N) ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4939,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The inclusion of the K417N substitution was prompted by the observation that substitutions at this position have been found in five sequences from recent viral isolates within the B.1.1.7 lineage (K417 to Asn, Glu or Arg). This is in keeping with the convergent evolution of the virus to an RBD containing N501Y, E484K and K417N or K417T as evidenced by the B.1.351 and P.1 lineages. Notably, mutations at K417 are reported to escape neutralization by monoclonal antibodies, including the recently approved monoclonal antibody LY-CoV016 5,7 . Out of the 60 monoclonal antibodies tested, 20 (33.3%) showed a loss of neutralizing activity against the spike(N501Y, E484K, K417N) mutant of more than 10-fold compared to wild-type SARS-CoV-2 ( Fig. 4a, b and Extended Data Fig. 6 ), and of these 19 are RBM-specific monoclonal antibodies. As above, we addressed the role of the E484K substitution in the escape from RBM-specific antibodies by testing the binding of 50 RBD-specific monoclonal antibodies to the RBD of the wild-type and E484K-mutant spike protein by biolayer interferometry ( Fig. 4f and Extended Data Fig. 8 ). Out of the 19 RBM-specific monoclonal antibodies that showed reduced or loss of neutralization of the spike(N501Y, E484K, K417N) mutant ( Fig. 4d ), 16 showed a complete or partial loss of binding to the RBD of the E484K mutant ( Fig. 4g, h ), which is consistent with findings that E484K is an important mutation for viral escape 8-10 . In addition, 3 of these 16 monoclonal antibodies also lost the ability to bind to an RBD containing the N501Y substitution, indicating that a fraction of RBM-specific antibodies are sensitive to both the N501Y and E484K substitutions. Similarly, 3 of the 19 monoclonal antibodies that lost neutralization against the spike(N501Y, E484K, K417N) mutant (S2D8, S2H7 and S2X128) were previously shown to lose binding and neutralization to the K417V mutant, and are here shown to be sensitive to either the N501Y or the E484K substitution. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6935,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Binding of the RBD of the B.1.1.7 variant to ACE2 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6985,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Using biolayer interferometry, we found that human ACE2 bound to the RBD of the B.1.1.7 variant with an affinity of 22 nM compared to an affinity of 133 nM for the wild-type RBD (Extended Data Fig. 9 ), in agreement with our previous deep-mutational scanning measurements using dimeric ACE2 11 . Although ACE2 bound with comparable on rates to both RBDs, the observed dissociation rate constant was slower for B.1.1.7 than for the wild-type RBD (Extended Data Table 1 ). These findings could explain the efficient ongoing transmission of this newly emergent SARS-CoV-2 lineage and the possibly reduced opportunity for antibody binding. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7621,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "To understand the effect of the mutations in the triple mutant (K417N, E484K and N501Y), we evaluated the binding of ACE2 to the immobilized RBD of spike(N501Y, E484K, K417N). We determined an ACE2-binding affinity of 64 nM for the RBD of spike(N501Y, E484K, K417N), driven by a faster off rate than observed for the RBD of the B.1.1.7 variant but slower than for the wild-type RBD. We propose that the K417N mutation is slightly detrimental to ACE2 binding, which explains the intermediate affinity determined for the RBD of spike(N501Y, E484K, K417N) compared to the B.1.1.7 and wild-type RBDs, probably as a result of disrupting the salt bridge formed with ACE2 residue D30. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8299,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Serum neutralizing activity is a correlate of protection for other respiratory viruses, including influenza 12 and respiratory syncytial virus, for which Article prohylaxis with monoclonal antibodies has been used in at-risk groups 13, 14 . Neutralizing antibody titres seemed to be highly correlated with vaccine protection against SARS-CoV-2 rechallenge in nonhuman primates 15, 16 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8685,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "This study reports on neutralization by sera collected after both the first and second doses of the BNT162b2 vaccine. The participants of this study were older adults, in line with the targeting of this age ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8892,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "S 2 M 2 8 S 2 X 1 0 7 S 2 L 5 0 S 2 X 2 8 S 2 X 3 3 3 S 2 X 1 5 8 4 A 8 S 2 X 1 2 4 S 2 L 2 6 S 2 X 3 0 3 S 2 M 2 8 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9008,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "S 2 X 1 0 7 S 2 L 5 0 S 2 X 2 8 S 2 X 3 3 3 S 2 X 1 5 8 4 A 8 S 2 X 1 2 4 S 2 L 2 6 S 2 X 3 0 3 10 -2 10 -1 10 0 10 1 10 2 10 3 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9136,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Fold change in IC 50 (mutant/WT) 10 0 10 1 10 2 10 3 10 4 10 0 10 1 10 2 10 3 10 4 10 0 10 1 10 2 10 3 10 4 group in the initial rollout of the vaccination campaign in the UK. We demonstrate that neutralization of a pseudovirus containing the spike protein with the full set of mutations that is present in the B.1.1.7 variant showed a small reduction using sera from individuals who received the BNT162b2 vaccine that was more marked after the first dose than the second dose. This could be related to the increased breadth, potency and/or concentration of antibodies after the boost dose. Other studies have reported a small reduction in neutralization against the B.1.1.7 variant in individuals vaccinated with two doses of BNT162b2 17 and mRNA-1273 18 . The reduced neutralizing activity observed with polyclonal antibodies elicited by mRNA vaccines observed in this study is further supported by the loss of neutralizing activity observed with human monoclonal antibodies directed against both the RBD and, to a major extent, the NTD. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10176,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "S 2 D 6 5 S 2 H 7 1 S 2 X 2 4 6 S 2 E 1 6 S 2 X 2 2 7 S 2 N 2 8 S 2 X 3 2 4 S 2 E 1 1 S 2 E 2 3 S 2 E 1 2 S 2 E 1 3 S 2 D 9 7 S 2 N 1 2 S 2 X 6 1 3 S 2 X 1 9 2 S 2 H 1 4 S 2 H 7 S 2 H 1 9 S 2 D 1 9 S 2 H 7 0 S 2 X 1 2 8 S 2 X 1 6 S 2 X 5 8 S 2 D 8 S 2 D 1 0 6 S 2 H 5 8 S 2 N 2 2 S 2 D 3 2 S 2 X 6 1 5 S 2 X 3 0 S 2 M 1 1 S 2 X 6 0 7 S 2 K 1 5 S 2 X 4 7 5 S 2 H 9 7 S 2 H 9 0 S 2 L 1 7 S 2 X 4 5 0 S 2 X 2 5 9 S 2 X 3 5 S 2 X 6 0 9 S 2 X 6 0 8 S 2 H 9 4 S 2 X 6 2 0 S 2 X 6 1 9 S 2 K 2 1 S 2 K 3 0 S 2 L 4 9 S 2 K 6 3 v ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10696,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Multiple variants, including the 501Y.V2 and B.1.1.7 lineages, have multiple mutations as well as deletions in the NTD, most of which are located in a site of vulnerability that is targeted by all known NTD-specific neutralizing antibodies 19, 20 . The role of NTD-specific neutralizing antibodies might be underestimated, in part by the use of neutralization assays based on target cells that overexpress ACE2 receptors. NTD-specific monoclonal antibodies were suggested to interfere with viral entry based on other accessory receptors, such as DC-SIGN and L-SIGN 21 , and their neutralization potency was found to be dependent on different in vitro culture conditions 19 . The observation that 9 out of 10 NTD-specific neutralizing antibodies did not show a complete or near-complete loss of neutralizing activity against B.1.1.7 indicates that this new variant may have also evolved to escape from this class of antibodies, which may have a yet unrecognized role in protective immunity. Taken together, the presence of multiple escape mutations in the NTD is supportive of the hypothesis that this region of the spike, in addition to the RBM, is also under immune pressure. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11873,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Worryingly, we have shown that there are multiple B.1.1.7 sequences in the UK that contain the E484K substitution with early evidence of transmission as well as independent acquisitions. We measured a further reduction in neutralization titres by vaccine sera when E484K was present alongside the B.1.1.7 spike mutations. A recent study 18 has also shown that variants carrying the E484K substitution resulted in a 3-6-fold reduction in neutralization by sera from individuals who received the mRNA-1273 vaccine. Consistently, in this study we found that approximately 50% of the RBM-specific monoclonal antibodies tested lost neutralizing activity against SARS-CoV-2 carrying E484K. E484K has been shown to affect neutralization by monoclonal antibodies or convalescent sera, especially in combination with N501Y and K417N 8,22-24 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12707,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Vaccines are a key part of a long-term strategy to bring SARS-CoV-2 transmission under control. Our data suggest that vaccine escape by the virus of current spike-directed vaccines designed against the Wuhan-1 strain will be inevitable, particularly given that E484K is emerging independently and recurrently on a B.1.1.7 (501Y.V1) background, and given the rapid global spread of B.1.1.7. Other major variants with E484K such as 501Y.V2 and V3 are also spreading regionally. This should be mitigated by designing next-generation vaccines with mutated spike sequences and using alternative viral antigens. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13313,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Any methods, additional references, Nature Research reporting summaries, source data, extended data, supplementary information, acknowledgements, peer review information; details of author contributions and competing interests; and statements of data and code availability are available at https://doi.org/10.1038/s41586-021-03412-7.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

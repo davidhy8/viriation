@@ -1,0 +1,53 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-04-26-441517",
+      "inputfile": "../../data/processed/html/10-1101_2021-04-26-441517.html",
+      "passages": [
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "coronavirus disease outbreak of 2019",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBD",
+          "text_long_1": "receptor binding domain",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ACE-2",
+          "text_long_1": "angiotensin converting enzyme-2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ELISA",
+          "text_long_1": "enzyme-linked immunosorbent assay",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SP",
+          "text_long_1": "spike protein",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SD",
+          "text_long_1": "standard deviation",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Ab",
+          "text_long_1": "Antibody",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

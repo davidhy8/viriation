@@ -1,0 +1,28 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240502",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-03-24-436850",
+      "inputfile": "../../data/processed/html/10-1101_2021-03-24-436850.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

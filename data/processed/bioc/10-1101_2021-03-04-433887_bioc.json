@@ -1,0 +1,82 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-03-04-433887",
+      "inputfile": "../../data/processed/html/10-1101_2021-03-04-433887.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "SARS-CoV-2 variant with higher affinity to ACE2 shows reduced sera neutralization susceptibility",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 96,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Although no correlate of protection from SARS-CoV-2 has yet been confirmed, it is likely that this will apply to serum neutralization activity as it is a common correlate of protection against viral infection following natural infection or vaccination1, 2. Neutralizing antibody responses against SARS-CoV-2 are primarily directed against the receptor binding domain (RBD) of the spike protein. Within the RBD, the receptor binding motif (RBM) is the most important site, as it directly interacts with ACE2. The affinity of spike for ACE2 is 4-fold increased between SARS-CoV-1 and SARS-CoV-2, likely contributing to the increased infectivity and transmission of the latter3, 4. Likewise, antibodies against SARS-CoV-2 did not show cross-reactivity with RBD of SARS-CoV-1 indicating limited serum cross-neutralization and notable differences in the antigenicity between the closely related SARS-CoV-1 and SARS-CoV-25. Recently, virus variants from the United Kingdom (N501Y, 60/70-deletions, A570D, D614G, P681H), South Africa (K417N, E484K, N501Y, D614G) and Brazil (K417N/T, E484K, N501Y, D614G) have been reported that may change the course of the pandemic6.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1269,
+          "infons": {
+            "section_title_1": "Results and Discussion",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318",
+            "iao_name_2": "discussion section",
+            "iao_id_2": "IAO:0000319"
+          },
+          "text": "We analyzed whether the newly emerging mutant RBDs may affect the affinity for the viral receptor. In addition, such mutations at the virus-receptor interaction face may alter the ability of RBD-specific antibodies - induced by previous infection or vaccination - to neutralize the mutant viruses. A previous study showed that serum neutralization is not compromised by N501Y (also found in the UK strain B.1.1.7)7. In contrast, E484K (found in the South Africa 501Y.V2 and in the Brazilian P.1 strains) was associated with reduced neutralization8, 9. Interestingly, studies applying in vitro pressure produced similar mutations as those that occurred naturally10. To address the questions of antibody binding strength and competition mechanistically, we have expressed the RBD of the Brazilian isolate P.1 exhibiting RBD mutations (K417N, E484K, N501Y), two of which are in the RBM (E484K, N501Y) (Fig. 1A)11. Both wild type (RBDwt) and mutant (RBDmut) were purified to homogenicity and the affinity to recombinant ACE2 was determined by Biolayer Interferometry using Octet technology12. Fig. 1B shows that the affinity of ACE2 for the novel RBDmut was twice as high as for RBDwt. Having in mind that the affinity of the of SARS-CoV-2 for ACE2 is only 4-fold higher compared to SARS-CoV-1, this factor of 2 is expected to be biologically significant.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2642,
+          "infons": {
+            "section_title_1": "Results and Discussion",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318",
+            "iao_name_2": "discussion section",
+            "iao_id_2": "IAO:0000319"
+          },
+          "text": "To determine whether RBDwt-specific immune sera might have a reduced ability to bind to RBDmut we performed ELISA and Biolayer Interferometry. Mice were immunized twice with RBDwt displayed on Virus-Like Particles derived from Cucumber mosaic virus (CuMVTT-VLPs) (40 μg, s.c.13) and sera were collected 7 days after the second vaccination. Direct binding experiments demonstrated better recognition of RBDwt than RBDmut by murine immune sera (Fig. 2A, B). To assess the capacity of the sera to block the interaction between RBDmut and the viral receptor, we performed competition experiments. The results showed that RBDwt-induced immune sera were clearly inferior at blocking binding of ACE2 to RBDmut, indicating reduced neutralizing capacity of RBDwt specific antibodies for the mutant virus (Fig. 2C). Essentially similar results but with much pronounced effect were obtained for human sera received from convalescent patients. Impaired recognition of RBDmut was paralleled by reduced binding to RBDmut (Fig. 3A, B) and ability to compete with ACE2 binding (Fig. 3C). Thus, these data demonstrate immune escape by RBDmut from polyclonal antibodies induced by vaccination or infection, comparable to what was previously shown with monoclonal antibodies for N501Y14 and more importantly for E484K15, 16, 17. Even though viral mutations may more strongly affect monoclonal antibodies than sera activity, the latter may also be reduced18 as confirmed here. While the studies of monoclonal antibodies are relevant for the characterization of individual epitopes and viral clusters, as well as the potential use of those antibodies to treat COVID-19 patients19, the activity of sera is more relevant for immunity as it likely correlates with protection of the increasing number of individuals that have undergone infection and/or vaccination.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4482,
+          "infons": {
+            "section_title_1": "Results and Discussion",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318",
+            "iao_name_2": "discussion section",
+            "iao_id_2": "IAO:0000319"
+          },
+          "text": "In summary, our data demonstrate increased affinity of ACE2 for the mutant RBD and reduced ability of RBDwt-induced immune sera to compete with ACE2 binding to RBDmut. These data confirm that the mutant Brazilian SARS-CoV-2 strain P.1 is more infectious3 and less susceptible to neutralization by antibodies induced with RBDwt.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

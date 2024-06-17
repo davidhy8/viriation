@@ -1,0 +1,930 @@
+{
+  "source": "Auto-CORPus (tables)",
+  "date": "20240501",
+  "key": "autocorpus_tables.key",
+  "infons": {},
+  "documents": [
+    {
+      "inputfile": "../../data/processed/html_papers/10-1093_cid_ciab446.html",
+      "id": "1",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": ""
+        },
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Table 1. Clinical and Biological Characteristics of Vaccinated and Nonvaccinated Residents Infected With SARS-CoV-2 Variant 501Y.V2"
+        },
+        {
+          "offset": 131,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "1.1.1",
+              "cell_text": ""
+            },
+            {
+              "cell_id": "1.1.2",
+              "cell_text": "Age"
+            },
+            {
+              "cell_id": "1.1.3",
+              "cell_text": "Underlying Conditions"
+            },
+            {
+              "cell_id": "1.1.4",
+              "cell_text": "Date of Last Dose of BNT162b2"
+            },
+            {
+              "cell_id": "1.1.5",
+              "cell_text": "Date of RT-PCR +"
+            },
+            {
+              "cell_id": "1.1.6",
+              "cell_text": "RT-PCR (Ct Value)"
+            },
+            {
+              "cell_id": "1.1.7",
+              "cell_text": "Onset Symptom"
+            },
+            {
+              "cell_id": "1.1.8",
+              "cell_text": "Anti-S Antibodies (Architect, Abbott, AU/mL)"
+            },
+            {
+              "cell_id": "1.1.9",
+              "cell_text": "Anti-N Antibodies (Architect, Abbott, Index)"
+            },
+            {
+              "cell_id": "1.1.10",
+              "cell_text": "Illness Severity"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.2.1",
+                    "cell_text": "Vaccinated"
+                  },
+                  {
+                    "cell_id": "1.2.2",
+                    "cell_text": "residents"
+                  },
+                  {
+                    "cell_id": "1.2.3",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.2.4",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.2.5",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.2.6",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.2.7",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.2.8",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.2.9",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.2.10",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.3.1",
+                    "cell_text": "Resident 1"
+                  },
+                  {
+                    "cell_id": "1.3.2",
+                    "cell_text": 92.0
+                  },
+                  {
+                    "cell_id": "1.3.3",
+                    "cell_text": "DM HC"
+                  },
+                  {
+                    "cell_id": "1.3.4",
+                    "cell_text": "2 February"
+                  },
+                  {
+                    "cell_id": "1.3.5",
+                    "cell_text": "8 March"
+                  },
+                  {
+                    "cell_id": "1.3.6",
+                    "cell_text": 13.0
+                  },
+                  {
+                    "cell_id": "1.3.7",
+                    "cell_text": "4 March"
+                  },
+                  {
+                    "cell_id": "1.3.8",
+                    "cell_text": 139.0
+                  },
+                  {
+                    "cell_id": "1.3.9",
+                    "cell_text": "<1.4"
+                  },
+                  {
+                    "cell_id": "1.3.10",
+                    "cell_text": "Death"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.4.1",
+                    "cell_text": "Resident 2"
+                  },
+                  {
+                    "cell_id": "1.4.2",
+                    "cell_text": 95.0
+                  },
+                  {
+                    "cell_id": "1.4.3",
+                    "cell_text": "HC Hypertension"
+                  },
+                  {
+                    "cell_id": "1.4.4",
+                    "cell_text": "2 February"
+                  },
+                  {
+                    "cell_id": "1.4.5",
+                    "cell_text": "9 March"
+                  },
+                  {
+                    "cell_id": "1.4.6",
+                    "cell_text": 19.0
+                  },
+                  {
+                    "cell_id": "1.4.7",
+                    "cell_text": "11 March"
+                  },
+                  {
+                    "cell_id": "1.4.8",
+                    "cell_text": 79.0
+                  },
+                  {
+                    "cell_id": "1.4.9",
+                    "cell_text": "<1.4"
+                  },
+                  {
+                    "cell_id": "1.4.10",
+                    "cell_text": "Mild to moderate"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.5.1",
+                    "cell_text": "Resident 3"
+                  },
+                  {
+                    "cell_id": "1.5.2",
+                    "cell_text": 69.0
+                  },
+                  {
+                    "cell_id": "1.5.3",
+                    "cell_text": "CD Cancer NC"
+                  },
+                  {
+                    "cell_id": "1.5.4",
+                    "cell_text": "2 February"
+                  },
+                  {
+                    "cell_id": "1.5.5",
+                    "cell_text": "9 March"
+                  },
+                  {
+                    "cell_id": "1.5.6",
+                    "cell_text": 20.0
+                  },
+                  {
+                    "cell_id": "1.5.7",
+                    "cell_text": "..."
+                  },
+                  {
+                    "cell_id": "1.5.8",
+                    "cell_text": 3364.0
+                  },
+                  {
+                    "cell_id": "1.5.9",
+                    "cell_text": "<1.4"
+                  },
+                  {
+                    "cell_id": "1.5.10",
+                    "cell_text": "Asymptomatic"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.6.1",
+                    "cell_text": "Resident 4"
+                  },
+                  {
+                    "cell_id": "1.6.2",
+                    "cell_text": 88.0
+                  },
+                  {
+                    "cell_id": "1.6.3",
+                    "cell_text": "Obesity T2DM HC Hypertension NC"
+                  },
+                  {
+                    "cell_id": "1.6.4",
+                    "cell_text": "2 February"
+                  },
+                  {
+                    "cell_id": "1.6.5",
+                    "cell_text": "9 March"
+                  },
+                  {
+                    "cell_id": "1.6.6",
+                    "cell_text": 17.0
+                  },
+                  {
+                    "cell_id": "1.6.7",
+                    "cell_text": "11 March"
+                  },
+                  {
+                    "cell_id": "1.6.8",
+                    "cell_text": 643.0
+                  },
+                  {
+                    "cell_id": "1.6.9",
+                    "cell_text": "<1.4"
+                  },
+                  {
+                    "cell_id": "1.6.10",
+                    "cell_text": "Death"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.7.1",
+                    "cell_text": "Resident 5"
+                  },
+                  {
+                    "cell_id": "1.7.2",
+                    "cell_text": 89.0
+                  },
+                  {
+                    "cell_id": "1.7.3",
+                    "cell_text": "T2DM HC Hypertension COPD NC"
+                  },
+                  {
+                    "cell_id": "1.7.4",
+                    "cell_text": "2 February"
+                  },
+                  {
+                    "cell_id": "1.7.5",
+                    "cell_text": "9 March"
+                  },
+                  {
+                    "cell_id": "1.7.6",
+                    "cell_text": 32.0
+                  },
+                  {
+                    "cell_id": "1.7.7",
+                    "cell_text": "11 March"
+                  },
+                  {
+                    "cell_id": "1.7.8",
+                    "cell_text": 3298.0
+                  },
+                  {
+                    "cell_id": "1.7.9",
+                    "cell_text": "<1.4"
+                  },
+                  {
+                    "cell_id": "1.7.10",
+                    "cell_text": "Mild to moderate"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.8.1",
+                    "cell_text": "Resident 6"
+                  },
+                  {
+                    "cell_id": "1.8.2",
+                    "cell_text": 99.0
+                  },
+                  {
+                    "cell_id": "1.8.3",
+                    "cell_text": "HC NC"
+                  },
+                  {
+                    "cell_id": "1.8.4",
+                    "cell_text": "2 February"
+                  },
+                  {
+                    "cell_id": "1.8.5",
+                    "cell_text": "9 March"
+                  },
+                  {
+                    "cell_id": "1.8.6",
+                    "cell_text": 19.0
+                  },
+                  {
+                    "cell_id": "1.8.7",
+                    "cell_text": "12 March"
+                  },
+                  {
+                    "cell_id": "1.8.8",
+                    "cell_text": "<6.8"
+                  },
+                  {
+                    "cell_id": "1.8.9",
+                    "cell_text": "<1.4"
+                  },
+                  {
+                    "cell_id": "1.8.10",
+                    "cell_text": "Mild to moderate"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.9.1",
+                    "cell_text": "Resident 7"
+                  },
+                  {
+                    "cell_id": "1.9.2",
+                    "cell_text": 89.0
+                  },
+                  {
+                    "cell_id": "1.9.3",
+                    "cell_text": "HC Hypertension"
+                  },
+                  {
+                    "cell_id": "1.9.4",
+                    "cell_text": "2 February"
+                  },
+                  {
+                    "cell_id": "1.9.5",
+                    "cell_text": "9 March"
+                  },
+                  {
+                    "cell_id": "1.9.6",
+                    "cell_text": 14.0
+                  },
+                  {
+                    "cell_id": "1.9.7",
+                    "cell_text": "09 March"
+                  },
+                  {
+                    "cell_id": "1.9.8",
+                    "cell_text": 2683.0
+                  },
+                  {
+                    "cell_id": "1.9.9",
+                    "cell_text": "<1.4"
+                  },
+                  {
+                    "cell_id": "1.9.10",
+                    "cell_text": "Mild to moderate"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.10.1",
+                    "cell_text": "Resident 8"
+                  },
+                  {
+                    "cell_id": "1.10.2",
+                    "cell_text": 95.0
+                  },
+                  {
+                    "cell_id": "1.10.3",
+                    "cell_text": "HC cancer"
+                  },
+                  {
+                    "cell_id": "1.10.4",
+                    "cell_text": "2 February"
+                  },
+                  {
+                    "cell_id": "1.10.5",
+                    "cell_text": "9 March"
+                  },
+                  {
+                    "cell_id": "1.10.6",
+                    "cell_text": 29.0
+                  },
+                  {
+                    "cell_id": "1.10.7",
+                    "cell_text": "12 March"
+                  },
+                  {
+                    "cell_id": "1.10.8",
+                    "cell_text": 599.0
+                  },
+                  {
+                    "cell_id": "1.10.9",
+                    "cell_text": "<1.4"
+                  },
+                  {
+                    "cell_id": "1.10.10",
+                    "cell_text": "Mild to moderate"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.11.1",
+                    "cell_text": "Resident 9"
+                  },
+                  {
+                    "cell_id": "1.11.2",
+                    "cell_text": 97.0
+                  },
+                  {
+                    "cell_id": "1.11.3",
+                    "cell_text": "Hypertension NC"
+                  },
+                  {
+                    "cell_id": "1.11.4",
+                    "cell_text": "2 February"
+                  },
+                  {
+                    "cell_id": "1.11.5",
+                    "cell_text": "9 March"
+                  },
+                  {
+                    "cell_id": "1.11.6",
+                    "cell_text": 32.0
+                  },
+                  {
+                    "cell_id": "1.11.7",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.11.8",
+                    "cell_text": 867.0
+                  },
+                  {
+                    "cell_id": "1.11.9",
+                    "cell_text": "<1.4"
+                  },
+                  {
+                    "cell_id": "1.11.10",
+                    "cell_text": "Asymptomatic"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.12.1",
+                    "cell_text": "Resident 10"
+                  },
+                  {
+                    "cell_id": "1.12.2",
+                    "cell_text": 80.0
+                  },
+                  {
+                    "cell_id": "1.12.3",
+                    "cell_text": "T2DM"
+                  },
+                  {
+                    "cell_id": "1.12.4",
+                    "cell_text": "2 February"
+                  },
+                  {
+                    "cell_id": "1.12.5",
+                    "cell_text": "11 March"
+                  },
+                  {
+                    "cell_id": "1.12.6",
+                    "cell_text": 29.0
+                  },
+                  {
+                    "cell_id": "1.12.7",
+                    "cell_text": "11 March"
+                  },
+                  {
+                    "cell_id": "1.12.8",
+                    "cell_text": 4903.0
+                  },
+                  {
+                    "cell_id": "1.12.9",
+                    "cell_text": "<1.4"
+                  },
+                  {
+                    "cell_id": "1.12.10",
+                    "cell_text": "Mild to moderate"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.13.1",
+                    "cell_text": "Resident 11"
+                  },
+                  {
+                    "cell_id": "1.13.2",
+                    "cell_text": 87.0
+                  },
+                  {
+                    "cell_id": "1.13.3",
+                    "cell_text": "NC"
+                  },
+                  {
+                    "cell_id": "1.13.4",
+                    "cell_text": "2 February"
+                  },
+                  {
+                    "cell_id": "1.13.5",
+                    "cell_text": "15 March"
+                  },
+                  {
+                    "cell_id": "1.13.6",
+                    "cell_text": 18.0
+                  },
+                  {
+                    "cell_id": "1.13.7",
+                    "cell_text": "11 March"
+                  },
+                  {
+                    "cell_id": "1.13.8",
+                    "cell_text": 8188.0
+                  },
+                  {
+                    "cell_id": "1.13.9",
+                    "cell_text": "<1.4"
+                  },
+                  {
+                    "cell_id": "1.13.10",
+                    "cell_text": "Mild to moderate"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.14.1",
+                    "cell_text": "Resident 12"
+                  },
+                  {
+                    "cell_id": "1.14.2",
+                    "cell_text": 83.0
+                  },
+                  {
+                    "cell_id": "1.14.3",
+                    "cell_text": "HC NC"
+                  },
+                  {
+                    "cell_id": "1.14.4",
+                    "cell_text": "2 February"
+                  },
+                  {
+                    "cell_id": "1.14.5",
+                    "cell_text": "15 March"
+                  },
+                  {
+                    "cell_id": "1.14.6",
+                    "cell_text": 15.0
+                  },
+                  {
+                    "cell_id": "1.14.7",
+                    "cell_text": "12 March"
+                  },
+                  {
+                    "cell_id": "1.14.8",
+                    "cell_text": 1471.0
+                  },
+                  {
+                    "cell_id": "1.14.9",
+                    "cell_text": "<1.4"
+                  },
+                  {
+                    "cell_id": "1.14.10",
+                    "cell_text": "Mild to moderate"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.15.1",
+                    "cell_text": "Resident 13"
+                  },
+                  {
+                    "cell_id": "1.15.2",
+                    "cell_text": 93.0
+                  },
+                  {
+                    "cell_id": "1.15.3",
+                    "cell_text": "Hypertension"
+                  },
+                  {
+                    "cell_id": "1.15.4",
+                    "cell_text": "26 February"
+                  },
+                  {
+                    "cell_id": "1.15.5",
+                    "cell_text": "22 March"
+                  },
+                  {
+                    "cell_id": "1.15.6",
+                    "cell_text": 17.0
+                  },
+                  {
+                    "cell_id": "1.15.7",
+                    "cell_text": "15 March"
+                  },
+                  {
+                    "cell_id": "1.15.8",
+                    "cell_text": 550.0
+                  },
+                  {
+                    "cell_id": "1.15.9",
+                    "cell_text": "<1.4"
+                  },
+                  {
+                    "cell_id": "1.15.10",
+                    "cell_text": "Mild to moderate"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.16.1",
+                    "cell_text": "Unvaccinated"
+                  },
+                  {
+                    "cell_id": "1.16.2",
+                    "cell_text": "residents"
+                  },
+                  {
+                    "cell_id": "1.16.3",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.16.4",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.16.5",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.16.6",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.16.7",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.16.8",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.16.9",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.16.10",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.17.1",
+                    "cell_text": "Resident 14"
+                  },
+                  {
+                    "cell_id": "1.17.2",
+                    "cell_text": 77.0
+                  },
+                  {
+                    "cell_id": "1.17.3",
+                    "cell_text": "NC COPD"
+                  },
+                  {
+                    "cell_id": "1.17.4",
+                    "cell_text": "..."
+                  },
+                  {
+                    "cell_id": "1.17.5",
+                    "cell_text": "9 March"
+                  },
+                  {
+                    "cell_id": "1.17.6",
+                    "cell_text": 17.0
+                  },
+                  {
+                    "cell_id": "1.17.7",
+                    "cell_text": "9 March"
+                  },
+                  {
+                    "cell_id": "1.17.8",
+                    "cell_text": "..."
+                  },
+                  {
+                    "cell_id": "1.17.9",
+                    "cell_text": "..."
+                  },
+                  {
+                    "cell_id": "1.17.10",
+                    "cell_text": "Severe"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.18.1",
+                    "cell_text": "Resident 15"
+                  },
+                  {
+                    "cell_id": "1.18.2",
+                    "cell_text": 88.0
+                  },
+                  {
+                    "cell_id": "1.18.3",
+                    "cell_text": "NC HC hypertension"
+                  },
+                  {
+                    "cell_id": "1.18.4",
+                    "cell_text": "..."
+                  },
+                  {
+                    "cell_id": "1.18.5",
+                    "cell_text": "9 March"
+                  },
+                  {
+                    "cell_id": "1.18.6",
+                    "cell_text": 13.0
+                  },
+                  {
+                    "cell_id": "1.18.7",
+                    "cell_text": "9 March"
+                  },
+                  {
+                    "cell_id": "1.18.8",
+                    "cell_text": "..."
+                  },
+                  {
+                    "cell_id": "1.18.9",
+                    "cell_text": "..."
+                  },
+                  {
+                    "cell_id": "1.18.10",
+                    "cell_text": "Death"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.19.1",
+                    "cell_text": "Resident 16"
+                  },
+                  {
+                    "cell_id": "1.19.2",
+                    "cell_text": 83.0
+                  },
+                  {
+                    "cell_id": "1.19.3",
+                    "cell_text": "NC"
+                  },
+                  {
+                    "cell_id": "1.19.4",
+                    "cell_text": "..."
+                  },
+                  {
+                    "cell_id": "1.19.5",
+                    "cell_text": "9 March"
+                  },
+                  {
+                    "cell_id": "1.19.6",
+                    "cell_text": 12.0
+                  },
+                  {
+                    "cell_id": "1.19.7",
+                    "cell_text": "10 March"
+                  },
+                  {
+                    "cell_id": "1.19.8",
+                    "cell_text": "..."
+                  },
+                  {
+                    "cell_id": "1.19.9",
+                    "cell_text": "..."
+                  },
+                  {
+                    "cell_id": "1.19.10",
+                    "cell_text": "Mild to moderate"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.20.1",
+                    "cell_text": "Resident 17"
+                  },
+                  {
+                    "cell_id": "1.20.2",
+                    "cell_text": 81.0
+                  },
+                  {
+                    "cell_id": "1.20.3",
+                    "cell_text": "Obesity hypertension"
+                  },
+                  {
+                    "cell_id": "1.20.4",
+                    "cell_text": "..."
+                  },
+                  {
+                    "cell_id": "1.20.5",
+                    "cell_text": "9 March"
+                  },
+                  {
+                    "cell_id": "1.20.6",
+                    "cell_text": 16.0
+                  },
+                  {
+                    "cell_id": "1.20.7",
+                    "cell_text": "10 March"
+                  },
+                  {
+                    "cell_id": "1.20.8",
+                    "cell_text": "..."
+                  },
+                  {
+                    "cell_id": "1.20.9",
+                    "cell_text": "..."
+                  },
+                  {
+                    "cell_id": "1.20.10",
+                    "cell_text": "Severe"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.21.1",
+                    "cell_text": "Resident 18"
+                  },
+                  {
+                    "cell_id": "1.21.2",
+                    "cell_text": 92.0
+                  },
+                  {
+                    "cell_id": "1.21.3",
+                    "cell_text": "NC CD"
+                  },
+                  {
+                    "cell_id": "1.21.4",
+                    "cell_text": "..."
+                  },
+                  {
+                    "cell_id": "1.21.5",
+                    "cell_text": "9 March"
+                  },
+                  {
+                    "cell_id": "1.21.6",
+                    "cell_text": 17.0
+                  },
+                  {
+                    "cell_id": "1.21.7",
+                    "cell_text": "10 March"
+                  },
+                  {
+                    "cell_id": "1.21.8",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.21.9",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.21.10",
+                    "cell_text": "Severe"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-04-19-440435",
+      "inputfile": "../../data/processed/html/10-1101_2021-04-19-440435.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "SARS-CoV-2 20I/501Y.V1 variant in the hamster model",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51,
+          "infons": {
+            "section_title_1": "Text"
+          },
+          "text": "The genetic evolution of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) virus is a constant concern for medical and scientific communities. From January 2020, viruses carrying the spike D614G mutation emerged in several countries (Korber et al., 2020; Volz et al., 2021; Yurkovetskiy et al., 2020). In June, D614G SARS-CoV-2 lineage B.1 became the dominant form of circulating virus worldwide and replaced the initial SARS-CoV-2 strains related to the outbreak in Wuhan, China. Experimental data from human lung epithelium and animal models revealed that the D614G substitution increased virus infectivity and transmissibility as compared to an original D614 strain (Plante et al., 2020). However, it seems that this D614G variant does not cause more severe clinical disease. In late 2020, three SARS-CoV-2 variants sharing the N501Y spike mutation located in the receptor binding motif (RBM) emerged almost simultaneously in the United Kingdom (20I/501Y.V1 variant from lineage B.1.1.7; initially named VOC 202012/01) (du Plessis et al., 2021), in South Africa (501Y.V2 variant from lineage B.1.351) (CDC) and in Brazil (P.1 variant from lineage B.1.1.28.1) (Sabino et al., 2021). As previously observed with the D614G variant, the 20I/501Y.V1 variant spread rapidly and became dominant in United Kingdom in December 2020, and in many other European and non-European countries from February 2021 onwards (CoVariants.org). This similar evolution pattern seems to be associated with an improved affinity of the viral spike protein for the human angiotensin-converting enzyme 2 (ACE2) receptor (Liu et al., 2021; Zahradník et al., 2021). The 20I/501Y.V1 variant harbors 8 additional spike mutations, including substitutions and deletions, compared to D614G circulating strains. At this stage, there are few data regarding the 20I/501Y.V1 variant pathogenicity and its ability to spread more easily (Davies et al., 2021; Zhao et al., 2021). Recent studies also revealed that the active circulation of the 20I/501Y.V1 variant may not impact the risk of reinfection, the efficiency of vaccine campaigns and antibody therapies remains also unknown (Chen et al., 2021; Planas et al., 2021; Shen et al., 2021). We recently described the fitness advantage of 20I/501Y.V1 variant using a model of reconstituted bronchial human epithelium (Touret et al., 2021). In the present work, we compared the phenotype of the 20I/501Y.V1 variant (hCoV-103 19/Belgium/rega-12211513/2020 strain) with that of a D614G strain (Germany/BavPat1/2020 strain) in the Syrian hamster (Mesocricetus auratus) model. The study includes comparison of viral replication kinetics, transmissibility, clinical course of the disease and immunological response.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2793,
+          "infons": {
+            "section_title_1": "Text"
+          },
+          "text": "First, to detect modifications of the clinical course of the disease following infection with the 20I/501Y.V1 variant, groups of 12 three-week-old female Syrian hamsters were intranasally infected with 50μl containing 2×103TCID50 of 20I/501Y.V1 or BavPat D614G strain (Figure 1.a). Follow-up of these animals until 7 days post-infection (dpi) showed with both strains a lack of weight gain compared to mock-infected group. Normalized weights (i.e. % of initial weights) of animals infected with 20I/501Y.V1 variant were significantly higher than those of BavPat D614G group at 3, 4 and 5 dpi (p values between 0.0403 and 0.0007)(Figure 1.b). However, this difference seems to be the result of a delayed onset of disease for 20I/501Y.V1 variant since significant difference of normalized weights compared to mock-infected group began at 2 dpi for animals infected with BavPat D614G strain and at 3 dpi for those infected with the 20I/501Y.V1 variant.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3742,
+          "infons": {
+            "section_title_1": "Text"
+          },
+          "text": "Second, to further investigate viral replication, groups of 12 three-week-old female Syrian hamsters were intranasally infected with 50μl containing 2×103TCID50 of each viral strain and several tissues were collected at different time points (Figure 1.a).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3997,
+          "infons": {
+            "section_title_1": "Text"
+          },
+          "text": "Viral RNA quantification was performed using a RT-qPCR assay (i) in lung and nasal wash samples collected at 2, 4 and 7 dpi, and (ii) in blood and gut samples collected at 2 and 4 dpi. Infectious titers were determined using a TCID50 assay in lungs and nasal washes at 2 and 4 dpi. Overall, the results indicated that the 20I/501Y.V1 variant properly replicate in the hamster gut and respiratory tract. However, higher viral RNA yields were found in all samples from animals infected with BavPat D614G strain (difference ranged from 0.085 to 0.801 log10). This difference was significant in lung and gut at any time point (p values ranging between 0.0332 and 0.0084) (Figure 1.c.d.e). Results of plasma did not show any significant difference (Supplemental Figure 1.a). A similar pattern was observed when assessing infectious viral loads using a TCID50 assay (differences ranged from 0.0343 to 0.389 log10) but no significant difference was found (Figure 1.f.g).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4960,
+          "infons": {
+            "section_title_1": "Text"
+          },
+          "text": "To detect more subtle differences of viral replication in vivo, we performed competitions experiments as previously described (Liu et al., 2021; Nougairede et al., 2013). Groups of 12 animals were simultaneously infected intranasally with 50μl containing 50% (103 TCID50) of each viral strain. Lungs, nasal washes and plasma were collected at 2 and 4 dpi (Figure 1.a). Using two specific RT-qPCR systems, we estimated in all samples the proportion of each viral genome in the viral population (expressed as BavPat D614G/20I/501Y.V1 ratios in Figure 1.h.i). Once again, results revealed that BavPat D614G strain seems to replicate a somewhat more efficiently and supplants progressively the 20I/501Y.V1 variant. Indeed, BavPat D614G/ 20I/501Y.V1 estimated ratios at 4dpi were significantly higher than those at 2 dpi in nasal washes (p=0.0001). Moreover, ratios at 4 dpi in nasal washes were also significantly higher than those in the infecting inoculum (p=0.022) (Figure 1.i). By contrast, no significant difference was found in lungs (Figure 1.h) and plasma (supplemental Figure 1.b).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6046,
+          "infons": {
+            "section_title_1": "Text"
+          },
+          "text": "To obtain a clearer picture, we compared the transmissibility of both strains in a last in vivo experiment. To increase the sensitivity of the procedure, groups of 12 animals were simultaneously infected intranasally with 50μl containing a low dose of each viral strain (20 TCID50). These animals, called ‘donors’, firstly housed individually, were co-housed at 2 dpi with an uninfected animal, called ‘contact’, during a period of 6 hours in a new cage. Then, donors returned in their initial cages and were sacrificed at 3 dpi. Contact animals were sacrificed at 3 days post-contact (Figure 2.a). Using the two specific RT-qPCR systems used for competition experiments, we estimated in all samples (nasal washes and lungs) the proportion of each viral genome in the viral population (Figure 2.b). Data from lungs of donors showed for two animals, an equivalent proportion of both viruses (from 40% to 60% of each strain); for five animal, a majority (>60%) of BavPat D614G virus; and for the five remaining animals, a majority (>60%) of 20I/501Y.V1 virus. However, we did not find the same distribution in nasal washes in which we observed: for eight animals, an equivalent proportion of both viruses; for four animal, a majority of BavPat D614G virus; and for no animal, a majority of 20I/501Y.V1 virus. Consistently with this observation, we found a large majority (>75%) of BavPat D614G virus in lungs and nasal washes of eight contacts, and only two and one animals exhibited a large majority (>75%) of 20I/501Y.V1 virus in lungs and nasal washes respectively (Figure 2.b). When analyzing the data from each pair of animals, we observed an increase of the proportion of Bavpat D614G virus between the nasal wash of the donor and lungs of the contact in almost all cases (10/12).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7830,
+          "infons": {
+            "section_title_1": "Text"
+          },
+          "text": "Altogether, our results suggest that the replication of both strains was highly comparable in hamsters. Nonetheless, using a more sensitive method, we observed that the 20I/501Y.V1 variant is outcompeted by the BavPat D614G strain; it results in an advantage for the BavPat D614G strain during transmission experiments. Notably, such results are not in line with experimental data ex vivo (human epithelial cultures grown at the air liquid interface) and with epidemiological observations.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8319,
+          "infons": {
+            "section_title_1": "Text"
+          },
+          "text": "We then compared transcriptional early immune signatures in lungs from animals sacrificed at 4 dpi following intranasal infection with 50μl containing 2×103TCID50 of 20I/501Y.V1 or BavPat D614G strain. The expression level of seven cytokines (Interferon-γ, TNF-α, IL-6, IL-10, IL-1β, Cxcl-10, Ccl5) was quantified using RT-qPCR assays (Supplemental Figure 2; expressed as mRNA copies/γ-actin copies). Infection by both viral strains induced an important increase of CXCL10, CCL5, IFNγ, Il-6 and Il-10 expression levels (p<0.0001) and a moderate increase of Il-1β (p=0.0014 for BavPat D614G and p=0.0281 for 20I/501Y.V1) and TNFα (p=0.0389 for BavPat D614G and p=0.0350 for 20I/501Y.V1) expressions levels to mock-infected animals (Supplemental Figure 2). Comparison between animals infected with 20I/501Y.V1 and BavPat D614G strains did not show any significant differences of cytokines expression levels. This suggests that the early immune response induced by both viral strains is similar, in line with a recent study that did not present major differences except an upregulation of Il-6, Il-10 and IFNγ with animals infected by 20I/501Y.V1 variant (Abdelnabi et al., 2021).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9496,
+          "infons": {
+            "section_title_1": "Text"
+          },
+          "text": "Finally, we used sera collected at 7 dpi following intranasal infection with 50μl containing 2×103TCID50 of 20I/501Y.V1 (n=4) or BavPat D614G (n=4) (Figure 1.a) strain to assess the level of protection against three circulating strains of SARS-CoV-2: the BavPat D614G strain, the 20I/501Y.V1 variant and a ‘South-African’ 20H/501Y.V2 (lineage B 1.351) variant. Sera were tested for the presence of antibodies using a 90-99% viral RNA Yield Reduction Neutralization Test (YRNT90/YRNT99) (Figure 1.j.k). Overall, results showed that animals infected with 20I/501Y.V1 or BavPat D614G strains produced similar levels of neutralization antibodies against these strains. However, all infected animals produced lower neutralization titers against the 20H/501Y.V2 variant. This difference is significant with all animals when considering YRNT90 titers (p values between 0.001 and 0.045), and significant only with animals infected with 20I/501Y.V1 variant when considering YRNT99 titers (p < 0.048) (Supplemental Table 1). This suggests an effective cross-immunity between 20I/501Y.V1 and BavPat D614G, but a reduced cross-protection against the 20H/501Y.V2 variant. These data indicate that only an active circulation of 20H/501Y.V2 variant might increase the risk of reinfection or failure of vaccination campaigns. This is in accordance with recently reported epidemiological observation (Graham et al., 2021; Jangra et al., 2021; Nonaka et al., 2021a, 2021b; Zucman et al., 2021).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10972,
+          "infons": {
+            "section_title_1": "Text"
+          },
+          "text": "In conclusion, our results show that the 20I/501Y.V1 variant induces a pathology that mimics human SARS-CoV-2 infection in the hamster model and can be used for preclinical analysis of vaccines and therapeutic agents. These data corroborate those of a recent study in which the same strains, a similar hamster model but higher virus inocula (105 TCID50) were used (Abdelnabi et al., 2021). Since its emergence in late 2020 in Europe, the 20I/501Y.V1 variant spread across several continents and became the majority circulating strain in many countries. Moreover, data from reconstituted human airway epithelia also showed a strong replicative fitness advantage for 20I/501Y.V1 variant (Touret et al., 2021). Notably, our findings in the hamster model are not in line with these observations. Altogether, this suggests that the hamster model may possibly not be the best model to detect weak fitness or transmissibility differences between clinical strains of SARS-CoV-2. Other animal models such as the ferret (Mustela putorius furo) model that is already employed to study the pathogenicity and transmissibility of other human respiratory viruses, could be valuable tools in that case. Nevertheless, in a recent study that used engineered rescued viruses derived from the USA_WA1/2020 strain, the hamster model appeared useful to detect weak fitness advantages and an increases in transmissibility of viruses that carry the N501Y and A570D spike mutations. However, the role of other mutations located in other parts of the genome of the 20I/501Y.V1 variant [more than twenty when compared to strains isolated in January-February 2020], was obviously not taken into account using this reverse genetics-based approach.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

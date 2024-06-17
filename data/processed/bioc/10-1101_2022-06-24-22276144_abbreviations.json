@@ -1,0 +1,68 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2022-06-24-22276144",
+      "inputfile": "../../data/processed/html/10-1101_2022-06-24-22276144.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "KTRs",
+          "text_long_1": "kidney transplant recipients",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBD",
+          "text_long_1": "receptor binding domain",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CNI",
+          "text_long_1": "calcineurin inhibitor",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "WT",
+          "text_long_1": "wild-type",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "eGFR",
+          "text_long_1": "estimated glomerular filtration rate",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ROC",
+          "text_long_1": "receiver operating curve",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Anti-RBD",
+          "text_long_1": "anti-receptor binding domain",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ELISA",
+          "text_long_1": "enzyme-linked immunosorbent assay",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "BAU",
+          "text_long_1": "Binding Antibody Unit",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SDs",
+          "text_long_1": "standard deviations",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

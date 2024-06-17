@@ -1,0 +1,208 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1172_JCI149335",
+      "inputfile": "../../data/processed/html_papers/10-1172_JCI149335.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "SARS-CoV-2 mRNA vaccines induce broad CD4 + T cell responses that recognize SARS-CoV-2 variants and HCoV-NL63",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 109,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": " Recent studies have shown T cell cross-recognition of SARS-CoV-2 and common cold coronavirus spike proteins. However, the effect of SARS-CoV-2 vaccines on T cell responses to common cold coronaviruses (CCCs) remains unknown. In this study, we analyzed CD4 + T cell responses to spike peptides from SARS-CoV-2 and 3 CCCs (HCoV-229E, HCoV-NL63, and HCoV-OC43) before and after study participants received Pfizer-BioNTech (BNT162b2) or Moderna (mRNA-1273) mRNA-based COVID-19 vaccines. Vaccine recipients showed broad T cell responses to the SARS-CoV-2 spike protein, and we identified 23 distinct targeted peptides in 9 participants, including 1 peptide that was targeted in 6 individuals. Only 4 of these 23 targeted peptides would potentially be affected by mutations in the UK (B.1.1.7) and South African (B.1.351) variants, and CD4 + T cells from vaccine recipients recognized the 2 variant spike proteins as effectively as they recognized the spike protein from the ancestral virus. Interestingly, we observed a 3-fold increase in the CD4 + T cell responses to HCoV-NL63 spike peptides after vaccination. Our results suggest that T cell responses elicited or enhanced by SARS-CoV-2 mRNA vaccines may be able to control SARS-CoV-2 variants and lead to cross-protection against some endemic coronaviruses.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1429,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "T cell cross-recognition of SARS-CoV-2 and common cold coronaviruses (CCCs) has recently been demonstrated (1) (2) (3) (4) (5) (6) (7) (8) (9) (10) . The Pfizer-BioNTech (BNT162b2) and Moderna (mRNA-1273) mRNA COVID-19 vaccines generate robust T cell responses to spike peptides (11, 12) , and we hypothesized that this may also translate to enhanced responses to CCCs. Multiple evolving spike protein variants have been described, and recent studies have generally shown some degree of reduction in the ability of mRNA vaccine-elicited antibodies to neutralize B.1.351 and/or B.1.1.7 variants (13) (14) (15) (16) (17) (18) (19) (20) (21) (22) . In this study, we analyzed CD4 + T cell responses to CCCs before and after study participants received mRNA vaccines. We identified peptides targeted by CD4 + T cells and determined whether they would be affected by mutations present in the B.1.351 and B.1.1.7 variants. Our data further our understanding of the impact of T cell cross-recognition of coronaviruses. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2441,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The Pfizer-BioNTech (BNT162b2) and Moderna (mRNA-1273) mRNA vaccines elicit strong T cell responses to SARS-CoV-2 (11, 12) . Given that recent studies have demonstrated cross-recognition of CCCs and SARS-CoV-2 by T cells (1-10), we asked whether COVID-19 vaccines would enhance T cell responses to the CCCs. We performed IFN-γ enzyme-linked immunosorbent spot (ELISPOT) assays on PBMCs from individuals before and after vaccination to quantify the frequency of virus-specific T cells. As expected, the vaccines elicited strong T cell responses against SARS-CoV-2, with a median of 222 spot-forming units (SFU) per million cells responding to SARS-CoV-2 spike peptide pools after vaccination, compared with less than 3 SFU per million cells in the prevaccination samples ( Figure 1 , A and B). Furthermore, the vaccines elicited a significant increase in the response to HCoV-NL63, with an observed increase in the T cell response from a median of 28 SFU per million T cells before vaccination to a median of 93 SFU per million T cells after vaccination ( Figure 1 , A and B, and Supplemental Figure 1 , A, B, and E; supplemental material available online with this article; https://doi.org/10.1172/JCI149335DS1). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3654,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "We have previously shown that CD4 + T cells were responsible for the majority of T cell responses generated by our peptide pools (5) . Consistent with our prior study, we found that CD8 + T cell depletion in PBMCs increased responses to all CCCs and SARS-CoV-2, ( Figure  1 , C and D, and Supplemental Figure 1 , C, D, and F), suggesting that most of the T cell responses were due to CD4 + T cells. Specifically, we found that responses to HCoV-NL63 were enhanced, increasing from 36 SFU before vaccination to 113 SFU after vaccination. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4191,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Antigenic imprinting occurs when an initial response to a pathogen shapes the immune response to a subsequent infection by a related pathogen. This concept has been shown to play a role in CD4 + T cell responses to influenza and other pathogens (23) . Given the cross-reactive epitopes present in SARS-CoV-2 and CCC spike proteins (3, 6) , we asked whether the ability of the vaccines to induce T cells responses to SARS-CoV-2 is affected by preexisting T cell responses to CCCs. Interestingly, we found no correlation between T cell responses to CCCs prior to vaccination and T cell responses to SARS-CoV-2 after vaccination (Figure 1 , E-G). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4835,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Recent studies have shown T cell cross-recognition of SARS-CoV-2 and common cold coronavirus spike proteins. However, the effect of SARS-CoV-2 vaccines on T cell responses to common cold coronaviruses (CCCs) remains unknown. In this study, we analyzed CD4 + T cell responses to spike peptides from SARS-CoV-2 and 3 CCCs (HCoV-229E, HCoV-NL63, and HCoV-OC43) before and after study participants received Pfizer-BioNTech (BNT162b2) or Moderna (mRNA-1273) mRNA-based COVID-19 vaccines. Vaccine recipients showed broad T cell responses to the SARS-CoV-2 spike protein, and we identified 23 distinct targeted peptides in 9 participants, including 1 peptide that was targeted in 6 individuals. Only 4 of these 23 targeted peptides would potentially be affected by mutations in the UK (B.1.1.7) and South African (B.1.351) variants, and CD4 + T cells from vaccine recipients recognized the 2 variant spike proteins as effectively as they recognized the spike protein from the ancestral virus. Interestingly, we observed a 3-fold increase in the CD4 + T cell responses to HCoV-NL63 spike peptides after vaccination. Our results suggest that T cell responses elicited or enhanced by SARS-CoV-2 mRNA vaccines may be able to control SARS-CoV-2 variants and lead to cross-protection against some endemic coronaviruses. SARS-CoV-2 mRNA vaccines induce broad CD4 + T cell responses that recognize SARS-CoV-2 variants and HCoV-NL63 Thirteen of the 15 vaccine recipients studied ( Figure 1 ) had preexisting T cell responses to HCoV-NL63, and we hypothesized that COVID-19 vaccination enhances responses to this virus as a result of an expansion of T cells that cross-recognize HCoV-NL63 and SARS-CoV-2 spike peptides. To test this hypothesis, we cultured cells with SARS-CoV2 spike peptide pools for 10-12 days and then restimulated the cells with peptide pools from a different virus (for example, cells expanded with SARS-CoV-2 spike peptides were then restimulated with SARS-CoV-2, HCoV-NL63, or HCoV-229E spike peptides). As shown in Figure 2C , cells expanded with SARS-CoV-2 spike peptides for 10-12 days followed by restimulation for 12 hours with SARS-CoV-2 spike peptides had a dramatic increase in IFN-γ and TNF-α coexpression. Interestingly, these SARS-CoV-2-expanded T cells also responded to restimulation by HCoV-NL63 spike peptides, sug- ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7173,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "We next assessed whether vaccination enhanced T cell responses to HCoV-NL63 by generating antigen-specific T cell lines. Antigen-specific T cells before and after vaccination were expanded with peptide pools from HCoV-NL63 or SARS-COV-2 spike peptides for 10-12 days, and cytokine production was assessed following a 12-hour restimulation with the same peptide pools. As expected, we found that vaccination dramatically enhanced T cell responses to SARS-CoV-2 spike peptides, with a median of 4.2% of T cells coexpressing INF-γ and TNF-α after vaccination compared with 0.28% of T cells prior to vaccination ( Figure 2 , A and B). Interestingly, vaccination also dramatically enhanced T cell responses to HCoV-NL63 spike peptides, with a median of 2.7% of T cells coexpressing IFN-γ and TNF-α after vaccination compared with 0.4% before vaccination ( Figure 2 , A and B). revealed an association between HCoV-NL63 antibody responses and the development of highly neutralizing antibodies against SARS-CoV-2 (24), suggesting that HCoV-NL63 may have more epitopes in common with SARS-CoV-2 than the other CCCs. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8281,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "We next mapped out individual spike peptides targeted by CD4 + T cells. We performed IFN-γ ELISPOT assays with CD8-depleted PBMCs using sequential peptide pools consisting of 10 overlapping peptides. As shown in Figure 3 , A and B, CD4 + T cells recognized broad regions across SARS-CoV-2 spike in vaccine recipients, with pools containing peptides that covered amino acids 141-220, 351-430, 631-710, and 771-850 generating the most robust CD4 + T cell responses. We then mapped specific peptides targeted in 9 vaccine recipients for whom we had a sufficient number of cells by repeating the ELISPOT assay with individual peptides from 3 of the 18 pools for each vaccine recipient. The optimal epitope and the predicted binding HLA allele were determined as previously described (5, 25) . We identified 23 distinct targeted peptides (Table 1 and Supplemental Table 1 ). One of these peptides (SKRSFIEDLLFNKVTLA, 813-829) was targeted in 6 of the 9 study participants. This epitope is present in a motif that is conserved in many coronaviruses (26) , and the optimal epitope is predicted to bind to conserved HLA-DP alleles ( Table 1) . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9417,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "gesting that vaccine-induced SARS-CoV-2-specific T cells also recognized HCoV-NL63 spike peptides in this study participant. Overall, in 9 vaccine recipients who were studied before and after vaccination, the percentage of SARS-CoV-2 spike peptidespecific CD4 + T cells that cross-reacted with HCoV-NL63 spike peptides increased from 0.02% before vaccination to 0.28% after vaccination ( Figure 2D ). Further, following expansion with HCoV-NL63 peptides, the percentage of HCoV-NL63-specific CD4 + T cells that cross-reacted with SARS-CoV-2 spike peptides increased from 0.005% before vaccination to 0.37% after vaccination (Supplemental Figure 2 ; supplemental material available online with this article; https://doi.org/10.1172/JCI149335DS1). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10163,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Further studies are needed to determine why we observed a significant post-vaccination increase in the CD4 + T cell response to HCoV-NL63 but not to HCoV-229E or HCoV-OC43 spike peptides. The percentage of sequence identity shared between the CCC spike proteins and the SARS-CoV-2 spike protein has been estimated to be approximately 30%, with the β coronaviruses (HCoV-OC43 and HCoV-HKU1) having a slightly higher shared identity than the α coronaviruses (HCoV-NL63 and HCoV-229E, ref. 4 ). However, a recent study that analyzed antibodies against all 4 CCCs in plasma from convalescent COVID-19 patients the ELISPOT assay and the fact that S2 subunit epitopes were not present. We detected no significant difference in T cell responses to the S1 subunits from the ancestral virus or from the B.1.1.7 and B.1351 variants (Figure 3 , D and E). This finding also held true for the 3 participants who were found to have targeted peptides that would be affected by the variant mutations. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11148,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Overall, our data suggest that the mRNA vaccines may provide protection not just against SARS-CoV-2, but perhaps some CCCs as well. Our data also suggest that vaccine-elicited CD4 + T cells should effectively recognize some of the common SARS-CoV-2 variants and provide protection from severe disease even if the neutralizing antibodies are no longer effective. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11510,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Participants. Blood samples were obtained from 30 healthy individuals working in health care and laboratory donors who had not tested positive for COVID-19. Twelve participants were female and 18 were male. Eleven participants were between 20 and 29 years of age, 7 were between 30 and 39 years of age, 7 were between 40 and 49 years of age, and 5 were between 50 and 59 years of age. All participants in Figure 1 had blood drawn 7-14 days after the second shot, whereas all participants included in the variant study had blood drawn 7-11 weeks after the second shot. Twenty-eight participants received the Pfizer-BioNTech vaccine, and 2 received the Moderna vaccine. For all experiments, PBMCs were collected from whole blood after Ficoll-Paque PLUS gradient centrifugation (GE Healthcare Life Sciences). For some experiments, CD8 + T cells were depleted using Miltenyi Biotec CD8 + T Cell Positive Selection Kits. High-resolution class II typing was performed on PBMCs from 6 healthy donors at the Johns Hopkins Hospital Immunogenetics Laboratory. The Immune Epitope Database (IEDB) and Analysis Resource (http://www.iedb.org) was queried for optimal epitope and HLA-binding predictions using the recommended parameters (15) . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12739,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Peptides and ELISPOT assays. Peptides for the spike protein of HCoV-NL63, HCoV-229E, HCoV-OC43, and SARS-Cov-2 as well as the nucleocapsid protein of SARS-CoV-2 were obtained from BEI Resources and reconstituted with DMSO at a concentration of 10 mg/mL. The HCoV-229E S protein peptide pool has 195 peptides consisting of 17 mer with 11 amino acid overlaps. The HCoV-NL63 S protein peptide pool has 226 peptides made up of 14 -17 mer with 11-13 amino acid overlaps. The HCoV-OC43 S protein peptide pool has 226 peptides made up of 17 or 18 mer with 11 amino acid overlaps. The SARS-CoV-2 peptides are 12 mer, 13 mer, or 17 mer, with 10 amino acid overlaps. The spike protein peptide pool consisted of 181 peptides, and the nucleocapsid protein peptide pool consisted of 59 peptides. All the peptides were combined into 1 pool for each viral Several spike variants have been described, and studies have shown that they are generally neutralized to a lesser extent by antibodies from mRNA vaccine recipients (13) (14) (15) (16) (17) (18) (19) (20) (21) (22) . However, it is unclear whether these variants also escape from T cells responses. This is a critical question, given the key role cellular immunity plays in controlling viral replication (27) . Although CD4 + T cell epitopes in convalescent COVID-19 patients have been characterized (3, 6, 28) , little is known about epitopes targeted in vaccine recipients. In order to predict whether virus-specific T cells would still recognize B.1.1.7 and B.1351 variants, we determined whether mutations present in these variants were located in any of the targeted peptides we identified. Only 3 mutations (Y144 deletion, D614G, P681H) were present in any of the 23 targeted peptides, suggesting that these variants would be effectively recognized by the majority of vaccine-generated CD4 + T cells. We tested this hypothesis by comparing CD4 + T cell recognition of the S1 subunit of spike proteins from the ancestral virus with those from the B.1.1.7 and B.1351 variants. We found that the responses to the spike S1 subunits were lower than the responses to the spike peptide pools. This could be partly due to the proteins not being efficiently processed into peptides in with a 20-hour incubation period. There were no significant responses made to these proteins by T cells from 4 unvaccinated healthy donors who had no known exposure to COVID-19. The mutations and deletions present in the variant proteins are shown in Figure 3C . Expansion culture assay. PBMCs (10 7 cells) were cultured in R10 media with 10 U/mL IL-2 and 5 μg/mL peptides for 10-12 days as previously described (5) . The media were not changed during this period. The cells were then washed and replated in fresh R10 with 10 U/mL IL-2 and rested 1 day before they were stimulated again with 5 μg/mL peptide with protein transport inhibitors (GolgiPlug, 1 μg/mL; GolgiStop, 0.7 μg/mL) and antibodies against CD28 and CD49d (all from BD Biosciences). After a 12-hour incubation, the cells were washed and stained with annexin V (BV-421, BD Biosciences, 563973) and antibodies against CD3 (APC-Cy-7, BioLegend, 300426) and CD4 (Per-CP-CY-5.5, BioLegend, 300530). The cells were then fixed, permeabilized, and stained intracellularly for TNF-α (PE-Cy-7, BD Biosciences, 557647) and IFN-γ (APC, BD Biosciences, 506510). Flow cytometry was performed on a BD FACS LSRFortessa flow cytometer, and data were analyzed using FlowJo software, version 10. Data on a minimum of 100,000 events in the lymphocyte gate were collected and analyzed. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16294,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Statistics. All statistical analyses were performed using GraphPad Prism 8.4.3 (GraphPad Software). For experiments requiring comparisons between 2 groups, a 2-tailed, paired Student's t test was used to determine significance. For experiments requiring multiple comparisons, a 1-way ANOVA with Greenhouse-Geisser correction was protein. Pools of 10 peptides were made for the SARS-CoV-2 S protein. Stimulation with anti-CD3 antibody (Mabtech, 1 μg/mL) was used as a positive control for each study participant. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16806,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "IFN-γ ELISPOT assays were performed as previously described (5) . Briefly, ELISPOT Pro and ELISPOT Plus kits with precoated plates were purchased from Mabtech. The wells were plated with unfractionated PBMCs or CD8 + T cell-depleted PBMCs at 250,000 cells/well, and the cells were cultured for 20 hours with HCoV peptides at a concentration of 10 μg/mL. The plates were then processed according to the manufacturer's protocol and read by a blinded independent investigator using an automated reading system. Four replicates per pool were run for comparison of the different viral proteins. The replicate furthest from the median was not used. If 2 values were equally distant from the median, then the higher value was discarded. Two replicates were run for the SARS-CoV-2 S protein pools that examined the breadth of the T cell responses. For epitope mapping, each individual peptide present in a pool was tested in duplicate wells. A peptide was only considered to be positive if both wells had values that were at least twice the average of the values of the untreated wells, the average stimulation index was above 3, and more than 20 SFU/106 cells were present. SARS-CoV-2 variant assay. The S1 subunit of spike protein from ancestral SARS-CoV-2 (29) and the B.1.1.7 and B.1351 variants with polyhistidine tags at the C-terminus were purchased from Sino Biological and tested by ELISPOT assay at a concentration of 1 μg/mL  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

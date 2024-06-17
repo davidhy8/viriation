@@ -1,0 +1,215 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-05-03-441080",
+      "inputfile": "../../data/processed/html/10-1101_2021-05-03-441080.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Human organoid systems reveal in vitro correlates of fitness for SARS-CoV-2 B.1.1.7",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 83,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The ongoing COVID-19 pandemic is causing an immense global health crisis, affecting all parts of society. As many countries have started the rollout of vaccines, several SARS-CoV-2 variants have emerged that raise concerns for increased transmissibility and escape from immunity (1). The B.1.1.7 variant, also known as the British variant or VOC-202012/01, now has become the dominant variant in Europe, and is increasing in frequency in Asia and the American continent (2). Epidemiological data suggest that this variant is 35-100% more transmissible than the ancestral lineage and associated with higher viral loads (3–6). As epidemiological studies are easily confounded by public health measures or founder effects, they should preferably be complemented by experimental studies on viral fitness and infectiousness. However, correlates of fitness or infectiousness for respiratory viruses - let alone SARS-CoV-2 - are ill-defined and complicated by the lack of relevant experimental systems to compare virus strains.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1115,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Traditionally, virus strains are compared using animal models, after obtaining a clinical isolate. However, viruses with mutations in the spike protein, for example to optimize ACE2 binding, may be selected in animals (e.g. hamsters and ferrets) (7). In fact, mutations already present in the South African (B.1.351) and Brazilian (P.1) variants have been shown to allow the virus to infect common laboratory mice (8). Adaptation of the virus when grown in vitro poses additional challenges. SARS-CoV-2 propagation on the African green monkey cell line Vero (or derivatives, such as VeroE6) rapidly leads to culture adaptation in the spike multibasic cleavage site (MBCS), generating viruses that cannot effectively infect human airway cells or hamsters (9–13) thus precluding the comparison of Vero-grown SARS-CoV-2 isolates. Reverse genetic approaches could be used to slow down cell culture adaptation, but these are mainly used for comparing point mutations as cloning entirely new viruses de novo takes considerable time. Thus, relevant systems to rapidly compare different clinical isolates need to be explored.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2232,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Standardized SARS-CoV-2 human organoid systems may be highly relevant models for assessing differences between viral variants. Organoids are 3D in vitro cultures grown from stem cells which consist of organ-specific cell types that self-organize (14, 15). Recently, organoids have emerged as models for infectious diseases (16–20), including for study of SARS-CoV-2 tropism and host responses in the lung and intestine (10, 11, 21-27). The recent development of alveolar type 2 (AT2) cell organoids (24–27) enables modelling of the alveolar epithelium to SARS-CoV-2 infection. Most importantly, air-liquid interface-differentiated human airway organoid cultures may be used to propagate SARS-CoV-2 without causing cell culture adaptations (10). In this study, we have established a platform to compare SARS-CoV-2 isolates using human airway, alveolar and intestinal organoids. We used these systems to assess virus shedding and replicative fitness of the B.1.1.7 SARS-CoV-2 variant. Such studies are urgently needed to complement epidemiological findings and to identify correlates of fitness or infectiousness that can be measured in in vitro systems.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3384,
+          "infons": {
+            "section_title_1": "Introduction",
+            "section_title_2": "Supplementary figure 1.: Deep-sequencing genetic characterization of the Calu-3 SARS-CoV-2 B.1.1.7 isolate.",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "A SARS-CoV-2 B.1.1.7 variant was isolated from an oropharyngeal sample. To prevent culture adaptation to VeroE6 cells (10), the virus was grown on Calu-3 cells and propagated to passage three (P3) for further experiments along with an ancestral (clade B) isolate (Bavpat-1). Deep-sequencing indicated that the obtained B.1.1.7 isolate contained all mutations associated with this clade (Table S1). Next, we confirmed that B.1.1.7 P3 did not contain culture-associated mutations in the MBCS (Fig. S1A-D) or in the rest of the genome (Fig. S1E). We also confirmed that the Bavpat-1 isolate sequence was not culture adapted (Fig. S1F-J). The P3 stock titers were characterized by plaque assay on Calu-3 and VeroE6 cells. Both the Bavpat-1 virus and B.1.1.7 virus titers were ∼106 PFU/ml on Calu-3 cells (Fig. 1A), but on VeroE6 cells, the B.1.1.7 virus titer was approximately 100-fold lower (∼104 PFU/ml) compared with the Bavpat-1 virus (∼106 PFU/ml) (Fig. 1B-C). Plaque sizes on both Calu-3 and VeroE6 cells were smaller for the B.1.1.7 isolate compared to Bavpat-1 (Fig. 1D). The replication kinetics of both viruses were equal on Calu-3 cells but the B.1.1.7 virus was strongly attenuated on VeroE6 cells (Fig. 1E-F). This was also evident based on cytopathic effects and numbers of infected cells at day three post-infection (Fig. 1G-H). The infectivity of both viruses was quantified using the RNA copies/PFU ratio for each cell line, which confirmed that the B.1.1.7 virus had a low relative infectivity on VeroE6 cells, but not on Calu-3 cells (Fig. 1I-J). These data show that B.1.1.7 is attenuated on VeroE6 cells. However, most labs grow their SARS-CoV-2 stocks on VeroE6 cells, which could force the virus to adapt to these cells. To investigate this, we cultured both the B.1.1.7 and Bavpat-1 non-adapted P2 viruses on VeroE6 cells for 2 passages with or without fetal bovine serum (FBS) as FBS was shown to increase the frequency of MBCS deletions (10). Both the B.1.1.7 and the Bavpat-1 virus grown on VeroE6 cells contained major changes in the MBCS (Fig. 2A-D). No MBCS deletions were observed in this experiment, possibly because the input viruses were grown on Calu-3 cells that would select against MBCS deletions. In the B.1.1.7 virus an additional major variant in NSP6 – M164T (Wuhan-Hu-1 numbering)– was detected after VeroE6 propagation, suggesting that adaption to these cells may also occur outside of the spike protein (Fig. 2E). Plaque size and infectious titer analysis show that these stocks were indeed VeroE6-adapted, highlighting that it is critical to grow virus stocks on cells that prevent culture adaptation (e.g. Calu-3 cells) (Fig 2. F-H).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6168,
+          "infons": {
+            "section_title_1": "Introduction",
+            "section_title_2": "Figure 3.: Replication kinetics and tropism of SARS-CoV-2 B.1.1.7 and Bavpat-1 in 2D differentiated human airway organoids.",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Humans shed infectious SARS-CoV-2 for approximately ∼10 days (28). However, growth kinetics cannot be studied on most cell lines for this length of time as infected cells die around 72 hours post-infection. Therefore, we assessed the replication kinetics of the B.1.1.7 and Bavpat-1 virus in air-liquid interface (ALI) human airway organoids differentiated using Pneumacult medium as described before (22) by sampling the organoids until day 10 post-infection from the apical side. As the RNA copies/PFU ratio of both viruses was equal on Calu-3 cells (Fig. 1I), we used viral titers determined on Calu-3 cells by plaque assay to equalize virus input at a low multiplicity of infection (moi) of 0.1. In addition, infectious virus titers in apical washes were determined on Calu-3 cells, whereas viral RNA copies were determined by qPCR. In airway organoids from different donors, the B.1.1.7 virus reached peak titers (∼108 RNA copies/ml; ∼106 PFU/ml) between day 2 and 4 post-infection and then continued to shed high titers (>107 RNA copies/ml; >105 PFU/ml) until day 10 post-infection, whereas shedding of the Bavpat-1 virus dropped by two logs between day 4 and 10 post-infection (Fig. 3A, C for RNA copies; Fig. 3B, D for infectious virus). Immunofluorescence staining on organoid wells showed that at day 3 post-infection both viruses infected roughly equal numbers of cells (Fig. 3E). However, at day 10 post-infection, cultures inoculated with B.1.1.7 still contained many infected cells, while few infected cells were observed in wells inoculated with Bavpat-1 virus (Fig. 3F). We did not observe differences in tropism: both viruses infected predominantly ciliated cells at day 3 and 10 post-infection (Fig 3G, H).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8015,
+          "infons": {
+            "section_title_1": "Introduction",
+            "section_title_2": "Figure 3.: Replication kinetics and tropism of SARS-CoV-2 B.1.1.7 and Bavpat-1 in 2D differentiated human airway organoids.",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "A major limitation of the current airway organoid differentiation methods is the lack of a defined medium for differentiation. For this purpose, we established a serum-free defined airway differentiation medium based on a recipe for 3D airway differentiation (29). The addition of BMP2 increased ACE2 expression and ciliation, while TMPRSS2 expression and the proportion of club cells remained similar (Fig. S2A-C). Besides ciliated cells and club cells, cultures differentiated in this medium for 3-4 weeks at air-liquid interface contained goblet cells and basal cells (Fig. S2D, E). This differentiation protocol was used to investigate whether the extended shedding by B.1.1.7-infected organoids was dependent on the differentiation conditions. In these cultures - in which predominantly ciliated cells were infected (Fig. S2F) - we confirmed the extended shedding and presence of infected cells at 10 days post-infection of the B.1.1.7 virus in two donors showing that this viral phenotype is not influenced by the differentiation method (Fig. S2G, I for RNA copies; Fig. S2H, J for infectious virus; Fig. S2K for infected cells 10 dpi).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9157,
+          "infons": {
+            "section_title_1": "Introduction",
+            "section_title_2": "Figure 3.: Replication kinetics and tropism of SARS-CoV-2 B.1.1.7 and Bavpat-1 in 2D differentiated human airway organoids.",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "To investigate whether SARS-CoV-2 is genetically stable on 2D airway organoids, we deep-sequenced the apical washes from day 10 of the replication curves. For both the Pneumacult and BMP2 differentiated airway organoids we did not observe any indication of cell culture adaptation for Bavpat-1 and B.1.1.7 (Fig. S3; Fig. S4).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9482,
+          "infons": {
+            "section_title_1": "Introduction",
+            "section_title_2": "Supplementary figure 5.: Schematic overview of the generation of human adult alveolar type 2 (AT2) organoids.",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Whereas the human airway epithelium is highly relevant to virus transmission, alveolar cells can be used to model the severe respiratory disease caused by SARS-CoV-2. Therefore, we established human alveolar type 2 (AT2) cell organoids using a method adapted from Youk and colleagues (2020) (Fig. S5). Messenger RNA sequencing indicated that the cultured alveolar organoids expressed typical AT2 marker genes (e.g. LPCAT1, SFTPB, SFTPC), but not airway marker genes (e.g. KRT5, TP63, MUC5AC, SCGB1A1, FOXJ1) (Fig. 4A; Fig S6). Notably, AT2 cells expressed BMP4, which was shown to inhibit transdifferentiation into AT1 cells (30). The expression of surfactant protein C (SFTPC) was confirmed by immunofluorescent staining (Fig. 4B). AT2 organoids also contained cells that could be stained with the mature human AT2 cell surface marker antibody HTII-280 (Fig 4B). In line with the mRNA data, we did not detect any expression of the airway basal cell marker TP63 (Fig 3A; Fig. S7A-B). Transmission electron microscopy confirmed that the organoids consisted entirely of cells filled with surfactant-containing lamellar bodies (Fig. 4C; Fig. S8A-D), which formed tubular myelin structures (Fig. S8E). These cells contained apical microvilli (Fig S8F). Three dimensional AT2 organoids were susceptible to SARS-CoV-2 infection while HTII-280+ cells were the predominant cell type targeted by both B.1.1.7 and Bavpat-1 viruses (Fig. 4D, E). Next, we investigated the shedding of the B.1.1.7 and Bavpat-1 virus in these organoids after infection at a moi of 0.1. Compared to Bavpat-1, B.1.1.7 replicated to lower viral RNA titers throughout the experiment (Fig. 4F), but the infectious virus titers were slightly higher for B.1.1.7 at late time points (not significant). This discrepancy between viral RNA and infectious virus is likely to be caused by a higher peak titer for Bavpat-1 at 2 days post-infection and by the fact that in this 3D model the virus/RNA cannot be collected by daily washing of the cells. As viral spread between 3D organoids is limited, 3D systems may not be ideal for long replication kinetics experiments. Therefore, we cultured the AT2 cells in transwell inserts at 2D air-liquid interface and repeated our replication kinetics experiments (Fig. 4H-I). In this culture system, that almost exclusively contained HTII-280+ cells (Fig. S9), we observed more virus shedding of the Bavpat-1 virus in the first 3 days post-infection. However, B.1.1.7 titers remained higher than Bavpat-1 titers at later time points. Messenger RNA sequencing of the 3D AT2 organoids at day 3 post-infection showed a similar antiviral response to both Bavpat-1 and B.1.1.7 infection (Fig. 4J-K; Fig. S10).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12294,
+          "infons": {
+            "section_title_1": "Introduction",
+            "section_title_2": "Figure 5.: Replication kinetics of SARS-CoV-2 B.1.1.7 and Bavpat-1 in intestinal organoids.",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "As the intestinal epithelium can also be infected by SARS-CoV-2 (21, 31–33), we investigated whether intestinal epithelial cells would show similar replication kinetics for B.1.1.7 compared to pulmonary cells. Similar to 3D AT2 organoids, we did not observe differences in the virus titers produced over time between both B.1.1.7 and Bavpat-1 in 3D intestinal organoids (Fig. 5A-B). In 2D intestinal cultures both viruses showed similar kinetics in the first 3 days of the infection. However, B.1.1.7 replicated to higher titers in later stages of infection compared to Bavpat-1 (Fig. 5C-D). This was evident in viral RNA levels as well as infectious virus titers. At 10 days post-infection more infected cells were observed in 2D organoids infected with B.1.1.7 compared to Bavpat-1 (Fig. 5E). Thus overall, both pulmonary and intestinal organoids cells shed high levels of infectious B.1.1.7 for a prolonged period of time.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13310,
+          "infons": {
+            "section_title_1": "Introduction",
+            "section_title_2": "Supplementary figure 11.: Confirmation of competition assay data.",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "As the B.1.1.7-infected cells appear to shed higher levels of virus at later stages of infection and epidemiological studies have suggested that this variant is more transmissible, we tested whether B.1.1.7 would outcompete the ancestral Bavpat-1 virus in vitro. For this purpose, we infected airway organoids with a mixture of Bavpat-1 and B.1.1.7 virus at a ratio of 1:1 or 5:1 (Bavpat-1:B.1.1.7; cumulative moi = 0.1). We sampled the cultures daily for 10 days and determined the relative frequency of both viruses to calculate replicative fitness as described before using Sanger sequencing and electropherogram peak analyses of a PCR fragment containing the P681H mutation (34). This experiment showed that B.1.1.7 outcompeted Bavpat-1 at both the 1:1 and 5:1 ratio (Fig. 6A-B for relative frequencies and C-D for replicative fitness). These findings were confirmed in independently differentiated organoids from the same donor (Fig. S11A-D), and in an independent donor (Fig. 6E). Notably, B.1.1.7 did not require more time to outcompete Bavpat-1 at the 5:1 Bavpat-1-to-B.1.1.7 ratio compared to the 1:1 ration in two separate experiments. To confirm that the fitter virus was not a recombinant we Sanger sequenced a RT-PCR fragment targeting a marker (del3675) at the other end of the genome (Fig. S11E), which confirmed the results of the P681H PCR. This was also shown by Illumina sequencing based on mapping of reads across the entire genome, which correlated well with the Sanger data (Fig. 6F). Furthermore, Sanger sequencing analysis results were confirmed using a different analysis software, the Synthego ICE indel frequency analysis tool, commonly used for analyzing CRISPR indel frequencies (Fig. S11F).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15095,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Here, we established human adult-derived stem cell organoid-based systems to compare SARS-CoV-2 isolates that were propagated without cell culture adaptive mutations. We report that B.1.1.7 is strongly attenuated on VeroE6 cells, as compared with Bavpat-1. Furthermore, B.1.1.7 and Bavpat-1 rapidly acquire MBCS mutations on VeroE6 cells, but not on Calu-3 cells. Calu-3-propagated SARS-CoV-2 isolates were used for further characterization on human organoids. Our data shows that B.1.1.7-infected airway, alveolar and intestinal organoids shed high levels of infectious virus for an extended period of time. These differences were more evident in 2D systems compared with 3D systems. In addition, B.1.1.7 outcompetes Bavpat-1 in airway organoids, suggesting that B.1.1.7 has a higher fitness compared to ancestral viruses.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15928,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Clade B.1.1.7 first emerged in South England at the end of the summer in 2020. Within several months, this virus became the dominant variant in the United Kingdom and as of the 8th of March 2021 it constitutes 75.5% of cases in Europe (excluding the UK where it accounts for 98.1%), 71.7% in Africa, 47% in Oceania, 36.8% in North America (47.7% in the USA), 17.2% in Asia, 15.9% in South America, replacing locally circulating clades (2), suggestive of an increased transmissibility. Our results corroborate epidemiological findings that infection with the B.1.1.7 variant has been associated with a higher viral load at initial testing (5). In general, initial testing occurs after the 5-7 day median incubation period (35–38) has passed and 1-3 days after peak viral titers have been reached, indicating that our experiments accurately model the kinetics of the infection in vivo. A high viral load in nasal swabs from SARS-CoV-2 cases is currently the only known correlate of infectiousness for SARS-CoV-2 (38). In vitro platforms to measure correlates of infectiousness are urgently needed as countries are adapting their COVID-19 measures based on the emergence of variants that are potentially more transmissible based on scarce epidemiologic data. Another in vitro study that looked into the replication of B.1.1.7 and an ancestral virus on 2D primary human airway cells did not observe differences in replication, possibly because they only investigated shedding until day 3 post-infection or because their isolates were propagated on Vero cells (39).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17488,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "It is currently unclear which mutations in the B.1.1.7 clade may cause the differences in replication kinetics and fitness observed in this study. Both the B.1.1.7 virus and the ancestral virus Bavpat-1 (used in this study) contain the D614G mutation that was previously described to increase fitness in human airway cells and transmission between hamsters (34, 40, 41). One of the mutations present in B.1.1.7, but not in Bavpat-1, is an N501Y change in spike, which is an ACE2 contact residue, and has been proposed to increase the binding to human ACE2. This mutation is also present in the South-African (B.1.135) and Brazilian variant (P.1), pointing towards convergent evolution. A recent study used a reverse genetic approach to show that a virus containing only the N501Y transmitted more efficiently between hamsters (42). The P681H change in spike may play a role as well, as this mutation is located directly N-terminal from the RRARS MBCS, which was shown to be critical for serine protease-mediated entry into human airway cells (11). P681H adds an additional basic residue to the MBCS and increases S1/S2 cleavage (39, 43). Another relevant mutation could be a stop codon early in the B.1.1.7 ORF8. This protein was shown to be secreted, leading to activation of IL17 signaling by binding to IL17RA (44). In addition, ORF8 was shown to interact with TGF-β (45), a cytokine thought to play an important role in lung inflammation, fibrosis and edema (46, 47). Whether dysregulating IL17 or TGF-β signaling is beneficial for virus replication needs to be investigated, but a secreted factor that generates a pro-viral milieu could explain why B.1.1.7 did not require more time to outcompete Bavpat-1 at a 5:1 compared to a 1:1 Bavpat-1-to-B.1.1.7 ratio, especially if there are costs associated with ORF8 expression. These results support an important role for social interactions in determining viral fitness (48). The possibility that specific virus-host interactions may be crucial in determining the outcome of experiments that measure viral fitness, and such interactions can be lost in animal models. Future studies may use reverse genetics to address the roles of these mutations in human organoid systems.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19712,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "An important question related to variants such as the B.1.1.7 clade is whether they are associated with increased health risks and mortality (4, 5, 49). In our study we did not observe major differences in the host response between B.1.1.7 and Bavpat-1-infected organoids suggesting that an altered host response is unlikely to drive potential differences in disease severity. Interestingly, Frampton and colleagues noted a trend towards a ∼2 day longer time to hospitalization from symptom onset for patients infected with B.1.1.7 (median 6 days) compared with patients infected with a different clade (median 4 days), which could reflect the observed replication kinetics on 2D AT2 cells (Fig. 4H-I) (5).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20418,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "In conclusion, we report that extended shedding is an in vitro correlate of infectiousness for SARS-CoV-2 B.1.1.7, which corroborates epidemiological findings and may explain why this clade is more transmissible. Human adult stem cell-derived pulmonary and intestinal organoids thus may provide a platform for the comparison of non-cell culture-adapted SARS-CoV-2 clinical isolates.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

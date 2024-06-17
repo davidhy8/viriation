@@ -1,0 +1,202 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-08-05-455290",
+      "inputfile": "../../data/processed/html/10-1101_2021-08-05-455290.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "SARS-CoV-2 variants of concern have acquired mutations associated with an increased spike cleavage",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 98,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "SARS-CoV-2 has been spreading worldwide causing millions of infections and deaths since its emergence in Wuhan, China, in late 2019. Apart from humans, ferrets, cats, dogs, Syrian golden hamsters, and nonhuman primates are also susceptible to SARS-CoV-2 infection and transmission (1, 2). In addition, cases of viral spread in mink farms and mink-to-human cross-species transmission have been reported (3, 4). The spike (S) glycoprotein of SARS-CoV-2 is the main determinant of host tropism and susceptibility, and the main target of antibody responses (5). Therefore, the emergence of adaptive mutations present in the spike protein can strongly affect host tropism and viral transmission (6, 7). The S protein is composed of two subunits: S1 which contains the receptor binding domain (RBD) that initiates infection by binding to the angiotensin converting enzyme 2 (ACE2) receptor present in the host cell surface; and the S2 subunit that mediates fusion between viral and cellular membranes (8, 9). To fuse with the host cell, the S protein needs to be cleaved by cellular proteases at the S1/S2 and S2’ sites. Importantly, the S1/S2 site of SARS-CoV-2 viruses contains a multibasic furin motif (681PRRXR685) absent in other beta coronaviruses (10, 11) that can be processed by furin proteases, but also by transmembrane serin proteases such as TMPRSS2, or by cathepsins present in the endosomes (10, 12-15). The S1/S2 cleavage exposes the S2’ site, and a second cleavage of the S2’ is needed to release an internal fusion peptide that mediates membrane fusion (16).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1680,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Since 2019, several SARS-CoV-2 lineages have emerged leading to the divergence of an extensive subset of more transmissible SARS-CoV-2 variants termed Variants of Concern (VOCs). This has led to the natural selection of several mutations in the spike protein with different functional consequences, some of them unknown. As SARS-CoV-2 variants are raising, more research is needed to understand what the drivers of evolutionary changes are over time, and the potential impact on the epidemiology, antigenicity, escape from neutralizing antibodies induced by previous infection and vaccination and virus fitness. The first widely adaptative substitution described was the S: D614G which became dominant in March 2020 and is present in most of the variants currently circulating worldwide. This substitution is known to enhance viral replication in the upper respiratory tract as well as in vivo transmission (17, 18). Several other polymorphisms became dominant in late 2020. The N501Y substitution convergently evolved in early emerging VOCs Alpha (B.1.1.7), Beta (B.1.351) and Gamma (P.1) variants and has been associated with an enhanced spike affinity for the cellular ACE2 receptor (19, 20). This mutation is located in the receptor-binding motif (RBM) of the RBD, the primary target of many neutralizing antibodies. Importantly, accumulation of mutations in the RBD can decrease neutralizing antibody responses elicited by infection or vaccination against ancestral SARS-CoV-2 variants (21). Similarly, the later SARS-CoV-2 Kappa (B.1.617.1) and Delta (B.1.617.2) variants have also shown a significantly reduced sensitivity to convalescent and immune sera (22-24). Other mutations outside the RBD have also become prevalent. A clear example is the polymorphism found at position S:681 in the furin cleavage site, which includes P681H and P681R in the Alpha and Kappa/Delta variants, respectively. Some preliminary reports have pointed to an enhancement in virus transmissibility associated with this polymorphism, perhaps due to an increase of spike cleavage (25). Additionally, several other mutations have been identified at the edge of the furin cleavage site. This is the case of the H655Y substitution found in the Gamma (P.1) variant. This mutation was associated with changes in antigenicity by conferring escape from human monoclonal antibodies (26). Moreover, it has also been found to be selected in animal models after experimental infection in vivo (27, 28), indicating a potential role in host replication, transmissibility, and pathogenicity.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4242,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Here, we characterized emerging SARS-CoV-2 spike polymorphisms in vitro and in vivo to understand their impact on transmissibility, virus pathogenicity and fitness. Using the mink model of COVID-19, we found that the S:H655Y substitution was acquired in vivo after infection with the WA1 isolate (USA-WA1/2020). To investigate the advantage conferred by S:H655Y, we analyzed the kinetics, spike processing by cellular proteases and syncytium formation ability of a panel of SARS-CoV-2 variants harboring 655Y, including human isolates derived from patients seeking care at the Mount Sinai Health System in New York (NY) City which was one of the major early epicenters of COVID-19 pandemic. Our results demonstrated that the 655Y polymorphism enhances spike cleavage and viral growth. Furthermore, the S:655Y substitution was transmitted more efficiently than its ancestor S:655H in the hamster infection model. Finally, and in the context of the current epidemiological situation, we analyzed a set of emerging SARS-CoV-2 variants to investigate how different sets of mutations may impact spike processing. We demonstrated that novel circulating VOCs that became more prevalent have independently acquired mutations associated with a gain in spike cleavage and syncytia formation. Taken together, our study shows a link between an increased spike processing and increased virus transmission due to spike mutations present in SARS-CoV-2 variants that become epidemiologically more prevalent in humans.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5743,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure 1.: Mink and human SARS-CoV-2 variants bearing the 655Y polymorphism.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Minks have been suggested to play a role in the initial local spread and evolution of SARS-CoV-2 variants in different countries in Europe (3, 4). While minks are susceptible to SARS-CoV-2, they are also capable for zoonotic transmission of SARS-CoV-2 to because of the similarity of the ACE2 receptor between minks and humans. We used the mink model to investigate the replication and pathogenicity of the WA1 (USA-WA1/2020) isolate of SARS-CoV-2, as a representative of the first original human viruses that initiated the SARS-CoV-2 pandemic. This variant corresponds to one of the first USA isolates and does not contain any changes on the S protein when compared to the initial isolates from Wuhan, such as the Wuhan-1 virus. For this purpose, six minks were intranasally infected with 106 pfu of WA1 isolate resulting in productive viral replication in the upper respiratory tract with infectious virus recovered from nasal washes at days 1, 3 and 5 post-infection (Supplementary Figure 1A-B). At day 4 post-inoculation, infectious virus was detected by plaque assays from left cranial lung and nasal turbinates but not from any of the other tissues analyzed (Supplementary Figure 1C). We then selected small and large viral plaques in the Vero-E6 cell-based plaque assays from infected mink lung specimens and performed next generation sequencing of the genome from the plaque-isolated viruses. As compared to the Wuhan-1 and WA1 reference sequences, all mink-derived viral isolates encoded the H655Y amino acid substitution within the spike (S) (Figure 1A). Additionally, the three viral isolates with the small plaque phenotype encoded the T259K amino acid substitution while the three viral isolates with the large plaque phenotype encoded the R682W amino acid substitution. It is known that S:682W/Q substitution in the furin cleavage site region may emerge after subsequent passages in VeroE6 cells (29, 30). Therefore, this mutation may have been selected during the course of the VeroE6 infections and not during the infection in minks. On the other hand, S:655Y appeared dominant in all the mink isolates, indicating that this mutation may confer an advantage in the mink host.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8017,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure 1.: Mink and human SARS-CoV-2 variants bearing the 655Y polymorphism.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To understand the magnitude and the spread of the 655Y polymorphism over time, we investigated the frequency of S:655Y over time in sequences sampled worldwide since the initial outbreak to the end of the first wave of SARS-CoV-2 (Figure 1B). For this, 7,059 sequences sampled from GISAID up to September 2020 were used. Human variants harboring the 655Y mutation were spread throughout the phylogenetic tree and distributed in all clades with no differences according to temporal distribution, suggesting that the 655Y mutation arose independently multiple times. Remarkably, the S:H655Y polymorphism was also found among the initial variants introduced in New York (NY) City in March 2020. To determine the replication phenotype, we decided to investigate this NY 655Y variant (NY7) together with some of its contemporaneous SARS-CoV-2 isolates circulating in New York during the early pandemic outbreak (31). To this end, we isolated 12 viruses based on their genotypes (31), including NY7 which carries the S:655Y mutation for culture directly from nasopharyngeal specimens obtained from COVID-19 infected patients. Of note, the dominant 614G spike polymorphism was present in seven (58%) of the selected human SARS-CoV-2 (hCoV) NY isolates consistent with its early emergence and rapid spread worldwide (17, 18). Confirmation sequencing of the isolates showed that 682W/Q substitutions appeared in four (33%) viruses after initial isolation and culturing in VeroE6 cells. This is consistent with in vitro adaptative mutations previously described (30). Moreover, a five amino acid sequence (Δ675-679) flanking the furin cleavage site was deleted in five (42%) of the isolates as compared to the sequence from the original specimen. This deletion has been previously reported to be a common in vitro mutation selected in Vero cells (29). Amino acids substitutions of the S protein of these initial human isolates compared to the Wuhan-1 reference are shown Figure 1C. We next studied the replication kinetics of the NY SARS-CoV-2 isolates by comparing their multicycle growth curves at an MOI of 0.01 in VeroE6 and human Caco-2 cells. As expected, NY2 and NY4 containing the 682Q/W showed an advantage in VeroE6, while no differences could be found in Caco-2 cells (Supplementary Figure 2A-B). Remarkably, NY7 (S:655Y) showed higher growth at 48 hours post-infection (p.i) in Caco-2 cells (Figure 1D, Supplementary Figure 2B) when compared to the rest of these early SARS-CoV-2 isolates. These results support our conclusion that the 655Y polymorphism conferred a viral advantage. To investigate the spike cleavage efficiency of the 655Y versus other human isolates, we performed infections in VeroE6, and supernatants were analyzed by Western blot for the S2 domain of the S protein. Importantly, two bands were clearly visible for the NY7 (S:655Y) (Figure 1E), corresponding to both the cleaved (95 kDa) and uncleaved (180 kDa) form of the S protein. In contrast, only the uncleaved S form was detected in the other early human isolates indicating that the 655Y polymorphism may facilitate S protein processing.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11134,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure 1.: Mink and human SARS-CoV-2 variants bearing the 655Y polymorphism.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To confirm whether the 655Y mutation was solely responsible for the increased S cleavage, we analyzed the replication and cleavage efficiency of a panel of SARS-CoV-2 viruses, all bearing the 655Y substitution but containing additional substitutions across the genome. We included two of the isolated mink variants (MiA1 and MiA2); NY7 and another human isolate derived from a COVID patient infected in February 2021 (NY13, S:614G, 655Y); and a previously published WA1-655Y variant isolated after wild type WA1 infection in cats (32). Additionally, the WA1 reference and NY6 were used as controls since they lack the 655Y substitution. It should be noted that NY6 has a five amino acid deletion before the furin cleavage site (Figure 1C and 2A). We assessed differences in replication and S processing of this panel of viruses by comparing growth in both VeroE6 and Vero-TMPRSS2 cells. As shown in Figure 2B, WA1-655Y infection yielded higher titers in both VeroE6 and Vero-TMPRSS2 cells as compared to infection by WA1. These isolates only differ in the position 655Y while the rest of the genome is isogenic, supporting that 655Y spike polymorphism enhances viral replication and growth. Next, viral supernatants were used to analyze the plaque phenotype in VeroE6 and Vero-TMPRSS2 and to compare S protein expression levels after infection. In general, all isolates showed higher plaque size in the presence of TMPRSS2, consistent with enhancement of cell entry (Figure 2C). However, differences were found by Western blot and only the isolates bearing 655Y showed enhanced spike cleavage in both VeroE6 and Vero-TMPRSS2 (Figure 2D). Finally, and to investigate the ability to induce syncytia, we infected Vero-TMPRSS2 at an MOI of 0.01 with the mink (MiA1) and human isolates (NY7, NY13 and NY6) and used specific antibodies to detect the S and N protein, as well as nuclei staining with DAPI after 24 p.i. by immunofluorescence microscopy. As shown in Figure 2E, the isolates harboring the 655Y polymorphism showed a slight increase in syncytia formation as compared to NY6 (S:Δ675-679).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13227,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure 1.: Mink and human SARS-CoV-2 variants bearing the 655Y polymorphism.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Syrian golden hamsters are a recognized rodent model to investigate infection and transmission of SARS-CoV-2 (33, 34). To test whether the S:655Y polymorphism enhances viral transmission, five pairs of Syrian golden hamsters were placed in individual cages to perform viral competition experiments. For this, one hamster of each pair was infected intranasally with 105 pfu of a mix of WA1 and WA1-655Y viruses at a one-to-one ratio (Figure 3A). Direct infected (DI) and direct contact (DC) hamsters were euthanized after day 5 and 7 post-infection, respectively, and lungs and nasal turbinates were harvested for subsequent viral titer quantification. In addition, nasal washes were collected on day 2 and 4 in both DI and DC, and on day 6 p.i. of DC animals. One of the DI hamsters died after nasal wash collection at day 2, leaving 4 animals subjected to follow up in the DI group. Hamsters were also monitored daily for body weight loss. After 2 days p.i. DC hamsters exhibited a decrease in weight indicating early viral transmission from infected animals (Figure 3B). This observation was further supported by detection of infectious virus in nasal washes at 2 days p.i in both DI and DC hamsters. At day 4 p.i., viral titers were detected in 3 out of 4 animals and at day 6 p.i., viral replication was not detected in two of the DC nasal wash samples (Figure 3C). In general, we observed a decrease over time in the infectious virus present in nasal washes from DI and DC animals. We then determined the relative abundance of S:655Y on the viral RNA present in the nasal washes by next-generation sequencing (Figure 3D). The consensus RNA sequence from all DI hamsters contained the S:655Y polymorphism suggesting that WA1-655Y virus was able to overcome the wild type WA1 isolate during infection. Similarly, S:655Y was present in all the nasal washes collected from four DC hamsters indicating an advantage conferred by this mutation in viral transmission. However, one DC animal (hamster 4-C) showed a decrease of 655Y abundance over time. Interestingly, this hamster lost less weight when compared to the rest of the animals. Next, we analyzed the viral growth in lungs and nasal turbinates from DI (collected at day 5 p.i.) and DC (collected at day 7p.i.) hamsters (Figure 3E). No differences were found in viral titers in the tissues from both animal groups. However, we observed that three DC hamsters had lower lung titers compared to the rest of the animals. These same hamsters also exhibited low viral loads in the nasal turbinates. We then sequenced the viral RNA present in these tissues (Figure 3F-G). The RNA from one lung and nasal turbinate of one DI and DC hamster could not be amplified by specific PCR for downstream sequencing. Figure 3F-G shows that all lungs and nasal turbinate tissues from DI animals analyzed had the S:655Y mutation. In addition, S:655Y was present in 75% of the nasal turbinates and lungs from DC animals. Taken together, our results demonstrate that 655Y polymorphism increases spike cleavage and viral growth. Moreover, viral competition and transmission experiments showed that S:655Y became predominant in both DI and DC animals indicating that this mutation plays a role in viral transmissibility.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16479,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure 4.: Global epidemiology of SARS-CoV-2 variants of concern (VOCs).",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Current circulating SARS-CoV-2 VOCs bear novel spike polymorphisms that correlate with an enhanced human transmission (19) and reduced antibody neutralization (22, 35). Interestingly, the Gamma variant (lineage P.1) which emerged in Brazil in November 2020, harbors the amino acid spike substitution H655Y. In the context of the evolving epidemiological situation, we decided to investigate whether the co-emergence of different selective mutations in some representative VOC had a similar phenotype to SARS-CoV-2 viruses harboring the S:655Y. We first estimated the amino acid substitution frequencies around the cleavage site region (655 to 701) from globally available data (2,072,987 sequences deposited in GISAID Database up to 28 June 2021). As expected, the P681H/R, H655Y and A701V substitutions showed high prevalence since they are harbored by the main VOCs lineages. Additionally, the less prevalent Q675H and Q677H were also found to be a highly variable position and present in widely circulating variants (36). We then spatially and structurally mapped these amino acid changes within and surrounding the furin cleavage sequence of the S protein (Figure 4A). The 655 position was located in close proximity to the furin cleavage site. Next, we performed a phylogenetic analysis of sequences sampled worldwide from February 2020 to June 2021 to illustrate the temporal distribution and phylogenetic relationship of the high prevalent S mutations (Figure 4B). For this, a sample set of 13,847 sequences deposited in GISAID up to June 2021 were analyzed. While the H665Y frequency was higher in the Gamma lineage (P.1), it could be found also in 19B clade (Figure 4C), in line with our identified NY7 isolate. The P681H substitution located in the furin cleavage site of the spike protein was identified in the Alpha variant that emerged in September 2020. Interesting, this mutation was also found in the Theta variant, first detected in February 2021 (Figure 4D). In contrast, Kappa and Delta variants harbor polymorphism P681R (Figure 4D). Finally, the frequency of A701V mutation was higher in Beta and Iota variants which emerged in October and November 2020, respectively (Figure 4E).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18752,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure 4.: Global epidemiology of SARS-CoV-2 variants of concern (VOCs).",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Next, we analyzed the in vitro phenotype of some of the most prevalent SARS-CoV-2 VOCs. Multiple protein sequence alignment of the VOCs used are shown in Figure 5A. In contrast to the NY isolates previously analyzed, VOCs showed a considerable number of unique changes across the whole spike protein. However, all of them showed similar replication kinetics and plaque phenotypes in Vero-TMPRSS2 cell monolayers. Conversely, clear differences were observed when replication efficiency was determined in VeroE6 cells at 24 hours post-infection (p.i.) (Figure 5B). Additionally, viral supernatants were titrated on both VeroE6 and Vero-TMRPSS2 cells (Figure 5C). Substantial differences in plaque phenotypes were observed, especially for the Kappa (B.1.617.1) and Delta (B.1.617.2) variants, when TMRPSS2 was present. Thus, these late VOCs that emerged late in the COVID-19 pandemic might strongly depend on the presence of TMRPSS2 to establish optimal infection in vitro. Last, we investigated the extent of the spike cleavage of these VOCs. For this, infections were performed in VeroE6 and Vero-TMPRSS2 at an MOI of 0.01 and viral supernatants were analyzed after 48 hours post-infection (p.i.) by Western blot (Figure 5D). N protein was used as a control for viral replication and loading. Similarly, WA1 was included as a reference since no selective mutations are found in the S protein. Figure 5D shows similar cleaved and uncleaved S protein levels for all the SARS-CoV-2 VOCs in the presence of TMRPSS2 expressed in Vero-TMPRSS2 cells. In contrast, only Beta (B.1.351) and Gamma (P.1), exhibited an increased spike cleavage when the infections were performed in wild type VeroE6 cells. Interestingly, the spike and nucleocapsid expression of Kappa (B.1.617.1) and Delta (B.1.617.2) variants was not detectable by Western blot analysis of VeroE6 supernatants. The canonical cleavage at the S1/S2 site occurs at the last arginine (R) of the multibasic PRRAR motif and is performed by furin proteases at this specific residue. Thus, we next quantified the abundance of furin-cleaved peptide of VOCs in Vero-TMPRSS2 cell supernatants by targeted mass spectrometry. Vero-TMPRSS2 cells were infected at an MOI of 0.1 with the indicated VOCs and NY7 (S:H655Y) and WA1-655Y isolates. WA1 and NY6 were used as controls. Cell extracts were collected after 24 hours post-infection and samples were prepared. The abundance of the C-terminal peptide resulting from endogenous furin cleavage at the terminal arginine (PRRAR \\ SVASQSIIAYTMSLGAE) was quantified as a proxy of cleavage efficiency since this peptide is common for all SARS-CoV-2 VOCs, except for the Beta that contained a V instead of A at the end of the peptide (SVASQSIIAYTMSLGVE). Fold change peptide-level abundance for each variant compared to WA1 control was calculated and plotted in Figure 5E. Isolates WA1-655Y, NY7 and Gamma, all of them harboring the 655Y mutation, and Beta harboring 701V, showed the higher abundance of furin-cleaved peptide. Conversely, lower levels of C-terminal cleaved peptide were found for the VOCs harboring the 681H/R amino acid change suggesting that an introduction of an amino acid change at this position might modify the canonical cleavage residue at the last R of the furin cleavage site. Nonetheless, when we assessed the fusogenic capacity of the S protein of VOCs by immunofluorescence microscopy of infected Vero-TMPRSS2 cells, we found strong syncytium formation induced by all the variants (Figure 5F). Interestingly, extensive fusogenic capacity was also exhibited by Delta and Kappa variants (Figure 5F-G) consistent with abundant cleaved S form found by Western blot (Figure 5D). Because cleavage at the multibasic furin motif is believed to be required for optimal syncytium formation (10), we finally compared the ability to induce cell fusion by the Kappa variant and a mutated form lacking amino acids at the furin cleavage site (S: Δ678-682). This Δ678-682 Kappa was obtained after consecutive passage and culturing in VeroE6 cells. As shown in Figure 5G, a loss of fusogenic activity was observed when compared to the intact Kappa VOC. Altogether, our results are consistent with the notion that current highly transmissible circulating VOCs have evolved independently to acquire mutations associated with increased spike protein processing and transmission.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23125,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Emerging SARS-CoV-2 VOCs contain novel spike polymorphisms with unclear functional consequences on epidemiology, viral fitness, and antigenicity. In this study, we evaluated the impact of different spike mutations on viral infection, pathogenicity, and in vivo transmission. We found that in the mink animal model the 655Y spike substitution is selected after infection with the WA1 isolate. Phylogenetic analysis of genome sequences collected worldwide showed an early sporadic appearance of S:655Y during the first pandemic wave in New York in March 2020, and the presence of this mutation in several posterior lineages, including SARS-CoV-2 Gamma variant, pointing to a potential role in adaptation and evolution. To better understand the impact of this polymorphism, we isolated and in vitro characterized a panel of SARS-CoV-2 viruses bearing the 655Y spike mutation. Our results demonstrated that S:655Y enhances the viral growth and the spike protein processing required for optimal cell entry and viral-host membrane fusion. In addition, we performed viral competition and transmission experiments in the hamster animal model and showed that S:655Y became predominant in both direct infected and direct contact animals. Finally, we showed that VOCs converge to gain spike cleavage efficiency and fusogenic potential.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24459,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Here, we demonstrate that viruses containing the H655Y polymorphism confer a growth advantage in both VeroE6 and human-like Vero-TMPRSS2 cells. Interestingly, the early human isolate NY7 harboring the 655Y mutation also showed higher replication in human Caco-2 cells. However, it is known that other mutations outside of the S gene could be impacting viral replication and infection (37, 38). Therefore, we confirmed the S:655Y mutation alone was responsible for the enhanced growth and spike cleavage phenotype when comparing WA1 wild type and WA1-655Y isolates. These variants have the same viral protein amino acid sequence except for the amino acid present at position 655 of the spike. Since most of the isolates used in this study contain a constellation of mutations across the genome that could increase viral fitness, comparison of both viruses in parallel allowed to detect differences in growth and spike cleavage that can be attributed only to 655Y polymorphism. S:655Y is present in the S1 spike domain outside of the RBD and has been associated with a decrease of the neutralizing activity when targeted by some monoclonal antibodies(26). However, H655Y has been also naturally selected in cats and mice suggesting a beneficial impact of this substitution in widen viral host range and susceptibility (27, 28). Our data further supports this argument because we also found that S:655Y is selected after replication in minks, a natural host for SARS-CoV-2. Besides, when we assessed the viral transmission efficiency of 655Y versus the ancestor 655H in competition experiments in the hamster model, we also found that 655Y becomes more prevalent, as the bulk of infectious viruses recovered from the infected animals harbored this mutation, except for one hamster. This indicates that S:655Y can overcome S:655H in vivo.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26293,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Intense worldwide surveillance has established that SARS-CoV-2 variants are constantly emerging. In particular, the spike protein has shown high plasticity (6). Most of the spike mutations associated with a decrease in neutralization by antibodies against earlier viruses are located in the RBD or N-terminal domain (NTD), which are critical for binding and interacting with the ACE2 cellular receptor. While mutations at these domains may impact SARS-CoV-2 vaccine efficacy, it is also vital to characterize other mutations that might explain the gain in transmissibility observed for the VOCs. Since the Gamma variant that emerged in November 2020 also harbors the 655Y polymorphism (Figure 5A), we decided to investigate its phenotype in vitro. Similar to the earlier S:655Y isolates, this variant also exhibited an increase in spike processing efficiency. More importantly, this phenotype was also confirmed in all emerging VOCs analyzed when infections were performed in the Vero-TMPRSS2 cells indicating that additional mutations within S confer this advantage. Most likely, the spike mutations P681H in Alpha variant-first identified in United Kingdom-and P681R harbored by Kappa and Delta variants-first emerged in India-allowed this enhanced S cleavage. Interestingly, for these variants, optimal cleavage appeared to be dependent on TMPRSS2 protease activity (Figure 5D).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27674,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "To confirm the cleavage at the putative furin cleavage site, we determined the relative abundance of the furin cleaved peptide produced after the 685-terminal arginine. We observed higher amount of cleavage at this position as compared to the previous circulating viruses, although lower amounts were detected in Alpha, Kappa and Delta variants as compared to the viruses harboring the 655Y mutation. This suggests that a change in residue 681 may introduce an additional cleavage site, perhaps recognized by TMPRSS2 protease that enhances spike cleavage of these variants and produces an additional cleavage peptide different in size and amino acid sequences. Further research is needed to confirm the existence of a recognition site for additional proteases different than furin in the amino acid motif SH/RRRAR when the P681S/H mutation is present. In any case, all the VOCs analyzed proved to be strong syncytia inducers which could potentially indicate a role in pathogenesis and lung damage mediated by TMPRSS2 activity after infection in humans (39). On the other hand, the Beta variant, which was first identified in South Africa in October 2020, does not contain a change in the furin cleavage site or in the spike position 655, but instead a change in the residue found at position 701. Although this residue is found around 20 amino acids away from the furin cleavage motif, we found similar results when the extent of the spike processing was investigated (Figure 4A-E; 5D-G). It is important to note that the VOCs investigated in here independently acquired S mutations around the furin cleavage site that became epidemiologically more prevalent in humans. When we investigated the spatial distribution by superimposition of the crystal structure of the S protein, we found that these highly prevalent polymorphisms were all located in close proximity to the furin site loop (Figure 4A). Any substitution in this protein domain is likely to have an effect on the structural integrity and dynamics, potentially impacting the accessibility of the polybasic site to the relevant protease and likely facilitating the recognition by furin.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29821,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "In summary, our study demonstrates that the 655Y spike polymorphism, present in the Gamma VOC, is a key determinant of SARS-CoV-2 infection and transmission. The selection and increasing frequency of S:655Y in the human population and following SARS-CoV-2 infection of different animal models such as cats, mice and minks suggests this mutation is associated with an improvement of viral fitness and adaptation to diverse hosts through an increased cleavage of the spike protein. Additionally, we provide evidence of adaptative mutations that SARS-CoV-2 VOCs have been acquired and are associated with an increased spike protein processing. This has significant implications in the understanding of the viral determinants that can impact viral transmissibility, viral evolution, and possibly SARS-CoV-2 antigenicity and pathogenicity.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

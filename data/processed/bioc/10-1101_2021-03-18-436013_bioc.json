@@ -1,0 +1,98 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-03-18-436013",
+      "inputfile": "../../data/processed/html/10-1101_2021-03-18-436013.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "The B1.351 and P.1 variants extend SARS-CoV-2 host range to mice",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 64,
+          "infons": {
+            "section_title_1": "The B.1.351 and P.1 variants efficiently replicate in mice airways"
+          },
+          "text": "We first measured the capacity of a panel of low-passage clinical isolates belonging to the main lineage and to each of the VOCs lineages (Fig. S1) to infect mouse cells expressing the murine ACE2 receptor (DBT-mACE2), by comparison with VeroE6 cells. Contrary to the wild type viruses (B and B.1 lineages) which did not replicate in these cells, all VOCs viruses replicated to high titers at 48h post infection (Fig. S2).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 552,
+          "infons": {
+            "section_title_1": "The B.1.351 and P.1 variants efficiently replicate in mice airways"
+          },
+          "text": "We next inoculated 8-week-old BALB/c and C57BL/6 mice intranasally (i.n.) with a representative virus of either the most prevalent SARS-CoV-2 lineage (basal to B.1, carrying the D614G substitution) or the B.1.1.7, B.1.351 or P.1 lineages and we measured the viral load and titer in the lungs on day 3 post infection (dpi3). Consistently with what was reported for the ancestral virus 12, only low amounts of viral RNA and no live B.1 virus was detected (Fig. 1A-B). In contrast, inoculation with the B.1.351 or the P.1 viruses yielded high titer virus replication in lung tissues in both mouse strains. The viral load was significantly lower for the B.1.1.7 virus, with no infectious virus detected in the BALB/c lungs. To capture the time course of the productive infection with the B.1.351 and P.1 viruses, we also sampled infected mice at day 2 and 4, revealing an early peak of infection (Fig. S3). None of the mice infected with either viruses developed symptoms nor lost weight.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1536,
+          "infons": {
+            "section_title_1": "The B.1.351 and P.1 variants efficiently replicate in mice airways"
+          },
+          "text": "Three days after B.1.351 or B.1.1.7 virus inoculation, histological evaluation of the lung ranged from normal morphology to moderate lesions with multifocal interstitial infiltrates of lymphocytes, plasma cells, macrophages and rarer neutrophils, and degenerating epithelial cells in the bronchial and bronchiolar spaces. Anti-N immunohistochemistry revealed the presence of infected cells in bronchiolar epithelium, bronchiolar and alveolar spaces and alveolar walls (Figure 1C).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2016,
+          "infons": {
+            "section_title_1": "The B.1.351 and P.1 variants efficiently replicate in mice airways"
+          },
+          "text": "The ability of viruses of the B.1.351 and P.1 lineages to replicate in common laboratory mice extends the host range of SARS-CoV-2 at least to this species. It has been proposed that persistence can select for host range expansion of animal viruses, by selecting for virus variants that recognize phylogenetic homologues of the receptor 13,14. Interestingly, there is still speculation on the mechanism of emergence of the VOCs, which are all characterized by an unusually large number of mutations compared to their last common ancestor, including a number of changes (substitution and deletions) in the spike protein. While the genomic surveillance could have not captured all the evolutionary intermediates leading to these lineages, similar patterns of accumulated changes were noted in some longitudinal studies of immunocompromised individuals infected by SARS-CoV-2 for extended periods of time 15,16, leading to the hypothesis of a role of such long-term infections in their emergence. As mutations in the positions of interest in the spike RBD (417, 484 and 501), alone or in combination, have been noted in other lineages during the extensive circulation of SARS-CoV-2 in human populations 17, and associated in vitro with modification of the affinity for human ACE2, the observed host range expansion nevertheless likely represents only a serendipitous by-product of selection for increased transmissibility in its current host.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3455,
+          "infons": {
+            "section_title_1": "The B.1.351 and P.1 variants efficiently replicate in mice airways"
+          },
+          "text": "Mechanistically, while all VOCs appeared to be able to replicate in a mouse cell line expressing mACE2, we noted differences in vivo, with the B.1.1.7 virus inoculation yielding significantly lower viral load in the lungs than the B.1.351 and P.1 viruses. Homology modeling of the spike in contact with mACE2 reveals that the murine version of the receptor presents a strongly negatively charged central patch composed of residues E35, D37, D38 and Q42. These residues are also present in hACE2 but associated with several positively charged residues, which are replaced by more neutral amino acids in mACE2 (Figure 2B). This feature indicates that efficient binding to mACE2 would require complementary positive charges in the RBD. As expected, the mutation N501Y makes its local environment in the RBD more neutral and hides negative charges exposed in the B.1 RBD. The E484K mutation found in the RBD of variants B.1.351 and P.1 is also located in the ACE2 binding interface, resulting in a more positively charged RBD surface, in turn contributing to better binding to the negatively charged patch in mACE2, and might explain the differences observed in vivo. This interpretation is consistent with recent results obtained with pseudotyped viruses showing that the N501Y, E484K and their combination increase entry in mACE2 expressing cells 18. However, other changes among the constellations defining the VOC lineages might also play a role in the resulting in vivo phenotype. Indeed, the mouse-adapted variants reported by Gu et al 10 and later Sun et al 19 induced pathological and inflammation features that were not observed here, and were also associated with genetic changes outside of the spike. Further studies are needed to dissect the combinatory role of the mutations defining the SARS-CoV-2 VOCs.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5268,
+          "infons": {
+            "section_title_1": "The B.1.351 and P.1 variants efficiently replicate in mice airways"
+          },
+          "text": "The ability of viruses of the B.1.351 or P.1 lineages to replicate in common laboratory mice will facilitate in vivo studies in this species, to evaluate countermeasures (vaccines or therapeutic interventions), to assess antibody cross-reactivity and vaccine cross-protection, and for functional studies using genetically altered mouse strains. Further in-depth studies will be needed to characterize the pathological consequences of infection with these variants. Notably, unlike what was described for a mouse adapted strain carrying the N501Y substitution 10, young adult mice infected with our variants showed no signs of disease nor body weight loss. Whether a more severe condition could be observed in older mice, in other mouse strains or with other isolates of the same lineages remains to be determined. In addition, the difference of responses noted between the BALB/c and C57BL/6 mice for the B.1.1.7 virus suggests a potential role of host factors as the amino acid sequence of their ACE2 is identical.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6283,
+          "infons": {
+            "section_title_1": "The B.1.351 and P.1 variants efficiently replicate in mice airways"
+          },
+          "text": "Finally, although the infectious dose and the transmissibility between mice remain to be established for these new variants, as well as the permissiveness of related animal species, these results raise major questions on the risk of mice or other rodents living in proximity to humans of becoming secondary reservoirs for SARS-CoV-2 in regions where the B.1.351, P.1 or other specific variants circulate, from where they could evolve separately and potentially spillback to humans. Indeed, rodents have been hypothesized as the ancestral host of some betacoronaviruses (lineage A, which includes the seasonal human coronaviruses OC43 and HKU1 20,21). While rodent densities are highly variable and more difficult to control, similar and actionable concerns were raised upon the detection of SARS-CoV-2 in Mink farms in The Netherlands 22 and in Denmark 23 due to the density of animals housed, and the detection of changes in the virus genome. We posit that host range should be closely monitored along the continued evolution of SARS-CoV-2.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

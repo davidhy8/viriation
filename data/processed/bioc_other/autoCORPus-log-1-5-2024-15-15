@@ -1,0 +1,25 @@
+Auto-CORPus log file from 15:15 on 1/5/2024
+Input directory provided: ../../data/processed/html/html_other/
+Output directory provided: ../../data/processed/bioc_other/
+Config provided: ../../data/other/config_allen.json
+Output format: JSON
+7 files processed.
+9 files not processed due to errors.
+
+
+../../data/processed/html/html_other/10-48550_arXiv-2007-01344 was processed successfully.
+../../data/processed/html/html_other/assets-publishing-service-gov-uk_government_uploads_system_uploads_attachment_data_file_1009243_Technical_Briefing_20-pdf was processed successfully.
+../../data/processed/html/html_other/assets-researchsquare-com_files_rs-106969_v2_stamped-pdf was processed successfully.
+../../data/processed/html/html_other/cmmid-github-io_topics_covid19_reports_sa-novel-variant_2021_01_11_Transmissibility_and_severity_of_501Y_V2_in_SA-pdf. was processed successfully.
+../../data/processed/html/html_other/virological-org_t_emergence-of-y453f-and-69-70hv-mutations-in-a-lymphoma-patient-with-long-term-covid-19_580 was processed successfully.
+../../data/processed/html/html_other/www-fda-gov_media_146217_download was processed successfully.
+../../data/processed/html/html_other/www-fda-gov_media_155050_download was processed successfully.
+../../data/processed/html/html_other/10-48550_arXiv-2007-01344/placeholder.jpg failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_other/10-48550_arXiv-2007-01344/placeholder.jpg_tables.json'.
+../../data/processed/html/html_other/10-48550_arXiv-2007-01344/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_other/10-48550_arXiv-2007-01344/saved_resource_bioc.json'.
+../../data/processed/html/html_other/assets-publishing-service-gov-uk_government_uploads_system_uploads_attachment_data_file_1009243_Technical_Briefing_20-pdf/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_other/assets-publishing-service-gov-uk_government_uploads_system_uploads_attachment_data_file_1009243_Technical_Briefing_20-pdf/saved_resource_bioc.json'.
+../../data/processed/html/html_other/assets-researchsquare-com_files_rs-106969_v2_stamped-pdf/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_other/assets-researchsquare-com_files_rs-106969_v2_stamped-pdf/saved_resource_bioc.json'.
+../../data/processed/html/html_other/cmmid-github-io_topics_covid19_reports_sa-novel-variant_2021_01_11_Transmissibility_and_severity_of_501Y_V2_in_SA-pdf/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_other/cmmid-github-io_topics_covid19_reports_sa-novel-variant_2021_01_11_Transmissibility_and_severity_of_501Y_V2_in_SA-pdf/saved_resource_bioc.json'.
+../../data/processed/html/html_other/virological-org_t_emergence-of-y453f-and-69-70hv-mutations-in-a-lymphoma-patient-with-long-term-covid-19_580/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_other/virological-org_t_emergence-of-y453f-and-69-70hv-mutations-in-a-lymphoma-patient-with-long-term-covid-19_580/saved_resource_bioc.json'.
+../../data/processed/html/html_other/www-fda-gov_media_146217_download/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_other/www-fda-gov_media_146217_download/saved_resource_bioc.json'.
+../../data/processed/html/html_other/www-fda-gov_media_155050_download/placeholder.jpg failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_other/www-fda-gov_media_155050_download/placeholder.jpg_tables.json'.
+../../data/processed/html/html_other/www-fda-gov_media_155050_download/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_other/www-fda-gov_media_155050_download/saved_resource_bioc.json'.

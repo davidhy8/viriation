@@ -1,0 +1,98 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2022-01-25-477724",
+      "inputfile": "../../data/processed/html/10-1101_2022-01-25-477724.html",
+      "passages": [
+        {
+          "text_short": "MP",
+          "text_long_1": "monophosphate",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MHV",
+          "text_long_1": "murine hepatitis virus",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CPE",
+          "text_long_1": "cytopathic effect",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RNA-seq",
+          "text_long_1": "RNA-sequencing",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "NS",
+          "text_long_1": "non- synonymous",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PP",
+          "text_long_1": "Plaque picks",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RT",
+          "text_long_1": "reverse transcriptase",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "EUA",
+          "text_long_1": "Emergency Use Authorization",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SRA",
+          "text_long_1": "Sequence Read Archive",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "DMEM",
+          "text_long_1": "Dulbecco’s modified Eagle medium",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FBS",
+          "text_long_1": "fetal bovine serum",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "A549-hACE2",
+          "text_long_1": "A549 cells overexpressing the human ACE2 receptor",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "DBT",
+          "text_long_1": "delayed brain tumor",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "BHK-R",
+          "text_long_1": "baby hamster kidney 21 cells expressing the MHV receptor",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "P13",
+          "text_long_1": "passage 13",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Invitrogen",
+          "text_long_1": "In addition, RNA was harvested from infected cell supernatant using TRIzol LS reagent",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PBS +/+",
+          "text_long_1": "PBS containing CaCl2 and MgCl2",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

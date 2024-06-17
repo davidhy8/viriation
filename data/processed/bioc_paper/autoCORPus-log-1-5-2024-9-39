@@ -1,0 +1,53 @@
+Auto-CORPus log file from 9:39 on 1/5/2024
+Input directory provided: ../../data/processed/html_papers/
+Output directory provided: ../../data/processed/bioc_paper/
+Config provided: ../../data/other/config_allen.json
+Output format: JSON
+22 files processed.
+22 files not processed due to errors.
+
+
+../../data/processed/html_papers/10-1093_cid_ciab308 was processed successfully.
+../../data/processed/html_papers/10-3390_pathogens10121586 was processed successfully.
+../../data/processed/html_papers/10-1093_jtm_taab051 was processed successfully.
+../../data/processed/html_papers/10-1093_infdis_jiab171 was processed successfully.
+../../data/processed/html_papers/10-1038_s41564-021-01053-0 was processed successfully.
+../../data/processed/html_papers/10-1093_cid_ciab446 was processed successfully.
+../../data/processed/html_papers/10-1093_cid_ciab411 was processed successfully.
+../../data/processed/html_papers/10-1038_s41591-021-01270-4 was processed successfully.
+../../data/processed/html_papers/10-1038_s41591-021-01583-4 was processed successfully.
+../../data/processed/html_papers/10-1038_s41586-021-03412-7 was processed successfully.
+../../data/processed/html_papers/10-1136_annrheumdis-2022-222115 was processed successfully.
+../../data/processed/html_papers/10-1038_s41564-021-00954-4 was processed successfully.
+../../data/processed/html_papers/10-1128_aac-00568-23 was processed successfully.
+../../data/processed/html_papers/10-1038_s41591-021-01285-x was processed successfully.
+../../data/processed/html_papers/10-1128_JCM-00741-21 was processed successfully.
+../../data/processed/html_papers/10-1093_cid_ciaa1474 was processed successfully.
+../../data/processed/html_papers/10-1038_s41591-021-01318-5 was processed successfully.
+../../data/processed/html_papers/10-1038_s41586-021-03398-2 was processed successfully.
+../../data/processed/html_papers/10-1093_infdis_jiab260 was processed successfully.
+../../data/processed/html_papers/10-1017_ice-2021-195 was processed successfully.
+../../data/processed/html_papers/10-1172_JCI149335 was processed successfully.
+../../data/processed/html_papers/10-1093_cid_ciab014 was processed successfully.
+../../data/processed/html_papers/10-1038_s41586-021-03412-7_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1038_s41586-021-03412-7_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1038_s41564-021-01053-0_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1038_s41564-021-01053-0_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1093_cid_ciab014_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1093_cid_ciab014_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1128_JCM-00741-21_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1128_JCM-00741-21_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1017_ice-2021-195_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1017_ice-2021-195_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1172_JCI149335_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1172_JCI149335_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1093_cid_ciab446_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1093_cid_ciab446_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1093_cid_ciab308_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1093_cid_ciab308_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1093_jtm_taab051_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1093_jtm_taab051_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1093_infdis_jiab260_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1093_infdis_jiab260_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-3390_pathogens10121586_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-3390_pathogens10121586_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1038_s41591-021-01583-4_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1038_s41591-021-01583-4_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1038_s41591-021-01285-x_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1038_s41591-021-01285-x_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1128_aac-00568-23_files/placeholder.jpg failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1128_aac-00568-23_files/placeholder.jpg_tables.json'.
+../../data/processed/html_papers/10-1128_aac-00568-23_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1128_aac-00568-23_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1038_s41591-021-01270-4_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1038_s41591-021-01270-4_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1136_annrheumdis-2022-222115_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1136_annrheumdis-2022-222115_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1093_cid_ciab411_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1093_cid_ciab411_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1038_s41564-021-00954-4_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1038_s41564-021-00954-4_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1038_s41591-021-01318-5_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1038_s41591-021-01318-5_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1093_infdis_jiab171_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1093_infdis_jiab171_files/saved_resource_bioc.json'.
+../../data/processed/html_papers/10-1038_s41586-021-03398-2_files/saved_resource failed due to [Errno 2] No such file or directory: '../../data/processed/bioc_paper/10-1038_s41586-021-03398-2_files/saved_resource_bioc.json'.

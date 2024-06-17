@@ -1,0 +1,1818 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "www-fda-gov_media_155050_download",
+      "inputfile": "../../data/processed/html/html_other/www-fda-gov_media_155050_download.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "FACT SHEET FOR HEALTHCARE PROVIDERS: EMERGENCY USE AUTHORIZATION FOR PAXLOVID TM HIGHLIGHTS OF EMERGENCY USE AUTHORIZATION (EUA) These highlights of the EUA do not include all the information needed to use PAXLOVID TM under the EUA. See the FULL FACT SHEET FOR HEALTHCARE PROVIDERS for PAXLOVID. PAXLOVID (nirmatrelvir tablets; ritonavir tablets), co-packaged for oral use Original EUA Authorized Date: 12/2021 Revised EUA Authorized Date: 03/2024 WARNING: SIGNIFICANT DRUG INTERACTIONS WITH PAXLOVID See full prescribing information for complete boxed warning",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 560,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": " • PAXLOVID includes ritonavir, a strong CYP3A inhibitor, which may lead to greater exposure of certain concomitant medications, resulting in potentially severe, life-threatening, or fatal events. (4, 5.1, 7) • Prior to prescribing PAXLOVID: 1) Review all medications taken by the patient to assess potential drug-drug interactions with a strong CYP3A inhibitor like PAXLOVID and 2) Determine if concomitant medications require a dose adjustment, interruption, and/or additional monitoring. (7) • Consider the benefit of PAXLOVID treatment in reducing hospitalization and death, and whether the risk of potential drug-drug interactions for an individual patient can be appropriately managed.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1259,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Sufficient information is available, such as through access to health records less than 12 months old or consultation with a health care provider in an established provider-patient relationship with the individual patient, to assess renal and hepatic function; and • Sufficient information is available, such as through access to health records, patient reporting of medical history, or consultation with a health care provider in an established provider-patient relationship with the individual patient, to obtain a comprehensive list of medications (prescribed and non-prescribed) that the patient is taking to assess for potential drug interaction. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1913,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The state-licensed pharmacist should refer an individual patient for clinical evaluation (e.g., telehealth, in-person visit) with a physician, advanced practice registered nurse, or physician assistant licensed or authorized under state law to prescribe drugs, if any of the following apply: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2205,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Sufficient information is not available to assess renal and hepatic function. • Sufficient information is not available to assess for a potential drug interaction. • Modification of other medications is needed due to a potential drug interaction. • PAXLOVID is not an appropriate therapeutic option based on the authorized Fact Sheet for Healthcare Providers or due to potential drug interactions for which recommended monitoring would not be feasible. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2660,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "PAXLOVID is authorized only for the duration of the declaration that circumstances exist justifying the authorization of the emergency use of PAXLOVID under section 564(b)(1) of the Act, 21 U.S.C. § 360bbb-3(b)(1), unless the authorization is terminated or revoked sooner. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2933,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "See Full Fact Sheet for Healthcare Providers for the justification for emergency use of drugs during the COVID-19 pandemic, information on available alternatives, and additional information on COVID-19. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3136,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "PAXLOVID is nirmatrelvir tablets co-packaged with ritonavir tablets. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3205,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "(2.1) Nirmatrelvir must be co-administered with ritonavir. (2.1) ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3270,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Initiate PAXLOVID treatment as soon as possible after diagnosis of COVID-19 and within 5 days of symptom onset. (2.1) • Administer orally with or without food. (2.1) • Dosage: 300 mg nirmatrelvir (two 150 mg tablets) with 100 mg ritonavir (one 100 mg tablet), with all three tablets taken together twice daily for 5 days. (2.1, 2.2) • Dose reduction for moderate renal impairment (eGFR ≥30 to <60 mL/min): 150 mg nirmatrelvir (one 150 mg tablet) with 100 mg ritonavir (one 100 mg tablet), with both tablets taken together twice daily for 5 days. (2.3) • PAXLOVID is not recommended in patients with severe renal impairment (eGFR <30 mL/min). (2.3, 8.6) • PAXLOVID is not recommend in patients with severe hepatic impairment (Child-Pugh Class C). (2.4, 8.7) ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4029,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Tablets: nirmatrelvir 150 mg (3) ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4064,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Tablets: ritonavir 100 mg (3) ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4096,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• History of clinically significant hypersensitivity reactions to the active ingredients (nirmatrelvir or ritonavir) or any other components. (4) • Co-administration with drugs highly dependent on CYP3A for clearance and for which elevated concentrations are associated with serious and/or life-threatening reactions. (4, 7.3) • Co-administration with potent CYP3A inducers where significantly reduced nirmatrelvir or ritonavir plasma concentrations may be associated with the potential for loss of virologic response and possible resistance. (4) ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4643,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• The concomitant use of PAXLOVID and certain other drugs may result in potentially significant drug interactions. Consult the full prescribing information prior to and during treatment for potential drug interactions. (5.1, 7) • Hypersensitivity Reactions: Anaphylaxis, serious skin reactions (including toxic epidermal necrolysis and Stevens-Johnson syndrome), and other hypersensitivity reactions have been reported with PAXLOVID. If signs and symptoms of a clinically significant hypersensitivity reaction or anaphylaxis occur, immediately discontinue PAXLOVID and initiate appropriate medications and/or supportive care. (5.2) • Hepatotoxicity: Hepatic transaminase elevations, clinical hepatitis, and jaundice have occurred in patients receiving ritonavir. (5.3) • HIV-1 Drug Resistance: PAXLOVID use may lead to a risk of HIV-1 developing resistance to HIV protease inhibitors in individuals with uncontrolled or undiagnosed HIV-1 infection. (5.4) ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5598,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "------------------------------ADVERSE REACTIONS ------------------------------Adverse events (incidence ≥1% and greater incidence than in the placebo group) were dysgeusia and diarrhea. (6.1) You or your designee must report all SERIOUS ADVERSE EVENTS or MEDICATION ERRORS potentially related to the use of PAXLOVID in the authorized pediatric population (1) by submitting FDA Form 3500 online, (2) by downloading this form and then submitting by mail or fax, or (3) contacting the FDA at 1-800-FDA-1088 to request this form. Please also provide a copy of this form to Pfizer Inc. at fax number: 1-866-635-8337. (6.4) ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6216,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Co-administration of PAXLOVID can alter the plasma concentrations of other drugs and other drugs may alter the plasma concentrations of PAXLOVID. Consider the potential for drug interactions prior to and during PAXLOVID therapy and review concomitant medications during PAXLOVID therapy. (4, 5.1, 7, 12. 3) ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6523,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "See FACT SHEET FOR PATIENTS, PARENTS, AND CAREGIVERS.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6578,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• PAXLOVID includes ritonavir, a strong CYP3A inhibitor, which may lead to greater exposure of certain concomitant medications, resulting in potentially severe, life-threatening, or fatal events [see Contraindications 4  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6799,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The U.S. Food and Drug Administration (FDA) has issued an Emergency Use Authorization (EUA) for the emergency use of PAXLOVID for the treatment of pediatric patients 12 years of age and older weighing at least 40 kg with mild-to-moderate coronavirus disease 2019 (COVID-19) and who are at high risk 1 for progression to severe COVID-19, including hospitalization or death. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7172,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "PAXLOVID is not authorized for use as pre-exposure or post-exposure prophylaxis for prevention of ]. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7273,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "PAXLOVID may be prescribed for an individual patient by physicians, advanced practice registered nurses, and physician assistants that are licensed or authorized under state law to prescribe drugs. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7471,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "PAXLOVID may also be prescribed for an individual patient by a state-licensed pharmacist for the treatment of mild-to-moderate COVID-19 in adults and pediatric patients (12 years of age and older weighing at least 40 kg) who are at high risk for progression to severe COVID-19, including hospitalization or death, in accordance with the FDA-approved Prescribing Information or authorized labeling, as applicable, under the following conditions: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7916,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Sufficient information is not available to assess renal and hepatic function. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7996,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Sufficient information is not available to assess for a potential drug interaction. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8082,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Modification of other medications is needed due to a potential drug interaction. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8165,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• PAXLOVID is not an appropriate therapeutic option based on the authorized Fact Sheet for Healthcare Providers or due to potential drug interactions for which recommended monitoring would not be feasible. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8371,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "There is currently an outbreak of COVID-19 caused by SARS-CoV-2, a novel coronavirus. The Secretary of Health and Human Services (HHS) has: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8511,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Determined that there is a public health emergency, or significant potential for a public health emergency. 2 • Declared that circumstances exist justifying the authorization of emergency use of drugs and biological products for the prevention or treatment of An EUA is a U.S. Food and Drug Administration authorization for the emergency use of an unapproved product or unapproved use of an approved product (i.e., drug, biological product, or device) in the United States under certain circumstances including, but not limited to, when the Secretary of HHS declares that there is a public health emergency that affects the national security or the health and security of United States citizens living abroad, and that involves biological agent(s) or a disease or condition that may be attributable to such agent(s). Criteria for issuing an EUA include: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9367,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• The biological agent(s) can cause a serious or life-threatening disease or condition; ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9455,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Based on the totality of the available scientific evidence (including data from adequate and well-controlled clinical trials, if available), it is reasonable to believe that § 360bbb-3(b) . March 15, 2023 (\"Amended Determination\"); https://www.federalregister.gov/documents/2023/03/20/2023-05609/covid-19-emergency-use-authorization-declaration. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9803,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "3 See U.S. Department of Health and Human Services, Declaration that Circumstances Exist Justifying Authorizations Pursuant to Section 564(b) of the Federal Food, Drug, and Cosmetic Act, 21 U.S.C. § 360bbb-3, 85 FR 18250 (April 1, 2020); https://www.federalregister.gov/documents/2020/04/01/2020-06905/emergency-use-authorization-declaration. See also Amended Determination (\"The declarations issued pursuant to section 564(b)(1) of the FD&C Act that circumstances exist justifying the authorization of emergency use of certain in vitro diagnostics, personal respiratory protective devices, other medical devices and drugs and biological products, as set forth in those declarations, and that are based on the February 4, 2020 determination, remain in effect until those declarations are terminated in accordance with section 564 of the FD&C Act.\"). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10653,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "o the product may be effective in diagnosing, treating, or preventing the serious or life-threatening disease or condition; and o the known and potential benefits of the product-when used to diagnose, prevent, or treat such disease or condition-outweigh the known and potential risks of the product, taking into consideration the material threat posed by the biological agent(s); • There is no adequate, approved, and available alternative to the product for diagnosing, preventing, or treating the serious or life-threatening disease or condition. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11202,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Information Regarding Approved Alternatives for the EUA Authorized Use 4, 5 Veklury (remdesivir) is an FDA-approved alternative to PAXLOVID when used for the treatment of mild-to-moderate COVID-19 in pediatric patients (12 years of age and older weighing at least 40 kg) who are at high risk for progression to severe COVID-19, including hospitalization or death. Veklury is administered via intravenous infusion for a total treatment duration of 3 days. Although Veklury is an FDA-approved alternative to PAXLOVID as described above, FDA does not consider Veklury to be an adequate alternative to PAXLOVID for this authorized use because it may not be feasible or practical for certain patients (e.g., it requires an intravenous infusion daily for 3 days). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11960,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Other therapeutics are currently authorized for the same use as PAXLOVID. For additional information on all products authorized for treatment or prevention of COVID-19, please see https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policyframework/emergency-use-authorization. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12266,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "For information on clinical studies that are testing the use of PAXLOVID in COVID-19, please see www.clinicaltrials.gov. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12387,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "PAXLOVID is nirmatrelvir tablets co-packaged with ritonavir tablets. There are two different dose packs available: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12502,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• PAXLOVID (nirmatrelvir; ritonavir) co-packaged for oral use 300 mg;100 mg [see Dosage and Administration (2.2) ]. • PAXLOVID (nirmatrelvir; ritonavir) co-packaged for oral use 150 mg;100 mg for patients with moderate renal impairment [see Dosage and Administration (2.3) ]. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12778,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Nirmatrelvir must be co-administered with ritonavir. Failure to correctly co-administer nirmatrelvir with ritonavir may result in plasma levels of nirmatrelvir that are insufficient to achieve the desired therapeutic effect. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13003,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Prescriptions should specify the numeric dose of each active ingredient within PAXLOVID [see Dosage and Administration (2.2, 2.3) ]. Completion of the full 5-day treatment course and continued isolation in accordance with public health recommendations are important to maximize viral clearance and minimize transmission of SARS-CoV-2. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13338,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The 5-day treatment course of PAXLOVID should be initiated as soon as possible after a diagnosis of COVID-19 has been made, and within 5 days of symptom onset even if baseline COVID-19 symptoms are mild. Should a patient require hospitalization due to severe or critical COVID-19 after starting treatment with PAXLOVID, the patient should complete the full 5-day treatment course per the healthcare provider's discretion. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13760,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "If the patient misses a dose of PAXLOVID within 8 hours of the time it is usually taken, the patient should take it as soon as possible and resume the normal dosing schedule. If the patient misses a dose by more than 8 hours, the patient should not take the missed dose and instead take the next dose at the regularly scheduled time. The patient should not double the dose to make up for a missed dose. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14163,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "PAXLOVID (both nirmatrelvir and ritonavir tablets) can be taken with or without food [see Clinical Pharmacology (12.3) ]. The tablets should be swallowed whole and not chewed, broken, or crushed. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14359,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The recommended dosage for PAXLOVID is 300 mg nirmatrelvir (two 150 mg tablets) with 100 mg ritonavir (one 100 mg tablet) with all 3 tablets taken together orally twice daily for 5 days. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14546,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "No dosage adjustment is recommended in patients with mild renal impairment (eGFR ≥60 to <90 mL/min). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14647,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In patients with moderate renal impairment (eGFR ≥30 to <60 mL/min), the dosage of PAXLOVID is 150 mg nirmatrelvir (one 150 mg tablet) and 100 mg ritonavir (one 100 mg tablet) with both tablets taken together twice daily for  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14873,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Nirmatrelvir is supplied as oval, pink immediate-release, film-coated tablets debossed with \"PFE\" on one side and \"3CL\" on the other side. Each tablet contains 150 mg of nirmatrelvir. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15059,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Ritonavir is supplied as white or white to off-white film-coated tablets uniquely identified by the color, shape, and debossing [see How Supplied/Storage and Handling (16) • Clinically significant adverse reactions, potentially leading to severe, life-threatening, or fatal events from greater exposures of concomitant medications. • Loss of therapeutic effect of PAXLOVID and possible development of viral resistance. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15480,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Severe, life-threatening, and/or fatal adverse reactions due to drug interactions have been reported in patients treated with PAXLOVID. The most commonly reported concomitant medications resulting in serious adverse reactions were calcineurin inhibitors (e.g., tacrolimus, cyclosporine), followed by calcium channel blockers. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15806,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Prior to prescribing PAXLOVID, review all medications taken by the patient to assess potential drug-drug interactions and determine if concomitant medications require a dose adjustment, interruption, and/or additional monitoring (e.g., calcineurin inhibitors) [see Contraindications (4) and Drug Interactions 7]. See Table 1 for clinically significant drug interactions, including contraindicated drugs. Drugs listed in Table 1 are a guide and not considered a comprehensive list of all possible drugs that may interact with PAXLOVID. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16341,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Consider the benefit of PAXLOVID treatment in reducing hospitalization and death, and whether the risk of potential drug-drug interactions for an individual patient can be appropriately managed [see Drug Interactions (7) and Clinical Studies (14) ]. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16591,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Anaphylaxis, serious skin reactions (including toxic epidermal necrolysis and Stevens-Johnson syndrome), and other hypersensitivity reactions have been reported with PAXLOVID [see Adverse Reactions (6.2) ]. If signs and symptoms of a clinically significant hypersensitivity reaction or anaphylaxis occur, immediately discontinue PAXLOVID and initiate appropriate medications and/or supportive care. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16990,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Hepatic transaminase elevations, clinical hepatitis, and jaundice have occurred in patients receiving ritonavir. Therefore, caution should be exercised when administering PAXLOVID to patients with pre-existing liver diseases, liver enzyme abnormalities, or hepatitis. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17258,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Because nirmatrelvir is co-administered with ritonavir, there may be a risk of HIV-1 developing resistance to HIV protease inhibitors in individuals with uncontrolled or undiagnosed HIV-1 infection [see Contraindications (4) , and Drug Interactions 7]. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17511,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The following clinically significant adverse reactions are described elsewhere in the labeling: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17607,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Hypersensitivity reactions [see Warnings and Precautions (5. 2)] ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17674,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17938,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The safety of PAXLOVID is based on two Phase 2/3 randomized, placebo-controlled trials in symptomatic adult subjects 18 years of age and older with a laboratory confirmed diagnosis of SARS-CoV-2 infection. Subjects in both studies received PAXLOVID (nirmatrelvir/ritonavir 300 mg/100 mg) or placebo every 12 hours for 5 days for the treatment of mild-to-moderate COVID-19 within 5 days of symptom onset [see Clinical Studies (14) ]: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18371,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Trial C4671005 (EPIC-HR) enrolled subjects who were at high risk for progression to severe disease. • Trial C4671002 (EPIC-SR) enrolled subjects who were at standard risk for progression to severe disease (previously unvaccinated subjects at standard risk or fully vaccinated subjects with at least 1 risk factor for progression to severe disease). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18722,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Adverse reactions were those reported while subjects were on study medication and through 28 days after the last dose of study treatment. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18860,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In Trial C4671005 (EPIC-HR), 1,038 subjects received PAXLOVID and 1,053 subjects received placebo. The most common adverse reactions (≥1% incidence in the PAXLOVID group and occurring at a greater frequency than in the placebo group) were dysgeusia (5% and <1%, respectively) and diarrhea (3% and 2%, respectively). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19176,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Among vaccinated or unvaccinated subjects at standard risk or fully vaccinated subjects with at least 1 risk factor for progression to severe disease in Trial C4671002 (EPIC-SR), 540 subjects received PAXLOVID and 528 subjects received placebo. The adverse reactions observed were consistent with those observed in EPIC-HR. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19500,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The following adverse reactions have been identified during post-authorization use of PAXLOVID.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19597,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The prescribing healthcare provider and/or the provider's designee is/are responsible for mandatory reporting of all serious adverse events* and medication errors potentially related to use of PAXLOVID in the authorized pediatric population within 7 calendar days from the healthcare provider's awareness of the event, using FDA Form 3500 (for information on how to access this form, see below). The FDA requires that such reports, using FDA Form 3500, include the following: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20073,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Patient demographics and baseline characteristics (e.g., patient identifier, age or date of birth, gender, weight, ethnicity, and race). • A statement \" PAXLOVID use for COVID-19 under Emergency Use Authorization (EUA)\" ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20295,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "under the \"Describe Event, Problem, or Product Use/Medication Error\" heading. • Information about the serious adverse event or medication error (e.g., signs and symptoms, test/laboratory data, complications, timing of drug initiation in relation to the occurrence of the event, duration of the event, treatments required to mitigate the event, evidence of event improvement/disappearance after stopping or reducing the dosage, evidence of event reappearance after reintroduction, clinical outcomes). • Patient's pre-existing medical conditions and use of concomitant products. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20872,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Information about the product (e.g., dosage, route of administration, NDC #). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20952,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Submit adverse event and medication error reports, using Form 3500, to FDA MedWatch using one of the following methods: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21072,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Complete and submit the report online: https://www.fda.gov/medwatch/report.htm • Complete and submit a postage-paid FDA Form 3500 (https://www.fda.gov/media/76299/download) and return by: The prescribing healthcare provider and/or the provider's designee is/are responsible for mandatory responses to requests from FDA for information about adverse events and medication errors following receipt of PAXLOVID. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21483,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "o Mail to ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21493,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "*Serious adverse events are defined as: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21533,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Death; ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21542,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• A life-threatening adverse event; ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21578,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Inpatient hospitalization or prolongation of existing hospitalization; ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21651,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• A persistent or significant incapacity or substantial disruption of the ability to conduct normal life functions; • A congenital anomaly/birth defect; ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21804,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Other important medical event, which may require a medical or surgical intervention to prevent death, a life-threatening event, hospitalization, disability, or congenital anomaly. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21986,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "PAXLOVID (nirmatrelvir co-packaged with ritonavir) is a strong inhibitor of CYP3A, and an inhibitor of CYP2D6, P-gp and OATP1B1. Co-administration of PAXLOVID with drugs that are primarily metabolized by CYP3A and CYP2D6 or are transported by P-gp or OATP1B1 may result in increased plasma concentrations of such drugs and increase the risk of adverse events. Co-administration of PAXLOVID with drugs highly dependent on CYP3A for clearance and for which elevated plasma concentrations are associated with serious and/or life-threatening events is contraindicated [see Contraindications (4) and Drug Interactions (7.3) Table 1 ]. Co-administration with other CYP3A substrates may require a dose adjustment or additional monitoring as shown in Table 1 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22739,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Nirmatrelvir and ritonavir are CYP3A substrates; therefore, drugs that induce CYP3A may decrease nirmatrelvir and ritonavir plasma concentrations and reduce PAXLOVID therapeutic effect [see Contraindications (4) and Drug Interactions (7.3) Table 1 ]. Co-administration of vincristine and vinblastine may lead to significant hematologic or gastrointestinal side effects. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23109,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "For further information, refer to individual product label for anticancer drug. Refer to the bedaquiline product label for further information. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23253,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Refer to rifabutin product label for further information on rifabutin dose reduction. Refer to the bosentan product label for further information. If treatment with PAXLOVID is considered medically necessary, discontinue use of lovastatin and simvastatin at least 12 hours prior to initiation of PAXLOVID, during the 5 days of PAXLOVID treatment and for 5 days after completing PAXLOVID. In an embryo-fetal development study with nirmatrelvir, reduced fetal body weights following oral administration of nirmatrelvir to pregnant rabbits were observed at systemic exposures (AUC) approximately 11 times higher than clinical exposure at the authorized human dose of PAXLOVID. No other adverse developmental outcomes were observed in animal reproduction studies with nirmatrelvir at systemic exposures (AUC) greater than or equal to 3 times higher than clinical exposure at the authorized human dose of PAXLOVID (see Data). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24174,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In embryo-fetal developmental studies with ritonavir, no evidence of adverse developmental outcomes was observed following oral administration of ritonavir to pregnant rats and rabbits at systemic exposures (AUC) 5 (rat) or 8 (rabbits) times higher than clinical exposure at the authorized human dose of PAXLOVID (see Data). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24499,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The estimated background risk of major birth defects and miscarriage for the authorized population is unknown. All pregnancies have a risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24868,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Disease-associated Maternal and/or Embryo-fetal Risk COVID-19 in pregnancy is associated with adverse maternal and fetal outcomes, including preeclampsia, eclampsia, preterm birth, premature rupture of membranes, venous thromboembolic disease, and fetal death. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25129,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Based on prospective reports to the antiretroviral pregnancy registry of live births following exposure to ritonavir-containing regimens (including over 3,500 live births exposed in the first-trimester and over 3,500 live births exposed in the second and third trimesters), there was no difference in the rate of overall birth defects for ritonavir compared with the background birth defect rate of 2.7% in the U.S. reference population of the Metropolitan Atlanta Congenital Defects Program (MACDP). The prevalence of birth defects in live births was 2.4% [95% confidence interval (CI): 1.9%-2.9%] following first-trimester exposure to ritonavir-containing regimens and 2.9% (95% CI: 2.4%-3.5%) following second and third trimester exposure to ritonavir-containing regimens. While placental transfer of ritonavir and fetal ritonavir concentrations are generally low, detectable levels have been observed in cord blood samples and neonate hair. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26074,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Embryo-fetal developmental (EFD) toxicity studies were conducted in pregnant rats and rabbits administered oral nirmatrelvir doses of up to 1,000 mg/kg/day during organogenesis [on Gestation Days (GD) 6 through 17 in rats and GD 7 through 19 in rabbits]. No biologically significant developmental effects were observed in the rat EFD study. At the highest dose of 1,000 mg/kg/day, the systemic nirmatrelvir exposure (AUC24) in rats was approximately 9 times higher than clinical exposures at the authorized human dose of PAXLOVID. In the rabbit EFD study, lower fetal body weights (9% decrease) were observed at 1,000 mg/kg/day in the absence of significant maternal toxicity findings. At 1,000 mg/kg/day, the systemic exposure (AUC24) in rabbits was approximately 11 times higher than clinical exposures at the authorized human dose of PAXLOVID. No other significant developmental toxicities (malformations and embryo-fetal lethality) were observed up to the highest dose tested, 1,000 mg/kg/day. No developmental effects were observed in rabbits at 300 mg/kg/day resulting in systemic exposure (AUC24) approximately 3 times higher than clinical exposures at the authorized human dose of PAXLOVID. A pre-and postnatal developmental (PPND) study in pregnant rats administered oral nirmatrelvir doses of up to 1,000 mg/kg/day from GD 6 through Lactation Day (LD) 20 showed no adverse findings. Although no difference in body weight was noted at birth when comparing offspring born to nirmatrelvir-treated versus control animals, a decrease in the body weight of offspring was observed on Postnatal Day (PND) 17 (8% decrease) and PND 21 (up to 7% decrease) in the absence of maternal toxicity. No significant differences in offspring body weight were observed from PND 28 to PND 56. The maternal systemic exposure (AUC24) at 1,000 mg/kg/day was approximately 9 times higher than clinical exposures at the authorized human dose of PAXLOVID. No body weight changes in the offspring were noted at 300 mg/kg/day, where maternal systemic exposure (AUC24) was approximately 6 times higher than clinical exposures at the authorized human dose of PAXLOVID. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28221,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Ritonavir was administered orally to pregnant rats (at 0, 15, 35, and 75 mg/kg/day) and rabbits (at 0, 25, 50, and 110 mg/kg/day) during organogenesis (on GD 6 through 17 in rats and GD 6 through 19 in rabbits). No evidence of teratogenicity due to ritonavir was observed in rats and rabbits at systemic exposures (AUC) 5 (rats) or 8 (rabbits) times higher than exposure at the authorized human dose of PAXLOVID. Increased incidences of early resorptions, ossification delays, and developmental variations, as well as decreased fetal body weights were observed in rats in the presence of maternal toxicity, at systemic exposures (AUC) approximately 10 times higher than exposure at the authorized human dose of PAXLOVID. In rabbits, resorptions, decreased litter size, and decreased fetal weights were observed at maternally toxic doses, at systemic exposures greater than 8 times higher than exposure at the authorized human dose of PAXLOVID. In a PPND study in rats, administration of 0, 15, 35, and 60 mg/kg/day ritonavir from GD 6 through PND 20 resulted in no developmental toxicity, at ritonavir systemic exposures greater than 10 times the exposure at the authorized human dose of PAXLOVID. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29419,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "There are no available data on the presence of nirmatrelvir in human or animal milk, the effects on the breastfed infant, or the effects on milk production. A transient decrease in body weight was observed in the nursing offspring of rats administered nirmatrelvir (see Data). Limited published data reports that ritonavir is present in human milk. There is no information on the effects of ritonavir on the breastfed infant or the effects of the drug on milk production. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for PAXLOVID and any potential adverse effects on the breastfed infant from PAXLOVID or from the underlying maternal condition. Breastfeeding individuals with COVID-19 should follow practices according to clinical guidelines to avoid exposing the infant to COVID-19. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30272,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In the PPND study, transiently lower body weight (up to 8%) was observed in the offspring of pregnant rats administered nirmatrelvir at maternal systemic exposure (AUC24) approximately 9 times higher than clinical exposures at the authorized human dose of PAXLOVID. No body weight changes in the offspring were noted at maternal systemic exposure (AUC24) approximately 6 times higher than clinical exposures at the authorized human dose of PAXLOVID. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30722,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Use of ritonavir may reduce the efficacy of combined hormonal contraceptives. Advise patients using combined hormonal contraceptives to use an effective alternative contraceptive method or an additional barrier method of contraception [see Drug Interactions (7. 3)]. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30989,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "PAXLOVID is not authorized for use in pediatric patients younger than 12 years of age or weighing less than 40 kg. The safety and effectiveness of PAXLOVID have not been established in pediatric patients. The approved adult dosing regimen is expected to result in comparable serum exposures of nirmatrelvir and ritonavir in patients 12 years of age and older and weighing at least 40 kg as observed in adults, and adults with similar body weight were included in the trial EPIC-HR [see Adverse Reactions (6.1), Clinical Pharmacology (12.3), and Clinical Studies (14) ]. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31559,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Renal impairment increases nirmatrelvir exposure, which may increase the risk of PAXLOVID adverse reactions. No dosage adjustment is recommended in patients with mild renal impairment (eGFR ≥60 to <90 mL/min). Reduce the PAXLOVID dosage in patients with moderate renal impairment (eGFR ≥30 to <60 mL/min). PAXLOVID is not recommended for use in patients with severe renal impairment (eGFR <30 mL/min) or patients with end stage renal disease (eGFR <15 mL/min) receiving dialysis until more data are available. The appropriate dosage for patients with severe renal impairment has not been determined [see Dosage and Administration (2.3)  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32196,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "No dosage adjustment of PAXLOVID is recommended for patients with mild (Child-Pugh Class A) or moderate (Child-Pugh Class B) hepatic impairment. No pharmacokinetic or safety data are available regarding the use of nirmatrelvir or ritonavir in subjects with severe (Child-Pugh Class C) hepatic impairment, therefore, PAXLOVID is not recommended for use in patients with severe (Child-Pugh Class C) hepatic impairment [see Warnings and Precautions (5.3) and Clinical Pharmacology (12.3) ]. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32684,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Treatment of overdose with PAXLOVID should consist of general supportive measures including monitoring of vital signs and observation of the clinical status of the patient. There is no specific antidote for overdose with PAXLOVID. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32915,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "PAXLOVID is nirmatrelvir tablets co-packaged with ritonavir tablets. Nirmatrelvir is a SARS-CoV-2 main protease (M pro ) inhibitor, and ritonavir is an HIV-1 protease inhibitor and CYP3A inhibitor. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33113,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The chemical name of active ingredient of nirmatrelvir is (1R,2S,5S)-N-((1S)-1-Cyano-2-((3S)-2oxopyrrolidin-3-yl)ethyl)-3-((2S)-3,3-dimethyl-2-(2,2,2-trifluoroacetamido)butanoyl)-6,6-dimethyl-3azabicyclo[3.1.0]hexane-2-carboxamide]. It has a molecular formula of C23H32F3N5O4 and a molecular weight of 499.54. Nirmatrelvir has the following structural formula: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33474,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Nirmatrelvir is available as immediate-release, film-coated tablets. Each tablet contains 150 mg nirmatrelvir with the following inactive ingredients: colloidal silicon dioxide, croscarmellose sodium, lactose monohydrate, microcrystalline cellulose, and sodium stearyl fumarate. The following are the ingredients in the film coating: hydroxy propyl methylcellulose, iron oxide red, polyethylene glycol, and titanium dioxide. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33899,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Ritonavir is chemically designated as 10-Hydroxy-2-methyl-5-(1-methylethyl)-1-[2-(1 methylethyl)-4thiazolyl]-3,6-dioxo-8,11-bis(phenylmethyl)-2,4,7,12-tetraazatridecan-13-oic acid, 5-thiazolylmethyl ester, [5S-(5R*,8R*,10R*,11R*)]. Its molecular formula is C37H48N6O5S2, and its molecular weight is 720.95. Ritonavir has the following structural formula: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34254,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "N H O (S) 1 3 (S) NH O (S) 2 N (S) 5 (R) 1 O 2 (S) HN O F F F N ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34318,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Ritonavir is available as film-coated tablets. Each tablet contains 100 mg ritonavir with the following inactive ingredients: anhydrous dibasic calcium phosphate, colloidal silicon dioxide, copovidone, sodium stearyl fumarate, and sorbitan monolaurate. The film coating may include the following ingredients: colloidal anhydrous silica, colloidal silicon dioxide, hydroxypropyl cellulose, hypromellose, polyethylene glycol, polysorbate 80, talc, and titanium dioxide. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34786,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Nirmatrelvir is a severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) antiviral drug [see Microbiology (12.4) ]. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34908,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Ritonavir is an HIV-1 protease inhibitor but is not active against SARS-CoV-2 M pro . Ritonavir inhibits the CYP3A-mediated metabolism of nirmatrelvir, resulting in increased plasma concentrations of nirmatrelvir. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35122,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "At 3 times the steady state peak plasma concentration (Cmax) at the recommended dose, nirmatrelvir does not prolong the QTc interval to any clinically relevant extent. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35290,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The pharmacokinetics of nirmatrelvir/ritonavir were similar in healthy subjects and in subjects with mild-to-moderate COVID-19. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35418,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Nirmatrelvir AUC increased in a less than dose proportional manner over a single dose range from 250 mg to 750 mg (0.83 to 2.5 times the authorized recommended dose) and multiple dose range from 75 mg to 500 mg (0.25 to 1.67 times the authorized recommended dose), when administered in combination with 100 mg ritonavir. Nirmatrelvir steady state was achieved on Day 2 following administration of the authorized recommended dosage and the mean accumulation ratio was approximately 2-fold. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35907,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The pharmacokinetic properties of nirmatrelvir/ritonavir are displayed in Table 2 . Abbreviations: CL/F=apparent clearance; hr=hour; L/hr=liters per hour; T½=terminal elimination half-life; Tmax=the time to reach Cmax; Vz/F=apparent volume of distribution. a. Represents data after a single dose of 300 mg nirmatrelvir (2 x 150 mg tablet formulation) administered together with 100 mg ritonavir tablet in healthy subjects. b. Following a single oral dose of nirmatrelvir 300 mg boosted ritonavir 100 mg at -12 hours, 0 hours and 12 hours, administered under fed (high fat and high calorie meal) or fasted conditions. c. 300 mg nirmatrelvir (oral suspension formulation) co-administered with 100 mg ritonavir (tablet formulation) twice daily for 3 days. d. Red blood cell to plasma ratio. e. Determined by 19 F-NMR analysis following 300 mg nirmatrelvir oral suspension administered at 0 hr enhanced with 100 mg ritonavir at -12 hours, 0 hours, 12 hours, and 24 hours. f. Determined by 14 C analysis following 600 mg 14 C-ritonavir oral solution (6 times the authorized ritonavir dose). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36993,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The predicted Day 5 nirmatrelvir exposure parameters in adult subjects with mild-to-moderate COVID-19 who were treated with PAXLOVID in EPIC-HR are presented in Table 3 .  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37165,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Cmax (µg/mL) 3.43 (2.59, 4.52) AUCtau (µg*hr/mL) c 30.4 (22.9, 39.8) Cmin (µg/mL) 1.57 (1.16, 2.10) ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37265,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Abbreviations:Cmax=predicted maximal concentration; Cmin=predicted minimal concentration (Ctrough). a. Data presented as geometric mean (10 th and 90 th percentile). b. Based on 1,016 subjects with their post hoc PK parameters. c. AUCtau=predicted area under the plasma concentration-time profile from time 0 to 12 hours for twice-daily dosing. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37610,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "No clinically significant differences in the pharmacokinetics of nirmatrelvir were observed following administration of a high fat meal (800-1000 calories; 50% fat) to healthy subjects. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37796,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "There were no clinically significant differences in the pharmacokinetics of nirmatrelvir based on age (18 to 86 years), sex, or race/ethnicity. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37940,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The pharmacokinetics of nirmatrelvir/ritonavir in patients less than 18 years of age have not been established. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38052,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The pharmacokinetics of nirmatrelvir in patients with renal impairment following administration of a single oral dose of nirmatrelvir 100 mg (0.33 times the authorized recommended dose) co-administered with ritonavir 100 mg are presented in Table 4 . Compared to healthy controls with no renal impairment, the Cmax and AUC of nirmatrelvir in patients with mild renal impairment was 30% and 24% higher, in patients with moderate renal impairment was 38% and 87% higher, and in patients with severe renal impairment was 48% and 204% higher, respectively. 2.0 (1.0 -4.0) 2.0 (1.0 -3.0) 2.50 (1.0 -6.0) 3.0 (1.0 -6.1) T1/2 (hr) 7.73 ± 1.82 6.60 ± 1.53 9.95 ± 3.42 13.37 ± 3.32 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38725,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Abbreviations: AUCinf=area under the plasma concentration-time profile from time zero extrapolated to infinite time; Cmax=the observed maximum concentration; CV=coefficient of variation; SD=standard deviation; T½=terminal elimination half-life; Tmax=the time to reach Cmax. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38999,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Values are presented as geometric mean (geometric % CV) except median (range) for Tmax and arithmetic mean ± SD for T1/2. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39121,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The pharmacokinetics of nirmatrelvir were similar in patients with moderate (Child-Pugh Class B) hepatic impairment compared to healthy subjects following administration of a single oral dose of nirmatrelvir 100 mg (0.33 times the authorized recommended dose) co-administered with ritonavir 100 mg. The impact of severe hepatic impairment (Child-Pugh Class C) on the pharmacokinetics of nirmatrelvir or ritonavir has not been studied. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39556,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Clinical Drug Interaction Studies Table 5 describes the effect of other drugs on the Cmax and AUC of nirmatrelvir. Abbreviations: AUC=area under the plasma concentration-time curve; AUCinf=area under the plasma concentration-time profile from time zero extrapolated to infinite time; AUCtau=area under the plasma concentration-time profile from time zero to time tau (τ), the dosing interval. CI=confidence interval; Cmax=observed maximum plasma concentrations. a. For carbamazepine, AUC=AUC inf ; for itraconazole, AUC=AUC tau. b. Carbamazepine titrated up to 300 mg twice daily on Day 8 through Day 15 (e.g., 100 mg twice daily on Day 1 through Day 3 and 200 mg twice daily on Day 4 through Day 7). Table 6 describes the effect of nirmatrelvir/ritonavir on the Cmax and AUC of other drugs. 47 (155.29, 243.55) Abbreviations: AUC=area under the plasma concentration-time curve; CI=confidence interval; Cmax=observed maximum plasma concentrations; P-gp=p-glycoprotein. a. AUC=AUCinf for both midazolam and dabigatran. b. For midazolam, Test=nirmatrelvir/ritonavir plus midazolam, Reference=Midazolam. Midazolam is an index substrate for CYP3A. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40700,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "For dabigatran, Test=nirmatrelvir/ritonavir plus dabigatran, Reference=Dabigatran. Dabigatran is an index substrate for P-gp. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40826,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In Vitro Studies Cytochrome P450 (CYP) Enzymes: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40874,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "• Nirmatrelvir is a reversible and time-dependent inhibitor of CYP3A, but not an inhibitor CYP1A2, CYP2B6, CYP2C8, CYP2C9, CYP2C19, or CYP2D6. Nirmatrelvir is an inducer of CYP2B6, 2C8, 2C9, and 3A4, but there is minimal risk for pharmacokinetic interactions arising from induction of these CYP enzymes at the proposed therapeutic dose. • Ritonavir is a substrate of CYP2D6 and CYP3A. Ritonavir is an inducer of CYP1A2, CYP2C9, CYP2C19, CYP2B6, and CYP3A. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41330,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Transporter Systems: Nirmatrelvir is an inhibitor of P-gp and OATP1B1. Nirmatrelvir is a substrate for P-gp, but not BCRP, MATE1, MATE2K, NTCP, OAT1, OAT2, OAT3, OCT1, OCT2, PEPT1, OATP1B1, OATP1B3, OATP2B1, or OATP4C1. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41550,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Nirmatrelvir is a peptidomimetic inhibitor of the SARS-CoV-2 main protease (M pro ), also referred to as 3C-like protease (3CL pro ) or nonstructural protein 5 (nsp5) protease. Inhibition of SARS-CoV-2 M pro renders it incapable of processing the viral polyproteins pp1a and pp1ab, preventing viral replication. Nirmatrelvir inhibited the activity of recombinant SARS-CoV-2 M pro in a biochemical assay with a Ki value of 3.1 nM and an IC50 value of 19.2 nM. Nirmatrelvir was found to bind directly to the SARS-CoV-2 M pro active site by X-ray crystallography. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42111,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Cell Culture Antiviral Activity Nirmatrelvir exhibited antiviral activity against SARS-CoV-2 (USA-WA1/2020 isolate) infection of differentiated normal human bronchial epithelial (dNHBE) cells with EC50 and EC90 values of 62 nM (31 ng/mL) and 181 nM (90 ng/mL), respectively, after 3 days of drug exposure. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42417,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The antiviral activity of nirmatrelvir against the Omicron sub-variants BA.2, BA.2.12.1, BA.4, BA.4.6, BA.5, BF.7, BQ.1, BQ.1.11, and XBB.1.5 was assessed in Vero E6-TMPRSS2 cells in the presence of a P-gp inhibitor. Nirmatrelvir had a median EC50 value of 83 nM (range: 39-146 nM) against the Omicron sub-variants, reflecting EC50 value fold-changes ≤1.5 relative to the USA-WA1/2020 isolate. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42811,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In addition, the antiviral activity of nirmatrelvir against the SARS-CoV-2 Alpha, Beta, Gamma, Delta, Lambda, Mu, and Omicron BA.1 variants was assessed in Vero E6 P-gp knockout cells. Nirmatrelvir had a median EC50 value of 25 nM (range: 16-141 nM). The Beta variant was the least susceptible variant tested, with an EC50 value fold-change of 3.7 relative to USA-WA1/2020. The other variants had EC50 value fold-changes ≤1.1 relative to USA-WA1/2020. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43263,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In clinical trial EPIC-HR, which enrolled subjects who were primarily infected with the SARS-CoV-2 Delta variant, PAXLOVID treatment was associated with a 0.83 log10 copies/mL greater median decline in viral RNA shedding levels in nasopharyngeal samples through Day 5 (mITT1 analysis set, all treated subjects with onset of symptoms ≤5 days who at baseline did not receive nor were expected to receive COVID-19 therapeutic mAb treatment); similar results were observed in the mITT2 analysis set (all treated subjects with onset of symptoms ≤5 days). In the EPIC-SR trial, which included subjects who were infected with SARS-CoV-2 Delta (79%) or Omicron (19%) variants, PAXLOVID treatment was associated with a 1.05 log10 copies/mL greater median decline in viral RNA shedding levels in nasopharyngeal samples through Day 5, with similar declines observed in subjects infected with Delta or Omicron variants. The degree of reduction in viral RNA levels relative to placebo following 5 days of PAXLOVID treatment was similar between unvaccinated high-risk subjects in EPIC-HR and vaccinated high-risk subjects in EPIC-SR. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44383,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In Cell Culture and Biochemical Assays SARS-CoV-2 M pro residues potentially associated with nirmatrelvir resistance have been identified using a variety of methods, including SARS-CoV-2 resistance selection, testing of recombinant SARS-CoV-2 viruses with M pro substitutions, and biochemical assays with recombinant SARS-CoV-2 M pro containing amino acid substitutions. Table 7 indicates M pro substitutions and combinations of M pro substitutions that have been observed in nirmatrelvir-selected SARS-CoV-2 in cell culture. Individual M pro substitutions are listed regardless of whether they occurred alone or in combination with other M pro substitutions. Note that the M pro S301P and T304I substitutions overlap the P6 and P3 positions of the nsp5/nsp6 cleavage site located at the C-terminus of M pro . Substitutions at other M pro cleavage sites have not been associated with nirmatrelvir resistance in cell culture. The clinical significance of these substitutions is unknown. (1.1-4.6), L50F (1.5-4.2), P108S (ND), T135I (ND), F140L (4.1), S144A (2.2-5.3), C160F (ND), E166A (3.3), E166V (25-288), L167F (ND), T169I (ND), H172Y (ND), A173V (0.9-1.7), V186A (ND), R188G (ND), A191V (ND), A193P (ND), P252L (5.9), S301P (ND), and T304I (1.4-5.5). ≥2 Substitutions (EC50 value fold-change) T21I+S144A (9.4), T21I+E166V (83), T21I+A173V (3.1), T21I+T304I (3.0-7.9), L50F+E166V (34-175), L50F+T304I (5.9), T135I+T304I (3.8), F140L+A173V (10.1), H172Y+P252L (ND), A173V+T304I (20.2), T21I+L50F+A193P+S301P (28.8), T21I+S144A+T304I (27.8), T21I+C160F+A173V+V186A+T304I (28.5), T21I+A173V+T304I (15), and L50F+F140L+L167F+T304I (54.7). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46021,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Abbreviation: ND=no data. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46047,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In a biochemical assay using recombinant SARS-CoV-2 M pro containing amino acid substitutions, the following SARS-CoV-2 M pro substitutions led to ≥3-fold reduced nirmatrelvir activity (fold-change based on Ki values): Y54A (25), F140A (21), F140L (7.6), F140S (260), G143S (3.6), S144A (46), S144E (480), S144T (170), H164N (6.7), E166A (35), E166G (6.2), E166V (7,700), H172Y (250), A173S (4.1), A173V (16), R188G (38), Q192L (29), Q192P (7.8), and V297A (3.0). In addition, the following combinations of M pro substitutions led to ≥3-fold reduced nirmatrelvir activity: T21I+S144A (20), T21I+E166V (11,000), T21I+A173V (15), L50F+E166V (4,500), T135I+T304I (5.1), F140L+A173V (95), H172Y+P252L (180), A173V+T304I (28), T21I+S144A+T304I (51), T21I+A173V+T304I (55), L50F+E166A+L167F (210), T21I+L50F+A193P+S301P (7.3), L50F+F140L+L167F+T304I (190) , and T21I+C160F+A173V+V186A+T304I (28). The following substitutions and substitution combinations emerged in cell culture but conferred <3-fold reduced nirmatrelvir activity in biochemical assays: T21I (1.6), L50F (0.2), P108S (2.9), T135I (2.2), C160F (0.6), L167F (0.9), T169I (1.4), V186A (0.8), A191V (0.8), A193P (0.9), P252L (0.9), S301P (0.2), T304I (1.0), T21I+T304I (1.8), and L50F+T304I (1.3). The clinical significance of these substitutions is unknown. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47363,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In Clinical Trials Treatment-emergent substitutions were evaluated among subjects in clinical trials EPIC-HR/SR with sequence data available at both baseline and a post-baseline visit (n=907 PAXLOVID-treated subjects, n=946 placebo-treated subjects). SARS-CoV-2 M pro amino acid changes were classified as PAXLOVID treatment-emergent substitutions if they occurred at the same amino acid position in 3 or more PAXLOVID-treated subjects and were ≥2.5-fold more common in PAXLOVID-treated subjects than placebo-treated subjects. The following PAXLOVID treatment-emergent M pro substitutions were observed: T98I/R/del(n=4), E166V (n=3), and W207L/R/del (n=4). Within the M pro cleavage sites, the following PAXLOVID treatment-emergent substitutions were observed: A5328S/V(n=7) and S6799A/P/Y (n=4). These cleavage site substitutions were not associated with the co-occurrence of any specific M pro substitutions. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48274,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "None of the treatment-emergent substitutions listed above in M pro or M pro cleavage sites occurred in PAXLOVID-treated subjects who experienced hospitalization. Thus, the clinical significance of these substitutions is unknown. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48503,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Viral RNA Rebound (With and Without COVID-19 Symptoms) and Treatment-Emergent Substitutions EPIC-HR and EPIC-SR were not designed to evaluate COVID-19 rebound; exploratory analyses were conducted to assess the relationship between PAXLOVID use and rebound in viral RNA shedding levels or self-reported COVID-19 symptoms. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48824,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Post-treatment increases in SARS-CoV-2 RNA shedding levels in nasopharyngeal samples were observed on Day 10 and/or Day 14 in a subset of PAXLOVID and placebo recipients in EPIC-HR and EPIC-SR, irrespective of COVID-19 symptoms. The frequency of detection of post-treatment viral RNA rebound varied according to analysis parameters, but was generally similar among PAXLOVID and placebo recipients. A similar or smaller percentage of placebo recipients compared to PAXLOVID recipients had nasopharyngeal viral RNA results \n",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49346,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In EPIC-HR, of 59 PAXLOVID-treated subjects identified with post-treatment viral RNA rebound and with available viral sequence data, treatment-emergent substitutions in M pro potentially reducing nirmatrelvir activity were detected in 2 (3%) subjects, including E166V in 1 subject and T304I in 1 subject. Both subjects had viral RNA shedding levels \n",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49696,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Post-treatment viral RNA rebound was not associated with the primary clinical outcome of COVID-19-related hospitalization or death from any cause through Day 28 following the single 5-day course of PAXLOVID treatment. The clinical relevance of post-treatment increases in viral RNA following PAXLOVID or placebo treatment is unknown. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50030,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The frequency of symptom rebound through Day 28, irrespective of viral RNA results, was similar among PAXLOVID and placebo recipients. The frequency of combined viral RNA rebound plus symptom rebound could not be fully assessed as most episodes of symptom rebound occurred after Day 14 (the last day SARS-CoV-2 RNA levels were routinely assessed). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50378,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Cross-resistance is not expected between nirmatrelvir and remdesivir or any other anti-SARS-CoV-2 agents with different mechanisms of action (i.e., agents that are not M pro inhibitors). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50565,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "NONCLINICAL TOXICOLOGY ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50588,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Carcinogenicity studies have not been conducted with nirmatrelvir. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50655,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Nirmatrelvir was negative for mutagenic or clastogenic activity in a battery of in vitro and in vivo assays including the Ames bacterial reverse mutation assay using S. typhimurium and E. coli, the in vitro micronucleus assay using human lymphoblastoid TK6 cells, and the in vivo rat micronucleus assays. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50960,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In a fertility and early embryonic development study, nirmatrelvir was administered orally to male and female rats at doses of 60, 200, or 1,000 mg/kg/day once daily beginning 14 days prior to mating, throughout the mating phase, and continued through GD 6 for females and for a total of 32 doses for males. There were no effects on fertility, reproductive performance, or early embryonic development at doses up to 1,000 mg/kg/day, resulting in systemic exposure (AUC24) approximately 5 times higher than exposure at the authorized human dose of PAXLOVID. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51517,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Carcinogenicity studies in mice and rats have been conducted on ritonavir. In male mice, at levels of 50, 100, or 200 mg/kg/day, there was a dose dependent increase in the incidence of both adenomas and combined adenomas and carcinomas in the liver. Based on AUC measurements, the exposure at the high dose was approximately 25 times higher than the exposure in humans at the authorized human dose of PAXLOVID. No carcinogenic effects were observed in females at up to the highest dose tested, resulting in systemic exposure (AUC24) approximately 25 times higher than the exposure in humans at the authorized human dose of PAXLOVID. In rats dosed at levels of 7, 15, or 30 mg/kg/day, there were no carcinogenic effects. In this study, the exposure at the high dose was approximately 5 times higher than the exposure in humans at the authorized human dose of PAXLOVID. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 52385,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Ritonavir was found to be negative for mutagenic or clastogenic activity in a battery of in vitro and in vivo assays including the Ames bacterial reverse mutation assay using S. typhimurium and E. coli, the mouse lymphoma assay, the mouse micronucleus test and chromosomal aberration assays in human lymphocytes. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 52698,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Ritonavir produced no effects on fertility in rats at drug exposures approximately 18 (male) and 27 (female) times higher than the exposure in humans at the authorized human dose of PAXLOVID. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 52890,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "EPIC-HR (NCT04960202) was a Phase 2/3, randomized, double-blind, placebo-controlled trial in non-hospitalized symptomatic adult subjects with a laboratory confirmed diagnosis of SARS-CoV-2 infection. Eligible subjects were 18 years of age and older with at least 1 of the following risk factors for progression to severe disease: diabetes, overweight (BMI >25), chronic lung disease (including asthma), chronic kidney disease, current smoker, immunosuppressive disease or immunosuppressive treatment, cardiovascular disease, hypertension, sickle cell disease, neurodevelopmental disorders, active cancer, medically-related technological dependence, or were 60 years of age and older regardless of comorbidities. Subjects with COVID-19 symptom onset of ≤5 days were included in the study. Subjects were randomized (1:1) to receive PAXLOVID (nirmatrelvir/ritonavir 300 mg/100 mg) or placebo orally every 12 hours for 5 days. The trial excluded individuals with a history of prior COVID-19 infection or vaccination and excluded individuals taking any medications with clinically significant drug interactions with PAXLOVID. The primary efficacy endpoint was the proportion of subjects with COVID-19 related hospitalization or death from any cause through Day 28. The analysis was conducted in the modified intent-to-treat (mITT) analysis set [all treated subjects with onset of symptoms ≤3 days who at baseline did not receive nor were expected to receive COVID-19 therapeutic monoclonal antibody (mAb) treatment], the mITT1 analysis set (all treated subjects with onset of symptoms ≤5 days who at baseline did not receive nor were expected to receive COVID-19 therapeutic mAb treatment), and the mITT2 analysis set (all treated subjects with onset of symptoms ≤5 days). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 54658,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "A total of 2,113 subjects were randomized to receive either PAXLOVID or placebo. At baseline, mean age was 45 years; 51% were male; 71% were White, 15% were Asian, 9% were American Indian or Alaska Native, 4% were Black or African American, and 1% was missing or unknown; 41% were Hispanic or Latino; 67% of subjects had onset of symptoms ≤3 days before initiation of study treatment; 49% of subjects were serological negative at baseline; the mean (SD) baseline viral RNA in nasopharyngeal samples was 4.71 log10 copies/mL (2.89); 27% of subjects had a baseline viral RNA of ≥10^7 (log10 copies/mL); 6% of subjects either received or were expected to receive COVID-19 therapeutic monoclonal antibody treatment at the time of randomization and were excluded from the mITT and mITT1 analyses. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 55450,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The baseline demographic and disease characteristics were balanced between the PAXLOVID and placebo groups. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 55558,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The proportions of subjects who discontinued treatment due to an adverse event were 2.0% in the PAXLOVID group and 4.2% in the placebo group. Table 8 provides results of the primary endpoint in mITT1 analysis population. For the primary endpoint, the relative risk reduction in the mITT1 analysis population for PAXLOVID compared to placebo was 86% (95% CI: 72%, 93%). Abbreviations: CI=confidence interval; COVID-19=coronavirus disease 2019; mAb=monoclonal antibody; mITT1=modified intent-to-treat 1 (all treated subjects with onset of symptoms ≤5 days who at baseline did not receive nor were expected to receive COVID-19 therapeutic mAb treatment). The determination of primary efficacy was based on a planned interim analysis of 754 subjects in mITT population. The estimated risk reduction was -6.5% with a 95% CI of (-9.3%, -3.7%) and 2-sided p-value <0.0001. a. The estimated cumulative proportion of subjects hospitalized or death by Day 28 was calculated for each treatment group using the Kaplan-Meier method, where subjects without hospitalization and death status through Day 28 were censored at the time of study discontinuation. b. For the secondary endpoint of all-cause mortality through Week 24, there were 0 and 15 (1%) events in the PAXLOVID arm and placebo arm, respectively. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 56854,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Consistent results were observed in the mITT and mITT2 analysis populations. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 56931,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Similar trends have been observed across subgroups of subjects (see Figure 1 ). Among subjects who were SARS-CoV-2 seropositive at baseline, 1/490 (0.2%) PAXLOVID recipients versus 8/479 (1.7%) placebo recipients met the primary endpoint of COVID-19 related hospitalization or death from any cause through Day 28 [reduction relative to placebo -1.47% (-2.70%, -0.25%)]. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 57301,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "PAXLOVID is not authorized for the treatment of COVID-19 in patients without a risk factor for progression to severe COVID-19. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 57428,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "EPIC-SR (NCT05011513) was a Phase 2/3, randomized, double-blind, placebo-controlled trial in non-hospitalized symptomatic adult subjects with a laboratory confirmed diagnosis of SARS-CoV-2 infection. Eligible subjects were 18 years of age or older with COVID-19 symptom onset of ≤5 days who were at standard risk for progression to severe disease. The trial included previously unvaccinated subjects with no risk factors for progression to severe disease or subjects fully vaccinated against COVID-19 (i.e., completed a primary vaccination series) with at least 1 of the risk factors for progression to severe disease as defined in EPIC-HR. Through the December 19, 2021, data cutoff, a total of 1,075 subjects were randomized (1:1) to receive PAXLOVID or placebo orally every 12 hours for 5 days; of these, 59% were fully vaccinated high-risk subjects. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 58282,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The primary endpoint in this trial, the difference in time to sustained alleviation of all targeted COVID-19 signs and symptoms through Day 28 among PAXLOVID versus placebo recipients, was not met. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 58480,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In an exploratory analysis of the subgroup of fully vaccinated subjects with at least 1 risk factor for progression to severe disease, a non-statistically significant numerical reduction relative to placebo for the secondary endpoint of COVID-19 related hospitalization or death from any cause through Day 28 was observed. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 58803,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "PAXLOVID is not authorized for the post-exposure prophylaxis of COVID-19. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 58877,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In a double-blind, double-dummy, placebo-controlled trial, the efficacy of PAXLOVID when administered for 5 or 10 days as post-exposure prophylaxis of COVID-19 was evaluated. Eligible subjects were asymptomatic adults 18 years of age and older who were SARS-CoV-2 negative at baseline and who lived in the same household with symptomatic individuals with a recent diagnosis of SARS-CoV-2. A total of 2,736 subjects were randomized (1:1:1) to receive PAXLOVID orally every 12 hours for 5 days, PAXLOVID orally every 12 hours for 10 days, or placebo. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 59426,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The primary endpoint for this trial was not met. The primary endpoint was the risk reduction between the 5-day and 10-day PAXLOVID regimens versus placebo in the proportion of subjects who developed RT-PCR or RAT confirmed symptomatic SARS-CoV-2 infection through Day 14 who had a negative SARS-CoV-2 RT-PCR result at baseline. The proportion of subjects who had events through Day 14 was 2.6% for the 5-day PAXLOVID regimen, 2.4% for the 10-day PAXLOVID regimen, and 3.9% for placebo. There was not a statistically significant risk reduction versus placebo for either the 5-day or 10-day PAXLOVID regimen. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 60033,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "PAXLOVID is nirmatrelvir tablets co-packaged with ritonavir tablets. It is supplied in single-dose blister cards. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 60147,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Nirmatrelvir tablets and ritonavir tablets are supplied in separate blister cavities within the same child-resistant blister card. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 60278,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Content NDC Description 300 mg nirmatrelvir; 100 mg ritonavir Each Carton Contains: 30 tablets divided in 10 blister cards 0069-5001-30 Nirmatrelvir tablets: Oval, pink immediate-release, film-coated tablets debossed with \"PFE\" on one side and \"3CL\" on the other side. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 60547,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Ritonavir tablets: White film-coated ovaloid tablets debossed with the \"a\" logo and the code NK. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 60644,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Or Single-dose Blister Card Presentation Dose Pack Content NDC Description 0069-5045-30 Nirmatrelvir tablets: Oval, pink immediate-release, film-coated tablets debossed with \"PFE\" on one side and \"3CL\" on the other side. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 60865,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Ritonavir tablets: White to off-white, capsule-shaped, film-coated tablets debossed with \"H\" on one side and \"R9\" on the other side. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 60998,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Or 0069-5321-30 Nirmatrelvir tablets: Oval, pink immediate-release, film-coated tablets debossed with \"PFE\" on one side and \"3CL\" on the other side. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 61147,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Ritonavir tablets: White film-coated ovaloid tablets debossed with \"NK\" on one side. Each Blister Card Contains: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 61260,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "2 nirmatrelvir tablets (150 mg each) and 1 ritonavir tablet (100 mg) 0069-5001-06 Nirmatrelvir tablets: Oval, pink immediate-release, film-coated tablets debossed with \"PFE\" on one side and \"3CL\" on the other side. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 61475,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Or 0069-5045-06 Nirmatrelvir tablets: Oval, pink immediate-release, film-coated tablets debossed with \"PFE\" on one side and \"3CL\" on the other side. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 61624,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Or 0069-5321-03 Nirmatrelvir tablets: Oval, pink immediate-release, film-coated tablets debossed with \"PFE\" on one side and \"3CL\" on the other side. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 61773,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Ritonavir tablets: White film-coated ovaloid tablets debossed with \"NK\" on one side. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 61858,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Content NDC Description 150 mg nirmatrelvir; 100 mg ritonavir Each Carton Contains: 20 tablets divided in 10 blister cards 0069-5017-20 Nirmatrelvir tablets: Oval, pink immediate-release, film-coated tablets debossed with \"PFE\" on one side and \"3CL\" on the other side. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 62127,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Or 0069-5317-20 Nirmatrelvir tablets: Oval, pink immediate-release, film-coated tablets debossed with \"PFE\" on one side and \"3CL\" on the other side. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 62276,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "1 nirmatrelvir tablet (150 mg) and 1 ritonavir tablet (100 mg) 0069-5017-04 Nirmatrelvir tablets: Oval, pink immediate-release, film-coated tablets debossed with \"PFE\" on one side and \"3CL\" on the other side. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 62485,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Or 0069-5317-02 Nirmatrelvir tablets: Oval, pink immediate-release, film-coated tablets debossed with \"PFE\" on one side and \"3CL\" on the other side. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 62634,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Store at USP controlled room temperature 20 ○ C to 25 ○ C (68 ○ F to 77 ○ F); excursions permitted between 15 ○ C to 30 ○ C (59 ○ F to 86 ○ F). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 62778,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "As a healthcare practitioner, you must communicate to the patient and/or caregiver information consistent with the \"FACT SHEET FOR PATIENTS, PARENTS, AND CAREGIVERS\" and provide them with a copy of this Fact Sheet prior to administration of PAXLOVID. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 63029,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Inform patients that PAXLOVID may interact with certain drugs and is contraindicated for use with certain drugs; therefore, advise patients to report to their healthcare provider the use of any prescription, non-prescription medication, or herbal products [see Boxed Warning, Contraindications (4) , Warnings and Precautions (5.1) , and Drug Interactions 7]. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 63388,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Inform patients that anaphylaxis, serious skin reactions, and other hypersensitivity reactions have been reported, even following a single dose of PAXLOVID. Advise them to immediately discontinue the drug and to inform their healthcare provider at the first sign of a skin rash, hives or other skin reactions, difficulty in swallowing or breathing, any swelling suggesting angioedema (for example, swelling of the lips, tongue, face, tightness of the throat, hoarseness), or other symptoms of an allergic reaction [see Warnings and Precautions (5.2) ]. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 63941,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "To ensure appropriate dosing in patients with moderate renal impairment, instruct such patients that they will be taking one 150 mg nirmatrelvir tablet with one 100 mg ritonavir tablet together twice daily for 5 days [see Dosage and Administration (2.3) ]. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 64198,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Inform patients to take PAXLOVID with or without food as instructed. Advise patients to swallow all tablets for PAXLOVID whole and not to chew, break, or crush the tablets. Alert the patient of the importance of completing the full 5-day treatment course and to continuing isolation in accordance with public health recommendations to maximize viral clearance and minimize transmission of SARS-CoV-2. If the patient misses a dose of PAXLOVID within 8 hours of the time it is usually taken, the patient should take it as soon as possible and resume the normal dosing schedule. If the patient misses a dose by more than 8 hours, the patient should not take the missed dose and instead take the next dose at the regularly scheduled time. The patient should not double the dose to make up for a missed dose [see Dosage and Administration (2.1) ]. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 65041,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "For general questions, visit the website or call the telephone number provided below. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 65127,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Determining whether a patient is at high risk for progression to severe COVID-19, including hospitalization or death, is based on the provider's assessment of the individual patient being considered for treatment of COVID-19 and that patient's medical history. For information on medical conditions and factors associated with increased risk for progression to severe COVID-19, see the Centers for Disease Control and Prevention (CDC) website: https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/underlyingconditions.html. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 65658,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "This section only describes the uses for which an FDA-approved drug is considered to be an alternative to PAXLOVID. For additional information, including the full indications for the FDA-approved drugs referenced within this section, please refer to the relevant Prescribing Information at: Drugs@FDA: FDA-Approved Drugs. As stated in the Letter of Authorization, the emergency use of PAXLOVID must be consistent with the terms and conditions of its authorization. 5 See the Letter of Authorization and section 16 (HOW SUPPLIED/STORAGE AND HANDLING) in this Fact Sheet for the specific presentations of PAXLOVID authorized under this EUA. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

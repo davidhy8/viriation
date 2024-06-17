@@ -1,0 +1,218 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1038_s41591-021-01285-x",
+      "inputfile": "../../data/processed/html_papers/10-1038_s41591-021-01285-x.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "SARS-CoV-2 501Y.V2 escapes neutralization by South African COVID-19 donor plasma",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 80,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "changes in the spike protein ( Supplementary Fig. 1b ) relative to the Wuhan-1 D614G spike mutant that previously dominated in South Africa (here referred to as the original lineage) 13 . These changes include N501Y, which confers enhanced affinity for ACE2 (ref. 14 ) and clusters of substitutions in two immunodominant regions of spike, suggesting escape from neutralization. Indeed, substitutions at E484 reduce neutralization sensitivity to convalescent plasma 15 . We therefore compared neutralization by monoclonal antibodies and convalescent plasma of 501Y.V2 to Wuhan-1 D614G, using a spike-pseudotyped lentivirus neutralization assay. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 732,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "An analysis of 17 class I antibody structures revealed their epitopes to be centered on spike residue K417, one of three substitutions in the RBD of the 501Y.V2 lineage. These antibodies contact 60-100% of residue K417 side-chain-accessible surface area, including key hydrogen bonds at this site (Fig. 1b) . Three representative antibodies were assessed by ELISA and achieved saturated binding to recombinant RBD from the original lineage but not 501Y.V2 RBD (Fig. 1c) . Similarly, all three antibodies potently neutralized the original lineage, but not the 501Y.V2 pseudovirus (at 25 μg ml −1 ), confirming dependence on the K417 residue ( Fig. 1d) . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1385,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "A structural analysis of 15 class 2 antibodies and 6 nanobodies revealed key interactions with spike residue E484 ( Fig. 1e ). Each contacted 40-100% of the E484 side-chain-accessible surface area and formed critical hydrogen bonds or charged interactions at this site. As with class 1 antibodies, three representative class 2 antibodies failed to bind 501Y.V2 RBD ( Fig. 1f ) and were unable to neutralize the 501Y.V2 pseudovirus (Fig. 1g) . Thus, the SARS-CoV-2 501Y. V2 lineage has effectively escaped two major classes of neutralizing antibodies targeting an immunodominant, highly antigenic site in the RBD of the spike protein. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2019,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "501Y.V2 is also defined by several changes in the NTD, including a three-amino-acid deletion preceding the N5-loop supersite ( Fig.  1h and Supplementary Fig. 1b ). An analysis of NTD-bound antibody structures showed that roughly half their neutralization interfaces with spike comprised the N5-loop supersite, often involving ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2346,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "key residue R246 (Fig. 1i ). Modeling the 501Y.V2 N5-loop deletion onto the antibody 4A8-bound spike structure revealed an apical loop displacement of at least 8 Å away from the 4A8 paratope ( Fig. 1j ). In addition, the deletion would shift position R246 three amino acids earlier, bringing it into proximity with R102 and creating a potential clash that could locally disrupt the N5-loop conformation and shift it even further from the 4A8 paratope. Consequently, when assessed by ELISA, 4A8 was unable to bind to recombinant 501Y.V2 NTD ( Fig. 1k ) and failed to neutralize the 501Y.V2 pseudovirus ( Fig. 1l) , showing escape from N5-loop targeted neutralizing antibodies. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3022,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We next sought to evaluate the effect of 501Y.V2 spike substitutions on polyclonal plasma/sera derived from individuals with 10 1 10 3 10 5 10 7 10 2 10 1 10 0 10 -1 10 2 10 1 10 0 10 -1 10 2 NTD loops N1, N3 and N5 are shown and the position of R246 in the original NTD and 501Y.V2 NTD is labeled with black and pink, respectively. The minimum displacement for 501Y.V2 loop N5 and the accompanying clash with R102 are indicated with pink arrows. k, ELISA binding for 4A8 to original (black) or 501Y.V2 NTD (red). l, Neutralization curves for 4A8 against the original (black) or 501Y.V2 (red) pseudovirus. All experiments were performed in duplicate. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3673,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "PCR-confirmed SARS-CoV-2 infection, including individuals who were hospitalized with severe COVID-19. Samples were divided into two groups, half with higher titer neutralizing antibodies (22 of 44, 50% inhibitory dilution (ID 50 ) > 400) and half with lower titers (22 of 44, 400 ≥ ID 50 > 25) to the original SARS-CoV-2 D614G lineage ( Fig. 2 and Supplementary Fig. 2a ). Consistent with previous studies, when stratified by disease severity, convalescent individuals who reported mild-to-moderate disease developed substantially lower neutralizing antibody titers (average ID 50 titer 488, n = 30) than severely ill individuals from the hospitalized cohorts (average ID 50 titer 4,212, n = 14). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4370,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "When these same samples were assessed against the 501Y.V2 pseudovirus, nearly half (21 of 44, 48%) had no detectable neutralization activity (and 71% had ID 50 < 100). Only three samples (7%) retained titers of ID 50 > 400 ( Fig. 2 and Supplementary Fig.  2a ). Notably, these three samples were obtained from individuals reporting severe disease and had among the highest neutralization titers against the original virus. Conversely, four samples with borderline neutralization of the original virus were unaffected by 501Y. V2 substitutions, perhaps representing additional, less-potent specificities. To define the location of dominant escape substitutions, neutralization was also assessed against the RBD chimeric pseudovirus containing only three 501Y.V2 substitutions (K417N, E484K and N501Y) ( Fig. 2 and Supplementary Fig. 2a ). Substantial loss of neutralization was also observed against the RBD-only mutant, with 27% of the samples losing all activity against the RBD triple mutants (63% had ID 50 < 100) and only 23% retaining higher titers of ID 50 > 400. These data provide more evidence for the dominance of class 1 and class 2 neutralizing antibodies in polyclonal sera; however, differences in neutralization between RBD-only chimera and 501Y.V2 also highlight the contribution of 501Y.V2 NTD substitutions (L18F, D80A, D215G and Δ242-244) to neutralization escape. This was particularly evident in higher titer samples, which retained an average ID 50 titer of 680 against the RBD-only mutant. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5883,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "While neutralizing antibodies to SARS-CoV-2 are dominated by the specificities defined above, non-neutralizing antibodies are also elicited during SARS-CoV-2 infection. To determine whether 501Y. V2 is still recognized by non-neutralizing antibodies, the binding of polyclonal sera (from Fig. 2) to a recombinant protein that includes the RBD and subdomain 1 (RBD + SBD1) of 501Y.V2 or the original lineage was assessed by ELISA ( Supplementary Fig. 2b ). These data revealed that binding of polyclonal plasma to 501Y.V2 RBD + SBD1 was only substantially affected in a minority of cases (14 of 44 with more than a fivefold reduction, 32%). Most of the convalescent plasma/serum suffered less than a four-fold reduction in total binding activity (as calculated by area under the curve), suggesting a considerable non-neutralizing antibody component is still able to bind the 501Y.V2 spike. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6772,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Among previous emerging lineages, only D614G has subsequently become globally dominant 16 . The repeated, independent evolution of spike position 501 in 501Y.V1 (https://virological.org/t/576), 501Y.V2 (ref. 12 ) and 501Y.V3 https://virological.org/t/586), strongly argues for a selective advantage, likely enhanced transmissibility, of these new variants. Here we have shown that the 501Y.V2 lineage, containing nine spike substitutions, and rapidly emerging in South Africa during the second half of 2020, is resistant to neutralizing antibodies found in 48% of individuals infected with previously circulating lineages. These data, showing a 13-fold reduction in mean titer, are corroborated by vesicular stomatitis virus-pseudotyped and live virus assays showing an 11-to 33-fold and 6-to 204-fold reduction in mean titer (including complete knock out) relative to the original lineage, respectively 17, 18 . The 501Y.V3 lineage has similar changes including 417T and 484K (in RBD) as well as 18F and 20N (in NTD), thus also having strong potential for high levels of neutralization resistance. The independent emergence and subsequent selection of 501Y lineages with key substitutions conferring neutralization resistance strongly argues for selection by neutralizing antibodies as the dominant driver for SARS-CoV-2 spike diversification and makes these lineages of considerable public health concern. This suggests that, despite the many people who have already been infected with SARS-CoV-2 globally and are presumed to have accumulated some level of immunity, new variants such as 501Y.V2 may pose a substantial reinfection risk. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8411,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "While higher titers of neutralizing antibodies are common in hospitalized individuals, most people infected with SARS-CoV-2 develop low-to-moderate neutralization titers 2 . Therefore, the data herein suggest that most individuals infected with previous SARS-CoV-2 lineages will have greatly reduced neutralization activity against 501Y.V2. This dramatic effect on plasma neutralization can be explained by the dominance of RBD-directed neutralizing antibodies, supported by studies showing reduced plasma neutralization titers mediated by the E484K change alone 15 . Notably, here we show that the K417N change also has a crucial role in viral escape, effectively abrogating neutralization by a well-defined, multidonor class of VH3-53/66 germline-restricted public antibodies that comprise some of the most common and potent neutralizing antibodies to SARS-CoV-2 (ref 8 ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9286,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The marked loss of neutralization against 501Y.V2 pseudovirus compared to the RBD-only chimeric pseudovirus demonstrates the important role that substitutions in the NTD play in mediating immune escape. For 501Y.V2 this resistance to neutralization is likely mediated by a three-amino-acid deletion that completely disrupts a dominant public antibody response to the N5-loop supersite 11 . This deletion predominates among 501Y.V2 variants and occurs either alone or with an R246I substitution that is also important for neutralization by several NTD-directed neutralizing antibodies. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9871,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The relatively rapid acquisition of a comprehensive suite of neutralization escape substitutions likely occurred because of the large number of commonly shared public antibodies (such as VH3-53/66, VH1-2 and VH1-24) to both the RBD and NTD of spike, together with high levels of SARS-CoV-2 transmission. The sporadic emergence of escape substitutions in long-term viral shedders, including immunocompromised individuals, may also contribute to the emergence of neutralization-resistant viruses 19 . Altogether, these data highlight the need for increased, ongoing genomic surveillance during the SARS-CoV-2 pandemic. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10488,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Crucially, it is from these same public antibody responses that many therapeutic strategies currently under development have been derived 4 . The overwhelming majority of monoclonal antibodies already on the path to licensure target residues K417 or E484 and are therefore likely to be futile against 501Y.V2. In addition, emerging variants may limit the use of recently identified neutralizing antibodies that target the NTD N5-loop supersite. Some of these monoclonal antibodies have already been granted emergency use authorization in the United States (Regeneron Pharmaceuticals and Eli Lilly and Company), including antibodies ineffective against 501Y.V2 (such as REGN10933 and LY-CoV555) as well as antibodies likely to retain neutralization of this variant (REGN10987 and VIR-7831), some of which are being engineered to potentially enhance virus-specific T cell function (VIR-7832). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11379,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "These data also have implications for the effectiveness of SARS-CoV-2 vaccines, largely based on immune responses to the original spike protein. Indeed, sera from the Moderna and Pfizer-BioNTech vaccinees show significantly reduced neutralization of 501Y.V2 (ref. 18 ). Furthermore, compared to global efficacy estimates, vaccine efficacy in South Africa (overlapping with the emergence of 501Y.V2) has been significantly reduced for several vaccines. Conversely, these same trials seem to retain efficacy against severe COVID-19. While antibody effector functions elicited by infection and vaccination have been implicated in protecting from reinfection and disease 20 , the role of non-neutralizing antibodies and the efficacy of T cell responses to 501Y.V2 remain to be elucidated. We did not measure the extent of these responses to 501Y. V2 but did show that a substantial proportion of non-neutralizing antibodies remain active against 501Y.V2 recombinant RBD protein. Ultimately, the correlates of protection against SARS-CoV-2 infection and severe COVID-19 disease remain undetermined and rely upon ongoing large-scale clinical trials. Nevertheless, these data highlight the urgent requirement for rapidly adaptable vaccine design platforms and the need to identify less-mutable viral targets for incorporation into future immunogens. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12722,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Any methods, additional references, Nature Research reporting summaries, source data, extended data, supplementary information, acknowledgements, peer review information; details of author contributions and competing interests; and statements of data and code availability are available at https://doi.org/10.1038/ s41591-021-01285-x. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13057,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "NATURE MEDICINE | VOL 27 | APRIL 2021 | 622-625 | www.nature.com/naturemedicine ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13137,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "© The Author(s), under exclusive licence to Springer Nature America, Inc. 2021 NATURE MEDICINE | VOL 27 | APRIL 2021 | 622-625 | www.nature.com/naturemedicine ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13296,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "NATURE MEDICINE | www.nature.com/naturemedicine ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

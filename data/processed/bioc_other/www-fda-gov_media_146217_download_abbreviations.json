@@ -1,0 +1,133 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "www-fda-gov_media_146217_download",
+      "inputfile": "../../data/processed/html/html_other/www-fda-gov_media_146217_download.html",
+      "passages": [
+        {
+          "text_short": "EUA",
+          "text_long_1": "Emergency Use Authorization",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Ad26",
+          "text_long_1": "adenovirus type 26",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VE",
+          "text_long_1": "vaccine efficacy",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "AEs",
+          "text_long_1": "adverse events",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VRBPAC",
+          "text_long_1": "Vaccines and Related Biological Products Advisory Committee",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CDC",
+          "text_long_1": "Centers for Disease Control and Prevention",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "HHS",
+          "text_long_1": "Health and Human Services",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "hACE2",
+          "text_long_1": "human angiotensin converting enzyme 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ARDS",
+          "text_long_1": "acute respiratory distress syndrome",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "coronavirus disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CBRN",
+          "text_long_1": "chemical, biological, radiological, or nuclear",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CMC",
+          "text_long_1": "chemistry, manufacturing and control",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Study 3001",
+          "text_long_1": "Study VAC31518COV3001",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FAS",
+          "text_long_1": "full analysis set",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MAAEs",
+          "text_long_1": "medically attended adverse events",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SAEs",
+          "text_long_1": "serious AEs",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ARs",
+          "text_long_1": "adverse reactions",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CT",
+          "text_long_1": "computed tomography",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MRU",
+          "text_long_1": "Medical Resource Utilization",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SAP",
+          "text_long_1": "statistical analysis plan",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PTs",
+          "text_long_1": "preferred terms",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "GBS",
+          "text_long_1": "Guillain-Barre Syndrome",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "LMP",
+          "text_long_1": "last menstrual period",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

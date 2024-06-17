@@ -1,0 +1,53 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1093_cid_ciaa1474",
+      "inputfile": "../../data/processed/html_papers/10-1093_cid_ciaa1474.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "Coronavirus disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RdRP",
+          "text_long_1": "RNA-dependent RNA polymerase",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CP",
+          "text_long_1": "convalescent plasma",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RT-PCR",
+          "text_long_1": "reversetranscription polymerase chain reaction",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "BAL",
+          "text_long_1": "bronchoalveolar lavage",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Ig",
+          "text_long_1": "immunoglobulin",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Lc",
+          "text_long_1": "Lymphocyte",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

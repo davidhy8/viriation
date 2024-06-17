@@ -1,0 +1,369 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-05-08-443253",
+      "inputfile": "../../data/processed/html/10-1101_2021-05-08-443253.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "SARS-CoV-2 B.1.617 emergence and sensitivity to vaccine-elicited antibodies",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 75,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Global control of the SARS-CoV-2 pandemic has yet to be realised despite availability of highly effective vaccines1,2. Emergence of new variants with multiple mutations is likely the result of chronic infections within individuals who are immune compromised3. New variant emergence and transmission has coincided with rollout of vaccines, potentially threatening their success in controlling the pandemic4,5.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 495,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "India experienced a wave of infections in mid 2020 and was controlled by a nationwide lockdown. Since easing of restrictions, India has seen expansion in cases of COVID-19 since March 2021. The B.1.1.7 variant has been growing in the north of the country and is known to be more transmissible than previous viruses bearing the D614G spike mutation6. The B.1.617 variant emerged in the state of Maharashtra in late 2020/early 20217 and has spread throughout India and to at least 40 countries. It was labelled initially as a double mutant since two of the mutations L452R and E484Q were matched to an in-house screening database for mutations leading to probable evasion of antibodies and/or being linked to increased transmissibility.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1229,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The defining mutations in spike are L452R and E484Q in the critical receptor binding domain that interacts with ACE28. L452R was observed in the California variant and is associated with increase in viral load and around 20% increased transmissibility 9. It was also associated with increased ACE2 binding, increased infectivity10 and 3-6 fold loss of neutralisation sensitivity to vaccine elicited sera in experiments with pseudotyped virus (PV) particles10,11. Little is known about E484Q, though E484K is a defining feature of two VOCs, B.1.351 and P.112. E484K is known to confer around 10 fold loss of sensitivity to neutralising antibodies in vaccine and convalescent sera13,14. In contrast to L452R, E484Q has not been observed in transmissible variants.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1990,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Here we demonstrate three lineages of B.1.617, all bearing the L452R mutation. We report key differences in amino acids between sub-lineages and focus on B.1.617.1 bearing three key mutations: L452R, E484Q and P681R. We report modestly reduced sensitivity of the ancestral B.1.617.1 spike protein to BNT162b2 mRNA vaccine-elicited antibodies that is similar in magnitude to the loss of sensitivity conferred by L452R or E484Q alone. Furthermore we show that the P681R mutation significantly augments syncytium formation upon the B.1.617.1 spike protein, potentially contributing to increased pathogenesis observed in hamsters15 and high growth rates observed in humans.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2659,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure 1.: Context of SARS-CoV-2 B.1.617 variant emerging in India",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We downloaded whole genome SARS-CoV-2 sequences containing L452R from GISAID, subsampled and inferred a maximum likelihood phylogenetic tree (Figure 1A). We annotated the sequences based on the accompanying mutations and observed that B.1.617.1 has three key spike mutations L452R, E484Q and P681R, whereas B.1.617.2 is characterised by L452R, T478K and P681R. This likely signifies loss of E484Q in B.1.617.2 given that B.1.617.3 also bears E484Q in 90% of sequences (Figure 1). The number of sequenced isolates of B.1.617.1 and B.1.617.2 has been steadily increasing both globally (Figure 1B) and in India (Figure 1C), though with the caveat of very low sequencing of prevalent cases. A high proportion of global sequences is from the UK where B.1.617.2 appears to be dominating imported cases and local transmissions. There is already significant diversity in B.1.617.1 as demonstrated in Figure 1D.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3634,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Vaccination of health care workers in Delhi was started in early 2021, with the ChdOx-1 vaccine. Surveillance has suggested B.1.1.7 dominance in the Delhi area during early 2021, with growth of B.1.617 since March 2021 (personal communication). During the wave of infections during March and April an outbreak of SARS-CoV-2 was confirmed in 33 vaccinated staff members at a single tertiary centre (age 27-77 years). Sequencing16 revealed the majority were B.1.617.2 with a range of other B lineage viruses including B.1.1.7 (Figure 1E). Importantly no severe cases were documented in this event.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4229,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure 2.: Presence of mutations L452R and E484Q in the RDB of SARS-CoV-2 spike protein.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Spike mutations L452R and E484Q are in the receptor binding domain that not only binds ACE28, but is a target for neutralising antibodies17–19 (Figure 2). We tested the neutralisation sensitivity of B.1.617.1 Spike bearing L452R, E484Q and P681R using a previously reported pseudotyped virus (PV) system with HIV-1 particles bearing SARS-CoV-2 spike (Figure 3). PV testing against neutralising antibodies has been shown to be highly correlated with live virus systems20. We tested nine stored sera from Pfizer BNT162b2 vaccinees against a range of spike mutation bearing PV. As expected E484K conferred a ten-fold reduction in neutralisation by vaccine sera, and E484Q had a slightly milder yet significant impact. When E484Q and L452R were combined, there was a statistically significant loss of sensitivity as compared to wild type, but the fold change was similar to that observed with each mutation individually with no evidence for an additive effect.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5273,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Supplementary figure 1:: Entry efficiency of B.1.617 spike PV in CaLu cells.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Spike is known to mediate cell entry via interaction with ACE2 and TMPRSS221 and is a major determinant of viral infectivity. Given that that B.1.617.1 does not appear to be highly immune evasive, we hypothesised that it may be have higher infectivity. We tested single round viral entry using the PV system, infecting target 293T cells over-expressing ACE2 and TMPRSS2, as well as Calu-3 lung cells expressing endogenous levels of ACE2 and TMPRSS2 (Supplementary figure 1). We observed similar entry efficiency across mutants, all of which appeared lower than the Wuhan-1 D614G wild type. (Figure 4).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5950,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Supplementary figure 1:: Entry efficiency of B.1.617 spike PV in CaLu cells.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "SARS-CoV-2 infection in clinically relevant cells is TMPRSS2 dependent and requires fusion at the plasma membrane, potentially to avoid restriction factors in endosomes22. The plasma membrane route of entry, and indeed transmissibility in animal models, is critically dependent on the polybasic cleavage site (PBCS) between S1 and S222,23. Mutations at P681 in the PBCS have been observed in multiple SARS-CoV-2 lineages, most notably in the B.1.1.7 variant that likely emerged in the UK.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6438,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Supplementary figure 1:: Entry efficiency of B.1.617 spike PV in CaLu cells.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We previously showed that B.1.1.7 spike, bearing P681H, had significantly higher fusogenic potential than a D614G Wuhan-1 virus24. We therefore tested a series of mutations in B.1.617 spike using a split GFP system. We transfected spike bearing plasmids into donor cells and co-cultured them with acceptor cells (Figure 5). We found no significant differences for the single mutants tested L452R, E484Q/K, or indeed the double mutant L452R+E484Q. However, the triple mutant with P681R demonstrated higher fusion activity and syncytium formation, mediated specifically by P681R (Figure 5, supplementary figure 2).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7050,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Here we have shown that B.1.617 spike bearing L452R, E484Q and P681R has modest ability to avoid neutralising antibodies elicited by BNT162b2 vaccination. The fold reduction for the two RBD mutations L452R and E484Q was no greater than the individual mutations alone, arguing against use of the term “double mutant”. The loss of neutralisation of B.1.617 has likely contributed to an epidemic wave in India where background infection to the Wuhan-1 D614G in 2020 was between 20-50%25. Despite in vitro data showing only small loss of neutralisation against B.1.617 with the Covaxin vaccine26, here we also show vaccine breakthrough in health care workers at a single tertiary hospital who were fully vaccinated with ChAdOx-1 vaccine (adenovirus vectored). These infections were predominantly B.1.617, with a mix of other lineages bearing D614G in spike. The dominance of B.1.617 could be explained by prevalence of this lineage in community infection or simply reflect transmission between HCWs. The data nonetheless raise the possibility of a transmission advantage of B.1.617 in vaccinated individuals.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8164,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "We measured spike mediated entry into target cell lines exogenously or endogenously expressing ACE2 and TMPRSS2 receptors. The E484K, L452R and P681R mutant had reduced entry efficiency relative to wild type. A recent report using a spike B.1.617 with a larger set of mutations found variable entry efficiency relative to wild type across cell types27.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8516,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Virus infectivity and fusogenicity mediated by the PBCS is a key determinant of pathogenicity and transmissibility22,28 and there are indications that giant cells/syncitia formation are associated with fatal disease29. We find that P681R is associated with enhanced capacity to induce cell-cell fusion and syncitia formation, and that P681R alone confers this ability on the B.1.617.1 spike with RBD mutations L452R and E484Q.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8942,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "It is unclear whether B.1.617 variants will prove more transmissible than B.1.1.7, also circulating in India and now globally dominant. In the absence of published data on transmissibility of B.1.617 we predict that this variant will have a transmission advantage relative to Wuhan-1 with D614G in individuals with pre-existing immunity from vaccines/natural infection as well as in settings where there is low vaccine coverage and low prior exposure. Lower protection against B.1.351, the variant with least sensitivity to neutralising antibodies, has been demonstrated for at least three vaccines2,30–32. However, progression to severe disease and death was low in all studies. Therefore, at population scale, extensive vaccination will likely protect against moderate to severe disease and will reduce transmission of B.1.617 given the in vitro neutralisation data we and others have presented.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9839,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "All sequences excluding low-quality sequences (>5% N regions) with the L452R mutation were downloaded from https://gisaid.org33 on the 4th May 2021 and manually aligned to reference strain MN908947.3 with mafft v4.475 34 using the --keeplength --addfragments option. Sequences were de-duplicated using bbtools dedupe.sh. Due to the high proportion of USA-centric sequences containing L452R, all USA sequences were extracted and saved to a separate fasta file. A random subset of 400 global sequences (excluding USA), and 100 USA sequences were then selected with seqtk and concatenated. Sequence lineages were assigned to all sequences with pangolin v2.4 (https://github.com/cov-lineages/pangolin) and pangolearn (04/05/2021).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10572,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Phylogenies were then inferred using maximum-likelihood in IQTREE v2.1.3 35 using a GTR+R6 model and the -fast option. Mutations of interest were determined using a local instance of nextclade-cli v0.14.2 (https://github.com/nextstrain/nextclade). The inferred phylogeny was annotated in R v4.04 using ggtree v2.2.436 and rooted on the SARS-CoV-2 reference sequence, and nodes arranged in descending order. Major lineages were annotated on the phylogeny, as well as a heatmap indicating which mutations of interest were carried by each viral sequence.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11123,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The PyMOL Molecular Graphics System v.2.4.0 (https://github.com/schrodinger/pymol-open-source/releases) was used to map the location of the two RDB mutants L452R and E484Q onto two previously published SARS-CoV-2 spike glycoprotein structures. Th two structures included a closed-conformation spike protein - PDB: 6ZGE37 and a spike protein in open conformation, bound to nAb H4 38.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11505,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Ethical approval for use of serum samples. Controls with COVID-19 were enrolled to the NIHR BioResource Centre Cambridge under ethics review board (17/EE/0025).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11665,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "HEK 293T CRL-3216, Vero CCL-81 were purchased from ATCC and maintained in Dulbecco”s Modified Eagle Medium (DMEM) supplemented with 10% fetal calf serum (FCS), 100 U/ml penicillin, and 100mg/ml streptomycin. All cells were regularly tested and are mycoplasma free.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11929,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Plasmids encoding the spike protein of SARS-CoV-2 D614 with a C terminal 19 amino acid deletion with D614G, were used as a template to produce variants lacking amino acids at position H69 and V70, as well as mutations N439K and Y453F. Mutations were introduced using Quickchange Lightning Site-Directed Mutagenesis kit (Agilent) following the manufacturer”s instructions. B. 1.1.7 S expressing plasmid preparation was described previously, but in brief was generated by step wise mutagenesis. Viral vectors were prepared by transfection of 293T cells by using Fugene HD transfection reagent (Promega). 293T cells were transfected with a mixture of 11ul of Fugene HD, 1μg of pCDNAΔ19 spike-HA, 1ug of p8.91 HIV-1 gag-pol expression vector and 1.5μg of pCSFLW (expressing the firefly luciferase reporter gene with the HIV-1 packaging signal). Viral supernatant was collected at 48 and 72h after transfection, filtered through 0.45um filter and stored at −80°C as previously described. Infectivity was measured by luciferase detection in target 293T cells transfected with TMPRSS2 and ACE2.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13016,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The reverse transcriptase activity of virus preparations was determined by qPCR using a SYBR Green-based product-enhanced PCR assay (SG-PERT) as previously described39. Briefly, 10-fold dilutions of virus supernatant were lysed in a 1:1 ratio in a 2x lysis solution (made up of 40% glycerol v/v 0.25% Trition X-100 v/v 100mM KCl, RNase inhibitor 0.8 U/ml, TrisHCL 100mM, buffered to pH7.4) for 10 minutes at room temperature.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13441,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "12μl of each sample lysate was added to thirteen 13μl of a SYBR Green master mix (containing 0.5μM of MS2-RNA Fwd and Rev primers, 3.5pmol/ml of MS2-RNA, and 0.125U/μl of Ribolock RNAse inhibitor and cycled in a QuantStudio. Relative amounts of reverse transcriptase activity were determined as the rate of transcription of bacteriophage MS2 RNA, with absolute RT activity calculated by comparing the relative amounts of RT to an RT standard of known activity.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13901,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "pQCXIP□BSR□GFP11 and pQCXIP□GFP1□10 were from Yutaka Hata40 Addgene plasmid #68716; http://n2t.net/addgene:68716; RRID:Addgene_68716 and Addgene plasmid #68715; http://n2t.net/addgene:68715; RRID:Addgene_68715)",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14111,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Lentiviral particles were generated by co-transfection of 293T cells with pQCXIP□BSR□GFP11 or pQCXIP□GFP1□10 as previously described 41. Supernatant containing virus particles was harvested after 48 and 72 hours, 0.45 μm filtered, and used to infect 293T or Vero cells to generate stable cell lines. 293T and Vero cells were transduced to stably express GFP1 10 or GFP11 respectively and were selected with 2 μg/ml puromycin.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14536,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Cell-cell fusion assay was carried out as previously described41,42 but using a Split-GFP system. Briefly, 293T-GFP1-10 and Vero-GFP11 cells were seeded at 80% confluence in a 24 multiwell plate the day before. 293T cells were co-transfected with 1.5 μg of spike expression plasmids in pCDNA3 using Fugene 6 and following the manufacturer”s instructions (Promega). 293T-GFP1-10 cells were then detached 5 hours post transfection, mixed together with the Vero-GFP11 cells, and plated in a 12 multiwell plate. Cell-cell fusion was measured using an Incucyte and determined as the proportion of green area to total phase area. Data were then analysed using Incucyte software analysis. Graphs were generated using Prism 8 software. Furin inhibitor CMK (Calbiochem) was added at transfection.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15323,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Cells were lysed and supernatants collected 18 hours post transfection. Purified virions were prepared by harvesting supernatants and passing through a 0.45 μm filter. Clarified supernatants were then loaded onto a thin layer of 8.4% optiprep density gradient medium (Sigma-Aldrich) and placed in a TLA55 rotor (Beckman Coulter) for ultracentrifugation for 2 hours at 20,000 rpm. The pellet was then resuspended for western blotting. Cells were lysed with cell lysis buffer (Cell signalling), treated with Benzonase Nuclease (70664 Millipore) and boiled for 5 min. Samples were then run on 4%-12% Bis Tris gels and transferred onto nitrocellulose or PVDF membranes using an iBlot or semidry (Life Technologies and Biorad, respectively).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16059,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Membranes were blocked for 1 hour in 5% non-fat milk in PBS + 0.1% Tween-20 (PBST) at room temperature with agitation, incubated in primary antibody (anti-SARS-CoV-2 Spike, which detects the S2 subunit of SARS-CoV-2 S (Invitrogen, PA1-41165), anti-GAPDH (proteintech) or anti-p24 (NIBSC)) diluted in 5% non-fat milk in PBST for 2 hours at 4°C with agitation, washed four times in PBST for 5 minutes at room temperature with agitation and incubated in secondary antibodies anti-rabbit HRP (1:10000, Invitrogen 31462), anti-bactin HRP (1:5000; sc-47778) diluted in 5% non-fat milk in PBST for 1 hour with agitation at room temperature. Membranes were washed four times in PBST for 5 minutes at room temperature and imaged directly using a ChemiDoc MP imaging system (Bio-Rad).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16833,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Spike pseudotype assays have been shown to have similar characteristics as neutralisation testing using fully infectious wild type SARS-CoV-220. Virus neutralisation assays were performed on 293T cell transiently transfected with ACE2 and TMPRSS2 using SARS-CoV-2 spike pseudotyped virus expressing luciferase43. Pseudotyped virus was incubated with serial dilution of heat inactivated human serum samples or convalescent plasma in duplicate for 1h at 37°C. Virus and cell only controls were also included. Then, freshly trypsinized 293T ACE2/TMPRSS2 expressing cells were added to each well. Following 48h incubation in a 5% CO2 environment at 37°C, the luminescence was measured using Steady-Glo Luciferase assay system (Promega).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

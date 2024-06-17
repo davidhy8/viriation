@@ -1,0 +1,460 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "assets-researchsquare-com_files_rs-106969_v2_stamped-pdf",
+      "inputfile": "../../data/processed/html/html_other/assets-researchsquare-com_files_rs-106969_v2_stamped-pdf.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Serine 477 plays a crucial role in the interaction of the SARS-CoV-2 spike protein with the human receptor ACE2",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 111,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": " DISCLAIMER: This is a PDF file of a paper that has been submitted for peer-review. Currently, most scientific journals require immediate publication of manuscripts before entering the peerreview process. We fully support this mechanism as a tool to distribute Covid-19 relevant",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 402,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "In the recent global outbreak of COVID-19, more than 46 million individuals have as yet been infected with this severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). SARS-CoV-2 is responsible for around 1.25 million deaths as of October 2020. This novel virus is a member of structurally \"crowned\" viruses, first appreciated and defined as coronavirus in the 1960's when Tyrrell and Bynoe discovered the first human coronaviruses (HCoVs) 1 . These single-stranded RNA viruses have round enveloped virions and are covered by trimeric aggregates of spike (S) proteins. The S protein is a type I fusion protein and is involved in receptor binding, eventually leading to virus fusion with the host cell. Specifically, the SARS-CoV-2 spike receptor binding domain (RBD) is known to interact with the human angiotensin-converting enzyme 2 (hACE2) receptor 2, 3 . A conformational change in the trimeric S protein exposes one of its RBD domains in an active \"up\" state, and triggers the binding of the receptor binding motif (RBM) to hACE2 4, 5 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1450,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Subsequently, the S protein is also recognized by the immune cells as a primary antigenic target to neutralize the virus. However, favourable mutations for the virus could be acquired through natural selection, following this as of now hundreds of new mutations were found on different residue positions of SARS-CoV-2 S protein. While preparing potential targets of the SARS-CoV-2 proteome for our recently published large-scale virtual screening 6, 7 aiming to identify potential binders and inhibitors, we analysed the diversity of the SARS-CoV-2 genome landscape: Till 30 th August 2020, among 73042 reported SARS-CoV-2 spike sequences on GISAID we have found that a total of 185 amino acid substitution are reported on the 223 residue long RBD and 68 mutations are reported in the 72 residues long RBM ( Fig. 1a) 8 . Within the SARS-CoV-2 spike protein, residue D614 is a highly variable site, whereas residue S477 has the highest number of mutation events within the RBD (Fig.1b) . Interestingly, S477N occurs very frequently alongside the D614G mutant which has been reported to be associated with a very high viral load 9 , structurally these two sites are located distinctly in the spike protein, but the very high frequency of co-occurrence among these two sites needs to be investigated. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2748,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Whereas, the rate of mutation in the RBD is posing a greater threat since the interaction of this domain to hACE2 is the key to enter a cell, recent studies are highlighting that several mutations in the RBD strengthened the SARS-CoV-2 infectivity [10] [11] [12] . Each mutation is said to have an impact on the protein-protein interaction interface in the heterodimeric complex of hACE2 and the RBD. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3149,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "However, the site in the RBD which looks very promising to investigate is the residue S477. S477 has the highest frequency of mutation in the RBD (Fig. 1b) with reported substitutions to G(2) I 7N(3400) R(2) T(2) X (20) . Deep mutational scanning of the RBD has shown that a mutation at S477 has a potential to affect the stability of the RBD as well as its binding to the ACE2 13 , whereas the structural effect of residue S477 in context of intra-RBD interactions is lesser understood while it is reported that the residues S477 and T478 in SARS-CoV-2 are responsible for specific and efficient interactions with hACE2 and provide an edge over SARS-CoV 14 . Therefore, we investigate the structural contribution of residue S477 in the RBD in order to understand its role inhACE2 binding. Unbound proteins are predisposed to undergo conformational fluctuations relevant for protein-protein interactions and intra-protein interactions and have a profound role in presenting peripheral residues in inter-protein interactions [15] [16] [17] . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4190,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The structural analysis of the unbound RBD is therefore a very critical step for designing a potent inhibitor or an antibody to potentially block hACE2 and RBD interactions. In this study, we are investigating the intrinsic motion of the RBD in an unbound state using the normal mode analysis (NMA) technique. NMA is a time dependent harmonic approximation of internal motion in proteins around an energy minimum 18, 19, 25 and proved to be a very handy tool to study the harmonic motions relating to protein dynamics and conformational fluctuations [18] [19] [20] . NMA have been used previously to resolve the domain motion and dynamical correlation among protein residues 20, 21 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4874,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The RBD is very efficient in finding its attachment surface on hACE2 and is therefore SARS-CoV-2's first line tool to explore its potential binding target on a human cell. It has been shown that the flexibility of peripheral residues plays a key role in the recognition of potential binding sites during protein-protein interactions [22] [23] [24] . Therefore, we performed a detailed flexibility analysis to identify the \"flexible\" and \"rigid\" regions of the SARS-CoV-2 RBD. We found a significant difference among the dynamics of peripheral residues on the RBD, especially in the receptor binding motif (RBM) of the SARS-CoV-2 RBD (Fig. 2) . The key flexible region on the RBM covers the residues from 475 to 487, which might have a key role for an induced fit binding with hACE2. It has also been reported that the region, which corresponds to residues 475-483 in RBD, is a site of interest due to a higher frequency of mutations in this region 9, 13 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5830,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Normal mode flexibility analyses have shown an array of highly dynamic residues from residue 475 to 487 in the RBM. Surprisingly, these residues have a very high dynamical pair correlation among them with a correlation coefficient of ≥0.9. Apart from RBM, RBD has no other highly correlated dynamical pair of residues in it. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6155,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "However, we have noticed an interesting site among these highly flexible residues in the RBM, the residue S477, preceded by G476. A mutation corresponding to S477G results in two consecutive Gly residues at position 476 and 477, with the resulting arrangement A475-G476-S477G (AGG), This AGG motif might favour easier structural arrangements of side chains which are otherwise restricted 26, 27 . Our detailed NMA suggested that there is a flexible domain of highly correlated dynamical residues on RBM, and local mutations S477G and S477N have a very high potential to affect local conformation significantly upon binding. Further using advanced MD simulations techniques, we are resolving a critical loop on RBM, which has a prominent role in binding with hACE2. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6920,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "To verify the impact of the mutation S477G in affecting the binding with hACE2, molecular dynamics simulations (MD) have been carried out to obtain volumetric maps to visualize the capture signature of inter atomic contacts. We performed 100 ns MDs with the native hACE2:RBD complex and the hACE2:RBD S477G and S477N mutant complexes. Based on the atomic coordinates from these 100 ns trajectories a volumetric map was created by selecting the hACE2 residues within 5 Å of the RBD. The resulting maps, as shown in (Fig. 3 ), reveal notable differences: There is a pronounced interaction hotspot on hACE2 opposite to residue S477 of the RBD, while the mutant S477G lacks this hotspot on hACE2. Apparently, this difference seems to be due to the mutation of a serine to a glycine, because glycine lacks any functional group in contrast to the hydroxyl group of the serine. However, the average number of hydrogen bonds per trajectory frame between the hACE2 and the RBD are 5.711, 5.982, 6.657 for native, S477G, S477N mutants, respectively. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7960,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Using molecular dynamics simulations, root mean square fluctuation (RMSF) is a broadly used tool to identify residue-specific-flexibility 28, 29 . Plotting the RMSF of each residue in the RBD, in its unbound form as well as in complex with hACE2, we noticed an overall decrease in flexibility of the RBD upon binding with hACE2 compared to the unbound RBD ( Fig. 4 ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8328,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "It is noticeable that S477G and S477N increase the local flexibility with the unbound RBD, but in a complex with hACE2, the S477 mutants have a significantly reduced local flexibility. This contrasting change in the local flexibility of S477 mutants upon binding with hACE2 suggesting an active participation of this residue at the interaction interface. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8683,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Steered molecular dynamics (SMD) is an advanced version of MD simulations, widely used to study the binding and unbinding events among bio-molecules in structural biology [30] [31] [32] [33] . Where the dissociation process is being accelerated using an external forced pulling via a harmonic force constant. SMD simulations have proved their worthiness in resolving the effect of single point mutation on protein-protein interaction interfaces 34, 35 To study the impact of the mutation S477G in the detachment and association process of the spike protein to hACE2, a steered molecular dynamics simulation was carried out. The forced dissociation of the RBD from hACE2 depends on the spring constant and tension exerted by the surroundings (Fig. 5) . Interestingly, there is a significant difference in the rupture force between the RBD and its mutants S477G and S477N throughout different force constants. The chosen spring constant of 250 kJ/mol/nm 2 allows for a consistence and smooth transition between bound and unbound complex. A final center-of-mass (COM) distance between hACE2 and the RBD of approximately 14 nm was achieved. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9820,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Energy and conformational changes show that the rupture force varied greatly between the RBD and its S477 mutants. Van-der-Waals energies show lesser fluctuations in the event of forceful dissociation of S477 RBD mutants from hACE2, whereas the electrostatic forces remained dominant in the native RBD disassociation from hACE2. However, the complex of native RBD and hACE2 start dissociating after 400 ps (Fig. 6 ), S477N and hACE2 starts dissociating at 390 ps, whereas the S477G RBD mutant delayed the disassociation process with hACE2 for around 100 ps. To further confirm the time point of disassociation of the RBD:hACE2 complex, we plotted the distance between RBD and hACE2 vs. time, indicating that the S477G RBD mutant is significantly delaying the disengagement process (Fig. 7) . Potential of mean force calculations (Fig. 8) show that the S477N mutant features the highest binding affinity with hACE2 compared to its native RBD and S477G (Table 1 .) Our results are in line with experimentally reported changes in the binding affinity of S477G and S477N mutants 13 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10900,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "ΔGBind To visualize the changes in the dissociation process we took structural snapshots at the breaking point for both, the RBD and its S477 mutants. At the breaking point, residue S477 is still hydrogen bonded to Q24 of hACE2 in the native RBD, whereas in the analysed mutants no polar contacts at the interaction interface could be observed. However, the mutated residue S477G and S477N is involved in non-polar interactions with hACE2. This structural annotation at the breaking point indicates that the interaction with the highly flexible loop residues of the RBD will remain until the end of the unbinding event. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11520,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Our flexibility and correlational analyses reveal a highly dynamic loop in the SARS-CoV-2 spike protein RBM from residue 475 to 485. It is known from induced fit theory that the binding event induces a conformational change at the interaction site, and biased dynamics of these highly correlated residues at the RBM are emphasizing their relevance for the hACE2 binding. In fact loops are the most common structural features found at the protein-protein interaction interfaces 36 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12002,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Forced pulling dynamics reveal that this highly flexible loop remained interacting to hACE2 till the end of the rupturing event, suggesting that this flexible loop provides the required mobility to mediate the hACE2:RBD interaction. Following this, it is worth to consider that any alteration in the flexibility of this loop could have a strong impact in the binding of the RBD with hACE2. The comparative analysis of the RBD and its S477 mutants highlights the potential of single amino acid substitution on the protein-protein interaction. Both single mutations of S477 have shown the increased binding affinity for hACE2. On the basis of our flexibility and SMD analysis, we are emphasizing that any mutation subject to a structural change in this region could potentially be critical for the RBD and hACE2 interaction. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12825,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "As a starting point the recently published crystal structure of the SARS-CoV-2 spike receptorbinding domain bound to the hACE2 receptor obtained from PDB (PDB-Code:6M0J) having a resolution of 2.47 Å 37 was used. Missing heavy atoms, residues and hydrogen were then modelled by using the web based CHARMM package 38, 39 . The mutation S477G was modelled by using the standalone CHARMM package. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13219,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The coordinates of the RBD and its S477G mutant were extracted from the above mentioned fully prepared structure. Both structures were subjected to an energy minimization step followed by 100 ps of NVT. A 100 ns equilibration run was performed to relax the interface side-chain conformations constrained by the hACE2. This relaxed unbound RBD structure was used for the NMA on the DynaMut server 40 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13620,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "For the in house comparative flexibility analysis, the RBD and its S477 mutants were further undergone three independent 10 ns production runs. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13764,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The coordinates of the hACE2:RBD complex and the complex of hACE2 with S477-RBD mutants (hACE2:S477G-RBD, hACE2:S477N-RBD) were taken from the above mentioned template crystal structure. Both complexes were further subjected to an energy minimization step followed by 100 ps of NVT and an 100 ns equilibration run. These equilibrated structures were used as input for the SMD simulations. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14153,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "For the in house flexibility analysis, equilibrated complexes of hACE2:RBD and hACE2:S477G-RBD, and hACE2:S477N-RBD were further subjected to three independent 10 ns production runs. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14336,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Each system was placed in the center of a box with a minimum of 10 Å distance from the edge of the box, to avoid imaginary interactions, followed by solvation and system neutralization by adding ions. Potential energy terms for the protein and ions were derived from CHARMM36 41 all atom additive force field, and TIP3P 42 potential was used to represent water molecules. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14708,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "All classical simulations were performed using the Gromacs 2018 43, 44 package with enhanced GPU support. A step size of 2 fs was chosen and the driving force from potential energy of the system having a non-bonding cutoff of 10 Å, a Particle Mesh Ewald (PME) 45 summation was used to deal with long range interactions. All covalent bonds involving hydrogen were constrained using LINCS 46 . The temperature was maintained at 300 K with a Velocity-rescaling algorithm 47 using two indexed groups: protein and non-protein, for effective temperature coupling. Pressure coupling was applied isotropically at 1 bar with a weak coupling constant 2 ps and isothermal compressibility values of 4.5e-5 bar -1 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15411,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "For SMD, the structures were placed in a rectangular box with the dimensions (100 Åx100 Åx350Å) sufficient to avoid imaginary interactions and providing space for pulling simulations to take place along the Z-axis. As before, followed by solvation and neutralization by adding ions. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15694,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Subsequently, bad contacts were then removed by energy minimization, followed by a 100 ps NVT and a 500 ps NPT equilibration. After equilibration, position restraints were removed from the RBD whereas hACE2 remained as an immobile reference for the pulling simulations. In each of the 10 different pulling simulations, the RBD was pulled away from the hACE2 along the Z-axis over 1000 ps with a fixed spring constant value, starting from 50 kJ/mol/nm for the first simulation to 500 kJ/mol/nm for the 10 th simulation, with an increment of 50 kJ/mol/nm in each step between the first and last simulations. A pull rate of 0.1 Å/ps has been used throughout all of the 10 pulling simulations. All pulling simulations were performed with the GROMACS package. Using characteristic frequency of each mode, atomic fluctuations has been calculated, given by: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16545,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "〈∆ ! \" 〉 = # + * !$ \" $ \" %&'( $)* ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16580,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "where 〈∆ ! \" 〉 is the time averaged square displacement of atom i, is the frequency of mode j, is the displacement of atom i under mode j, and N is the number of residues. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16752,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The DynaMut online server takes advantage of the graph-theory and normal mode analysis (NMA) and has been employed to analyse and visualize the RBD dynamics, to generate a consensus prediction of protein motion and flexibility 40 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16984,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "RMSF analysis described the average deviation of a residue over a time from a reference position. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17082,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Using RMSF the portions of the structure that are flexible or rigid could be identified. After removing the periodic boundary conditions using Gromacs trjconv tool, gmx rmsf module has been used to calculate RMSF using following equation: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17321,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "! = 2 1 45 ! ( $ ) − ! -./ 5 \" 0 1 !\"# ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17360,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "where T is the total time of trajectory, $ is the time at j th frame of trajectory, ! is the position of the atom i and ! -./ is the initial reference position of the atom i. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17535,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The RMSD of a protein is taken as the root of the average square displacement over all N Cα atoms, very often the measure of how much the protein conformation has changed. After removing the periodic boundary conditions using the Gromacs trjconv tool, the gmx rms module has been used to calculate the RMSD using following equation: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17868,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "( ) = 2 1 4 ! 5 ! ( ) − ! -./ 5 \" & !)* ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17908,
+          "infons": {
+            "section_title_1": "Introduction ",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "where M is the total mass of the protein, N is total amino acids, ! ( ) is the position of the atom i at time t and ! -./ is the initial reference position of the atom i.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

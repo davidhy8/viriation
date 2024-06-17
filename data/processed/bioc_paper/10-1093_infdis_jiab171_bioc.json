@@ -1,0 +1,278 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1093_infdis_jiab171",
+      "inputfile": "../../data/processed/html_papers/10-1093_infdis_jiab171.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "The Stability of an Isolate of the SARS-CoV-2 B.1.1.7 Lineage in Aerosols Is Similar to 3 Earlier Isolates",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 106,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": " Background. Our laboratory previously examined the influence of environmental conditions on the stability of an early isolate of SARS-CoV-2 (hCoV-19/USA/WA-1/2020) in aerosols generated from culture medium or simulated saliva. However, genetic differences have emerged among SARS-CoV-2 lineages, and it is possible that these differences may affect environmental stability and the potential for aerosol transmission. Methods. The influence of temperature, relative humidity, and simulated sunlight on the decay of 4 SARS-CoV-2 isolates in aerosols, including 1 belonging to the recently emerged B.1.1.7 lineage, were compared in a rotating drum chamber. Aerosols were generated from simulated respiratory tract lining fluid to represent aerosols originating from the deep lung. Results. No differences in the stability of the isolates were observed in the absence of simulated sunlight at either 20°C or 40°C. However, a small but statistically significant difference in the stability was observed between some isolates in simulated sunlight at 20°C and 20% relative humidity. Conclusions. The stability of SARS-CoV-2 in aerosols does not vary greatly among currently circulating lineages, including B.1.1.7, suggesting that the increased transmissibility associated with recent SARS-CoV-2 lineages is not due to enhanced survival in the environment.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1465,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Recent evidence suggests that aerosols may contribute to the spread of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) [1] [2] [3] [4] [5] [6] , with both epidemiological analyses and sampling studies in clinical settings supporting this hypothesis [7] [8] [9] . Several studies have reported the detection of coronavirus RNA, including that of SARS-CoV-2, in the exhaled breath of infected individuals, suggesting that respiratory shedding may be a source of virus-containing aerosols [1, 4, 10] . Exhaled aerosol particles generated during normal breathing are thought to originate from bronchiolar film bursting that occurs as airways in the deep lung reopen during inhalation [11, 12] , and a portion of the particles generated during speaking and coughing are also believed to originate in the bronchiolar region [13] . These various respiratory activities have been shown to produce significant numbers of particles with aerodynamic diameters less than 5 µm, although larger particles are also produced during speaking and coughing [13, 14] . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2527,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Our laboratory has previously examined the aerosol persistence of infectious SARS-CoV-2 as a function of temperature, relative humidity, simulated sunlight, and suspension fluid [15, 16] . These previous studies utilized a single viral isolate from early in the pandemic, hCoV-19/USA/WA-1/2020. However, sequence analyses of emerging SARS-CoV-2 isolates have shown genetic drift over the course of the pandemic [17, 18] . Differences in environmental stability have been observed between related viruses, including coronaviruses [19] [20] [21] , and it is possible that genetic variation among SARS-CoV-2 lineages may result in differences in environmental stability and, as a result, the potential for aerosol transmission. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3252,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We previously observed differences in the decay rate of aerosolized SARS-CoV-2 as a function of suspension medium at some environmental conditions, suggesting the stability of virus in aerosols may be influenced by particle composition [15, 16] . The culture medium and simulated saliva utilized previously differ in composition from the fluid lining the bronchiolar region of the respiratory tract, which is rich in phospholipids, surfactants, and glycoproteins [22] . Thus, the stability of virus in aerosols generated from this region may differ from that of virus suspended in other fluids. However, to date, no published studies have examined the decay of SARS-CoV-2 in aerosols with a composition similar to that expected for particles originating from the bronchiolar region of the respiratory tract. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4060,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The objective of the current study was to compare the decay rates of different SARS-CoV-2 isolates in aerosols, including 3 that represent lineages linked to higher transmission potential. Testing was conducted with viral aerosols generated from suspensions with physicochemical properties similar to those expected for respiratory tract lining fluid from the deep lung, allowing the impact of composition to be assessed by comparing the results of the present study to those from our previous studies of SARS-CoV-2, which utilized other suspension media. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4616,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Vero cells (ATCC CCL-81) were cultured as previously described [15, 16, 23] and used for all virus propagation and infectivity assays. Titers of infectious virus were determined by microtitration on confluent cell monolayers in 96-well plates, with plates incubated at 37°C and 5% CO 2 for 4 days, followed by visual inspection for virus-induced cytopathic effects. Titers were calculated using the method of Karber and Spearman [24] . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5052,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "hCoV-19/USA/WA-1/2020 (NR-52281) was obtained from BEI Resources as passage 4 material and was subsequently passaged twice to yield passage 6 stocks that were harvested at 4 days post infection (dpi), clarified by centrifugation at 2000g and 4°C, then frozen at −80°C until use. Over the course of the study, multiple separate passage 6 stocks were prepared and used for aerosol tests. This isolate was collected on 19 January 2020 and deposited with BEI Resources by the Centers for Disease Control and Prevention. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5568,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "hCoV-19/USA/NY-PV08449 (NR-53515) was obtained from BEI Resources as passage 3 material and was subsequently passaged twice to yield a passage 5 stock that was harvested at 4 dpi, clarified by centrifugation at 2000g and 4°C, then frozen at −80°C until use. This isolate was collected on 17 March 2020 and was deposited with BEI Resources by the Icahn School of Medicine at Mount Sinai. The genome of hCoV-19/USA/ NY-PV08449 includes the D614G mutation in the spike (S) protein, which has been associated with increased viral loads in infected patients [17] , suggesting that this variant may impact transmission through increased replication or infectivity [25] . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6233,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "hCoV-19/France/IDF0372/2020 was supplied as passage 2 material by the National Reference Centre for Respiratory Viruses, and was subsequently passaged 3 times to yield a passage 5 stock that was harvested at 4 dpi, clarified by centrifugation at 2000g and 4°C, then frozen at −80°C until use. The genome of hCoV-19/France/IDF0372/2020 contains the V367F mutation in the S protein, which has been suggested to potentially increase the affinity of S for the entry receptor ACE2 [26] or increase S expression [27] . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6746,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "hCoV-19/USA/CA_CDC_5574/2020 was provided as a kind gift by Dr Natalie Thornburg of the US Centers for Disease Control and Prevention as passage 2 material, and was passaged once to yield a passage 3 stock that was harvested at 3 dpi, clarified by centrifugation at 2000g and 4°C, then frozen at −80°C until use. This isolate was collected on 29 December 2020 and possesses all genomic changes characteristic of the B.1.1.7 lineage of SARS-CoV-2, including the N501Y mutation linked to an increased affinity of S for ACE2. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7269,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Viral RNA from the passage 5 stocks of hCoV-19/USA/ NY-PV08449 and hCoV-19/France/IDF0372/2020, and the passage 2 and 3 stocks of hCoV-19/USA/CA_CDC_5574/2020 were sequenced to confirm their identity and determine whether any mutations had occurred following passage in cell culture. The methods used and the results of these analyses are presented in Supplementary Table 1 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7645,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Decay experiments were conducted at different combinations of temperature, relative humidity, and simulated sunlight in 2 rotating drum aerosol chambers as described previously [15, 16, 28] . Aerosols were generated using an air-assist nozzle, with a target mass median aerodynamic diameter (MMAD) of 2 µm. This size is generally representative of that expected for aerosols originating from the lower respiratory tract during different respiratory activities, and allows comparisons to our previous studies [12, 13] . Tests in simulated sunlight and darkness were 10 and 60 minutes long, respectively, with 4-8 replicate tests conducted at each condition. Aerosols were sampled 5 times during each experiment with both an aerodynamic particle sizer (APS; Model 3321, TSI Inc) and a 25-mm gelatin filter (PN 225-9551; SKC, Inc). Filters were dissolved in 10 mL of cell culture medium to recover material for assays. For each test, viral titers measured by filter samples and mass concentration data measured by the APS were used to calculate 1-phase exponential decay constants as described previously [15, 16] . A decay constant for viral infectivity (k infectivity ) was calculated by subtracting the decay constant estimated for total aerosol mass from the decay constant estimated for infectious virus to normalize for physical losses in the test system. Tests were excluded from subsequent analyses if the linear regression fits of the virus and mass aerosol concentrations had a coefficient of determination (r 2 ) less than 0.70 and a root mean square error greater than 0.3, criteria which led to the exclusion of 5 out of 159 total tests. Additionally, tests were only included if the initial aerosol sample had an infectious titer above 10 median tissue culture infectious dose (TCID 50 )/mL to ensure a sufficient range over which to measure decay, a criterion which led to the exclusion of 15 tests. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9557,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The environmental control of each drum, including the intensity and spectra of simulated sunlight present, have been described previously [15, 16, 28, 29] . The spectra were designed to mimic spectra from the National Center for Atmospheric Research's tropospheric ultraviolet and visible radiation model [30] for midday sunlight on a clear day at sea level at 40°N latitude. Full-intensity simulated sunlight spectra are similar to mid-June model spectra, and mid-intensity simulated sunlight spectra are similar to model spectra for early March or early October. Spectral irradiance measurements were performed outside the drums and corrected for window transmission losses, using a Gooch & Housego OL756 spectroradiometer equipped with an IS-270 receptor. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10316,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Tests were conducted with aerosols of the 4 SARS-CoV-2 isolates generated from viral suspensions in simulated respiratory tract lining fluid (sRTLF) to assess whether these isolates differed in their sensitivity to environmental conditions. To prepare viral suspensions, 30 mL of clarified viral supernatant was thawed, placed in an ultracentrifuge tube, underlaid with 8 mL of 20% sucrose in Tris-NaCl-EDTA (TNE) buffer, and centrifuged at 28 000 rpm for 2 hours at 4°C. Following centrifugation, the supernatant was discarded and the pellet resuspended in sRTLF, prepared as described previously [22, 31, 32] , with the exception that all protein and antioxidant solutions were made in Hank's balanced salt solution instead of water to achieve final component concentrations matching previously reported values [22] . sRTLF was stored at 4°C for up to 2 weeks until use. Viral suspensions in sRTLF were stored at 4°C and used within 7 days of preparation. Full details of sRTLF preparation and final component concentrations are presented in Supplementary Table 2 . Tests were conducted in darkness at both 20°C and 40°C and in full-intensity simulated sunlight at 20°C. Test conditions were chosen to assess the effect of temperature and simulated sunlight on the isolates in aerosols, rather than to represent conditions of a specific scenario. All tests were conducted at 20% relative humidity, as previous studies demonstrated that the decay rates of SARS-CoV-2 are not greatly affected by differences in relative humidity [15, 16] . k Infectivity values from these experiments were analyzed by 2-way analysis of variance (ANOVA) and Tukey post-test (n = 63 across all conditions). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12004,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Experiments were conducted with hCoV-19/USA/WA1/2020 in sRTLF across a wider range of environmental conditions. In these experiments, the virus suspension was prepared by diluting virus concentrated by tangential flow filtration (TFF) into sRTLF at a 1:10 ratio. To prepare these suspensions, clarified viral supernatant was thawed and concentrated using TFF with a 100-kDa crossflow cassette, and stored at −80°C until use. On the day of experiments, concentrated virus was thawed and diluted 1:10 in sRTLF. This method was used to allow direct comparisons to previous results obtained with similarly prepared viral suspensions in simulated saliva and culture media [15, 16] . However, at equivalent conditions there were no differences between k Infectivity values measured with aerosols generated from suspensions prepared by dilution of TFF-concentrated virus in sRTLF or by ultracentrifugation and resuspension in sRTLF ( Supplementary Figure 1) . Experiments to assess the influence of relative humidity and simulated sunlight were conducted at 20°C across a 2 × 2 matrix of relative humidity and simulated sunlight levels, with target relative humidity levels of 20% and 70%, and in either darkness or full-intensity simulated sunlight. Tests were also conducted at the matrix center-point condition of 45% relative humidity and mid-intensity simulated sunlight to allow assessment of nonlinear responses to the test parameters, and at 37% and 53% relative humidity in darkness to provide a more detailed examination of the effects of relative humidity. The results of these tests (n = 52 across all conditions) were analyzed by stepwise regression analysis as described previously [15, 16] . Additional tests to assess the influence of temperature were conducted at 10°C and 30°C, in darkness and full-intensity simulated sunlight, at 70% relative humidity. Data from these tests were combined with data acquired at 20°C and 70% relative humidity and analyzed using 2-way ANOVA (n = 26 across all conditions). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14022,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "ANOVA analyses were performed using GraphPad Prism version 9.0.0, and stepwise regression analysis was performed using JMP version 15.2.0. All data are presented as a mean ± standard deviation. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14216,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Average temperatures for experiments with target levels of 10, 20, 30, and 40°C were 10.7 ± 0.3, 20.2 ± 0.3, 30.1 ± 0.3°C, and 40.0 ± 0.3°C respectively. Average relative humidities for experiments with target levels of 20, 37, 45, 53, 55, and 70% were 20.0 ± 1.5, 37.0 ± 0.0, 44.8 ± 0.8, 53.2 ± 0.9, 54.7 ± 2.0, and 69.5 ± 3.0%, respectively. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14560,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The integrated UVA and UVB irradiances of the full-intensity simulated sunlight spectrum in the first drum were 69.76 and 1.91 W/m 2 , respectively. In the second drum, these values were 56.21 and 1.84 W/m 2 , respectively. Integrated UVA and UVB irradiances for mid-intensity simulated sunlight in the first drum were 31.97 and 0.94 W/m 2 , respectively. No tests were conducted with mid-intensity simulated sunlight in the second drum. Experiments with hCoV-19/USA/WA1/2020 in sRTLF at similar temperature and relative humidity values showed no significant differences in k Infectivity values measured in full-intensity simulated sunlight between the 2 drums, despite the slight differences in integrated UV intensities ( Supplementary Figure 2) . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15310,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The MMAD and geometric standard deviation at the first sample in experiments where aerosols were generated from suspensions prepared by ultracentrifugation and resuspension of the virus in sRTLF were 2.02 ± 0.07 µm and 1.62 ± 0.04, respectively. For TFF-concentrated virus diluted in sRTLF, these values were 2.20 ± 0.10 µm and 1.66 ± 0.03, respectively. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15665,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The results of experiments assessing the decay rates of different SARS-CoV-2 isolates are shown in Figure 1 . Environmental condition, isolate, and their interaction were all significant factors affecting k Infectivity values (P < .0001, P = .0136, and P = .0040, respectively). There were no significant differences between isolates in darkness and 20% relative humidity at either 20°C or 40°C, and for each isolate there was no significant difference between the temperatures ( Figure  1A and 1B; adjusted P > .9994 for all comparisons). The mean k Infectivity values across all isolates were 0.000 ± 0.011 min −1 and 0.012 ± 0.008 min −1 for 20°C or 40°C, respectively. For each isolate, mean k Infectivity values were significantly higher in simulated sunlight than in darkness (adjusted P < .0001 for all comparisons). In simulated sunlight, the mean k Infectivity values for both hCoV-19/USA/WA1/2020 (0.216 ± 0.056 min −1 ) and hCoV-19/USA/CA_CDC_5574/2020 (0.209 ± 0.063 min −1 ) were slightly but significantly lower than the values for both hCoV-19/USA/NY-PV08449/2020 (0.299 ± 0.047 min −1 ) and hCoV-19/France/IDF0372/2020 (0.312 ± 0.051 min −1 ) (adjusted P < .0156 for all comparisons). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16866,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Experiments were conducted with hCoV-19/USA/WA1/2020 aerosols generated from TFF-concentrated virus diluted in sRTLF across a range of environmental conditions to allow direct comparison to previous results obtained with viral suspensions prepared similarly in simulated saliva and culture media [15, 16] . Results for tests at 20°C are shown in Figure  2 . The mean k Infectivity value at all relative humidities in darkness was 0.005 ± 0.011 min −1 . In mid-intensity simulated sunlight and 45% relative humidity, the mean k Infectivity value was 0.155 ± 0.060 min −1 . The mean k Infectivity value increased to 0.202 ± 0.064 min −1 in full-intensity simulated sunlight at 20% relative humidity, but was only 0.141 ± 0.045 min −1 at 70% relative humidity. The regression model fit to these data identified simulated sunlight, simulated sunlight squared, and the interaction between simulated sunlight and relative humidity as significant factors affecting decay (P < .0001, P = .0009, P = .0283, respectively), but relative humidity alone was not a significant factor (P = .1076). Thus, the effect of simulated sunlight did not increase linearly with light intensity and was lower at high relative humidity than at low relative humidity. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18106,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Data from experiments at 10 and 30°C at 70% relative humidity are shown in Figure 3 , combined with data from tests at 20°C and 70% relative humidity from the previous set of experiments. Temperature (P = .0344) and simulated sunlight (P < .0001) were both significant factors affecting decay, but the interaction of these factors was not significant (P = .3639). In darkness, increasing temperature from 10 to 30°C resulted in an increase in mean k Infectivity values from 0.001 ± 0.008 min −1 to 0.029 ± 0.006 min −1 . In simulated sunlight, the same increase in temperature increased mean k Infectivity values from 0.116 ± 0.024 min −1 to 0.203 ± 0.079 min −1 . Figure 1 . Decay constants for infectious virus for 4 isolates of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) at 3 different environmental conditions. A and B, There were no significant differences in mean k Infectivity values between the isolates in darkness and 20% relative humidity (RH) at either 20 or 40°C. The mean k Infectivity values ± SD across all isolates were 0.000 ± 0.011 min −1 and 0.012 ± 0.008 min −1 for 20 and 40°C, respectively. C, In the presence of simulated sunlight at 20°C and 20% relative humidity, there was a small, but statistically significant, difference between the mean k Infectivity values for hCoV-19/USA/WA1/2020 (0.216 ± 0.056 min −1 ) and hCoV-19/USA/ CA_CDC_5574/2020 (0.209 ± 0.063 min −1 ) and those for hCoV-19/USA/NY-PV08449/2020 (0.299 ± 0.047 min −1 ) and hCoV-19/France/IDF0372/2020 (0.312 ± 0.051 min −1 ). * adjusted P < .05. Lines for each data set are the mean ± standard deviation. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19722,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Downloaded from https://academic.oup.com/jid/article/224/10/1641/6209391 by Univ of Calgary Lib user on 29 April 2024 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19840,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Our laboratory has previously demonstrated that simulated sunlight, temperature, humidity, and suspension matrix all affect the stability of infectious SARS-CoV-2 in aerosols [15, 16] . The present study extends these findings by providing decay data for 3 additional SARS-CoV-2 isolates, including 1 belonging to the recently emerged B.1.1.7 lineage. The present study also provides decay data for viral aerosols generated from fluid representative of the bronchiolar region of the respiratory tract. There were no differences in the decay constants between isolates in darkness at either 20°C or 40°C, with a mean time for a 90% loss of viral infectivity across all dark conditions of 6.2 hours. These findings are consistent with previous results suggesting SARS-CoV-2 and other coronaviruses are stable in aerosols in darkness [19, [33] [34] [35] [36] [37] . In the presence of simulated sunlight, the decay constants of all 4 isolates increased significantly, which is consistent with findings from previous studies with hCoV-19/USA/WA1/2020 [15, 16, 29] and epidemiological analyses of coronavirus disease 2019 (COVID-19) transmission [38, 39] . However, in the presence of simulated sunlight, a small but statistically significant difference[[ between the decay constants was observed for some of the isolates. The decay constants of hCoV-19/USA/CA_CDC_5574/2020, an isolate of the SARS-CoV-2 B.1.1.7 lineage, were not significantly different from those of the earlier hCoV-19/USA/WA1/2020 isolate, with an associated time for 90% loss of infectivity of 11 minutes for both isolates. For hCoV-19/France/IDF0372/2020 and hCoV-19/ USA/NY-PV08449/2020, the mean values were 7 and 8 minutes, respectively. Despite the small difference, these data suggest that the SARS-CoV-2 lineages represented by all 4 isolates would be rapidly inactivated by natural sunlight in real-world scenarios. Isolates hCoV-19/USA/NY-PV08449/2020, hCoV-19/France/ IDF0372/2020, and hCoV-19/USA/CA_CDC_5574/2020 were chosen for testing as representative examples of SARS-CoV-2 lineages containing mutations linked to higher transmission rates [17, [25] [26] [27] . In particular, the D614G mutation in both hCoV-19/USA/NY-PV08449/2020 and hCoV-19/USA/CA_ CDC_5574/2020 has become dominant throughout much of the world [17] . While the present study did not find large differences in aerosol stability between isolates, it is possible that lineages may emerge in the future that exhibit larger differences in stability as SARS-CoV-2 continues to evolve. However, given that the present and previous studies suggest that the circulating lineages appear to be highly stable under indoor conditions, where people spend the majority of their time [40] , it is unlikely that an increase in stability would have a practical effect on aerosol transmission of SARS-CoV-2 in such environments. Additionally, it should be noted that the potential for aerosol transmission can be influenced by other factors in addition to the decay rate, including the amount of virus emitted by an infected individual and the dose required to initiate a new infection In darkness, increasing temperature from 10 to 30°C resulted in an increase in mean k Infectivity values ± SD from 0.001 ± 0.008 min −1 to 0.029 ± 0.006 min −1 . In simulated sunlight, the same increase in temperature raised mean k Infectivity values from 0.116 ± 0.024 min −1 to 0.203 ± 0.079 min −1 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23264,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "in a naive individual. The D614G mutation in hCoV-19/USA/ NY-PV08449/2020 and hCoV-19/USA/CA_CDC_5574/2020 has been linked to higher viral titers in infected individuals, and the V367F mutation in hCoV-19/France/IDF0372/2020 and N501Y mutation in hCoV-19/USA/CA_CDC_5574/2020 have been linked to greater potential to infect susceptible cells [17, 26, 27, 41] . Therefore, it is possible that the lineages represented by these additional isolates may still have a higher potential for aerosol transmission despite their similar decay rates. In general, the findings of the present study regarding the influence of environmental conditions on the stability of hCoV-19/USA/WA1/2020 in aerosols generated from virus suspended in sRTLF are similar to those previously reported by our laboratory for aerosols containing the same isolate generated from simulated saliva [15, 16] . However, in the present study, a decreased response to simulated sunlight was observed at high relative humidity, an effect that was observed previously with SARS-CoV-2 aerosolized from culture medium but not simulated saliva. A significant effect of temperature on hCoV-19/ USA/WA1/2020 decay was also observed in the present study for temperatures ranging from 10 to 30°C, at 70% relative humidity. However, at 40°C and 20% relative humidity, no significant increase in decay was observed for any of the isolates, which is in contrast to the increased rate we previously reported for similar conditions with aerosols generated from simulated saliva [16] . This suggests that temperature and relative humidity may interact to influence the stability of infectious SARS-CoV-2 in sRTLF, an effect that was not observed previously for SARS-CoV-2 in simulated saliva. The mechanism contributing to this outcome is not clear. However, this outcome suggests that the effect of relative humidity on the stability of SARS-CoV-2 in aerosols may be dependent on the composition of the aerosol particles containing the virus, an observation that has been reported previously for other viruses [42] . While the sRTLF used in the present study was developed to replicate the physiochemical properties of the fluid in the bronchiolar region of the human respiratory tract [22, 31, 32] , it should be noted that the composition can vary between individuals and as a function of disease state [22] , and the use of a single defined formulation may not capture the full range of decay rates that are possible for SARS-CoV-2 in aerosols generated from different patients over the course of their disease. Additional studies are needed to better define this variability and assess the impact such changes may have on the stability of SARS-CoV-2 in aerosols. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

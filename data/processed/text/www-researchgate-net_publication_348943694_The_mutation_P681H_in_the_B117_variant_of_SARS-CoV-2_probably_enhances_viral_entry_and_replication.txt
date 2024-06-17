@@ -1,0 +1,94 @@
+REPORT 
+ 
+The mutation P681H in the B.1.1.7 variant of SARS-CoV-2 probably enhances viral entry and replication 
+ 
+Author: Halim Maaroufi* 
+Affiliation: Institut de biologie intégrative et des systèmes (IBIS). Université Laval. Quebec City, Quebec, Canada. 
+*Correspondence to: Halim.maaroufi@ibis.ulaval.ca 
+ 
+Abstract: The B.1.1.7 variant of SARS-CoV-2 detected in United Kingdom (UK), and today, observed in many countries, indicating further spread. The mutation P681H is in 680SPRRAR.SV687 insertion, forming a cleavage site for protease furin-like enzymes. This cleavage site is important for efficient viral entry into host cells. It has been reported that phosphorylated S680 ([ST]P-x-[RK]) inhibits, in vitro, the furin cleavage of the site S1/S2. Therefore, the P681H mutation abolishes this phospho-inhibition, suggesting an enhancement of virus entry into cells. It also introduces a potential LATS1 phosphorylation site in S686 (H-x-[KR]-x-x-[ST]). It has been demonstrated that host LATS kinases play an important role in optimal RNA replication of the hepatitis C virus through the phosphorylation of its NS5A protein. Hence, it is probable that the phosphorylation of S protein by LATS1 improves the replication of the B.1.1.7 variant. 
+ 
+One Sentence Summary: Probably P681H improves viral entry and replication. 
+Keywords: B.1.1.7 variant; P681H; S1/S2 cleavage site; phospho-regulation 
+ 
+Main Text: The B.1.1.7 variant of SARS-CoV-2 detected in Kent, United Kingdom (UK) on December, 2020, and today, observed in many countries in the world, indicating further spread due to higher infection rates. This variant has an unusually great number of mutations, especially in the spike (S) protein that contains three deletions (H69, V70 and Y144) and six mutations (N501Y, A570D, P681H, T716I, S982A and D1118H) (1). The mutation P681H was previously observed independently. Indeed, GISAID reported the first P681H mutation on March 12, 2020 (EPI_ISL_430887) (2). And at December 31, 2020 a total of 5,955 strains with P681H mutation have been reported, revealing that this mutation is starting to take a significant exponential increase in worldwide (3). In addition, recently a new variant in Nigeria (B.1.207)(EPI_ISL_729975) has been defined by the P681H mutation (4).  
+The mutation P681H is in an intrinsically disordered, solvent-exposed loop, 680SPRRAR.SV687, forming a cleavage site RxxR for protease furin-like enzymes at the boundary of S1/S2 subunits (5). Of note, the region with S1/S2 site is also found in S protein of Infectious Bronchitis Virus (IBV) (Gammacoronaviruses) with conserved phosphosites corresponding to S/T680 and S686 (Fig. 1). IBVs are known to be highly contagious and intringly present similarities with SARS-CoV-2 (6).  
+ 
+
+
+Fig. 1. Multiple amino acid sequence alignment of spike proteins (region at the boundary of S1/S2 subunits cleavage site) of Betacoronaviruses SARS-CoV-2 (ID: YP_009724390.1), MERS-CoV (ID: ALK80251.1), SARS-CoV (ID: P59594.1) and Gammacoronaviruses Infectious Bronchitis Virus (IBV, ID: APZ73816.1 and P11223) using Clustal omega (https://www.ebi.ac.uk/Tools/msa/clustalo/). P681 is indicated by black arrow and S680, S686 are indicated by red stars. S1/S2 cleavage site is represented by green arrow (of note, SARS-CoV has not a cleavage site). The figure was prepared with ESPript (http://espript.ibcp.fr). 
+ 
+In SARS-CoV-2, this cleavage site is important for efficient viral entry into host cells (7). Additionally, this insertion contains two phosphorylation sites S680 ([ST]P-x-[RK]) and S686 (R-x-x-S) that are phosphorylatable, in vitro, by cyclin B-Cdk1 complex (CDK) and basophilic protein kinase PKA (cAMP-dependent protein kinase), respectively (8). CDKs (Cyclin-dependent kinases) are proline-directed kinases that phosphorylate a Ser/Thr residue preceding a Pro residue. Of particular interest is phosphorylated S680 and S686 inhibit furin cleavage, in vitro, of the site S1/S2 (8). Thus, the P681H mutation abolishes the CDK phosphorylation site, preventing the phospho-inhibition of the cleavage at S1/S2 site known to be important for efficient viral entry into human cells. Importantly, the P681H mutation does not only abolish the CDK phosphorylation site in S680 but also introduces a potential LATS1 (Large Tumor Suppressor 1) kinase phosphorylation site S686 in 681HRRARSV687 motif. Of note, the position P681 is occupied by R533 (ID: P11223) or H536 (ID: APZ73816.1) in IBV (Fig. 1). H536 introduces, as in SARS-CoV-2, a potential LATS1 phosphosite. This novel potential phosphosite overlaps with this of PKA. Interestingly, it has been reported that the kinase activity of LATS1 is increased upon PKA activation (9). LATS1 is a member of basophilic AGC kinases (10), but it is distinguishable of them because it requires a histidine at -5 position (H-x-[KR]-x-x-[ST]). LATS kinases are core components of the mammalian Hippo pathway that has a role in virus infection and pathogenesis (11). It has been reported that 
+host LATS kinases play an important role in optimal genome replication of the hepatitis C virus (HCV) through the phosphorylation of non-structural protein 5A (NS5A) (12-14). Of note, HCV such as SARS-CoV-2 is an enveloped, positive-sense single-stranded RNA virus. During the SARS-CoV-2 replication cycle, S protein (except the short C-terminal tail) is supposed to be facing the endoplasmic reticulum or the Golgi lumen (15). Thus, it is probable, as shown in HCV, that the phosphorylation of S protein by LATS1 improves the replication of the B.1.1.7 variant. The mutation P681H by enhancing the viral entry (by impairment of S680 phosphorylation that inhibits furin cleavage in the boundary of S1/S2 subunits) and the viral genome replication (creation of potential LATS1 phosphorylation site S686) could explain, at least in part, why the B.1.1.7 variant is more infectious than other strains of SARS-CoV-2. Therefore, LATS1 inhibitors could be tested against SARS-CoV-2 variants with the mutation P681H (16). 
+ 
+References 
+1. A. Rambaut, N. Loman, O. Pybus et al., Preliminary genomic characterisation of an emergent SARS-CoV-2 lineage in the UK defined by a novel set of spike mutations (2020). 
+
+
+https://virological.org/t/preliminary-genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-the-uk-defined-by-a-novel-set-of-spike-mutations/563 
+ 
+2. P. Roychoudhury, X. Hong, K. Jerome, A. Greninger, Virus Name: HCoV-19/USA/WA-UW-555/2020 / Accession ID: EPI_ISL_430887. UW Virology Lab; (2020).  
+
+
+https://www.epicov.org/epi3/frontend#3ba4e8 
+ 
+3. D. P. Maison, L. L. Ching, C. M. Shikuma, V. R. Nerurkar, Genetic Characteristics and Phylogeny of 969-bp S Gene Sequence of SARS-CoV-2 from Hawaii Reveals the Worldwide Emerging P681H Mutation. bioRxiv, (2021). 
+
+
+ 
+4. P. E. Oluniyi, Virus Name: HCoV-19/Nigeria/OS-CV296/2020 / Accession ID: EPI_ISL_729975. Nigeria Centre for Disease Control (NCDC); (2020). https://www.epicov.org/epi3/frontend#376f5 
+
+
+ 
+5. B. Coutard et al., The spike glycoprotein of the new coronavirus 2019-nCoV contains a furin-like cleavage site absent in CoV of the same clade. Antiviral Res 176, 104742 (2020). 
+
+
+ 
+6. W. H. Al-Jameel, S. S. Al-Mahmood, Similarities and differences of COVID-19 and avian infectious bronchitis from molecular pathologist and poultry specialist view point. Iraqi J. Vet. Sci. 34, 223-231 (2020). 
+
+
+ 
+7. M. Hoffmann, H. Kleine-Weber, S. Pöhlmann, A. Multibasic, Cleavage Site in the Spike Protein of SARS-CoV-2 Is Essential for Infection of Human Lung Cells. Mol Cell 78, 779-784.e775 (2020). 
+
+
+ 
+8. M. Örd, I. Faustova, M. Loog, The sequence at Spike S1/S2 site enables cleavage by furin and phospho-regulation in SARS-CoV2 but not in SARS-CoV1 or MERS-CoV. Sci Rep 10, 16944 (2020). 
+
+
+ 
+9. F. X. Yu et al., Protein kinase A activates the Hippo pathway to modulate cell proliferation and differentiation. Genes Dev 27, 1223-1232 (2013). 
+
+
+ 
+10. J. Avruch et al., Protein kinases of the Hippo pathway: regulation and substrates. Semin Cell Dev Biol 23, 770-784 (2012). 
+
+
+ 
+11. Z. Wang et al., The Hippo Pathway and Viral Infections. Front Microbiol 10, 3033 (2019). 
+
+
+ 
+12. M. J. Evans, C. M. Rice, S. P. Goff, Phosphorylation of hepatitis C virus nonstructural protein 5A modulates its protein interactions and viral RNA replication. Proc Natl Acad Sci U S A 101, 13038-13043 (2004). 
+
+
+ 
+13. Y. Huang, K. Staschke, R. De Francesco, S. L. Tan, Phosphorylation of hepatitis C virus NS5A nonstructural protein: a new paradigm for phosphorylation-dependent viral RNA replication? Virology 364, 1-9 (2007). 
+
+
+ 
+14. H. Meistermann et al., A novel immuno-competitive capture mass spectrometry strategy for protein-protein interaction profiling reveals that LATS kinases regulate HCV replication through NS5A phosphorylation. Mol Cell Proteomics 13, 3040-3048 (2014). 
+
+
+ 
+15. E. Lontok, E. Corse, C. E. Machamer, Intracellular targeting signals contribute to localization of coronavirus spike proteins near the virus assembly site. J Virol 78, 5913-5922 (2004). 
+
+
+ 
+16. N. Kastan et al., Small-molecule inhibition of Lats kinases promotes Yap-dependent proliferation in postmitotic mammalian tissues. bioRxiv, (2020). 
+
+
+ 
+Acknowledgments: I would like to thank the IBIS (Université Laval) bioinformatics group for their help; Funding: no funding and Competing interests: no conflicts of interest. 
+  
+
+

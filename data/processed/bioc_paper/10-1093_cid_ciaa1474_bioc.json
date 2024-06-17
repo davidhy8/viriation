@@ -1,0 +1,218 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1093_cid_ciaa1474",
+      "inputfile": "../../data/processed/html_papers/10-1093_cid_ciaa1474.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Emerging RNA-Dependent RNA Polymerase Mutation in a Remdesivir-Treated B-cell Immunodeficient Patient With Protracted Coronavirus Disease 2019",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 142,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": " Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a newly discovered virus for which remdesivir is the only antiviral available. We report the occurrence of a mutation in RdRP (D484Y) following treatment with remdesivir in a 76-year-old female with post-rituximab B-cell immunodeficiency and persistent SARS-CoV-2 viremia. A cure was achieved after supplementation with convalescent plasma.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 555,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Coronavirus disease 2019 (COVID-19) has recently emerged as a pandemic due to severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). In addition to the well-described acute pulmonary presentation of COVID-19, a more chronic evolution of the disease is being reported in patients with B-cell immunodeficiency, which is probably associated with the inability to produce anti-SARS-CoV-2 antibodies [1] . Remdesivir, an RNA-dependent RNA polymerase (RdRP) inhibitor, was the first antiviral to be approved for SARS-CoV-2 in the United States [2] and Europe [3] . Remdesivir impacts the hospital length of stay but not mortality [4] . SARS-CoV-2 mutations, especially in RdRP, may affect remdesivir susceptibility [5] . More recently, anti-SARS-CoV-2 antibody supplementation with COVID-19 convalescent plasma (CP) has emerged as a promising therapy, and the characterization of patients who are most likely to benefit from CP is critical [6] . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1502,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We report a case of a 76-year-old female with B-cell immunodeficiency who presented with severe protracted COVID-19 and persistent SARS-CoV-2 viremia. In this case, remdesivir treatment was associated with the emergence of a point mutation in RdRP, and a cure was achieved only after CP therapy. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1798,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Two techniques were used for SARS-CoV-2 reversetranscription polymerase chain reaction (RT-PCR) according to availability; in-house real-time RT-PCR and commercialized rapid Cepheid RT-PCR tests for SARS-CoV-2 nucleic acid were performed using nasopharyngeal swab samples. In-house realtime RT-PCR was also performed on bronchoalveolar lavage (BAL) and plasma samples. The primer and probe sequences used for in-house real-time PCR targeted 2 regions of the RdRP gene and were specific to SARS-CoV-2. The assay sensitivity was approximately 10 copies/reaction (Institut Pasteur, Paris, France). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2393,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Serum samples were tested for anti-SARS-CoV-2 antibodies using the Elecsys Anti-SARS-CoV-2 electrochemiluminescence immunoassay for the detection of total immunoglobulin (Ig) against the SARS-CoV-2 nucleocapsid antigen (Roche Cobas 6000). This immunoassay was approved by the US Food and Drug Administration for its excellent analytical performance (99.5% sensitivity and 99.8% specificity). The positive cutoff value of the optical density index ratio was 1.10. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2856,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We screened for the mutation after reverse transcription with SuperScript III Reverse Transcriptase (ThermoFisher). Four nested PCR experiments were performed to amplify the entire RdRP gene that was 2795 nucleotides (nts), or 932 amino acids (aas), in length (Supplementary Table 1 ). Sanger sequencing was performed with BigDye Terminator chemistry (Thermo Fisher Scientific), and the reaction products were analyzed with an ABI sequencer. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3298,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Sequences were analyzed with Geneious 11.1.4 as follows. After cleaning the low-quality base with at the 5′ and 3′ ends (error probability limit set at 0.05), the 4 fragments were mapped on the annotated SARS-CoV-2 reference sequence NC_045512, and consensus sequences were generated for each sample. Multiple alignments of nt and aa consensus sequences were performed with Mafft v7.388 implemented in Geneious software. Finally, the differences between sequences were visually identified. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3788,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The Comité de Protection des Personnes d'Ile-de-France ethics committee approved CP collection. The plasma was obtained as previously described [7] . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3938,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "A 76-year-old female presented to the emergency room on 11 April 2020 with a 4-day history of cough, fever, and dyspnea. COVID-19 was diagnosed via SARS-CoV-2-positive RT-PCR results for a nasopharyngeal swab sample. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4155,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The patient's medical history included chronic lymphocytic leukemia, which was diagnosed in 2019. She was successfully treated with 4 doses of rituximab/bendamustine and had been in remission since October 2019. While the patient was considered to be in complete remission, she exhibited secondary B-cell immunodeficiency and required immunoglobulin substitution, which had stopped in February 2020. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4555,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "On admission for COVID-19, her laboratory tests exhibited a low Ig level (1.2 g/L), for which intravenous Ig was administered. Lymphocyte (Lc) immunophenotyping revealed 70 Lc/mm 3 with 88% CD3+ T Lcs, <1% CD19 B Lcs, and 11% CD16+CD56+ natural killer Lcs. The patient required high oxygen flow and exhibited high inflammation with fever ( Supplementary Figure 1) . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4921,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Broad-spectrum antibiotics were administered, and hydroxychloroquine and steroids were initiated for 9 days (29 April-7 May) without improvement. On 27 May, the patient still had fever and hypoxemia, with inflammation (C-reactive protein [CRP] at 137 mg/L) and measurable SARS-CoV-2 viremia (3.88 log 10 copies/mL), while she tested negative for anti-SARS-CoV-2 antibodies (Roche Cobas 6000). Remdesivir was administered for 5 days (compassionate use GS-US-540-5821, 200 mg on day 1 followed by 100 mg per day). The patient experienced early clinical and biological improvement with normalization of oxygen saturation on room air and a decreased CRP level of 38 mg/L. Although viremia was not determined on the day remdesivir treatment was discontinued, SARS-CoV-2 remained detectable in the plasma 9 and 12 days after the end of treatment (3.94 log 10 copies/mL and 3.84 log 10 copies/mL, respectively). Five days after treatment discontinuation, the patient experienced new clinical degradation with fever and required nasal oxygen (9 June). The patient was then treated with CP (4 × 200 mL from 12 June 2020 to 15 June 2020) and experienced rapid improvement in clinical, biological, and radiological parameters, without detection of SARS-CoV-2 in the blood on day 7 (22 June; Table 1 , Supplementary Figure  1) . The patient was discharged on 22 June; 11 weeks after CP transfusion, no SARS-CoV-2 RNA was detected in the blood or nasopharynx. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6368,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We screened for mutations in the RdRP gene in 2 nasopharynx samples (24 April and 15 May), 1 BAL sample (27 April), and 1 blood sample (27 May) collected before remdesivir treatment and 2 blood samples collected after remdesivir treatment (9 June and 12 June). Sequencing was successful for all samples except the last one collected on 12 June. The 3 respiratory samples collected before treatment and the blood sample collected on the day of remdesivir initiation strictly harbored the same amino acid sequences. In the blood sample collected after treatment (9 June), a substitution of 1 nucleotide at position 1449 (G>T) in the RdRP gene led to a nonsynonymous mutation, changing an aspartic acid residue to tyrosine at position 484 ( Supplementary Figure 2) . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7132,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We demonstrated the occurrence of a mutation in RdRP following treatment with remdesivir in a 76-year-old female with B-cell immunodeficiency and persistent SARS-CoV-2 viremia. RNA viruses are characterized by a high mutation rate, and the occurrence of such point mutations has already been described mainly in the different viral proteins of SARS-CoV-2 and reported as a risk for resistance to treatment [5] . We report the first case of a point mutation in RdRP in vivo following remdesivir treatment with identification of a single point mutation in the RdRP gene that was not present before treatment. Although a phenotypic assay was not performed, the nonsynonymous D484Y mutation was only detected in the sample collected after treatment. Furthermore, it occurred in the finger subdomain (extending from aa 395 to 581) [8] , which is 1 of the 3 subdomains that constitutes the catalytic domain of RdRP. Last, D484Y is similar to other mutations already described in SARS-CoV (F480L) and other coronaviruses (F476L) that induce resistance to remdesivir in vitro [9] [10] [11] . However, to affirm the role of this mutation in remdesivir resistance, phenotypic analysis and other reports of similar mutations in additional patients are warranted. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8384,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Remdesivir treatment is the only COVID-19 antiviral treatment with reported efficacy; thus, identification of putative resistance mutations is critical. It is unclear whether the emergence of this mutation was favored by profound B-cell depletion. However, our case illustrates the likelihood of resistant SARS-CoV-2 strains under treatment pressure and the need for new antiviral treatments aimed at different targets of the viral replication cycle, such as elbasvir or EIDD-1931 [10, 12] . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8876,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We used a 5-day treatment duration in our patient, which was considered noninferior to a 10-day course in patients who did not require mechanical ventilation. However, the specific case of patients with immunodeficiencies, a subpopulation in which a longer treatment duration could be considered, was not addressed in this trial. The patient clinically responded to the 5-day treatment course with decreased fever, dyspnea, and oxygen requirements. However, persistent inflammation at the end of treatment and persistent viremia associated with the occurrence of the D484Y mutation in RdRP may predict treatment failure, even with a 10-day course of remdesivir. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9538,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The other original feature of this case was the effectiveness of CP transfusion. By allowing the provision of anti-SARS-CoV-2 antibodies for patients who are unable to mount a humoral immune response because of B-cell immunodeficiency, CP treatment is emerging as a safe and effective treatment in cases characterized by ongoing chronic viremia and protracted COVID-19, as illustrated by a series of 17 cases that was recently reported [7] . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9980,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Mutations, such as D484Y, in the RdRP of SARS-CoV-2 may emerge in vivo during 5-day courses of remdesivir treatment and lead to treatment failure. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10127,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Downloaded from https://academic.oup.com/cid/article/73/7/e1762/5912587 by Univ of Calgary Lib user on 29 April 2024 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

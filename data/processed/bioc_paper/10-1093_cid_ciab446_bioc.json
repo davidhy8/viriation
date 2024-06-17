@@ -1,0 +1,158 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1093_cid_ciab446",
+      "inputfile": "../../data/processed/html_papers/10-1093_cid_ciab446.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "BNT162b2 Messenger RNA Vaccination Did Not Prevent an Outbreak of Severe Acute Respiratory Syndrome Coronavirus 2 Variant 501Y. V2 in an Elderly Nursing Home but Reduced Transmission and Disease Severity",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 203,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We report an outbreak of severe acute respiratory syndrome coronavirus 2 501Y.V2 in a nursing home. All nonvaccinated residents (5/5) versus half of those vaccinated with BNT162b2 (13/26) were infected. Two of 13 vaccinated versus 4 of 5 nonvaccinated residents presented severe disease. BNT162b2 did not prevent the outbreak, but reduced transmission and disease severity. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 585,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Keywords. SARS CoV-2; outbreak; variant; BNT162b2 vaccine; nursing home. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 658,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "On December 27, 2020, France started its vaccination campaign in nursing homes using the BNT162b2 messenger RNA (mRNA) vaccine (Pfizer). At approximately the same time, the emergence of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) variant 501Y.V2 was reported in South Africa and the virus quickly spread throughout Europe [1] . We describe here an outbreak related to SARS-CoV-2 variant 501Y.V2 occurring in an elderly nursing home in France after a vaccination campaign with the BNT162b2 mRNA vaccine. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1178,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The study included 31 residents and 59 staff members from a nursing home unit located in Jura, East of France, prospectively followed for 3 weeks after a resident had been diagnosed with coronavirus disease 2019 (COVID-19). All residents and staff members were systematically tested at baseline by reverse transcriptase quantitative polymerase chain reaction. The tests were repeated in case of symptoms occurring during the subsequent days, and every 7 days until no further cases were found to be positive in the nursing home. All SARS-CoV-2 RNA-positive samples were sequenced (full-length genome sequence analysis by means of next-generation sequencing) by the national SARS-CoV-2 sequencing platform located at the Henri Mondor Virology Laboratory, 1 of the 4 platforms involved in the French national SARS-CoV-2 genomic surveillance program. Antibodies targeting both the nucleoprotein and the receptor-binding domain of the spike protein were sought by means of enzyme immunoassay at the time of COVID-19 diagnosis in all of the vaccinated individuals. Our study protocol followed the ethical guidelines of the Declaration of Helsinki and was approved by our institutional review board (institutional review board no. 00011558-2021-107). No additional tests were performed outside routine care in agreement with the \"Agence Régionale de Santé\" and the medical support team. Data collection was performed as part of routine care by the medical staff. Antibody assays were performed at the request of the Agence Régionale de Santé to evaluate vaccine efficacy. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2744,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "On March 8, 2021, a fully vaccinated 92-year-old resident presented with abdominal pain, fever, and diarrhea. SARS-CoV-2 RNA was detected in a nasopharyngeal swab sampled on the same day. Full-length viral genome sequence analysis identified a 501Y.V2 variant. From March 8 to March 29, 17 additional residents tested SARS-CoV-2 RNA-positive in their nasopharyngeal swabs. Full-length genome sequence analysis was performed in 10 of them; all were infected with SARS CoV-2 variant 501Y.V2. Phylogenetic analysis showed that their genome sequences were all closely related ( Supplementary Figure 1) , carrying the same amino acid pattern, including spike mutations L18F, D80A, D215G, Del-L242, Del-A243, Del-L244, K417N, E484K, N501Y, D614G, and A701V. All sequences were submitted to the GISAID database. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3549,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "At the time of the study, 26 of the 31 residents (83.9%), mean age 87.0 ± 8.2 years, 64.5% female, had been fully vaccinated with 2 successive doses of the BNT162b2 mRNA vaccine 19 days apart. The second dose was administered to all of them between the February 4 and 26, 2021 ( Table 1 ). The 5 remaining residents had not been vaccinated. Thirteen of the 26 fully vaccinated residents (50.0%) versus all of the 5 nonvaccinated residents (100%) were infected during the outbreak (P = .058, Fisher's exact test). Thus, vaccination efficacy against SARS-CoV-2 infection was 50.0% (95% confidence interval: 34-73). Among the 13 fully vaccinated residents who were infected, 2 (15.4%) presented with an asymptomatic disease, 9 (69.2%) developed mild to moderate symptoms, and 2 (15.4%) progressed to severe disease with fatal evolution secondary to acute respiratory distress syndrome. The 2 latter patients had chest computed tomography scans showing bilateral patchy peripheral ground-glass opacities. The group of vaccinated residents had varying levels of anti-S antibodies at diagnosis (median: 1169 AU/mL, range: <6.8-8188 AU/mL; Table 1 ), with no relationship with disease severity. Among the 5 nonvaccinated residents, 4 (80%) progressed to severe disease, including a resident with a recent history of COVID-19. One of them died. Overall, the proportion of residents with severe disease in the nonvaccinated group (4/5) was higher than that in the vaccinated group (2/13). The SARS CoV-2 viral load, estimated by the mean cycle threshold (Ct) value, was significantly higher in non-vaccinated residents (mean Ct: 15, range 12-17) than Among the 59 staff members tested, 19 (32.2%) had been vaccinated with 2 doses of the BNT162b2 mRNA vaccine, whereas 4 (6.8%) had a history of prior COVID-19 confirmed by reverse transcriptase quantitative polymerase chain reaction. Only 1 vaccinated staff member (5.2%) versus 10 nonvaccinated staff members (25.0%) were ultimately infected (P = .085, Fisher's exact test). No infected staff member developed severe disease. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5617,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We report here the first description of an outbreak related to SARS-CoV-2 variant 501Y.V2 in an elderly nursing home in which more than 80% of residents had received 2 injections of the BNT162b2 mRNA vaccine. All but 1 of the vaccinated residents had received the second vaccine dose more than 1 month before the outbreak. The remaining one had received the second dose 11 days before. All but 1 of the infected residents who had been vaccinated had detectable anti-S antibodies at the time of diagnosis, at levels ranging from 79 to 8188 AU/mL. According to the nationwide vaccination survey performed in Israel after the BNT162b2 vaccination has been massively administered to its population, the efficacy of the vaccine after the second dose was 92% and 94% against documented infection and symptomatic disease, respectively [2] . Subgroup analysis showed that vaccine efficacy was similar for adults older than 70 years of age. However, circulation of SARS CoV-2 variant 501Y.V2 is low in Israel. Thus, the effect of vaccination on this variant could not be evaluated. In another study, Benenson et al reported high efficacy of vaccination with BNT162b2 in a population of healthcare workers predominantly infected with SARS-CoV-2 variant B.1.1.7/501Y. V1 (but not 501Y.V2) [3] . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6901,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Preliminary reports from clinical trial efficacy suggested reduced protection of the vaccines against variant 501Y.V2 compared with other variants. AZD1222 efficacy was only 22% according to preliminary data from South Africa [4] . In a South African study, the efficacy of NVX-CoV237 was 49% [5] and that of Ad26.COV2-S was 57% [6] . Thus far, there are few data regarding the clinical efficacy of BNT162b2 vaccination against variant 501Y.V2. Kustin et al observed an increased incidence of 501Y.V2 among vaccine breakthrough infections in individuals fully vaccinated with BNT162b2 after mass vaccination in Israel [7] . An outbreak with a SARS-CoV2 R.1 lineage harboring the Spike E484K substitution has been reported in a nursing home after vaccination with BNT162b2. In this study, the estimated vaccination efficacy against SARS-CoV2 infection among residents was 66.2% [8] , similar to that observed against SARS CoV-2 501Y.V2 in our study (50.0%). Our study also suggests that vaccination is associated with reduced SARS CoV-2 viral loads in the upper respiratory tract in case of infection by 501Y. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8010,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "V2 and possibly with reduced contagiousness. Our study is thus the first to confirm partial effectiveness of BNT162b2 vaccination against 501Y.V2 variant infection an elderly population. These results remain to be confirmed as our study is observational with a limited sample size. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8292,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In vitro studies have documented escape of the 501Y.V2 variant from serum neutralizing antibody responses acquired after BNT162b2 vaccination. Reduced sensitivity to neutralization was mainly due to the acquisition of amino-acid substitutions in the spike receptor-binding domain, including K417N, E484K, and N501Y [9, 10] . In contrast, adaptive T-cell responses, which play a role in the modulation of COVID-19 severity, do not seem to be affected by these mutations. This could explain the small number of severe cases in the vaccinated resident group. In our cohort, the case fatality rate of fully vaccinated residents was similar to the fatality rate observed in nursing homes before the vaccination campaign [11] , although severity was greater in unvaccinated compared to vaccinated residents. Larger observational studies are urgently needed to confirm these results. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9169,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The low COVID-19 vaccination coverage of staff members in this study (32.2%) was similar to the national rate of vaccination coverage in healthcare workers during the same period (25%) [12] . In France, noncompulsory vaccination adhesion is usually low among healthcare workers [13, 14] . SARS-CoV-2 vaccination of visitors and healthcare workers is now being actively promoted, as recommended by the French National Academy of Medicine in all healthcare workers. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9633,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Several studies reported the major impact of social isolation on mental health in nursing homes, where restrictive measures can increase depression and anxiety and worsen dementia [15, 16] . In this context, some of these restrictions were removed after vaccination. Our study shows that vaccination of residents in nursing homes may not be sufficient to prevent outbreaks with emerging variants, such as 501Y.V2, which may escape the action of neutralizing antibodies induced by currently available vaccines. Weekly symptom screening and viral testing of residents, visitors, and staff members should be maintained even after vaccination campaigns to preempt and identify outbreaks of emerging variants. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10338,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Downloaded from https://academic.oup.com/cid/article/74/3/517/6276392 by Univ of Calgary Lib user on 29 April 2024 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

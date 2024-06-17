@@ -1,0 +1,104 @@
+{
+  "source": "Auto-CORPus (tables)",
+  "date": "20240501",
+  "key": "autocorpus_tables.key",
+  "infons": {},
+  "documents": [
+    {
+      "inputfile": "../../data/processed/html/html_other/assets-researchsquare-com_files_rs-106969_v2_stamped-pdf.html",
+      "id": "1",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": ""
+        },
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Table 1 To visualize the changes in the dissociation process we took structural snapshots at the breaking point for both, the RBD and its S477 mutants. At the breaking point, residue S477 is still hydrogen bonded to Q24 of hACE2 in the native RBD, whereas in the analysed mutants no polar contacts at the interaction interface could be observed. However, the mutated residue S477G and S477N is involved in non-polar interactions with hACE2. This structural annotation at the breaking point indicates that the interaction with the highly flexible loop residues of the RBD will remain until the end of the unbinding event."
+        },
+        {
+          "offset": 620,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "1.1.1",
+              "cell_text": "System"
+            },
+            {
+              "cell_id": "1.1.2",
+              "cell_text": "AGBind (kcal/mol)"
+            },
+            {
+              "cell_id": "1.1.3",
+              "cell_text": "AAGBind (kcal/mol)"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.2.1",
+                    "cell_text": "Native"
+                  },
+                  {
+                    "cell_id": "1.2.2",
+                    "cell_text": -16.8
+                  },
+                  {
+                    "cell_id": "1.2.3",
+                    "cell_text": "-"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.3.1",
+                    "cell_text": "S477G"
+                  },
+                  {
+                    "cell_id": "1.3.2",
+                    "cell_text": -19.6
+                  },
+                  {
+                    "cell_id": "1.3.3",
+                    "cell_text": -2.8
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.4.1",
+                    "cell_text": "S477N"
+                  },
+                  {
+                    "cell_id": "1.4.2",
+                    "cell_text": -23.1
+                  },
+                  {
+                    "cell_id": "1.4.3",
+                    "cell_text": -6.3
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

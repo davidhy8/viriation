@@ -1,0 +1,43 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-04-13-21255281",
+      "inputfile": "../../data/processed/html/10-1101_2021-04-13-21255281.html",
+      "passages": [
+        {
+          "text_short": "RS",
+          "text_long_1": "Rio Grande do Sul",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ICU",
+          "text_long_1": "intensive care unit",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CFR",
+          "text_long_1": "case fatality rate",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "hCFR",
+          "text_long_1": "hospital case fatality rate",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RR",
+          "text_long_1": "Risk Ratio",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RECORD",
+          "text_long_1": "REporting of studies Conducted using Observational Routinely-collected Data",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

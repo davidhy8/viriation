@@ -1,0 +1,98 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1093_cid_ciab411",
+      "inputfile": "../../data/processed/html_papers/10-1093_cid_ciab411.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "should be underlined that, because with vaccination, the emergence of frequent O groups not included in the vaccine is likely, as happened with the pneumococcal conjugate vaccines [8]. These findings highlight the importance of performing regular molecular epidemiology studies from different regions to predict vaccine coverage. Adding the O17 serogroup to the vaccine, if possible, appears to be an interesting strategy",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 421,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "To the Editor-The emergence of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) variants in places where the virus is uncontained poses a global threat from the perspective of public health and vaccine efficacy. Peng et al [1] recently reported on the increased transmissibility with the newly emerged Variant of Concern (VOC) (20C/S:452R and 20C/S:452R) with the L452R mutation in San Francisco. We report the immunological characteristics of a Variant under Investigation (VUI) B.1.617.1, playing a critical role in the current surge of coronavirus disease 2019 (COVID-19) in the western state of Maharashtra, India. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1060,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Several SARS-CoV-2 variants-B.1.1.7, B.1.351, and B.1.1.28.1-have been reported in India during 2021 [2, 3] . We had sequenced 146 nasopharyngeal/oropharyngeal swabs of COVID-19 cases [4] . Among these, 15 sequences had a combination of L452R and E484Q mutations, which raised concern as both are found in the receptor-binding domain (RBD) of the spike protein. However, the combined effect of these mutations is still unknown. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1488,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "A total of 23 nonsynonymous changes were observed in the sequences, out of which 7 conserved nonsynonymous changes were found at the spike protein (G142D, E154K, L452R, E484Q, D614G, P681R, Q1071H) along with other conserved mutations ( Figure 1A ). These sequences were classified as VUI B.1.617.1, a sub-lineage of B.1.617. Phylogenetic analysis of B.1.617.1 sub-lineage sequences led to distinct clusters. The amino acid mutation analysis of the spike protein sequences retrieved from the study revealed them to have independent common mutations: first, T95I; second, H1101D; and third, V382L and V1175Y ( Figure 1B) . So far, 21 countries have reported the presence of B.1.617 variants [5] . Virus isolation was attempted from 15 specimens using Vero-CCL-81 cells [6] . Twelve specimens displayed cytopathic effects on the fourth post-infection day, which were further passaged and titered for performing a plaque reduction neutralization test (PRNT) [7] . These isolates were obtained from clinical specimens of asymptomatic individuals (age range: 14-55 years) and cases with a low-grade fever, cough, and sore throat (age range: 26-77 years). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2638,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The neutralization efficacy of the VUI B.1.617.1 variant was compared with B1 (D614G) and B.1.1.7 variants using sera of 28 BBV152 vaccinated individuals, collected during the phase II clinical trial [8] . The D614G versus B.1.617 Geometric mean titer (GMT) ratio was 1.95 (95% confidence interval [CI]: 1.60-2.38; P < .0001). Similarly, the GMT ratio comparison of B.1.1.7 was significantly higher than the GMT for B.1.617.1 (GMT ratio: 1.84; 95% CI: 1.50-2.27; P < .0001) ( Figure 1C and 1D) . The comparison of D614G and B.1.1.7 showed equivalent responses, with a GMT ratio of 1.06 and a 95% CI of 1.02-1.10. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3251,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Sera samples collected from individuals recovered from COVID-19 (n = 16) infected with lineage B.1.1.7, B.1.351, B.1.1.28.2, and B1 were used to perform PRNT50 against B.1.617.1 variant, and the results were compared with the vaccine recipients' sera samples. The GMT value for vaccine recipients was 88.48 (95% CI: 62.02-126.2) and for recovered cases was 86.85 (95% CI: 52.04-144.9). The sera of BNT162b2 vaccinees, which effectively neutralized B.1.1.7 and P.1 variants, was reduced with the B.1.351 variant [9] . The B.1.617.1 variant performance with vaccine sera was better than that of recovered cases. The results of B.1.1.7 variant neutralization with BBV152 vaccine sera and findings of B.1.617.1 emphasize that this vaccine is robust against emerging mutation and maintains the efficacy of the vaccine ( Figure 1E ) [10] . Assessment of the clinical efficacy of BBV152 against such variants is underway. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4166,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "To the Editor-van den Berg et al [1] conducted a study of students and staff to compare rates of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) transmission between those exposed to a 3-feet versus 6-feet physical-distancing policy in classrooms. Their study has catalyzed a rich scientific discussion about physical distancing measures in schools [2] . While the authors correctly indicated that there were no statistical differences between their comparisons, we argue that the point estimate and 95% confidence interval (CI) for a subset of their results do not wholly support their conclusion ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4777,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Downloaded from https://academic.oup.com/cid/article/74/2/366/6271524 by Univ of Calgary Lib user on 29 April 2024 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

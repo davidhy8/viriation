@@ -1,0 +1,53 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-08-05-455290",
+      "inputfile": "../../data/processed/html/10-1101_2021-08-05-455290.html",
+      "passages": [
+        {
+          "text_short": "RBD",
+          "text_long_1": "receptor binding domain",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ACE2",
+          "text_long_1": "angiotensin converting enzyme 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBM",
+          "text_long_1": "receptor-binding motif",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "NY",
+          "text_long_1": "New York",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "hCoV",
+          "text_long_1": "human SARS-CoV-2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "DI",
+          "text_long_1": "Direct infected",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "DC",
+          "text_long_1": "direct contact",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "NTD",
+          "text_long_1": "N-terminal domain",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

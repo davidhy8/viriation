@@ -1,0 +1,28 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1093_cid_ciab446",
+      "inputfile": "../../data/processed/html_papers/10-1093_cid_ciab446.html",
+      "passages": [
+        {
+          "text_short": "mRNA",
+          "text_long_1": "messenger RNA",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "coronavirus disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

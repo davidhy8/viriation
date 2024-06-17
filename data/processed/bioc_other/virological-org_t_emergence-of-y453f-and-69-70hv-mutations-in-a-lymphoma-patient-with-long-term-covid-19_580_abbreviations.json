@@ -1,0 +1,18 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "virological-org_t_emergence-of-y453f-and-69-70hv-mutations-in-a-lymphoma-patient-with-long-term-covid-19_580",
+      "inputfile": "../../data/processed/html/html_other/virological-org_t_emergence-of-y453f-and-69-70hv-mutations-in-a-lymphoma-patient-with-long-term-covid-19_580.html",
+      "passages": [
+        {
+          "text_short": "RBD",
+          "text_long_1": "receptor-binding domain",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

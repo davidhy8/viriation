@@ -1,0 +1,83 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2022-05-30-493765",
+      "inputfile": "../../data/processed/html/10-1101_2022-05-30-493765.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "Severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "mAb",
+          "text_long_1": "monoclonal antibody",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "coronavirus disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "DARPins",
+          "text_long_1": "designed ankyrin repeat proteins",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "hACE2",
+          "text_long_1": "human angiotensin converting enzyme 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBD",
+          "text_long_1": "receptor binding domain",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VOI",
+          "text_long_1": "variants of interest",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "cryo-EM",
+          "text_long_1": "Cryo-electron microscopy",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ELISA",
+          "text_long_1": "enzyme-linked immunosorbent assay",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SDS-PAGE",
+          "text_long_1": "Sodium dodecyl sulphate-polyacrylamide gel electrophoresis",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "BLI",
+          "text_long_1": "biolayer interferometry",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FFU",
+          "text_long_1": "focus-forming units",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VOC",
+          "text_long_1": "variants of concern",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VSV",
+          "text_long_1": "vesicular stomatitis virus",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-01-15-426849",
+      "inputfile": "../../data/processed/html/10-1101_2021-01-15-426849.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "The impact of Spike mutations on SARS-CoV-2 neutralization",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 58,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Serum neutralization activity is a common correlate of protection against viral infection following vaccination or natural infection (Plotkin, 2008). However, effective protection from viral infection can also require sufficient breadth of serum neutralization rather than potency alone. This is because of the high-levels of variation observed in major antigens across some viral populations (Burton, Poignard, Stanfield, & Wilson, 2012). The classic example in which a lack of breadth limits the protective capacity of the antibody response is Influenza. Here, the majority of neutralizing serum antibodies target only a particular set of influenza strains as a result of antigenic drift of the immunodominant hemagglutinin head (Zost, Wu, Hensley, & Wilson, 2019). Due to this, an annual vaccine is required and must be matched to the most probable circulating strain in any given year to ensure protection from infection. Emerging data from human vaccine trials and challenge studies in animal models suggest that neutralizing antibodies can prevent disease caused by infection with SARS-CoV-2, the virus that causes COVID-19 (McMahan et al., 2020; Polack et al., 2020). However, new variants of SARS-CoV-2 have begun to emerge in both human and farmed animal populations (S. Kemp et al., 2020; Oude Munnink et al., 2020; Tegally et al., 2020; Welkers, Han, Reusken, & Eggink, 2020). These variants include mutations in the major neutralizing antigen, the Spike glycoprotein, and raises the question of whether neutralizing serum responses induced by early circulating strains or by vaccines based on the Spike sequence of these early strains can neutralize the recently emerged virus variants.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1768,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Prior to the emergence of multiple mutations in Spike in the human population, we reasoned that a logical way to identify potential escape mutations was to look at sites of amino acid variation relative to the most closely related human betacoronavirus SARS-CoV, which caused the original SARS outbreak in 2003 (CDC, 2003). These two closely related viruses are characterized by a notable difference in transmission dynamics and disease outcomes (Cevik, Kuppalli, Kindrachuk, & Peiris, 2020; Lipsitch et al., 2003; Petersen et al., 2020) but both use the human ACE2 protein as a viral entry receptor (W. Li et al., 2003) and share approximately 75% similarity overall in Spike at an amino acid level (Gralinski & Menachery, 2020). Both viruses use the same region of their respective Spikes to bind ACE2; the receptor binding domain (RBD - found within the S1 subunit of Spike). There is considerable amino acid variation between the two RBDs, despite their conserved binding to ACE2, which explains why the majority of SARS-CoV-induced neutralizing monoclonal antibodies (mAbs) were found not to neutralize SARS-CoV-2, although some cross-binding activity has been observed (Wu et al., 2020) and targeted mutations can enable neutralization (Liu et al., 2020). Similarly, the majority of COVID-19 sera have either weaker or no neutralizing activity against SARS-CoV, but cross-neutralizing mAbs have been isolated (Brouwer et al., 2020).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3206,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Since the start of the pandemic, sequencing of viral populations has been deployed to enable detection of individual mutations within SARS-CoV-2 and identify new variants or strains that become dominant. Most recently, a new variant, B.1.1.7, has emerged in the UK (S. Kemp et al., 2020; Rambaut et al., 2020) that includes multiple mutations in both the RBD and the N-terminal domain (NTD) of Spike, both targets for neutralizing antibodies. Similarly, two further variants have been identified in South Africa, 501Y.V2, and Brazil, P.1, which carry additional mutations in both the NTD and RBD (Faria et al., 2021; Tegally et al., 2020). All three variants share a deletion of 3 amino acids in Orf1ab and key mutations in the RBD (E484K and the N501Y); data so far consistent with convergent evolution. Early reports have indicated that while the RBD mutation N501Y in the B.1.1.7 strain does not compromise post vaccine serum neutralization (Xie et al., 2021), one of the individual changes in the 501Y.V2 strain does impair neutralization but does not remove all activity (Greaney et al., 2021). Moreover, in vitro escape studies have shown similar mutations occur under selective pressure (Andreano et al., 2020).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4424,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Therefore, in this study we evaluated the potential role of individual amino acids in facilitating escape from neutralizing antibodies. Firstly, by making a series of point mutations to change the amino acids in SARS-CoV-2 to those found at the analogous position in SARS-CoV. Secondly, by making individual point mutations emerging in real world populations and by generating a pseudotype virus using the B.1.1.7 variant Spike sequence. We identify multiple mutations that can abrogate neutralization by some monoclonal antibodies targeting the RBD of Spike. However, in contrast, we show that serum responses are more resilient to these mutations, especially following severe infection where the antibody response is characterized by increased breadth.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5178,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "There are 56 individual amino acid changes between the RBD of SARS-CoV-2 and SARS-CoV (Ortega, Serrano, Pujol, & Rangel, 2020), including sites at which antibody escape has been observed for SARS-CoV (Rockx et al., 2010). We identified 15 sites where single, or sequential, non-conservative amino acid changes were observed compared to SARS-CoV. These sites were mutated in the SARS-CoV-2 Spike to match SARS-CoV (Fig S1). Mutated Spike protein plasmids were then co-transfected with a lentiviral construct encoding luciferase and a packaging plasmid to produce pseudotyped viruses (Seow et al., 2020). Three of the substitutions resulted in virus that did not give sufficient titer to evaluate the impact on neutralization activity. The remaining mutated pseudotypes were then screened for any alteration in neutralization against a panel of human mAbs (Brouwer et al., 2020) isolated post SARS-CoV-2 infection. These mAbs have been previously mapped into eleven binding clusters whereby mAbs within a cluster reciprocally compete for binding to Spike. Of these, eight clusters comprise neutralizing mAbs (I, III, IV, VI, VII, IX, X, XI), five of which target the RBD (I, III, VI, VII, IX), and three clusters contain only non-neutralizing mAbs (II, V and VIII). Representatives of each neutralizing cluster were selected for evaluation against the Spike mutant pseudotypes.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6560,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Fig 1.: Mutating amino acids in SARS-CoV-2 Spike to match SARS-CoV decreases mAb neutralization.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Initial screening assays of the twelve infectious viral pseudotype mutants showed no effect on neutralization by any of the mAbs against three mutants with changes at amino acid positions RFA346-8KFP, S459G, and ST477-8GK (FigS1). In contrast, the remaining nine viral pseudotype mutants diminished neutralization for at least one mAb (Fig1) as described below:",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7017,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The P384A substitution resulted in complete loss of neutralization by COVA1-16 (Fig1A), a cluster III RBD-specific mAb that allosterically competes with ACE2 rather than directly blocking the binding site (Liu et al., 2020). Of note, this mutation has been described and structurally characterized elsewhere (Wu et al., 2020), revealing that this proline to alanine change results in a relatively small alteration in protein structure that can enable SARS-CoV mAbs to neutralize SARS-CoV-2 P384A. However, P384A does not weaken neutralization by any other mAbs, including another mAb in the cluster III competition group.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7638,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The K417V mutation results in a pseudotyped virus that is less susceptible to COVA2-07 mediated neutralization, which is the other cluster III RBD-specific mAb screened (Fig1A). COVA2-07 belongs to the same sub-cluster as COVA2-04, the structure of which has been solved and contact residues include numerous bonded and non-bonded contacts within the RBD and ACE2-binding site (Wu et al., 2020). That this mutation should alter mAbs such as COVA2-07, which competes directly with ACE2 for binding, is not unexpected as the lysine at position 417 forms a hydrogen bond with ACE2 (Lan et al., 2020) that is likely disrupted by this substitution. We then evaluated an additional mAb, COVA2-04, from the same competitive binding cluster as COVA2-07. This is because COVA2-04 is representative of class of SARS-CoV-2 neutralizing antibodies that all use the VH3-53 gene and have been suggested to be an unusual “public” or stereotyped antibody (Cao et al., 2020; Mor et al., 2020; Robbiani et al., 2020). COVA2-04 was not able to neutralize the K417V pseudotype (data not shown). Although, of note, this mutation has no real impact on neutralization by any of the other mAbs tested.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8815,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "This multiple substitution, which is a substantial change between SARS-CoV-2 and SARS-CoV, results in a 3.7-fold drop in neutralization potency for COVA2-29, which is a cluster I RBD-specific antibody (Fig1A, B). This is the largest effect of this mutation, as the neutralization activity of the other mAbs is largely unaffected despite the alteration of three sequential amino acids. This may be explained by the relatively minor differences in the amino acid side chains at the mutated residues. Unlike some of the other mutants tested, such as LF455YL that introduces a phenol, the substitutions made here may not disrupt protein structure or antibody binding to any great extent. Notably, binding analysis has suggested mutations in this loop can reduce RBD binding by Spike-specific sera (Greaney et al., 2021).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9631,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "This mutation is situated directly within the receptor binding motif (RBM) of the RBD. It renders pseudotyped virus resistant to neutralization by the cluster I mAb COVA2-29, but does not affect the other cluster I mAb COVA1-18 or any other mAb tested.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9883,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "This double substitution reduces neutralization by RBD-specific mAbs from different clusters, specifically, the cluster I mAb COVA2-29, cluster III mAb COVA2-07 and cluster VI mAb COVA1-12 (Fig1A, B). For COVA1-12 all neutralization activity is abolished, while COVA2-07 activity is just below the level required to calculate an IC50 value.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10223,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "This triple mutation is located in a loop within the RBM where other substitutions have been reported to abolish ACE2 binding (Xu et al., 2021; Yi et al., 2020). This mutation prevents neutralization by COVA2-29 (cluster I), COVA2-07 (cluster III) and COVA2-02 (cluster VII). It also reduces the activity of the most potent mAb COVA1-18 (cluster I) by 3-fold, whereas this mAb is only minimally affected by other mutations. Moreover, TEI470-2NVP lowers the potency of the structurally unmapped non-RBD cluster XI mAb, COVA1-21, to the limit of detection. Thus, this mutation negatively impacts the most mAbs, including representatives from four separate epitope clusters.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10894,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "This single substitution towards the end of the RBM destroys neutralization activity by both COVA2-29 (cluster I) and COVA1-12 (cluster VI) but does not have a major impact on the other cluster I mAb tested or those from other epitope clusters.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11138,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "In summary, different mAbs can lose their neutralization activity when confronted with different Spike mutations and the effects are not strictly delineated by binding clusters, such that mAbs within the same competition cluster are frequently differentially affected. The triple substitution TEI470-2NVP has the most detrimental effects on different antibodies and impacts mAbs from nearly all binding clusters. LF455YL also negatively affects mAbs across different binding clusters. Notably, COVA2-29 is the mAb that is most frequently negatively affected by different mutations, with substantial loss of some neutralizing activity against four mutations (L452K, LF455YL, TEI470-2NVP, S494D), which are all within the RBM of the RBD (Fig1A). COVA2-29 is also known to compete directly with ACE2 for binding to Spike, which may explain why it is sensitive to so many different mutations within the RBM.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12041,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Fig 2.: Neutralization by sera is less adversely affected by SARS-CoV amino acid substitutions in SARS-CoV-2 Spike.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Following the identification of Spike mutations that can limit or abrogate neutralizing activity of mAbs (Fig2A), the next step was to assess the impact of these mutations on serum neutralization. Samples were tested following two different infection scenarios. Firstly, from a previously characterized cohort of seropositive healthcare workers who experienced mild or asymptomatic SARS-CoV-2 infection (Houlihan et al., 2020). Secondly, sera were obtained from a cohort of hospitalized patients who experienced severe disease. Eighteen samples were chosen from both cohorts for screening purposes to obtain representatives with intermediate (1:50-100), strong (1:100-1000) and potent (>1:1000) neutralizing ID50 values. The median serum ID50 for hospitalized patients selected was 1:1275, and that for selected mild/asymptomatic cases was 1:1045. Strikingly, serum samples from both cohorts are less impacted by Spike mutations than individual mAbs in terms of fold decrease in neutralization potency (Fig2B and C). Only one of thirty-six serum samples lost all neutralizing activity (Fig S2), in contrast to the five mAbs from five different epitope clusters where neutralization was completely abrogated by a single Spike mutation (Fig 1B). Moreover, fold-decrease in neutralization potency was more modest for sera than mAbs, with an average 2-fold decrease across all sera for the most disadvantageous mutation TEI470-2NVP as compared to a more than 100-fold decrease observed for several of the mAbs (Fig2B and C). Interestingly, none of the 36 serum samples lost >5-fold potency against the other triple substitution, KVG444-6TST which contrasts with recent data showing a single mutation at G446 caused a major loss of neutralization in one sample (Greaney et al., 2021). Importantly, there was notable difference between the resilience of serum samples from severely ill hospitalised individuals and those who had experienced mild/asymptomatic infection. Only two serum sample from a hospitalised individual lost more than 3-fold potency against any individual mutant (Fig2C, FigS2). Whereas approximately half (10 of 18) the mild/asymptomatic serum samples showed a three-fold drop in potency against at least one Spike mutant (Fig2C, Fig S2).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14409,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Fig 3.: Serum responses following severe COVID-19 have greater polyclonality but less efficient neutralization.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The differences in resilience to Spike mutations seen in the neutralizing sera from these two infection scenarios is plausibly due to greater polyclonality arising from greater antigenic stimulation during severe illness. To assess the serological profiles of these two cohorts, we compared the 50% inhibitory dilution (ID50) values across 192 samples and measured the binding titers by semi-quantitative ELISA for 199 samples as previously described (Ng et al., 2020; O’Nions et al., 2020). There is a significantly higher median IgG binding titer of 46.5 μg/ml following severe illness versus 3.9 μg/ml following mild/asymptomatic disease (Fig3A, FigS3). Similarly, there is a significantly higher median ID50 value in the hospitalized patient cohort as compared to the mild/asymptomatic group (Fig3B). This shows, as has been observed previously (Seow et al., 2020), that severely ill patients have higher binding and neutralization titers than asymptomatic/mild cases and that higher binding titers correlate with greater neutralization. However, when considering how the IgG binding titer from each individual relates to their neutralization titer it became clear that there was a discrepancy (Fig3C and D). Most hospitalized patients required a binding titer of greater than 10 μg/ml to achieve strong neutralization (ID50 >100). Moreover, mild infections could lead to potent neutralization (ID50 >1000) at binding titers of less than 10 μg/ml (Fig3D) whereas this was observed for only two individuals following severe illness (Fig3C). In fact, the amount of specific IgG present at the serum ID50 is significantly higher in severe illness compared to mild disease (Fig 3E). This suggests that a higher proportion of antibodies are non-neutralizing following severe illness. However, the total level of specific antibodies is so high that the number of neutralizing antibodies following severe illness may be greater and explain the relative resilience of severe sera to Spike mutations.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16515,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Fig 4.: Variant B.1.1.7 SARS-CoV-2 Spike effect on mAb and serum neutralization.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Investigating the ability of post-SARS-CoV-2-infection mAbs and serum to cope with mutations in Spike engineered based on differences with SARS-CoV was a rational first approach to study escape, because these mutations were likely to form viable Spike proteins. Indeed, some of the positions at which amino acids were mutated, as described above, have now been observed to be a site of variance in SARS-CoV-2 across the human population (Q. Li et al., 2020; Liu et al., 2020; Starr et al., 2020). However, additional viral variants, not linked to points of variance between these two closely related viruses, have started to emerge on a significant scale (Q. Li et al., 2020; Weisblum et al., 2020). Firstly, the D614G mutation, observed in western Europe in February 2020 and now dominant across the globe (Korber et al., 2020). It has already been described that D614G has higher infectivity and greater viral replication (Korber et al., 2020; Q. Li et al., 2020; Plante et al., 2020) and somewhat increases the ability of serum and mAbs to neutralize SARS-CoV-2 (Korber et al., 2020; Plante et al., 2020; Weissman et al., 2020). More recently, a new variant of SARS-CoV-2 (B.1.1.7) has emerged in England and been associated with a rapid rise in case numbers (S. Kemp et al., 2020; Rambaut et al., 2020) and high viral loads (Kidd et al., 2020). B.1.1.7 encodes 8 sites of change in Spike relative to the original Wuhan strain. Of these, the most likely candidates to alter neutralization sensitivity are the deletion in the NTD (ΔH69/V70) and the N501Y substitution in the RBM (S. Kemp et al., 2020; Rambaut et al., 2020). Therefore, these changes were introduced in the Wuhan strain Spike in the presence of D614G to produce pseudotyped viruses for neutralization sensitivity analysis. Firstly, ΔH69/V70 did not negatively impact the neutralization potency for most of the mAbs tested, including cluster IX mAb COVA2-17 (Fig4A), which has recently been found to bind the NTD (Rosa et al., 2021). The exception was the structurally unmapped COVA1-21 (cluster XI), which was previously reported to lose partial potency against this deletion in the context of other mutations that arose in an immuno-compromised patient (S. A. Kemp et al., 2020). Similarly, the serum neutralization activity did not decrease by more than 3-fold relative to the D614G Spike for any individual sample (Fig4B). In contrast, the introduction of the N501Y substitution (observed in both B.1.1.7, 501Y.V2 and P.1) lowered the neutralization potency of one mAb, COVA1-12, to the limit of the assay, with a fold decrease in IC50 of >40 (Fig4A). This cluster VI RBD-specific mAb was also negatively impacted by proximal mutations at LF455YL and S494D. Moreover, a 5-fold decrease in potency was observed against the N501Y pseudotype for the cluster IX mAb COVA2-17, which also loses efficacy against TEI470-2NVP. However, as seen for the other mutations that abrogate mAb function, the N501Y change had less of an effect on the sera obtained after both severe and mild infection, with all individual serum samples remaining within three-fold of their original ID50 value (Fig4B, FigS4).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19758,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Finally, a B.1.1.7 Spike pseudotyping plasmid was synthesized to incorporate the mutations observed in this new variant in combination, and then evaluate neutralization sensitivity of mAbs and sera. This showed that, as per individual mutants, B.1.1.7 can lessen the potency of some mAbs, although unlike other mutations described above, it does not remove all activity for any individual mAb and in total three mAbs were affected, COVA2-17, COVA1-12 and COVA1-21 (Fig4A). These mAbs belong to distinct clusters and so do not compete for binding to the same epitope. Firstly, the cluster IX mAb COVA2-17 showed an approximate 5-fold drop in potency against both the N501Y single mutant and the B.1.1.7 pseudotype, implying this loss of potency is primarily N501Y driven. In contrast, the decrease in potency noted with the single N501Y change for the RBD-specific mAb COVA1-12 was lessened in the context of B.1.1.7, with a 11-fold rather than a >40-fold drop in neutralization. Furthermore, one mAb, COVA1-21 experienced a substantial drop in potency against B.1.1.7 compared to the single mutants or the D614G spike. This cluster XI mAb, which does not bind to RBD or S1 subunits, showed more than 100-fold reduction in potency. This effect is likely in part mediated by the ΔH69/V70 deletion that also reduced the potency of COVA1-21 when evaluated as a single mutant. The B.1.1.7 Spike was then tested against the 36 serum samples from the two cohorts (Fig4B). The maximum fold-decrease in potency for the serum samples from mild illness was 8.2 but the majority of samples showed less than a 3-fold change. Similarly, the maximum decrease seen for samples from hospitalized patients was a 9.1-fold change, but most of the samples showed minimal change in the potency of their neutralization. Overall, three samples from each cohort (8%) showed a 5–10-fold reduction, but as they were potently neutralizing sera, the reduced ID50 values were still >1:100. Similarly, another four samples from both cohorts (11%) showed a 3–5-fold reduction in neutralization when tested against the B.1.1.7 Spike pseudotype. Again, the reduced ID50 values were still potent (on average >1:500) with only two samples having an ID50 of <1:200 (Fig S4)",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21994,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "This study demonstrates that Spike mutations can diminish or abolish neutralizing activity by individual mAbs but that serum neutralization is less strongly affected. Notably, only one engineered mutation, and none of the observed Spike mutants or the B.1.1.7 variant, resulted in a complete escape from neutralizing activity and this was only seen for one out of thirty-six serum samples. The Spike mutants evaluated comprise seven substitutions designed to mimic possible escape changes based on homology with SARS-CoV, two observed high-frequency mutations and the B.1.1.7 Spike variant. The most likely explanation for the greater effect on mAbs as compared to sera is the inherent polyclonality underlying serum neutralization. This concept is supported by the observation that single Spike mutations can weaken neutralization for a particular mAb but not for other mAbs from within the same binding cluster. This highlights that different antibodies use distinct molecular contacts within shared epitopes, such that a single mutation may not be detrimental to all antibodies within the same binding cluster. Thus, because polyclonal sera contain multiple antibodies that target the major neutralizing sites in subtly different ways, it is less sensitive to Spike mutations.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23283,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The Spike mutations studied here were designed to identify potential escape variants by mimicking in part the natural variation observed between SARS-CoV and SARS-CoV-2, and are focused mainly on the RBD as the major site of neutralizing antibody activity. Therefore, it was unsurprising that many of the RBD-specific mAbs evaluated here lost neutralization activity against one or more of these mutations. These included substantial multi-residue substitutions not yet seen in the SARS-CoV-2 but also single point mutations at positions that have been observed to mutate in the real world (S. Kemp et al., 2020; Korber et al., 2020; Rambaut et al., 2020; Tegally et al., 2020). These include, K417V that had a negative effect on mAb neutralization and another mutation at this position, K417N, has been observed in the emerging South African variant (Tegally et al., 2020). Importantly, the mAb (COVA2-07) that loses >40-fold neutralization activity against the K417V pseudotyped virus belongs to the same cluster as COVA2-04 that loses all neutralization activity against the K417V mutant. COVA2-04 belongs to the VH3-53 “public” BCR against SARS-CoV-2 identified from multiple human infections. Thus, COVA2-04-like antibodies are thought to be widespread among the seropositive population and so the K417V would be predicted to have an impact on sera from many individuals. Interestingly, serum samples from mild infection showed very little change in neutralization potency against this mutation. However, the strongest effect on serum samples from mild infection was mediated by the TEI470-2NVP substitution, which is part of what has been termed the RBD binding ridge, and other mutations in this region can decrease serum neutralization (Greaney et al., 2021). As such, any mutation in this zone should be closely monitored in viral populations due to the potential for escape. However, it is encouraging that the effect of these mutations on sera was much less pronounced and that individual mAbs within the same clusters were not universally inactivated by any given mutation. Notably, the mutations that most substantially decrease serum neutralization are those that negatively impact mAb activity against the widest range of clusters (I, III, XI, IX and VI) suggesting that mAb screening is a useful proxy for potential serum effects if a range of antibody clones are used. However, the capacity to predict the in vivo impact of a drop in neutralization potency requires correlation of in vitro serum neutralization ID50 values with protection, which thus far has only been achieved in animal models where, encouragingly, an ID50 value of 1:50 was found to be protective (McMahan et al., 2020).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25989,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "A caveat to the first part of this study is that only RBD substitutions were considered. Further studies to assess potential mutations before they arise should include those in NTD given the emerging importance of NTD as a site for neutralizing antibodies (Andreano et al., 2020; Rosa et al., 2021). However, it should be noted that one RBD change, TEI470-2NVP, resulted in a 24-fold drop in potency for COVA1-21, which does not bind RBD and remains structurally unmapped (Brouwer et al., 2020). Regardless, that sera likely containing a mixture of RBD-and NTD-specificities are more resilient than individual mAbs in the face of Spike mutations within the RBD is not surprising. This further highlights the importance of a broad polyclonal serum response to maintain neutralizing activity in the event of novel Spike mutations emerging, and the need to consider more than RBD binding in serological evaluations.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26901,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "To understand if the conclusions from studying the impact of the SARS-CoV-2/SARS-CoV substitutions on neutralization parallel those of real-world Spike mutations, we examined the responses to the newly emerged B.1.1.7 variant (S. Kemp et al., 2020; Rambaut et al., 2020). This revealed that the first NTD deletion observed, ΔH69/V70, did not alter RBD-specific mAbs or any sera. Although as previously described (S. A. Kemp et al., 2020) it did result in a drop in potency for non-RBD mAb COVA1-21. The RBD mutation N501Y, shared between B.1.1.7, 501Y.V2 and P.1, did remove almost all neutralizing activity for one mAb but, in a similar pattern to other substitutions, this did not translate to any large effect on serum potency. Of note, we have not studied changes at position 484 that have been observed in 501Y.V2 and P.1 and reported to reduce neutralization in serum samples (Greaney et al., 2021) and during in vitro escape (Andreano et al., 2020). Further studies of mutations at position 484 and new emerging mutations will be needed. This would best be facilitated by large, curated panels of mAbs and pools of sera from individuals with different infection/vaccination trajectories.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28095,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Theoretically it is likely that combinations of mutations have more potential to lead to loss of serum activity than individual single amino acid changes by destroying multiple parts of key epitopes. This has partially been observed in terms of the new B.1.1.7 Spike pseudotype analyzed here. Only one mAb was more dramatically affected by the full set of B.1.1.7 mutations. However, the small number of serum samples with reduced neutralization relative to the D614G virus, were more strongly affected by B.1.1.7 than either the ΔH69/V70 or N501Y mutations individually (Fig 4B). This reduced neutralization was seen in 11% (3–5-fold) and 8% (5–10-fold) when tested against the B.1.1.7 Spike pseudotype. However, all of the affected samples were still able to neutralize B.1.1.7, and the average reduced serum ID50 value was 1:522. This is ten-times higher than the reported serum ID50 correlate of protection in animal studies and suggests these responses would likely still be effective against infection with B.1.1.7.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29116,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The differences in the data observed with B.1.1.7 and the two individual mutations ΔH69/V70 or N501Y highlight the importance of testing emerging variants in the full form. Moreover, this approach may be important as combinations of mutations could enable individual antibody escape mutations that are disadvantageous for transmission to be propagated. For example, a residue such as S494 is involved both in ACE2 binding (Xu et al., 2021) and mAb neutralization (Fig1). Therefore, a mutation at S494 could decrease antibody function but also decrease host receptor recognition and limit infectivity. However, the detrimental effects of the mutation on infectivity could be compensated for if a S494 mutation occurred in concert with a mutation that strengthened a different part of the viral entry pathway as has been suggested(S. A. Kemp et al., 2020). This highlights the need for rapid evaluation of variant strains upon emergence, potentially accelerated by computational modeling based on prior knowledge of the effects of individual changes.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30164,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "In conclusion, this study underlines both the potential for escape from neutralizing antibodies due to mutations in Spike and the relative resilience of serum responses compared to individual mAbs. This difference likely derives from the breadth inherent in polyclonal sera as compared to the precision interaction of a given mAb. Our results suggest that the majority of vaccine responses should be effective against the B.1.1.7 variant as the sera evaluated were obtained after infection early in the pandemic when the commonly circulating virus was highly similar in sequence to the vaccines now being deployed. A reduction in potency was observed in a minority of samples tested against B.1.1.7, however, neutralization titers remained above 1:200 in almost all cases. Finally, it is probable that as SARS-CoV-2 seropositivity increases across the human population (due to both vaccination efforts and natural infection) there could eventually be selection for Spike mutations that result in substantial antigenic drift as seen for Influenza. If and when this will happen is unpredictable given the current scale of ongoing transmission worldwide. The data herein suggest evaluation of neutralizing mAbs from non-overlapping binding clusters can highlight which Spike mutations will most impact sera neutralization. Greater knowledge of the molecular epitopes recognized by individual mAbs and their relative immunodominance within sera is needed urgently. This is because understanding of rules of engagement for SARS-CoV-2 neutralizing antibodies is a crucial component of preparedness for major antigenic changes and long-term management of coronaviruses globally. Our findings stress the importance of continuous monitoring of variants and in vitro assessment of their impact on neutralization. This is particularly relevant for the use of convalescent plasma and the development of therapeutic monoclonal antibodies as well as vaccine development and implementation.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

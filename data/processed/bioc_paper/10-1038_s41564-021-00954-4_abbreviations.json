@@ -1,0 +1,33 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1038_s41564-021-00954-4",
+      "inputfile": "../../data/processed/html_papers/10-1038_s41564-021-00954-4.html",
+      "passages": [
+        {
+          "text_short": "FACS",
+          "text_long_1": "fluorescence-activated cell sorting",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "T m",
+          "text_long_1": "temperature",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PFU",
+          "text_long_1": "plaque-forming units",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PBSB",
+          "text_long_1": "PBS with 1 g l −1 BSA",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1038_s41564-021-01053-0",
+      "inputfile": "../../data/processed/html_papers/10-1038_s41564-021-01053-0.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Effectiveness of COVID-19 vaccines against symptomatic SARS-CoV-2 infection and severe outcomes with variants of concern in Ontario",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 131,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Study population. Over the study period, we identified 682,071 symptomatic community-dwelling individuals who were tested for SARS-CoV-2, with 31,440 (5%) individuals positive for non-VOC SARS-CoV-2 and 51,440 (8%) individuals positive for a VOC (Supplementary Table 1 ). Cases of Delta infections were younger, more likely to reside in the Central West region, more likely to occur later in the study period, less likely to have any comorbidities, and more likely to reside in neighbourhoods with lower household income and greater proportions of essential workers than cases of other VOC and non-VOC SARS-CoV-2 infections, as well as test-negative controls. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 799,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We identified 15,269 individuals with a COVID-19 hospitalization or death (Supplementary Table 2 ). We observed largely the same socio-demographic patterns between individuals with severe outcomes caused by Delta versus those caused by other VOC and non-VOC SARS-CoV-2. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1069,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Vaccine effectiveness against symptomatic infection. Vaccine effectiveness against symptomatic infection caused by Alpha, at ≥14 d after the first dose, was higher for mRNA-1273 (82%; 95% CI, 80-84%) than for BNT162b2 (67%; 95% CI, 65-68%) and ChAdOx1 (63%; 95% CI, 59-66%) ( Fig. 1a) . Vaccine effectiveness increased ≥7 d after the second dose against Alpha for all three vaccines: mRNA-1273 = 92% (95% CI, 88-95%), BNT162b2 = 89% (95% CI, 87-90%) and ChAdOx1 = 91% (95% CI, 62-98%). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1555,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Estimates of effectiveness against symptomatic infection caused by Beta (Fig. 1b) were imprecise or were 100% because of low numbers or absence of vaccinated test-positive cases, respectively (Supplementary Table 3 ). Vaccine effectiveness against symptomatic infection caused by Gamma was higher after the first dose of mRNA-1273 (89%; 95% CI, 76-95%) than after the first dose of ChAdOx1 (41%; 95% CI, 12-60%), and was intermediate for BNT162b2 (63%; 95% CI, 54-70%) ( Fig. 1c ). Effectiveness against Gamma increased after the second dose for BNT162b2 but could not be reliably estimated for mRNA-1273 and ChAdOx1 because of zero vaccinated cases. Protection against symptomatic infection caused by Beta/Gamma appeared to be marginally higher (but with overlapping confidence intervals) after the first dose of mRNA-1273 (75%; 95% CI, 53-86%) than after the first dose of BNT162b2 (64%; 95% CI, 54-72%) and ChAdOx1 (62%; 95% CI, 37-77%) ( Fig. 1d) . Receipt of the second dose increased vaccine effectiveness against Beta/Gamma for BNT162b2 (82%; 95% CI, 65-91%) and mRNA-1273 (89%; 95% CI, 21-98%) but could not be reliably estimated for ChAdOx1 due to absence of any vaccinated cases (Supplementary Table 3 ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2770,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Against Delta, vaccine effectiveness after the first dose was higher for mRNA-1273 (70%; 95% CI, 64-76%) and ChAdOx1 (68%; 95% CI, 57-76%) than for BNT162b2 (57%; 95% CI, 53-61%) ( Fig. 1e) . Vaccine effectiveness increased after the second dose for all three vaccines, to 95% (95% CI, 91-97%) for mRNA-1273, 87% (95% CI, 69-95%) for ChAdOx1 and 92% (95% CI, 90-94%) for BNT162b2. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3151,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "By product, vaccine effectiveness after one dose tended to be lower against Delta than against Alpha and Gamma for mRNA-1273 (70% vs 82% and 89%) and for BNT162b2 (57% vs 67% and 63%), but was similar to effectiveness after one dose against Alpha for ChAdOx1 (68% vs 63%). Two doses of BNT162b2 and mRNA-1273 increased protection against Delta (92-95%) to levels comparable to protection against Alpha (89-92%), Beta (87%) and Gamma (88%).  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3592,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Vaccine effectiveness against hospitalization or death. Vaccine effectiveness against hospitalization or death caused by all four VOC was generally higher than against symptomatic infection after the first dose for all three vaccines (Fig. 2 ). In particular, against Delta, vaccine effectiveness against severe outcomes after the first dose of BNT162b2, mRNA-1273 and ChAdOx1 was 81% (95% CI, 76-85%), 90% (95% CI, 82-94%) and 91% (95% CI, 72-97%), respectively ( Fig. 2e) . Receipt of the second dose was associated with vaccine effectiveness estimates above 90% against: Alpha, Beta and Delta for BNT162b2; Alpha and Delta for mRNA-1273; and Delta for ChAdOx1. Estimates were in the 80% range against Gamma for BNT162b2 and Alpha for ChAdOx1, and could not be reliably estimated for other VOC-vaccine combinations due to low numbers or absence of vaccinated cases. Sensitivity analyses. In sensitivity analyses, vaccine effectiveness estimates using ≥21 d after the first dose and ≥14 d after the second dose were found to be mostly very similar (estimates differed by ≤5%) to our primary analyses ( Table 1 ). Where differences were >5%, the sensitivity analyses yielded higher estimates. Similar vaccine effectiveness estimates were also observed when limiting the study period to 5 April 2021 to 3 August 2021 (Supplementary Table 4 ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4934,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Vaccine effectiveness by age group. In age-group-stratified analyses, vaccine effectiveness against symptomatic infection caused by all VOC was in most instances lower or similar in older adults (age ≥60 years) compared with younger individuals (age <60 years) after partial vaccination (Supplementary Table 5 ). Vaccine effectiveness in older adults increased to levels comparable to those in younger individuals after the second dose, except against Gamma for BNT162b2 and against Delta for ChAdOx1. Vaccine effectiveness was higher against hospitalization and death than against symptomatic infection for both older and younger adults. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5573,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We estimated that one dose of BNT162b2 and mRNA-1273 was >50% and >70% effective, respectively, against symptomatic infection caused by VOC that have circulated to date in Ontario, Canada. One dose of ChAdOx1 prevented 41% of symptomatic infections by Gamma, and was >60% effective against Alpha and Delta. For all three vaccines, effectiveness increased (to >80% and, in most cases, >90%) following the second dose. Effectiveness of the first dose was substantially higher against hospitalization or death than against symptomatic infection for all VOC-vaccine combinations except for mRNA-1273 against Alpha and Gamma because vaccine effectiveness against symptomatic infection was already high; the second dose of mRNA vaccines further improved effectiveness against severe outcomes. We also found that: assessing effectiveness ≥21 d after the first dose and ≥14 d after the second dose resulted in similar or higher estimates, restricting the analysis to a period when all VOC were co-circulating yielded similar results, and the effectiveness of one dose tended to be lower for older adults than for younger adults. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6694,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Our vaccine effectiveness estimates against symptomatic COVID-19 infection with Alpha and Gamma after the first dose of mRNA or ChAdOx1 vaccines are similar to estimates against infection from British Columbia, Canada (67% for mRNA vaccines against Alpha and 61% against Gamma) 15 and Qatar (88% for mRNA-1273 against  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7013,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "≥14 d after dose 1 ≥7 d after dose 2 Alpha Beta Beta/gamma Delta Gamma Non-VOC ChAdOx1 (AstraZeneca Vaxzevria) mRNA-1,273 (Moderna Spikevax) BNT162b2 (Pfizer-BioNTech Comirnaty) ChAdOx1 (AstraZeneca Vaxzevria) mRNA-1,273 (Moderna Spikevax) BNT162b2 (Pfizer-BioNTech Comirnaty) ChAdOx1 (AstraZeneca Vaxzevria) mRNA-1,273 (Moderna Spikevax) BNT162b2 (Pfizer-BioNTech Comirnaty) ChAdOx1 (AstraZeneca Vaxzevria) mRNA-1,273 (Moderna Spikevax) BNT162b2 (Pfizer-BioNTech Comirnaty) ChAdOx1 (AstraZeneca Vaxzevria) mRNA-1,273 (Moderna Spikevax) BNT162b2 (Pfizer-BioNTech Comirnaty) ChAdOx1 (AstraZeneca Vaxzevria) mRNA-1,273 (Moderna Spikevax) BNT162b2 (Pfizer-BioNTech ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7675,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Alpha) 9 but higher than estimates after one dose against infection or symptomatic COVID-19 reported from Qatar (for BNT162b2, 30% against Alpha and 17% against Beta 7 ; 61% for mRNA-1273 against Beta 9 ), England (49% for BNT162b2 and 51% for ChAdOx1 against Alpha) 10 and Scotland (27% for BNT162b2 and 39% for ChAdOx1 against Alpha) 6 . Our estimates after one dose are also higher than the estimates for BNT162b2 against severe, critical, or fatal disease in Qatar (54%) 7 , but comparable with the estimates for BNT162b2 or ChAdOx1 against hospitalization caused by the Alpha variant in England (83%) 8 and for mRNA-1273 against severe, critical, or fatal disease caused by Alpha/Beta in Qatar (82%) 9 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8384,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We estimated higher vaccine effectiveness against symptomatic COVID-19 infection with the Delta variant after one dose of mRNA or ChAdOx1 vaccines than the effectiveness against symptomatic or asymptomatic infections reported from England and Scotland (30-33% for BNT162b2 and 18-33% for ChAdOx1) 6, 10 . However, our effectiveness estimates against symptomatic infections with Delta after the first dose were lower than the estimates against infections in Qatar (64% for BNT162b2 and 79% for mRNA-1273) 11 . Our estimates after the second dose were higher than the estimates against symptomatic infections reported in England (88% for BNT162b2 and 67% for ChAdOx1) 10 , Scotland (83% for BNT162b2 and 61%  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9091,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "for ChAdOx1) 6 , Israel (40.5% for BNT162b2) 16 , the USA (42% for BNT162b2 and 76% for mRNA-1273 against infection) 17 and Qatar (53.5% for BNT162b2 and 84.8% for mRNA-1273) 11 . Against hospitalization with the Delta variant, our vaccine effectiveness after one dose was lower for BNT162b2 and higher for ChAdOx1 than the estimates from England (81% vs 94% for BNT162b2 and 91% vs 71% for ChAdOx1) 8 . Vaccine effectiveness against severe, critical and fatal COVID-19 disease with Delta after one dose of BNT162b2 and mRNA-1273 in Qatar was reported to be 100% because of zero vaccinated cases 11 . After the second dose, our estimates against both outcomes for all VOC were higher than after one dose, and comparable with estimates reported in previous studies [6] [7] [8] 10 . However, vaccine effectiveness after two doses was reported to be lower than after one dose against any infection with Delta (54% vs 64%) in Qatar, which the authors interpreted as waning of protection 11 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10079,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The heterogeneity in vaccine estimates, particularly after one dose, across studies could result from a number of factors, including differences in study design, study population, SARS-CoV-2 test assays and testing criteria, comprehensiveness of test results recorded in databases, outcome definitions and ascertainment, timing of VOC circulation, vaccine priority groups, vaccine roll-out, interval between vaccine doses, and variables adjusted to control for possible confounding 18 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10566,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Province-wide data allowed us to estimate the effectiveness of all three vaccines used in Canada against symptomatic infection and severe outcomes caused by the four VOC that have circulated in Canada thus far. The test-negative study design has the advantage of controlling for bias resulting from differences in healthcare-seeking behaviour between vaccinated and unvaccinated individuals 19 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10962,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "There are some limitations of our study. First, VOC classification in this study relied on a combination of mutation screening and whole-genome sequencing, and the criteria for sequencing evolved over time. Our definition of Delta specimens initially relied largely on a proxy measure of an N501Y-/E484K-result on mutation screening and a combination of date and geographic location, which were used to infer probable Delta variant specimens. Thus, a small proportion of specimens classified as Delta may have been non-VOC SARS-CoV-2 specimens. Second, since vaccine effectiveness is probably impacted by age, interval between vaccine doses, time between vaccine receipt and index date, vaccine product, and VOC, and given that the eligibility criteria for vaccination (for example, initial prioritization of older age groups), the availability of certain vaccine products, and the distribution of circulating VOC all varied over time, comparisons of vaccine effectiveness estimates between combinations of vaccine products and VOC should be made with caution. However, we included a sensitivity analysis that restricted the study period to individuals tested during 5 April through 3 August 2021 (to ensure that all VOC and non-VOC SARS-CoV-2 were circulating and to mitigate temporal confounding caused by the aforementioned factors), which yielded very similar results to our primary analysis. Third, it is possible that we may have under-ascertained severe outcomes if they were not recorded in the public health surveillance database used, such as when severe outcomes occurred after completion of case follow-up or when case volumes exceeded public health system capacity and public health investigation of each laboratory-confirmed case was not possible. This may have resulted in overestimation of vaccine effectiveness against severe outcomes. Fourth, we used specimen collection date as the index date because of lack of available data on symptom onset date in the Ontario Laboratories Information System (OLIS), which precluded us from restricting the study population to individuals who were tested within 10 d of symptom onset. Thus, we may have underestimated vaccine effectiveness by increasing the risk of false-negative cases by extending the interval between symptom onset and testing. Lastly, despite our best efforts to adjust for potential confounders and the use of the test-negative design, these results may nonetheless be susceptible to residual confounding, given the observational nature of the study. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13491,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "In conclusion, our real-world vaccine effectiveness estimates suggest that even a single dose of these three COVID-19 vaccine products provides considerable protection against symptomatic infection and severe outcomes caused by these four VOC, particularly for young adults, and that two doses provide even higher protection. While vaccine effectiveness estimates after two doses are at present most relevant to high-income countries with adequate vaccine supply and relatively higher two-dose vaccine coverage, effectiveness estimates after one dose remain relevant for low-and middle-income countries with suboptimal vaccine supply and low one-or two-dose vaccine coverage. Thus, our findings have public health policy implications worldwide. Jurisdictions facing COVID-19 vaccine supply constraints may benefit from delaying the second dose (at least for younger individuals) to maximize the number of individuals receiving partial protection from the first dose, thereby potentially providing greater overall protection of the population more rapidly. However, older adults would likely benefit most from minimizing the delay in receiving the second dose to achieve adequate protection against VOC, including Delta, the predominant VOC currently in circulation worldwide. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14767,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We employed a test-negative design to compare vaccination status between test-positive individuals (with symptomatic infection or a severe outcome) and symptomatic but test-negative individuals 19 . We included community-dwelling Ontarians aged ≥16 years who had symptoms consistent with, or a severe outcome attributable to, COVID-19, and who were tested for SARS-CoV-2 between 14 December 2020 and 3 August 2021. We excluded individuals who had tested positive for SARS-CoV-2 before their selected index date and those who received Ad26.COV2.S (Janssen), because it has not been used in Ontario (despite receiving approval), or mixed (ChAdOx1-mRNA or different mRNA) vaccine schedules. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15455,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Data sources and definitions. Comprehensive province-wide datasets for SARS-CoV-2 laboratory testing, SARS-CoV-2 public health surveillance, COVID-19 vaccination and healthcare system use were linked using unique encoded identifiers and analysed at ICES (formerly the Institute for Clinical Evaluative Sciences). Details have been described previously 20 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15812,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Vaccination status. We obtained information regarding COVID-19 vaccination status, including vaccine product, date of administration and dose number from COVaxON, a centralized COVID-19 vaccine information system in Ontario. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16037,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Data on laboratory-confirmed SARS-CoV-2 infection detected by real-time reverse transcription polymerase chain reaction (RT-PCR) were collected from OLIS for both individuals who tested positive (treated as cases) and individuals who tested negative (treated as controls). We used specimen collection date as the index date because symptom onset date was not consistently available in OLIS. We used the first positive test for cases and a randomly selected negative test for controls, with multiple negative tests during the study period. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16576,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We obtained information on variants from the Public Health Case and Contact Management system (CCM), which contains results of screening tests for mutations and whole-genome sequencing to assign SARS-CoV-2 lineage or VOC. All RT-PCR positive specimens with cycle threshold values ≤35 were screened for N501Y and E484K mutations by multiplex RT-PCR (VOC PCR) 21 . From 7 June 2021, specimens positive for both N501Y and E484K mutations were also screened for K417N and K417T mutations to differentiate specimens between Beta and Gamma variants 21 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17124,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "At the beginning of 2021, whole-genome sequencing was performed on specimens that had specific mutations detected by VOC PCR to confirm that they were indeed VOC. From 3 February 2021, specimens with the N501Y mutation, and from 22 March 2021, all specimens with the E484K mutation and 5% of E484K-negative specimens (all with cycle threshold values ≤30) were sequenced for surveillance purposes 21, 22 . A subset of RT-PCR-positive specimens without any mutations detected by VOC PCR was also selected for sequencing for surveillance purposes 21 . Additionally, VOC PCR testing and sequencing were performed for specific indications, such as recent travellers, partially or fully vaccinated individuals, cases of suspected re-infection, or to support investigations of outbreaks and potential super-spreading events 23 . Ontario started sequencing 10% and 50% of VOC PCR-screened specimens on 2 May 2021 and 30 May 2021, respectively. From 14 June 2021, Ontario started sequencing 100% of eligible VOC ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18127,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "PCR-screened specimens 21 , which continued until the end of the study period before scaling back to sequencing 50% of specimens on 27 August 2021 22 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18279,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "In addition to those classified into SARS-CoV-2 lineages based on sequencing, we considered specimens positive for the N501Y mutation and negative for the E484K mutation (N501Y+/E484K−) as Alpha. Both Beta and Gamma have N501Y and E484K mutations, and can only be differentiated by additional screening for K417N and K417T mutations. Hence, we considered specimens positive for N501Y, E484K and K417N mutations as Beta, and specimens positive for N501Y, E484K and K417T as Gamma. We grouped the specimens that could not be separated into Beta and Gamma into a combined Beta/Gamma group. We classified specimens collected after 1 April 2021 that were negative for both N501Y and E484K (N501Y−/E484K−) mutations as either probable, possible, or unlikely Delta cases based on the predicted probability that it was Delta. To do this, we created a logistic regression model of the probability that an N501Y−/E484K− case was Delta based on the date of specimen collection and the forward sortation area (geographical unit based on the first three characters of the postal code) ranked by the cumulative incidence of laboratory-confirmed SARS-CoV-2 cases between 23 January 2020 and 28 March 2021 and grouped into deciles 24 . For each decile, we examined the trajectories of the daily counts of N501Y−/E484K− specimens between 1 April 2021 and 30 May 2021 to estimate the predicted probability that an N501Y−/E484K− specimen represented Delta. We classified specimens with >75% probability of being a Delta case to be 'probable Delta' cases, those with 25-75% probability to be 'possible Delta' cases, and those with <25% probability to be 'unlikely Delta' cases. Our approach correlates well with sequencing results (n = 538) for the province, indicating a rapid increase in the proportion of N501Y−/E484K− cases being identified as Delta from mid-March to mid-May 2021 25 . As of 31 May 2021, all N501Y−/E484K− specimens were considered Delta 22 . We grouped the probable Delta cases with those identified through sequencing. We classified specimens with no lineage information and N501Y−/ E484K− specimens collected before 1 April 2021 as non-VOC SARS-CoV-2. We also grouped the 'unlikely Delta' cases with the non-VOC specimens. We excluded 'possible Delta' cases and N501Y−/E484K+ cases from our analyses. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20584,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Outcomes. For vaccine effectiveness against symptomatic infection, individuals who were symptomatic and tested positive for SARS-CoV-2 in OLIS were considered as cases. For severe outcomes, test-positive individuals who had a hospitalization or death up to 17 August 2021 (regardless of the presence of any symptoms recorded at the time of RT-PCR testing) were identified from CCM and considered as cases. Individuals who were symptomatic but only had tests negative for SARS-CoV-2 in OLIS were considered as controls for both outcomes. However, for severe outcomes, we excluded symptomatic test-negative individuals who later tested positive between 4 and 17 August 2021. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21257,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Covariates. We obtained information on the following covariates from administrative databases: age and sex from the Ontario Registered Persons Database (RPDB); postal code and Public Health Unit of residence from the RPDB and Statistics Canada Postal Code Conversion File Plus (version 7B); the number of SARS-CoV-2 RT-PCR tests for each individual during the 3 months before 14 December (a proxy for individuals who are at increased risk of exposure to SARS-CoV-2 infection and undergo frequent testing), and biweekly (weekly for Delta) period of RT-PCR test to account for the temporal viral activity and regional vaccine roll-out, created using testing information from OLIS; comorbidities 26 associated with increased risk of severe COVID-19, identified from various databases using validated algorithms and commonly used diagnostic codes and algorithms described previously 27 , including Expanded Diagnostic Clusters and Special Population Markers from the Johns Hopkins ACG System (version 10) 28 ; influenza vaccination status during the 2019/2020 and/or 2020/2021 influenza season (a proxy for health behaviours), determined from physician and pharmacist billing claims in the Ontario Health Insurance Plan and Ontario Drug Benefit databases, respectively; and neighbourhood-level information on median household income, proportion of the working population employed as non-health essential workers, average number of persons per dwelling and proportion of the population who self-identify as a visible minority, obtained from 2016 Census data. Details regarding these covariates are provided in Supplementary Table 6 (ref. 20 ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22896,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We used multivariable logistic regression models to estimate the odds ratio comparing the odds of vaccination in test-positive cases with the odds of vaccination among test-negative controls, adjusting for the aforementioned covariates that are associated with COVID-19 and vaccine uptake 26, 29, 30 . We calculated vaccine effectiveness using the following formula: Vaccine effectiveness = 1 -(odds ratio) × 100%. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23311,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We estimated vaccine effectiveness against SARS-CoV-2 infection and severe COVID-19 outcomes (hospitalization or death) caused by non-VOC SARS-CoV-2, Alpha, Beta, Gamma, Beta/Gamma and Delta separately by vaccine product (BNT162b2, mRNA-1273 and ChAdOx1) and number of doses received. For individuals who had received only one dose by the index date, we calculated vaccine effectiveness ≥14 d after the first dose. For individuals who had received two doses, we calculated vaccine effectiveness ≥7 d after the second dose. As a sensitivity analysis, and to facilitate comparisons with other studies, we also estimated vaccine effectiveness ≥21 d after the first dose and ≥14 d after the second dose. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24011,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "When estimating vaccine effectiveness against Beta, Gamma, Beta/Gamma and Delta, we restricted both test-positive cases and test-negative controls to those who were tested on/after the dates of initial confirmation of these variants in Ontario (11 January 2021 for Beta, Gamma and Beta/Gamma; 5 April 2021 for Delta). Furthermore, since the primary periods of circulation for non-VOC SARS-CoV-2 and VOC varied relative to the vaccination campaign (that is, more non-VOC SARS-CoV-2 circulated earlier in the campaign when fewer individuals were vaccinated, whereas Delta circulated later when more were vaccinated), we conducted a sensitivity analysis restricted to individuals who were tested between 5 April 2021 and 3 August 2021 when non-VOC SARS-CoV-2 and VOC were concurrently circulating, thereby accounting for differences in vaccine availability and coverage over time. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24889,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Lastly, we estimated vaccine effectiveness stratified by age group (<60 years and ≥60 years). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24983,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "All analyses were conducted using SAS version 9.4 (SAS Institute). All tests were two-sided and used P < 0.05 as the level of statistical significance. We did not report estimates of vaccine effectiveness when 95% confidence intervals (CIs) were extremely imprecise (that is, ranging between a very large negative number and nearly 100) or when vaccine effectiveness was estimated as 100% on the basis of zero vaccinated test-positive cases and the 95% CIs were essentially infinite.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25468,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Nature Portfolio wishes to improve the reproducibility of the work that we publish. This form provides structure for consistency and transparency in reporting. For further information on Nature Portfolio policies, see our Editorial Policies and the Editorial Policy Checklist. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25745,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "For all statistical analyses, confirm that the following items are present in the figure legend, table legend, main text, or Methods section. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25887,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "n/a Confirmed The exact sample size (n) for each experimental group/condition, given as a discrete number and unit of measurement A statement on whether measurements were taken from distinct samples or whether the same sample was measured repeatedly ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26137,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The statistical test(s) used AND whether they are one-or two-sided ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26204,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Only common tests should be described solely by name; describe more complex techniques in the Methods section. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26315,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "A description of all covariates tested A description of any assumptions or corrections, such as tests of normality and adjustment for multiple comparisons A full description of the statistical parameters including central tendency (e.g. means) or other basic estimates (e.g. regression coefficient) AND variation (e.g. standard deviation) or associated estimates of uncertainty (e.g. confidence intervals) ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26721,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "For null hypothesis testing, the test statistic (e.g. F, t, r) with confidence intervals, effect sizes, degrees of freedom and P value noted  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26863,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Policy information about availability of computer code Data collection No software was used for data collection ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26975,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "All analyses were conducted using SAS Version 9.4 (SAS Institute Inc., Cary, NC) at ICES. The full dataset creation plan and underlying analytic code are available from the authors upon request, understanding that the computer programs may rely upon coding templates or macros that are unique to ICES and are therefore either inaccessible or may require modification. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27343,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "For manuscripts utilizing custom algorithms or software that are central to the research but not yet described in published literature, software must be made available to editors and reviewers. We strongly encourage code deposition in a community repository (e.g. GitHub). See the Nature Portfolio guidelines for submitting code & software for further information. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27708,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Policy information about availability of data All manuscripts must include a data availability statement. This statement should provide the following information, where applicable: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27889,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "-Accession codes, unique identifiers, or web links for publicly available datasets -A description of any restrictions on data availability -For clinical datasets or third party data, please ensure that the statement adheres to our policy ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28127,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The dataset from this study is held securely in coded form at ICES. While legal data sharing agreements between ICES and data providers (e.g., healthcare organizations and government) prohibit ICES from making the dataset publicly available, access may be granted to those who meet pre-specified criteria for confidential access, available at www.ices.on.ca/DAS (email: das@ices.on.ca). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28514,
+          "infons": {
+            "section_title_1": "Results ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "NATuRE MICROBIOLOGy | VOL 7 | MARCH 2022 | 379-385 | www.nature.com/naturemicrobiology ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-01-27-428529",
+      "inputfile": "../../data/processed/html/10-1101_2021-01-27-428529.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Genetic and structural basis for recognition of SARS-CoV-2 spike protein by a two-antibody cocktail",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 99,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The process of B cell development, in which diverse variable gene segments are recombined, results in human naïve B cell repertoires containing an enormous amount of structural diversity in the complementarity determining regions (CDRs) of the antibodies (Abs) that they encode. Despite this extensive and diverse pool of naïve B cells, infection or vaccination with viral pathogens sometimes elicit antibodies in diverse individuals that share common structural features encoded by the same antibody variable genes. Examples of recurring variable gene usage have been described for antibody responses to human rotavirus21,44, human immunodeficiency virus45–48 influenza A virus49–52, and hepatitis C virus53,54, among others. The recognition of the use of common variable genes in antiviral responses has led to the general concept of B cell public clonotypes, or B cells with similar genetic features in their variable regions that encode for antibodies with similar patterns of specificity and function in different individuals. A number of recent reports have described the identification of public clonotypes in the Ab responses to SARS-CoV-22,14,55,56. Identifying and understanding the genetic and structural basis for selection of public clonotypes is valuable, as this information forms the central conceptual underpinning for many current rational structure-based vaccine design efforts57. Our structural analyses define the molecular basis for the frequent selection of a public clonotype of human antibodies sharing heavy chain V-D-J and light chain V-J recombinations that target the same region of the SARS-CoV-2 S RBD. Germline antibody gene-encoded residues in heavy and light chains play a vital role in antigen recognition, suggesting that few somatic mutations are required for antibody maturation of this clonotype. The existence of potenty neutralizing public clonotypes across multiple individuals may in part account for the remarkable efficacy of S protein-based vaccines that is being observed in the clinic. One might envision an opportunity to elicit serum neutralizing antibody titers with even higher neutralization potency using domain- or motif-based vaccine designs for this antigenic site to prime human immune responses to elicit this clonotype.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2388,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The recent emergence of variant virus lineages with increased transmissibility and altered sequences in known sites of neutralization is concerning for the capacity of SARS-CoV-2 to evade current antibody countermeasures in development and testing. Our comprehensive mapping of the effect of RBD mutations on the binding of COV2-2196 and COV2130 underscores their use as a rationally designed cocktail, given that they have orthogonal escape mutations. Our DMS experiments are also consistent with the binding site determined by our antibody-RBD crystal structures and the DMS results predict the mutations present in resistant variants selected by in vitro passaging experiments. We tested the activity of the individual antibodies or the cocktail against recombinant authentic viruses containing mutations from several important variants of concern, and demonstrate that the individual antibodies or their combination are capable of potently neutralizing these emerging variants. Recent work from others also has demonstrated that some circulating variants of concern exhibit substantial escape from neutralization of many human monoclonal antibodies in clinical development, but recombinant forms of COV2-2196 and COV2-2130 still potently neutralized pseudoviruses that included the emerging B.1.1.7 and B.1.351 lineages58. Taken together, this work defines the molecular basis for potent neutralization of SARS-CoV-2 by COV2-2196 and COV2-2130 and demonstrates that these antibodies efficiently neutralize emerging antigenic variants either separately or in combination, underscoring the promise of the AZD7442 investigational cocktail for use in the prevention and treatment of COVID-19.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

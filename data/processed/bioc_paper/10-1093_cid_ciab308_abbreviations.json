@@ -1,0 +1,83 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1093_cid_ciab308",
+      "inputfile": "../../data/processed/html_papers/10-1093_cid_ciab308.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "Severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "coronavirus disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "NP",
+          "text_long_1": "nucleocapsid protein",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "IgG",
+          "text_long_1": "immunoglobulin G",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "IgA",
+          "text_long_1": "immunoglobulin A",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "IgM",
+          "text_long_1": "immunoglobulin M",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBD",
+          "text_long_1": "receptor-binding domain",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ICUs",
+          "text_long_1": "intensive care units",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "M3",
+          "text_long_1": "month 3",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "M6",
+          "text_long_1": "month 6",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CDW",
+          "text_long_1": "clinical data warehouse",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "NRC",
+          "text_long_1": "National Reference Center for Respiratory Viruses",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "France",
+          "text_long_1": "from an individual in Créteil",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ID 50",
+          "text_long_1": "inhibitory dose of 50%",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

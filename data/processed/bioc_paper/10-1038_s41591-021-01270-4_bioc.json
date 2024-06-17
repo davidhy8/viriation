@@ -1,0 +1,118 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1038_s41591-021-01270-4",
+      "inputfile": "../../data/processed/html_papers/10-1038_s41591-021-01270-4.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Neutralization of SARS-CoV-2 spike 69/70 deletion, E484K and N501Y variants by BNT162b2 vaccine-elicited sera",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 109,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "are located in the N-terminal domain of the spike S1 fragment; deletion of these residues might allosterically change S1 conformation 6 . The D614G mutation is dominant in circulating strains around the world 7, 8 . 3) Mutant E484K + N501Y + D614G virus additionally contains the E484K substitution, which is also located in the viral RBD. The E484K substitution alone confers resistance to several monoclonal antibodies 9, 10 . Compared to the wild-type (WT) USA-WA1/2020 strain, the three mutant viruses showed similar plaque morphologies on Vero E6 cells ( Supplementary Fig. 2 ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 701,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We tested a panel of human sera from 20 participants in the previously reported clinical trial 1,2 , drawn 2 or 4 weeks after immunization with two 30-μg doses of BNT162b2 spaced 3 weeks apart ( Supplementary Fig. 3 ). All neutralization assays were done with the same 20 sera samples, with the two experiments (as described in the Fig. 1 legend) done at different times. Each serum was tested for neutralization of WT USA-WA1/2020 strain and the three mutant viruses by a 50% plaque-reduction neutralization assay (PRNT 50 ; Supplementary  Tables 1 and 2 ). All sera showed equivalent neutralization titers between the WT and mutant viruses, with differences of four-fold or less ( Fig. 1) . Notably, ten out of the 20 sera had neutralization titers against mutant Δ69/70 + N501Y + D614G virus that were twice their titers against the WT virus ( Fig. 1b) , whereas six out of the 20 sera had neutralization titers against mutant E484K + N501Y + D614G virus that were half their titers against the WT virus (Fig. 1c) . The ratios of the neutralization GMTs of the sera against the N501Y, Δ69/70 + N501Y + D614G and E484K + N501Y + D614G viruses to their GMTs against the USA-WA1/2020 virus were 1.46, 1.41 and 0.81, respectively ( Supplementary Fig. 4 ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1956,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Consistent with other recent reports of the neutralization of SARS-CoV-2 variants or corresponding pseudoviruses by convalescent or post-immunization sera 11, 12 , the neutralization GMT of the serum panel against the virus with three mutations from the SA variant (E484K + N501Y + D614G) was slightly lower than the neutralization GMTs against the N501Y virus or the virus with three mutations from the UK variant (Δ69/70 + N501Y + D614G). However, the magnitude of the differences in neutralization GMTs against any of the mutant viruses in this study was small (0.81-to 1.41-fold), as compared to the greater than four-fold differences in hemagglutination-inhibition titers that have been used to signal potential need for a strain change in influenza vaccines 13 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2725,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "A limitation of the current study is that the engineered viruses do not include the full set of spike mutations found in the UK or SA variants 3, 4 . Nevertheless, preserved neutralization of N501Y, Δ69/70 + N501Y + D614G and E484K + N501Y + D614G viruses by BNT162b2 vaccine-elicited human sera is consistent with preserved neutralization of a panel of 15 pseudoviruses bearing spikes with other single mutations found in circulating SARS-CoV-2 strains 14 . The emergence of the common mutation N501Y from different geographical regions, as well as the previously emerged globally dominant D614G mutation, suggest that these mutations might improve viral fitness, as recently demonstrated for the increased viral transmission by the D614G mutation in animal models 7, 15 . The biological functions of N501Y and the other mutations (such as Δ69/70 and E484K) remain to be defined for viral replication, pathogenesis and/ or transmission in animal models. A second limitation of the study is that no serological correlate of protection against COVID-19 has been defined. Therefore, predictions about vaccine efficacy based on neutralization titers require assumptions about the levels of neutralization and roles of humoral and cell-mediated immunity in vaccine-mediated protection. Clinical data are needed for firm conclusions about vaccine effectiveness against variant viruses. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4106,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The ongoing evolution of SARS-CoV-2 necessitates continuous monitoring of the significance of changes for vaccine efficacy. This surveillance should be accompanied by preparations for the possibility that future mutations might necessitate changes to vaccine strains. The serological criteria for strain changes of influenza vaccine have been well accepted 16 . For COVID-19, such vaccine updates would be facilitated by the flexibility of messenger RNA-based vaccine technology. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4586,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Any methods, additional references, Nature Research reporting summaries, source data, extended data, supplementary information, acknowledgements, peer review information; details of author contributions and competing interests; and statements of data and code availability are available at https://doi.org/10.1038/ s41591-021-01270-4. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4921,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5058,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "NATuRE MEDiCiNE | VOL 27 | APRIL 2021 | 620-621 | www.nature.com/naturemedicine ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5138,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "NATuRE MEDiCiNE | www.nature.com/naturemedicine ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

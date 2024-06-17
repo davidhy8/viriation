@@ -1,0 +1,88 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1128_aac-00568-23",
+      "inputfile": "../../data/processed/html_papers/10-1128_aac-00568-23.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Identification of Tecovirimat Resistance-Associated Mutations in Human Monkeypox Virus -Los Angeles County",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 106,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": " LETTER ecovirimat (also known as TPOXX or ST-246) is a drug available for the treatment of mpox through the Centers for Disease Control and Prevention's Expanded Access Investigational New Drug \"compassionate use\" protocol (https://www.cdc.gov/poxvirus/monkeypox/clinicians/Tecovirimat.html). In Los Angeles County, a fatal case of mpox with tecovirimat resistance was previously reported (1). Epidemiologic surveillance in Los Angeles County has since identified additional cases of severe mpox that did not improve after multiple rounds of tecovirimat treatment, including one involving a person who succumbed to infection (Table 1). Consistent with reports describing severe manifestations of mpox within the current global outbreak (1, 2), the identified cases involved host immunodeficiency due to advanced HIV infection.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 941,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Tecovirimat targets the conserved orthopoxvirus VP37 envelope protein required for extracellular virus particle generation, and previous studies from monkeypox virus (MPXV) and other orthopoxviruses identified more than 20 mutations in VP37 associated with tecovirimat resistance (https://www.fda.gov/emergency-preparedness-and-response/mcm-issues/fda-mpoxresponse#therapeutics) (1, 3) . To determine whether these identified cases involved tecovirimat resistance, MPXV specimens were subjected to whole-genome sequencing and examined for mutations in the homolog of the vaccinia virus Copenhagen F13L gene that encodes VP37 protein (1, 4). All specimens encoded lysine at amino acid position 353, which is prevalent within the current outbreak and does not affect tecovirimat sensitivity (5) . Specimens from six cases harbored a cumulative total of eight VP37 mutations associated with resistance in prior studies: H238Q, P243S, N267D, A288P, A290V, D294V, A295E, and I372N (Table 2 ). Five previously undescribed mutations of unknown significance were also identified (T220A/I, T245I, A265D, and T289A), which may represent novel tecovirimat-interacting residues. Allele frequency analysis demonstrated resistance mutation heterogeneity within single lesion specimens, and different mutations were identified among distinct lesion specimens from the same person, suggesting mutations were acquired during treatment. Consistent with a de novo process, comparison of specimens collected before and after treatment in a single person (Patient F) showed resistance-associated mutations in VP37 only after treatment exposure ( Table 2) . Phenotypic testing of MPXV cultured from a subset of specimens (1, 5) displayed a wide range of tecovirimat resistance levels in vitro compared to wild-type isolates (Table 2) , arguing these mutations confer resistance within currently circulating strains. For heterogenous cultures with multiple VP37 mutations, it is unclear how much individual mutations contribute to resistance and whether resistance is due to single or multiple mutations, especially in cases with low allele frequencies. It is also possible that uncharacterized mutations outside of VP37 enhance or diminish tecovirimat resistance. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3183,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "These findings demonstrate that tecovirimat resistance can arise in the setting of prolonged treatment exposure with host immunodeficiency and underscore the need for combined therapeutics with different viral targets (including VIGIV and cidofovir/brincidofovir) (6, 7) when treating mpox in certain people (8) , as is the case with progressive vaccinia (9) . Clinical management should ensure effective drug delivery/dosing (e.g., making sure oral tecovirimat is taken with a fatty meal) and optimization of immune function when treating with tecovirimat to prevent resistance from developing. Additionally, this work suggests that sequencing of MPXV to identify tecovirimat resistance could serve as a valuable clinical tool. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3912,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Use of trade names and commercial sources are for identification only and do not imply endorsement by the U. The Los Angeles County Department of Public Health Institutional Review Board (IRB) determined that this study met the criteria for not research per 45 CFR 46.102(e). Therefore, IRB review was not needed. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4226,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "f Fold change = observed EC 50 compared to EC 50 for MPXV Clade IIa (US, 2003 strain). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4313,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "g Lt = Left. h Rt = Right. i Previously unassociated with tecovirimat resistance; #Tecovirimat-naïve specimen. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

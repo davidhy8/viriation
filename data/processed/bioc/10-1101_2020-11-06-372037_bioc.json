@@ -1,0 +1,289 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2020-11-06-372037",
+      "inputfile": "../../data/processed/html/10-1101_2020-11-06-372037.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Landscape analysis of escape variants identifies SARS-CoV-2 spike mutations that attenuate monoclonal and serum antibody neutralization",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 135,
+          "infons": {
+            "section_title_1": "INTRODUCTION",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Control of the SARS-CoV-2 pandemic likely will require the deployment of multiple countermeasures including therapeutics and vaccines. Therapeutic candidates in development include several monoclonal antibodies (mAbs) (Baum et al., 2020a; Baum et al., 2020b; Zost et al., 2020) that recognize the SARS-CoV-2 spike (S) protein, which decorates the virion surface (Ke et al., 2020). The S protein is comprised of an N-terminal subunit (S1) that mediates receptor binding and a C-terminal subunit (S2) responsible for virus-cell membrane fusion (Wrapp et al., 2020). During viral entry into cells, the receptor-binding domain (RBD) of S1 engages the primary receptor, human angiotensin converting enzyme 2 (hACE2) (Letko et al., 2020). Processing of S by host cell proteases, typically TMPRSS2, TMPRSS4, or endosomal cathepsins, facilitates the S2-dependent fusion of viral and host-cell membranes (Hoffmann et al., 2020; Zang et al., 2020). Potently neutralizing antibodies against SARS-CoV-2 target the RBD (Baum et al., 2020b; Brouwer et al., 2020; Rogers et al., 2020; Wu et al., 2020; Zost et al., 2020) with many inhibiting infection by blocking receptor engagement (Alsoussi et al., 2020; Wu et al., 2020). Understanding the epitopes recognized by protective antibodies and whether natural variation in the S protein is associated with resistance to neutralization may predict the utility of antibody-based countermeasures.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1574,
+          "infons": {
+            "section_title_1": "INTRODUCTION",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "RNA viruses exist as a swarm or “quasispecies” of genome sequences around a core consensus sequence (Dolan et al., 2018). Under conditions of selection, such as those imposed by neutralizing antibodies or drugs, variants of the swarm can escape genetically and become resistant. The relative fitness of escape mutants determines whether they are lost rapidly from the swarm or provide a competitive advantage. The intrinsically high error rates of viral RNA-dependent RNA polymerases (RdRp) result in the stochastic introduction of mutations during viral genome replication with substitutions approaching a nucleotide change per genome for each round of replication (Sanjuan et al., 2010). Coronaviruses, because of their large genome size, encode a proofreading 3'-to-5’ exoribonuclease (ExoN, nsp14) that correct errors made by the RdRp during replication (Smith and Denison, 2013). As a result of ExoN activity, the frequency of escape from antibody neutralization by coronaviruses is less than for other RNA viruses lacking such a proofreading enzyme (Smith et al., 2013).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2650,
+          "infons": {
+            "section_title_1": "INTRODUCTION",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Notwithstanding this point, to date, 2,737 mutations have been identified in the S gene of SARS-CoV-2 isolated from humans (CoV-GLUE, 2020; GISAID, 2020). These mutations give rise to 1,133 amino acid changes including 171 substitutions in the RBD. The abundance of several of these variants in the human population suggests they are not accompanied by a fitness loss. Multiple mechanisms likely account for the emergence of such substitutions including host adaptation, immune selection during natural infection, and possibly reinfection of individuals with incomplete or waning immunity. Convalescent plasma therapy, vaccination, and therapeutic antibodies could select for additional variants, and their effectiveness as countermeasures might be compromised by preexisting resistant mutants. Thus, as therapeutic antibodies and vaccines are deployed, it will be increasingly important to define the patterns of antibody resistance that arise.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3595,
+          "infons": {
+            "section_title_1": "INTRODUCTION",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Here, we used a panel of mAbs including 2B04, 1B07 and 2H04 (Alsoussi et al., 2020) and newly-generated neutralizing mAbs against SARS-CoV-2 RBD to select for escape variants and define the mutational landscape of resistance. To facilitate selection, we used a chimeric, infectious vesicular stomatitis virus (VSV) in which the endogenous glycoprotein was replaced with the S protein of SARS-CoV-2 (Case et al., 2020). VSV-eGFP-SARS-CoV-2-SΔ21 (herein, VSV-SARS-CoV-2) replicates to high titer (107-108 PFU/ml within 48 h), mimics the SARS-CoV-2 requirement for human ACE2 as a receptor, and is neutralized by SARS-CoV-2 S-specific mAbs (Case et al., 2020). In two selection campaigns using 19 different mAbs, we isolated 48 different escape mutants within the RBD. Many escape mutations arose proximal to or within the ACE2 binding footprint suggesting that multiple neutralizing mAbs inhibit infection by interfering with receptor engagement. Cross-neutralization studies involving 29 of the escape mutants and 10 mAbs identified mutants that were resistant to multiple antibodies and also those with unique resistance profiles. Remarkably, substitutions at residue E484 of S protein were associated with resistance to neutralization by polyclonal human immune sera, suggesting that some individuals generate neutralizing antibodies recognizing a focused target on the RBD. Resistance to inhibition by soluble recombinant human ACE2, a candidate decoy molecule drug (Chan et al., 2020; Monteil et al., 2020) currently in clinical trials (NCT04375046,  NCT04287686), was observed with an F486S substitution. Cross-referencing of our 48 resistant mutants with sequences of clinical isolates of SARS-CoV-2 demonstrates that some single amino acid variants already circulating will be resistant to monoclonal and polyclonal antibodies. This data and functional approach may be useful for monitoring and evaluating the emergence of escape from antibody-based therapeutic and vaccine countermeasures as they are deployed.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5612,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Figure 1.: VSV-SARS-CoV-2 escape mutant isolation.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To select for SARS-CoV-2 S variants that escape neutralization, we used VSV-SARS-CoV-2 (Case et al., 2020) and mAb 2B04 which was generated from cloned murine B cells following immunization of C57BL/6 mice with recombinant RBD and boosted with recombinant S. Antibody neutralization resistant mutants were recovered by plaque isolation (Fig 1A), and their resistance was verified by subsequent virus infection in the presence or absence of antibody. Antibody 2B04 failed to inhibit VSV-SARS-CoV-2 resistant variants as judged by plaque number and size (Fig 1B). Sequence analysis identified the mutations E484A, E484K, and F486S (Fig 1B), each of which fall within the RBD and map to residues involved in ACE2 binding (Lan et al., 2020) (Fig 2).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6414,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Figure 1.: VSV-SARS-CoV-2 escape mutant isolation.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We extended this neutralization escape approach to nine additional inhibitory mAbs (Fig S1, S2 and Table 1). Sequence analysis of each isolated plaque identified multiple mutations within the RBD (Table 2), which we positioned on the reported crystal structure (PDB: 6M0J) (Fig 2): 2B04 (green), 2H04 (lime), 1B07 (blue), SARS2-01 (yellow), SARS2-02 (teal), SARS2-07 (tangerine), SARS2-16 (violet), SARS2-19 (red), SARS2-32 (fuschia), and SARS2-38 (magenta). Substitutions that led to resistance of mAbs 2B04, 1B07, SARS2-02, SARS2-07, SARS2-16, SARS2-32, and SARS2-38 cluster within and proximal to the ACE2 binding site. Resistance to antibodies SARS2-01 and SARS2-19 mapped to substitutions at sites on the side of the RBD (Fig 2). MAb 2H04 gave rise to resistance mutations that map exclusively on the side and the base of the RBD (Fig 2). The identification of resistance mutations at the side of the RBD in combination with structural data on 2H04 in complex with SARS-CoV-2 spike suggest that the mechanism of virus neutralization may be through blocking interactions with alternative attachment factors (Errico et al., in submission). The presence of resistance mutations at the base of RBD, which lie outside the 2H04 binding footprints, suggests an allosteric mechanism of resistance, perhaps related to the ability of the RBD to adopt the up conformation requisite for ACE2 binding.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7807,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Figure 1.: VSV-SARS-CoV-2 escape mutant isolation.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "From this panel of mAbs, we observed resistance substitutions at shared positions. Four mAbs yielded substitutions at E484 (2B04, 1B07, SARS2-02, and SARS2-32), three resulted in changes to residues G446 (SARS2-02, SARS2-32, and SARS2-38) and S477 (SARS2-07, SARS2-16 and SARS2-19), and two prompted escape substitutions at F486 (2B04 and 1B07), K444 (2H04 and SARS2-38), L452 (SARS2-01 and SARS2-32), and N450 (SARS2-07 and SARS2-32), and R346 (2H04 and SARS2-01). The overlapping nature of these epitopes suggests they represent major antigenic sites within the RBD. Although amino acid changes were selected at the same position, many of the substitutions were distinct, consistent with a unique mode of binding for each antibody.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8540,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Figure 1.: VSV-SARS-CoV-2 escape mutant isolation.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Two mAbs gave rise to variants containing linked amino acid substitutions: 2H04 (T345A and L517R) and SARS2-19 (S477N and S514F). For 2H04, substitution T345A likely arose first, as we isolated this mutation alone, and acquisition of the L517R substitution appeared to increase viral fitness as judged by plaque morphology (Fig S2). For SARS2-19, S477N was isolated as a single variant suggesting that this substitution arose first, however acquisition of the S514F did not alter plaque morphology (Fig S2). As the L517R or S514F substitutions were not identified alone, it remains unclear whether they cause resistance to 2H04 or SARS2-19 respectively. Collectively, these results show that escape mutational profiling can identify key epitopes and dominant antigenic sites.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9315,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Figure 3.: Map of cross-neutralizing activity of VSV-SARS-CoV-2 mutants.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We next evaluated whether individual mutants could escape neutralization by the other inhibitory mAbs in the panel. We tested the 29 identified escape mutants for neutralization by ten different mAbs. We defined the degree of resistance as a percentage by expressing the number of plaques formed by each mutant in the presence of antibody versus its absence. We plotted the degree of resistance to neutralization as a heat map and arbitrarily set 50% as the cut-off value for defining resistance (Fig 3). Substitutions at residues T345, R346, K444, G446, N450, L452, S477, T478, E484, F486 and P499 each were associated with resistance to more than one mAb, with substitutions at S477 and E484 exhibiting broad resistance (Fig 3). For residues at which multiple alternate amino acids with different side chains were selected, each particular substitution was associated with a unique resistance profile. For example, K444E was resistant to SARS2-38 and 2H04 with some resistance to SARS2-1, SARS2-2 and SARS2-7, whereas K444N conferred complete resistance to SARS2-38, partial resistance to 2H04 and only weak resistance to SARS2-1 and SARS2-2. G446D was resistant to SARS2-2, SARS2-32 and SARS2-38, but G446V acquired resistance to SARS2-01. Substitutions N450K and N450Y were resistant to SARS2-01 and SARS2-32, whereas N450D facilitated resistance to SARS2-07. Substitution L452R conferred resistance to SARS2-01, SARS2-02, and SARS2-32; S477N, S477G and S477R were each highly resistant to SARS2-07, SARS2-16, and SARS2-19, and S477N and S477G result in a degree of resistance across the entire panel of antibodies; and T478I yielded resistance to SARS2-16 and SARS2-19.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11061,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Figure 3.: Map of cross-neutralizing activity of VSV-SARS-CoV-2 mutants.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Escape variants at residue E484 were isolated using 2B04, 1B07, SARS2-02, and SARS2-32, and specific substitutions at this residue led to varying degrees of resistance across the entire panel of antibodies. E484A exhibited a high degree of resistance to 2B04, 1B07, SARS2-01, SARS2-07, SARS2-19, SARS2-32, SARS2-38; E484G exhibited resistance to 2B04, 1B07, SARS2-01, SARS2-32 and SARS2-38; E484K was resistant to 2B04, 1B07, SARS2-01, SARS2-02, SARS2-16 and SARS2-32; and E484D was resistant only to 1B07 (Fig 3 and S3). Substitution F486S was resistant to 2B04, 1B07, SARS2-07, SARS2-16 and SARS2-19, whereas F486Y exhibited resistance only to 1B07 and SARS2-16. Finally, substitution P499L was resistant to SARS2-07, SARS2-16, and SARS2-19. In addition to demonstrating that some mutations confer resistance to multiple neutralizing mAbs, these data suggest that each mAb recognizes distinct yet partially overlapping epitopes.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11991,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Figure 4.: Neutralization potency of hACE2 decoy receptors against each VSV-SARS-CoV-2 mutant.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Soluble human ACE2 decoy receptors are under evaluation in clinical trials for treatment of COVID-19 (NCT04375046 and NCT04287686). As several of the escape mutants contain substitutions within or proximal to the ACE2 binding site, we evaluated the ability of soluble recombinant ACE2 to inhibit infection of each variant. We incubated each VSV-SARS-CoV-2 mutant with increasing concentrations of soluble human (h) or murine (m) ACE2-Fc for 1 h at 37°C and measured residual infectivity on Vero E6 cells (Fig 4A and S4). As observed with chimeric viruses expressing the wild-type S protein, all of the escape mutants were inhibited by hACE2-Fc but not mACE2-Fc. However, the extent of neutralization by hACE2-Fc varied (Fig 4A), with some mutants more sensitive to receptor inhibition and others exhibiting relative resistance. Substitutions at residues R346, A352, N450, S477, S494 and P499 were more sensitive to inhibition by soluble hACE2 than the wild-type S as evidenced by reduced IC50 values (Fig 4A) and leftward shifts of the inhibition curves (Fig S4). This effect was substitution-dependent as N450K was 6-fold more sensitive to hACE2 than N450Y (P < 0.001). Several mutants required higher (3-5-fold) concentrations of hACE2 to block infection, including substitutions at T345A, T345N, G446D, G446V, E484D and F486Y. Again, the specific substitution of a given residue impacted the effect, as T345A and T345N required higher concentrations of hACE2 to inhibit infection, whereas T345S was similar to wild type. Of the 4 substitutions observed at position E484, only E484D was less sensitive (4.6-fold, P < 0.0001) to hACE2 inhibition. The most striking effect was observed for F486S, where we achieved 38% inhibition at the highest concentration (20 μg/ml) of hACE2-Fc tested (Fig 4A and B). Residue F486 is located on the top of the hACE2 contact loop of RBD, and the presence of a large hydrophobic residue facilitates efficient receptor engagement (Lan et al., 2020; Shang et al., 2020). Although this substitution alters sensitivity to soluble ACE2 inhibition of infection, its impact on cell surface ACE2 engagement was not examined.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14236,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Figure 5.: Neutralization potency of human serum against each VSV-SARS-CoV-2 mutant.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We previously evaluated the ability of immune convalescent plasma from humans to neutralize VSV-SARS-CoV-2 and defined a strong correlation with inhibition of a clinical isolate of SARS-CoV-2 using a focus reduction neutralization test (FRNT) (Case et al., 2020). We tested four of the serum samples (13, 29, 35 and 37) from patients who had recovered from COVID-19 against our panel of escape mutants. All four sera neutralized infection of VSV-SARS-CoV-2-S displaying the wild-type S protein as we previously demonstrated. Remarkably, several of the escape mutants were resistant to neutralization at the highest concentration (1:80 initial dilution) of sera tested. All four of the substitutions at residue E484 were resistant to each of the four sera, suggesting that this is a dominant neutralizing epitope. Indeed, change at E484 was the only position that led to escape from sera 29 (Fig 5A-B, and S5). Four other substitutions (K444E, G446V, L452R and F490S) resulted in resistance to neutralization of sera 13, 35 and 37 (Fig 5A and S5). Substitutions N450D and N450Y but not N450K were resistant to sera 13 and 35. Sera 13 and 35 also did not efficiently neutralize S477G, L441R, and T478I. All four sera neutralized the single substitution S477N as well as wild-type virus (Fig 5A-B). Substitution S477N was sensitive to neutralization by sera 13 and 35 except in the presence of a second S514F substitution (Fig 5A and S5). Additional amino acid substitutions that conferred resistance to serum 13 include T345S and G446D. Substitution F486S, which altered sensitivity to soluble ACE2, escaped neutralization by serum 35 but not 13, 29 or 37. Thus, individual escape mutants can exhibit resistance to neutralization by polyclonal human convalescent sera. This observation suggests that the repertoire of antigenic sites on RBD that bind high titer neutralizing antibodies is limited in some humans.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16230,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Figure 6.: Mapping of additional VSV-SARS-CoV-2 escape mutants.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To broaden our analysis, we performed a second campaign of escape mutant selection using nine additional neutralizing mAbs generated against the RBD (Fig 6, S6, S7 and Table 2). This provided 19 additional escape mutants, bringing the total to 48. To determine whether any of the 48 escape mutants we isolated represent S protein variants circulating in humans, we compiled all publically available genome sequences of SARS-CoV-2. Using 161,182 genomes from GISAID, we calculated the substitution frequencies throughout RBD protein (Fig 7A) and mapped the identified residues onto RBD structure (Fig 7B). Of the 48 escape variants we selected, 27 are present in circulating human isolates of SARS-CoV-2 (Fig 7A). The most frequent S sequence variant seen in clinical isolates is D614G which is present in 86% of sequenced isolates. The second most frequent substitution is S477N, which is present in 5.1% of sequenced isolates and the dominant virus in Oceana. The penetrance of the remaining substitutions among clinical isolates is relatively low, with G446V, P479S and T478I ranking 66, 76 and 82 of the top 100 variants in S or roughly 0.1% of sequenced variants. Collectively, this analysis highlights that neutralizing mAbs against RBD can select for variants or changes at positions that already exist within the human population and establishes that some substitutions are present at high frequency.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17700,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Therapeutic mAbs, convalescent plasma, and vaccines are in clinical development as countermeasures against SARS-CoV-2. The efficacy of these strategies will be impacted by viral mutants that escape antibody neutralization. To define the landscape of mutations in the RBD associated with resistance, we selected escape mutants to 19 neutralizing mAbs that include some in clinical development. Characterization of escape mutants identified several that exhibit resistance to multiple antibodies, convalescent human sera, and soluble receptor decoys. Resistance to neutralization by serum from naturally infected humans suggests that the neutralizing response to SARS-CoV-2 in some individuals may be dominated by antibodies that recognize relatively few epitopes. Some escape mutants contain substitutions in residues at which variation already is observed in circulating human isolates of SARS-CoV-2. If a similar limited polyclonal response occurred following S protein-based vaccination, escape variants could emerge in the human population and compromise their efficacy.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18783,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "From 19 different mAbs that neutralize SARS-CoV-2, we isolated 48 viral variants that escape neutralization. Selection of escape mutants was facilitated by the use of VSV-SARS-CoV-2, which we previously validated as an effective mimic of SARS-CoV-2 S protein mediated infection (Case et al., 2020). The mAbs were obtained following immunization with soluble RBD, and although some mice received a boost with stabilized S ectodomain protein, all escape substitutions map within the RBD. Multiple different mAbs led to resistance substitutions at K444, G446, N450, L452, S477, T478, P479, E484, F486 and P499, suggesting that they comprise major antigenic sites within the RBD. In earlier work, substitutions at residues K444, N450, E484 and F486 were identified using two antibodies that are in clinical development (Baum et al., 2020b), and a separate study using three different antibodies defined resistance substitutions at R346, N440, E484, F490 and Q493 (Weisblum et al., 2020).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19766,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The mutations we selected also inform the mechanism by which the different antibodies function. All of the resistance mutations we identified map within or proximal to the ACE2 binding site. Likely, the majority of the antibodies we tested neutralize infection by interfering with receptor engagement. Antibodies from human survivors also interfere with receptor engagement (Wu et al., 2020; Zost et al., 2020) suggesting it is a common mechanism of neutralization. Some of the resistance mutations from 2H04, SARS2-01 and SARS2-31 we identified map outside the ACE2 binding site including at the side and the base of the RBD. Structural studies on the mechanism by which 2B04 and 2H04 neutralize SARS-CoV-2 support inhibition by directly competing with ACE2 binding and an indirect mechanism, respectively. Direct competition with ACE2 binding is consistent with the escape mutants we selected with 2B04, and an indirect mechanism fits with the escape mutants we identified to 2H04. The structural studies on 2H04 are consistent with a mechanism of impeding interaction for alternative attachment factors (Errico et al., in submission). Our finding of an escape mutant to 2H04 located at the base of the RBD, outside the footprint of the antibody, suggests an allosteric mechanism of resistance. This mutation may affect the ability of the RBD to adopt the up conformation that is necessary for engagement of the cellular receptors perhaps shielding the epitope by maintaining the RBD in the down conformation. Further structural and functional work is required to define how different mutations promote antibody resistance and determine the mechanisms by which specific antibodies inhibit SARS-CoV-2 infection.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21478,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The relatively low genetic barrier to resistance combined with knowledge of the presence of relevant substitutions in clinical isolates suggests that effective mAb therapy likely will require a combination of at least two neutralizing antibodies (Baum et al., 2020a; Baum et al., 2020b; Du et al., 2020; Greaney, 2020; Li et al., 2020; Weisblum et al., 2020). Profiling whether different residues are associated with resistance to specific antibodies could facilitate the selection of combinations based on their non-overlapping resistance mutations. Although we isolated several escape mutants that exhibit cross-resistance to multiple antibodies, other antibodies are associated with unique and non-overlapping resistance. Resistance to such combinations could still arise through sequential escape whereby a resistant variant to one antibody acquires resistance to a second. Sequential escape could be favored in vivo for two antibodies with different half-lives, or where a pre-existing resistant variant to one antibody already is circulating.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22526,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Substitution S477N, the second most abundant variant in circulating human isolates of SARS-CoV-2, led to a degree of resistance to all of the mAbs we profiled, including 2B04 and 2H04. Structures of 2B04 and 2H04 in complex with S protein highlight their mutually distinct contacts with the RBD (Errico et al., in submission). How S477N could lead to such broad resistance is of interest, given its penetrance among clinical isolates. One possible explanation may relate to changes in glycosylation at this position. Additional analysis is required to determine how broad the resistance associated with S477N is, and to probe the mechanism by which it occurs.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23185,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Substitutions at position E484 were associated with resistance to neutralization by several convalescent human sera. Four variants at this position (E484A, E484D, E484G and E484K) exhibited resistance to each of the human convalescent sera we tested. This suggests that high titer neutralizing antibodies may be directed toward a narrow repertoire of epitopes following natural infection. Substitution at position 484 is relatively uncommon among clinical isolates, with just 0.05% of sequenced strains showing any variation at this position, suggesting that variation at this position may come with an apparent fitness cost for viral replication. Despite this point, the relative resistance of the substitutions at this position to the human sera tested highlight how variants at single position can escape neutralization. Given the apparent limited breadth of the human neutralizing antibody response to natural infection, it will be important to define the epitope repertoire following vaccination and develop strategies that broaden neutralizing antibody responses. In this regard, the 48 viral mutants described here, combined with additional mutants reported in related studies (Baum et al., 2020b; Greaney, 2020; Li et al., 2020; Weisblum et al., 2020), provide a compendium of functionally relevant S protein variants that could be used to profile sera from vaccine recipients in existing clinical trials.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24598,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Among the escape variants we selected, there were several that exhibited altered susceptibility to neutralization by soluble ACE2. Substitution F486S was particularly notable, as we were unable to attain 50% neutralization at the highest concentrations of soluble ACE2 tested (>20 μg/ml). The finding of an antibody escape mutant mapping to a critical residue within the ACE2 binding raises questions regarding possible receptor usage by viruses containing S proteins with F486S. Future studies that introduce F486S into an infectious cDNA clone of SARS-CoV-2 are needed to determine the significance of this change to hACE2 interactions in vivo.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25244,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Use of chimeric VSV that depends on SARS-CoV-2 S protein for entry into cells greatly facilitated the selection of 48 escape mutants. Although this chimeric VSV serves as an effective mimic of SARS-CoV-2 spike mediated entry and viral neutralization, sequence analysis of circulating human isolates reveals that 27 of those escape mutants are present in the context of infectious SARS-CoV-2. The remaining 21 variants may represent S sequences with compromised fitness in the background of SARS-CoV-2 highlighting one potential limitation of our work. Additional limitations of our study are the relatively few polyclonal human sera that we profiled against the panel of escape mutants that suggests substitutions at residue 484 are associated with resistance. Additional human sera samples at lower dilution factors may help determine the extent to which serum based neutralization of virus is affected by the escape mutants.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

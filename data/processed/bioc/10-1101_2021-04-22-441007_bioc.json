@@ -1,0 +1,330 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-04-22-441007",
+      "inputfile": "../../data/processed/html/10-1101_2021-04-22-441007.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Amino acids 484 and 494 of SARS-CoV-2 spike are hotspots of immune evasion affecting antibody but not ACE2 binding",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 114,
+          "infons": {
+            "section_title_1": "Main Text",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Severe acute respiratory syndrome coronavirus–2 (SARS-CoV-2) is the virus responsible for the pandemic of coronavirus disease 2019 (COVID-19) (1) that has caused more than 140 million infections and provoked the death of over 3 million people (as of April 18, 2021). A pertinent question is whether viral evolution will permit escaping immunity developed by natural infection or by vaccination. The answer to this multi-layered and complex question depends on the type, duration and heterogeneity of the selective pressures imposed by the host and by the environment to the virus, but also on the rate and phenotypic impact of the mutations the virus acquires. The central question is whether the virus is able to select mutations that escape host immunity while remaining efficient to replicate in the host (2–4). Identifying hotspots of viral immune evasion is critical for preparedness of future interventions to control COVID-19.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1056,
+          "infons": {
+            "section_title_1": "Main Text",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "SARS-CoV-2 is an enveloped virus characterized by displaying spike proteins at the surface (5). Spike is critical for viral entry (6) and is the primary target of vaccines and therapeutic strategies, as this protein is the immunodominant target for antibodies (7–11). Spike is composed of S1 and S2 subdomains. S1 contains the N-terminal (NTD) and receptor-binding (RBD) domains, and the S2 contains the fusion peptide (FP), heptad repeat 1 (HR1) and HR2, the transmembrane (TM) and cytoplasmic domains (CD) (12). S1 leads to the recognition of the angiotensin-converting enzyme 2 (ACE2) receptor and S2 is involved in membrane fusion (6, 13, 14). Spike binds to ACE2 displayed at the host cell surface, followed by proteolytic cleavage to yield S1 and S2 fragments (6). Interestingly, the spike protein oscillates between distinct conformations to recognize and bind different host factors (15, 16). In the prefusion state, the RBD domain alternates between open (‘up’) and closed (‘down’) conformations (5, 17). For binding to the ACE2 receptor, the RBD is transiently exposed in the ‘up’ conformation. However, most potent neutralizing antibodies elicited by natural infection (9, 11, 18) and by vaccination (7, 10) bind spike in the closed (‘down’) conformation. Understanding how each amino acid of spike dynamically interacts with either antibodies or ACE2 receptor may reveal the amino acid residues that are more prone to suffer mutations that drive immunological escape without affecting viral entry.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2565,
+          "infons": {
+            "section_title_1": "Main Text",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Viral mutations may affect host pathogen interactions in many ways: affect viral spread, impact virulence, escape natural or vaccine-induced immunity, evade therapies or detection by diagnostic tests, and change host species range (19, 20). Therefore, it is critical to survey circulating variants and assess their impact in the progression of SARS-CoV-2 dynamics in the population, in real time. Being a novel virus circulating in the human population, SARS-CoV-2 evolution displayed a mutational pattern of mostly neutral random genetic drift until December 2020. In fact, the D614G mutation in the spike protein was amongst the few epidemiologically significant variants, resulting in increased transmissibility without affecting the severity of the disease (21, 22). However, from the end of 2020, three divergent SARS-CoV-2 lineages evolved into fast-spreading variants that became known as variants of concern B.1.1.7 [United Kingdom (UK)] (23), B.1.351 [South Africa (SA)] (24) and P.1 (Brazil) (25). More recently, two lineages were added to this list, B.1.427 and B.1.429 [California, United States of America (USA)] (23, 26), as well as several lineages of interest that carry the mutation E484K, including P.2 (27) and B.1.1.7 containing E484K. These variants present alterations in the spike protein that change its properties: increase transmissibility and virulence (28, 29) and/or escape immunity developed by natural infection (30, 31), therapies (32–34), vaccination (35), detection (36); and change the host species range (37). Mutations in the RBD of spike may severely affect viral replication and host immune response since, as explained above, this region is responsible for binding to ACE2 and is immunodominant. Three mutations D614G, N501Y and L452R are associated with an increased ACE2 binding affinity in humans and increased viral transmission (21, 22, 28, 38). Y453F was associated with a mink-to-human adaptation in cluster 5 (39). L452R and N439K are associated with modest reduction in antibody-dependent neutralization by immune sera, whilst in variants containing E484K display a reduction that is moderate to substantial (40). Variants, however, contain several other mutations. Interestingly, some mutations are convergent whilst others are unique in lineages (41). For example, in B.1.351 and P.1 lineages, mutations in amino acid residues at positions 18 (L18F) and at position 417 (S417N, or S414T in some P.1 cases) were observed. A two amino acid deletion at position 69-70 in the S protein is observed in cluster 5 and lineages B.1.1.7, B.1.525 and B.1.258 (42). The appearance of shared mutations in distinct and rapidly spreading SARS-CoV-2 lineages suggests that these mutations, either alone or in combination, may provide fitness advantage. In principle, mutations in the NTD, furin cleavage site or HR1 may affect the function of spike, as well as any mutation that results in conformational rearrangements of the RBD. Therefore, it is important to understand how synergetic interactions in spike collectively change the RBD.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5639,
+          "infons": {
+            "section_title_1": "Main Text",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Serum neutralizing antibodies were shown to develop upon natural SARS-CoV-2 infection (43) or vaccination (44, 45), and last at least several months (46–48). The alarm caused by the emergence of SARS-CoV-2 variants with the potential to escape host immunity acquired through infection or vaccination has been confirmed by a series of reports about lineages B.1.351 and P.1. (30, 31, 35, 49, 50). These raise concerns on whether a reduction in vaccine efficacy could result in re-infections and delay the reduction in mortality caused by circulating SARS-CoV-2. There is, therefore, the urgent need to develop mutation-tolerant vaccines (and biopharmaceuticals) targeting the skype protein. In this sense, it is critical to determine what makes mutations well tolerated for the viral lifecycle whilst efficiently escaping immunity. In this work, we engineered spike-pseudotyped viruses and analyzed individual and combined mutations that convergently appeared in different lineages, over time, and across several geographic locations, to determine their synergetic effects on neutralizing-antibody responses. We then used available structures of the complexes spike-antibodies and spike-ACE2 to determine the distance between each amino acid residue in the complex and the frequency of interactions of each amino acid residue of the RBD with either ACE2 or antibodies. We found a moderate reduction in neutralizing potency of sera against SARS-CoV-2 spike-pseudotyped lentivirus containing single mutations at position 484 and 494. In the case of the 484 mutation, the reduction became substantial with addition of synergetic mutations K417N and N501Y. In addition, we show that the amino acid residues at positions 484 and 494 frequently engage in binding to antibodies but not in binding to the receptor ACE2. Our work suggests that the amino acid residues at the RBD that are more dispensable for binding to ACE2 can more promptly evolve immune escape mutants if the amino acid residue substitution severely alters the binding specificity of the antibody.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7696,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure S1:: Geographical spike mutations and prevalence of COVID-19.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Geographical distribution of mutations and associated prevalence is important, not only to track viral evolution and dynamics of lineages circulating worldwide, but also to identify recurrent mutations and ultimately tailor preventive measures to contain the virus. We used the pipeline https://github.com/wtsi-hpag/covidPileup [github.com] to trace single nucleotide polymorphisms (SNPs, in a given country or region. We explored a comprehensive data set containing 416,893 sequences of SARS-CoV-2 downloaded from GISAID to unravel the dispersal history and dynamics of spike mutations observed in SARS-CoV-2 viral lineages in the geographic locations in different continents divided as Australia (AUS), UK, European Union (EU), SA and USA, and integrated the data with viral circulation in these areas, measured by the number of new cases per week (fig. S1). Most of the regions were selected based on the appearance of specific lineages and variants of concern. Australia was included because of the restrictive measures of entering the country, closeness to Asia, for geographical dispersion and for constituting an almost independent evolutionary landscape. These geographical locations were selected based on availability of sequenced samples during the period analyzed (from the 29th December 2019 until week 5 of 2021). Based on the reference genome NC_45512 (Wuhan-Hu-1, 29903 bases), the pipeline detected 3,766,497 SNPs and 2209 indels covering 25443 genome locations. For this study, we selected only mutations in spike because this protein is responsible for viral recognition of ACE2 receptor (6, 12, 14, 51) and for inducing neutralizing antibodies in the host (10). Of note, antibodies with neutralizing capacity were shown to bind to the NTD, but mostly to the RBD of spike (2, 11, 49, 52, 53). Many reports showed how single mutations change host neutralizing capacity and demonstrated that variants of concern B.1.351, P.1., or others including the mutation E484K, are able to escape immunity (30, 34, 40, 54). Whilst mutations on the RBD may sterically block binding of spike to ACE2, other mutations in spike may affect the conformation of the protein thereby impacting antibody recognition. Given this, we broaden our selection of mutations to include variants of concern and of interest (up to all mutations in lineages B.1.1.7, B.1.351, P.1., B.1.427/ B.1.429, table S1), on their prevalence (fig. S2), or convergent appearance in different lineages over time. In terms of prevalence, the S477N mutation was accompanied by a peak of incidence in Australia from week 23-36 of 2020 and reached a prevalence of 20% worldwide (figs. S1 and S2). The L18F alone or combined with A222V was also accompanied by a peak in incidence in the UK and EU in weeks 38-45 of 2020, and in South Africa from week 42-to present and reached 20% incidence worldwide. Other single mutations include L452R and E484K with a global prevalence of up to 6% worldwide; D839Y with peaks up to 2.5% during weeks 7-19 of 2020; Q675H, from week 23-present; deletion of amino acid residues at positions 69/70 combined with Y543H from week 39-51 of 2020; and D936Y from week 9-37 of 2020 (figs. S1 and S2). The phenotypic evaluation of SARS-CoV-2 mutations comprises several layers and includes the interaction of the virus with the host, disease severity and epidemiology. In this study, we evaluated evasion to host neutralizing antibodies.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11202,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure S1:: Geographical spike mutations and prevalence of COVID-19.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "All mutations engineered in this study, and the domain in spike in which they occur, are highlighted in Fig. 1B and C, detailed in table S1 and shown at the structural level in figs. S3-S5. In addition, to understand how interactions in spike collectively change the RBD, we evaluated individual or a combination of mutations on spike associated with variants of concern (up to all defining mutations, shown in table S1 and Fig. 2A-D) and have overall produced 22 different spike-pseudotyped viruses (listed in table S1). The mutations in the RBD region used in this study are highlighted also in the open (‘up’) conformation (Fig. 1C), showing the different conformational changes that each amino acid residue undergoes in this region.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11938,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure S1:: Geographical spike mutations and prevalence of COVID-19.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The different spike versions served to engineer lentiviral spike-pseudotyped particles through a three-plasmid approach: a plasmid harboring the lentiviral genome, lacking Gag-Pol and envelope proteins, and encoding a GFP reporter; a Gag-Pol expression plasmid; and a plasmid expressing SARS-CoV-2 spike protein (or VSV-G protein, as control). Cells infected by these lentiviruses express GFP and can be easily quantified with high-throughput analytical methods.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12400,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Fig. S6.: Histogram showing expression of human ACE2 by 293T-ACE2 cell line (blue) compared to parental 293T cells (green).",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "For the neutralization assay, we developed a 293T cell line expressing the human ACE2 receptor (fig. S6). The specificity of the assay was assessed using an anti-spike polyclonal antibody and an RBD peptide that competes with the spike protein for viral entry in SARS-CoV-2 spike-pseudotyped but not in VSV G-pseudotyped lentivirus that was used in parallel (fig. S7).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12891,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Fig. S6.: Histogram showing expression of human ACE2 by 293T-ACE2 cell line (blue) compared to parental 293T cells (green).",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We characterized the serum antibodies from 12-16 health care workers, infected with SARS-CoV-2 during spring/summer 2020, for their ability to neutralize our spike-pseudotyped mutant lentiviruses. These sera were tested by ELISA for their anti-spike content and classified as low (up to endpoint titer 1:150), medium (endpoint titer 1:450) and high (endpoint titer from 1:1350) (table S2). We also used 4 negative sera as control (one pre-pandemic and 3 contemporary). Representative neutralization curves of the WT (614G) and original (614D) strains, as well as variants of concern B.1.1.7, B.1.351 and P.1 (containing all defining mutations, listed in table S1) are shown in Fig. 2E and the complete set of neutralization curves in fig. S8. For each neutralization curve, we calculated the half-maximal neutralization titer (NT50), defined as the reciprocal of the dilution at which infection was decreased by 50% (Fig. 2F and fig. S9). Consistent with the literature, the ELISA titer was associated with the neutralizing titer of sera (table S2) (47, 55).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13949,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Fig. S6.: Histogram showing expression of human ACE2 by 293T-ACE2 cell line (blue) compared to parental 293T cells (green).",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "In this paper, we used the Wilcoxon statistical test when comparing NT50s to understand if variants are significantly different from the wild-type. However, to define whether variants are capable of evading neutralization, we use the 4-fold criteria, similar to what has been done with influenza virus, where differences in hemagglutination assays greater than 4-fold highlight the need for vaccine update (35, 56, 57). Data show that, although the spike including all defining mutations of B.1.1.7 exhibited a modest reduction in neutralization titers relative to WT spike, it was still efficiently neutralized by convalescent sera, as observed before (34, 58). Conversely, the complete set of defining mutations of B.1.351 and P.1 consistently showed a reduction in neutralization capacity higher than 4-fold and are considered significantly different from the WT virus (Fig. 2G). We then analysed a series of single, double and triple mutations (Fig. 2H and figs. S6 and S7). We found that the mutations associated with B. 1.1.7 variant N501Y, Δ69-70/N501, Δ69-70/N501+P681H behave as WT spike. The mutation E484K alone reduced sera neutralization capacity by over 5-fold [ratio NT50 mutant/NT50 WT of 0.19±0.21 (geometric mean ± SD)], and inclusion of additional mutations (K417N and N501Y) further decreased the neutralization (0.08±0.05), emphasizing the role of synergic mutations on immune evasion and underscoring the need for evaluating single and combined mutations on variants (50). Other mutations at the NTD, RBD, FP, HR1, TM and CD did not significantly alter sera neutralization efficiency. However, we observed a reduction in some sera to mutation N439K (0.53±0.45) as reported in (40), which was not observed when Δ69-70 was added (Fig. 2H), and also, as reported in (59), in mutation L452R (0.48±0.23) that is associated with the most recent variants of concern B.1.427/9.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15840,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Fig. S6.: Histogram showing expression of human ACE2 by 293T-ACE2 cell line (blue) compared to parental 293T cells (green).",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Importantly, we tested BNT162b2-elicited plasma (collected after the first and second dosage of the Pfizer–BioNTech vaccine) for their capacity to neutralize the spike-pseudotyped particles, expressing WT spike protein or mutants bearing all defining mutations of the variants of concern B.1.1.7, B.1.351 and P.1. Amongst 10 individuals, plasma collected 12 days after the administration of the first vaccine dose displayed anti-spike IgG titers from 1:450 to 1:12150 (table S3), and only one of them exhibited neutralizing capacity (table S3 and fig. S10). BNT162b2-elicited plasma collected 12 days after the administration of the 2nd dose had very high levels of anti-spike IgG (titers 1:36450 -1:109350), higher than any sera collected upon natural infection, and all exhibited neutralizing activity against the variants of concern B. 1.351 and P.1, although with significantly lower efficiency than against the wild type or the B.1.1.7 variant.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16789,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Fig. S6.: Histogram showing expression of human ACE2 by 293T-ACE2 cell line (blue) compared to parental 293T cells (green).",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Collectively, these data show that the spike-pseudotyped lentiviral particle used in this study, in which GFP is the output and is measured by high throughput and cheap methodologies, is suitable to quantitatively assess how single and synergetic mutations in full-length spike affect neutralizing-antibody responses.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17106,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Fig. S11.: S protein-antibody contact frequency histogram.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To determine which spike protein residues are more frequently targeted by neutralizing antibodies, we analyzed 57 structures retrieved from the protein data bank (PBD) containing the spike protein (or only the RBD region) bound to antibodies (table S4). Our results revealed that the receptor binding motif (RBM), in RBD, is the region with the highest frequency of contacts (Fig. 4A and B), consistent with what has been documented (11, 60–63). This region is important for the SARS- CoV-2 infection since it mediates contacts with ACE2 (14, 64, 65) and, for this reason, the binding of antibodies to this region would hinder ACE2 binding and, consequently, the entry of the virus in the cell.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17858,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Fig. S11.: S protein-antibody contact frequency histogram.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "In addition to contacts with the RBD, we also identified other regions of the spike protein with antibody binding sites. The antibodies FC05 and DH1050.1 bind to segments in the N-terminal region (between residues 143-152 and 246-257), region identified as an antigenic site (53), and 2G12 binds to residues 936-941 in the stalk (Fig. 4B and C).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18203,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Fig. S11.: S protein-antibody contact frequency histogram.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To choose the cut-off above which to select the most important residues for antibody binding, we built a histogram (fig. S11). Three distinct groups appear: the first includes residues that have an interaction probability below 20%, the second includes residues whose interaction is between 20% and 45% and the last corresponds to frequent binders (interaction probability over 45%). Within this last group, we find Y449, L455, F456, E484, F486, N487, Y489, Q493, S494, and Y505 residues (Fig. 4A and B). More than half of these residues have hydrophobic side chains, showing that, within the batch of antibodies we studied, the most common binding mode is through hydrophobic contacts. These residues are important for antibody binding, which means that mutations within this group may enable the virus to escape antibodies from patients previously exposed to the WT or another variant, or people vaccinated using WT sequences of the S protein. In fact, prior studies have shown that mutations on most of these residues influence antibody escape (2, 66). For residues L455, F456 and F486, mutations for less hydrophobic residues have been shown to reduce binding by polyclonal antibodies (66) and mutants at site 487 escape human monoclonal antibodies COV2-2165 and COV2-2832(2, 63). Interestingly, our results also show that there is a high prevalence of antibodies binding to E484 (∼50% - Fig. 4B).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19604,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Fig. S11.: S protein-antibody contact frequency histogram.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To be able to escape antibodies while maintaining the ability to efficiently infect cells, the mutations introduced must destabilize the interaction with antibodies while keeping a high binding affinity for ACE2. Thus, we reason that mutations occurring in residues that are relevant for antibody binding but not very relevant for the interaction with ACE2 can be advantageous for the virus. To gain further insights into this subject, we performed molecular dynamics (MD) simulations of the RBD bound to ACE2. These allowed us to determine which RBD residues are relevant for binding to ACE2, and the persistence of these interactions (Fig. 4D). Combining the information on antibody and ACE2 binding allows us to predict which are the most relevant amino acid residues (high affinity for antibodies and low affinity for ACE2). Using these criteria, two residues stand out: E484 and S494 (Fig. 4E, IV quadrant circled in red). These results are consistent with the evidence that E484 is an important mutation site and bring to light a new relevant site: S494. Mutations in S494 have been found in circulating strains, and a mutation S494P was shown to reduce the binding by polyclonal plasma antibodies (66) whilst having no (4) or modest effect (67) in RBD-ACE2 binding. To elucidate the role of this mutation in antibody neutralization, we used our neutralization assay and found that mutation S494P leads to a reduction in neutralization by covalence sera that is significant (Fig. 4F) despite not reaching our 4-fold criteria (ratio of mutant in relation to WT of 0.41±0.08, Fig. 4G). Interestingly, this mutation appeared independently on several occasions and is under positive selection (67) and is now a variant in monitoring (23, 68). Our results indicate that the S494P mutation can not only facilitate the escape of the virus from antibodies, but also maintain the ability to bind to the receptor and enter host cells.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21534,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Fig. S11.: S protein-antibody contact frequency histogram.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Some residues that are important for antibody binding are also involved in frequent interactions with ACE2. Seven of these residues remained bound to ACE2 throughout the whole simulation in all the replicates: L455, F456, F486, N487, Y489, Q493 and Y505 (Fig. 4D, top residues in quadrant II). This group includes residue F456, which was found to be a hotspot for escape mutations (66). Although this may seem contradictory, the same study shows that mutations in this residue were very rarely found in nature and, because of lack of prevalence, were not analyzed (66). We hypothesize that the low mutation rate for this site may be due to the high relevance of this residue for RBD-ACE2 binding. In fact, deep mutational analysis shows that when mutating F546 to any amino acid residue besides its SARS-CoV-1 counterpart (a leucine), the ACE2 binding affinity is reduced (4). Even though a viral strain with a single mutation at the site 456 could escape antibodies, it would be unfit to subsist in nature, due to a reduced ability to infect host cells.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22588,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Fig. S11.: S protein-antibody contact frequency histogram.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Together, the analysis presented here is supported by experimental evidence on mutation-driven binding to ACE2 and escape to antibodies (2–4), as well was with the emergence of natural variants (30, 34, 40, 54, 69-71), and may be used to predict mutation hotspots.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22852,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "It is critical to understand how SARS-CoV-2 will evolve and if it will escape host immunity, which could pose challenges to vaccination and render therapies ineffective.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23031,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "We developed spike-pseudotyped lentiviral particles for high-throughput quantitation that express GFP upon entering cells, contributing to the toolkit of neutralizing assay methodologies (72–74). Our method is suitable to assess the neutralization activity of sera/plasma from individuals infected naturally or by vaccination, and to screen for antiviral drugs that block viral entry, such as therapeutic antibodies, in biosafety level 2 settings, which greatly facilitates the procedure and broadens its usage. It can be easily adapted to include single and multiple mutations, as observed in the present work, for sera/plasma neutralizing activity (Fig. 2). Our results with BNT162b2- elicited plasma (Fig. 3) agree with previous publications showing resistance to neutralization by B.1.351 and P.1 lineages (30, 31, 35, 49, 75) and validate our neutralization assay. The fact that only mutations containing the E484K substitution promote immune escape, although this effect increases with synergic mutations that improve viral binding to ACE2 (K417N and N501Y), may be a consequence of lack in immunological selective pressure, a recognized driver of evolution (57, 76–78), as a large proportion of the population remains susceptible to SARS-CoV-2 infection. However, the emergence of this escape mutant suggests that the continued circulation of the virus may, in the future, impose further immunological constraints to the virus and result in viral evolution, as seen for influenza A virus (57, 79). How changes in SARS-CoV-2 will impact the circulation of the virus is not known, and the future will also elucidate whether vaccination will shape evolution of SARS-CoV-2 and permit reinfections. At the moment, reinfections are considered rare events (80, 81), but reports that SARS-CoV-2 escape mutants were shown to drive resurgence of cases upon natural infection (26, 82) are indicative that viral dynamics in the population may change (28, 83). In agreement, in this study and in reports by others, a reduction in neutralization activity by vaccination elicited plasma against variants of concern B.1.351 and P.1 was observed (30, 31, 35, 49, 75). Therefore, the development of methods able to predict hotspots of immune evasion are in demand. The surveillance of circulating strains across time, the evaluation of the type and duration of host immune responses upon natural infection and vaccination, and the identification of antibodies that efficiently control SARS-CoV-2 are essential measures to understand and control SARS-CoV-2 infection and host response (84–86). We argue that the structural information on complexes between antibodies, or ACE2, and spike variants may be integrated with mutational maps and their phenotypic characterization (2–4) to predict hotspots of immune evasion.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25836,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "In this work, we analyzed by neutralization assays how a full-length spike carrying single or multiple mutations dispersed throughout the protein affected the conformation of the RBD. With this assay, we probe how antibodies from sera of infected patients or plasma collected from vaccinated people after administration of the 1st and 2nd dose of the vaccine block viral entry. We used structural information on the protein complexes spike-antibodies and spike-ACE2 to define the non-overlapping frequency of interactions using a cut-off value of 4.5 Å distance to define a contact. Given the idea that only a few amino acid residues are involved in protein-protein interfaces (87), including in antibody-antigen recognition, we aimed at identifying which amino acid residues in the RBD may evolve antibody escape mutants without affecting viral entry. With this approach, we identified two amino acid residues at the RBD - positions 484 and 494 (Fig. 4E) - that frequently engage in interactions with antibodies but not with ACE2. We observed that the E484 is relevant for antibody binding (Fig. 2G), in agreement with our and previous experimental results, and with the occurrence of this mutation in two variants that are becoming highly prevalent and were shown drive resurgence of infection in sites with high levels of seroconversion (2, 35, 56, 70, 71, 82). Additionally, we found that mutations in residue 494 may be problematic, either alone or combined with synergetic mutations, as it reduces neutralization competency of convalescent sera, and thus facilitates antibody escape without substantially altering the affinity for the ACE2 binding (Fig. 4E-G and fig. S12). The mutation S494P has been found in nature with a prevalence of 0.81% of all sequenced genomes (week 11 of 2021, fig. S2) and has already been observed in combination with mutation E484K (reported on the 22nd October 2020). Of note, current prevalence of B.1.351 and of P.1 is 1.9% and 0.47%, respectively, being in the same range as S494P. We posit that the prevalence of mutations in amino acids 484 and 494 may increase with viral circulation and/or spike seroconversion. At the moment, the majority of the population is susceptible to viral infection and mutations that increase viral transmission, such as N501Y (83), still have a selective advantage.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28173,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Our approach has some caveats. Regarding the neutralization assays, and despite spike being the immunodominant protein targeted by antibodies (7–11), other viral proteins may contribute, even if in a small proportion to neutralization activity in vivo, which we are unable to detect using spike-pseudotyped particles. In addition, the sera/plasma we used was obtained at a fixed time interval.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28566,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Future experiments should repeat the analysis using sera/plasma of people infected with known genotypes, or from different geographical areas and obtained at different times along the epidemics dynamic. Finally, we inspected a handful of mutations and not a comprehensive mutational map across spike (2, 4). However, we traced several mutations across spike in single and multiple combinations, and thus, we conclude that our analysis is relevant to inform on mutation-driven escape viruses to antibodies. The analysis of frequency of interactions between spike-antibodies or ACE2 has some issues associated as well. The pool of complexes spike protein/RBD and antibodies analyzed here is not necessarily representative of the universe of antibodies found in COVID-19 patients, since it is limited by the availability of structural information and is biased to monoclonal antibodies (table S4). All the antibodies analyzed are neutralizing antibodies, which is not the case in nature (53). Additionally, many structural studies have focused on the interaction with the RBD, while other regions have not been so exhaustively analyzed, which creates a bias in terms of the number of RBD binding antibodies with known structure (14, 64, 65). Limitations of the methods used, such as crystallographic contacts, can also influence the results. Nevertheless, its combination with data from the molecular simulation and from experiments helps to predict and explain the emergence of new mutations.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30056,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "In conclusion, our analysis of the spike protein-antibody contacts revealed that (within the available data set) the receptor binding motif (RBM), in the receptor binding domain (RBD), is an important region for antibody binding, which makes sense, since antibody binding to this region can prevent the interaction with ACE2 and ultimately impair viral infection. Our results are in very good agreement with experimental data on mutation-driven escape to polyclonal antibodies and with the emergence of natural variants, which were reported to re-circulate in previously exposed people (82). Thus, this analysis represents a simple strategy to predict mutation hotspots that should be kept under surveillance. The predictions will become even better once the pool and diversity of available structures increases.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2020-12-29-424708",
+      "inputfile": "../../data/processed/html/10-1101_2020-12-29-424708.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "The high infectivity of SARS-CoV-2 B.1.1.7 is associated with increased interaction force between Spike-ACE2 caused by the viral N501Y mutation",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 143,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The fast SARS-CoV-2 spreading among humans is pushing its molecular evolution. So far, the virus has accumulated mutations at a rate of up-to-two-nucleotide changes every month. Recent isolates of the SARS-CoV-2 feature at least 20 nucleotide changes in their genomes than the earliest isolates in January 2020 (Rambaut et al., 2020).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 489,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Most of the variability found in SARS-CoV-2 isolates feature mutations within the Spike receptor-binding domain (RBD), a portion of the Spike glycoprotein that mediates viral attachment to the angiotensin-converting enzyme 2 (ACE2) receptor on the surface of human cells (Shang et al., 2020).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 781,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The emergence of the SARS-CoV-2, B.1.1.7 lineage, detected in early December 2020 by the COVID-19 Genomics UK Consortium (https://www.cogconsortium.uk/) (Kupferschmidt, 2020; Rambaut et al., 2020;) represents an example, among several other, of the fast viral molecular evolution.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1061,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The B.1.1.7 lineage is somewhat surprising, as it accumulates 17 mutations in its genome. Eight of them are located in the gene that encodes the Spike protein on the virus surface (Rambaut et al., 2020). The RBD is crucial for Spike docking with the ACE2 receptor on the surface of human cells (Kemp et al., 2020). B.1.1.7 lineage phenotype has also attracted attention, as it proves to be much more transmissible among humans than the other known SARS-CoV-2 lineages (Kupferschmidt, 2020; Rambaut et al., 2020;).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1574,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The N501 has been identified as a residue that increases the binding affinity to human ACE2 (Starr et al., 2020). According to Rambaut et al. (2020), the mutation N501Y found in the B.1.1.7 lineage, which is located at the Spike gene, covers one of the six key contact amino acid residues within the Spike RBD.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1884,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Determinations of the Spike RDB domain’s surface affinity strength with the ACE2 receptor have enabled mapping of the amino acid residues that may represent desired targets for the development of vaccines against COVID-19 or antibody-based therapies against SARS-CoV-2 (Sternberg and Naujokat, 2020).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2184,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "However, quantitative impact of the SARS-CoV-2 N501Y mutation on the Spike RBD affinity to the ACE2 receptor is still unknown.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2310,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "In this study, we raised the hypothesis that N501Y mutation increases the interaction force between Spike RBD and ACE2 receptor.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2438,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "To test this, we used in silico tools to mutagenize and cause the N501Y mutation in the Spike RDB domain, at the protein level, and simulate the molecular interactions with the ACE2 receptor. Comparisons between wild type versus mutant Spike RDB structures showed that the mutant N501Y RDB interacts with greater affinity to the ACE2 receptor.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2781,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "This study uses the structure deposited in the Protein Data Bank available at (https://www.rcsb.org/), code 6M0J. The PyMOL software, available at (https://pymol.org/2/), was used to: 1) visualize the interaction between the amino acid residue N501 of the Spike RDB domain (SARS-CoV-2, isolate Wuhan-Hu-1, NCBI reference genome sequence NC_045512.2) and the Y41 residue of the human ACE2 receptor protein, 2) simulate the N501Y mutation found in the isolate SARS-CoV-2 lineage B.1.1.7 (Rambaut et al., 2020) and 3) analyze the interactions resulting from the Spike (RDB) N501Y mutation.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3374,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Moreover, we used PDBePISA software (Krissinel and Henrick, 2007), available at (https://www.ebi.ac.uk/pdbe/pisa/) for a detailed analysis of the Spike RDB-ACE2 quaternary structures, comparing the interaction resulting from the Spike N501 or Y501 mutant residue regarding their chemical properties and the predicted dissociation pattern.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3712,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The server PDBSum (Laskowski et al., 2018), available at (http://www.ebi.ac.uk/thornton-srv/databases/pdbsum/Generate.html), was used for comparative statistics of the interfaces formed between the Spike N501, or the respective N501Y mutant residue, with ACE2 receptor.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3981,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The original SARS-CoV-2 Spike RBD-ACE2 interface region feature the N501 amino acid residue (Spike RBD) that establishes two non-bonded contacts with the Y41 and K353 residues (ACE2) at 3.5-angstrom distance as predicted by the PyMOL and PDBsum softwares (Figure 1).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4254,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "In contrast, PyMOL and PDBsum indicates that the mutant SARS-CoV-2 N501Y (lineage B.1.1.7) features the Y501 residue (Spike RBD) that establishes one hydrogen bond with K353 residue and non-bonded interactions with Y41, D38 and K353 residues of the ACE2 receptor at 3.5-angstrom distance (Figure 2).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4553,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "In addition, PDBePISA analysis predicted the interactions at the interface amino acid residue N501 Spike(RBD)-ACE2 (Figure 3).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4679,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Moreover, increased interactions occurred at the N501Y mutant residue Spike(RBD)-ACE2 interface. Were identified supplementary hydrogen bonds involving the residues Y500, Y501, G502, V503, and Y505 from the Spike RBD domain side, which increase the interaction force with ACE2 receptor and the RBD domain, buried surface area (BSA) (Figure 4).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5022,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The chemical nature of the interactions between amino acid residues was predominantly non-covalent, as determined by the PDBSum software. The mutant Spike RBD Y501 residue resulted in greater apolar and hydrogen bonds with ACE2 Y41 and K353 residues. Noteworthy, the SARS-CoV-2 B.1.1.7 lineage establishes a more significant number of interactions with the ACE2 receptor. In addition to the mutant Y501 residue, the non-mutant border residues, such as Y500, G502, V503, and Y505, show polar interactions with the ACE2 receptor (Figure 5).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5560,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "This study shows through in silico protein-protein interface analysis that the mutation N501Y in the Spike receptor-binding domain (RBD) of the SARS-CoV-2, lineage B.1.1.7, establishes increased interaction with the ACE2 receptor when compared to the Wuhan-Hu-1 lineage.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5840,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The lineage B.1.1.7 is highly transmissible and infectious among humans (Rambaut et al., 2020). Since the beginning of December 2020, its spreading in the United Kingdom significantly increased (Rambaut et al., 2020; Kupferschmidt, 2020).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6078,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The N501Y mutation occurs in the receptor-binding domain (RDB) of the Spike protein of the SARS-CoV-2, a crucial region during the virus’s interaction with the ACE2 receptor on the surface of the human cells and progress with the infection (Starr et al., 2020).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6339,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Therefore, we hypothesized that the mutation N501Y, found in the strain B.1.1.7, could cause the Spike protein to establish stronger interactions with the ACE2 receptor.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6508,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The hypothesis was confirmed when we performed the Spike (RBD)-ACE2 interaction analysis by comparing SARS-CoV-2 (lineage Wuhan-Hu-1) Spike RBD residue N501 versus the mutant residue Y501, lineage B.1.1.7.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6713,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The nature of the interactions was predominantly non-covalent and involving hydrogen bonds, polar and apolar bonds.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6828,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Interestingly, the N501Y mutation causes a change in the spacing between the amino acid residues of the Spike protein, represented by the Buried Surface Area in PDBePISA. We observed that this type of alteration causes the amino acid residues around the 501Y residue to establish more interactions with the ACE2 receptor.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7149,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Together, these changes cause the Spike protein in the RBD segment of strain B.1.1.7 to interact more strongly with the ACE2 receptor.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7283,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The greater Spike-ACE2 interaction strength may support a better understanding of the high infectivity and spread the SARS-CoV-2, lineage B.1.1.7, or other strains featuring similar characteristics, based on the molecular affinity between the virus and its host cells.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-01-11-426269",
+      "inputfile": "../../data/processed/html/10-1101_2021-01-11-426269.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Cryo-EM Structure of the N501Y SARS-CoV-2 Spike Protein in Complex with a Potent Neutralizing Antibody",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 102,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "The rapid international spread of SARS-CoV-2 is associated with numerous mutations that alter viral fitness. Mutations have been documented in all four structural proteins encoded by the viral genome including the small envelope glycoprotein, membrane glycoprotein, nucleocapsid protein, and the spike protein. The most prominent mutations are in the spike protein, which mediates entry of the virus into cells by engaging with the angiotensin-converting enzyme-2 (ACE2) receptor. Several structures of SARS-CoV-2 spike protein variants in pre- and post-fusion conformations have been reported, including complexes with ACE2 and a variety of antibodies (1–13). Mutations that emerge in the receptor binding domain (RBD) of the spike protein are especially of interest given their potential to alter the kinetics and strength of interaction of the virus with target cells. These mutations could also affect the binding of antibodies capable of binding and blocking engagement of the virus with ACE2.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1113,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "In December 2020, new variants of SARS-CoV-2 carrying several mutations in the spike protein were documented in the UK (SARS-CoV-2 VOC202012/01) and South Africa (501Y.V2) (14, 15). Early epidemiological and clinical findings have indicated that these variants show increased transmissibility in the population (16). Despite being phylogenetically distinct, a common feature of both UK and South African variants is the mutation of residue 501 in the RBD from Asn to Tyr (N501Y). X-ray crystallography and cryo-EM structural studies have identified N501 as a key residue in the interaction interface between RBD and ACE2. N501 is involved in critical contacts with several ACE2 residues (5, 6, 10, 13). Studies carried out in a mouse model before the identification of the new UK variant have suggested that mutations of residue 501 could be linked to increased receptor binding and infectivity (17, 18). Understanding the impact of N501Y on antibody neutralization, ACE2 binding, and viral entry is therefore of fundamental interest in the efforts to prevent the spread of COVID-19.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2196,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "We recently described the potent neutralization of SARS-CoV-2 with VH- Fc ab8, an antibody derived from a large human library of antibody sequences (19). To understand the effects of ab8 binding on the N501Y mutant, we expressed and purified spike protein ectodomains with and without the N501Y mutation in Expi293 cells. A cryo-EM structure of the spike protein ectodomain with the N501Y mutation was obtained at an average resolution of ~ 2.8 Å (Figure S1). The structure shows no significant global changes in secondary or quaternary structure as a result of the mutation when compared to the previously published structure of the spike protein ectodomain with an Asn residue at position 501 (referred to as the “unmutated” form; Figure S2).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2940,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "Cryo-EM structural analysis of the complex formed between VH ab8 and the unmutated spike protein ectodomain shows two distinct quaternary states, both at average resolutions of 2.4 Å (Figures 1, S3). One class (Figure 1A) has two RBDs in the “down” position both bound to VH ab8, with the third in a predominantly “up” position, but with weaker density for both the RBD and the bound VH ab8 fragment, suggesting that this domain is flexible relative to the rest of the ectodomain. In the second class (Figure 1B), one of the RBDs is in the down position, with two in the up position, each bound to VH ab8. Global refinement results in lower resolutions for the RBD regions relative to the rest of the spike, but local refinement of just the RBD- VH ab8 regions results in structures with local resolutions better than ~ 3 Å in each case (Figure S3). The interface between the RBD and VH ab8 is well-defined with key interactions at the interface mediated by residues in the stretch between V483 and S494, along with a few other interactions contributed by non-contiguous RBD residues (Figures 1C, 1D). Residue 501 of the spike protein RBD is at the periphery of the footprint of ab8, with minimal, if any, interactions with the antibody.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4177,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "The N501Y trimeric spike protein ectodomain shows a single dominant conformation (Figure 2A) with the same distribution as in the first class presented for the complex with unmutated spike ectodomain (Figure 1A). Two VH ab8 fragments are bound to RBDs in the down conformation, with weak density for the other RBD, which is flexible and primarily in the up position. The global average resolution of the map is ~ 2.8 Å, with lower local resolution in the RBD regions, but local refinement yields maps of the VH ab8-RBD interface at resolutions better than ~ 3 Å (Figure S4). Cryo-EM density maps unambiguously show the location of residue 501 in both unmutated and N501Y mutant spike protein ectodomains (Figures 2B, C). The presence of the mutation does not significantly alter any of the interactions between the RBD and VH ab8 or the overall conformation of the loop (Figure S5). However, replacement of the asparagine residue by the bulkier tyrosine side chain results in subtle local rearrangements, noticeably in the orientations of Y505 and Q498 (Figures 2C, 2D).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5247,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "Comparison of the structures reported here with those reported for the ACE2-RBD complex from earlier X-ray crystallography and cryo-EM studies enable visualization of the similarities and differences in the modes of binding (Figure 3). ACE2 binding has been observed only to RBDs in the up position, likely because of steric constraints in accommodating ACE2 in the down conformation. In contrast, the much smaller VH ab8 fragment binds the RBD both in up and down positions. Despite these differences, and the fact that ACE2 and VH ab8 each have distinctive directions of approach in their contact with the RBD, there is a good match in the RBD footprint between VH ab8 and ACE2, accounting for the potent neutralization by the VH -Fc antibody (19). Residue 501 is located towards the outer edge of the contact zone between RBD in the ACE2 complex and just outside the zone of contact of VH ab8 with RBD, providing a structural rationale for the findings we describe here on the minimal effect of the N501Y mutation on interaction with the antibody.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6297,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "We next carried out a series of experiments to test the effects of the N501Y mutation on ACE2 binding and the relative strengths of binding and neutralization potency of VH -Fc ab8 (Figure 4). HEK293-T cells stably overexpressing ACE2 were incubated with pseudotyped viruses engineered to harbor a luciferase reporter gene expressing spike proteins with or without the N501Y mutation. Luciferase activities in cellular lysates were determined 48-hour post-infection. When normalized to p24 levels in the viruses, the relative luminescence units (RLU) intensity from cells infected by the N501Y mutant was higher than control viruses expressing the unmutated form (N501Y: 6499 +/− 1824 RLU [standard deviation], Unmutated: 3045 +/− 817 RLU [standard deviation]), demonstrating that the N501Y mutation results in increased infectivity. To verify that this was a result of the increased binding strength of the mutant RBD to ACE2, we measured neutralization efficiency as a function of exogenously added soluble ACE2-mFc proteins. The neutralization profiles (Figure 4A) show that IC50 for neutralization of the mutant is lower, consistent with the hypothesis that the greater infectivity of the N501Y mutant stems from improved binding to ACE2.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7539,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "Competition experiments establish that ACE2 can displace VH-Fc ab8 bound to unmutated and N501Y mutant spike proteins with similar efficiency (Figure 4B). Consistent with these measurements, neutralization experiments carried out with VH-Fc ab8 shows that it is able to neutralize the N501Y mutant with a potency similar to that of the unmutated form (Figure 4C). The neutralization studies were further confirmed by ELISA measurements of relative binding efficiency VH-Fc ab8. As shown in Figure 4D, the N501Y mutation has no significant effect on VH-Fc ab8 binding. Finally, negative stain studies of the complex formed between trimeric spike proteins and soluble ACE2 show that the N501Y mutant has a higher stoichiometry of ACE2 binding in the presence of similar concentrations of ACE2 (Figures 4E, F). Collectively, the binding, neutralization, and electron microscopic analyses show that the N501Y mutation results in increased efficiency of ACE2 binding, but has relatively minor effects on binding and potency of an antibody that targets neutralizing epitopes in the RBD.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8619,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "Our studies with the N501Y mutant confirm the expectation that the rapid spread of the UK variant of SARS-CoV-2 is likely due to the viruses being more infectious. While there can be multiple origins for the increased infectivity, our biochemical and structural studies establish that the N501Y mutation results in increased ACE2 binding efficiency. The competition assays with a strongly neutralizing antibody show that it competes for binding with the spike trimer-ACE2 interaction in a concentration-dependent manner. Our results suggest that despite the higher infectivity of SARS-CoV-2 viruses carrying the N501Y mutation, the availability of the extended epitope surface on the RBD will likely enable effective neutralization by antibodies elicited by immunization with vaccines that are currently in production. With the continued spread of SARS-CoV-2, it appears likely that further mutations that enhance viral fitness will emerge. Cryo-EM methods to rapidly identify footprints of antibodies that are generated by current and future generations of vaccines could thus add a critical tool to the arsenal of efforts to prevent and treat COVID-19.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

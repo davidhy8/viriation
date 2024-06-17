@@ -1,0 +1,33 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-05-08-443253",
+      "inputfile": "../../data/processed/html/10-1101_2021-05-08-443253.html",
+      "passages": [
+        {
+          "text_short": "PV",
+          "text_long_1": "pseudotyped virus",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PBCS",
+          "text_long_1": "polybasic cleavage site",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "DMEM",
+          "text_long_1": "Dulbecco”s Modified Eagle Medium",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FCS",
+          "text_long_1": "fetal calf serum",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

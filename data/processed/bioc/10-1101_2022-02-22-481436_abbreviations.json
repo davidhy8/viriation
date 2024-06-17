@@ -1,0 +1,108 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2022-02-22-481436",
+      "inputfile": "../../data/processed/html/10-1101_2022-02-22-481436.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "Severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RDV",
+          "text_long_1": "Remdesivir",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FDA",
+          "text_long_1": "Food and Drug Administration",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "coronavirus disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CPER",
+          "text_long_1": "circular polymerase extension reaction",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CPE",
+          "text_long_1": "cytopathic effect",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "HiBiT",
+          "text_long_1": "high-affinity NanoBiT",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "LgBiT",
+          "text_long_1": "large NanoBiT",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "WT",
+          "text_long_1": "wildtype",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RdRp",
+          "text_long_1": "RNA-dependent RNA polymerase",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MHV",
+          "text_long_1": "murine hepatitis virus",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RMSDs",
+          "text_long_1": "root mean square deviations",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "DMEM",
+          "text_long_1": "Dulbecco’s Modified Eagle Medium",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FBS",
+          "text_long_1": "fetal bovine serum",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "DMSO",
+          "text_long_1": "dimethyl sulfoxide",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "UTR",
+          "text_long_1": "untranslated region",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "HDVr",
+          "text_long_1": "hepatitis delta virus ribozyme",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "BGH",
+          "text_long_1": "bovine growth hormone",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CMV",
+          "text_long_1": "cytomegalovirus",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

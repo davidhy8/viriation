@@ -1,0 +1,128 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1093_infdis_jiab260",
+      "inputfile": "../../data/processed/html_papers/10-1093_infdis_jiab260.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Comparable Environmental Stability and Disinfection Profiles of the Currently Circulating SARS-CoV-2 Variants of Concern B.1.1.7 and B.1.351",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 140,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": " The emergence of novel severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) variants of concern with increased transmission dynamics has raised questions regarding stability and disinfection of these viruses. We analyzed surface stability and disinfection of the currently circulating SARS-CoV-2 variants B.1.1.7 and B.1.351 compared to wild type. Treatment with heat, soap, and ethanol revealed similar inactivation profiles indicative of a comparable susceptibility towards disinfection. Furthermore, we observed comparable surface stability on steel, silver, copper, and face masks. Overall, our data support the application of currently recommended hygiene measures to minimize the risk of B.1.1.7 and B.1.351 transmission.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 884,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Since the outbreak of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) at the end of 2019, >120 million cases and >2.8 million death (as of 31 March 2021) have been reported [1] . Viral evolution includes the natural emergence of viral variants, which can encode for a variety of mutations in their genome compared to the parental wild-type virus. Mutations that confer either enhanced fitness, higher pathogenicity, better transmissibility, or immune escape are of special concern as they could significantly influence transmission dynamics and thereby potentially sustain epidemic growth. Independent lineages of SARS-CoV-2 have recently been reported: UK, B.1.1.7; South Africa, B.1.351; and Brazil, P.1 [2] . Importantly, these variants of concern (VOC) display higher reproduction numbers than preexisting variants and consequently increased incidences in various countries. Moreover, VOCs have been associated with more severe courses of infection and/or potential immune escape due to multiple changes in the immunodominant spike protein [3] . The B.1.1.7 variant has accumulated 23 mutations, including 14 nonsynonymous substitutions, and was not phylogenetically related to the variants circulating in the UK when it was detected [4] . The B.1.351 variant has 12 nonsynonymous mutations and 1 deletion. Approximately 77% of these mutations are located in the spike protein while the remaining ones are located in ORF1a, envelope (E), and nucleocapsid (N) viral proteins [3] . Because the global access to coronavirus disease 2019 (COVID-19) vaccines is still limited, diligent attention on transmissionbased precautions is essential to limit VOC spread. However, given the rapid spread and increased transmission dynamics of the emerging variants, concerns have been raised regarding the effectiveness of current hygiene measures and inactivation strategies, as this could be reduced by the genetic alterations. Here, we compared the stability of 3 SARS-CoV-2 strains, the preexisting B1.1.70 variant (herein referred as wild-type virus [WT]) and the currently emerging B.1.1.7 and B.1.351 variants on different surfaces and their sensitivity to heat, soap, and ethanol. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3076,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "For SARS-CoV-2 virus suspension preparation, Vero E6 cells (kindly provided by C. Drosten and M. Müller) were seeded at 2 × 10 6 cells in a 75 cm 2 flask in Dulbecco's modified Eagle's medium (DMEM) supplemented with 10% (v/v) fetal calf serum (FCS), 1% (v/v) nonessential amino acids, 100 IU/mL penicillin, 100 µg/mL streptomycin, and 2 mM l-glutamine. After 24 hours, the cells were inoculated with 100 µL of either WT virus hCoV-19/Germany/BY-Bochum-1/2020 (B.1.1.70) (GISAID accession ID: EPI_ISL_1118929), VOC B.1.1.7 RKI-0026_B.1.1.7 (GISAID accession ID: EPI_ISL_751799), or VOC B.1351 RKI-0029_B.1.351 (GISAID accession ID: EPI_ISL_803957). Sequences were confirmed by Sanger sequencing as described in the Supplementary Methods. Three days postinfection and upon visible cytopathic effects, virus suspension was harvested by collecting the supernatant and subsequent centrifugation for 5 minutes at 1500 rpm to remove any cell debris. The virus suspensions were aliquoted and stored at −80°C until further usage. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4098,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "To analyze viral stability on different surfaces we performed time kinetics and studied viral stability over 48 hours in 3 independent experiments. Stainless steel disks, disks sputtered with copper or silver, the inner layer of surgical masks, and Filtering Face Piece 2 (FFP2) masks were inoculated with 5 × 10 µL of test virus suspension. The test suspension contained 9 parts virus and 1 part interfering substance (bovine serum albumin [BSA], 0.3 g/L in phosphate buffered saline [PBS] according to European Norm [EN] 5.2.2.8) and was adjusted to 5 × 10 6 50% tissue culture infectious dose (TCID 50 )/mL. Immediately, 10 minutes, 1 hour, 24 hours, and 48 hours after virus inoculation on the different surfaces they were placed aseptically in a 2 mL DMEM (without FCS) harboring container and vortexed for 60 seconds. To determine the amount of recovered infectious virus from the test specimen an end point dilution assay was performed on Vero E6 cells to calculate the remaining TCID 50 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5095,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "To test susceptibility to disinfection, viruses were exposed to 20%, 30%, 40%, 60%, and 80% (v/v) ethanol for 30 seconds or to Lifosan soft hand soap (B. Braun Medical) diluted 1:49 in water for 30 seconds, 1 minute, 5 minutes, and 10 minutes. Therefore, 8 parts ethanol or hand soap were mixed with 1 part interfering substance (BSA 0.3 g/L in PBS according to EN 5.2.2.8) and 1 part virus adjusted to 5 × 10 6 TCID 50 /mL. The suspensions were incubated for the indicated time periods and residual viral infectivity was determined by performing an end point dilution assay on Vero E6 cells in 3 independent experiments. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5717,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "To access susceptibility towards heat, virus suspension was incubated for 1, 5, 10, and 30 minutes at 56°C. Nine parts virus solution (5 × 10 6 TCID 50 /mL) were mixed with 1 part interfering substance (BSA 0.3 g/L in PBS according to EN 5.2.2.8) and incubated for the indicated time periods. Reduction of viral titers were examined by end point dilution assay to calculate TCID 50 values in 2 independent experiments for the control and 1-minute treatment and 3 independent experiments for all other conditions. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6230,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "To determine if the newly emerged VOC B.1.1.7 and B.1.351 were equally susceptible towards different inactivation strategies as the WT virus (B.1.1.70) we compared viral inactivation upon usage of ethanol, a common ingredient of several disinfectants and recommended by the World Health Organization in resource-limited countries [5] . Viruses were exposed to increasing concentrations of ethanol for 30 seconds and residual viral infectivity was determined by end point titration. In accordance with previous results, all 3 viral variants could be efficiently inactivated upon treatment with at least 30% (v/v) ethanol for 30 seconds, confirming equal susceptibility towards disinfection ( Figure 1A, left) . These results were supported by a subsequent regression analysis, which revealed comparable inactivation kinetics ( Figure 1A, right) . Because disinfection procedures are mainly recommended in clinical setups, we next addressed the virucidal activity of conventional hand soap. SARS-CoV-2 variants were inoculated with a 1:49 dilution of commercially available hand soap and viral infectivity was determined after different time points. All viral variants were effectively inactivated after exposure towards soap within 1-5 minutes, supporting current hygiene measures ( Figure 1B, left) . Residual infectivity of the B.1.1.70 variant at shorter time points could be observed, which was not the case for the other variants. However, there was already an over 200 to 1000-fold reduction with 30 seconds and 1 minute soap treatment for B1.1.70, respectively, and no infectious virus was detectable at longer incubation times. These results were in addition supported by a regression analysis, which revealed comparable inactivation kinetics ( Figure 1B, right) . Next, we addressed susceptibility of the 3 strains towards heat (56°C) and observed a decrease in viral titers towards background levels within 30 minutes ( Figure 1C, left) . Importantly, inactivation kinetics were comparable between all viral variants ( Figure 1C, right) . Although SARS-CoV-2 is mainly transmitted through respiratory droplets and aerosols exhaled from infected individuals, transmission via fomites cannot be excluded. Viral stability was examined on representative material surfaces, silver, copper, and stainless steel discs for up to 48 hours, using an initial virus concentration of 9.2 × 10 6 TCID 50 /mL. Importantly, all variants remained infectious on the different surfaces for 48 hours, with the exception of copper, and compared to the WT virus no differences in the relative infectivity were observed (Figure 2A and Supplementary Table  1 ). To mimic a potential contamination of protective masks by infected individuals, we contaminated the inside of either a surgical mask or a FFP2 mask and analyzed viral stability of all variants. Again, comparable residual titers of all VOCs were observed over time ( Figure 2B and Supplementary Table 1 ). In conclusion, the currently circulating VOC did not exhibit enhanced surface stability or differences in disinfection profiles, indicating that current hygiene measures are sufficient to minimize the risk of B.1.1.7 and B.1.351 transmission. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9425,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The currently circulating VOCs, including B.1.1.7 and B.1.351, have shown a strong increase in incidences in various countries. In particular, the B.1.1.7 strain has been suspected to display a 43%-90% higher reproduction number compared to preexisting variants [6] . However, the exact mechanisms underlying the increased transmission rates are still under investigation. Given the challenges during the rollout of COVID-19 vaccines, current prevention measures are based on the \"swiss cheese model\" [7] , including a combination of different intervention strategies. In most countries, physical distancing, face covers, and hygiene measures are the main strategies to lower virus spread. Therefore, it is essential to address if current hygiene strategies are sufficient and appropriate to prevent transmission of newly emerging VOCs. Especially in the hospital setting, viral disinfection is crucial given the large number of infected patients with high viral loads in a limited space. Several disinfectants are based on ethanol, which has been shown to efficiently inactivate CoVs within a short time frame [8] . In agreement with this, we observed a comparable susceptibility of all viral variants tested towards a minimum of 30% ethanol upon 30-seconds exposure, indicative of similar disinfection properties. Because disinfectants are not recommended for daily use, we further examined the virucidal efficiency of common household soap. Soaps contain a mixture of surfactants, which can have a directly antiviral effect upon insertion into the lipid envelope leading to disintegration of the virus within minutes. However, given that common day-to-day practices do normally not include soaping of hands for several minutes, additional effects can include viral elution from the hand surface due to the adsorptive properties of soap that results upon hand rubbing and subsequent washing to successfully remove viral particles [9] . We observed an efficient inactivation of all variants within 30-seconds exposure and upon 5 minutes all viral variants were completely inactivated. Of note, contact times can differ depending on the ratio of soap and water. Interestingly, we observed slight differences with a minimal residual infectivity after 30 seconds and 1 minutes for the WT in contrast to the tested VOCs. However, these could be attributed to a combination of factors like soap foam 10 7 B.1. or virus/soap wetting and do not necessarily reflect altered biological properties of the viral particles. To minimize the risk of SARS-CoV-2 transmission while handling and processing clinical specimens, standard precautions involve different inactivation procedures to reduce or abolish infectivity. Heat inactivation protocols are commonly used for a variety of subsequent applications; therefore, we aimed to address the susceptibility of VOCs to treatment with 56°C for different times. As we described, a 30-minute treatment with 56°C is sufficient to efficiently abolish infectivity, with no differences between the VOCs. Of note, these inactivation experiments have been performed with laboratory-grown viruses in permissive eukaryotic cells and therefore do not consider additional factors (ie, mucus and/or salvia) and might differ from the specific infectivity of patient-derived SARS-CoV-2 particles. Transmission via contaminated surfaces (fomites) is not considered to be a main route of infection with SARS-CoV-2 [10] . However, given the high transmission rates of the VOCs, questions and concerns regarding enhanced environmental stability have been raised. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13006,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Surface stability for several days has been described under laboratory conditions for several coronaviruses [11] [12] [13] . Using different surfaces, we did not observe any differences regarding viral decay kinetics. Importantly, we observed prolonged stability of all variants on face masks, highlighting the importance of exchanging masks regularly and the risk of shared masks. Of note, in contrast to other publications [14] , we did not observe an antiviral effect of silver surfaces on SARS-CoV-2. This is in contrast to copper, which has been reported to have antiviral properties [15] , as observed in our study. In conclusion, our results suggest that current hygiene measures are also appropriate and effective against the currently circulating VOCs. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13768,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Downloaded from https://academic.oup.com/jid/article/224/3/420/6276396 by Univ of Calgary Lib user on 29 April 2024 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

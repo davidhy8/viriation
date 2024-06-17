@@ -1,0 +1,437 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2022-06-01-494385",
+      "inputfile": "../../data/processed/html/10-1101_2022-06-01-494385.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Characterization of entry pathways, species-specific ACE2 residues determining entry, and antibody neutralization evasion of Omicron BA.1, BA.1.1, BA.2, and BA.3 variants",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 170,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Since the origin of the COVID-19 pandemic, several SARS-CoV-2 variants of concern (VOCs) with enhanced transmissibility, ACE2 binding affinity and immune evasive properties have emerged, including the most recent Omicron VOCs. Currently, Omicron (B.1.1.529) is comprised of five main lineages designated BA.1 (and its sublineage BA.1.1), BA.2 (and its sublineage BA.2.12.1), BA.3, BA.4, and BA.5. BA.1 was first identified in November 2021 in Botswana, and it rapidly replaced the then dominant Delta (B.1.617.2) VOC to become globally prevalent due to its enhanced transmissibility and ability to evade antibody neutralization 1–6. By early 2022, an alarming rise of BA.2 was seen in several parts of the world, leading to the replacement of BA.1 and BA.1.1. In comparison to BA.1, BA.2 was demonstrated to have faster replication kinetics, enhanced fusogenicity, and greater pathogenicity in hamsters 7,8. BA.4 and BA.5 are two new lineages that are presently emerging in South Africa.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1169,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The spike protein of Omicron variants bears an unprecedented degree of antigenic divergence with the highest number of substitutions compared to ancestral B.1 (Wuhan-Hu-1, and D614G) variants and earlier VOCs. These include 21 spike substitutions shared by the three main lineages of Omicron in the N-terminal domain (NTD) (G142D), receptor binding domain (RBD) (G339D, S373P, S375F, K417N, N440K, S477N, T478K, E484A, Q493R, Q498R, N501Y, Y505H), and furin cleavage site proximity (D614G, H655Y, N679K, P681H) of the S1 subunit, as well as substitutions in fusion peptide proximity (N764K, D796Y) and heptad repeat region 1 (HR1) (Q954H, N969K) of the S2 subunit (Figure 1). Additionally, 16 unique insertions/deletions/substitutions in BA.1 and 9 unique insertions/substitutions in BA.2 are present. BA.3 shares 10 unique substitutions/deletions with BA.1 and two unique substitutions with BA.2. BA.1.1 differs from BA.1 by one RBD substitution (R346K).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2124,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Several reports continue to demonstrate total loss of or severely dampened neutralizing activity of serum or plasma obtained from previously convalesced individuals, recipients of two doses of the Pfizer–BioNTech BNT162b2 or Moderna mRNA-1273 vaccine, as well as several therapeutic monoclonal antibodies against the BA.1 and BA.2 VOCs 1,3,9–14. A third booster dose of either Pfizer–BioNTech BNT162b2 or Moderna mRNA-1273 vaccine, however, recalls and expands preexisting antigen specific memory B cell clones and generates novel B cell clones resulting in enhanced neutralizing antibody titers and breadth towards BA. 1 and BA.2 VOCs 15,16. Booster-elicited neutralizing antibody titers remain durable for at least 4 months 17,18.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2856,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Apart from humans, SARS-CoV-2 was also found to naturally infect diverse domestic and wild animal species, including farm minks 19,20, companion pets (e.g., cats, dogs, ferrets, Syrian hamsters) 21–23, zoo animals (e.g., lions, tigers, cougars, snow leopards, gorillas, otters, and hippopotami) 24, and free ranging white-tailed deer 25. Furthermore, experimental infections in livestock species have determined low-level replication of ancestral variants in cattle 26,27, pigs 28, and sheep 27,29. These observations signify the broad host range of SARS-CoV-2 and the risk of infection by heavily mutated variants to give rise to potential reservoirs that may pose a further risk for spillover back to humans.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3566,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The primary genetic determinant of SARS-CoV-2 host range is spike interaction with species-specific receptor to allow subsequent viral entry. SARS-CoV-2 enters host cells by interacting with angiotensin-converting enzyme 2 (ACE2) in a species-specific manner. For instance, ancestral SARS-CoV-2 spike does not interact with murine ACE2, and therefore, human ACE2 (hACE2) transgenic murine models 30–32 or mouse-adapted SARS-CoV-2 33 were developed to study SARS-CoV-2 pathogenesis. The trimeric spike is a class I fusion protein that is cleaved into the S1 and S2 subunits, which are noncovalently associated on the surface of virions. Following the interaction of the RBD (residues 331 to 528) of the S1 subunit with the N-terminus of ACE2 and further proteolytic processing of the S2 subunit at the S2’ site by the host proteases (cathepsin L in endosomes, or TMPRSS2 on the plasma membrane), extensive and irreversible conformational changes occur in the S2 subunit to facilitate membrane fusion. The insertion of S2 fusion peptide in the target cell membrane and the interaction between HR1 and HR2 of the S2 subunit result in the formation of a stable six-helix bundle that brings the viral and cell membranes into proximity for fusion and subsequent viral entry.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4834,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Here, we report that compared to ancestral D614G, Omicron variants’ (BA.1, BA.2, BA.3, and BA.1.1) infection is less influenced by TMPRSS2, and Omicron variants are therefore relatively more susceptible to endosomal entry inhibition. Additionally, Omicron variants exhibit greater sensitivity to soluble ACE2 (sACE2) inhibition. Furthermore, Omicron variants’ spikes have more efficient usage of ACE2 orthologs from nine diverse animal species than D614G. In addition, we found that Q493R and Q498R substitutions in the Omicron variant spikes promote usage of mouse ACE2 for entry whereas the Q493R substitution prevents usage of Chinese rufous horseshoe bat ACE2. Finally, sera obtained from fully vaccinated (three doses of the Pfizer/BNT162b2 vaccine) individuals and fully vaccinated individuals with a breakthrough infection of Omicron potently neutralize pseudoviruses bearing spike proteins of D614G and Omicron variants. However, neutralization titers against the Omicron variants are 7-8-fold lower compared to D614G.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5860,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure 2.: Infection and cell entry mechanisms of Omicron lineage pseudoviruses.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Pseudoviruses bearing spike proteins of BA.1, BA.2, BA.3, and BA.1.1 Omicron variants displayed similar infectivity as D614G in 293T.ACE2 and 293T.ACE2.TMPRSS2 cells (Figure 2A). The presence of TMPRSS2 resulted in a 2.4-14.2-fold enhancement of infection for all the pseudoviruses in 293T.ACE2.TMPRSS2 cells compared to 293T.ACE2 cells. However, D614G pseudovirus infection was greatly enhanced (14.2-fold;p≤0.0001) as observed previously 34, whereas infection of Omicron variants was comparatively less enhanced (2.4-4.9-fold; p≤0.0001) in the presence of TMPRSS2 (Figure 2A and 2B). These findings indicate that TMPRSS2 confers relatively less enhancement of Omicron entry into cells than D614G.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6645,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure 2.: Infection and cell entry mechanisms of Omicron lineage pseudoviruses.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Several recent studies showed delayed or attenuated replication of BA.1, BA.2, and BA.1.1 variants compared to B.1 and Delta VOCs in TMPRSS2-expressing cell lines (Calu-3, Caco-2, VeroE6/TMPRSS2) compared to VeroE6 cells, along with higher sensitivity to endosomal inhibitors (Chloroquine, Bafilomycin A) and less sensitivity to TMPRSS2 inhibitor (Camostat mesylate) 6,8,35,36. In cells expressing ACE2 but not TMPRSS2, spike-mediated entry follows the endosomal route, whereas in cells expressing both ACE2 and TMPRSS2, spike-mediated entry occurs mainly at the cell surface. We investigated ACE2 preference and TMPRSS2 usage by examining the sensitivity of D614G and the Omicron (BA.1, BA.2, BA.3 and BA.1.1) variant pseudoviruses to endosomal and TMPRSS2 inhibitors, chloroquine and camostat mesylate, respectively. In 293T.ACE2 cells, chloroquine potently inhibited viral entry of both D614G and Omicron variants, but Omicron pseudoviruses were more sensitive to chloroquine (BA.1 IC50:2.06,p<0.001; BA.2 IC50:2.94,p<0.005; BA.3: 2.34,p<0.001; BA.1.1 IC50: 1.85,p<0.002) than D614G (IC50: 5.51) (Figure 2C). No chloroquine inhibition was observed in 293T.ACE2.TMPRSS2 cells (Figure 2D), suggesting that the presence of TMPRSS2 facilitates entry via the cell surface for all variants. D614G (IC50: 0.02) and Omicron (BA.1 IC50: 0.03; BA.2 IC50: 0.01; BA.3: 0.02; BA.1.1 IC50: 0.01) pseudoviruses displayed similar sensitivity to camostat mesylate in 293T.ACE2.TMPRSS2 cells (Figure 2E). These findings indicate greater sensitivity of Omicron pseudoviruses to endosomal entry inhibition compared to D614G.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8252,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure 3.: The neutralization of soluble ACE2 to Omicron lineage pseudoviruses.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We further investigated ACE2 binding of Omicron variants by analyzing the sensitivity of D614G and Omicron pseudoviruses to soluble human ACE2 (sACE2) in a neutralization assay. Compared to D614G (IC50: 3.31 μg/ml), the BA.1 (IC50: 0.98μg/ml,p<0.0001), BA.2 (IC50: 0.99 μg/ml, p<0.0004) and BA.1.1 (IC50: 0.99 μg/ml, p<0.0005) variants demonstrated approximately 3-fold greater sensitivity to sACE2 whereas the BA.3 variant (IC50: 1.85 μg/ml, p<0.0005) showed 1.75-fold greater sensitivity to sACE2 (Figure 3). The sACE2 IC50 values reported here are comparable to previously reported values for D614G and BA.1 37.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8945,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure 4.: Omicron lineage pseudoviruses stability.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Pre-incubation of viruses at different temperatures can reveal differences in the stability of the viral glycoprotein trimers, including SARS-CoV-2 37,38. We evaluated the effect of temperature on spike glycoprotein stability, and thus infectivity, by incubating D614G and Omicron variants pseudoviruses at 4°C, 25°C (room temperature or RT), 32°C, 37°C, 42°C and 50°C for an hour or 50°C for various periods of time before measuring their infectivity on 293T.ACE2 and 293T.ACE2.TMPRSS2 cells. We observed no significant differences in the infectivity of D614G and Omicron variants pseudoviruses after incubation at 4°C, RT, 32°C, 37°C, and 42°C (Figure 4). All viruses were relatively stable at 4°C, RT, 32°C, 37°C, and 42°C. Our findings are in agreement with a previous study where no differences in infectivity were observed between VSV-pseudotyped D614G and BA.1 VOC pseudoviruses upon extended incubation (72hrs) at 4°C, RT, and 37°C 37. However, infectivity of all pseudoviruses dramatically declined upon incubation at 50°C with no significant difference between D614G and Omicron variants pseudoviruses (Figure 4).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10119,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure 5.: Omicron lineage pseudovirus entry into cells expressing ACE2 from different species.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Substitutions in the RBD have been linked to SARS-CoV-2 adaptation to new hosts, such as ferrets 39, mouse 33, mink 40 and white-tailed deer 41. The ongoing dominance and circulation of Omicron VOCs pose a significant risk for reverse zoonosis and spill back into the humans. Therefore, we investigated the ability of the Omicron (BA.1, BA.2, BA.3 and BA.1.1) variants to use ACE2 orthologs from ten diverse host species including African green monkey, Chinese rufous horseshoe bat, ferret, mouse, Chinese hamster, Syrian golden hamster, white-tailed deer, swine, bovine, and Malayan pangolin. 293T cells transiently transfected with ACE2 receptors of each species were infected with pseudoviruses bearing spike proteins of D614G and the Omicron variants. We found that D614G pseudoviruses infected cells expressing ACE2 receptors of all the species well above the background except mouse, consistent with prior studies 3,33,42 (Figure 5A). Conversely, ACE2 receptors of all species, except horseshoe bat, supported infection by Omicron pseudoviruses (Figure 5B-E). 293T cells with stable expression of human ACE2 (293T.ACE2) were used as a positive control. We confirmed robust ACE2 expression for each species via Western blotting using the V5 tag at the C-terminus of these ACE2 proteins (Supplementary Figure 1). The Omicron pseudoviruses had significantly higher levels of infection than D614G pseudoviruses in cells expressing African green monkey, Chinese rufous horseshoe bat, ferret, mouse, Chinese hamster, Syrian golden hamster, white-tailed deer (save BA.1), swine, and bovine ACE2 receptors (Table 1). No significant difference between D614G and Omicron variants was observed with respect to Malayan pangolin ACE2 (Table 1). These findings indicate that the receptor binding motif (RBM) substitutions in the Omicron (BA.1, BA.2, BA.3 and BA.1.1) variants can modulate ACE2 receptor usage and therefore, Omicron variants’ entry.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12154,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure 5.: Omicron lineage pseudovirus entry into cells expressing ACE2 from different species.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We next investigated the residues in D614G and Omicron spikes that allow or prevent infection of cells expressing horseshoe bat and mouse ACE2, respectively. Crystal structures of SARS-CoV-2 RBD-ACE2 complexes show the ACE2 N-terminal helix cradled in the ridged concave surface formed by the spike RBM 43–46. Seventeen RBM residues contact ACE2 residues in its N terminus (Table 2). Among wild type SARS-CoV-2 RBM residues, Q498 interacts with D38, Y41, Q42, L45, and K353 residues of ACE2, while Q493 interacts with K31, H34, and E35 of ACE2, forming a network of hydrogen bonds 43–46. Structural and computational determination of Omicron RBD-ACE2 interactions revealed Q493R forming a new salt bridge with E35 while disrupting previous interactions of Q493 with K31 observed in wild type. The Q498R substitution also forms a new hydrogen bond and a salt bridge with ACE2 D38 and Q42 47–49. We assessed whether Q493R and Q498R substitutions in the RBM of Omicron spike facilitate entry of Omicron pseudoviruses in cells expressing mouse ACE2, or conversely, confer resistance to entry of cells expressing horseshoe bat ACE2. Pseudoviruses bearing Q493R and Q498R substitutions on the D614G background spike were therefore generated to infect 293T cells expressing ACE2 proteins of all the species described above. As expected, the Q493R substitution rescued pseudovirus infection in cells expressing mouse ACE2, but reduced pseudovirus infection in cells expressing horseshoe bat ACE2 to background levels (Table 1) (Figure 5F). The Q498R substitution also rescued infection in cells expressing mouse ACE2 above the background but had no effect on cells expressing horseshoe bat ACE2 (Table 1) (Figure 5G). As controls, the Omicron non-RBM S373P and mink adapted Y453F substitutions had no effect on pseudovirus entry in cells expressing mouse ACE2 or horseshoe bat ACE2 (Table 1) (Figure 5H and 5I). It is likely that the Q493R basic substitution in Omicron VOCs forms a salt bridge with the acidic E35 residue of mouse ACE2 or disrupts interaction with the basic K35 residue of horseshoe bat ACE2, thus facilitating or preventing infection of cells expressing mouse ACE2 and horseshoe bat ACE2 respectively (Table 2) (Figure 5J, 5K). Alternatively, the K35 residue in horseshoe bat ACE2 interacts with Q493 residue in D614G spike (Figure 5L). On the other hand, substitutions similar to Q498R were previously observed in mouse-adapted SARS-CoV-2 (Q498H, Q498Y/P499T) to strengthen interaction with D38 of mouse ACE2, which otherwise forms an intramolecular salt bridge with H353 50–52 (Table 2) (Figure 5M). The interactions between R498 in Omicron spike and D38 and H353 in mouse ACE2 likely plays an important role for infection.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14890,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Figure 5.: Omicron lineage pseudovirus entry into cells expressing ACE2 from different species.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "For the remaining species, S373P, Y453F, Q493R, and Q498R substitutions phenocopied D614G in ACE2 usage (Figure 5F-5I). The Q493R substitution significantly enhanced the usage of all the remainder species, highlighting the role played by this substitution in enhancing ACE2 usage of Omicron variants, as described above (Figure 5F, Table 1). While S373P and Q498R substitutions had no significant effect compared to D614G, the mink-adapted Y453F substitution led to enhanced usage of African green monkey, ferret, Chinese hamster, Syrian golden hamster, white-tailed deer, and swine ACE2 receptors. A previous report has indicated the Y453F substitution enhanced spike interaction with Mustela species ACE2 orthologs, including minks, ferrets and stouts, while not compromising human ACE2 usage (Figure 5I, Table 1) 40. Our findings extend this report and provide further insights into the effect of Y453F substitution for other species’ ACE2.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15833,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We next evaluated the serum neutralizing activity in serum from vaccinated individuals who received three immunizations (two dose primary vaccine series and a third dose of booster) of the Pfizer/BNT162b2 vaccine. Receipt of a booster dose elicited significantly higher neutralization titers against D614G (GMT:7527) than two dose primary vaccine series, as seen previously 53. Furthermore, all serum samples had neutralizing activity against Omicron pseudoviruses after the receipt of a third booster dose. Neutralization titers against BA.1 (GMT:1087), BA.2 (GMT:961), BA.3 (GMT:916), and BA.1.1 (GMT:916) pseudoviruses were significantly reduced, 6.6-fold (p≤0.05), 7.8-fold (p≤0.0005), 8.2-fold (p≤0.0001), and 7.7-fold (p<0.0005) respectively, compared to D614G (GMT:7527) (Figure 6A).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16623,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "For two of the vaccinated individuals described above, we obtained serum samples one week prior to a third booster dose, as well as three weeks after the third booster. Therefore, we compared neutralization activity before and after the booster dose (pre- and post-boost respectively). We found 45.2-64.5-fold enhancement in post-boost neutralization titer compared to pre-boost titer for D614G and Omicron VOCs (Figure 6B).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17047,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We also evaluated convalescent sera from five vaccinated individuals who experienced breakthrough infection post boost, when BA.1 or BA.1.1 variants were predominant (December 2021-January 2022). Serum samples from all individuals had the highest neutralization activity against D614G pseudoviruses (GMT: 16270) followed by lower neutralization against BA.1 (GMT: 6204), BA.2 (GMT: 3906), BA.3 (GMT: 5407) and BA.1.1 (GMT: 5873) variant pseudoviruses (Figure 6C). Although the sample size is small, the results show similar resistance trends among these Omicron variants compared to D614G.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17636,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "In the present study we compared four Omicron lineage (BA.1, BA.2, BA.3 and BA.1.1) variants spikes for their ability to mediate virus entry in cells expressing human ACE2 in the presence or absence of TMPRSS2 and in cells expressing ACE2 orthologs of different species. We also assessed neutralization sensitivity of these spikes by soluble ACE2 and vaccine-elicited antibodies. We found that TMPRSS2 enhances Omicron (BA.1, BA.2, BA.3 and BA.1.1) pseudovirus infection relatively less than the B.1 (D614G) pseudovirus. In addition, compared to D614G, all Omicron lineage spikes more efficiently used ACE2 receptors from diverse animal species including mouse ACE2 but not horseshoe bat ACE2 for entry. Finally, we also observed that three doses of the Pfizer/BNT162b2 vaccine induced antibodies that had comparable levels of neutralization towards BA.1, BA.2, BA.3 and BA.1.1 Omicron lineages, although the neutralization titers against Omicron are 7-8-fold lower than those against D614G.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18637,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Several recent studies demonstrated less enhancement of virus entry by TMPRSS2 for BA.1 pseudovirus infection compared to D614G and Delta pseudoviruses in ACE2/TMPRSS2-expressing cell lines (Calu3, Caco2, VeroE6/TMPRSS2), while no infection differences were observed in cell lines expressing ACE2 but not TMPRSS2 (VeroE6, H1299, HeLa-, HEK293T- and A549-ACE2) 6,54,55. Similar observations were reported in studies that performed authentic SARS-CoV-2 infections 6,54,55. Compared to D614G or the Delta VOC, Omicron variants (BA.1, BA.1.1) had attenuated or inefficient replication in TMPRSS2-positive lower airway or gall bladder organoids, Calu3, and Caco2 lung cell lines, but had no significant difference in cells with low or no TMPRSS2 expression (H1299, HeLa- and 293T-ACE2 cells) 6,36,55. Due to apparently less efficient use of TMPRSS2, Omicron variants appear to favor endocytic route of entry rather than TMPRSS2-mediated entry at the cell surface and consequently are more sensitive to endosomal inhibitors (chloroquine, bafilomycin A1 and E64d) 6,35. Our findings are consistent with the increased use of the endosomal entry pathway in cells expressing only ACE2, though we found that coexpression of TMPRSS2 enhanced infection.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19877,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "A possible mechanism that contributes to less efficient TMPRSS2 utilization by Omicron VOCs is the accumulation of multiple additional basic amino acid substitutions, leading to an overall positively charged Omicron spike proteins compared to the D614G spike. These substitutions may confer greater sensitivity to low pH-induced conformational changes in endosomes, and therefore be better adapted for entry in the low pH environment encountered in the upper airway 6. In this regard, a recent preprint showed greater sensitivity of Omicron (BA.1, BA.2 and BA.4) pseudoviruses to endosomal (E64d) entry inhibition compared to pseudoviruses with D614G and Delta VOC spikes, but refractory to Camostat inhibition in Caco-2 cells where both endosomal and TMPRSS2-mediated cell surface entry routes are active 56. This phenotype is accounted for by the N969K S2 substitution in Omicron VOCs 56. However, maximum likelihood fitting models comparing the entry routes of Omicron suggest that Omicron is also efficient in utilizing TMPRSS2 for entry into human nasal epithelial cells 56. Alternatively, the BA.1 spike protein was shown to be less efficiently cleaved at the S1/S2 site compared to wild type and Delta VOC in authentic SARS-CoV-2-infected cells, as well as on virions 6,7,36,55. Efficient cleavage at the S1/S2 site is known to be required for exposure of the S2’ site for TMPRSS2 processing after ACE2 binding. Substitutions proximal to the furin cleavage site (H655Y, N679K and P681H), as well as substitutions in the S2 subunit, may contribute to less efficient TMPRSS2 cleavage of Omicron spike 36. Finally, higher affinities of BA.1 (6-fold) and BA.2 (11-fold) RBD for ACE2 coupled with transitions into the so called two- or three-RBD-up conformations may also contribute to the efficient use of ACE2 48,57. In the present study, we report higher but similar sensitivities for BA.1, BA.2, and BA.1.1 to inhibition by the soluble ACE2 monomer (3-fold vs D614G) while BA.3 and D614G are comparably less sensitive.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21901,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Our data further show that Omicron lineage spike proteins more efficiently use ACE2 receptors from diverse animal species for entry. Our findings showing Omicron lineage spikes’ usage of mouse ACE2 for entry extend previous reports showing enhanced binding of BA.1 and BA.2 RBD to mouse ACE2 3,57. Similar (K417N, N501Y, Q493H/R) 33,50,58 or closely related (Q498H) 50,59 mouse-adapted substitutions previously found in experimentally infected mice are observed in Omicron RBM that may contribute to binding to mouse ACE2. We show that Q493R and Q498R substitutions alone on D614G background confer the ability to use mouse ACE2. On the other hand, the Omicron spike is unable to use Chinese rufous horseshoe bat (Rhinolophus sinicus) ACE2 for entry due to the Q493R substitution. These changes in species tropism are likely due to specific Omicron RBM-ACE2 interfacial residues that promote (R493-E35) or disrupt (R493-K35) interactions in mouse or horseshoe bat ACE2, respectively. In addition, the Q493R substitution also significantly enhanced the usage of all other species of ACE2. Altogether, the spike substitutions in the BA.1, BA.2, BA.3 and BA.1.1 Omicron variants permit robust usage of diverse ACE2 orthologues for entry and thus have the potential to broaden the risk of the Omicron variants to infect animal species and spill back to humans.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23257,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Despite several amino acids differences in the spikes of the BA.1, BA.2, BA.3 and BA.1.1 variants, three immunizations with the Pfizer/BNT162b2 vaccine elicited high and comparable levels of neutralizing antibodies against BA.1, BA.2, BA.3 and BA.1.1 pseudoviruses, at least for the short term. Since three-dose mRNA vaccine-induced antibodies elicited robust neutralizing antibodies and was shown to protect against severe disease against the BA.1 VOC 1, this protection likely extends to emerging BA.2 VOCs. These findings are consistent with several recent studies highlighting enhanced breadth and potency of three dose mRNA vaccine-induced antibody response against Omicron VOCs 1,3,9–14. Cross neutralizing antibodies against Omicron were observed post vaccine boost, but not post 2nd vaccination 1, suggesting recalled memory B cell or de novo induction of novel B cell clones that permit cross neutralization 15,16.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24180,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Breakthrough infections with the BA.1 VOC after three vaccinations induced high neutralization titers against all Omicron variant pseudoviruses, as was the case for after three doses of the Pfizer/BNT162b2 vaccine without breakthrough infection. Comparable marked enhancement of serum-neutralizing activity between three dose-vaccinated subjects, vaccine breakthrough, and infected/vaccinated cases was reported in an earlier study where the number of exposures and/or time period between exposures to SARS-CoV-2, either via vaccination or infection, correlated with the strength of neutralizing antibody responses, as well as resilience to variants 10. Furthermore, our findings extend a recent report where sera from vaccinated individuals with confirmed Omicron breakthrough infection showed higher neutralization titers compared to vaccinated individuals without breakthrough infection 60. Altogether, findings from us and the others suggest that breakthrough infections can boost preexisting immunity induced by three doses of the Pfizer/BNT162b2 vaccine, thereby eliciting antibodies that neutralize not only Omicron and B.1 variants, but also Alpha, Beta, and Delta variants 60. Finally, a recent study used homologous hamster sera and antigenic cartography to visualize antigenic evolution of SARS-CoV-2 VOCs, demonstrating distinct antigenicity of BA.1 and BA.2 VOCs, separate from ancestral and earlier SARS-CoV-2 VOCs 61.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25612,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Our study has several caveats, including the use of pseudoviruses instead of authentic SARS-CoV-2 for conducting experiments. However, our findings using pseudoviruses agree with those reported using authentic SARS-CoV-2. For instance, authentic BA.1/BA.1.1 VOCs were shown to undergo attenuated replication in TMPRSS2-expressing cells compared to ancestral Wuhan-Hu-1, and Alpha, Beta, and Delta VOCs 6,36. These reports also showed greater sensitivity of BA.1 pseudovirus entry to endosomal inhibitor E64d. While we used pseudovirus entry assays to determine Omicron variant usage of ACE2 receptors of various animal species, it remains unknown whether there may be intrinsic and/or innate host-specific factors that might act to inhibit live Omicron VOCs at an entry or post entry step. Furthermore, although we identified RBM substitutions in Omicron spike that conferred the ability to use mouse or horseshoe bat ACE2, we didn’t confirm ACE2 substitutions that permit or prevent Omicron spike binding. For instance, introducing K35E substitution in horseshoe bat ACE2 should permit Omicron variants’ usage. Finally, analysis of a limited number of serum samples and short follow up after the receipt of three doses of the Pfizer/BNT162b2 mRNA vaccine do not give us insights into the durability of the antibody response. While studies of antibody durability are ongoing, our findings indicate that three dose immunization with the Pfizer/BNT162b2 will likely contribute to protection from severe disease caused by the ongoing BA.2 VOC.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27152,
+          "infons": {
+            "section_title_1": "Materials and Methods",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Sera were obtained from participants who received three doses of the Pfizer/BNT162b2 vaccine and had no serological evidence of SARS-CoV-2 infection prior to vaccination. The first two doses of the Pfizer/BNT162b2 vaccine were received before March 1, 2021, whereas the third dose of Pfizer/BNTech162b2 vaccine was received by December 15, 2021. Sera were also obtained from five individuals who experienced vaccine breakthrough infection between December 2021 and January 2022, when BA.1 or BA.1.1 VOCs were dominant. Sera were collected at the U.S. Food and Drug Administration with written consent under an approved Institutional Review Board (IRB) protocol (FDA IRB Study # 2021-CBER-045).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27866,
+          "infons": {
+            "section_title_1": "Materials and Methods",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Codon-optimized, full-length open reading frames of the spike genes of B.1 (D614G) and Omicron variants in the study were synthesized into pVRC8400 (B.1, BA.1, BA.2, and BA.3) or pcDNA3.1(+) (BA.1.1) were obtained from the Vaccine Research Center (National Institutes of Health, Bethesda, MD) and GenScript (Piscataway, NJ, USA). The codon optimization parameters for spike gene expression in human cells follow GenScript’s Optimum Gene algorithm as described previously 53. The spike substitutions present in the Omicron variants spikes are listed in Figure 1. The HIV gag/pol packaging (pCMVΔR8.2) and firefly luciferase encoding transfer vector (pHR’CMV-Luc) plasmids 62,63 were obtained from the Vaccine Research Center (National Institutes of Health, Bethesda, MD, USA). ACE2 genes of various species (African green monkey (AGM), Chinese rufous horseshoe bat (Rhinolophus sinicus), ferret, mouse, Chinese hamster, Syrian golden hamster, white-tailed deer, swine, bovine, and pangolin) with a C-terminal V5 tag were synthesized by GenScript as described previously 42. 293T (ATCC, Manassas, VA, USA; Cat no: CRL-11268), 293T.ACE2 (BEI Resources, Manassas, VA, USA; Cat no: NR-52511) 64 and 293T.ACE2.TMPRSS2 cells stably expressing human angiotensin-converting enzyme 2 (ACE2) and transmembrane serine protease 2 (TMPRSS2) (BEI Resources, Manassas, VA, USA; Cat no: NR-55293) 34 were maintained at 37°C in Dulbecco’s modified eagle medium (DMEM) supplemented with high glucose, L-glutamine, minimal essential media (MEM) non-essential amino acids, penicillin/streptomycin, HEPES, and 10% fetal bovine serum (FBS).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29483,
+          "infons": {
+            "section_title_1": "Materials and Methods",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "HIV-based lentiviral pseudoviruses with desired spike proteins (D614G, BA.1, BA.2, BA.3, and BA.1.1) were generated as previously described 34,65. Pseudoviruses comprising the spike glycoprotein and a firefly luciferase (FLuc) reporter gene packaged within HIV capsid were produced in 293T cells by co-transfection of 5 μg of pCMVΔR8.2, 5 μg of pHR’CMVLuc and 0.5 μg of pVRC8400 or 4 μg of pcDNA3.1(+) encoding a codon-optimized spike gene. Pseudovirus supernatants were collected approximately 48 h post transfection, filtered through a 0.45 μm low protein binding filter, and stored at −80°C.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30077,
+          "infons": {
+            "section_title_1": "Materials and Methods",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Neutralization assays were performed using 293T.ACE2.TMPRSS2 cells in 96-well plates as previously described 34,65. Pseudoviruses with titers of approximately 106 relative luminescence units per milliliter (RLU/mL) of luciferase activity were incubated with serially diluted sera or inhibitors for two hours at 37°C prior to inoculation onto the plates that were preseeded one day earlier with 3.0 × 104 cells/well. Pseudovirus infectivity was determined 48 h post inoculation for luciferase activity by luciferase assay reagent (Promega) according to the manufacturer’s instructions. The inhibitor concentration or inverse of the sera dilutions causing a 50% reduction of RLU compared to control was reported as the neutralization titer. Titers were calculated using a nonlinear regression curve fit (GraphPad Prism Software Inc., La Jolla, CA, USA). The mean titer from at least two independent experiments each with intra-assay duplicates was reported as the final titer. For experiments involving camostat mesylate (0.03–500 μM) and chloroquine (0.39-25 μM) inhibitors, each target cell type was pretreated with inhibitor for two hours before pseudovirus infection in the presence of respective inhibitor as described previously 34.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31313,
+          "infons": {
+            "section_title_1": "Materials and Methods",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "His-tagged soluble human ACE2 was produced in FreeStyle™ 293-F cells by transfecting soluble human ACE2 (1-741 aa) expression vector plasmid DNA using 293fectin (Thermo Fisher) and purified using HiTrap Chelating column charged with nickel (GE healthcare) according to the manufacturer’s instructions. The eluate containing soluble ACE2 was concentrated to 1.0 mL. Protein containing fractions were pooled and concentrated using Amicon ultra-15 ultracentrifugal unit. The purified proteins were analyzed on a 4%–12% SDS-PAGE stained with Coomassie blue, or membrane probed with mouse monoclonal 6x-His tag antibody (4A12E4) (Thermofisher, Waltham, MA) (Supplementary Figure 2).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31990,
+          "infons": {
+            "section_title_1": "Materials and Methods",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Soluble human ACE2 neutralization assays were performed using 293T.ACE2.TMPRSS2 as previously described 53. Briefly, pseudoviruses were treated with 3-fold serial dilutions of soluble ACE2 for one hour at 37°C. Pseudovirus and soluble ACE2 mixtures (100 μl) were then inoculated onto 96-well plates that were pre-seeded with 3.0 x 104 cells per well one day prior to the assay. Pseudovirus firefly luciferase activity was determined 48 h post inoculation. The ACE2 concentration causing a 50% reduction of luciferase activity compared to untreated control was reported as the IC50 using a nonlinear regression curve fit (GraphPad Prism software Inc., La Jolla, CA).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32655,
+          "infons": {
+            "section_title_1": "Materials and Methods",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Cell lysates were resuspended in 1X Laemmli loading buffer containing 2-mercaptoethanol, heated at 70°C for 10 min, resolved by 4–20% SDS PAGE and transferred onto nitrocellulose membranes. Membranes were probed for the V5-tag and γ-actin using V5 epitope tag antibody (Novus Biologicals, Centennial, CO), and mouse gamma actin polyclonal antibody (Thermofisher), respectively.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33032,
+          "infons": {
+            "section_title_1": "Materials and Methods",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Contact residues in Omicron RBD/human ACE2 complexes are shown as sticks on the Protein Data Bank entry (PDB) code 7WBP 47 by UCSF Chimera program (http://www.cgl.ucsf.edu/chimera/). Substitutions in RBD/ACE2 complex were introduced by rotamers function of USCF Chimera program.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33310,
+          "infons": {
+            "section_title_1": "Materials and Methods",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "One-way analysis of variance (ANOVA) with Dunnett’s multiple comparisons tests (Omicron variants compared to D614G), and geometric mean titers (GMT) with 95% confidence intervals were performed using GraphPad Prism software. The p values of less than 0.05 were considered statistically significant. All neutralization titers were log2 transformed for analyses.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

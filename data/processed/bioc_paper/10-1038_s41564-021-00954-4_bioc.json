@@ -1,0 +1,528 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1038_s41564-021-00954-4",
+      "inputfile": "../../data/processed/html_papers/10-1038_s41564-021-00954-4.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "TITLE",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": " H umans can be infected by SARS-CoV-2 either through inhalation of airborne viral particles or by touching contaminated surfaces. Structural and functional studies have shown that a single RBD of the SARS-CoV-2 homotrimer spike glycoprotein interacts with ACE2, which serves as its receptor 1,2. Binding of spike (S) protein to ACE2 and subsequent cleavage by the host protease transmembrane serine protease 2 (TMPRSS2) results in cell and virus membrane fusion and cell entry 1. Blocking of the ACE2 receptor by specific antibodies prevents viral entry 1,3-5. In vitro binding measurements have shown that SARS-CoV-2 S protein binds ACE2 with an affinity of around 10 nM, which is about tenfold tighter than the binding of the SARS-CoV S protein 2,4,6. It has been suggested that this is, at least partially, responsible for the higher infectivity of SARS-CoV-2 7. Recently, three major SARS-CoV2 variants of concern have emerged and mutations in the RBD of the spike proteins of these variants have further strengthened this hypothesis. Deep-mutational scanning of the RBD domain showed that the N501Y mutation in the Alpha variant to enhances binding to ACE2 7. The Beta variant has three altered residues in the ACE2-binding site (K417N, E484K and N501Y), and has spread extremely rapidly, becoming the dominant lineage in the Eastern Cape and Western Cape Provinces within weeks 8. The Gamma variant, with independent K417T, E484K and N501Y mutations, similar to the B.1.351 variant is spreading rapidly from the Amazon region 9. Another S mutation associated with",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1583,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "increased SARS-CoV-2 infectivity is S477N, which became dominant in many regions 10 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1669,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Efficacious vaccines are now being administered 11 . However, especially when a large fraction of the global population remains unvaccinated, the potential of the continuously mutating virus to become at least partially resistant to vaccines means that drug development must continue. Potential therapeutic targets that block viral entry include molecules that block the spike protein, the TMPRSS2 protease or the ACE2 receptor 12 . Multiple high-affinity neutralizing antibodies have been developed 13 . Soluble forms of the ACE2 protein 14, 15 or engineered parts or mimics have also shown efficacy 16, 17 . In addition, previously developed TMPRSS2 inhibitors have been repurposed for treatment of COVID-19 1 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2383,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The development of molecules to block the ACE2 protein has not received much attention. One potential caveat with this approach is the importance of ACE2 biological activity, both as a carboxypeptidase removing a single C-terminal amino acid from angiotensin II to generate angiotensin-(1-7) and in the regulation of amino acid transport and pancreatic insulin secretion 18, 19 . Dalbavancin is a drug that blocks the spike protein-ACE2 interaction, however it does so with low affinity 20 (approximately 130 nM). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2897,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We hypothesized that the RBD domain of SARS-CoV-2 could be used as a competitive inhibitor of the ACE2 receptor binding site. However, this would probably require an RBD with picomolar affinity for ACE2. We recently developed a yeast display strategy, ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3149,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "based on carboxy-and amino-terminal fusions of extremely bright fluorescent moieties, which can report expression at extremely low levels, enabling selection down to picomolar concentrations 21 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3345,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "SARS-CoV-2 has sampled an enormous sequence space, owing to more than 180 million infections globally. Among the huge number of mutations, a very limited number have emerged multiple times and become fixed in the population, indicating that these mutations have a strong adaptive advantage. Here we mutated and affinity-matured SARS-CoV-2 S RBD to characterize the adaptive advantage of RBD mutations and inform epidemiology and risk assessments of variants, and to identify RBD variants that might function as effective drugs to treat COVID-19. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3891,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "For in vitro evolution, we took advantage of an enhanced yeast surface display protocol we developed recently using two different detection strategies, eUnaG2 and DnbALFA 21 . Before library construction, we tested various RBD lengths for optimal surface expression and stability (Supplementary Table 1 ). Subsequently, we chose RBDcon2 for yeast display and RBDcon3 for protein expression (see Methods). Libraries were constructed in a stepwise manner. Variants from libraries S1 and S2 were screened for stability-enhancing mutations, followed by ACE2 binding (B3-B5), and finally for fast association (B6(FA)) ( Fig. 1 ). All libraries were constructed by error-prone PCR random mutagenesis of the RBD, introducing 1-5 mutations per clone (Fig. 1) . Libraries S1 and S2 converged towards the I358F mutation, with the phenylalanine resi-due fitting into the hydrophobic pocket formed in the RBD domain ( Fig. 1 and Extended Data Fig. 1 ). This mutation nearly doubled the fluorescence signal intensity and was used to construct library B3 ( Fig. 1 ), in which mutations were restricted to the receptor binding motif (RBM) (residues G431-K528) (Fig. 1 ). The B3 library was expressed at 37 °C to maintain pressure on protein stability, and yeast cells were selected by fluorescence-activated cell sorting (FACS) against decreasing concentrations of ACE2 labelled with CF640 R succinimidyl ester (1,000, 800 and 600 pM and 4 h of incubation). Library enrichment was achieved by selecting the top 3% of binding cells ( Fig. 1 and Extended Data Fig. 2 ; Methods). Plasmid DNA was isolated from selected yeast cells in the sorted library and transformed into Escherichia coli for preparation of a new library (B4). This approach, which mimics natural virus evolution, enriches the subsequent library with multiple selected mutations and purges non-beneficial mutations, enabling the screening of a wider sequence space and epistatic mutations, with multiple trajectories being sampled. Thirty single-colony isolates were used for sequencing to monitor the enrichment process and subsequently for screening of binding affinity. Analysis of the selected B3 library yielded two dominant mutations appearing in more than 70 % of clones: E484K and N501Y. In addition, multiple minor mutations: V483E, N481Y, I468T, S477N, N448S and F490S were found ( Table 1 , Fig. 2a ,b and Extended Data Fig. 3 ). The analysis of library B4 (selected against 600, 400 and 200 pM ACE2) showed absolute domination of E484K and N501Y mutations. Besides the dominant clones, mutations N460K, Q498R and S477N increased to frequencies above 20%, and new minor populated mutations were identified: G446R, I468V, T478S, F490Y and S494P (Table 1, Fig. 2 and Extended Data Fig. 3 ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6642,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Among the mutations selected and fixed in the yeast population during these initial steps of affinity maturation were three mutations that came to prominence [8] [9] [10] in clinical samples of SARS-CoV-2: S477N, E484K and N501Y. In addition, the yeast selection probed the most abundant naturally occurring variants in positions 468, 490 and 494, which were not fixed in yeast selection (Table 1) . Indeed, analysis of the I468T and S494P on their own show them to be nearly neutral with respect to ACE2 binding or yeast surface expression ( Fig. 2b,d ). The stringency of our selection process is likely to be responsible for the fixation of variants with the largest contribution to the binding affinity, whereas other factors are also important for viral evolution. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7412,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "To evaluate why some mutations were prevalent in SARS-CoV-2 patient samples and also selected by yeast display, while others were not, we plotted the occurrence of all single-amino-acid mutations in the GISAID database 22 with respect to the apparent change in the RBD-ACE2-binding affinity (K D,App ) as estimated by the frequency of given amino acids within a mutant library at a given concentration (that is, using the deep-mutational scanning approach 7 ). Figure 2e (black dots) shows that the more prevalent mutations in GISAID have a higher binding affinity in our assays. To quantify these results, we measured the binding of recloned isogenic variants of the most prevalent mutations from library B3 and the mutations that appear most frequently in SARS-CoV-2. The K D,YD values calculated here for the single mutations from full titration curves ( Fig. 2 and Extended Data Fig. 4 ) are shown as blue squares in Fig. 2e . Overall, K D,App and K D,YD values for the different mutants change in a coordinated way-however, the fold-change relative to wild type (WT) is higher for K D,YD (Extended Data Fig. 5a ), as indicated by a larger slope for the regression of the blue squares compared with the black dots. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8631,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The tightest binding clone of library B3 is the E484K/N501Y double mutant (RBD-33) ( Fig. 2a ), which has an affinity of 204 pM and includes the core mutations in the B.1.351, P.1 and P.3 variants. Six consecutive libraries were created by error-prone PCR (inserting 1-5 mutations per gene) to increase RBD domain stability and binding to the ACE2 receptor. Libraries S1 and S2 were selected for higher expression at 30 °C and 37 °C, respectively. A single clone, I358F, was identified (Extended Data Fig. 1 ). Based on this stabilized RBD, we created libraries B3-B5, randomizing residues 431-528. From each selected library, the pool of enriched clones was used as a template for the subsequent library. the last library B6(FA) was created by pre-equilibrium selection of randomly mutated residues 336-528. Multiple clones from each library were sequenced and monitored for affinity and stability (tables 1 and 2). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9548,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "For comparison, the single N501Y mutant (B.1.1.7) has an affinity of 500 pM and the S477N mutant has an affinity of 963 pM (compared to 1.7 nM for the WT) ( Fig. 2c and Extended Data Fig. 3 ). In addition to E484K/N501Y, the B.1.351 and P.1 variants include a mutation in residue K417 to N and T, respectively. As residue 417 is not in the RBM, it was not included in the region mutated in libraries B3-B5. Therefore, we introduced the K417N and K417T mutations (K417N/T) by site-directed mutagenesis in addition to E484K/N501Y and measured its contribution to binding and expression. On their own, both K417N and K417T decrease binding but increase expression on the yeast surface ( Fig. 2c,f) . However, on the background of E484K/N501Y, K417N/T does not affect binding, but increases the yeast surface expression of RBD E484K/N501Y to nearly that of the WT RBD (RBD-WT) ( Fig. 2f ). Calculating double-mutant cycles between E484K/N501Y and K417N/T indeed shows positive cooperativity between these residues ( Fig. 2g ). These data explain why K417N/T mutations convergently emerged in B.1.351 and P.1 variants. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10662,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The most abundant naturally occurring mutations in the RBD [8] [9] [10] 23 were selected by yeast display, and are present in library B3. We next explored whether higher affinity binding was achievable by applying additional selections. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10899,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Characterization of ACE2-RBD affinity limits. Based on the observation that tighter binding clones were selected in our assay, the selection of such binders might predict future SARS-CoV-2 variants. Furthermore, a tight binder could be used to block ACE2 and thereby inhibit SARS-CoV-2 infection. We therefore created library B5 ( Fig. 1 ) and selected it using 200, 50 and 30 pM ACE2. Sorting with less than 100 pM bait was done after overnight incubation to reach equilibrium in 50 ml solution in order to prevent the ligand-depletion effect (as the number of ACE2 molecules becomes much lower than the number of RBD molecules). B5 resulted in the fixation of mutations E484K, Q498R and N501Y in all sequenced clones (Extended Data Fig. 6 ). Mutations N460K, S477N and S494P were present with frequencies higher than 20%. Additional mutations identified were G446R, I468V and F490Y. Representative clones with different mutational profiles were subjected for detailed analyses ( Table 2 and Extended Data Figs. 3 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11914,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The final selection aimed to achieve faster association rates by using pre-equilibrium selection 24 . Library B6(FA) ( Fig. 1 ) was created by randomizing the full-length RBD gene, using the enriched B5 library as template. B6 was pre-selected with 30 pM ACE2 for 8 h (reaching equilibrium after overnight incubation), followed by 90 min incubation before selection. This procedure resulted in the accumulation of additional mutations: V445K, I468T and T470M, and the fixation of the previously observed S477N mutation in all sequenced clones. Five minor mutations, N354E, K417T, V367W, S494P and S514T, with only a single sequence each, were also identified. Among them K417T was also present in the P.1 variant, indicating that it may confer an advantage for the virus, as well as in yeast display selection 9 . It should be noted that V445K/T470M requires two nucleotide changes, demonstrating the utility of using multiple rounds of library creation on top of previous libraries (and not single clones). Interestingly, these mutations were not located at the binding interface, but rather at the periphery, in line with previously described computational fast-association design, in which peripheral mutations had key roles 25 . From the B6(FA) library, we determined the isogenic binding for 4 different clones, with RBD-62 showing the highest affinity of 3.5 ± 1.8 pM ( Fig. 2a and Table 2 ). To validate the K D,YD values, we purified RBD clones WT, 36, 48, 52, 521, 62, 614 and 71 expressed in Expi293F cells ( Supplementary  Fig. 1 ). Measuring the binding affinity to ACE2 using the Biacore S200 (GE Healthcare) resulted in an affinity of 17 nM for RBD-WT and 16 pM for RBD-62 binding to ACE2, a 1,000-fold increase in affinity over the WT ( Fig. 2h and Table 2 ). While most of the  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13708,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "EQUATION (Y): Not extracted; please refer to original document.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13771,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Amino acids in bold are dominant, that is, they account for more than 50% of selected clones; underlined amino acids are minor, that is, they account for fewer than 50% of clones at a given position. Emerging mutations that are present both in clinical samples and in yeast display experiments occur at positions 477, 484 and 501. a Lineage designation by Rambaut et al. 48 ; alternative strain designation proposed by NextStrain initiative 49 improvement came from reduced k off , k on increased tenfold, from 4.5 × 10 5 to 44 × 10 5 M −1 s −1 for RBD-62 ( Table 2 ). The other variants had affinities in between these two extremes (Extended Data Fig. 5 and Table 2 ). The increase in affinity as determined using the Biacore S200 correlates with those measured by yeast titration (R 2 = 0,89; Extended Data Fig. 5c ); however, absolute affinity values differed by tenfold on average (Table 2) . Differences in absolute binding affinity (K D ) values are common between different techniques, whereas relative values are much more stable 26 . Measuring its thermostability showed that RBD-62 was more stable than the . e, Apparent binding affinities for ACE2 of single-amino-acid mutations as calculated from deep-mutational scanning of the RBD domain 7 (K D,App , black dots) or from yeast titration done in this study (K D,YD , blue squares) plotted against their frequency in the GISAID database 22 . Mutations with fewer than ten sequences were not included in the analysis. f, the effect of the most prevalent mutations in and variants of SARS-CoV-2 RBD on ACE2 binding and yeast surface expression combined with the frequency of variants. the K417N/t mutations occur in the B. WT by 4 °C, probably due to the introduction of the I358F, I468T and S477N stabilizing mutations (Extended Data Fig. 7 ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15576,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "To further increase RBD-62 affinity and stability, we prepared a site-directed mutagenesis library using RBD-62 as template, and included the 15 beneficial mutations suggested by deep-mutational scanning 7 , most of which require more than one nucleotide change to be reached. None of these mutations alone increased the affinity towards RBD-62. However, a combination of three of mutations (V367W, R408D and K417V) stabilized RBD-62 by 5 °C, creating RBD-71, but at the cost of decreased binding affinity (Table 2 and Extended Data Fig. 7 ). This demonstrates the limitations of using single-amino-acid changes from deep-mutational scanning to obtain high-affinity RBD binders. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16255,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Cryo-electron microscopy structure of RBD-62 complexed with ACE2. We determined the cryo-electron microscopy (cryo-EM) structure of the N-terminal peptidase domain of ACE2 (G17-Y613) bound to RBD-62 (T333-K528) (Fig. 3a,b ) (Electron Microscopy Data Bank accession EMD-12187, Protein Data Bank (PDB) ID: 7BH9). Details of sample preparation, data acquisition and structure determination are described in Methods. The cryo-EM data collection and refinement statistics are summarized in Supplementary Table 2 and Supplementary Figs. 2-4 . Structure comparison of the ACE2-RBD-62 complex and the ACE2-WT complex (PDB ID: 6M0J) revealed their overall similarity, with a root mean squared deviation of 0.97 Å across 586 amino acids of ACE2 and 0.66 Å among 143 amino acids of the RBD (Extended Data Fig. 8 ). Three segments; R357-S371 (β2 and α2), G381-V395 (α3) and F515-H534 (β11) are disordered in RBD-62, and thus not visible in the density map (blue cartoon in Extended Data Fig. 8 ). These segments are situated opposite to the ACE2-binding interface and are therefore not stabilized and rigidified by ACE2 contacts. All mutations (except I358F) are present in the density map. Mutations V445K, N460K, I468T, T470M, S477N, E484K, Q498R and N501Y are part of the receptor-binding motif (RBM) that interacts directly with ACE2 ( Fig. 3a,b , orange spheres). The RBM, including residues S438-Q506, shows the most pronounced conformational differences compared with RBD-WT ( Fig. 3c and Supplementary Fig. 5 , black circle). Out of the nine mutations introduced in the RBM, four mutations create new intramolecular interactions, thus stabilizing the RBD-62 structure, including hydrogen-bond contacts between K460 and D420, and between T468 and R466. Interestingly, these are contacts that are gained in library B6(FA). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18072,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The mutations S477N, Q498R, N501Y form new contacts with ACE2. Y501 makes a π-interaction with Y41 and positions R498 to make a hydrogen bond and salt bridge with Q42 and D36 of ACE2, forming a strong network of new interactions, thus supporting the impact of these residues on affinity (Fig. 3d) . Calculating the electrostatic potential of the RBD-62 in comparison with RBD-WT shows that RBD-62 has a much more positively charged surface, which is complementary to the negatively charged RBD-binding surface on ACE2 (Fig. 3e) . In addition, mutation N477 interacts with S19 of ACE2 (Fig. 3c) . The ACE2-RBD interface involves the interaction of amino acid residues from the N-terminal segment (Q24-Q42), K353 and D355 of the ACE2 domain and residues from the RBM domain of the RBD. The S477N, Q498R and N501Y mutations in RBD-62 are situated at the two extremes of the RBD-ACE2 interface, and thereby stabilize the complex (Fig. 3b) . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19009,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "RBD-62 inhibits SARS-CoV-2 infection without affecting enzymatic activity of ACE2. One aim of our study was to generate a tight inhibitor drug to compete with host cell ACE2 binding by Underlined clones have the highest affinity among the clones of a given library, and their representative binding curves are shown in Fig. 2a . ND, not determined; RU, response units. a pJYDC1 (plasmid 162458) uses the intrinsic eUnaG2 reporter; pJYDC3 (plasmid 162460) contains the DnbALFA reporter 21 . b Melting temperature (T m ) as measured by differential scanning fluorimeter tycho Nt.6 (Nanotemper technologies). c K D values measured between yeast surface-exposed RBD variants and the monomeric extracellular portion of the ACE2 receptor (residues G17-Y613). the number of biological replicates is shown in square brackets. d Measured by the Biacore S200 (GE Healthcare) using a series S sensor chip protein A (GE Healthcare) activated with Fc-ACE2 27 (Methods). the sensorgrams are shown in Fig. 2h (Wt and RBD-62) and Extended Data Fig. 5 . Values were calculated from global fitting of the data. k on and k off , association and dissociation rate constants, respectively; Chi 2 , Chi squared test value. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20210,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "(°C) K D,YD (pM) c K D (M) d k on (M −1 s −1 ) k off (s −1 ) Chi² (RU²) RBD- ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20287,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "SARS-CoV-2. Any ACE2-binding moiety might affect the enzymatic activity of ACE2, which is important for the renin-angiotensin system 18, 19 . To determine whether RBD-62 affects host cell ACE2, we assayed the impact of RBD-WT and RBD-62 proteins on ACE2 activity. We found no effect, using either in vitro experiments or assays using various cell lines expressing ACE2 (Fig. 4a) . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20668,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The effect of RBD-WT and RBD-62 on viral entry was first explored using lentivirus pseudotyped with spike protein variant 27 SΔC19. Results in Supplementary Fig. 6a show that the half-maximum effective concentration (EC 50 ) was reduced from 88 nM for RBD-WT to 5.1 nM for RBD-62. Next, RBD-WT and RBD-62 were evaluated for their potency in inhibiting SARS-CoV-2 infection of Vero E6 cells (Fig. 4b) . We determined inhibition of the WT strain (BetaCoV/France/IDF0372/2020), as well as B.1.1.7, B.1.351 and P.1 virus variants with RBD-62 and RBD-WT. The half-maximum inhibitory concentration (IC 50 ) and 90% maximum inhibitory concentration (IC 90 ) values were 100-to 1,000-fold lower for RBD-62, with concentrations in the pM range for all variants (whereas high nM concentrations were required using RBD-WT). RBD-62 completely blocked viral entry and replication at concentrations in the 10 nM range (Fig. 4b, grey zone) , whereas RBD-WT reduced viral load by only 2-3 orders of magnitude at a the loop of RBD-Wt is shown for comparison (PDB ID 6M17 in white and 6M0J in pale yellow). the change of main chain positions moves F486 to the optimum position for methionine-aromatic interaction 50 . d, the interaction network formed between RBD-62 mutated residues and ACE2. e, Open book presentation of ACE2 and RBD-Wt and RBD-62. the electrostatic potential was calculated using the program UCSF Chimera v1.13, with negative potential in red and positive in blue. Electrostatic complementarity between RBD and ACE2 is strengthened in RBD-62 by positive charges at V445K, N460K, E484K and Q498R. the black line on ACE2 indicates the RBD-binding site. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22321,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "much higher concentration (1 µM). RBD-62 is therefore a promising drug candidate. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22403,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "RBD-62 efficacy in Syrian hamster challenge model. We measured the capacity of RBD-62 to block SARS-CoV-2 infection in vivo using a highly pathogenic challenge model in golden Syrian hamsters (M. auratus) 28 . Hamsters were infected intranasally with 5 × 10 3 plaque-forming units (PFU) of SARS-CoV-2 USA-WA1/2020, and RBD-62 was administered via inhalation using an Aerogen Solo in weight loss, but only in males. The difference in protection between male and female hamsters is probably due to documented gender-specific differences, with more severe disease in male hamsters after SARS-CoV-2 infection 28 . We also determined viral loads using oral swabs 2 d after infection ( Supplementary Fig. 6b,c) , and found a reduction (although below statistical significance) for the post-infection treatment. Oral swabs may not be ideal to determine viral loads in the lungs, which are mostly inhibited by inhalation of RBD-62. The improved infection outcome in hamsters following treatment with RBD-62 is supportive of our in vitro data and suggests that this approach may be of therapeutic value to block infection in humans. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23527,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "During the first year of the SARS-CoV-2 pandemic, a small subset of mutations have been shown to have an adaptive advantage. Here we report the application of an in vitro evolution method to select for higher affinity binding of the SARS-CoV-2 spike RBD to the host cell receptor ACE2. We found mutations selected by natural infection, S477N, E484K and N501Y, among the first selected by yeast surface display affinity maturation of RBD against ACE2 (Table 1) . Moreover, the E484K/N501Y variant was the tightest binding mutation emerging from the B3 library. These two mutations evolved independently, but merged quite rapidly into single clones (Table 1 and Extended Data Fig. 6 ). The S477N mutation was selected in B3, but was fixed only in B6(FA). This is related to the smaller gain in affinity with S477N compared with N501Y (Fig. 2c) . In vitro selection is expected to follow the affinity gain, but it was surprising to observe that natural SARS-CoV-2 selection follows the same path. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24521,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In 2020, the SARS-CoV-2 D614G mutation emerged, and is now prevalent. Then, the more infectious B.1.1.7, B.1.351 and P.1 variants were detected 29 . Among 42 non-synonymous mutations delineating the latter variants (PANGO lineages (https://cov-lineages. org/)), N501Y is fixed, whereas the K417N/T and E484K mutations are only found in the B.1.351 and P.1 variants. Recently, an additional virus variant named P.3 was detected in the Philippines with the same combination of E484K and N501Y mutations. Although our results (Fig. 2c,g ) showed the cooperative effect of the K417N/T, reversions of K417N/T are also frequent in both the B.1.351 (for example, Finland/THL-202109511/2021) and P.1 strains (for example, Brazil/SP-770679-NBD14/2021) suggesting ongoing pressure for strain optimization. Extended Data Fig. 9 shows how B.1.1.7 (Alpha) outcompeted the WT (20A), D614G (20B) and S477N (20C) variants in the UK and how B.1.351 (Beta) outcompeted 20B in South Africa. Most interesting is the P.1 (Gamma) lineage, which outcompeted all the other variants, including B.1.1.7 in Brazil, strongly suggesting that its higher affinity provides the variant with an advantage in infectivity. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25709,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The main advantage of in vitro evolution is that it can mimic natural evolution but on a much faster timescale. We pooled the selected clones from each library to construct a new library, resulting in parallel sampling of a large sequence space in multiple trajectories (Fig. 1) . This strategy enabled the emergence of epistatic mutations. The use of random, rather than saturation mutagenesis, mimics virus evolution for tighter binding during infection of naive hosts. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26181,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "RBD-62, which has an affinity 1,000-fold higher than that of RBD-WT, was the tightest binding clone that we identified. As shown in Table 1 and Extended Data Fig. 6 , many mutations were transient during the selection process, whilst a small number persisted (as is also observed in SARS-CoV-2 isolates). Q498R was first observed in library B4, but established itself only in B5. This mutation emerges only together with N501Y, suggesting that there may be an epistatic effect between the two mutations. Indeed, deep-mutational scanning of single RBD mutations 7 showed Q498R to negatively affect both protein stability and binding, while we show that in combination with N501Y binding, affinity is increased by approximately fourfold above that of N501Y alone. The epistatic effect is also confirmed by calculating the interaction energy between the two residues using a double-mutant cycle (Fig. 2g) and by the RBD-62-ACE2 complex structure, where Y501 positions R498 to form multiple interactions (Fig. 3d) . Single-mutation scanning does not account for this cooperativity, which has a crucial role at protein-protein interfaces 30 . The rapid spread of N501Y in the population increases the likelihood of the emergence of the Q498R mutant, which may have higher infectivity. Unlike Q498R, the N501Y and E484K mutations established themselves independently (their coupling energy is not significant; Fig. 2g ), allowing for their rapid in vitro selection and emergence in SARS-CoV-2. Owing to the spread of the B.1.1.7, B.1.351, P.1 and P.3 variants, the Q498R mutation may emerge in future, on top of these mutations; the synergism of Q498R with N501Y and E484K in our assays increased ACE2 binding by around 50-fold compared with the WT. Another mutation that emerged late in yeast display is N460K. Both Q498R and N460K are located in a hypervariable region of the RBD ( Supplementary Fig. 5 ), suggesting that their emergence is not constrained. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28135,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Infectivity is one concern for emerging mutations, but equally important is their potential for immune evasion, both from the resistance provided by previous infections of the WT virus and from vaccination. To evaluate the effect of these RBD mutations on antibody binding, we inspected 92 antibody-RBD (nanobody-S) structures for clashes in silico, replacing RBD-WT with the RBD-62 structure, as determined in complex with ACE2 using Cryo-EM. Twenty-eight of the antibodies bind outside the RBM, and 8 interactions are not affected by the mutations on RBD-62. However, interaction was compromised for 56 antibodies, and major clashes with RBD-62 were identified for 9 antibodies (Extended Data Fig. 10 ). Notably, E484K and Q498R caused most of the observed effects on predicted antibody binding. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28933,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "RBD-62 has potential as a drug, as it blocks ACE2 with very high affinity, while leaving ACE2 functionality unaffected. It completely inhibited SARS-CoV-2 infection of Vero E6 cells, including by the most common SARS-CoV-2 variants, at a picomolar concentration. Furthermore, we tested the efficacy of RBD-62 in blocking COVID-19 in a highly pathogenic hamster challenge model, and found a reduction in disease (with weight loss as the proxy) when RBD-62 was administered either before or after infection. With post-infection treatment, significant differences were observed only for male hamsters, which exhibit more severe disease than female hamsters 28 . The main advantage of blocking host cell ACE2 is that it is not affected by viral escape mutations, which evolve continuously. A follow-up primate experiment using RBD-62 to block SARS-CoV-2 was approved by the Animal Care and Use Committee of the Vaccine Research Center, National Institute of Allergy and Infectious Diseases, National Institutes for Health. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29952,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Knowing the enemy provides an advantage to the defender. Using in vitro evolution, we have successfully delineated the pathway of SARS-CoV-2 variant emergence. Although SARS-CoV-2 must evolve under multiple selection pressures (such as shown for the D614G mutation of the spike protein), we found that an increase in RBD-ACE2 binding affinity can be replicated using affinity-binding selection pressure alone. We advise that sequencing of the RBD of SARS-CoV-2 natural isolates will be a crucial tool in the early identification of variants with greater infectivity. Moreover, such knowledge may enable shortened timelines to vaccine and drug countermeasure development and deployment. We note that the methods applied in our study could be generalized for other viruses once their evolutionary path is identified. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30767,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Cloning and DNA manipulations. The RBD domain variants (Supplementary Table 1 ) were PCR amplified (KAPA HiFi HotStart ReadyMix, Roche, catalogue (cat.) no. KK3605) from codon-optimized SARS-CoV-2 Spike protein gene (Sino Biological, SARS-CoV-2 (2019-nCoV) cat. no. VG40589-UT; GenBank: QHD43416.1) using appropriate primers (Supplementary Table 3 ). Amplicons were purified using NucleoSpin Gel and PCR Clean-up kit (Nacherey-Nagel, cat. no. 740609.50) and eluted in double-distilled water. Yeast surface display plasmid pJYDC1 (Adgene ID: 162458) and pJYDC3 (162460) were cleaved by NdeI and BamHI (NEB, cat. no. R0111 and R0136) restriction enzymes, purified, and tested for non-cleaved plasmids via transformation to E. coli Cloni 10 G cells (Lucigen). Each amplicon was mixed with cleaved plasmid in the ratio: 4 µg insert:1 µg plasmid per construct, electroporated in Saccharomyces cerevisiae EBY100 31 , and selected by growth on SD-W plates (for detailed composition see ref. 21 ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31757,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Cloning of the ACE2 extracellular domain (amino acids G17-Y613) and RBDs into vectors pHL-sec 32 were done in two steps. Initially, the RBD gene was inserted in helper vector pCA by restriction-free cloning 33 . pCA is a pHL-sec derivative lacking 862 bp in the GC rich region (nucleotides 672-1534). In the second step, the correctly inserted, verified by sequencing, RBD coding sequence with flanking sequences was cleaved using restriction enzymes XbaI and XhoI (NEB, cat. nos R0145 and R0146) and ligated (T4 DNA ligase, NEB, cat. no. M0202) in cleaved full-length plasmid pHL-sec. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32343,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Site-directed mutagenesis of RBDs was performed by restriction-free cloning 33 . Megaprimers were amplified by KAPA HiFi HotStart ReadyMix (Roche), purified with NucleoSpin Gel and PCR Clean-up Kit (Nachery-Nagel), and subsequently inserted by PCR in the destination using high fidelity Phusion (NEB) or KAPA polymerases. The parental plasmid molecules were inactivated by DpnI treatment (1 h, NEB, cat. no. R0176) and the crude reaction mixture was transformed into electrocompetent E. coli Cloni 10 G cells (Lucigen). The clones were screened by colony PCR and their correctness was verified by sequencing. All primers used in this study are listed in Supplementary Table 3 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33021,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "DNA libraries preparation. SARS-CoV-2 RBD gene libraries were prepared by MnCl 2 error-prone mutagenesis 34 using Taq Ready-mix (Hylabs, cat. no. EZ3006). The mutagenic PCR reactions (50 µl) were supplemented with increasing MnCl 2 concentrations: 0.05, 0.1, 0.2, 0.4, 0.6, 0.8 and 1.0 nM. Template DNA concentration ranged between 100 and 400 ng per reaction and 20-30 reaction cycles were applied. The amplified DNA was purified, pooled and used directly for yeast transformation via electroporation. The whole gene randomization amplicon comprised the whole RBD gene (amino acids 336-528, pJYDC1 vector). Libraries B3, B4 and B5 were prepared by homologous recombination of an invariant fragment of RBD with necessary overlaps (amino acids 336-431) and the mutagenized library fragment (amino acids 431-528). The mutagenic fragments were prepared by the same error-prone PCR procedure (20 cycles). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33922,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The procedures and the enhanced yeast display platform have been described in detail elsewhere 21 . In brief, plasmids were transformed into EBY100 S. cerevisiae 31, 35 . Single colonies were inoculated into 1.0 ml liquid SD-CAA medium 21 and grown overnight at 30 °C (220 rpm). The overnight cultures were centrifuged (3,000g, 3 min) and the exhausted culture medium was removed before 1:9 dilution in the expression medium 21 to an optical density of approximately 1. Expression cultures were grown at 20, 30 or 37 °C for 8-24 h at 220 rpm, depending on the experimental setup. The expression co-cultivation labelling was achieved by the addition of 1 nM DMSO solubilized bilirubin (pJYDC1, eUnaG2 reporter holo-form formation, green/ yellow fluorescence (excitation 498 nm, emission 527 nm), Sigma, cat. no. B4126) or 5 nM ALFA-tagged mNeonGreen (pJYDC3, DnbALFA). Aliquots of cells (100 μl) were collected by centrifugation (3,000g, 3 min) resuspended in ice-cold PBS with 1 g l −1 BSA (PBSB), passed through a nylon membrane cell strainer (40 µM, SPL Life Sciences) and analysed. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35007,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Binding assays, affinity determination and selection for tighter binding clones using yeast surface display. Aliquots of yeast expressed and labelled cells ready for flow cytometry analysis were resuspended in analysis solution with a series of labelled ACE2 concentrations. The concentration range of CF640 R succinimidyl ester (Biotium, cat. 92108) labelled ACE2 extracellular domain (amino acids Q18-S740) was dependent on the protein analysed (0.1 pM -50 nM). The volume of analysis solution (between 1 and 100 ml to avoid ligand depletion (>10%)) and the time needed to reach the equilibrium (1 h -12 h, 5 rpm, 4 °C) 36 were adjusted for each experiment according to the expected K D . After the incubation, samples were collected (3,000g, 3 min), resuspended in 200 ul of ice-cold PBSB (200 µl), passed through a cell strainer, and analysed. The expression and binding signals were determined by flow cytometry using BD Accuri C6 Flow Cytometer (BD Biosciences). The cell analysis and sorting were done by S3e Cell Sorter (BioRad, USA). The analysis was done by single-cell event gating (Extended Data Fig. 2) , the green fluorescence channel (FL1-A) was used to detect RBD-expressing cells (RBD + ) via eUnaG2 or DnbALFA, and the far-red fluorescent channel (FL4-A) recorded CF640 R-labelled ACE2-binding signals (CF640 + ). The eUnaG2 signals were automatically compensated by the ProSort Software and pJYDNp positive control plasmid (Adgene ID 162451) 21 . The mean FL4-A fluorescence signal values of RBD + cells, subtracting the fluorescence of RBD − cells, was used to determine the binding constant K D,YD . The standard non-cooperative Hill equation was fitted using a nonlinear least-squares regression in Python 3.7. The total concentration of yeast exposed protein was fitted together with two additional parameters describing the given titration curve 7 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36881,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The FACS selection and gating strategy is shown in Fig. 1 and Extended Data Fig. 2 . Every library was selected by three consecutive rounds of FACS. In the first selection round, less stringent conditions were applied, with the 3% best binding cells sorted. Selected cell populations were cultivated and expressed before the next sorting round. In the next two rounds, the sorting threshold was strengthened to select the top 0.1-1% of yeast cells. A minimum of 20,000 cells was sorted. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37368,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Double-mutant cycle calculations. K D,YD values were used to calculate coupling free energy between pairs of amino-acids, using the double-mutant cycle method using the following equation, ∆∆G int = ∆G ab +∆G cd -∆G ad -∆G cb , where a and b are the WT residues and c and d are the mutant residue. Each of the ∆G values was calculated from K D,YD according to ∆G = -RTln K D,YD , where R is the gas constant and T the absolute temperature. The standard errors were calculated from the 3-6 repeats of independent K D,YD measurements, from which the standard error shown in Fig. 2g was calculated. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37964,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Production and purification of RBD and ACE2 proteins. The extracellular part of ACE2 (Q18-S740) and RBD protein variants were produced in Expi293F cells (ThermoFisher). Pure DNA was transfected using ExpiFectamine 293 Transfection Kit (ThermoFisher) using the manufacturer's protocol. Seventy-two hours after transfection, the cells were centrifuged at 1,500 rpm for 15 min. The supernatant was filtered using 0.45 µm Nalgene Rapid-Flow sterile single-use vacuum filter units (ThermoFisher, cat. no. 564-0020) and the pellet was discarded. The filtered supernatant was loaded onto a 5 ml of HisTrap Fast Flow column (Cytivia (GE Healthcare), cat. no. 17-5255-01). ÄKTA pure (Cytivia) was used to purify the protein. The column was washed in 25 mM Tris, 200 mM NaCl 20 mM imidazole pH 7.2, then the protein was eluted using gradient elution with elution buffer containing 25 mM Tris, 200 mM NaCl 1 M imidazole pH 7.2. Buffer exchange to PBS and the concentration of the protein were done by using Amicon concentrators (3 K MWCO, Merck Millipore, cat. no. UFC900324). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39030,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Cryo-electron microscopy. Sample preparation. ACE2-RBD-62 complex (2.5 µl at 3.5 mg ml −1 ) was transferred to glow-discharged UltrAuFoil R 1.2/1.3 300 mesh grids (Quantifoil, cat. 4976G-FA), blotted for 2.5 s at 4 °C, 100% humidity, and plunge frozen in liquid ethane cooled by liquid nitrogen using a Vitrobot plunger (ThermoFisher Scientific). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39377,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Cryo-EM image acquisition. Cryo-EM data were collected on a Titan Krios G3i transmission electron microscope (ThermoFisher Scientific) operated at 300 kV. Movies were recorded on a K3 direct detector (Gatan) installed behind a BioQuantum energy filter (Gatan), using a slit of 20 eV. Movies were recorded in counting mode at a nominal magnification of ×165,000, corresponding to a physical pixel size of 0.53 Å. The dose rate was set to 16.2 e − pixel −1 s −1 , and the total exposure time was 1.214 s, resulting in an accumulated dose of 70 e − Å −2 . Each movie was split into 57 frames of 0.021 s. The nominal defocus range was −0.7 to −1.1 μm, however, the actual defocus range was larger. Imaging was done using an automated low-dose procedure implemented in SerialEM 37 . A single movie was collected from the centre of each hole using image shift to navigate within hole arrays and stage shift to move between arrays. The 'multiple record setup' together with the 'multiple hole combiner' dialogues were used to map hole arrays of up to 3 × 3 holes. Beam tilt was adjusted to achieve coma-free alignment when applying image shift. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40515,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Cryo-EM image processing. Image processing was performed using CryoSPARC software 38 v3.0.1. The processing scheme is outlined in Supplementary Fig. 2 . A total of 4,470 acquired movies were subjected to patch motion correction, followed by patch contrast transfer function estimation. Of these, 3,357 micrographs having contrast transfer function fit resolution better than 5 Å and relative ice thickness lower than 1.07, were selected for further processing. Initial particle picking was done using the 'blob picker' job on a subset of 100 micrographs. Extracted particles were iteratively classified in 2D and their class averages were used as templates for automated particle picking from all selected micrographs, resulting in 2,419,995 picked particles. Particles were extracted, binned 6 × 6 (60-pixel box size, 3.18 Å per pixel), and cleaned by multiple rounds of 2D classification, resulting in 1,649,355 particles. These particles were used for ab initio 3D reconstruction with 5 classes. Out of the 5 classes only one, containing 552,575 particles, refined to high resolution. Two additional classes may show ACE2 in a closed conformation (containing 249,841 and 503,670 particles), however, they did not refine, partially because of preferred orientation. The 3D class containing 552,575 particles was refined as follows: particles were re-extracted only from micrographs with defocus lower than 1.7 μm, binned 2 × 2, and subjected to homogeneous refinement (355,891 particles, 200-pixel box size, 1.06 Å per pixel). The particles were then sub-classified into 2 classes, and particles from the higher-resolution class were re-extracted without binning in 680-pixel boxes, subjected to per-particle motion correction, followed by non-uniform refinement 39 with per-particle defocus optimization. The final map, at a resolution of 2.9 Å ( Supplementary Fig. 3 ), was ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42393,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "NAtuRE MICROBIOLOGY | VOL 6 | SEPtEMBER 2021 | 1188-1198 | www.nature.com/naturemicrobiology ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42486,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "© The Author(s), under exclusive licence to Springer Nature Limited 2021 NAtuRE MICROBIOLOGY | VOL 6 | SEPtEMBER 2021 | 1188-1198 | www.nature.com/naturemicrobiology ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42652,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "NAtuRE MICROBIOLOGY | www.nature.com/naturemicrobiology ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42708,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Nature Microbiology ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42728,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Nature MicrobiologyExtended Data Fig. 9 | Emergence and frequencies over time of new SARS-CoV2 virus variants in different countries. Data were reproduced from https://nextstrain.org/ (16.4.2021)49 . the lineage designation by Rambaut et al.50 is given below the strain designation proposed by NextStrain or WHO.NAtuRE MICROBIOLOGY | www.nature.com/naturemicrobiology ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

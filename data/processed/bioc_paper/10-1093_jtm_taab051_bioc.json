@@ -1,0 +1,98 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1093_jtm_taab051",
+      "inputfile": "../../data/processed/html_papers/10-1093_jtm_taab051.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Inactivated COVID-19 vaccine BBV152/COVAXIN effectively neutralizes recently emerged B.1.1.7 variant of SARS-CoV-2",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 114,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The rapid surge of SARS-CoV-2 cases due to the 'variant of concern (VOC) 202 012/01', also known as lineage B.1.1.7 or 20B/501Y.V1 in the UK, 1 in December 2020, raised concerns in several countries due to its high transmissibility. Many of these countries had direct flights to and from the UK. Since the identification of the new variants of Severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) in the UK and South Africa, 2 health experts have also expressed their concerns about their potential implications pertaining to vaccine efficacy. The root of such concerns was grounded in the structure of the SARS-CoV-2 variant, VOC-202012/01, which came to the centre stage of discussion due to its greater transmissibility in humans compared with the other known SARS-CoV-2 lineages. This variant carries 17 mutations in the genome, 8 of which have been found in spike receptor-binding domain (RBD), mediating the attachment of the virus to the angiotensin-converting enzyme 2 (ACE2) receptor on the surface of human cells. 2 One of these mutations, N501Y, at position 501, has asparagine (N) replaced with tyrosine (Y) and has been identified to increase the binding affinity of SARS-CoV-2 to human and murine ACE2. 2 Therefore, it appeared that the majority of the vaccine candidates, being either recombinant or specifically targeting the single epitope of the original D614G ancestral spike sequence, might not be able to generate an efficient immune response against the new variants. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1620,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Here, we successfully isolated and characterized the hCoV-19/India/20203522 SARS-CoV-2 (VOC) 202 012/01 from UK returnees in India with all signature mutations of the UK variant. 3 The VOC 202012/01 hallmarks belonged to the GR clade of the viral isolates recovered from the UK returnees coming back to India. 3 The method used by us for virus isolation and culture from the clinical specimens of COVID-19 are described elsewhere. 4 The SARS-CoV-2 strain (NIV-2020-770) used in developing the BBV152 vaccine was retrieved from tourists who arrived in New Delhi, India. 4,5 The virus isolation was performed in the 'Vero CCL-81' cells and the genome sequence was deposited in the GISAID (EPI_ISL_420545). The BBV152 vaccine candidate strain is located in the (G clade), containing the Asp614Gly mutation, which is characterized by aspartic acid to glycine shift at the amino acid (AA) position 614 of the spike protein. This was used for PRNT 50 assay in the present investigation. 4 Earlier, we reported the development of an inactivated whole-virion SARS-CoV-2 vaccine BBV152, which elicited a remarkable neutralizing antibody response in Phase I clinical trial against hCoV-19/India/2020770 (homologous), and two heterologous strains from the unclassified cluster, namely, hCoV-19/India/2020Q111 and hCoV-19/India/2020Q100. 6 The hCoV-19/India/2020Q111 and hCoV-19/India/2020Q100 virus isolate strains contain the L3606F mutation, where leucine to phenylalanine shifted at AA position 3606 of the ORF1ab 5 have been observed. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3148,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In Phase II clinical trial, following two dose immunization schedule at Days 0 and 28 with 6 and 3 μg antigen with imidazoquinoline (TLR7/TLR8 agonist adsorbed on aluminium hydroxide gel), the vaccine candidate showed noteworthy results in plaque reduction neutralization test (PRNT 50 )-based assay, with the seroconversion rates of neutralizing antibodies being 98.6%. 7 Here, we present the NAb titres (PRNT 50 ) of sera collected (4 weeks after the second dose) from 38 vaccine recipients, who received the BBV152 vaccine candidate in Phase II trial 7 to underline the immunogenicity of the BBV152 vaccine candidate against SARS-CoV-2 UK variant with (VOC) 202 012/01 hallmarks belonging to GR clade and strain hCoV-19/India/2020770 belonging to G clade. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3907,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "A representative set of 20 serum samples of vaccine recipients were also tested against the heterologous strains hCoV-19/India/2020Q111 (unclassified cluster) using PRNT 50 test assay described earlier. 8 Briefly, all the sera were heat-inactivated and serially diluted 4-fold. Further, these samples were mixed with an equal amount of virus suspension containing 50-60 plaque-forming units (PFUs) in 0.1 ml. After incubating the mixtures at 37 • C for 1 h, each virus-diluted serum sample (0.1 ml) was inoculated onto a 24-well tissue culture plate containing a confluent monolayer of 'Vero CCL-81 cells'. After incubating the plate at 37 • C for 60 min, an overlay medium consisting of 2% carboxymethyl cellulose (CMC) with 2% fetal calf serum (FCS) in 2× MEM was added to the cell monolayer, and the plate was further incubated at 37 • C in 5% CO 2 for 5 days. Plates were stained with 1% amido black for an hour. Antibody titres were determined as the highest serum dilution that resulted in >50% (PRNT 50 ) reduction in the number of plaques. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4955,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "All sera had equivalent NAb titres to hCoV-19/India/2020770 homologous strain and two heterologous strains, including the characteristic N501Y substitution of the UK variant, hCoV-19/India/20203522 (UK strain) as well as hCoV-19/India/2020Q111 ( Figure 1A and B) . The median ratio of 50% neutralization of sera was 0.8 when compared with hCoV-19/India/2020770 against the mutant hCoV-19/India/20203522 (UK variant) and was 0.9 when compared with hCoV-19/India/2020Q111. Non-parametric Kruskal-Wallis test for the comparison of the PRNT 50 values from different groups revealed non-significant difference (P > 0.05). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5572,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Andreano et al. reported an escape of the UK variant with E484K substitution, which was followed by a 11-AA insertion in the NTD N5 loop ( 248a KTRNKSTSRRE 248k ) from high NAb in convalescent plasma, which was a serious concern. 9 Our study evidently highlighted comparable neutralization activity of vaccinated sera against the new UK variant as well as heterologous SARS-CoV-2 strains. Interestingly, the results showed that the vaccinees' sera could neutralize the new UK variant strain and heterologous strains with equal efficiency, discounting the uncertainty of possible neutralization escape. The statistically non-significant difference observed (Figure 1) for the UK variant, and other tested strains demonstrated reassuringly similar viral neutralization profile. Similarly, Wu et al. assessed the neutralizing capacity of the sera from humans and non-human primates immunized with mRNA-1273 vaccine and demonstrated effective neutralizing response against B.1.1.7 variant. 10 Mutations are expected to occur during viral proliferation in SARS-CoV-2 as witnessed worldwide. Importantly, our study showed that the sera from the vaccine recipients could neutralize the UK variant strains, discounting the uncertainty around potential escape. It was reassuring from the PRNT 50 data generated in our laboratory that the indigenous BBV152/COVAXIN, following its roll out in the vaccination programme, could be expected to work against the new UK variant. It is unlikely that the mutation 501Y would dampen the potential benefits of the current vaccination programme. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7147,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Downloaded from https://academic.oup.com/jtm/article/28/4/taab051/6193609 by University of Calgary user on 29 April 2024 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

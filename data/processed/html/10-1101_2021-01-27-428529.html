@@ -1,0 +1,612 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Genetic and structural basis for recognition of SARS-CoV-2 spike protein by a two-antibody cocktail</title>
+    <link rel="canonical" href="428529.pdf"/>
+    <meta name="citation_title" content="Genetic and structural basis for recognition of SARS-CoV-2 spike protein by a two-antibody cocktail"/>
+    <meta name="citation_date" content=""/>
+    <meta name="citation_doi" content="10.1101/2021.01.27.428529"/>
+    <meta name="citation_language" content="en"/>
+    <meta name="citation_pdf_url" content="428529.pdf.pdf"/>
+    <meta name="citation_fulltext_html_url" content="428529.pdf"/>
+    <meta name="citation_volume" content=""/>
+    <meta name="citation_firstpage" content="2021.01.27.428529"/>
+    <meta name="citation_authors" content=""/>
+    <meta name="citation_author_institutions" content=""/>
+    <meta name="description" content="The SARS-CoV-2 pandemic has led to an urgent need to understand the molecular basis for immune recognition of SARS-CoV-2 spike (S) glycoprotein antigenic sites. To define the genetic and structural basis for SARS-CoV-2 neutralization, we determined the structures of two human monoclonal antibodies COV2-2196 and COV2-21301, which form the basis of the investigational antibody cocktail AZD7442, in complex with the receptor binding domain (RBD) of SARS-CoV-2. COV2-2196 forms an “aromatic cage” at the heavy/light chain interface using germline-encoded residues in complementarity determining regions (CDRs) 2 and 3 of the heavy chain and CDRs 1 and 3 of the light chain. These structural features explain why highly similar antibodies (public clonotypes) have been isolated from multiple individuals1–4. The structure of COV2-2130 reveals that an unusually long LCDR1 and HCDR3 make interactions with the opposite face of the RBD from that of COV2-2196. Using deep mutational scanning and neutralization escape selection experiments, we comprehensively mapped the critical residues of both antibodies and identified positions of concern for possible viral escape. Nonetheless, both COV2-2196 and COV2130 showed strong neutralizing activity against SARS-CoV-2 strain with recent variations of concern including E484K, N501Y, and D614G substitutions. These studies reveal germline-encoded antibody features enabling recognition of the RBD and demonstrate the activity of a cocktail like AZD7442 in preventing escape from emerging variant viruses."/>
+    <meta name="citation_keywords" content="Coronavirus; SARS-CoV-2; SARS-CoV; COVID-19; Antibodies; Monoclonal; Human; Adaptive Immunity"/>
+    <meta name="citation_journal_title" content=""/>
+    <meta name="citation_journal_abbrev" content=""/>
+    <meta name="citation_publisher" content="Cold Spring Harbor Laboratory"/>
+    <meta name="citation_issn" content=""/>
+  </head>
+  <body>
+    <article itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle">
+      <header class="article-meta front">
+        <h1 class="article-title" itemprop="name headline">Genetic and structural basis for recognition of SARS-CoV-2 spike protein by a two-antibody cocktail</h1>
+        <div class="article-authors"/>
+        <div id="article-information">
+          <div class="article-notes">
+            <div itemscope="itemscope" itemtype="http://schema.org/Organization" id="a1">
+              <span class="article-label-container">
+                <a class="article-label">1</a>
+              </span>
+              <span itemprop="address"><span class="institution">Vanderbilt Vaccine Center, Vanderbilt University Medical Center</span>, <span class="country">USA</span></span>
+            </div>
+            <div itemscope="itemscope" itemtype="http://schema.org/Organization" id="a2">
+              <span class="article-label-container">
+                <a class="article-label">2</a>
+              </span>
+              <span itemprop="address"><span class="institution">Basic Sciences Division, Fred Hutchinson Cancer Research Center</span>, <span class="country">USA</span></span>
+            </div>
+            <div itemscope="itemscope" itemtype="http://schema.org/Organization" id="a3">
+              <span class="article-label-container">
+                <a class="article-label">3</a>
+              </span>
+              <span itemprop="address"><span class="institution">Department of Genome Sciences &amp; Medical Scientist Training Program, University of Washington</span>, <span class="country">USA</span></span>
+            </div>
+            <div itemscope="itemscope" itemtype="http://schema.org/Organization" id="a4">
+              <span class="article-label-container">
+                <a class="article-label">4</a>
+              </span>
+              <span itemprop="address"><span class="institution">Department of Pathology, Microbiology, and Immunology, Vanderbilt University Medical Center</span>, <span class="country">USA</span></span>
+            </div>
+            <div itemscope="itemscope" itemtype="http://schema.org/Organization" id="a5">
+              <span class="article-label-container">
+                <a class="article-label">5</a>
+              </span>
+              <span itemprop="address"><span class="institution">Department of Pathology and Immunology, Washington University School of Medicine</span>, <span class="country">USA</span></span>
+            </div>
+            <div itemscope="itemscope" itemtype="http://schema.org/Organization" id="a6">
+              <span class="article-label-container">
+                <a class="article-label">6</a>
+              </span>
+              <span itemprop="address"><span class="institution">Department of Medicine, Washington University School of Medicine</span>, <span class="country">USA</span></span>
+            </div>
+            <div itemscope="itemscope" itemtype="http://schema.org/Organization" id="a7">
+              <span class="article-label-container">
+                <a class="article-label">7</a>
+              </span>
+              <span itemprop="address"><span class="institution">Department of Biochemistry &amp; Molecular Biology, The University of Texas Medical Branch at Galveston</span>, <span class="country">USA</span></span>
+            </div>
+            <div itemscope="itemscope" itemtype="http://schema.org/Organization" id="a8">
+              <span class="article-label-container">
+                <a class="article-label">8</a>
+              </span>
+              <span itemprop="address"><span class="institution">Department of Microbiology and Immunology, The University of Maryland</span>, <span class="country">USA</span></span>
+            </div>
+            <div itemscope="itemscope" itemtype="http://schema.org/Organization" id="a9">
+              <span class="article-label-container">
+                <a class="article-label">9</a>
+              </span>
+              <span itemprop="address"><span class="institution">Microbial Sciences, AstraZeneca, One MedImmune Way</span>, <span class="country">USA</span></span>
+            </div>
+            <div itemscope="itemscope" itemtype="http://schema.org/Organization" id="a10">
+              <span class="article-label-container">
+                <a class="article-label">10</a>
+              </span>
+              <span itemprop="address"><span class="institution">Department of Pediatrics, Vanderbilt University Medical Center</span>, <span class="country">USA</span></span>
+            </div>
+            <div itemscope="itemscope" itemtype="http://schema.org/Organization" id="a11">
+              <span class="article-label-container">
+                <a class="article-label">11</a>
+              </span>
+              <span itemprop="address"><span class="institution">Department of Molecular Microbiology, Washington University School of Medicine</span>, <span class="country">USA</span></span>
+            </div>
+            <div itemscope="itemscope" itemtype="http://schema.org/Organization" id="a12">
+              <span class="article-label-container">
+                <a class="article-label">12</a>
+              </span>
+              <span itemprop="address"><span class="institution">Andrew M. and Jane M. Bursky Center for Human Immunology and Immunotherapy Programs, Washington University School of Medicine</span>, <span class="country">USA</span></span>
+            </div>
+            <div itemscope="itemscope" itemtype="http://schema.org/Organization" id="a13">
+              <span class="article-label-container">
+                <a class="article-label">13</a>
+              </span>
+              <span itemprop="address"><span class="institution">Howard Hughes Medical Institute</span>, <span class="country">USA</span></span>
+            </div>
+          </div>
+          <dl class="article-identifiers">
+            <dt> DOI</dt>
+            <dd>
+              <a href="https://doi.org/10.1101/2021.01.27.428529" itemprop="sameAs">10.1101/2021.01.27.428529</a>
+              <meta itemprop="sameAs" content="info:doi/10.1101/2021.01.27.428529"/>
+            </dd>
+          </dl>
+          <dl class="article-dates">
+            <dt>Published</dt>
+            <dd>
+              <time itemprop="datePublished"/>
+            </dd>
+          </dl>
+          <dl class="article-subjects">
+            <dt>Subject Areas</dt>
+            <dd/>
+            <dt>Keywords</dt>
+            <dd><span class="kwd" itemprop="keywords">Coronavirus</span>, <span class="kwd" itemprop="keywords">SARS-CoV-2</span>, <span class="kwd" itemprop="keywords">SARS-CoV</span>, <span class="kwd" itemprop="keywords">COVID-19</span>, <span class="kwd" itemprop="keywords">Antibodies</span>, <span class="kwd" itemprop="keywords">Monoclonal</span>, <span class="kwd" itemprop="keywords">Human</span>, <span class="kwd" itemprop="keywords">Adaptive Immunity</span></dd>
+          </dl>
+          <dl class="article-license">
+            <dt>Copyright</dt>
+            <dd>© <span itemprop="copyrightYear">2021</span> <span itemprop="copyrightHolder"/></dd>
+            <dt>Licence</dt>
+            <dd>
+              <p>The copyright holder for this pre-print is the author. All rights reserved. The material may not be redistributed, re-used or adapted without the author's permission.</p>
+            </dd>
+          </dl>
+          <dl class="self-citation">
+            <dt>Cite this article</dt>
+            <dd><span class="self-citation-authors">.</span> <span class="self-citation-year"/>. <span class="self-citation-title">Genetic and structural basis for recognition of SARS-CoV-2 spike protein by a two-antibody cocktail</span>. <span itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationVolume"><span class="self-citation-journal" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/Periodical"><span itemprop="name"/></span> <span class="self-citation-volume" itemprop="volumeNumber"/></span>:<span class="self-citation-elocation" itemprop="pageStart">2021.01.27.428529</span> <a href="https://doi.org/10.1101/2021.01.27.428529" itemprop="url">https://doi.org/10.1101/2021.01.27.428529</a></dd>
+          </dl>
+        </div>
+        <div>
+          <h2>Abstract</h2>
+          <div class="abstract" itemprop="description">
+            <p>The SARS-CoV-2 pandemic has led to an urgent need to understand the molecular basis for immune recognition of SARS-CoV-2 spike (S) glycoprotein antigenic sites. To define the genetic and structural basis for SARS-CoV-2 neutralization, we determined the structures of two human monoclonal antibodies COV2-2196 and COV2-2130<sup>1</sup>, which form the basis of the investigational antibody cocktail AZD7442, in complex with the receptor binding domain (RBD) of SARS-CoV-2. COV2-2196 forms an “aromatic cage” at the heavy/light chain interface using germline-encoded residues in complementarity determining regions (CDRs) 2 and 3 of the heavy chain and CDRs 1 and 3 of the light chain. These structural features explain why highly similar antibodies (public clonotypes) have been isolated from multiple individuals<sup>1–4</sup>. The structure of COV2-2130 reveals that an unusually long LCDR1 and HCDR3 make interactions with the opposite face of the RBD from that of COV2-2196. Using deep mutational scanning and neutralization escape selection experiments, we comprehensively mapped the critical residues of both antibodies and identified positions of concern for possible viral escape. Nonetheless, both COV2-2196 and COV2130 showed strong neutralizing activity against SARS-CoV-2 strain with recent variations of concern including E484K, N501Y, and D614G substitutions. These studies reveal germline-encoded antibody features enabling recognition of the RBD and demonstrate the activity of a cocktail like AZD7442 in preventing escape from emerging variant viruses.</p>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="body" lang="en">
+          <p id="p-1">The current coronavirus disease 2019 (COVID-19) pandemic is caused by SARS-CoV-2, a clade B betacoronavirus <i data-jats-toggle="yes">(Sarbecovirus</i> subgenus) with 96.2% or 79.6% genome sequence identity to the bat coronavirus RaTG13 or SARS-CoV respectively<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c5">5</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c6">6</a></sup>. The S glycoprotein mediates viral attachment via binding to the host receptor angiotensin converting enzyme 2 (ACE2) and possibly other host factors, and subsequent entry into cells after priming by the host transmembrane protease serine 2 (TMPRSS2)<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c7">7</a>–<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c9">9</a></sup>. The trimeric S protein consists of two subunits, designated S1 and S2. The S1 subunit binds to ACE2 with its receptor binding domain (RBD), while the central trimeric S2 subunits function as a fusion apparatus after S protein sheds the S1 subunits<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c10">10</a></sup>. The human humoral immune response to SARS-CoV-2 has been well documented<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c11">11</a>–<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c13">13</a></sup>, and numerous groups have isolated monoclonal antibodies (mAbs) that react to SARS-CoV-2 S protein from the B cells of patients previously infected with the virus. A subset of the human mAbs neutralize virus <i data-jats-toggle="yes">in vitro</i> and protect against disease in animal models<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c1">1</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c2">2</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c13">13</a>–<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c21">21</a></sup>. Studies of the human B cell response to the virus have been focused mostly on S protein so far, due to its critical functions in attachment and entry into host cells<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c1">1</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c2">2</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c13">13</a>–<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c21">21</a></sup>. For these S-protein-targeting antibodies, the RBD of S protein is the dominant target of human neutralizing antibody responses<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c1">1</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c2">2</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c13">13</a>–<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c21">21</a></sup>. This high frequency of molecular recognition may be related to the accessibility of the RBD to B cell receptors, stemming from a low number of obscuring glycosylation sites (only 2 sites on the RBD versus 8 or 9 sites on the N-terminal domain [NTD] or S2 subunit, respectively)<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c13">13</a></sup>. The RBD also occupies an apical position and exhibits exposure due to the “open-closed” dynamics of the S trimer observed in S protein cryo-EM structures<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c22">22</a>–<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c24">24</a></sup>. Potently neutralizing mAbs predominantly target the RBD, since this region is directly involved in receptor binding.</p>
+          <p id="p-2">In previous studies, we isolated a large panel of SARS-CoV-2 S-protein-reactive human monoclonal antibodies from the B cells of patients previously infected with the virus. that bind to the SARS-CoV-2 S protein<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c25">25</a></sup>. A subset of these monoclonal antibodies were shown to bind to recombinant RBD and S protein ectodomain and exhibit neutralization activity against SARS-CoV-2 by blocking S-protein-mediated binding to receptor<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c1">1</a></sup>. Two noncompeting antibodies, designated COV2-2196 and COV2-2130, synergistically neutralized SARS-CoV-2 <i data-jats-toggle="yes">in vitro</i> and protected against SARS-CoV-2 infection in mouse models and a rhesus macaque model when used separately or in combination. Several Phase III clinical trials are ongoing to study AZD7442 incorporating the variable regions in this mAb combination for post-exposure prophylaxis (ClinicalTrials.gov Identifier: <a class="ext-link" href="NCT04625972" data-jats-ext-link-type="clintrialgov">NCT04625972</a>), prevention (Identifier: <a class="ext-link" href="NCT04625725" data-jats-ext-link-type="clintrialgov">NCT04625725</a>), out-patient treatment (Identifier: <a class="ext-link" href="NCT04723394" data-jats-ext-link-type="clintrialgov">NCT04723394</a> and <a class="ext-link" href="NCT04518410" data-jats-ext-link-type="clintrialgov">NCT04518410</a>) and inpatient treatment (<a class="ext-link" href="NCT04501978" data-jats-ext-link-type="clintrialgov">NCT04501978</a>) of COVID-19. Thus, it is of importance to define the binding sites of these two antibodies to understand how they interact with the RBD and their ability to neutralize new virus variants.</p>
+          <p id="p-3">One of these antibodies (COV2-2196) is a member of a public clonotype, meaning this antibody shares similar variable region genetic features with other antibodies isolated from different individuals. Here, by studying the interaction of COV2-2196 with RBD in detail, we identify the molecular basis for selection of a public clonotype for SARS-CoV-2 that is driven by a complex structural configuration involving both <i data-jats-toggle="yes">IGHV1-58-IGHJ3</i> heavy chain and <i data-jats-toggle="yes">IGKV3-20-IGKJ1</i> light chain recombinations,. The shared structural features of this clonotype contribute to the formation of a paratope comprising residues in both the heavy and light chains, but remarkably are independent of the HCDR3 that usually dominates antigen-antibody interactions.. Detailed structural studies revealed that the commonly formed antibody paratope contributes an “aromatic cage” formed by five aromatic residues in the paratope surrounding the interface of the heavy and light chains. This cage structure coordinates an aromatic residue on the SARS-CoV-2 S protein, accounting for the high specificity and affinity of these antibodies. Remarkably, although both the heavy and light chains are required to form this public clonotype (thus defining canonical <i data-jats-toggle="yes">IGHV, IGHJ, IGLV</i> and <i data-jats-toggle="yes">IGLJ</i> genes in the clonotype), the HCDR3 minimally affects the interaction. Since these <i data-jats-toggle="yes">IGHV1-58-IGHJ3</i> heavy chain and <i data-jats-toggle="yes">IGKV3-20-IGKJ1</i> light chain recombinations are common in the pre-immune B cell repertoire, many individuals likely make such clones during the response to SARS-CoV-2 infection or vaccination. The antigenic site recognized by the complex pre-configured structure of this public clonotype is likely an important component of a protective vaccine for COVID-19 because of the frequency of the B cell clone in the human population and the neutralizing and protective potency of the antibodies encoded by the variable gene segments.</p>
+          <p id="p-4">An antibody cocktail including half-life extended versions of COV2-2196 and a non-competing RBD-specific neutralizing antibody, COV2-2130, is being investigated for both prophylaxis and therapy in the trials cited above. To understand the molecular details of the recognition of RBD by COV2-2196 and COV2-2130, we determined the crystal structures of the S protein RBD in complex with COV2-2196 at 2.50 Å (<b><a class="xref xref-fig" href="#fig1" data-jats-ref-type="fig" data-jats-rid="fig1">Fig. 1</a>, Extended Data Table 1</b>) and in complex with both COV2-2196 and COV2-2130 at 3.00 Å (<b><a class="xref xref-fig" href="#fig2" data-jats-ref-type="fig" data-jats-rid="fig2">Fig. 2</a>, Extended Data Table 1</b>). The substructure of RBD-COV2-2196 in the RBD-COV2-2196-2130 complex is superimposable with the structure of the RBD-COV2-2196 complex (<b>Extended Data Fig. 1</b>). The buried surface area of the interface between COV2-2196 and the RBD is about 650 Å<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c2">2</a></sup> in both crystal structures, and that of the interface between COV2-2130 and RBD is about 740 Å<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c2">2</a></sup>. COV2-2196 binds to the receptor-binding ridge of RBD, and COV2-2130 binds to one side of the RBD edge around residue K444 and the saddle region of the receptor binding motif RBM), both partially overlapping the ACE2 binding site (<b><a class="xref xref-fig" href="#fig1" data-jats-ref-type="fig" data-jats-rid="fig1">Fig. 1a-b</a>, <a class="xref xref-fig" href="#fig2" data-jats-ref-type="fig" data-jats-rid="fig2">2a-b</a></b>). These features explain the competition between the antibodies and ACE2 for RBD binding from our previous study, <i data-jats-toggle="yes">e.g.,</i> both COV2-2196 and COV2-2130 neutralize the virus by blocking RBD access to the human receptor ACE2<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c1">1</a></sup>. Aromatic residues from the COV2-2196 heavy and light chains form a hydrophobic pocket that surrounds RBD residue F486 and adjacent residues (G485, N487) (<b><a class="xref xref-fig" href="#fig1" data-jats-ref-type="fig" data-jats-rid="fig1">Fig. 1a</a>, <a class="xref xref-fig" href="#fig1" data-jats-ref-type="fig" data-jats-rid="fig1">1d</a>, <a class="xref xref-fig" href="#fig1" data-jats-ref-type="fig" data-jats-rid="fig1">1e</a>; Extended Data Fig. 2a-c</b>). This mode of antibody-antigen interaction is unusual in that the formation of the antibody pocket is caused by wide spatial separation of the HCDR3 and LCDR3. In addition, although the antigenic site recognized by COV2-2196 is not buried at the interface between protomers of S trimer <i data-jats-toggle="yes">per se</i>, COV2-2196 is not able to bind RBD in the “down” conformation due to steric clashes with RBD in an adjacent S protomer. Therefore, COV2-2196 only binds to RBD in the “up” conformation (<b><a class="xref xref-fig" href="#fig1" data-jats-ref-type="fig" data-jats-rid="fig1">Fig. 1c</a></b>). Overlays of the substructure of RBD in complex with COV2-2130 (<b><a class="xref xref-fig" href="#fig2" data-jats-ref-type="fig" data-jats-rid="fig2">Fig. 2c</a>)</b> and the structure of RBD in complex with both COV2-2196 and COV2-2130 (<b><a class="xref xref-fig" href="#fig2" data-jats-ref-type="fig" data-jats-rid="fig2">Fig. 2d</a></b>) indicate that COV2-2130 is able to bind RBD in both “up” and “down” conformations of the S trimer. These structural findings are consistent with our previous lower resolution results for the complex using negative stain electron microscopy<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c1">1</a></sup>.</p>
+          <figure class="fig" itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" id="fig1" data-jats-position="float" data-jats-orientation="portrait" data-jats-fig-type="figure">
+            <div class="image-container">
+              <a href="-2x.jpg" title="View the full image" class="fresco" data-fresco-caption="Fig. 1.: Crystal structure of S protein RBD in complex with Fab COV2-2196." data-fresco-group="figure" data-fresco-options="fit: 'width', ui: 'outside', thumbnails: false, loop: true, position: true, overflow: true, preload: false">
+                <img class="graphic" src="-1x.jpg" itemprop="contentUrl" sizes="(min-width: 1200px) 581px, (max-width: 1199px) and (min-width: 980px) 462px, (max-width: 979px) and (min-width: 768px) 347px, (max-width: 767px) calc(100vw - 50px)" srcset="-2x.jpg 1200w, -1x.jpg 600w, -small.jpg 355w" data-image-id="fig1" alt="Crystal structure of S protein RBD in complex with Fab COV2-2196." data-full="-full.png" data-thumb="-thumb.jpg" data-original="428529v1_fig1" data-image-type="figure" data-jats-position="float" data-jats-orientation="portrait"/>
+              </a>
+            </div>
+            <figcaption itemprop="description">
+              <h2 class="heading"><span class="caption-label">Fig. 1.: </span>Crystal structure of S protein RBD in complex with Fab COV2-2196.</h2>
+              <span class="p"><b>a.</b> Cartoon representation of COV2-2196 in complex with RBD. COV2-2196 heavy chain is shown in cyan, light chain in magenta, and RBD in green.</span>
+              <span class="p"><b>b.</b> Structure of COV2-2196-RBD complex is superimposed onto the structure of RBD-human ACE2 complex (PDB ID: 6M0J), using the RBD structure as the reference. The color scheme of COV2-2196-RBD complex is the same as that in <a class="xref xref-fig" href="#fig1" data-jats-ref-type="fig" data-jats-rid="fig1">Fig. 1a</a>. The RBD in the RBD-ACE2 complex is colored in light blue, the human ACE2 peptidase domain in grey.</span>
+              <span class="p"><b>c.</b> Structure of COV2-2196-RBD complex is superimposed onto the structure of spike with single RBD in the “up” conformation (PDB ID: 6XM4), using the RBD in “up” conformation as the reference. The color scheme of COV2-2196-RBD complex is the same as that in <a class="xref xref-fig" href="#fig1" data-jats-ref-type="fig" data-jats-rid="fig1">Fig. 1a</a>. The three subunits of spike are colored in grey, yellow, or light blue respectively (the subunit with its RBD in “up” conformation is yellow).</span>
+              <span class="p"><b>d.</b> Surface representation of RBD epitope recognized by COV2-2196. The epitope residues are colored in different shades of green and labeled in black with the critical contact residue F486 labled in white.</span>
+              <span class="p"><b>e.</b> Antibody-antigen interactions between COV2-2196 and RBD. RBD is shown in the same surface representation and orientation as that in <a class="xref xref-fig" href="#fig1" data-jats-ref-type="fig" data-jats-rid="fig1">Fig. 1d</a>. COV2-2196 paratope residues are shown in stick representation. The heavy chain is colored in cyan, and light chain is colored in magenta.</span>
+              <div class="figcaption-footer">
+                <div class="article-image-download">
+                  <a href="fig1-full.png" class="btn btn-mini" download="file--fig1.png" itemprop="url"><i class="icon-large icon-picture"> </i> Download full-size image</a>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="fig" itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" id="fig2" data-jats-position="float" data-jats-orientation="portrait" data-jats-fig-type="figure">
+            <div class="image-container">
+              <a href="-2x.jpg" title="View the full image" class="fresco" data-fresco-caption="Fig. 2.: Crystal structure of S protein RBD in complex with both Fabs COV2-2196 and COV2-2130." data-fresco-group="figure" data-fresco-options="fit: 'width', ui: 'outside', thumbnails: false, loop: true, position: true, overflow: true, preload: false">
+                <img class="graphic" src="-1x.jpg" itemprop="contentUrl" sizes="(min-width: 1200px) 581px, (max-width: 1199px) and (min-width: 980px) 462px, (max-width: 979px) and (min-width: 768px) 347px, (max-width: 767px) calc(100vw - 50px)" srcset="-2x.jpg 1200w, -1x.jpg 600w, -small.jpg 355w" data-image-id="fig2" alt="Crystal structure of S protein RBD in complex with both Fabs COV2-2196 and COV2-2130." data-full="-full.png" data-thumb="-thumb.jpg" data-original="428529v1_fig2" data-image-type="figure" data-jats-position="float" data-jats-orientation="portrait"/>
+              </a>
+            </div>
+            <figcaption itemprop="description">
+              <h2 class="heading"><span class="caption-label">Fig. 2.: </span>Crystal structure of S protein RBD in complex with both Fabs COV2-2196 and COV2-2130.</h2>
+              <span class="p"><b>a.</b> Cartoon representation of crystal structure of S protein RBD in complex with COV2-2196 and COV2-2130 Fabs. RBD is shown in green, COV2-2196 heavy chain in cyan, COV2-2196 light chain in magenta, COV2-2130 heavy chain in yellow, and COV2-2130 light chain in orange. CDRs of COV2-2130 are labeled.</span>
+              <span class="p"><b>b.</b> Structure of COV2-2130-RBD complex is superimposed onto the structure of the RBD-ACE2 complex (PDB ID: 6M0J), using the RBD structure as the reference. The color scheme of the COV2-2130-RBD complex is the same to that of <a class="xref xref-fig" href="#fig2" data-jats-ref-type="fig" data-jats-rid="fig2">Fig. 2a</a>. The RBD in the RBD-ACE2 complex is colored in light blue, the human ACE2 peptidase domain in grey.</span>
+              <span class="p"><b>c.</b> Structure of COV2-2130-RBD complex is superimposed onto the structure of spike with all RBD in “down” conformation (PDB ID: 6ZOY), using the RBD in one protomer as the reference. The color scheme of COV2-2130-RBD complex is the same as that in <a class="xref xref-fig" href="#fig2" data-jats-ref-type="fig" data-jats-rid="fig2">Fig. 2a</a>. The three protomers of spike are colored in grey, light blue, or purple respectively.</span>
+              <span class="p"><b>d.</b> Structure of COV2-2196-2130-RBD complex is superimposed onto the structure of spike with one RBD in “up” conformation (PDB ID: 7CAK), using the RBD in “up” conformation as the reference. The color scheme of COV2-2130-RBD complex is the same as that in <a class="xref xref-fig" href="#fig2" data-jats-ref-type="fig" data-jats-rid="fig2">Fig. 2a</a>. The three protomers of spike are colored in grey, light blue, or purple respectively.</span>
+              <span class="p"><b>e.</b> Surface representation of RBD epitope recognized by COV2-2130. The epitope residues are indicated in different colors and labeled in black.</span>
+              <span class="p"><b>f.</b> Interactions of COV2-2130 paratope residues with the epitope. RBD is shown in the same surface representation and orientation as those in <a class="xref xref-fig" href="#fig2" data-jats-ref-type="fig" data-jats-rid="fig2">Fig. 2e</a>. The paratope residues are shown in stick representation. The heavy chain is colored in yellow, and the light chain in orange.</span>
+              <div class="figcaption-footer">
+                <div class="article-image-download">
+                  <a href="fig2-full.png" class="btn btn-mini" download="file--fig2.png" itemprop="url"><i class="icon-large icon-picture"> </i> Download full-size image</a>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+          <p id="p-16">Structural analysis of COV2-2196 in complex with RBD reveals how COV2-2196 recognizes the receptor-binding ridge on the RBD. One of the major contact residues, F486, situates at the center of the binding site, interacting extensively with the hydrophobic pocket (residue P99 of heavy chain and an “aromatic cage” formed by 5 aromatic side chains) between COV2-2196 heavy/light chains via a hydrophobic effect and van der Waals interactions (<b><a class="xref xref-fig" href="#fig1" data-jats-ref-type="fig" data-jats-rid="fig1">Fig. 1d-e</a>, Extended Data Fig. 2a-b</b>). A hydrogen bond (H-bond) network, constructed with 4 direct antibody-RBD H-bonds and 16 water-mediated H-bonds, surround residue F486 and strengthen the antibody-RBD interaction (<b>Extended Data Fig. 2c</b>). Importantly, for all residues except one (residue P99 of the heavy chain) that interact extensively with the epitope, they are encoded by germline sequences (<i data-jats-toggle="yes">IGHV1-58*01</i> and <i data-jats-toggle="yes">IGHJ3*02</i> for the heavy chain, <i data-jats-toggle="yes">IGKV3-20*01</i> and <i data-jats-toggle="yes">IGKJ1*01</i> for the light chain) (<b><a class="xref xref-fig" href="#fig3" data-jats-ref-type="fig" data-jats-rid="fig3">Fig. 3a</a></b>) or only their backbone atoms are involved in the antibody-RBD interactions, such as heavy chain N107 and G99 and light chain S94. We noted another antibody in the literature, S2E12, that is encoded by the same <i data-jats-toggle="yes">IGHV/IGHJ</i> and <i data-jats-toggle="yes">IGKV/IGKJ</i> recombinations, with similar but most likely different <i data-jats-toggle="yes">IGHD</i> genes to those of COV2-2196 (<i data-jats-toggle="yes">IGHD2-15</i> vs <i data-jats-toggle="yes">IGHD2-2</i>)<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c4">4</a></sup>. A comparison of the cryo-EM structure of S2E12 in complex with S protein (PDB 7K4N) suggests that the mAb S2E12 likely uses nearly identical antibody-RBD interactions as those of COV2-2196, although variations in conformations of interface residue side-chains can be seen (<b>Extended Data Fig. 2d</b>). For example, the phenyl rings of light chain residue Y92 are perpendicular to each other in the two structures. These analyses suggest that COV2-2196 and S2E12 have similar modes of recognition of RBD.</p>
+          <figure class="fig" itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" id="fig3" data-jats-position="float" data-jats-orientation="portrait" data-jats-fig-type="figure">
+            <div class="image-container">
+              <a href="-2x.jpg" title="View the full image" class="fresco" data-fresco-caption="Fig. 3.: " data-fresco-group="figure" data-fresco-options="fit: 'width', ui: 'outside', thumbnails: false, loop: true, position: true, overflow: true, preload: false">
+                <img class="graphic" src="-1x.jpg" itemprop="contentUrl" sizes="(min-width: 1200px) 581px, (max-width: 1199px) and (min-width: 980px) 462px, (max-width: 979px) and (min-width: 768px) 347px, (max-width: 767px) calc(100vw - 50px)" srcset="-2x.jpg 1200w, -1x.jpg 600w, -small.jpg 355w" data-image-id="fig3" alt="" data-full="-full.png" data-thumb="-thumb.jpg" data-original="428529v1_fig3" data-image-type="figure" data-jats-position="float" data-jats-orientation="portrait"/>
+              </a>
+            </div>
+            <figcaption itemprop="description">
+              <span class="caption-label">Fig. 3.: </span>
+              <span class="p"><b>a.</b> IMGT/DomainGapAlign results of COV2-2196 heavy and light chains. Key interacting residues and their corresponding residues in germline genes are colored in red.</span>
+              <span class="p"><b>b.</b> Binding curves of point mutants of COV2-2196. cDNAs encoding point mutants for the heavy chain, colored in red above, were designed, synthesized as DNA to make recombinant IgG proteins, and tested for binding activity to spike protein. Mutants of D108 residue are in blue, revertant mutation of inferred somatic mutations to germline sequence are in green, P99 mutants are in orange, and a mutant removing the disulfide bond in HCDR3 is in purple.</span>
+              <div class="figcaption-footer">
+                <div class="article-image-download">
+                  <a href="fig3-full.png" class="btn btn-mini" download="file--fig3.png" itemprop="url"><i class="icon-large icon-picture"> </i> Download full-size image</a>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+          <p id="p-19">We searched genetic databases to determine if these structural features are present in additional SARS-CoV-2 mAbs isolated by others and found additional members of the clonotype (<b><a class="xref xref-fig" href="#fig3" data-jats-ref-type="fig" data-jats-rid="fig3">Fig 3a</a></b>). Two other studies reported the same or a similar clonotype of antibodies isolated from multiple COVID-19 convalescent patients<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c2">2</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c4">4</a></sup>, and one study found three antibodies with the same <i data-jats-toggle="yes">IGHV1-58</i> and <i data-jats-toggle="yes">IGKV3-20</i> pairing, without providing information on D or J gene usage<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c3">3</a></sup>. All of these antibodies are reported to bind SARS-CoV-2 RBD avidly and to neutralize virus with high potency<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c1">1</a></sup>’<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c4">4</a></sup>. So far, there are only two atomic resolution structures of antibodies encoded by these V<sub>H</sub>(D<sub>H</sub>)J<sub>H</sub> and V<sub>K</sub>-J<sub>K</sub> recombinations available, the structure for COV2-2196 presented here and that for S2E12<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c4">4</a></sup>. We performed homology modeling for two additional antibodies of this clonotype from our own panel of anti-SARS-CoV-2 antibodies, designated COV2-2072 and COV2-2381. As expected, given that these antibodies are members of a shared genetic clonotype, the modeled structures of COV2-2072/RBD and COV2-2381/RBD complexes are virtually superimposable with those of COV2-2196/RBD and S2E12/RBD at the antibody-RBD interfaces (<b>Extended Data Fig. 3a-e</b>). Additionally, COV2-2072 encodes an N-linked glycosylation sequon in the HCDR3 (<b>Extended Data Fig. 3d</b>), an unusual feature for antibodies, given that glycosylation of CDRs might adversely affect antigen recognition. However, the COV2-2196 structure shows that the disulfide-stapled HCDR3 in this clonotype is angled away from the binding site, explaining how this unusual HCDR3 glycosylation in COV2-2072 can be tolerated without compromising binding (<b>Extended Data Fig. 3e</b>).</p>
+          <p id="p-20">We next determined whether we could identify potential precursors of this public clonotype in the antibody variable gene repertoires of circulating B cells from SARS-CoV-2-naïve individuals. We searched for the V(D)J and VJ genes in previously described comprehensive repertoire datasets originating from 3 healthy human donors, without a history of SARS-CoV-2 infection, and in datasets from cord blood collected prior to the COVID-19 pandemic<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c26">26</a></sup>. A total of 386, 193, 47, or 7 heavy chain sequences for this SARS-CoV-2 reactive public clonotype was found in each donor or cord blood repertoire, respectively (<b>Extended Data Fig. 4a</b>). Additionally, we found 516,738 human antibody sequences with the same light chain V-J recombination (<i data-jats-toggle="yes">IGKV3-20-IGKJ1*01</i>). A total of 103,534, 191,039, or 222,165 light chain sequences was found for this public clonotype in each donor respectively. Due to the large number of sequences, the top five abundant sequences were aligned from each donor. Multiple sequence alignments were generated for each donor’s sequences and logo plots were generated. The top 5 sequences with the same recombination event in each donor were identical, resulting in the same logo plots (<b>Extended Data Fig. 4a-b</b>).</p>
+          <p id="p-21">We noted that 8 of the 9 common residues important for RBD binding in the antibody were encoded by germline gene sequences. Interestingly, these residues were present in all 14 members of the public clonotype that we or others have described (<b><a class="xref xref-fig" href="#fig3" data-jats-ref-type="fig" data-jats-rid="fig3">Fig. 3a</a></b>)<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c1">1</a>–<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c4">4</a></sup>. To validate the importance of these features, we expressed variant antibodies with point mutations in the paratope to determine the effect of variation at conserved residues (<b><a class="xref xref-fig" href="#fig3" data-jats-ref-type="fig" data-jats-rid="fig3">Fig. 3b</a></b>).</p>
+          <p id="p-22">Altering the D108 residue to A, N, or E had little effect, but removing the disulfide bond in the HCDR3 through cysteine to alanine substitutions greatly reduced binding. While altering the P99 residue to V or N had little effect, a P99G substitution had a dramatic effect on binding. Additionally, we made two germline revertants of the COV2-2196 antibody. The P99 residue is not templated by either the V-gene <i data-jats-toggle="yes">IGHV 1-58</i> nor the D gene <i data-jats-toggle="yes">IGHD 2-2.</i> However, <i data-jats-toggle="yes">IGHD 2-2</i> has a likely templated G at position 99. Therefore, two germline revertants were tested – one with P99 and the other with G99. As the P99 residue orients the HCDR3 loop away from the interaction site with antigen, the G00 germline revertant exhibited reduced binding, whereas the P99 germline revertant bound antigen equivalently to <i data-jats-toggle="yes">wt</i> COV2-2196 (<b><a class="xref xref-fig" href="#fig3" data-jats-ref-type="fig" data-jats-rid="fig3">Fig 3b</a></b>).</p>
+          <p id="p-23">An antibody based on the COV2-2196 variable region is being tested in combination with an antibody based on the COV2-2130 variable region in clinical trials. Unlike, COV2-2196, COV2-2130 uses the HCDR3 for critical contacts. The HCDR3 comprises 22 amino acid residues, which is relatively long for human antibodies. The HCDR3 forms a long, structured loop made up of small loops, is stabilized by short-ranged hydrogen bonds and hydrophobic interactions/aromatic stackings within the HCDR3, and is further strengthened by its interactions (hydrogen bonds and aromatic stackings) with residues of the light chain (<b>Extended Data Fig. 5a-b</b>). The COV2-2130 heavy and light chains are encoded by the germline genes <i data-jats-toggle="yes">IGHV3-15</i> and <i data-jats-toggle="yes">IGKV4-1,</i> respectively, and the two genes encode the longest germline-encoded HCDR2 (10 aa) and LCDR1 (12 aa) loops, which are used in COV2-2130. The heavy chain V(D)J recombination, HCDR3 mutations, and the pairing of heavy and light chains result in a binding cleft between the heavy and light chains, matching the shape of the RBD region centered at S443 – Y449 loop (<b><a class="xref xref-fig" href="#fig2" data-jats-ref-type="fig" data-jats-rid="fig2">Fig. 2a</a>, Extended Data Fig. 5c</b>). Closely related to these structural features, only HCDR3, LCDR1, HCDR2, and LCDR2 are involved in the formation of the paratope (<b><a class="xref xref-fig" href="#fig2" data-jats-ref-type="fig" data-jats-rid="fig2">Fig. 2e-f</a>, Extended Data Fig. 2e-f</b>). Inspection of the antibody-RBD interface reveals a region that likely drives much of the energy of interaction. The RBD residue K444 sidechain is surrounded by subloop Y104 – V109 of the HCDR3 loop, and the positive charge on the side chain nitrogen atom is neutralized by the HCDR3 residue D107 side chain, three mainchain carbonyl oxygen atoms from Y105, D107, and V109, and the electron-rich face of the Y104 phenyl ring (cation-π interaction) (<b>Extended Data Fig. 2e</b>). Since the interacting atoms are completely protected from solvent, the highly concentrated interactions within such a restricted space are energetically favorable. Furthermore, this “hotspot” of the antibody-RBD interface is surrounded by or protected from the solvent by antibody-RBD interactions with lesser free energy gains, including salt bridge between the RBD residue R346 and HCDR2 D56, electrostatic interaction between RBD R346 and the mainchain oxygen of HCDR3 Y106, a hydrogen bond between RBD N450 and HCDR3 Y105 mainchain oxygen, a hydrogen bond between RBD V445 mainchain oxygen and HCDR3 Y104 sidechain, a hydrophobic interaction between V445 sidechain and sidechains of HCDR3 L113 and F118 (<b>Extended Data Fig. 2e</b>). Also, aromatic stacking between the HCDR3 residue Y105 and LCDR2 residue W56 participates in the shielding of the “hotspot” from solvent (<b>Extended Data Fig. 2e</b>). In addition, COV2-2130 light chain LCDR1 and LCDR2 make extensive contacts with the RBD. Among them, the LCDR1 S32 sidechain, S33 mainchain oxygen, N34 sidechain, and LCDR2 Y55 sidechain form hydrogen bonds with RBD E484 sidechain, S494 mainchain nitrogen, Y449 mainchain oxygen, and G446 mainchain nitrogen (<b>Extended Data Fig. 2f</b>). Residues LCDR1 K36, Y38, and LCDR2 W56 interact with the RBD Y449 via aromatic stackings and cation-π interactions, forming an “interaction cluster” (<b>Extended Data Fig. 2f</b>), although these interactions are likely not energetically as strong as in the case of RBD K444. In the crystal structure of the RBD in complex with both COV2-2196 and COV2-2130, we noted a possible interaction between the closely spaced COV2-2196 and COV2-2130 Fabs (<b>Extended Data Fig. 6</b>).</p>
+          <p id="p-24">To better understand the RBD sites critical for binding of COV2-2196 and COV2-2130, we used a deep mutational scanning (DMS) approach to map all mutations to the RBD that escape antibody binding<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c27">27</a></sup>; (<b>Extended Data Fig. 7)</b>. For both antibodies, we identified several key positions, all in the antibody binding site, where RBD mutations strongly disrupted binding (<b><a class="xref xref-fig" href="#fig4" data-jats-ref-type="fig" data-jats-rid="fig4">Fig. 4a-d</a></b>). We leveraged our previous work quantifying the effects of RBD mutations on ACE2 binding<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c28">28</a></sup> to overlay the effect on ACE2 binding for mutations that abrogated antibody binding to RBD (<b><a class="xref xref-fig" href="#fig4" data-jats-ref-type="fig" data-jats-rid="fig4">Fig. 4a,b</a>)</b>. For COV2-2196, many mutations to F486 and N487 had escape fractions approaching 1 (<i data-jats-toggle="yes">i.e</i>., those RBD variants to which the antibody does not bind), reinforcing the importance of the contributions of these two residues to antibody binding. Similarly, for COV2– 2130, mutation of residue K444 to any of the other 19 amino acids abrogated antibody binding, indicating that the lysine at this position is critical for the antibody-RBD interaction.</p>
+          <figure class="fig" itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" id="fig4" data-jats-position="float" data-jats-orientation="portrait" data-jats-fig-type="figure">
+            <div class="image-container">
+              <a href="-2x.jpg" title="View the full image" class="fresco" data-fresco-caption="Fig. 4.: Identification of critical residues for COV2-2196 and COV2-2130 through deep mutational scanning coupled with resistant variant selection." data-fresco-group="figure" data-fresco-options="fit: 'width', ui: 'outside', thumbnails: false, loop: true, position: true, overflow: true, preload: false">
+                <img class="graphic" src="-1x.jpg" itemprop="contentUrl" sizes="(min-width: 1200px) 581px, (max-width: 1199px) and (min-width: 980px) 462px, (max-width: 979px) and (min-width: 768px) 347px, (max-width: 767px) calc(100vw - 50px)" srcset="-2x.jpg 1200w, -1x.jpg 600w, -small.jpg 355w" data-image-id="fig4" alt="Identification of critical residues for COV2-2196 and COV2-2130 through deep mutational scanning coupled with resistant variant selection." data-full="-full.png" data-thumb="-thumb.jpg" data-original="428529v1_fig4" data-image-type="figure" data-jats-position="float" data-jats-orientation="portrait"/>
+              </a>
+            </div>
+            <figcaption itemprop="description">
+              <h2 class="heading"><span class="caption-label">Fig. 4.: </span>Identification of critical residues for COV2-2196 and COV2-2130 through deep mutational scanning coupled with resistant variant selection.</h2>
+              <span class="p"><b>a.</b> Logo plots of mutation escape fractions of all at RBD sites with strong escape for COV2-2196 (left) or COV2-2130 (right). Taller letters indicate greater antibody binding escape. Mutations are colored based on the degree to which they reduce RBD binding to human ACE2. Data shown are the average of two independent escape selection experiments using two independent yeast libraries; correlations are shown in <b>Extended Data Figure 7b,c</b>. Interactive, zoomable versions of these logo plots are at <a class="ext-link" href="https://jbloomlab.github.io/SARS-CoV-2-RBD_MAP_AZ_Abs/" data-jats-ext-link-type="uri">https://jbloomlab.github.io/SARS-CoV-2-RBD_MAP_AZ_Abs/</a>. We determined escape fractions, as described in methods, which represent the estimated fraction of cells expressing that specific variant that fall in the antibody escape bin, such that a value of 0 means the variant is always bound by antibody and a value of 1 means that it always escapes antibody binding.</span>
+              <span class="p"><b>b.</b> Logo plots of mutation escape fractions for COV2-2196 and COV2-2130 that are accessible by single nucleotide substitutions from the Wuhan-Hu-1 reference strain used in escape selections (<b>e,f</b>). The effect of each substitution on ACE2 binding is represented as in <a class="xref xref-fig" href="#fig4" data-jats-ref-type="fig" data-jats-rid="fig4">Fig. 4a</a>.</span>
+              <span class="p"><b>c.</b> Left panel: mapping deep mutational scanning escape mutations for COV2-2196 onto the RBD surface in the RBD-COV2-2196 structure. Mutations that abrogate COV2-2196 binding are displayed on the RBD structure using a heatmap, where blue represents the RBD site with the greatest cumulative antibody escape and white represents no detected escape. Grey denotes residues where deleterious effects on RBD expression prevented assessment of the effect of the mutation on antibody binding. Right panel: the blow-up of the left panel showing interacting residues around the strongest escape sites of RBD. COV2-2196 heavy chain is colored cyan and the light chain magenta. Two replicates were performed with independent libraries, as described in (a).</span>
+              <span class="p"><b>d.</b> Right panel: mapping deep mutational scanning escape mutations for COV2-2130 onto the RBD surface in the RBD-COV2-2130 structure. Mutations that abrogate COV2-2130 binding are displayed on the RBD structure using a heatmap as in <b><a class="xref xref-fig" href="#fig4" data-jats-ref-type="fig" data-jats-rid="fig4">Fig. 4c</a></b>. Left panel: the blow-up of the left panel showing interacting residues around the strongest escape sites of RBD. COV2-2130 heavy chain is colored yellow and the light chain salmon.</span>
+              <span class="p"><b>e.</b> Table showing the results of VSV-SARS-CoV-2 escape selection experiments with COV2-2196, COV2-2130, and their combination. The number of escape mutants selected and the total number of escape selection replicates performed is noted, as well as the residues identified by sequencing escape mutant viruses.</span>
+              <span class="p"><b>f.</b> Table showing the results of passage of SARS-CoV-2 in the presence of sub-neutralizing concentrations of AZD8895 (based on COV2-2196), AZD1061 (based on COV2-2130), and AZD7442 (AZD8895 + AZD1061). Resistance-associated viral mutations identified by sequencing neutralization-resistant plaques are denoted.</span>
+              <span class="p"><b>g.</b> Scatter plot showing DMS data from (<b>a</b>), with mutation escape fraction on the x-axis and effect on ACE2 binding on the y-axis. Crosses denote mutations accessible only by multi-nucleotide substitutions, while circles indicate mutations accessible by singlenucleotide substitution. Amino acid substitutions selected by COV2-2130 in VSV-SARS-CoV-2 (K444R, K444E) or authentic SARS-CoV-2 (R346I) are denoted.</span>
+              <span class="p"><b>h.</b> Antibody neutralization as measured by FRNT against reference strains and point mutants observed in SARS-CoV-2 variants of concern. Neutralization assays were performed in duplicate and repeated twice, with results shown from one experimental replicate. Error bars denote the range for each point. Mutations compared to the WA-1 reference strain are denoted.</span>
+              <div class="figcaption-footer">
+                <div class="article-image-download">
+                  <a href="fig4-full.png" class="btn btn-mini" download="file--fig4.png" itemprop="url"><i class="icon-large icon-picture"> </i> Download full-size image</a>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+          <p id="p-33">Nevertheless, not all antibody binding site residues were identified as sites where mutations greatly reduced binding. Several explanations are possible: 1) some binding site residues may not be critical for binding, 2) some RBD residues do not use their side chains to form interactions with the mAbs or 3) mutations at some sites may not be tolerated for RBD expression<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c28">28</a></sup>. For instance, residues L455, F456, and Q493 are part of the structurally-defined binding site for COV2-2196 (<b><a class="xref xref-fig" href="#fig1" data-jats-ref-type="fig" data-jats-rid="fig1">Fig. 1d</a>)</b>, but mutations to these sites did not impact antibody binding detectably (<b><a class="xref xref-fig" href="#fig4" data-jats-ref-type="fig" data-jats-rid="fig4">Fig. 4a and c</a></b>), suggesting that these residues do not make critical binding contributions. Superimposition of the COV2-2196/RBD structure onto the S2E12/RBD structure clearly demonstrates a flexible hinge region between the RBD ridge and the rest of the RBD that is maintained when antibody is bound (<b>Extended Data Fig. 2d</b>). This finding indicates that mutations at these three positions could be well-tolerated for antibody-RBD binding and supports the non-essential nature of these particular residues for COV2-2196 or S2E12 binding.</p>
+          <p id="p-34">Importantly, COV2-2196 and COV2-2130 do not compete with one another for binding to the RBD<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c1">1</a></sup>, suggesting they could comprise an escape-resistant cocktail for prophylactic or therapeutic use. Indeed, the binding sites and escape variant maps for these two antibodies are non-overlapping. To test whether there were single mutations that could escape binding of both antibodies, we performed escape variant mapping experiments with a 1:1 mixture of the COV2-2196 and COV2-2130 antibodies, but we did not detect any mutation that had an escape fraction of greater than 0.2, whereas the mutations with the largest effects for each of the single antibodies was approximately 1 (<b>Extended Data Fig. 7d</b>).</p>
+          <p id="p-35">Although these experiments map all mutations that escape antibody binding to the RBD, we also sought to determine which mutations have the potential to arise during viral growth. To address this question, we first attempted to select escape mutations using a recombinant VSV expressing the SARS-CoV-2 S glycoprotein (VSV-SARS-CoV-2)<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c29">29</a></sup>; (<b><a class="xref xref-fig" href="#fig4" data-jats-ref-type="fig" data-jats-rid="fig4">Fig 4e</a></b>). We expected that the only amino acid mutations that would be selected during viral growth were those 1) arising by singlenucleotide RNA changes, 2) causing minimal deleterious effect on ACE2 binding and expression, and 3) substantially impacting antibody binding<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c27">27</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c28">28</a></sup>. Indeed, we did not detect any COV2-2196-induced mutations that were both single-nucleotide accessible and relatively well-tolerated with respect to effects on ACE2 binding (<b><a class="xref xref-fig" href="#fig4" data-jats-ref-type="fig" data-jats-rid="fig4">Fig. 4b</a></b>), which may explain why escape mutants were not selected in any of the 88 independent replicates of recombinant VSV growth in the presence of antibody (<b><a class="xref xref-fig" href="#fig4" data-jats-ref-type="fig" data-jats-rid="fig4">Fig. 4e</a> Extended Data Fig. 7g</b>). For COV2-2130, mutations to site K444, a site that is relatively tolerant to mutation<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c28">28</a></sup>, demonstrated the most frequent escape from antibody binding in neutralization assays with the the VSV chimeric virus. K444R (selected in 6 out of 20 replicates) or K444E (selected in 2 out of 20 replicates) were identified in 40% of the replicates of recombinant VSV growth in the presence of COV2-2130 (<b><a class="xref xref-fig" href="#fig4" data-jats-ref-type="fig" data-jats-rid="fig4">Fig. 4e</a>, Extended Data Fig. 7g</b>).</p>
+          <p id="p-36">To explore resistance with authentic infectious virus, SARS-CoV-2 strain USA-WA1/2020 was passaged serially in Vero cell monolayer cultures with the clinical antibodies based on COV2-2196 (AZD8895), COV2-2130 (AZD1061) or their 1:1 combination (AZD7442), at concentrations beginning at their respective IC50 values and increased step-wise to their IC90 value with each passage (<b>Extended Data Fig. 8)</b>. As a control, virus was passaged in the absence of antibody. Following the final passage, viruses were evaluated for susceptibility against the partner antibody at a final concentration of 10 times the IC90 concentration by plaque assay. We did not detect any plaques resistant to neutralization by AZD8895 (based on COV2-2196) or the AZD7442 cocktail. Virus that was passaged serially in AZD1061 formed plaques to a titer of 1.2 × 10<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c7">7</a></sup> PFU/mL after selection in 10 × the IC<sub>90</sub> value concentration of AZD1061, but plaques were not formed with AZD7442. Plaques (n=6) were selected randomly, and the S gene was amplified and sequenced, revealing the same 3 amino acid changes in all 6 of the independently selected and sequenced plaques: N74K, R346I and S686G (<b><a class="xref xref-fig" href="#fig4" data-jats-ref-type="fig" data-jats-rid="fig4">Fig. 4f</a></b>). The S686G change has been reported previously to be associated with serial passaging of SARS-CoV-2 in Vero cells<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c30">30</a></sup>, isolated from challenge studies in ferrets<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c31">31</a></sup> or NHPs<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c32">32</a></sup>, and is predicted to decrease furin activity<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c30">30</a></sup>. The N74K residue is located in the N-terminal domain outside of the AZD1061 binding site and results in the loss of a glycan<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c33">33</a></sup>. The R346I residue is located in the binding site of AZD1061 and may be associated with AZD1061-resistance. The impact of the R346I changes on AZD1061 (COV2-2130) binding to S protein is shown in <b><a class="xref xref-fig" href="#fig4" data-jats-ref-type="fig" data-jats-rid="fig4">Fig. 4g</a></b>. The K444R and K444E substitutions selected in the VSV-SARS-CoV-2 system and the R346I substitution selected by passage with authentic SARS-CoV-2 are accessible by single nucleotide substitution and preserve ACE2 binding activity (<b><a class="xref xref-fig" href="#fig4" data-jats-ref-type="fig" data-jats-rid="fig4">Fig. 4g</a></b>), indicating that our DMS analysis predicted the mutations selected in the presence of COV2-2130 antibody. Taken together, these results comprehensively map the effects of all amino acid substitutions on the binding of COV2-2196 and COV2-2130 and identify sites of possible concern for viral evolution. That said, variants containing mutations at residues K444 and R346 are rare among all sequenced viruses present in the GISAID databases (all ≤ 0.01% when accessed on 12/23/20).</p>
+          <p id="p-37">Recently, viral variants with increased transmissibility and potential antigenic mutations have been reported in clinical isolates<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c34">34</a>–<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c37">37</a></sup>. We tested whether some of the variant residues in these rapidly emerging strains would abrogate the activity of these potently neutralizing antibodies. We tested isogenic D614G and E484K variants in the WA-1 strain background (2019n-CoV/USA_WA1/2020, [WA-1]), all prepared as authentic SARS-CoV-2 viruses and used in focus reduction neutralization tests<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c29">29</a></sup>. The E484K mutation was of special interest, since this residue is located within 4.5 Å of each of the mAbs in the complex of Fabs and RBD, albeit at the very binding site. E484K also is present in emerging lineages B.1.351 (501Y.V2)<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c36">36</a></sup> and P.1 (501Y.V3)<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c37">37</a></sup>, and has been demonstrated to alter the binding of some monoclonal antibodies<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c38">38</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c39">39</a></sup> as well as human polyclonal serum antibodies<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c40">40</a></sup>. Variants containing E484K also have been shown to be neutralized less efficiently by convalescent serum and plasma from SARS-CoV-2 survivors<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c41">41</a>–<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c43">43</a></sup>. For COV2-2196, COV2-2130, and COV2-2050 (a third neutralizing antibody we incuded for comparison as it interacts with the residue E484), we found virtually no impact of the D614G mutation (<b><a class="xref xref-fig" href="#fig4" data-jats-ref-type="fig" data-jats-rid="fig4">Fig. 4h</a></b>). However, we did observe effects on neutralization with the D614G/E484K virus. COV2-2050 completely lost neutralization activity, consistent with our previous study defining E484K as a mutation abrogating COV2-2050 binding<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c27">27</a></sup>. In contrast, COV2-2196, COV2-2130, and COV2-2196 + COV2-2130 showed only minor reduction in inhibitory capacity (2-to 5-fold increases in IC<sub>50</sub> values).</p>
+          <section class="sec" id="s1">
+            <h2 class="heading">Discussion</h2>
+            <p id="p-38">The process of B cell development, in which diverse variable gene segments are recombined, results in human naïve B cell repertoires containing an enormous amount of structural diversity in the complementarity determining regions (CDRs) of the antibodies (Abs) that they encode. Despite this extensive and diverse pool of naïve B cells, infection or vaccination with viral pathogens sometimes elicit antibodies in diverse individuals that share common structural features encoded by the same antibody variable genes. Examples of recurring variable gene usage have been described for antibody responses to human rotavirus<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c21">21</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c44">44</a></sup>, human immunodeficiency virus<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c45">45</a>–<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c48">48</a></sup> influenza A virus<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c49">49</a>–<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c52">52</a></sup>, and hepatitis C virus<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c53">53</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c54">54</a></sup>, among others. The recognition of the use of common variable genes in antiviral responses has led to the general concept of B cell public clonotypes, or B cells with similar genetic features in their variable regions that encode for antibodies with similar patterns of specificity and function in different individuals. A number of recent reports have described the identification of public clonotypes in the Ab responses to SARS-CoV-2<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c2">2</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c14">14</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c55">55</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c56">56</a></sup>. Identifying and understanding the genetic and structural basis for selection of public clonotypes is valuable, as this information forms the central conceptual underpinning for many current rational structure-based vaccine design efforts<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c57">57</a></sup>. Our structural analyses define the molecular basis for the frequent selection of a public clonotype of human antibodies sharing heavy chain V-D-J and light chain V-J recombinations that target the same region of the SARS-CoV-2 S RBD. Germline antibody gene-encoded residues in heavy and light chains play a vital role in antigen recognition, suggesting that few somatic mutations are required for antibody maturation of this clonotype. The existence of potenty neutralizing public clonotypes across multiple individuals may in part account for the remarkable efficacy of S protein-based vaccines that is being observed in the clinic. One might envision an opportunity to elicit serum neutralizing antibody titers with even higher neutralization potency using domain- or motif-based vaccine designs for this antigenic site to prime human immune responses to elicit this clonotype.</p>
+            <p id="p-39">The recent emergence of variant virus lineages with increased transmissibility and altered sequences in known sites of neutralization is concerning for the capacity of SARS-CoV-2 to evade current antibody countermeasures in development and testing. Our comprehensive mapping of the effect of RBD mutations on the binding of COV2-2196 and COV2130 underscores their use as a rationally designed cocktail, given that they have orthogonal escape mutations. Our DMS experiments are also consistent with the binding site determined by our antibody-RBD crystal structures and the DMS results predict the mutations present in resistant variants selected by <i data-jats-toggle="yes">in vitro</i> passaging experiments. We tested the activity of the individual antibodies or the cocktail against recombinant authentic viruses containing mutations from several important variants of concern, and demonstrate that the individual antibodies or their combination are capable of potently neutralizing these emerging variants. Recent work from others also has demonstrated that some circulating variants of concern exhibit substantial escape from neutralization of many human monoclonal antibodies in clinical development, but recombinant forms of COV2-2196 and COV2-2130 still potently neutralized pseudoviruses that included the emerging B.1.1.7 and B.1.351 lineages<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c58">58</a></sup>. Taken together, this work defines the molecular basis for potent neutralization of SARS-CoV-2 by COV2-2196 and COV2-2130 and demonstrates that these antibodies efficiently neutralize emerging antigenic variants either separately or in combination, underscoring the promise of the AZD7442 investigational cocktail for use in the prevention and treatment of COVID-19.</p>
+          </section>
+          <section class="sec" id="supplementary-material">
+            <h2 class="heading">Supporting information</h2>
+            <div class="supplementary-material well well-small" data-jats-position="float" data-jats-orientation="portrait">
+              <h3 class="heading">Extended Data Table 1</h3>
+              <div>
+                <a href="" class="btn article-supporting-download" data-rel="supplement" download="" data-filename=""><i class="icon-large icon-download-alt"> </i> Download</a>
+              </div>
+            </div>
+            <div class="supplementary-material well well-small" data-jats-position="float" data-jats-orientation="portrait">
+              <h3 class="heading">Extended Data Figures 1 to 8</h3>
+              <div>
+                <a href="" class="btn article-supporting-download" data-rel="supplement" download="" data-filename=""><i class="icon-large icon-download-alt"> </i> Download</a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="back">
+        <section class="sec">
+          <h3 class="heading">Data and materials availability</h3>
+          <p>The crystal structures reported in this paper have been deposited to the Protein Data Bank (<a class="ext-link" href="https://www.rcsb.org" data-jats-ext-link-type="uri">https://www.rcsb.org</a>) under the accession numbers 7L7D (COV2-2196 + RBD) and 7L7E COV2-2196 and COV2-2130 + RBD). The following were obtained from the PDB and used for visualization or molecular replacement: PDB IDs: 7K4N, 6M0J, 6XM4, 7CAK, 6ZOY, 6XC2, 5JRP. Sequence Read Archive deposition for the aligned human antibody gene repertoire data set is deposited at the NCBI: PRJNA511481. All other data are available in the main text or the supplementary materials. Requests for reagents may be directed to and be fulfilled by the Lead Contact: Dr. James E. Crowe, Jr. (<span class="email">james.crowe@vumc.org</span>). Materials reported in this study will be made available but may require execution of a Materials Transfer Agreement.</p>
+        </section>
+        <section class="sec">
+          <h3 class="heading">Software availability</h3>
+          <p>The computational pipeline for the deep mutational scanning analysis of antibody escape mutations is available on GitHub: <a class="ext-link" href="https://github.com/jbloomlab/SARS-CoV-2-RBD_MAP_AZ_Abs" data-jats-ext-link-type="uri">https://github.com/jbloomlab/SARS-CoV-2-RBD_MAP_AZ_Abs</a>. The FASTQ files are available on the NCBI Sequence Read Archive under BioSample SAMN17532001 as part of BioProject PRJNA639956.. Per-mutation escape fractions are available on GitHub (<a class="ext-link" href="https://github.com/jbloomlab/SARS-CoV-2-RBD_MAP_AZ_Abs/blob/main/results/supp_data/AZ_cocktail_raw_data.csv" data-jats-ext-link-type="uri">https://github.com/jbloomlab/SARS-CoV-2-RBD_MAP_AZ_Abs/blob/main/results/supp_data/AZ_cocktail_raw_data.csv</a>) and in <b>Supplementary Data Table 1</b>.</p>
+        </section>
+        <section class="ack" id="acknowledgements">
+          <h2 class="heading">Acknowledgements</h2>
+          <h2 class="heading">Acknowledgments</h2>
+          <p>At Fred Hutchinson Cancer Research Center, we thank Amin Addetia for experimental assistance, the Flow Cytometry and Genomics core facilities, and Scientific Computing, supported by ORIP grant S10OD028685. We thank Adrian Creanga and Barney Graham of the U.S. National Institutes of Health (N.I.H.) for the Vero-hACE2-TMPRSS2 cells. At AstraZeneca, we thank Paul Warrener, Christopher Morehouse and Dave Tabor for virus genome sequencing and spike variant analysis, and Kuishu Ren for generation of protein reagents and related binding data.</p>
+        </section>
+        <section class="sec">
+          <h3 class="heading">Funding</h3>
+          <p>This work was supported by Defense Advanced Research Projects Agency (DARPA) grants HR0011-18-2-0001 and HR0011-18-3-0001; U.S. N.I.H. contracts 75N93019C00074 and 75N93019C00062; N.I.H. grants AI150739, AI130591, R35 HL145242, AI157155, AI141707, AI12893, AI083203, AI149928, AI095202, AI083203, and UL1TR001439, the Dolly Parton COVID-19 Research Fund at Vanderbilt, a grant from Fast Grants, Mercatus Center, George Mason University, and funding from AstraZeneca. T.N.S. is a Washington Research Foundation Innovation Fellow at the University of Washington Institute for Protein Design and a Howard Hughes Medical Institute Fellow of the Damon Runyon Cancer Research Foundation (DRG-2381-19. J.E.C. is a recipient of the 2019 Future Insight Prize from Merck KGaA, which supported this work with a grant. J.D.B. is an Investigator of the Howard Hughes Medical Institute. P.-Y.S. was supported by awards from the Sealy &amp; Smith Foundation, Kleberg Foundation, the John S. Dunn Foundation, the Amon G. Carter Foundation, the Gilson Longenbaugh Foundation, and the Summerfield Robert Foundation. J.B.C. is supported by a Helen Hay Whitney Foundation postdoctoral fellowship. X-ray diffraction data were collected at Beamline 21-ID-F and 21-ID-G at the Advanced Photon Source, a U.S. Department of Energy (DOE) Office of Science User Facility operated for the Office of Science by Argonne National Laboratory under contract no. DE-AC02-06CH11357. Use of the LS-CAT Sector 21 was supported by the Michigan Economic Development Corporation and the Michigan Technology Tri-Corridor (grant 085P1000817). Support for crystallography was provided from the Vanderbilt Center for Structural Biology. The content is solely the responsibility of the authors and does not necessarily represent the official views of the U.S. government or the other sponsors.</p>
+        </section>
+        <section class="sec">
+          <h3 class="heading">Author contributions</h3>
+          <p>J.D., S.J.Z., J.R., E.A., R.S., C.G., R.N., J.D.B., J.E.C. Conceptualization, J.D., S.J.Z., J.D.B. and J.E.C.; Investigation, J.D., S.J.Z., A.J.G., T.N.S, A.S.D., E.C.C., R.E.C., J.B.C., P.G., J.R., E.A., R.E.S., C.G., R.S.N.; X.X., X.Z., J.L., S.W., M.E.M., M.B.F., T.B., K.T., H.B., Y.M-L., P.M.; Writing – Original Draft, J.D., S.J.Z. and J.E.C; All authors edited the manuscript and approved the final submission); Supervision, P.-Y.S, M.S.D., J.D.B., J.E.C.; Funding acquisition, P.-Y.S., M.E., R.H.C., M.SD., J.D.B., J.E.C.</p>
+        </section>
+        <section class="sec">
+          <h3 class="heading">Competing interests</h3>
+          <p>T.B., K.T., H.B., Y.M-L., P.M., and M.E. are employees of and may own stock in AstraZeneca. M.S.D. is a consultant for Inbios, Vir Biotechnology, NGM Biopharmaceuticals, and Carnival Corporation and on the Scientific Advisory Boards of Moderna and Immunome. The Diamond laboratory has received funding support in sponsored research agreements from Moderna, Vir Biotechnology, and Emergent BioSolutions. All other authors declare no competing interests. J.E.C. has served as a consultant for Eli Lilly, GlaxoSmithKline and Luna Biologics, is a member of the Scientific Advisory Boards of CompuVax and Meissa Vaccines and is Founder of IDBiologics. The Crowe laboratory at Vanderbilt University Medical Center has received sponsored research agreements from IDBiologics and AstraZeneca. Vanderbilt University has applied for patents concerning antibodies that are related to this work.</p>
+        </section>
+        <section class="sec">
+          <h3 class="heading">Additional information</h3>
+          <p><b>Supplementary information</b> is available for this paper.</p>
+          <p><b>Correspondence and requests for materials</b> should be addressed to J.E.C.</p>
+        </section>
+        <section class="sec">
+          <p>
+            <b>Extended Data Fig. 1. Overlay of substructure of RBD-COV2-2196 in RBD-COV2-2196-2130 complex and RBD-COV2-2196 crystal structure.</b>
+          </p>
+          <p><b>Extended Data Fig. 2.</b> Similar aromatic stacking and hydrophobic interaction patterns at the RBD site F486 shared between RBD-COV2-2196 and spike-S2E12 complexes.</p>
+          <p><b>a.</b> Same hydrogen bonding pattern surrounding residue F486 in the structures of the two complexes.</p>
+          <p><b>b.</b> Detailed interactions between COV2-2196 and RBD. COV2-2196 heavy chain is colored in cyan, the light chain is colored in magenta, and RBD is colored in green. Important interacting residues are shown in stick representation. Water molecules involved in antibody-RBD interaction are represented as pink spheres. Direct hydrogen bonds are shown as orange dashed lines, and water-mediated hydrogen bonds as yellow dashed lines.</p>
+          <p><b>c.</b> Superimposition of S2E12/RBD cryo-EM structure onto the COV2-2196/RBD crystal structure, with the variable domains of antibodies as references. COV2-2196 heavy chain is in cyan, and its light chain in magenta; S2E12 heavy chain is in pale cyan, and its light chain in light pink. The two corresponding RBD structures are colored in green or yellow, respectively.</p>
+          <p><b>d.</b> Detailed interactions between COV2-2130 heavy chain and RBD. Paratope residues are shown in stick representation and colored in yellow, epitope residues in green sticks. Hydrogen-bonds or strong polar interactions are represented as dashed magenta lines.</p>
+          <p><b>e.</b> Detailed interactions between COV2-2130 light chain and RBD. Paratope residues are shown in stick representation and colored in orange, epitope residues in green sticks. Hydrogen-bonds are represented as dashed magenta lines.</p>
+          <p>
+            <b>Extended Data Fig. 3. A common clonotype of anti-RBD antibodies with the same binding mechanism.</b>
+          </p>
+          <p><b>a.</b> COV2-2196/RBD crystal structure.</p>
+          <p><b>b.</b> S2E12/RBD cryo-EM structure.</p>
+          <p><b>c.</b> COV2-2381/RBD homology model. COV2-2072 encodes an N-linked glycosylation sequon in the HCDR3, indicated by the gray spheres.</p>
+          <p><b>d.</b> COV2-2072/RBD homology model.</p>
+          <p><b>e.</b> Overlay of the COV2-2196/RBD crystal structure (<b>a</b>) and S2E12/RBD cryo-EM structure (<b>b</b>).</p>
+          <p>
+            <b>Extended Data Fig. 4.</b>
+          </p>
+          <p><b>a.</b> Detailed COV2-2130 HCDR3 loop structure. Short-range hydrogen bonds, stabilizing the loop conformation, are shown as dashed magenta lines.</p>
+          <p><b>b.</b> Residues of COV2-2130 light chain form aromatic stacking interactions and hydrogen bonds with HCDR3 to further stabilize the HCDR3 loop.</p>
+          <p><b>c.</b> Long LCDR1, HCDR2, and HCDR3 form complementary binding surface to the RBD epitope. RBD is shown as surface representation in grey. COV2-2130 heavy chain is colored in yellow with HCDR3 in orange, and the light chain in salmon with LCDR1 in magenta.</p>
+          <p><b>d.</b> 180° rotation view of panel <b>c</b>.</p>
+          <p><b>Extended Data Fig. 5. Interface between COV2-2196 and COV2-2130 in the crystal structure of RBD in complex with COV2-2196 and COV2-2130.</b> COV2-2196 heavy or light chain are shown as cartoon representation in cyan or magenta, respectively, and COV2-2130 heavy or light chain in yellow or salmon, respectively. The RBD is colored in green. Interface residues are shown in stick representation.</p>
+          <p><b>Extended Data Fig. 6. Identification of putative public clonotype members genetically similar to COV2-2196 in the antibody variable gene repertoires of virus-naïve individuals.</b> Antibody variable gene sequences from healthy individuals with the same sequence features as COV2-2196 heavy chain and light chain are aligned. Sequences from three different donors as well as cord blood included sequences with the features of the public clonotype. The sequence features and contact residues used in COV2-2196 are highlighted in red boxes below each multiple sequence alignment.</p>
+          <p>
+            <b>Extended Data Fig. 7. Identification by deep mutational scanning of mutations affecting antibody binding and method of selection of antibody resistant mutants with VSV-SARS-CoV-2 virus.</b>
+          </p>
+          <p><b>a.</b> Top: Flow cytometry plots showing representative gating strategy for selection of single yeast cells using forward- and side-scatter (first three panels) and selection of yeast cells expressing RBD (right panel). Each plot is derived from the preceding gate. Bottom: Flow cytometry plots showing gating for RBD<sup>+</sup>, antibody<sup>-</sup> yeast cells (<i data-jats-toggle="yes">i.e.</i>, cells that express RBD but where a mutation prevents antibody binding). Selection experiments are shown for COV2-2196 or COV2-2130, with two independent libraries shown for each.</p>
+          <p><b>b.</b> Correlation of observed sites of escape from antibody binding between yeast library selection experiments using COV2-2196, COV2-2130, or a 1:1 mixture of COV2-2196 and COV2-2130. The x-axes show cumulative escape fraction for each site for library 1, and the y-axes show cumulative escape fraction for each site for library 2. Correlation coefficient and <i data-jats-toggle="yes">n</i> are denoted for each graph.</p>
+          <p><b>c.</b> Correlation of observed mutations that escape antibody binding between yeast library selection experiments using COV2-2196, COV2-2130, or a 1:1 mixture of COV2-2196 and COV2-2130. The x-axes show each amino acid mutation’s escape fraction for library 1, and the y-axes show each amino acid mutation’s escape fraction for library 2. Correlation coefficient and <i data-jats-toggle="yes">n</i> are denoted for each graph.</p>
+          <p><b>d-f.</b> DMS results for COV2-2196 (<b>d</b>), COV2-2130 (<b>e</b>), or a 1:1 mixture of COV2-2196 and COV2 2130 (<b>f</b>). Left panels: sites of escape across the entire RBD are indicated by peaks that correspond to the logo plots in the middle and right panel. Middle panel: as in <b><a class="xref xref-fig" href="#fig4" data-jats-ref-type="fig" data-jats-rid="fig4">Fig. 4a</a></b>, logo plot of cumulative escape mutation fractions of all RBD sites with strong escape mutations for COV2-2196, or COV2-2130, or COV2-2196+COV2-2130. Mutations are colored based on the degree to which they abrogate RBD binding to human ACE2. Right panel: again, logo plots show cumulative escape fractions, but colored based on the degree to which mutations effect RBD expression in the yeast display system. Interactive, zoomable versions of these logo plots are at <a class="ext-link" href="https://jbloomlab.github.io/SARS-CoV-2-RBD_MAP_AZ_Abs/" data-jats-ext-link-type="uri">https://jbloomlab.github.io/SARS-CoV-2-RBD_MAP_AZ_Abs/</a>.</p>
+          <p><b>g.</b> Representative RTCA sensograms showing virus that escaped antibody neutralization. Cytopathic effect (CPE) was monitored kinetically in Vero E6 cells inoculated with virus in the presence of a saturating concentration (5 μg/mL) of antibody COV2-2130. Representative instances of escape (magenta) or lack of detectable escape (blue) are shown. Uninfected cells (green) or cells inoculated with virus without antibody (red) serve as controls. Magenta and blue curves represent a single representative well; the red and green controls are the mean of technical duplicates.</p>
+          <p><b>h.</b> Representative RTCA sensograms validating that a variant virus selected by COV2-2130 in (<b>g</b>) indeed escaped COV2-2130 (magenta) but was neutralized by COV2-2196 (light blue).</p>
+          <p><b>i.</b> Example sensograms from individual wells of 96-well E-plate analysis for escape selection experimetnts with COV2-2196, COV2-2130, or a 1:1 mix of COV2-2196 and COV2-2130. Instances of escape from COV2-2130 are noted, while escape was not detected in the presence of COV2-2196 or COV2-2196+COV2-2130. Positive and negative controls are denoted on the first plate.</p>
+          <p><b>Extended Data Fig. 8. Method of selection of antibody resistant mutants with authentic SARS-CoV-2 virus.</b> The method for assessing monoclonal antibody resistant spike protein variants is shown. SARS-CoV-2 was passaged serially in the presence of monoclonal antibodies at the increasing concentrations indicated in the figure or without antibody (no monoclonal antibody). Following passage at IC<sub>90</sub> concentrations, samples were treated with 10 × IC<sub>90</sub> concentrations of monoclonal antibodies and any resultant resistant virus collected, and the genome was sequenced.</p>
+        </section>
+        <section class="sec" id="s2">
+          <h3 class="heading">Materials and Methods</h3>
+          <section class="sec" id="s2a">
+            <h4 class="heading">Expression and purification of recombinant receptor binding domain (RBD) of SARS-CoV-2 spike protein</h4>
+            <p>The DNA segments correspondent to the S protein RBD (residues 319 – 528) was sequence optimized for expression, synthesized, and cloned into the pTwist-CMV expression DNA plasmid downstream of the IL-2 signal peptide (MYRMQLLSCIALSLALVTNS) (Twist Bioscience). A three amino acid linker (GSG) and a His-tag were incorporated at the C-terminus of the expression constructs to facilitate protein purification. Expi293F cells were transfected transiently with the plasmid encoding RBD, and culture supernatants were harvested after 5 days. RBD was purified from the supernatants by nickel affinity chromatography with HisTrap Excel columns (GE Healthcare Life Sciences). For protein production used in crystallization trials, 5 μM kifunensine was included in the culture medium to produce RBD with high mannose glycans. The high mannose glycoproteins subsequently were treated with endoglycosidase F1 (Millipore) to obtain homogeneously deglycosylated RBD.</p>
+          </section>
+          <section class="sec" id="s2b">
+            <h4 class="heading">Expression and purification of recombinant COV2-2196 and COV2-2130 Fabs</h4>
+            <p>The DNA fragments corresponding to the COV2-2196 and COV2-2130 heavy chain variable domains with human IgG1 CH1 domain and light chain variable domains with human kappa chain constant domain were synthesized and cloned into the pTwist vector (Twist Bioscience). This vector includes the heavy chain of each Fab, followed by a GGGGS linker, a furin cleavage site, a T2A ribosomal cleavage site, and the light chain of each Fab. Expression of the heavy and light chain are driven by the same CMV promoter. COV2-2196 and COV2-2130 Fabs were expressed in ExpiCHO cells by transient transfection with the expression plasmid. The recombinant Fab was purified from culture supernatant using an anti-CH1 CaptureSelect column (Thermo Fisher Scientific). For the RBD/COV2-2196 complex, the <i data-jats-toggle="yes">wt</i> sequence of COV2-2196 was used for expression. For the RBD/COV2-2196/COV2-2130 complex, a modified version of COV2-2196 Fab was used in which the first two amino acids of the variable region were mutated from QM to EV.</p>
+          </section>
+          <section class="sec" id="s2c">
+            <h4 class="heading">Crystallization and structural determination of antibody-antigen complexes</h4>
+            <p>Purified COV2-2196 Fab was mixed with deglycosylated RBD in a molar ratio of 1:1.5, and the mixture was purified further by size-exclusion chromatography with a Superdex-200 Increase column (GE Healthcare Life Sciences) to obtain the antibody-antigen complex. To obtain RBD/COV2-2196/COV2-2130 triple complex, purified and deglycosylated RBD was mixed with both COV2-2196 and COV2-2130 Fabs in a molar ratio of 1:1.5:1.5, and the triple complex was purified with a Superdex-200 Increase column. The complexes were concentrated to about 10 mg/mL and subjected to crystallization trials. The RBD/COV2-2196 complex was crystallized in 16% – 18% PEG 3350, 0.2 Tris-HCl pH 8.0 – 8.5, and the RBD/COV2-2196/COV2-2130 complex was crystallized in 5% (w/v) PEG 1000, 100 mM sodium phosphate dibasic/citric acid pH 4.2, 40% (v/v) reagent alcohol. Cryo-protection solution was made by mixing crystallization solution with 100% glycerol in a volume ratio of 20:7 for crystals of both complexes. Protein crystals were flash-frozen in liquid nitrogen after a quick soaking in the cryoprotection solution. Diffraction data were collected at the beamline 21-ID-F for RBD/COV2-2196 complex and 21-ID-G for RBD/COV2-2196/COV2-2130 complex at the Advanced Photon Source. The diffraction data were processed with XDS<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c59">59</a></sup> and CCP4 suite<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c60">60</a></sup>. The crystal structures were solved by molecular replacement using the structure of RBD in complex with Fab CC12.1 (PDB ID 6XC2) and Fab structure of MR78 (PDB ID 5JRP) with the program Phaser<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c61">61</a></sup>. The structures were refined and rebuilt manually with Phenix<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c62">62</a></sup> or Coot<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c63">63</a></sup>, respectively. The models have been deposited into the Protein Data Bank. PyMOL software<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c64">64</a></sup> was used to make all of the structural figures.</p>
+          </section>
+          <section class="sec" id="s2d">
+            <h4 class="heading">COV2-2196 mutant generation</h4>
+            <p>Struturally-important residues in the COV2-2196 heavy chain sequence were identified as D108, P99, and the disulfide bond in HCDR3. The D108 residue was mutated to alanine, asparagine, and glutamic acid. The P99 residue was mutanted to valine, asparagine, and glycine. The disulfide bond was removed by replacing the cystines with alanine. Additionally, the germline revertant forms of COV2-2196 were generated by aligning the sequence to identified germline sequences using IgBlast, and reverting back the residues that were not germline-encoded. DNA fragments corresponding to the COV2-2196 mutant heavy chain variable domains with human IgG1 and light chain variable domain with human kappa chain constant domain were synthesized and cloned into the pTwist_mCis vector (Twist Bioscience) as previously described<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c25">25</a></sup>. Constructs were transformed into <i data-jats-toggle="yes">E. coli</i>, and DNA was purified. Antibodies then were produced by transient tranfection of ExpiCHO cells following the manufacturer’s protocol (Gibco). Supernatants were filter-sterilized using 0.45 μm pore size filters and samples were applied to HiTrap MabSelect Sure columns (Cytiva).</p>
+          </section>
+          <section class="sec" id="s2e">
+            <h4 class="heading">ELISA binding of COV2-2196 mutants</h4>
+            <p>Wells of 384-well microtiter plates were coated with purified recombinant SARS-CoV-2 S 6P protein at 4°C overnight. Plates were blocked with 2% non-fat dry milk and 2% normal goat serum in DPBS containing 0.05% Tween-20 (DPBS-T) for 1 h. Antibodies were diluted to 10 μg/mL and titrated two-fold 23 times in DPBS-T and added to the wells, followed by an incubation for 1 h at room temperature. The bound antibodies were detected using goat antihuman IgG conjugated with horseradish peroxidase (Southern Biotech) and TMB substrate (Thermo Fischer Scientific). Reactions were quenched with 1 N hydrochloric acid and absorbance was measured at 450 nm using a spectrophotometer (Biotek).</p>
+          </section>
+          <section class="sec" id="s2f">
+            <h4 class="heading">Mapping of all mutations that escape antibody binding</h4>
+            <p>All mutations that escape antibody binding were mapped via a DMS approach<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c27">27</a></sup>. We used previously described yeast-display RBD mutant libraries<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c27">27</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c28">28</a></sup>. Briefly, duplicate mutant libraries were constructed in the spike receptor binding domain (RBD) from SARS-CoV-2 (isolate Wuhan-Hu-1, Genbank accession number <a class="ext-link" href="MN908947" data-jats-ext-link-type="gen">MN908947</a>, residues N331-T531) and contain 3,804 of the 3,819 possible amino-acid mutations, with &gt;95% present as single mutants. Each RBD variant was linked to a unique 16-nucleotide barcode sequence to facilitate downstream sequencing. As previously described, libraries were sorted for RBD expression and ACE2 binding to eliminate RBD variants that are completely misfolded or nonfunctional <i data-jats-toggle="yes">(i.e.,</i> lacking modest ACE2 binding affinity<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c27">27</a></sup>).</p>
+            <p>Antibody escape mapping experiments were performed in biological duplicate using two independent mutant RBD libraries, as previously described<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c27">27</a></sup>, with minor modifications. Briefly, mutant yeast libraries induced to express RBD were washed and incubated with antibody at 400 ng/mL for 1 h at room temperature with gentle agitation. After the antibody incubations, the libraries were secondarily labeled with 1:100 FITC-conjugated anti-MYC antibody (Immunology Consultants Lab, CYMC-45F) to label for RBD expression and 1:200 PE-conjugated goat anti-human-IgG (Jackson ImmunoResearch 109-115-098) to label for bound antibody. Flow cytometric sorting was used to enrich for cells expressing RBD variants with reduced antibody binding via a selection gate drawn to capture unmutated SARS-CoV-2 cells labeled at 1% the antibody concentration of the library samples. For each sample, approximately 10 million RBD+ cells were processed on the cytometer. Antibody-escaped cells were grown overnight in SD-CAA (6.7 g/L Yeast Nitrogen Base, 5.0 g/L Casamino acids, 1.065 g/L MES acid, and 2% w/v dextrose) to expand cells prior to plasmid extraction.</p>
+            <p>Plasmid samples were prepared from pre-selection and overnight cultures of antibody-escaped cells (Zymoprep Yeast Plasmid Miniprep II) as previously described<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c27">27</a></sup>. The 16-nucleotide barcode sequences identifying each RBD variant were amplified by PCR and sequenced on an Illumina HiSeq 2500 with 50 bp single-end reads as described<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c27">27</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c28">28</a></sup>.</p>
+            <p>Escape fractions were computed as described<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c27">27</a></sup>, with minor modifications as noted below. We used the dms_variants package (<a class="ext-link" href="https://jbloomlab.github.io/dms_variants/" data-jats-ext-link-type="uri">https://jbloomlab.github.io/dms_variants/</a>, version 0.8.2) to process Illumina sequences into counts of each barcoded RBD variant in each pre-sort and antibody-escape population using the barcode/RBD look-up table previously described<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c65">65</a></sup>.</p>
+            <p>For each antibody selection, we computed the “escape fraction” for each barcoded variant using the deep sequencing counts for each variant in the original and antibody-escape populations and the total fraction of the library that escaped antibody binding via a previously described formula<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c27">27</a></sup>. These escape fractions represent the estimated fraction of cells expressing that specific variant that fall in the antibody escape bin, such that a value of 0 means the variant is always bound by serum and a value of 1 means that it always escapes antibody binding. We then applied a computational filter to remove variants with low sequencing counts or highly deleterious mutations that might cause antibody escape simply by leading to poor expression of properly folded RBD on the yeast cell surface<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c27">27</a>,<a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c28">28</a></sup>. Specifically, we removed variants that had (or contained mutations with) ACE2 binding scores &lt; −2.35 or expression scores &lt; −1, using the variant-and mutation-level deep mutational scanning scores as previously described<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c28">28</a></sup>. Note that these filtering criteria are slightly more stringent than those previously used to map a panel of human antibodies<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c27">27</a></sup> but are identical to those used in recent studies defining RBD residues that impact the binding of mAbs<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c65">65</a></sup> and polyclonal serum<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c40">40</a></sup>.</p>
+            <p>We next deconvolved variant-level escape scores into escape fraction estimates for single mutations using global epistasis models<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c66">66</a></sup> implemented in the dms_variants package, as detailed at (<a class="ext-link" href="https://jbloomlab.github.io/dms_variants/dms_variants.globalepistasis.html" data-jats-ext-link-type="uri">https://jbloomlab.github.io/dms_variants/dms_variants.globalepistasis.html</a>) and described<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c27">27</a></sup>. The reported escape fractions throughout the paper are the average across the libraries (correlations shown in <b>Extended Data Fig. 7a,b</b>); these scores are also in <b>Supplementary Data Table 1.</b> Sites of strong escape from each antibody for highlighting in logo plots were determined heuristically as sites whose summed mutational escape scores were at least 10 times the median sitewise sum of selection, and within 10-fold of the sitewise sum of the most strongly selected site. Full documentation of the computational analysis is at <a class="ext-link" href="https://github.com/jbloomlab/SARS-CoV-2-RBD_MAP_AZ_Abs" data-jats-ext-link-type="uri">https://github.com/jbloomlab/SARS-CoV-2-RBD_MAP_AZ_Abs</a>. These results are also available in an interactive form at <a class="ext-link" href="https://jbloomlab.github.io/SARS-CoV-2-RBD_MAP_AZ_Abs/" data-jats-ext-link-type="uri">https://jbloomlab.github.io/SARS-CoV-2-RBD_MAP_AZ_Abs/</a>.</p>
+            <section class="sec" id="s2f1">
+              <h5 class="heading">Antibody escape selection experiments with VSV-SARS-CoV-2</h5>
+              <p>For escape selection experiments with COV2-2196 and COV2-2130, we used a replication competent recombinant VSV virus encoding the spike protein from SARS-CoV-2 with a 21 amino-acid C-terminal deletion<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c29">29</a></sup>. The spike-expressing VSV virus was propagated in MA104 cells (African green monkey, ATCC CRL-2378.1) as described previously<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c29">29</a></sup>, and viral stocks were titrated on Vero E6 cell monolayer cultures. Plaques were visualized using neutral red staining. To screen for escape mutations selected in the presence of COV2-2196, COV2-2130, or a cocktail composed of a 1:1 mixture of COV2-2196 and COV2-2130, we used a real-time cell analysis assay (RTCA) and xCELLigence RTCA MP Analyzer (ACEA Biosciences Inc.) and a previously described escape selection scheme<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c27">27</a></sup>. Briefly, 50 μL of cell culture medium (DMEM supplemented with 2% FBS) was added to each well of a 96-well E-plate to obtain a background reading. Eighteen thousand (18,000) Vero E6 cells in 50 μL of cell culture medium were seeded per well, and plates were placed on the analyzer. Measurements were taken automatically every 15 min and the sensograms were visualized using RTCA software version 2.1.0 (ACEA Biosciences Inc). VSV-SARS-CoV-2 virus (5,000 plaque forming units [PFU] per well, ~0.3 MOI) was mixed with a saturating neutralizing concentration of COV2-2196, COV2-2130, or a 1:1 mixture of COV2-2196 and COV2-2130 antibody (5 μg/mL total concentration of antibodies) in a total volume of 100 μL and incubated for 1 h at 37°C. At 16-20 h after seeding the cells, the virus-antibody mixtures were added to cell monolayers. Wells containing only virus in the absence of antibody and wells containing only Vero E6 cells in medium were included on each plate as controls. Plates were measured continuously (every 15 min) for 72 h. Escape mutations were identified by monitoring the cell index for a drop in cellular viability. To verify escape from antibody selection, wells where cytopathic effect was observed in the presence of COV2-2130 were assessed in a subsequent RTCA experiment in the presence of 10 μg/mL of COV2-2130 or COV2-2196. After confirmation of resistance of selected viruses to neutralization by COV2-2130, viral isolates were expanded on Vero E6 cells in the presence of 10 μg/mL of COV2-2130. Viral RNA was isolated using a QiAmp Viral RNA extraction kit (QIAGEN) according to manufacturer protocol, and the SARS-CoV-2 spike gene was reverse-transcribed and amplified with a SuperScript IV One-Step RT-PCR kit (ThermoFisher Scientific) using primers flanking the S gene. The amplified PCR product was purified using SPRI magnetic beads (Beckman Coulter) at a 1:1 ratio and sequenced by the Sanger method, using primers giving forward and reverse reads of the RBD.</p>
+            </section>
+            <section class="sec" id="s2f2">
+              <h5 class="heading">Serial passaging and testing of SARS-CoV-2 to select for mAb resistant mutations</h5>
+              <p>SARS-CoV-2 strain USA-WA1/2020 was passaged serially in Vero cell monolayer cultures with AZD8895, AZD1061 or AZD7442, at concentrations beginning at their respective IC<sub>50</sub> values and increased step-wise to their IC90 value with each passage. As a control, virus was passaged in the absence of antibody. Following the final passage, viruses were evaluated for susceptibility against the reciprocal antibody at a final concentration of 10 times the IC90 concentration by plaque assay. Plaques (n=6) were selected randomly for AZD1061 cultures, and their virus spike-encoding gene was sequenced.</p>
+            </section>
+            <section class="sec" id="s2f3">
+              <h5 class="heading">Generation of authentic SARS-CoV-2 viruses, including viruses with variant residues</h5>
+              <p>The 2019n-CoV/USA_WA1/2020 isolate of SARS-CoV-2 was obtained from the US Centers for Disease Control (CDC) and passaged on Vero E6 cells. Individual point mutations in the spike gene (D614G and E484K/D614G) were introduced into an infectious cDNA clone of the 2019n-CoV/USA_WA1/2020 strain as described previously<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c67">67</a></sup>. Nucleotide substitutions were introduced into a subclone puc57-CoV-2-F6 containing the spike gene of the SARS-CoV-2 wild-type infectious clone<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c68">68</a></sup>. The full-length infectious cDNA clones of the variant SARS-CoV-2 viruses were assembled by <i data-jats-toggle="yes">in vitro</i> ligation of seven contiguous cDNA fragments following the previously described protocol<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c68">68</a></sup>. <i data-jats-toggle="yes">In vitro</i> transcription then was performed to synthesize fulllength genomic RNA. To recover the mutant viruses, the RNA transcripts were electroporated into Vero E6 cells. The viruses from the supernatant of cells were collected 40 h later and served as p0 stocks. All virus stocks were confirmed by sequencing.</p>
+            </section>
+            <section class="sec" id="s2f4">
+              <h5 class="heading">Focus reduction neutralization test</h5>
+              <p>Serial dilutions of mAbs or serum were incubated with 10<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c2">2</a></sup> focus-forming units (FFU) of different strains or variants of SARS-CoV-2 for 1 h at 37°C. Antibody-virus complexes were added to Vero-hACE2-TMPRSS2 cell monolayer cultures in 96-well plates and incubated at 37°C for 1 h. Subsequently, cells were overlaid with 1% (w/v) methylcellulose in MEM supplemented with 2% FBS. Plates were harvested 20 h later by removing overlays and fixed with 4% PFA in PBS for 20 min at room temperature. Plates were washed and sequentially incubated with an oligoclonal pool of anti-S mAbs and HRP-conjugated goat anti-human IgG in PBS supplemented with 0.1% saponin and 0.1% bovine serum albumin. SARS-CoV-2-infected cell foci were visualized using TrueBlue peroxidase substrate (KPL) and quantitated on an ImmunoSpot microanalyzer (Cellular Technologies).</p>
+            </section>
+          </section>
+          <section class="sec" id="s2g">
+            <h4 class="heading">Multiple sequence alignments</h4>
+            <p>We searched for antibody variable gene sequences originating with the same features as those encoding COV2-2196 and retrieved the matching sequences from the repertoires of each individual examined. We searched for similar sequences in the publicly available large-scale antibody sequence repertoires for three healthy individuals and cord blood repertoires (deposited at SRP174305). The search parameters for the heavy chain were sequences with <i data-jats-toggle="yes">IGHV1-58</i> and <i data-jats-toggle="yes">IGHJ3</i> with the P99, D108, and F110 residues. Additionally, the search parameters for the light chain were sequences with Y92 and W98 residues. Sequences from a matching clonotype that belonged to each individual were aligned with either ClustalO<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c69">69</a></sup> (heavy chains) or with MUSCLE<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c70">70</a></sup> (light chains). Then, LOGOs plots of aligned sequences were generated using WebLogo<sup><a class="xref xref-bibr" href="#" title="" data-jats-ref-type="bibr" data-jats-rid="c71">71</a></sup>.</p>
+          </section>
+        </section>
+        <section class="ref-list-container" id="references">
+          <h2 class="heading">References</h2>
+          <ul class="ref-list">
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c1"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c2"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c3"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c4"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c5"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c6"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c7"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c8"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c9"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c10"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c11"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c12"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c13"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c14"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c15"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c16"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c17"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c18"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c19"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c20"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c21"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c22"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c23"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c24"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c25"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c26"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c27"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c28"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c29"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c30"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c31"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c32"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c33"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c34"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c35"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c36"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c37"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c38"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c39"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c40"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c41"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c42"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c43"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c44"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c45"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c46"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c47"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c48"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c49"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c50"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c51"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c52"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c53"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c54"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c55"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c56"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c57"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c58"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c59"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c60"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c61"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c62"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c63"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c64"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c65"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c66"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c67"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c68"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c69"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c70"/>
+            </li>
+            <li class="ref">
+              <div class="citation" itemprop="citation" itemscope="itemscope" id="c71"/>
+            </li>
+          </ul>
+        </section>
+      </footer>
+    </article>
+  </body>
+</html>

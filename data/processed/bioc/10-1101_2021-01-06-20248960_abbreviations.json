@@ -1,0 +1,23 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-01-06-20248960",
+      "inputfile": "../../data/processed/html/10-1101_2021-01-06-20248960.html",
+      "passages": [
+        {
+          "text_short": "SERA",
+          "text_long_1": "serum epitope repertoire analysis",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PIWAS",
+          "text_long_1": "protein based immunome wide association studies",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

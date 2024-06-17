@@ -1,0 +1,43 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-05-11-21256908",
+      "inputfile": "../../data/processed/html/10-1101_2021-05-11-21256908.html",
+      "passages": [
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "coronavirus disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "DMEM",
+          "text_long_1": "Dulbecco Minimal Essential Medium",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FBS",
+          "text_long_1": "fetal bovine serum",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "NP",
+          "text_long_1": "nasopharyngeal",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CPE",
+          "text_long_1": "cytopathic effect",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VNT",
+          "text_long_1": "virus neutralization test",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

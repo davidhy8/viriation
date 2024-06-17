@@ -1,0 +1,53 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1136_annrheumdis-2022-222115",
+      "inputfile": "../../data/processed/html_papers/10-1136_annrheumdis-2022-222115.html",
+      "passages": [
+        {
+          "text_short": "CP",
+          "text_long_1": "convalescent plasma",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MAbs",
+          "text_long_1": "Monoclonal antibodies",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VOC",
+          "text_long_1": "variant of concern",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "hCoV-2IG",
+          "text_long_1": "Hyperimmune SARS-CoV-2 intravenous immunoglobulins",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PsVNA",
+          "text_long_1": "pseudovirus neutralisation assay",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "AddDose",
+          "text_long_1": "additional dose",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RA",
+          "text_long_1": "Rheumatoid arthritis",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "DMARDs",
+          "text_long_1": "disease-modifying antirheumatic drugs",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

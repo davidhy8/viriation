@@ -1,0 +1,58 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "assets-publishing-service-gov-uk_government_uploads_system_uploads_attachment_data_file_1009243_Technical_Briefing_20-pdf",
+      "inputfile": "../../data/processed/html/html_other/assets-publishing-service-gov-uk_government_uploads_system_uploads_attachment_data_file_1009243_Technical_Briefing_20-pdf.html",
+      "passages": [
+        {
+          "text_short": "VUIs",
+          "text_long_1": "variants under investigation",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Ct",
+          "text_long_1": "cycle threshold",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PHE",
+          "text_long_1": "Public Health England",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "WHO",
+          "text_long_1": "World Health Organization",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBDA",
+          "text_long_1": "rules-based decision algorithm",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VAM",
+          "text_long_1": "variant and mutation",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "WGS",
+          "text_long_1": "whole-genome sequencing",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ECDS",
+          "text_long_1": "Emergency Care Data Set",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "NHSTT",
+          "text_long_1": "NHS Test and Trace",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

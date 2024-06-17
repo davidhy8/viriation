@@ -1,0 +1,58 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-04-02-21254832",
+      "inputfile": "../../data/processed/html/10-1101_2021-04-02-21254832.html",
+      "passages": [
+        {
+          "text_short": "VOC",
+          "text_long_1": "Variant of Concern",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "NHS",
+          "text_long_1": "National Health Service",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SGTF",
+          "text_long_1": "S-gene target failure",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "UHW",
+          "text_long_1": "University Hospital of Wales",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Ct",
+          "text_long_1": "cycle threshold",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "IC",
+          "text_long_1": "internal control",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "LIMS",
+          "text_long_1": "Laboratory Information Management System",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "WT",
+          "text_long_1": "Wild-type",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PC",
+          "text_long_1": "positive control",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

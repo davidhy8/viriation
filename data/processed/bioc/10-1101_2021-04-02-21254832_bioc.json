@@ -1,0 +1,268 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-04-02-21254832",
+      "inputfile": "../../data/processed/html/10-1101_2021-04-02-21254832.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Higher Relative Viral Load Excretion Determined by Normalised Threshold Crossing Value in Acute Cases infected with the B.1.1.7 Lineage VOC 202012/01 (Using S gene target failure as a Proxy) When Compared to other Circulating Lineages in Wales",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 243,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Severe acute respiratory syndrome coronavirus (SARS-CoV-2) was first detected within the United Kingdom (UK) in January 2020, with the first confirmed case identified in Wales at the end of February 2020 (Welsh Government, 2020; Lillie et al., 2020). Variants of viruses commonly arise due to mutation in the viral genome, and are mostly identified via whole-genome sequencing (Burki, 2021). Mutations and variants are often of little consequence with little effect on the virus or naturally burn-out over time, however can become concerning if the change causes a competitive advantage over the ancestral phenotype (Yurkovetskiy et al., 2020). A variant of lineage B.1.1.7 (1) was first identified in the South East of England, and was designated Variant of Concern (VOC) 202012/01 in December 2020 (PHE, 2020). Preliminary analysis suggested an approximate growth rate 71% higher than other variants, and reported estimated increase of between 40% and 70% in transmissibility (ECDC, 2020; NERVTAG, 2020).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1261,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "VOC 202012/01 is characterised by an unprecedented number of mutations including an out of frame six nucleotide deletion causing the removal of histidine and valine at positions 69 and 70 respectively (ΔH69/V70) from the S1 protein subunit (Rambaut et al., 2020; Gloubchik et al., 2021). In total there are eight lineage-defining amino acid changes in Spike, in addition to pre-existing D614G, which are of particular concern due to the antigenicity of the peplomer (Rambaut et al., 2020; Yurkovetskiy et al., 2020).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1777,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "‘Lighthouse laboratories’ provide mass testing for ‘Pillar 2’ of the UK government’s ‘5-pillar plan’ for the upscaling of SARS-CoV-2 testing, whereas the Public Health England and Wales (PHE/PHW) labs and National Health Service (NHS) hospital laboratories cover ‘Pillar 1’ (UK Department of Health and Social care, 2020). In 3 of these Lighthouse laboratories, a phenomenon of S-gene target failure (SGTF) was noticed in Applied Biosystems™ TaqPath™ SARS-CoV-2 qualitative reverse transcriptase polymerase chain reaction (RT-qPCR) assay (PHE, 2020). SGTF was found to indicate the presence of VOC 202012/01 in samples due to ΔH69/V70, with further study showing that, in samples where both sequence and SGTF status are known, 99.3% of samples with ΔH69/V70 sequences are SGTF; furthermore, 98% of all ΔH69/V70 samples in England were identified as being VOC202012/01 by the beginning of week 50/2020 (PHE, 2020). With this reasoning, the TaqPath™ assay was used as a supplementary test in PHW’s laboratory in University Hospital of Wales (UHW) on samples that had tested positive via other RT-PCR assays from across Wales in order to provide a crude screen for VOC 202012/01 in Pillar 1 samples. An incidental observation of such was the ability to compare original cycle threshold (Ct) values of samples with and without SGTF using both Livak and Schmittgen’s ΔΔCt comparative method (2001), and a relative quantification method in which the ratio of target gene Ct compared to internal control (IC) Ct was calculated. Using SGTF as a crude indicator of the presence of VOC 202012/01 and representing a unique insight into Pillar 1 testing, this analysis sought to determine if there is a statistically significant difference in the relative quantification of virus, and in the relative viral gene expression in VOC 202012/01 vs non-VOC 202012/01 when normalised Ct values obtained by independent means are used as a proxy in lieu of viral loads.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3725,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Between the 21st December 2020 and 26th January 2021, all dry oropharyngeal/nasopharyngeal swabs from across Wales that returned a positive result. These samples were split into those with Ct values of ≤27 for any gene target, and those with Ct values >27 for all gene targets, as the Pathogen Genomics Unit of UHW were to have priority access to samples with Ct≤27 for pre-existing whole-genome sequencing efforts.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4147,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Samples were largely received as 96-deep-well extraction plates containing extracts with a mix of both positive and negative results. Positive samples were manually picked based on plate maps constructed using RT-qPCR results and stored at 5°C until further testing. Sample-specific NHS barcodes and episode numbers were utilised for record keeping of processed samples, and to allow for future clinical and epidemiological investigation using the Laboratory Information Management System (LIMS) TrakCare ® Lab by InterSystems™ (Cambridge, Massachusetts, United States) used in PHW labs.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4734,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The TaqPath™ assay was performed on all sample extracts, according to kit instructions, and results were split into 3 qualitative result categories independent of the Ct results obtained through the original diagnostic testing method; ‘Negative’ (RNA not detected by TaqPath but originally reported as positive), ‘SGTF’ and ‘Wild-type (WT)’. These completed results were forwarded to Public Health Wales Communicable Disease Surveillance Centre for analysis to understand the wider epidemiology of SGTF in Wales.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5246,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "To analyse the data further locally, those samples that were tested using the PerkinElmer ® (Waltham, Massachusetts, United States) (PE) SARS-CoV-2 RT-qPCR assay, were selected due to the use of an endogenous control to normalise Ct values against and because S was not a target, the kinetics of the assay would likely be not affected by absence of amplification or detection in this region.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5637,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The original PCR Ct values for the PE Nucleocapsid (N) and Open-Reading Frame 1ab (ORF1/ab) gene targets, plus the undisclosed human-originating endogenous internal control (IC), were then recorded for each sample. Together with the corresponding TaqPath™ result, were then split into populations based on the aforementioned categories. Samples with a complete target failure of either N gene or ORF/1ab in the PE assay were then excluded from the final analysis. ΔCt was then calculated for each sample by subtracting the value received for IC from the value received from the gene target.\n\n",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6229,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "This was completed for both the N gene, and then ORF1/ab. Mean and median for these ΔCt values were then calculated in order to show crude differences in averages.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6392,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Livak and Schmittgen’s (2001) ΔΔCt method was conducted for each target gene; with all calculations taking place in Microsoft ® (Redmond, Washington, United States) Excel ® 2016 (V 16.0.5095.100). The results of which then underwent log transformations for ease of statistical analysis, and subject to one-way ANOVA and Tukey’s multiple comparisons post-hoc test in Prism ® (V 9.0.1) by GraphPad Software (San Diego, California, United States). Data was also plotted for normality in order to satisfy an assumption of ANOVA. In order to perform the ΔΔCt method, the Ct values for N gene, ORF1/ab and IC for the positive control (PC) reported for every PerkinElmer ® plate tested at the UHW PHW site between 21st December 2020 and 26th January 2021 inclusively were recorded retroactively.\n\n",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7182,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Normalisation with regards to the IC was also performed in which the ratio of target gene Ct to IC Ct was determined. Normality was plotted, and all data was subject to one-way ANOVA and Tukey’s multiple comparisons post-hoc test.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7412,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "In total, 849 samples that tested positive in the PerkinElmer ® assay were also tested using the TaqPath™ assay, 65 samples were excluded from the final analyses due to target failure in the PE assay. Of those analysed, 119 were ‘Negative’ according to the TaqPath™ assay, 275 were ‘SGTF’, and 390 were ‘WT’.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7727,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The mean ΔCt for ‘SGTF’ samples were lower than ‘WT’ by 3.43 (3s.f.) data points for N gene, and 3.78 (3s.f.) for ORF1/ab; and lower than ‘Negative’ samples by 8.28 (3s.f.) and 10.4 (3s.f.) for N gene and ORF1/ab, respectively. Similar differences are retained for the median average, with median ΔCt for ‘SGTF’ samples dwarfing those for ‘WT’ by 5.00 (3s.f.) for N gene, and 4.00 (3s.f.) for ORF1/b; and those for ‘Negative’ by 10.0 (3s.f.) and 11.0 (3s.f.) for N gene and ORF1/ab, respectively (Table 1).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8233,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The distribution of data point values, with statistical significance between groups indicated. QQ normal plots for Ct values compared by both the ΔΔCt comparative method and relative quantification by ratio proved that both sets of data satisfied the normality (figure 1). Furthermore, all samples were independent with a continuous dependent variable so, assuming equal variance, both datasets were deemed suitable for analysis by one-way ANOVA. Results presented in Fig.1A indicated that there was a statistically significant difference in the log-fold difference relative to the IC Ct between each paired gene target in the ‘SGTF’, ‘WT’ and ‘Negative’ groups (F(3, 781) = 113 3s.f., p <0.0001).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8930,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "A Tukey post hoc test of multiple comparisons revealed that the relative gene expression in ‘SGTF’ samples was higher than in ‘WT’ (1.03 ± 0.401 3s.f., p <0.0001; 1.14 ± 0.401 3s.f., p <0.0001) and ‘Negative’ (−2.49 ± 0.559 3s.f., p <0.0001; −3.12 ± 0.559 3s.f., p <0.0001) samples, for N gene and ORF1/ab respectively. No statistical significance was detected between the log fold-difference relative to IC Ct of gene targets within the same qualitative TaqPath™ group. Similar results were observed when normalising to the IC using ratio data, shown in Fig.1B; whereby one-way ANOVA revealed a statistically significant difference in the relative quantification between each paired gene target in the 3 groups (F(3, 781) = 98.8 3s.f., p <0.0001). A Tukey test showed that the log-fold difference was higher in ‘SGTF’ samples than in ‘WT’ (−1.03 ± 0.374 3s.f., p <0.0001; −1.14 ± 0.374 3s.f., p <0.0001) and ‘Negative’ (−2.49 ± 0.521 3s.f., p <0.0001; −3.12 ± 0.521 3s.f., p <0.0001) samples, for N gene and ORF1/ab respectively. Furthermore statistical significance was detected in the difference between the log-fold relative Ct values of N gene and ORF1/ab in the ‘Negative’ group (0.718 ± 0.679 3s.f., p = 0.0115), and no statistically significant difference was detected between the differences in relative quantification of the paired gene targets within the remaining 2 groups.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10315,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "These results indicate a trend in which viral target gene fold-difference relative to human endogenous IC is higher in samples that result in SGTF than in those that do not. In this analysis, rather than assuming and using the negative correlation between raw Ct values and viral load, normalisation of the target gene to the internal control was taken into account, which builds upon Ct analysis carried out in other studies (Calistri et al., 2021; Walker et al., 2021).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10796,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "When using SGTF as an indicator of VOC 202012/01, and a significantly higher calculated log fold-difference relative to the IC as a proxy for viral load in these samples, the results support other studies that show patients infected with VOC 202012/01 excrete higher viral loads than patients with earlier circulating lineages of SARS-CoV-2 (Kidd et al., 2020; Golubchik et al., 2021). Supporting the suggested increased infectivity and transmissibility reported for this variant.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11276,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "A limitation of this analyses is as this was performed retrospectively, the efficiency of the amplification kinetics of the PE assay was not determined. Because of this, the original iteration of the ΔΔCt method in which efficiency is assumed to be 100%, was used.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11540,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Using a single assay and gene target failure to determine the presence or not of a particular variant also has limitations, as despite genomics showing that in regions where the variant might dominate 98% or more of the target failure samples are positive for the VOC, the change that leads to the failure may also be sporadic. For example, ΔH69/V70 was reported in some circulating lineages before the emergence of VOC 202012/01, In Wales however, the molecular epidemiology generated by systematic whole genome sequencing in pillar 1 and latterly in pillar 2, largely support the data generated by the proxy assay for the arrival and establishment of VOC 202012/01 across Wales.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12220,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "This study does demonstrate that whilst Ct values generated in a qualitative PCR test can’t be used to firmly determine infectivity, they can be used to indicate changes in viral load excretion patterns associated with emerging variants at a population level, when a common testing platform with an endogenous control is used to normalise target gene against.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

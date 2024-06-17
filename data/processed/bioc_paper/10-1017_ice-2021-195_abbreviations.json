@@ -1,0 +1,53 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1017_ice-2021-195",
+      "inputfile": "../../data/processed/html_papers/10-1017_ice-2021-195.html",
+      "passages": [
+        {
+          "text_short": "RT-PCR",
+          "text_long_1": "reverse-transcriptase polymerase chain reaction",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Ct",
+          "text_long_1": "cycle threshold",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FDA",
+          "text_long_1": "Food and Drug Administration",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "EUA",
+          "text_long_1": "emergency use authorization",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CDC",
+          "text_long_1": "Center for Disease Control",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RCTs",
+          "text_long_1": "randomized control trials",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "NPI",
+          "text_long_1": "nonpharmaceutical interventions",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1038_s41591-021-01318-5",
+      "inputfile": "../../data/processed/html_papers/10-1038_s41591-021-01318-5.html",
+      "passages": [
+        {
+          "text_short": "VSV",
+          "text_long_1": "vesicular stomatis virus",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "mAbs",
+          "text_long_1": "monoclonal antibodies",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "coronavirus disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "M3",
+          "text_long_1": "month 3",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

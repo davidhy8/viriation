@@ -1,0 +1,544 @@
+{
+  "source": "Auto-CORPus (tables)",
+  "date": "20240501",
+  "key": "autocorpus_tables.key",
+  "infons": {},
+  "documents": [
+    {
+      "inputfile": "../../data/processed/html_papers/10-1093_cid_ciaa1474.html",
+      "id": "1_1",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": ""
+        },
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Table 1. Clinical and Biological Variables Before and After Remdesivir and Convalescent Plasma Treatment"
+        },
+        {
+          "offset": 104,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "1_1.1.1",
+              "cell_text": "Variables|Oxygen"
+            },
+            {
+              "cell_id": "1_1.1.2",
+              "cell_text": "Baseline, 12 April|Room air"
+            },
+            {
+              "cell_id": "1_1.1.3",
+              "cell_text": "Remdesivir, d0 27 May|3 L/min"
+            },
+            {
+              "cell_id": "1_1.1.4",
+              "cell_text": "Remdesivir, d5 31 May|1.5 L/min"
+            },
+            {
+              "cell_id": "1_1.1.5",
+              "cell_text": "CP, d0 12 June|1 L/min"
+            },
+            {
+              "cell_id": "1_1.1.6",
+              "cell_text": "CP, d10 22 June|Room air"
+            },
+            {
+              "cell_id": "1_1.1.7",
+              "cell_text": "CP, d16 28 June|Room air"
+            },
+            {
+              "cell_id": "1_1.1.8",
+              "cell_text": "CP, d30 13 July|Room air"
+            },
+            {
+              "cell_id": "1_1.1.9",
+              "cell_text": "CP, d80 1 September|Room air"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1_1.2.1",
+                    "cell_text": "Saturation, %"
+                  },
+                  {
+                    "cell_id": "1_1.2.2",
+                    "cell_text": 93.0
+                  },
+                  {
+                    "cell_id": "1_1.2.3",
+                    "cell_text": 94.0
+                  },
+                  {
+                    "cell_id": "1_1.2.4",
+                    "cell_text": 98.0
+                  },
+                  {
+                    "cell_id": "1_1.2.5",
+                    "cell_text": 94.0
+                  },
+                  {
+                    "cell_id": "1_1.2.6",
+                    "cell_text": 95.0
+                  },
+                  {
+                    "cell_id": "1_1.2.7",
+                    "cell_text": 95.0
+                  },
+                  {
+                    "cell_id": "1_1.2.8",
+                    "cell_text": 96.0
+                  },
+                  {
+                    "cell_id": "1_1.2.9",
+                    "cell_text": 96.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1_1.3.1",
+                    "cell_text": "Temperature max., °C"
+                  },
+                  {
+                    "cell_id": "1_1.3.2",
+                    "cell_text": 385.0
+                  },
+                  {
+                    "cell_id": "1_1.3.3",
+                    "cell_text": 389.0
+                  },
+                  {
+                    "cell_id": "1_1.3.4",
+                    "cell_text": 37.1
+                  },
+                  {
+                    "cell_id": "1_1.3.5",
+                    "cell_text": 388.0
+                  },
+                  {
+                    "cell_id": "1_1.3.6",
+                    "cell_text": 36.5
+                  },
+                  {
+                    "cell_id": "1_1.3.7",
+                    "cell_text": 37.1
+                  },
+                  {
+                    "cell_id": "1_1.3.8",
+                    "cell_text": 36.9
+                  },
+                  {
+                    "cell_id": "1_1.3.9",
+                    "cell_text": 37.8
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1_1.4.1",
+                    "cell_text": "C-reactive protein, mg/L"
+                  },
+                  {
+                    "cell_id": "1_1.4.2",
+                    "cell_text": 14.0
+                  },
+                  {
+                    "cell_id": "1_1.4.3",
+                    "cell_text": 137.0
+                  },
+                  {
+                    "cell_id": "1_1.4.4",
+                    "cell_text": 38.0
+                  },
+                  {
+                    "cell_id": "1_1.4.5",
+                    "cell_text": 77.0
+                  },
+                  {
+                    "cell_id": "1_1.4.6",
+                    "cell_text": 1.0
+                  },
+                  {
+                    "cell_id": "1_1.4.7",
+                    "cell_text": 1.0
+                  },
+                  {
+                    "cell_id": "1_1.4.8",
+                    "cell_text": 1.0
+                  },
+                  {
+                    "cell_id": "1_1.4.9",
+                    "cell_text": 2.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1_1.5.1",
+                    "cell_text": "Platelets, g/L"
+                  },
+                  {
+                    "cell_id": "1_1.5.2",
+                    "cell_text": 92.0
+                  },
+                  {
+                    "cell_id": "1_1.5.3",
+                    "cell_text": 86.0
+                  },
+                  {
+                    "cell_id": "1_1.5.4",
+                    "cell_text": 161.0
+                  },
+                  {
+                    "cell_id": "1_1.5.5",
+                    "cell_text": 88.0
+                  },
+                  {
+                    "cell_id": "1_1.5.6",
+                    "cell_text": 144.0
+                  },
+                  {
+                    "cell_id": "1_1.5.7",
+                    "cell_text": 140.0
+                  },
+                  {
+                    "cell_id": "1_1.5.8",
+                    "cell_text": 167.0
+                  },
+                  {
+                    "cell_id": "1_1.5.9",
+                    "cell_text": 131.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1_1.6.1",
+                    "cell_text": "Leukocytes, g/L"
+                  },
+                  {
+                    "cell_id": "1_1.6.2",
+                    "cell_text": 0.81
+                  },
+                  {
+                    "cell_id": "1_1.6.3",
+                    "cell_text": 3.04
+                  },
+                  {
+                    "cell_id": "1_1.6.4",
+                    "cell_text": 2.44
+                  },
+                  {
+                    "cell_id": "1_1.6.5",
+                    "cell_text": 4.7
+                  },
+                  {
+                    "cell_id": "1_1.6.6",
+                    "cell_text": 3.98
+                  },
+                  {
+                    "cell_id": "1_1.6.7",
+                    "cell_text": 4.5
+                  },
+                  {
+                    "cell_id": "1_1.6.8",
+                    "cell_text": 2.94
+                  },
+                  {
+                    "cell_id": "1_1.6.9",
+                    "cell_text": 3.31
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1_1.7.1",
+                    "cell_text": "Lymphocytes, g/L"
+                  },
+                  {
+                    "cell_id": "1_1.7.2",
+                    "cell_text": 0.1
+                  },
+                  {
+                    "cell_id": "1_1.7.3",
+                    "cell_text": 0.06
+                  },
+                  {
+                    "cell_id": "1_1.7.4",
+                    "cell_text": 0.17
+                  },
+                  {
+                    "cell_id": "1_1.7.5",
+                    "cell_text": 0.13
+                  },
+                  {
+                    "cell_id": "1_1.7.6",
+                    "cell_text": 0.32
+                  },
+                  {
+                    "cell_id": "1_1.7.7",
+                    "cell_text": 34.0
+                  },
+                  {
+                    "cell_id": "1_1.7.8",
+                    "cell_text": 0.28
+                  },
+                  {
+                    "cell_id": "1_1.7.9",
+                    "cell_text": 0.37
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1_1.8.1",
+                    "cell_text": "Date(s) of sampling"
+                  },
+                  {
+                    "cell_id": "1_1.8.2",
+                    "cell_text": "12 April, 24 April, 27 April"
+                  },
+                  {
+                    "cell_id": "1_1.8.3",
+                    "cell_text": "15 May, 27 May"
+                  },
+                  {
+                    "cell_id": "1_1.8.4",
+                    "cell_text": "31 May"
+                  },
+                  {
+                    "cell_id": "1_1.8.5",
+                    "cell_text": "9 June"
+                  },
+                  {
+                    "cell_id": "1_1.8.6",
+                    "cell_text": "16 June"
+                  },
+                  {
+                    "cell_id": "1_1.8.7",
+                    "cell_text": "28 June"
+                  },
+                  {
+                    "cell_id": "1_1.8.8",
+                    "cell_text": "13 July"
+                  },
+                  {
+                    "cell_id": "1_1.8.9",
+                    "cell_text": "1 September"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "inputfile": "../../data/processed/html_papers/10-1093_cid_ciaa1474.html",
+      "id": "1_2",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": ""
+        },
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Table 1. Clinical and Biological Variables Before and After Remdesivir and Convalescent Plasma Treatment"
+        },
+        {
+          "offset": 104,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "1_2.1.1",
+              "cell_text": "Nature of sample|Reverse-transcription polymerase chain reaction result (method)"
+            },
+            {
+              "cell_id": "1_2.1.2",
+              "cell_text": "Nasop/Nasop/ bronchoalveolar lavage|+(Cep)/+(Pas)"
+            },
+            {
+              "cell_id": "1_2.1.3",
+              "cell_text": "Nasop|+(Cep)/+(Pas)"
+            },
+            {
+              "cell_id": "1_2.1.4",
+              "cell_text": "Nasop|+(Cep)"
+            },
+            {
+              "cell_id": "1_2.1.5",
+              "cell_text": "Nasop|+(Pas)"
+            },
+            {
+              "cell_id": "1_2.1.6",
+              "cell_text": "Nasop|+(Pas)"
+            },
+            {
+              "cell_id": "1_2.1.7",
+              "cell_text": "Nasop|+(Pas)"
+            },
+            {
+              "cell_id": "1_2.1.8",
+              "cell_text": "Nasop|-(Pas)"
+            },
+            {
+              "cell_id": "1_2.1.9",
+              "cell_text": "Nasop|-(Pas)"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1_2.2.1",
+                    "cell_text": "Cycle threshold"
+                  },
+                  {
+                    "cell_id": "1_2.2.2",
+                    "cell_text": "NA/23"
+                  },
+                  {
+                    "cell_id": "1_2.2.3",
+                    "cell_text": "NA/21"
+                  },
+                  {
+                    "cell_id": "1_2.2.4",
+                    "cell_text": "NA"
+                  },
+                  {
+                    "cell_id": "1_2.2.5",
+                    "cell_text": 21.0
+                  },
+                  {
+                    "cell_id": "1_2.2.6",
+                    "cell_text": 25.0
+                  },
+                  {
+                    "cell_id": "1_2.2.7",
+                    "cell_text": 28.0
+                  },
+                  {
+                    "cell_id": "1_2.2.8",
+                    "cell_text": "NA"
+                  },
+                  {
+                    "cell_id": "1_2.2.9",
+                    "cell_text": "NA"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1_2.3.1",
+                    "cell_text": "Blood viremia (plasma EDTA)"
+                  },
+                  {
+                    "cell_id": "1_2.3.2",
+                    "cell_text": "NA"
+                  },
+                  {
+                    "cell_id": "1_2.3.3",
+                    "cell_text": "May 27"
+                  },
+                  {
+                    "cell_id": "1_2.3.4",
+                    "cell_text": "NA"
+                  },
+                  {
+                    "cell_id": "1_2.3.5",
+                    "cell_text": "9 June, 12 June"
+                  },
+                  {
+                    "cell_id": "1_2.3.6",
+                    "cell_text": "16 June, 22 June"
+                  },
+                  {
+                    "cell_id": "1_2.3.7",
+                    "cell_text": "22 June"
+                  },
+                  {
+                    "cell_id": "1_2.3.8",
+                    "cell_text": "13 July"
+                  },
+                  {
+                    "cell_id": "1_2.3.9",
+                    "cell_text": "1 September"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1_2.4.1",
+                    "cell_text": "Log copies/mL"
+                  },
+                  {
+                    "cell_id": "1_2.4.2",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1_2.4.3",
+                    "cell_text": 3.88
+                  },
+                  {
+                    "cell_id": "1_2.4.4",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1_2.4.5",
+                    "cell_text": "3.94/3.84"
+                  },
+                  {
+                    "cell_id": "1_2.4.6",
+                    "cell_text": "Not detected"
+                  },
+                  {
+                    "cell_id": "1_2.4.7",
+                    "cell_text": "Not detected"
+                  },
+                  {
+                    "cell_id": "1_2.4.8",
+                    "cell_text": "Not detected"
+                  },
+                  {
+                    "cell_id": "1_2.4.9",
+                    "cell_text": "Not detected"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,841 @@
+{
+  "source": "Auto-CORPus (tables)",
+  "date": "20240501",
+  "key": "autocorpus_tables.key",
+  "infons": {},
+  "documents": [
+    {
+      "inputfile": "../../data/processed/html_papers/10-1093_cid_ciab308.html",
+      "id": "1",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": ""
+        },
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Table 1. Demographic, Comorbidities, and Treatment During the Acute Phase"
+        },
+        {
+          "offset": 73,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "1.1.1",
+              "cell_text": "Characteristic"
+            },
+            {
+              "cell_id": "1.1.2",
+              "cell_text": "Overall (N = 107)"
+            },
+            {
+              "cell_id": "1.1.3",
+              "cell_text": "ICU (n = 35)"
+            },
+            {
+              "cell_id": "1.1.4",
+              "cell_text": "No ICU (n = 72)"
+            },
+            {
+              "cell_id": "1.1.5",
+              "cell_text": "PValue"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.2.1",
+                    "cell_text": "Age, y, mean + SD"
+                  },
+                  {
+                    "cell_id": "1.2.2",
+                    "cell_text": "58,7 + 14.0"
+                  },
+                  {
+                    "cell_id": "1.2.3",
+                    "cell_text": "59,0 + 11,9"
+                  },
+                  {
+                    "cell_id": "1.2.4",
+                    "cell_text": "58,5 + 15,0"
+                  },
+                  {
+                    "cell_id": "1.2.5",
+                    "cell_text": 0.86
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.3.1",
+                    "cell_text": "Female sex"
+                  },
+                  {
+                    "cell_id": "1.3.2",
+                    "cell_text": "34 (31.8)"
+                  },
+                  {
+                    "cell_id": "1.3.3",
+                    "cell_text": "10 (28.6)"
+                  },
+                  {
+                    "cell_id": "1.3.4",
+                    "cell_text": "24 (33.3)"
+                  },
+                  {
+                    "cell_id": "1.3.5",
+                    "cell_text": 0.61
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.4.1",
+                    "cell_text": "BMI, kg/m2, mean + SD"
+                  },
+                  {
+                    "cell_id": "1.4.2",
+                    "cell_text": "27.2 + 4.5"
+                  },
+                  {
+                    "cell_id": "1.4.3",
+                    "cell_text": "27,6 + 4.0"
+                  },
+                  {
+                    "cell_id": "1.4.4",
+                    "cell_text": "27,0 + 4.7"
+                  },
+                  {
+                    "cell_id": "1.4.5",
+                    "cell_text": 0.46
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Medical history",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.5.1",
+                    "cell_text": "Previous heart disease"
+                  },
+                  {
+                    "cell_id": "1.5.2",
+                    "cell_text": "14 (13.1)"
+                  },
+                  {
+                    "cell_id": "1.5.3",
+                    "cell_text": "4 (11.4)"
+                  },
+                  {
+                    "cell_id": "1.5.4",
+                    "cell_text": "10 (13.9)"
+                  },
+                  {
+                    "cell_id": "1.5.5",
+                    "cell_text": 1.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.6.1",
+                    "cell_text": "Hypertension"
+                  },
+                  {
+                    "cell_id": "1.6.2",
+                    "cell_text": "36 (33.6)"
+                  },
+                  {
+                    "cell_id": "1.6.3",
+                    "cell_text": "14 (40.0)"
+                  },
+                  {
+                    "cell_id": "1.6.4",
+                    "cell_text": "22 (30.6)"
+                  },
+                  {
+                    "cell_id": "1.6.5",
+                    "cell_text": 0.33
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.7.1",
+                    "cell_text": "Diabetes"
+                  },
+                  {
+                    "cell_id": "1.7.2",
+                    "cell_text": "17 (15.9)"
+                  },
+                  {
+                    "cell_id": "1.7.3",
+                    "cell_text": "8 (22.9)"
+                  },
+                  {
+                    "cell_id": "1.7.4",
+                    "cell_text": "9 (12.5)"
+                  },
+                  {
+                    "cell_id": "1.7.5",
+                    "cell_text": 0.17
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.8.1",
+                    "cell_text": "Chronic renal disease"
+                  },
+                  {
+                    "cell_id": "1.8.2",
+                    "cell_text": "8 (7.5)"
+                  },
+                  {
+                    "cell_id": "1.8.3",
+                    "cell_text": "2 (5.7)"
+                  },
+                  {
+                    "cell_id": "1.8.4",
+                    "cell_text": "6 (8.3)"
+                  },
+                  {
+                    "cell_id": "1.8.5",
+                    "cell_text": 1.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.9.1",
+                    "cell_text": "Chronic pulmonary disease"
+                  },
+                  {
+                    "cell_id": "1.9.2",
+                    "cell_text": "10 (9.3)"
+                  },
+                  {
+                    "cell_id": "1.9.3",
+                    "cell_text": "2 (5.7)"
+                  },
+                  {
+                    "cell_id": "1.9.4",
+                    "cell_text": "8 (11.1)"
+                  },
+                  {
+                    "cell_id": "1.9.5",
+                    "cell_text": 0.49
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.10.1",
+                    "cell_text": "Asthma"
+                  },
+                  {
+                    "cell_id": "1.10.2",
+                    "cell_text": "12 (11.2)"
+                  },
+                  {
+                    "cell_id": "1.10.3",
+                    "cell_text": "2 (5.7)"
+                  },
+                  {
+                    "cell_id": "1.10.4",
+                    "cell_text": "10 (13.9)"
+                  },
+                  {
+                    "cell_id": "1.10.5",
+                    "cell_text": 0.33
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.11.1",
+                    "cell_text": "Hepatic disease"
+                  },
+                  {
+                    "cell_id": "1.11.2",
+                    "cell_text": "2 (1.9)"
+                  },
+                  {
+                    "cell_id": "1.11.3",
+                    "cell_text": "1 (2.9)"
+                  },
+                  {
+                    "cell_id": "1.11.4",
+                    "cell_text": "1 (1.4)"
+                  },
+                  {
+                    "cell_id": "1.11.5",
+                    "cell_text": 0.55
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.12.1",
+                    "cell_text": "Active cancer"
+                  },
+                  {
+                    "cell_id": "1.12.2",
+                    "cell_text": "4 (3.7)"
+                  },
+                  {
+                    "cell_id": "1.12.3",
+                    "cell_text": "1 (2.9)"
+                  },
+                  {
+                    "cell_id": "1.12.4",
+                    "cell_text": "3 (4.2)"
+                  },
+                  {
+                    "cell_id": "1.12.5",
+                    "cell_text": 1.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.13.1",
+                    "cell_text": "Hematologic disease"
+                  },
+                  {
+                    "cell_id": "1.13.2",
+                    "cell_text": "7 (6.5)"
+                  },
+                  {
+                    "cell_id": "1.13.3",
+                    "cell_text": "2 (5.7)"
+                  },
+                  {
+                    "cell_id": "1.13.4",
+                    "cell_text": "5 (6.9)"
+                  },
+                  {
+                    "cell_id": "1.13.5",
+                    "cell_text": 1.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.14.1",
+                    "cell_text": "HIV"
+                  },
+                  {
+                    "cell_id": "1.14.2",
+                    "cell_text": "2 (1.9)"
+                  },
+                  {
+                    "cell_id": "1.14.3",
+                    "cell_text": "0 (0.0)"
+                  },
+                  {
+                    "cell_id": "1.14.4",
+                    "cell_text": "2 (2.8)"
+                  },
+                  {
+                    "cell_id": "1.14.5",
+                    "cell_text": 1.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.15.1",
+                    "cell_text": "Rheumatic disease"
+                  },
+                  {
+                    "cell_id": "1.15.2",
+                    "cell_text": "5 (4.7)"
+                  },
+                  {
+                    "cell_id": "1.15.3",
+                    "cell_text": "2 (5.7)"
+                  },
+                  {
+                    "cell_id": "1.15.4",
+                    "cell_text": "3 (4.2)"
+                  },
+                  {
+                    "cell_id": "1.15.5",
+                    "cell_text": 0.72
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.16.1",
+                    "cell_text": "Sickle cell disease"
+                  },
+                  {
+                    "cell_id": "1.16.2",
+                    "cell_text": "2 (1.9)"
+                  },
+                  {
+                    "cell_id": "1.16.3",
+                    "cell_text": "0 (0.0)"
+                  },
+                  {
+                    "cell_id": "1.16.4",
+                    "cell_text": "2 (2.8)"
+                  },
+                  {
+                    "cell_id": "1.16.5",
+                    "cell_text": 0.32
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.17.1",
+                    "cell_text": "Immunosuppressive treatment"
+                  },
+                  {
+                    "cell_id": "1.17.2",
+                    "cell_text": "6 (5.6)"
+                  },
+                  {
+                    "cell_id": "1.17.3",
+                    "cell_text": "3 (8.6)"
+                  },
+                  {
+                    "cell_id": "1.17.4",
+                    "cell_text": "3 (4.2)"
+                  },
+                  {
+                    "cell_id": "1.17.5",
+                    "cell_text": 0.39
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "COVID-19 treatment",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.18.1",
+                    "cell_text": "Oxygenation maximal flow, L/min, mean + SD"
+                  },
+                  {
+                    "cell_id": "1.18.2",
+                    "cell_text": "4.9 + 5.0"
+                  },
+                  {
+                    "cell_id": "1.18.3",
+                    "cell_text": "10.8 + 4.3"
+                  },
+                  {
+                    "cell_id": "1.18.4",
+                    "cell_text": "2.0 = 1.6"
+                  },
+                  {
+                    "cell_id": "1.18.5",
+                    "cell_text": "<.0001"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.19.1",
+                    "cell_text": "Invasive mechanical ventilation"
+                  },
+                  {
+                    "cell_id": "1.19.2",
+                    "cell_text": "15 (14.2)"
+                  },
+                  {
+                    "cell_id": "1.19.3",
+                    "cell_text": "15 (42.9)"
+                  },
+                  {
+                    "cell_id": "1.19.4",
+                    "cell_text": "0 (0.0)"
+                  },
+                  {
+                    "cell_id": "1.19.5",
+                    "cell_text": "<.0001"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.20.1",
+                    "cell_text": "Antiviral therapy"
+                  },
+                  {
+                    "cell_id": "1.20.2",
+                    "cell_text": "2 (1.9)"
+                  },
+                  {
+                    "cell_id": "1.20.3",
+                    "cell_text": "2 (5.7)"
+                  },
+                  {
+                    "cell_id": "1.20.4",
+                    "cell_text": "0 (0.0)"
+                  },
+                  {
+                    "cell_id": "1.20.5",
+                    "cell_text": 0.1
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.21.1",
+                    "cell_text": "Anti-IL-6 antibody"
+                  },
+                  {
+                    "cell_id": "1.21.2",
+                    "cell_text": "11 (10.3)"
+                  },
+                  {
+                    "cell_id": "1.21.3",
+                    "cell_text": "10 (28.6)"
+                  },
+                  {
+                    "cell_id": "1.21.4",
+                    "cell_text": "1 (1.4)"
+                  },
+                  {
+                    "cell_id": "1.21.5",
+                    "cell_text": "<.0001"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.22.1",
+                    "cell_text": "Anti-IL-1 antibody"
+                  },
+                  {
+                    "cell_id": "1.22.2",
+                    "cell_text": "1 (0.9)"
+                  },
+                  {
+                    "cell_id": "1.22.3",
+                    "cell_text": "1 (2.9)"
+                  },
+                  {
+                    "cell_id": "1.22.4",
+                    "cell_text": "0 (0.0)"
+                  },
+                  {
+                    "cell_id": "1.22.5",
+                    "cell_text": 0.32
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.23.1",
+                    "cell_text": "Hydroxychloroquine"
+                  },
+                  {
+                    "cell_id": "1.23.2",
+                    "cell_text": "11 (10.3)"
+                  },
+                  {
+                    "cell_id": "1.23.3",
+                    "cell_text": "6 (17.1)"
+                  },
+                  {
+                    "cell_id": "1.23.4",
+                    "cell_text": "5 (6.9)"
+                  },
+                  {
+                    "cell_id": "1.23.5",
+                    "cell_text": 0.1
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.24.1",
+                    "cell_text": "Corticosteroids"
+                  },
+                  {
+                    "cell_id": "1.24.2",
+                    "cell_text": "3 (2.8)"
+                  },
+                  {
+                    "cell_id": "1.24.3",
+                    "cell_text": "3 (8.6)"
+                  },
+                  {
+                    "cell_id": "1.24.4",
+                    "cell_text": "0 (0.0)"
+                  },
+                  {
+                    "cell_id": "1.24.5",
+                    "cell_text": 0.03
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "inputfile": "../../data/processed/html_papers/10-1093_cid_ciab308.html",
+      "id": "2",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": ""
+        },
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Table 2. Multiple Regression Analysis of Variables Associated With Seroneutralization at 6 Months"
+        },
+        {
+          "offset": 97,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "2.1.1",
+              "cell_text": "Variable"
+            },
+            {
+              "cell_id": "2.1.2",
+              "cell_text": "Adjusted Regression Coefficient + SE"
+            },
+            {
+              "cell_id": "2.1.3",
+              "cell_text": "PValue"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.2.1",
+                    "cell_text": "ICU hospitalization"
+                  },
+                  {
+                    "cell_id": "2.2.2",
+                    "cell_text": "0.372 + 0.099"
+                  },
+                  {
+                    "cell_id": "2.2.3",
+                    "cell_text": 0.0003
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.3.1",
+                    "cell_text": "Body mass index"
+                  },
+                  {
+                    "cell_id": "2.3.2",
+                    "cell_text": "0.036 + 0.021"
+                  },
+                  {
+                    "cell_id": "2.3.3",
+                    "cell_text": 0.1
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.4.1",
+                    "cell_text": "Preexisting heart disease"
+                  },
+                  {
+                    "cell_id": "2.4.2",
+                    "cell_text": "0.1064 + 0.1466"
+                  },
+                  {
+                    "cell_id": "2.4.3",
+                    "cell_text": 0.47
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.5.1",
+                    "cell_text": "Hypertension"
+                  },
+                  {
+                    "cell_id": "2.5.2",
+                    "cell_text": "0.1397 + 0.1087"
+                  },
+                  {
+                    "cell_id": "2.5.3",
+                    "cell_text": 0.2
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.6.1",
+                    "cell_text": "Diabetes"
+                  },
+                  {
+                    "cell_id": "2.6.2",
+                    "cell_text": "0.129 + 0.1339"
+                  },
+                  {
+                    "cell_id": "2.6.3",
+                    "cell_text": 0.34
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.7.1",
+                    "cell_text": "Chronic pulmonary disease"
+                  },
+                  {
+                    "cell_id": "2.7.2",
+                    "cell_text": "-0.0259 + 0.1718"
+                  },
+                  {
+                    "cell_id": "2.7.3",
+                    "cell_text": 0.88
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.8.1",
+                    "cell_text": "Immune disorders"
+                  },
+                  {
+                    "cell_id": "2.8.2",
+                    "cell_text": "0.002 94 + 0.1374"
+                  },
+                  {
+                    "cell_id": "2.8.3",
+                    "cell_text": 0.98
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.9.1",
+                    "cell_text": "Invasive mechanical venti- lation"
+                  },
+                  {
+                    "cell_id": "2.9.2",
+                    "cell_text": "0.4155 + 0.1352"
+                  },
+                  {
+                    "cell_id": "2.9.3",
+                    "cell_text": 0.0028
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.10.1",
+                    "cell_text": "Anti-IL-6 antibody"
+                  },
+                  {
+                    "cell_id": "2.10.2",
+                    "cell_text": "0.2215 + 0.1591"
+                  },
+                  {
+                    "cell_id": "2.10.3",
+                    "cell_text": 0.17
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.11.1",
+                    "cell_text": "Corticosteroids"
+                  },
+                  {
+                    "cell_id": "2.11.2",
+                    "cell_text": "0.2538 + 0.2938"
+                  },
+                  {
+                    "cell_id": "2.11.3",
+                    "cell_text": 0.39
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Serology",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.12.1",
+                    "cell_text": "3 mo anti-NP"
+                  },
+                  {
+                    "cell_id": "2.12.2",
+                    "cell_text": "0.3368 + 0.0973"
+                  },
+                  {
+                    "cell_id": "2.12.3",
+                    "cell_text": 0.0008
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.13.1",
+                    "cell_text": "3 mo anti-spike"
+                  },
+                  {
+                    "cell_id": "2.13.2",
+                    "cell_text": "0.4662 + 0.0923"
+                  },
+                  {
+                    "cell_id": "2.13.3",
+                    "cell_text": "<.00001"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.14.1",
+                    "cell_text": "6 mo anti-NP"
+                  },
+                  {
+                    "cell_id": "2.14.2",
+                    "cell_text": "0.35857 + 0.0960"
+                  },
+                  {
+                    "cell_id": "2.14.3",
+                    "cell_text": 0.0003
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.15.1",
+                    "cell_text": "6 mo anti-spike"
+                  },
+                  {
+                    "cell_id": "2.15.2",
+                    "cell_text": "0.6434 + 0.0899"
+                  },
+                  {
+                    "cell_id": "2.15.3",
+                    "cell_text": "<.0001"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

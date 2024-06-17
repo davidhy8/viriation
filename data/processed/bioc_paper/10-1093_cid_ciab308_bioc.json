@@ -1,0 +1,278 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1093_cid_ciab308",
+      "inputfile": "../../data/processed/html_papers/10-1093_cid_ciab308.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Clinical Infectious Diseases",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": " See the Editorial commentary by Pirofski on pages e1345-7.) Background. Humoral response to severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) occurs within the first weeks after coronavirus disease 2019 (COVID-19). Those antibodies exert a neutralizing activity against SARS-CoV-2, whose evolution over time after COVID-19 as well as efficiency against novel variants are poorly characterized. Methods. In this prospective study, sera of 107 patients hospitalized with COVID-19 were collected at 3 and 6 months postinfection. We performed quantitative neutralization experiments on top of high-throughput serological assays evaluating antispike (S) and anti-nucleocapsid (NP) immunoglobulin G (IgG). Results. Levels of seroneutralization and IgG rates against the ancestral strain decreased significantly over time. After 6 months, 2.8% of the patients had a negative serological status for both anti-S and anti-NP IgG. However, all sera had a persistent and effective neutralizing effect against SARS-CoV-2. IgG levels correlated with seroneutralization, and this correlation was stronger for anti-S than for anti-NP antibodies. The level of seroneutralization quantified at 6 months correlated with markers of initial severity, notably admission to intensive care units and the need for mechanical invasive ventilation. In addition, sera collected at 6 months were tested against multiple SARS-CoV-2 variants and showed efficient neutralizing effects against the D614G, B.1.1.7, and P.1 variants but significantly weaker activity against the B.1.351 variant. Conclusions. Decrease in IgG rates and serological assays becoming negative did not imply loss of neutralizing capacity. Our results indicate a sustained humoral response against the ancestral strain and the D614G, B.1.1.7, and P.1 variants for at least 6 months in patients previously hospitalized for COVID-19. A weaker protection was, however, observed for the B.1.351 variant.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1989,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has been shown to induce a humoral immune response with seroconversion occurring in most patients between 7 and 21 days after diagnosis [1, 2] . This early humoral response is mostly composed of immunoglobulin A (IgA), immunoglobulin M (IgM), and immunoglobulin G (IgG) directed against the viral surface glycoprotein spike (S), the nucleocapsid protein (NP), or the spike receptor-binding domain (RBD) [2] . The detection of such antibodies may reflect a neutralizing activity believed to be a key point in viral clearance [3, 4] , as well as conferring a relative protection to the disease in the convalescent phase. Similar to other coronaviruses, anti-SARS-CoV-2 antibodies decline over time [5] , which raised questions about the extent of the protection conferred and the potential risk of reinfection. Furthermore, the recent emergence of multiple SARS-CoV-2 variants raised additional questions on cross-reactivity of the acquired antibodies after coronavirus disease 2019 (COVID-19) [6] . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3048,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Some publications have reported an association between the level of antibodies and the clinical severity, a higher level being observed in patients presenting the most critical form of the disease [4, [7] [8] [9] [10] . However, if there is consistent evidence that outpatients usually develop weaker immune response, there are fewer data relating to patients in intensive care units (ICUs), a valuable population whose described antibody response could set the upper limit of the humoral immunity against SARS-CoV-2. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3566,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "While vaccination is ongoing worldwide, the insufficient supply of doses makes prioritization strategies still needed. Being able to shape levels of immunity required to protect against severe reinfection would considerably assist public health strategies in this regard, in addition to being critical information to estimate if vaccines stand the test of time and emerging variants. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3950,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Our study explores the longitudinal evolution of antibody levels and of sera neutralizing activities in a French monocentric cohort of patients hospitalized for COVID-19 during the first wave of the SARS-CoV-2 pandemic and followed up for 6 months after hospital discharge. In addition to the ancestral viral strain, sera-neutralization activities against the emerging SARS-CoV-2 variants (B.1.1.7, B.1.351, and P.1) were evaluated. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4383,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We conducted a single-center prospective observational study on adult patients with laboratory-positive SARS-CoV-2 real-time reverse-transcription polymerase chain reaction admitted to Hôpital Européen Georges Pompidou (Paris, France) for at least 48 hours. All patients were initially enrolled from 17 March to 29 April 2020 and were then proposed for a clinical and serological follow-up at month 3 (M3) and month 6 (M6) postinfection. The study is part of the French Covid cohort (NCT04262921) sponsored by Inserm and was authorized by the French Ethics Committee CPP Ile-de-France VI (ID RCB:2020-A00256-33). This study was conducted with the understanding and the consent of each participant or their surrogate. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5100,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Demographic, clinical presentation, and comorbidity data during the index COVID-19 hospitalization were extracted from the electronic medical records collected in a standardized data collection form in the clinical data warehouse (CDW) of our hospital. The dedicated medical records were stored on an i2b2 platform in a CDW together with all other hospital health records. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5473,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Abbott SARS-CoV-2 IgG assays (Des Plaines, Illinois) targeting SARS-CoV-2 nucleoprotein were done on an Architect i2000SR analyzer (Abbott), according to the manufacturer's instructions. Index value threshold for positivity was 1.4 as recommended. Beckman Coulter Access SARS-CoV-2 IgG assays (Brea, California) targeting the RBD of the SARS-CoV-2 spike surface protein were done on a UniCel DxI 800 Access Immunoassay System (Beckman Coulter), according to the manufacturer's instructions. Index value threshold for positivity was 1 as recommended. Qualitative results as well as index values were used for analysis for both assays. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6107,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The ancestral non-D614G SARS-CoV-2 strain (BetaCoV/ France/IDF0372/2020) was isolated in France from an imported case from Wuhan by the National Reference Center for Respiratory Viruses (NRC) hosted by Institut Pasteur. The reference D614G strain (hCoV-19/France/ GE1973/2020) was supplied by the NRC. This viral strain was supplied through the European Virus Archive-Global platform. The B.1.1.7 strain originated from an individual in Tours (France) who returned from the United Kingdom [11] . The B.1.351 strain (CNR 202100078) originated from an individual in Créteil (France) [11] . The P.1. strain (TY7-501), first identified in Brazil, was obtained from Global Health security action group Laboratory Network (GISAID sample ID: hCoV-19/Japan/TY7-501/2021; GISAID ID: EPI_ISL_833366). Individuals provided informed consent for the use of their biological materials. The variant strains were isolated from nasal swabs on Vero E6 cells and amplified by 1 or 2 passages. Of note, the sequence of TY7-501 contains a G181V mutation on its S protein compared with the original clinical sample sequence. Titration of viral stocks was performed on Vero E6 cells, with a limiting dilution technique allowing a calculation of the 50% tissue culture infectious dose, or on S-Fuse cells [11] . Viruses were sequenced directly on nasal swabs and after 1 or 2 passages on Vero cells. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7483,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Neutralization was performed using the S-Fuse reporter system, as previously described [11] . In brief, U2OS-ACE2 GFP1-10 or GFP11 cells, which become GFP + upon infection with SARS-CoV-2, were mixed (1:1 ratio) and plated at 8 × 10 3 cells per well in a μClear 96-well plate (Greiner Bio-One). SARS-CoV-2 strains were incubated with sera at the indicated dilutions for 15 minutes at room temperature and added to S-Fuse cells. All sera were heat inactivated for 30 minutes at 56°C before use. After 18 hours of incubation at 37°C 5% carbon dioxide, cells were fixed with 2% paraformaldehyde, washed, and stained with Hoechst (1:1000 dilution; Invitrogen). Images were acquired on an Opera Phenix high-content confocal microscope (PerkinElmer). The GFP area, the number of syncytia, and nuclei were quantified using Harmony software (PerkinElmer). The percentage of neutralization was calculated using the number of syncytia with the following formula: 100 × 1 − (value with serum − value in \"noninfected\") / (value in \"no serum\" − value in \"noninfected\"). Neutralizing activity of each sera was expressed as the ID 50 , calculated using the percentage of neutralization at each different concentration. Cells were tested negative for Mycoplasma. Neutralization determined with the S-Fuse reporter system correlates to pseudovirus neutralization assay [12] . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8842,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Statistics were performed using NCSS 2012 software (G Hintze, Kaysville, Utah). All numerical data were checked for normality and nonnormal distributions were transformed (using ExpNorScore function on NCSS, which returns the expected value of the normal order statistic corresponding to X). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9134,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Continuous variables are reported as mean (standard deviations). Discrete variables are described as counts and percentages. Groups were compared using 2-sample t test or Wilcoxon rank test when necessary for continuous variables and Fisher exact test or χ 2 for discrete variables. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9417,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We also performed a multiple regression analysis to assess variables correlated to the seroneutralization at M6. For analyses, P values < .05 were considered significant. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9588,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "April 2020, 354 patients were hospitalized at Hôpital Européen Georges Pompidou with a confirmed SARS-CoV-2-positive pneumonia. By 16 November 2020, 85 deaths (24.0%) had occurred during or after hospitalization. From 17 June to 16 November 2020, we were able to manage a complete follow-up for 107 of these patients with 2 time-point visits at 3 and 6 months after hospital discharge ( Supplementary Figure 1) . The M3 and M6 visits were performed with a median interval of 98 days (interquartile range [IQR], 91-101 days) and 203 days (IQR, 191-216 days), respectively. Among those patients with a complete follow-up, 32.7% (35/107) had required medical care in the ICU during the acute COVID-19 phase; 15 of them (15/35 [42.9%]) required invasive mechanical ventilation (MV). The oxygenation maximal flow in patients in non-ICU, in patients not requiring MV in the ICU, and in patients before MV in ICU was 2.0 ± 1.6, 10.7 ± 5.2, and 13.0 ± 3.6 L/minute, respectively (P < .0001). A majority of patients were male (73/107 [68.2%]) with a mean age of 58.7 ± 14.0 years. A history of cardiovascular risk factors (chronic cardiac disease, diabetes, obesity, hypertension, chronic kidney disease) was found in 51.4% (55/107), and 10.2% (11/107) had immunosuppressive diseases (cirrhosis, asplenia, sickle cell anemia, solid organ or stem cell transplantation, human immunodeficiency virus infection, primary immunodeficiency, chronic hematological disease, malignant neoplasm, autoimmune disorder). Moreover, 5.6% (6/107) of them were previously treated with immunosuppressive therapy. All patients' characteristics are listed in Table 1 .  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11228,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We then aimed to assess if a persistent serum neutralizing activity was detected up to 6 months following COVID-19 infection, independent of anti-S or anti-NP levels. To do so, we used S-Fuse cells (specifically designed to become GFP + when productively infected by SARS-CoV-2) to evaluate our patients' sera propensity to prevent such infection. At minimum dilution (1/30), seroneutralization was observed in all samples at M3 and M6, even when anti-S and anti-NP IgG were considered as negative regarding the commercial kit threshold. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11766,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We next quantified seroneutralization by performing serial dilutions in order to define the ID 50 neutralization (maximum dilution to maintain a 50% neutralization capacity). ID 50 neutralization significantly decreased between M3 and M6 ( Figure   2 ), with residual values nevertheless indicating a high neutralizing activity at M6. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12101,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "As all measures were highly variable between patients, we then sought factors associated with higher levels of neutralizing activities. In a multiple regression analysis, we found that initial management in ICU and the need for an invasive MV were the only 2 factors significantly associated with a higher rate of ID 50 neutralization at M6 (Table 2) . When considering ID 50 neutralization according to ICU hospitalization and the need for MV, we found that patients in ICU had significantly higher neutralizing activities as compared to non-ICU patients, with the highest levels observed in ICU patients who had invasive MV ( Figure 3A) . A similar trend was observed at M3, however not reaching significance ( Figure 3A) . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12827,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We then observed that anti-S IgG modestly correlated with sera ID 50 neutralization (R = 0.54 [95% confidence interval {CI}, .39-.67]; P < .0001), with a weaker association for anti-NP IgG (R = 0.33 [95% CI, .25-.49]; P .0007). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13055,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We then analyzed anti-S and anti-NP IgG levels at M3 and M6 according to the initial management in ICU and the need for invasive MV. We found higher levels of anti-NP IgG in mechanically ventilated patients in ICU vs non-mechanically ventilated patients admitted to ICU vs patients in non-ICU medical departments at M3 (7.6 ± 1.8 vs 7.2 ± 2.2 vs 6.2 ± 2.3, P = .03 by Kruskal-Wallis test; Figure 3B ), with a significantly higher rate in ICU patients vs non-ICU patients (7.4 ± 2.0 vs 6.2 ± 2.3, P = .01). We confirmed this result at M6 (5.6 ± 1.8. vs 4.4 ± 2.0 vs 3.3 ± 2.4, P = .0005 by Kruskal-Wallis test; Figure 3B ), with a significantly higher rate in ICU patients vs no ICU patients (4.9 ± 2.0 vs 3.3 ± 2.4, P = .001). In contrast, this pattern was not observed with the anti-S antibodies as there were no significant differences between the ICU vs the non-ICU groups at M3 and at M6 ( Figure 3C ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13962,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "We then used sera collected at 6 months following COVID-19 infection to assess their neutralizing activities against multiple variants, including D614G, B.1.1.7, B.1.351, and P.1 variants. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14151,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "At minimum dilution (1/30), seroneutralization was observed in all samples against the D614G and B.1.1.7 variants. We then quantified seroneutralization by performing serial dilutions to define the ID 50 neutralization for the 4 strains. The D614G, B.1.1.7, and P.1 strains were similarly sensitive to the sera with a high neutralizing activity observed for these 3 variants. In contrast, the neutralization titers against B.1.351 were significantly lower with a 3-fold decrease in ID 50 between the D614G and B.1.351 strains (P < .0001; Figure 4A ). ID 50 for the B.1.351 variant was also significantly lower as compared to that for the B.1.1.7 and P.1 variants ( Figure 4B ). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14829,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In the present study, we described the longitudinal evolution of IgG levels and seroneutralization at 3 and 6 months postinfection in a relatively large prospective cohort of 107 hospitalized patients-with a third of severe cases tending to be scarce in literature-and thus provides important data about the evolution of humoral immunity after a hospitalization for COVID-19 infection. We found that at least 1 serology assay was still positive at 6 months in 97.2% of the studied patients. Although antibody levels decreased significantly over time, with rates dropping under the positivity threshold in a few cases, all patients' sera conserved an effective neutralizing activity at 6 months postinfection against the ancestral strain. Seroneutralization remained higher at 3 and 6 months in patients who had required intensive care. We also used our sera collection to estimate the levels of humoral protection against the emerging SARS-CoV-2 variants. In these additional in vitro experiments, we found that sera-neutralizing activities was also effective against the B.1.1.7 and P.1 variants (also known as the Figure 2 . Temporal evolution of neutralizing activity A, Sera collected 3 (blue) and 6 (red) months (M3 and M6, respectively) posthospitalization were tested with serial dilutions for their ability to neutralize severe acute respiratory syndrome coronavirus 2. Shown is the mean activity at each serum dilution with the 95% confidence interval. B, The inhibitory dose of 50% (ID 50 ) neutralization is depicted at M3 and M6 after hospitalization. Statistical analysis: Wilcoxon tests were performed. ****P < .0001. The red line represents the median for each time-point. UK and Brazilian variants), but was potentially weaker for the B.1.351 strain (also known as South African variant). Higher ID 50 against the ancestral strain were observed in patients with more severe presentations, even at distance of infection. This correlation between seroneutralization and clinical severity has been previously described [7, 10, 13, 14] , and our results now indicate that this trend might persist over time. Interestingly, we found that anti-NP IgG titers were higher according to the stage of severity, which was not observed for anti-S IgG. Early after symptom onset, anti-NP response had already been reported as a possible marker of severity, associated to delayed viral clearance and disease severity [8] . Whether this exacerbated humoral response in severe patients is a protective adaptation to a more intense viral load or if it plays a putative role in pathogenicity remains subject to debate [15, 16] . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17455,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Downloaded from https://academic.oup.com/cid/article/73/6/e1337/6225251 by University of Calgary user on 29 April 2024 e1338 • cid 2021:73 (15 September) • Betton et al ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17624,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Downloaded from https://academic.oup.com/cid/article/73/6/e1337/6225251 by University of Calgary user on 29 April 2024 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17743,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Downloaded from https://academic.oup.com/cid/article/73/6/e1337/6225251 by University of Calgary user on 29 April 2024 e1342 • cid 2021:73 (15 September) • Betton et al ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

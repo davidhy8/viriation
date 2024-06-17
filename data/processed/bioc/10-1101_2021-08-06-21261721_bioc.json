@@ -1,0 +1,568 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-08-06-21261721",
+      "inputfile": "../../data/processed/html/10-1101_2021-08-06-21261721.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Neutralizing antibody responses to SARS-CoV-2 variants in vaccinated Ontario long-term care home residents and workers",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 118,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The first waves of the coronavirus disease 2019 (COVID-19) pandemic disproportionately affected older adults, particularly in long-term care homes (LTCH) worldwide. In Canada, LTCH residents accounted for up to 85% of COVID-19 deaths in the first year of the pandemic [1]. Prioritized vaccination has drastically decreased LTCH outbreaks and associated mortality [2]. In Ontario, vaccination began mid-December 2020, with hospital-based healthcare workers and LTCH staff among the first to receive the BNT162b2 (Pfizer-BioNTech) vaccine. LTCH residents in Ontario primarily received the mRNA-1273 (Moderna) vaccine, which was initially thought to be easier to transport to LTCH settings [2]; however, some LTCHs used BNT162b2 to vaccinate both staff and residents. Despite the overwhelming success of vaccination (combined with other public health measures) in decreasing mortality and infection in these settings, LTCH outbreaks have recently re-emerged, resulting in severe disease and death in some residents. Outbreaks with more severe disease have been associated with immune-escape variants, such as P.1 (Gamma)[3-7].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1253,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Several recent reports (primarily using the BNT162b2 vaccine) have described weaker humoral responses (in several cases including neutralizing antibody titers) in LTCH residents than in control groups, after both one and two vaccine doses [8, 9], with a particularly poor humoral response after the first dose in individuals not previously infected with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Other studies have demonstrated strong age-related declines in seroconversion after the first dose of BNT162b2 [9-11]. This weaker and less durable response likely contributes to the reduced vaccine effectiveness in LTCH residents and health care workers reported in some studies [12], and to recent LTCH outbreaks as well. Notably, in both transplant recipients [13, 14] and healthy individuals [15], the mRNA-1273 vaccine induced a stronger humoral response than BNT162b2; however, whether these differences exist between the mRNA vaccines used in LTCH settings (BNT162b2 vs mRNA-1273) remains unknown. The kinetics of antibody production and decline, and crucially, the ability of these antibodies to neutralize variants of concern (VOCs) effectively, also remain unreported in this population with known vulnerabilities.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2493,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "While the best correlates for immune protection are yet to be determined, a recent study attempting to reconcile all clinical trials by normalizing neutralization titers across them revealed a clear correlation between this value and vaccine effectiveness [16]. This suggests that neutralization is a good proxy for overall vaccine effectiveness, as previously demonstrated for influenza [17]. While complete vaccination in healthy individuals still induces cross-neutralization of all currently circulating VOCs, effective VOC neutralization titers are often reduced several-fold [18-20]. This is also consistent with reports that breakthrough infections and LTCH outbreaks are enriched for immune-escape variants such as B.1.351 (Beta) [21] [4]. It is noteworthy that in one outbreak investigation, neutralization titers in individuals that became infected were lower than those in non-infected individuals [4]. The factors mediating immune escape, including biological factors (i.e., immune response variations between individuals) and mutations in the variants themselves, remain unknown; however, recent studies have begun to address these questions (e.g., [22]).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3661,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Previously, we developed ELISAs to detect IgG, IgA, and IgM levels against the SARS-CoV-2 spike trimer, spike receptor binding domain (RBD), and nucleocapsid protein (NP), which we used to monitor the humoral responses of individuals in the first 4 months post-infection [23]. A spike-pseudotyped lentiviral assay [24] was also optimized and used to monitor neutralization in cohorts of plasma donors in parallel to plaque reduction neutralization titer (PRNT) assays and a surrogate neutralization ELISA [25]. This assay has since been modified to include spike sequences from the B.1.1.7 (Alpha), B.1.351, and P.1 VOCs [26].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4287,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Here, we evaluate humoral responses to vaccination in cohorts of LTCH residents after one or two doses of mRNA-1273 or BNT162b2. We also compare the responses in LTCH residents and staff at 2–4 weeks post-dose 2, examining both anti-spike and anti-RBD IgGs, and neutralizing antibodies to wild-type spike as well as the B.1.1.7, B.1.351, and P.1 variants. The results reveal deficiencies in the humoral immune responses of LTCH residents that may leave them vulnerable to infection due to VOCs.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4781,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We enrolled 198 residents of 4 long term care homes in south-central Ontario; residents in three of these homes received mRNA-1273 and those in the fourth received BNT162b2 (Table 1). All vaccines were delivered on manufacturer’s recommended schedules in January and February of 2021.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5072,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We obtained samples (dried blood spot (DBS) or serum; see the Methods and figure legends for details) from participating residents prior to or up to 4 days after first dose of vaccine (baseline), immediately prior to their second dose of the same vaccine (post-dose 1) and 2–4 weeks after a second dose of the same vaccine (Figure 1A). Samples were analyzed by automated ELISA and all values are reported in relation to a synthetic standard that enables assay calibration (see the Methods for details).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5574,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Overall, 25 residents had previous (q)PCR-confirmed SARS-CoV-2 infections and an additional 8 residents who scored positive in two or more of the ELISA assays (against the spike trimer, spike RBD, and NP), were considered to have evidence of prior infection (Table 2).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5842,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Among those without evidence of previous infection, the first dose elicited seroconversion for both spike and RBD IgGs in 66.4% (95/143) of LTCH residents, and seroconversion for either IgG in 79.7% (114/143; Figure 1A, B; Supplemental Table 1). In 11.9% (17/143) of residents, anti-spike IgG levels were greater than the median levels seen in a group of convalescent patients who recovered from COVID-19, and 7.7% (11/143) of residents had higher levels of anti-RBD antibodies. At 2–4 weeks post-dose two, 92.2% (106/130) of residents had seroconverted for both spike and its RBD (97.4% spike; 92.2% RBD). The relative ratio was greater than the medians of the convalescents, at 91.3% for spike IgG (105/115) and 80.0% for RBD IgG (92/115), respectively. At both points, there was a wide range of response to vaccination. The same overall trends were detected in previously infected residents, with both doses eliciting higher levels of spike and RBD antibodies (Figure 1A, B).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6820,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "As expected, since the vaccines do not contain NP sequences, levels of anti-NP antibodies did not increase across the timepoints regardless of previous infection, and there was a relative decrease signal at later time points in the cohort with evidence of previous infection that may be related to waning antibodies (Figure 1C). In summary, the vaccines elicit stronger anti-spike and anti-RBD IgG responses in older individuals 2–4 weeks post-dose 2 than after the first dose.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7297,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The variability in responses in residents that were not previously infected—particularly to dose 1— prompted us to explore the reasons underlying it.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7446,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "In bivariable analyses of factors associated with spike and RBD responses at after dose 1 of vaccine in residents who had not previously had PCR-confirmed COVID-19, younger age, lower Charlson score, absence of immunosuppression and chronic renal disease, BMI <35 kg/m2, and type of vaccine (mRNA-1273 vs. BNT162b2) were associated with stronger responses to the first dose of vaccine. Trends were similar for response after the second dose of vaccine, although the associations with BMI, age and Charlson index were no longer significant. In multivariable analysis, type of vaccine, age, BMI, immunosuppression and sex were associates with spike and RBD response to dose one, but only type of vaccine and immunosuppression remained significantly associated with the response to dose 2 (Table 2).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8242,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "This difference in response by vaccine type was consistent across responses to both spike and its RBD, and was particularly notable after dose 1, though it remained statistically significant at 2–4 post-dose 2 (Figure 2A, B). The differences were noted both when the assay was performed in a mode optimized for seropositivity detection and after 4-fold dilution of the samples to better capture differential vaccine responses (Supplemental Figure 1A, B).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8696,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To determine whether the vaccine type effect was also present in a younger (and presumably healthier) population, we obtained serum from LTCH staff, caregivers, and hospital-based healthcare workers after two doses of mRNA vaccine (n = 113; median age = 47). This population had higher humoral spike and RBD responses to both vaccines than the residents (n = 116; median age = 89); however, mRNA-1273 still yielded a stronger response than BNT162b2 (Figure 2C, D). Signal saturation was detected at both sample dilutions tested (Supplemental Figure 1C, D), further emphasizing the expected stronger humoral response in this group.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9326,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Using a previously optimized [25] neutralization system from ref. [24] and a cohort of staff and resident samples taken 2–4 weeks post-dose 2, we monitored the neutralization of a wild-type spike-pseudotyped lentivirus (see Supplemental Figure 2 for example response curves). In both the staff and resident cohorts, the mRNA-1273 vaccine led to higher neutralization titers (2.95-fold and 3.90-fold higher than the BNT162b2 vaccine, respectively). Additionally, staff titers were higher than resident titers with both the mRNA-1273 (4.79-fold) and BNT162b2 (6.31-fold) vaccines (Figure 3A, Supplemental Figure 2). In multivariable analysis, older age and immunosuppression were associated with lower neutralization titers (Table 2), but did not interact with or modify the effect of vaccine type.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10122,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The lentiviral neutralization results were highly correlated (ρ = 0.9, p < 0.001) with those of a PRNT90 assay performed with wild-type SARS-CoV-2 on the same LTCH resident samples (Figure 3B). The mRNA-1273 vaccine induced higher neutralization titers than BNT162b2, and its median PRNT90 titer was higher (1:80) than that of BNT162b2 (1:20) (Figure 3C). More residents exhibited ≥1:640 PRNT50 titers with mRNA-1273 compared to BNT162b2; however, the median values were the same (1:160) (Figure 3D). In PRNT50 and PRNT90 neutralization assays, older age and immunosuppression were again associated with reduced responses to vaccination (data not shown). Notably, 3 of 14 residents with no detectable titers in the PRNT50 assay (including the one non-responder who received the mRNA-1273 vaccine) were immunosuppressed (P=0.01 compared to 2 of 112 other residents tested). Similarly, 4 of 33 without detectable PRNT90 titers were immunosuppressed (P=0.02 compared to 1 of 94 responders; the only immunosuppressed resident with detectable PRNT90 titers had previous had PCR-confirmed COVID-19).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11215,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We next used the same sera to test lentiviral virus-like particles (VLPs) derived from the B.1.1.7, B.1.351, and P.1 VOCs [26]. Residents who received BNT162b2 had fold-change reductions in neutralization of 1.67 (B.1.1.7), 2.88 (P.1), and 7.99 (B.1.351) compared to against VLPs derived from the wild-type strain, consistent with what has been previously reported [27, 28] (Figure 4; Supplemental Figures 2-4). Likewise, staff who received BNT162b2 showed a similar trend in neutralization reduction (1.88-, 2.55-, and 4.80-fold for B.1.1.7, P.1, and B.1.351, respectively). Similar changes were observed for staff and residents vaccinated with mRNA-1273 (residents = 1.32, 2.17, and 5.28-fold for B.1.1.7, P.1, and B.1.351, respectively; staff = 2.35, 3.30, and 6.02).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11985,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Notably, multiple residents displayed no detectable neutralization. This was observed across all VLPs and in both vaccine cohorts, but was particularly pronounced with the B.1.351 and P.1 VOCs in the BNT162b2 cohort. In this cohort, 37.9% of the individuals (n = 22/58) were unable to neutralize B.1.351, compared to 11.5% (n = 7/61) of the mRNA-1273 cohort. Only 4.55 % (n = 2/44) of the staff BNT162b2 group did not respond, and the entire staff cohort receiving the mRNA-1273 vaccine displayed neutralizing responses to B.1.351. Similarly, 29.3% of residents who received the BNT162b2 vaccine had no response to P.1, compared to the 4.9% of residents administered the mRNA-1273 vaccine who did not elicit a response. All staff who received either vaccine showed detectable neutralization to P.1 except for one participant who received the BNT162b2 vaccine.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12844,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "In summary, consistent with the differences in total antibodies induced by the mRNA-1273 and BNT162b2 vaccines in fully vaccinated residents and staff members, the mRNA-1273 vaccine induced stronger neutralization of all VOCs studied. In agreement with the literature, the wild-type strain was more readily neutralized than B.1.1.7, P.1, and B.1.351, and a large number of BNT162b2-vaccinated residents were unable to detectably neutralize P.1 and B.1.351.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13300,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Participants with lower neutralization titers against the wild-type strain tended to also have lower—and in some instances no—neutralization of VOCs (Figure 4, connecting lines). Consistent with this, there were strong correlations (based on Spearman rho coefficients) between the wild-type strain and the VOCs, as well as between different VOCs (Figure 5, all ρ ≥ 0.89, p < 0.001). This high correlation enabled us to define thresholds for the detectable neutralization of a given VOC, if the neutralization ability against a different strain was known. For example, looking at the neutralization of the most immune evasive B.1.351 VLP, we determined a minimum ID50 level with each of the other VLPs that would be indicative of any B.1.351 neutralization (Figure 5, bottom row). This largely corresponded to the relative evasion of the different VLPs, with log10ID50 thresholds of 2.96 (ID50 = 906), 2.76 (ID50 = 582), and 2.57 (ID50 = 369) for wild-type, B.1.1.7, and P.1, respectively. Above these thresholds, at least some neutralization activity was detected for B.1.351, which largely correlated with the titers for neutralization of the other VOC-typed VLPs. This indicates that if the neutralization titer of only one lentivirus is known and passes a minimum level, the neutralization of other VOCs can be inferred reasonably well.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14639,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We next investigated whether anti-spike and/or anti-RBD IgG levels could also be used to infer neutralization potential against VOCs, since it is generally much easier to measure these values on a large scale [23]. Spearman’s correlation coefficients indicated strong correlations between VLP neutralization and anti-RBD/spike IgG levels (Figure 6), as well as between overall anti-spike and anti-RBD levels (Supplemental Figure 5). With the wild-type- and B.1.1.7-typed particles, participants who were seropositive for anti-spike or anti-RBD antibodies generally showed neutralizing capabilities with the VLP assay that correlated well with their relative IgG levels. However, the seropositivity threshold was less predictive when looking at neutralization titers for the B.1.351 and P.1 variants. Notably, there was a subgroup of participants whose anti-IgG and anti-RBD levels were well above the threshold for seropositivity (and even the median of convalescents for some) yet could not neutralize VOC-typed VLPs. Thus, accurate prediction of VOC neutralization requires a better definition of the thresholds for each VOC. We assessed threshold values for anti-RBD and anti-spike IgG levels by calculating receiver operator characteristic (ROC) curves for each antigen across the VOCs (Supplemental Figure 6). On each ROC curve, we determined the optimal cutoff by calculating the top-left most point of each curve. For the wild-type and B.1.1.7 strains, the RBD and spike had comparable areas under the curve (AUCs) and similar specificities and sensitivities (Supplemental Table 1). For spike, a threshold of 0.91 yielded a specificity of 1.00 and sensitivity of 0.92 for the wild-type strain with near identical parameters with B.1.1.7, and this threshold was much higher than the seropositivity threshold of 0.19. Optimal thresholds for P.1 and B.1.351 were further increased to 1.37 and 1.47, respectively, and both specificities and sensitivities were reduced compared to the wild-type strain. Notably, these thresholds are similar to the median level of 1.38 in a cohort of convalescent patients. Similarly, the anti-RBD thresholds increased with each VOC. A threshold level of 0.14 was optimal to classify neutralization of the wild-type strain, which was below the threshold of 0.18 required for seropositivity. However, this threshold increased to 1.01 with B.1.351 (which is still below the threshold of 1.25 in convalescent patients).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17090,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "In summary, despite the high correlation between the VOC neutralization responses and IgG levels, it was difficult to use a single metric to predict whether a participant might be able to neutralize a VOC. However, the increasingly higher thresholds derived from the precision-recall curves suggest that higher levels of anti-spike and anti-RBD antibodies are required for protection against VOCs.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17487,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "This work joins other studies [8-11] (often with smaller cohorts) in demonstrating that frail older adults do not mount as strong an immune response to COVID-19 vaccines as younger and healthier individuals. Our study also corroborates findings in other cohorts that mRNA-1273 elicits a stronger humoral response (in terms of total and neutralizing antibodies) than BNT162b2. In the LTCH resident cohort, vaccination with mRNA-1273 yielded fewer individuals that failed to mount a detectable neutralization response. The reasons for the difference in the humoral responses of the vaccines have not been explored in depth here. One possibility is that the mRNA dose may influence the strength of the humoral immune response to spike – 100 µg of mRNA is administered with the mRNA-1273 vaccine which is 3.3-fold higher than the BNT162b2 vaccine.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18340,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The differences between the two vaccines were even more evident when the neutralization of VOCs was considered (rather than that of the wild-type strain, against which the vaccines were designed). For example, 37.9% of BNT162b2-vaccinated LTCH residents displayed no detectable neutralization of the B.1.351 strain, compared to 11.5% for those who received mRNA-1273. This is a sobering finding in light of the remarkable efficiency in these two vaccines in building high neutralization titers in clinical trials compared to other vaccines used around the world [16].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18907,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Despite the high correlation between neutralization and vaccine efficacy, neutralizing antibodies represent only one facet of the immune response to vaccination [29]. In healthy individuals, the first dose of vaccine does induce good protection against severe disease (although weaker than the two-dose regimen) and symptomatic infection associated with different variants [30, 31], despite lower neutralization levels than elicited by the full 2-doses. Binding (non-neutralizing) antibodies can promote Fc-mediated effector functions that contribute to vaccine efficacy, and these are likely to be less affected by VOCs, as are T cell-mediated responses [27]. While we have not directly examined the T cell response or Fc-receptor functions here, binding antibodies were monitored, which also suggested weaker responses in BNT162b2 recipients than in mRNA-1273 recipients at all time points, and a clear difference in the responses of LTCH residents and staff 2–4 weeks after dose 2.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19891,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "There are some other limitations to this study: we have only analyzed the response to COVID-19 the mRNA vaccines, with both doses administered on the schedule recommended by the vaccine manufacturers. It is noteworthy that in Ontario, LTCH residents were prioritized for vaccination with mRNA vaccines administered according to the product monograph. However, LTCH residents in some other provinces of Canada, as well as many older adults and individuals with immune system deficiencies have been vaccinated across the country with two doses of mRNA vaccines spaced further apart in order to accommodate vaccine supply issues. Another segment of the population has been vaccinated with the ChAdOx1-S vaccine (from AstraZeneca or COVISHIELD), which yields lower neutralizing antibodies [16]. Importantly, heterologous dose regimens (particularly for those who received ChAdOx1-S vaccine as a first dose) have been widely used in Canada, but their effect on the humoral response in older adults is still not known. Furthermore, we have only looked at the response 2–4 weeks after dose 2, and it will be critical to profile the decline in antibody production in this priority population. Lastly, it is possible that as the virus continues to evolve, new variants may further evade or overwhelm the blunted humoral response generated by vaccination in these older and frail adults.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21268,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "In conclusion, our results raise further concern that even the most effective current vaccines provide only partial protection to individuals with known vulnerabilities in the face of a pandemic now largely driven by VOCs.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21490,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "We suggest that longitudinal monitoring of the antibody response as well as other components of the immune response to SARS-CoV-2 be performed, and that vaccination strategies for individuals with known vulnerabilities should consider which vaccine and at what dose and frequency is administered for optimal immunity in priority populations.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21831,
+          "infons": {
+            "section_title_1": "Methods",
+            "section_title_2": "Sample collection",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Residents, their essential caregivers, and staff at four LTCHs located in south-central Ontario who intended to get a COVID-19 vaccine were eligible to participate in the study. Study staff approached LTCH administrators in the greater Toronto area to identify interest. Interested administrators were asked to notify residents, their substitute decision makers, and staff about the study, and to offer them the choice of being contacted by study staff or opting out of all study contact. The administrator shared contact information for those who did not opt out with study staff. The study team then contacted staff and residents/substitute decision makers for consent to participate. Participants were asked to consent to blood draws via venipuncture and/or dried blood spots via fingerprick. Participants could decline any individual blood draw at the time of sampling; specimens were also not obtained from residents who were hospitalized for any reason at the time of sampling. Baseline demographic, clinical, and vaccine data, including information on SARS-CoV-2 infection prior to the study, were obtained from participants either through telephone interview (staff, caregivers) or chart review (residents). During study visits and follow up calls, study participants’ SARS-CoV-2 infection status was continuously ascertained via chart review and/or reports from LTCH staff and caregivers.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23252,
+          "infons": {
+            "section_title_1": "Methods",
+            "section_title_2": "Sample collection",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "For baseline samples and samples collected 3–4 weeks post-dose 1 (and for the samples post dose 2 in participants who declined venipuncture or from whom venipuncture could not be obtained), DBS samples were collected on Whatman 903 Protein Saver cards (GE Healthcare, Boston, MA, USA). For participants who agreed to venipuncture, a 10 ml serum sample was obtained 14–28 days post-dose 2 (in rare cases of scheduling conflicts, samples are accepted up to 42 days post-dose 2). Samples were aliquoted and frozen at -80°C.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23772,
+          "infons": {
+            "section_title_1": "Methods",
+            "section_title_2": "Sample collection",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Please note that the BNT162b2 post-dose 2 staff ELISA data were also reported in [32, 33].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23862,
+          "infons": {
+            "section_title_1": "Methods",
+            "section_title_2": "Test sample preparation",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "We previously reported the development of ELISA-based assays in 384-well chemiluminescent format to assess the persistence of antibody responses in infected individuals [23]. We have since modified the assays to use a more stable source of antigens and IgG calibration and detection reagents, all generated at the National Research Council of Canada (Colwill et al., in preparation). The reformulated assays were validated as in ref. [23] by ROC curve analysis using both pre-COVID era negative controls and sera/plasma from qPCR-confirmed convalescents, and the cutoffs for seropositivity for individual assays were defined as those that pass both a 1% false positive rate (FPR) threshold and exhibit ≥3 standard deviations (SDs) from the log means of the negative controls (relative ratio to the synthetic standard; see below) performed over 4 months on the same system. Because serum/plasma and DBS samples have different background luminescence interference, their thresholds needed to be calculated separately, and are indicated in the figures (for DBS samples, this value was first corrected as detailed below). For DBS samples, we used a 1% FPR threshold determined by duplicate ROC analysis of 90 negative and 97 positive DBS samples (a generous gift of the National Microbiology Laboratory of Canada). The median of the convalescent sera/plasma samples (Colwill et al., in preparation) is indicated in the figures as a reference point.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25329,
+          "infons": {
+            "section_title_1": "Methods",
+            "section_title_2": "Test sample preparation",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "DBS samples were punched (2 × 3mm) using a BSD600 Ascent semi-automated puncher (BSD Robotics, Brisbane, QLD, Australia) and antibodies were eluted in PBS plus 0.1% Tween-20 (PBST) supplemented with 1% Triton X-100 for a minimum of 4 hours with shaking at 150 rpm. Eluates were centrifuged at 1,000 × g for 30 seconds, then diluted 1:4 in 1.3% Blocker BLOTTO (Thermo Fisher Scientific, Waltham, MA, USA) to a final concentration of 1% Blocker BLOTTO in PBST. Samples submitted as frozen serum or plasma were treated with Triton X-100 to a final concentration of 1% for 1 hour prior to use.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25918,
+          "infons": {
+            "section_title_1": "Methods",
+            "section_title_2": "Standard curves",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "We used recombinant antibodies able to detect both spike and its RBD (IgG: VHH72hFc1X7; National Research Council of Canada). For NP, we used human anti-nucleocapsid IgG (#A02039, clone HC2003, GenScript, Piscataway, NJ, USA). In all cases, a 8-point 4-fold dilution series was added to each plate (see below for volumes and dilution buffers).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26276,
+          "infons": {
+            "section_title_1": "Methods",
+            "section_title_2": "Positive and negative controls",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "In addition to the standard curves listed above, a negative control containing purified IgG from human serum (final concentration 1 µg/mL; #I4506, Millipore-Sigma, Oakville, ON, Canada) and pools of positive (from convalescent patients with high IgG levels to all three antigens) and negative sera (from 3–4 patients) were added to each plate as 2-point 4-fold dilutions for quality control and to enable cross-plate comparisons.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26735,
+          "infons": {
+            "section_title_1": "Methods",
+            "section_title_2": "Positive and negative controls",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "All washes were performed 4 times in 100 μL PBST, using liquid dispensers (Biomek NXP Automated Liquid Handling Workstation, Beckman Coulter, Indianapolis, IN, USA; Multidrop Combi Reagent Dispenser, Thermo Fisher Scientific) and a 405 TS/LS LHC2 Microplate Washer (BioTek Instruments, Winooski, VT, USA) on an F7 Robot System (Thermo Fisher Scientific) at the Network Biology Collaborative Centre (nbcc.lunenfeld.ca). Antigens were diluted in 10 μL PBS and dispensed into Greiner Bio-One 384-Well F-Bottom Polystyrene Microplates (#781074, Greiner Bio-One, Monroe, NC, USA) at final amounts of 50 ng spike, 25 ng RBD, and 7 ng NP per well. The plates were centrifuged at 233 × g for 1 minute to ensure even coating, incubated overnight at 4°C, and washed. Wells were blocked with 80 µL of 5% Blocker BLOTTO in TBS (Thermo Fisher Scientific, #37530) for 1 hour and then washed. Samples and controls were diluted in 1% Blocker BLOTTO in PBST, and 10 µL was added to each well from 96- or 384-well source plates. Plates were incubated for 2 hours at room temperature and wells were washed with PBST. Secondary antibodies (described below) were diluted as indicated in 1% Blocker BLOTTO in PBST and 10 µL was added to each well. After incubation for 1–2 hours at room temperature, the wells were washed and 10 µL of SuperSignal ELISA Pico Chemiluminescent Substrate (Thermo Fisher Scientific, #37069, diluted 1:4 in Milli-Q dH20) was dispensed to each well and mixed at 900 rpm for 10 seconds. After a 5–8 minute incubation, plates were read on an EnVision 2105 Multimode Plate Reader (Perkin Elmer, Woodbridge, ON, Canada) at 100 ms/well using an ultra-sensitive luminescence detector.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28418,
+          "infons": {
+            "section_title_1": "Methods",
+            "section_title_2": "Quality control assessment",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "For each automated test, the raw values and relative ratios of each control are compared to controls from prior tests to confirm that the values are similar. Our criteria were that the raw values of the reference points and positive pool controls compared to the blanks must be within 90% of previous runs and the reference points for each antigen compared to each other must be within 90% of previous runs. The log10 sample density distribution (raw values and relative ratios) was compared to prior runs to confirm that the distribution was within range.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29000,
+          "infons": {
+            "section_title_1": "Methods",
+            "section_title_2": "Expression of the results",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Raw results (in luminescence units) were expressed as ratios to a blank-adjusted point in the linear range of the relevant recombinant antibody standard reference curve. All values are calculated using automated scripts, prior to consideration of the meta-data; the investigators performing the measurements were blinded to the sample description.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29372,
+          "infons": {
+            "section_title_1": "Methods",
+            "section_title_2": "DBS/serum data transformation",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Fifteen participants had DBS and serum samples taken at the same time, and each sample was processed at two dilutions. To compare DBS and plasma/serum samples, we applied a normalization factor to account for the differences in sampling methods. Using the equation of the regression line, we converted results from samples processed using 2.5 µL DBS eluate to values reflected by samples processed using 0.0625 µL serum/plasma. To convert DBS eluate values to serum/plasma values, we used the equation y = 0.05 + 1.1× (R2 = 0.99, p = 4.4e-12) for the RBD and y = 0.044 + 1.1× (R2 = 0.98, p = 1.6e-10) for spike. Similarly, we converted values generated from 0.625 µL DBS eluate to 0.0156 µL serum/plasma. For this conversion, we used the equation y = 0.14 + 1.1× (R2 = 0.96, p = 5.5e-9) to convert between RBD levels and the equation y = 0.093 + 1.1× (R2 = 0.86, p = 4.9e-6) to convert between spike levels, where y is the relative ratio of DBS using 0.625 µL of the eluate and x is the relative ratio using 0.0156 µL of plasma/serum samples. DBS thresholds were adjusted accordingly. Data were cleaned, analyzed, and plotted using R (v. 4.1.0).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30546,
+          "infons": {
+            "section_title_1": "Methods",
+            "section_title_2": "Using baseline ELISA results to support evidence of prior infection",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Samples that passed the 3-SD threshold with ≥ 2 antigens at the baseline (pre-vaccination) point were considered to have evidence of previous infection.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30765,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The generation of pseudotyped lentivirus particles and the pseudovirus neutralization assay were performed as described previously [25, 26], with some modifications. Pseudotyped lentivirus particles were generated from wild-type SARS-CoV-2 (defined as the Wuhan Hu-1 sequence harboring the commonly circulating D614G mutation) and the VOCs B.1.1.7, B.1.351, and P.1 spike protein constructs [26]. They were co-transfected with packaging (psPAX2, Addgene, Watertown, MA, USA, #12260) and luciferase reporter constructs (pHAGE-CMV-Luc2-IRES-ZsGreen-W, kindly provided by Jesse Bloom) into HEK293TN cells (System Biosciences, Palo Alto, CA, USA, LV900A-1). Following 8 hours of transfection, cell supernatants were replaced with 3 mL of viral production medium containing 5% heat-inactivated FBS and 1% penicillin/streptomycin, and incubated at 37°C and 5% CO2 for 16 hours, then at 33°C and 5% CO2 for an additional 24 hours. Viral supernatants were harvested, clarified, and filtered through 0.45 µm filters prior to storage at -80°C. A viral titer assay was performed using HEK293-ACE2/TMPRSS2 cells, and a virus dilution resulting in > 1,000 relative luciferase units over the control was chosen (∼1:100 of virus stock; ∼15% infection of seeded cells). HEK293TN and HEK293-ACE2/TMPRSS2 cells were maintained at 85% confluency for no more than 25 passages.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32121,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "For the neutralization assay, patient sera were first heat inactivated at 56°C for 30 minutes and diluted in DMEM (containing 10% heat inactivated FBS and 1% penicillin/streptomycin) at 1:20 (or 1:100 for samples that displayed higher neutralization activity; Supplemental Table 1), followed by 2.5-fold serial dilutions (8 dilutions total), and incubated with diluted virus at a 1:1 ratio for 1 hour at 37°C prior to addition to HEK293-ACE2/TMPRSS2 cells. Cells were incubated for an additional 48 hours, followed by lysis and detection of luminescence signals using the Bright-Glo Luciferase Assay System (Promega, Ottawa, ON, Canada, E2620) and the EnVision 2105 Multimode Plate Reader. Unless otherwise specified, 50% neutralization titer (ID50) values of patient sera were calculated in GraphPad Prism 9 (GraphPad Software, San Diego, CA, USA) using a nonlinear regression (log[inhibitor] versus normalized response – variable slope) algorithm. All measurements were generated blinded to the metadata (including vaccine type), though the staff versus resident designation was known to the experimentalists (naming convention).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33252,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "SARS-CoV-2 (Canada/ON_ON-VIDO-01-2/2020, EPI_ISL_42517) stocks were titrated as previously reported [25] [34]. The SARS-CoV-2 PRNT assay was adapted from a previously described method for SARS-CoV-1 [35]. In a 96-well plate, serially diluted antibodies were mixed with diluted SARS-CoV-2 (100 PFU/100 μL), yielding final antibody dilutions of 1:20 to 1:640 and a final virus concentration of 50 PFU/100 μL. No neutralization, 50% neutralization, and 90% neutralization controls were prepared by diluting SARS-CoV-2 at 50, 25, and 5 PFU/100 μL, respectively. DMEM supplemented with 2% FBS and 1× penicillin was used as a no virus control. After 1 hour of incubation at 37°C and 5% CO2, 100 μL of each antibody-virus mixture was added in duplicate to 12-well plates containing Vero E6 cells at 95–100% confluence, and 100 μL of each control was added in triplicate to two sets of 12-well plates containing Vero E6 cells. All plates were incubated at 37°C and 5% CO2 for 1 hour of adsorption, followed by the addition of a liquid overlay containing equal volumes of 3% carboxymethylcellulose (CMC) and 2× Modified Eagle’s Medium (Temin’s modification). After a 3-day incubation, the liquid overlay was removed and cells were fixed with 10% neutral-buffered formalin. The monolayer in each well was stained with 0.5% crystal violet (w/v) and the average number of plaques was calculated at each dilution and compared with the average number of plaques in the 50% and 90% neutralization controls. The reciprocal of the highest dilution resulting in 50% and 90% reduction in plaques compared with controls were defined as the PRNT50 and PRNT90 endpoint titers, respectively. PRNT50 titers and PRNT90 titers ≥ 20 were considered positive for SARS-CoV-2 neutralizing antibodies, whereas titers <20 were considered negative.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35067,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Data on clinical response and antibody titers were entered into excel, cleaned and analyzed in SAS version 0.4 for PC (SAS Institute, Cary, NC). Based on knowledge of response to vaccines in adult populations in general, and available data for response to COVID-19 vaccines in other populations, we a priori selected age, sex, Charlson co-morbidity index score, presence or absence of immunosuppression (defined as per [36]), presence or absence of renal disease and body mass index (BMI) as variables to be assessed. The relationship of age and Charlson scores to antibody titers appeared linear; few residents had Charlson scores >5 such that we assigned a maximum Charlson score of 5 for the analysis. Only 5 residents were underweight, and there was no obvious correlation with antibody titers; titers declined above 35 kg/m2, such that BMI was modelled as normal or underweight versus severely or morbidly obese. Bivariate comparisons used proc corr for continuous variables, and Wilcoxon rank sum scores for categorical variables. Multivariable analysis was performed using proc glm and stepwise backwards elimination of variables. Residuals were examined to ensure homoscedasticity, and the absence of multicollinearity was confirmed with variance inflation factors being <5 for all predictors. P values of <0.05 were considered statistically significant.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

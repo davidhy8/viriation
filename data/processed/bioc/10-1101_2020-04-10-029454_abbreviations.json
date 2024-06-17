@@ -1,0 +1,28 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2020-04-10-029454",
+      "inputfile": "../../data/processed/html/10-1101_2020-04-10-029454.html",
+      "passages": [
+        {
+          "text_short": "HCV",
+          "text_long_1": "Hepatitis C virus",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RdRP",
+          "text_long_1": "RNA-dependent RNA polymerase",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "HLA",
+          "text_long_1": "human leucocyte antigen",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

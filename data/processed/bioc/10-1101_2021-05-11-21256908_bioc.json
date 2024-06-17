@@ -1,0 +1,304 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-05-11-21256908",
+      "inputfile": "../../data/processed/html/10-1101_2021-05-11-21256908.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Individuals who were mildly symptomatic following infection with SARS-CoV-2 B.1.1.28 have neutralizing antibodies to the P.1 variant",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 132,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Since the beginning of the coronavirus disease 2019 (COVID-19) pandemic, one of the major concerns has been the duration of immune protection and its specificity following the initial infection. The long term clinical and immunological consequences of anti-viral antibody production against the infecting strain remain unclear and correlations between antibody levels and protection against re-infection by SARS-CoV-2 variants remain under-reported1,2. Neutralizing antibodies are antibodies that react with surface components of SARS-CoV-2, specifically the spike protein, and prevent the virus from interacting with specific receptors on target cells and thereby initiating a productive infection1,3. Measuring and comparing the neutralization capacity of antibodies in sera from convalescent individuals previously infected with SARS-CoV-2 strains circulating at the beginning of the pandemic with genetic variant strains present at late pandemic stages will provide much needed information regarding the occurrence of cross-immunity between different viral strains.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1213,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Beginning in November 2020, a novel SARS-CoV-2 variant, lineage P.1, was identified in Manaus, Brazil4. Genome sequencing demonstrated that this variant is characterized by 17 mutations, including three in the gene coding for the spike protein (K417T, E484K and N501Y). These mutations result in antigenic changes in the spike protein and could impair the efficacy of neutralizing antibodies that were generated against a previous SARS-CoV-2 strain5. The P.1 SARS-CoV-2 variant has spread throughout Brazil and has become prominent in perpetuating and expanding the pandemic in this country.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1804,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The aim of the present study was to evaluate if neutralizing antibody responses induced by infection with the SARS-CoV-2 virus that was dominant at the beginning of the pandemic remained effective when tested against the P.1 lineage.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2037,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Included patients were participants in The Corona São Caetano Program, a primary care initiative offering COVID-19 care to all residents of São Caetano do Sul, Brazil6. Sixty participants who were positive for SARS-CoV-2 infection between May 4 and May 16, 2020 were enrolled into this study. All were > 18 years old, had a confirmed SARS-CoV-2 infection by RT-PCR analysis of nasopharyngeal and throat swabs, performed at the Virology Laboratory at Instituto de Medicina Tropical de São Paulo. After explaining the study and obtaining written informed consent, peripheral blood was collected from each participant at one week intervals for 5 consecutive weeks (days 1, 7, 14, 21, 28) beginning up to 72 hours from the time of initial diagnosis.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2789,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "RNA extraction was performed using the QIAamp viral RNA kit, according to the manufacturer instructions. For the RT-PCR assay, we used the commercial RealStar® SARS-CoV-2 RT-PCR Kit 1.0, (Hamburg, Germany), develop by Altona Diagnostics. DNA amplification was performed using the Roche LightCycler® 96 System.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3098,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "An ancestral variant (EPI_ISL_1557222) which was classified as belonging to B.1.1.28 lineage, was cultured from nasopharyngeal swab taken from an infected patient from Sao Caetano do Sul, City, Brazil in April, 2020. The P.1 SARS-CoV-2 variant (EPI_ISL_1060902) was obtained from a nasopharyngeal specimen of a patient from Manaus City, Brazil, in December, 2020 that was previously classified as belonging to the P.1 lineage by virus genome sequencing 4. Virus isolation and titration were performed according to Araujo et al. 7 and Park et al8. with some modifications.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3669,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "To isolate SARS-CoV-2 we used Vero cells (ATCC® CCL-81™). Cells were seeded in a 25 cm2 cell culture flask (polystyrene sterile, non-pyrogenic flask,12.5 cm2, 25mL, Biofil®, China) in a concentration of 5 ×105 cells/mL in 3.0 mL Dulbecco Minimal Essential Medium (DMEM) supplemented with 5% heat-inactivated fetal bovine serum (FBS) (Vitrocell Embriolife, Campinas, Brazil) and incubated overnight at 37°C. The next day, the supernatant was discarded, and 0.5 mL of a homogenized nasopharyngeal (NP) swab specimen was added into the culture flask. After 1 h of incubation (adsorption), we supplemented the volume with 3.0 mL DMEM containing 2.5% FBS and 1% penicillin-streptomycin and inoculated the cultures in a humidified 37°C incubator in an atmosphere of 5% CO2. We observed for the presence of cytopathic effects (CPE) daily for 3-5 days. The supernatant was collected, and virus replication was confirmed through CPE and by RT-PCR.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4607,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The viral titer was expressed in TCID50/mL and calculated using the Spearman & Kärber algorithm, as described by Hierholzer & Killington9 (See Supplementary Virus titration).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4781,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The cytopathic effect (CPE)-based virus neutralization test (VNT) was adapted from Nurtop et al.10 and was previously described by Wendel et al.11 and Mendrone-Junior et al.12. VNT was performed with SARS-CoV-2 (EPI_ISL_1557222 and EPI_ISL_804814) in 96-well microtiter plates containing 5 × 104 Vero cells/mL. Vero cells were seeded in a 96-well microtiter plate and allowed to grow for 24 hours prior to infection. Sera to be tested were heat-inactivated for 30 minutes at 56°C. Then, 50 μL of twofold serially diluted sera from 1:20 to 1:2560, were added mixed vol/vol with 103 TCID50/mL of SARS-CoV-2 and incubated at 37°C for 1 h for virus neutralization. The sera - virus mixture was transferred onto the confluent Vero cell monolayer and incubated for 72 hours. Cultures at 37°C and 5% CO2 were observed daily for a CPE. After 72 hours, the plates were analyzed by light microscopy (Nikkon, Japan), distinguishing the presence/absence of CPE-VNT. To verify the initial observations after 72 hours the monolayers were fixed and stained with Naphthol Blue Black (Sigma-Aldrich Co., Deisenhofen, Germany) dissolved in sodium acetate-acid acetic for 30 minutes. Dilutions of serum associated with CPE were considered as a negative result. The absence of CPE or a complete neutralization of SARS-CoV2 inoculum was considered as a positive result. Consequently, the VNT was the highest dilution of serum that neutralized viral growth (absence of a CPE).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6235,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "For each reaction we used as a positive control diluted virus in DMEM with 2.5% FBS and as a negative control only DMEM with 2.5% FBS. In addition, a serum control was a serum specimen taken from a patient with a SARS-CoV-2 infection in São Paulo with a known VTN titer. The antibody titer was calculated as the highest dilution where CPE was completely inhibited. Titers >1:20 were reported as positive. Virus isolation and VNT were performed in a Biosafety Level 3 laboratory.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6713,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "We investigated whether convalescent individuals have similar serum virus neutralization titers against isolates of SARS-CoV-2 lineage “P.1” as compared to the ancestral lineage. Neutralization titers were grouped by weeks (1=1-7, 2=8-14, 3=15-21, 4=22-28, 5=29-35, 6=36-42 days after onset of symptoms), as most patients were visited and had their sample collected only once per week. For the few occasions when patients had two visits during the same week, the maximum value of the two was considered.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7216,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The percentage of positive results (neutralization titers ≥ 20) are presented by week after the onset of symptoms, together with their 95% binomial confidence intervals. Continuous variables were summarized as median and interquartile ranges and presented in box plots.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7485,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The equality of matched pairs of observations was tested using the Wilcoxon matched-pairs signed-rank test. We also calculated the paired differences in dilution titers and subsequently categorized these differences into “≤ -2”, “in between -1 and 1” and “≥ 2”.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7746,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Database management and statistical analysis were performed using the Stata-15 software (Statacorp, College Station, Texas, USA).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7875,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Demographics and clinical characteristics of the study population are presented in Table 1 Supplementary. The majority (58.3%) were female and 46.6% were <40 years old. All had mild or moderate disease with symptoms lasting a median of 3 days; none required hospitalization.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8156,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Fig. 1 demonstrates the rapid increase in neutralization titer against the original viral lineage over the initial three-week period, followed by a plateau at or near the maximum level over the subsequent three weeks. The increase in neutralization titer against the P.1 variant closely paralleled what was observed with the ancestral lineage, but the levels were on average about 10% lower at every timepoint. Four patients (6%) did not have evidence of neutralizing antibodies against both the ancestral lineage and P.1.lineage, while an additional 6 patients were negative for neutralizing antibodies only against the P.1.lineage throughout the study period.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8817,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The neutralization titers against the ancestral and P.1 strains at each week of testing are shown in Table 1. Median values were consistently higher against the ancestral strain than against the P1 lineage. All differences reached statistical significance, except for week one.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9094,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "When comparing the neutralization titers against the ancestral strain and P.1, we observed that this difference was not more than a single dilution in 57.8%, not more than two dilutions in 37.6% and > 2 dilutions in only 4.6% of the sera (Table 2 Supplementary material). The differences remained fairly constant over the time course of the study (Fig. 2 Supplementary material).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9473,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The great majority of patients infected with one SARS-CoV-2 strain (B.1.1.28 lineage) developed neutralizing antibodies that were also effective in vitro, although at a slightly reduced titer, against the P.1 variant, without having a prior exposure to this strain. It is likely that the small difference in neutralization titers would not diminish the ability to effectively prevent or minimize infection following exposure to the P.1 variant. Thus, previous infections with the ancestral strains will apparently provide a sufficient degree of protection from the P.1. variant in the majority of previously infected individuals. This protection may also extend to other components of the immune response, such as long-lived memory T cells13. It has already been postulated that even when neutralizing antibody levels have dropped below a detectable threshold, immune memory could lead to induction of an anamnestic antibody response following re-exposure to the same or different strains of the virus, and this is likely to be protective against severe disease1.The reason(s) for the difference in neutralization antibody titers against the ancestral lineage that produced the infection and the P.1variant remain to be determined. It is likely that they reflect variations in the conformation of the spike protein that influences the efficacy of antibody binding5,14. This possibility has been evaluated in only a few studies5 and the mechanism remains unresolved.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10948,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "It is important to acknowledge limitations of our study. First, our cohort included a relatively small number of patients, all of whom recovered from mild or moderate episodes of COVID-19. It would be of interest to expand the study to determine if individuals with more severe disease differed in the occurrence or titer of antibodies cross-reactive to P.1.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11306,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Secondly, our study only assessed neutralizing antibody titers for the first six weeks after initial infection. The length of time that the neutralizing antibody titers to the initiating strain and to the P.1 variant are maintained remains to be determined. Extending this study to later time points would be valuable to gain this additional information. Data on humoral immunity to other human coronaviruses have indicated that antibody levels wane over time2. A few studies have assessed antibody titers to MERS CoV and SARS CoV in the months and years following primary infection. Although limited in size these studies indicated that total binding antibodies and neutralizing antibodies progressively decreased such that by 2–3 years all infected individuals had minimal detectable antibody responses. There are reports of reinfection with homologous coronaviruses after as little as 80 days2.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12203,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Thirdly, we did not measure other components of the immune response, such as cell-mediated immunity, which would further contribute to viral neutralization in vivo. It is likely that large prospective epidemiologic studies will be required to establish the role of neutralizing antibodies in preventing infection, or minimizing their consequences, by SARS-CoV-2 variants in previously exposed individuals. This will also most likely vary depending on the extent of changes in spike protein antigenicity between the infecting strain and the specific variant being analyzed.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12775,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "In conclusion, our data provides the encouraging information that a previous SARS-CoV-2 infection likely provides a substantial degree of protection against the P.1 variant, even in most individuals with a relatively mild infection.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1038_s41586-021-03398-2",
+      "inputfile": "../../data/processed/html_papers/10-1038_s41586-021-03398-2.html",
+      "passages": []
+    }
+  ]
+}

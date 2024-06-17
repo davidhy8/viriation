@@ -1,0 +1,18 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1128_JCM-00741-21",
+      "inputfile": "../../data/processed/html_papers/10-1128_JCM-00741-21.html",
+      "passages": [
+        {
+          "text_short": "WGS",
+          "text_long_1": "whole-genome sequencing",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

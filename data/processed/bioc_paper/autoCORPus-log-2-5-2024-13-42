@@ -1,0 +1,11 @@
+Auto-CORPus log file from 13:42 on 2/5/2024
+Input directory provided: ../../data/processed/html/10-1101_2021-03-24-436850.html
+Output directory provided: ../../data/processed/bioc_paper/
+Config provided: ../../data/other/config_allen.json
+Output format: JSON
+1 files processed.
+0 files not processed due to errors.
+
+
+10-1101_2021-03-24-436850 was processed successfully.
+

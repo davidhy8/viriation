@@ -1,0 +1,113 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2022-06-05-493249",
+      "inputfile": "../../data/processed/html/10-1101_2022-06-05-493249.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "Severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBD",
+          "text_long_1": "receptor-binding domain",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "S protein",
+          "text_long_1": "spike protein",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ACE2",
+          "text_long_1": "angiotensin converting enzyme 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SPR",
+          "text_long_1": "surface plasmon resonance",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SMFS",
+          "text_long_1": "Single-molecule force spectroscopy",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SCFS",
+          "text_long_1": "single-cell force spectroscopy",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "mAb",
+          "text_long_1": "monoclonal antibody",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "WT",
+          "text_long_1": "wild type",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "AFM",
+          "text_long_1": "atomic force microscopy",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FECs",
+          "text_long_1": "force-extension curves",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "WLC",
+          "text_long_1": "worm-like chain",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "NAbs",
+          "text_long_1": "neutralizing antibodies",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "mAbs",
+          "text_long_1": "monoclonal antibodies",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "BP",
+          "text_long_1": "binding probability",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MD",
+          "text_long_1": "Molecular dynamics",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SMD",
+          "text_long_1": "Steered molecular dynamics",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "DMEM",
+          "text_long_1": "Dulbecco modified Eagle medium",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FBS",
+          "text_long_1": "fetal bovine serum",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "UV-O",
+          "text_long_1": "UV radiation and ozone",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

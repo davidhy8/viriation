@@ -1,0 +1,12 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "cmmid-github-io_topics_covid19_reports_sa-novel-variant_2021_01_11_Transmissibility_and_severity_of_501Y_V2_in_SA-pdf",
+      "inputfile": "../../data/processed/html/html_other/cmmid-github-io_topics_covid19_reports_sa-novel-variant_2021_01_11_Transmissibility_and_severity_of_501Y_V2_in_SA-pdf..html",
+      "passages": []
+    }
+  ]
+}

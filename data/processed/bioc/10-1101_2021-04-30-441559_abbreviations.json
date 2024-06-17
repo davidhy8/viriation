@@ -1,0 +1,23 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-04-30-441559",
+      "inputfile": "../../data/processed/html/10-1101_2021-04-30-441559.html",
+      "passages": [
+        {
+          "text_short": "NAb",
+          "text_long_1": "neutralizing antibodies",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "GMT",
+          "text_long_1": "geometric mean titer",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

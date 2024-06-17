@@ -1,0 +1,64 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2022-06-22-22276690",
+      "inputfile": "../../data/processed/html/10-1101_2022-06-22-22276690.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": " Severe acute respiratory syndrome coronavirus 2; ",
+          "extraction_algorithm_1": "abbreviations section",
+          "text_long_2": "severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_2": "fulltext"
+        },
+        {
+          "text_short": "COVID-19",
+          "text_long_1": " Coronavirus disease 2019; ",
+          "extraction_algorithm_1": "abbreviations section"
+        },
+        {
+          "text_short": "GMT",
+          "text_long_1": " Geometric mean titer; ",
+          "extraction_algorithm_1": "abbreviations section"
+        },
+        {
+          "text_short": "CI",
+          "text_long_1": " Confdence interval; BMI: Body mass index; ",
+          "extraction_algorithm_1": "abbreviations section",
+          "text_long_2": "confidence interval",
+          "extraction_algorithm_2": "fulltext"
+        },
+        {
+          "text_short": "RT-PCR",
+          "text_long_1": " Reverse transcriptase-polymerase chain reaction; ",
+          "extraction_algorithm_1": "abbreviations section"
+        },
+        {
+          "text_short": "WHO",
+          "text_long_1": " World Health Organization. ",
+          "extraction_algorithm_1": "abbreviations section",
+          "text_long_2": "World Health Organization",
+          "extraction_algorithm_2": "fulltext"
+        },
+        {
+          "text_short": "GEE",
+          "text_long_1": "generalized estimating equations",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "C-index",
+          "text_long_1": "Concordance indexes",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "IQR",
+          "text_long_1": "interquartile range",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

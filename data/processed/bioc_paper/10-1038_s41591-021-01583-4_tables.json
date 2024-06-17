@@ -1,0 +1,1748 @@
+{
+  "source": "Auto-CORPus (tables)",
+  "date": "20240501",
+  "key": "autocorpus_tables.key",
+  "infons": {},
+  "documents": [
+    {
+      "inputfile": "../../data/processed/html_papers/10-1038_s41591-021-01583-4.html",
+      "id": "1",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": ""
+        },
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Table 1 | Demographic characteristics of cases (PCR-positive for SARS-CoV-2 Delta variant) and controls (PCR-negative) in the ≥14- d-after-first-dose analysis of vaccine effectiveness of sample A (BNT162b2), B (mRNA-1273) and C (BNT162b2 or mRNA-1273)"
+        },
+        {
+          "offset": 251,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "1.1.1",
+              "cell_text": "Characteristics"
+            },
+            {
+              "cell_id": "1.1.2",
+              "cell_text": "Cases (PCR-positive for Delta variant)|n=2,783"
+            },
+            {
+              "cell_id": "1.1.3",
+              "cell_text": "Controls (PCR-negative)|11201.0"
+            },
+            {
+              "cell_id": "1.1.4",
+              "cell_text": "Cases (PCR-positive for Delta variant)|2781.0"
+            },
+            {
+              "cell_id": "1.1.5",
+              "cell_text": "PCR-negative|11287.0"
+            },
+            {
+              "cell_id": "1.1.6",
+              "cell_text": "Cases (PCR-positive for Delta variant)|=2,934"
+            },
+            {
+              "cell_id": "1.1.7",
+              "cell_text": "Controls (PCR-negative)|11974.0"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.2.1",
+                    "cell_text": "Median age (IQR) years"
+                  },
+                  {
+                    "cell_id": "1.2.2",
+                    "cell_text": "27 (11-35)"
+                  },
+                  {
+                    "cell_id": "1.2.3",
+                    "cell_text": "26 (10-34)"
+                  },
+                  {
+                    "cell_id": "1.2.4",
+                    "cell_text": "27 (12-35)"
+                  },
+                  {
+                    "cell_id": "1.2.5",
+                    "cell_text": "27 (10-35)"
+                  },
+                  {
+                    "cell_id": "1.2.6",
+                    "cell_text": "27 (12-36)"
+                  },
+                  {
+                    "cell_id": "1.2.7",
+                    "cell_text": "27 (11-35)"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Age group no. (%)",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.3.1",
+                    "cell_text": "0-19 years"
+                  },
+                  {
+                    "cell_id": "1.3.2",
+                    "cell_text": "935 (33.6)"
+                  },
+                  {
+                    "cell_id": "1.3.3",
+                    "cell_text": "3,844 (34.3)"
+                  },
+                  {
+                    "cell_id": "1.3.4",
+                    "cell_text": "913 (32.8)"
+                  },
+                  {
+                    "cell_id": "1.3.5",
+                    "cell_text": "3,771 (33.4)"
+                  },
+                  {
+                    "cell_id": "1.3.6",
+                    "cell_text": "940 (32.0)"
+                  },
+                  {
+                    "cell_id": "1.3.7",
+                    "cell_text": "3,879 (32.4)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.4.1",
+                    "cell_text": "20-29 years"
+                  },
+                  {
+                    "cell_id": "1.4.2",
+                    "cell_text": "683 (24.5)"
+                  },
+                  {
+                    "cell_id": "1.4.3",
+                    "cell_text": "2,888 (25.8)"
+                  },
+                  {
+                    "cell_id": "1.4.4",
+                    "cell_text": "685 (24.6)"
+                  },
+                  {
+                    "cell_id": "1.4.5",
+                    "cell_text": "2,877 (25.5)"
+                  },
+                  {
+                    "cell_id": "1.4.6",
+                    "cell_text": "726 (24.7)"
+                  },
+                  {
+                    "cell_id": "1.4.7",
+                    "cell_text": "3,073 (25.7)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.5.1",
+                    "cell_text": "30-39 years"
+                  },
+                  {
+                    "cell_id": "1.5.2",
+                    "cell_text": "755 (27.1)"
+                  },
+                  {
+                    "cell_id": "1.5.3",
+                    "cell_text": "3,046 (27.2)"
+                  },
+                  {
+                    "cell_id": "1.5.4",
+                    "cell_text": "757 (27.2)"
+                  },
+                  {
+                    "cell_id": "1.5.5",
+                    "cell_text": "3,099 (27.5)"
+                  },
+                  {
+                    "cell_id": "1.5.6",
+                    "cell_text": "811 (27.6)"
+                  },
+                  {
+                    "cell_id": "1.5.7",
+                    "cell_text": "3,356 (28.0)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.6.1",
+                    "cell_text": "40-49 years"
+                  },
+                  {
+                    "cell_id": "1.6.2",
+                    "cell_text": "323 (11.6)"
+                  },
+                  {
+                    "cell_id": "1.6.3",
+                    "cell_text": "1,161 (10.4)"
+                  },
+                  {
+                    "cell_id": "1.6.4",
+                    "cell_text": "342 (12.3)"
+                  },
+                  {
+                    "cell_id": "1.6.5",
+                    "cell_text": "1,277 (11.3)"
+                  },
+                  {
+                    "cell_id": "1.6.6",
+                    "cell_text": "361 (12.3)"
+                  },
+                  {
+                    "cell_id": "1.6.7",
+                    "cell_text": "1,370 (11.4)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.7.1",
+                    "cell_text": "50-59 years"
+                  },
+                  {
+                    "cell_id": "1.7.2",
+                    "cell_text": "66 (2.4)"
+                  },
+                  {
+                    "cell_id": "1.7.3",
+                    "cell_text": "213 (1.9)"
+                  },
+                  {
+                    "cell_id": "1.7.4",
+                    "cell_text": "65 (2.3)"
+                  },
+                  {
+                    "cell_id": "1.7.5",
+                    "cell_text": "219 (1.9)"
+                  },
+                  {
+                    "cell_id": "1.7.6",
+                    "cell_text": "72 (2.5)"
+                  },
+                  {
+                    "cell_id": "1.7.7",
+                    "cell_text": "239 (2.0)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.8.1",
+                    "cell_text": "60-69 years"
+                  },
+                  {
+                    "cell_id": "1.8.2",
+                    "cell_text": "11 (0.4)"
+                  },
+                  {
+                    "cell_id": "1.8.3",
+                    "cell_text": "26 (0.2)"
+                  },
+                  {
+                    "cell_id": "1.8.4",
+                    "cell_text": "12 (0.4)"
+                  },
+                  {
+                    "cell_id": "1.8.5",
+                    "cell_text": "29 (0.3)"
+                  },
+                  {
+                    "cell_id": "1.8.6",
+                    "cell_text": "14 (0.5)"
+                  },
+                  {
+                    "cell_id": "1.8.7",
+                    "cell_text": "34 (0.3)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.9.1",
+                    "cell_text": "70+ years"
+                  },
+                  {
+                    "cell_id": "1.9.2",
+                    "cell_text": "10 (0.4)"
+                  },
+                  {
+                    "cell_id": "1.9.3",
+                    "cell_text": "23 (0.2)"
+                  },
+                  {
+                    "cell_id": "1.9.4",
+                    "cell_text": "7 (0.3)"
+                  },
+                  {
+                    "cell_id": "1.9.5",
+                    "cell_text": "15 (0.1)"
+                  },
+                  {
+                    "cell_id": "1.9.6",
+                    "cell_text": "10 (0.3)"
+                  },
+                  {
+                    "cell_id": "1.9.7",
+                    "cell_text": "23 (0.2)"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Sex",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.10.1",
+                    "cell_text": "Male"
+                  },
+                  {
+                    "cell_id": "1.10.2",
+                    "cell_text": "1,810 (65.0)"
+                  },
+                  {
+                    "cell_id": "1.10.3",
+                    "cell_text": "7,832 (69.9)"
+                  },
+                  {
+                    "cell_id": "1.10.4",
+                    "cell_text": "1,820 (65.4)"
+                  },
+                  {
+                    "cell_id": "1.10.5",
+                    "cell_text": "7,941 (70.4)"
+                  },
+                  {
+                    "cell_id": "1.10.6",
+                    "cell_text": "1,899 (64.7)"
+                  },
+                  {
+                    "cell_id": "1.10.7",
+                    "cell_text": "8,273(69.1)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.11.1",
+                    "cell_text": "Female"
+                  },
+                  {
+                    "cell_id": "1.11.2",
+                    "cell_text": "973 (35.0)"
+                  },
+                  {
+                    "cell_id": "1.11.3",
+                    "cell_text": "3,369 (30.1)"
+                  },
+                  {
+                    "cell_id": "1.11.4",
+                    "cell_text": "961 (34.6)"
+                  },
+                  {
+                    "cell_id": "1.11.5",
+                    "cell_text": "3,346 (29.6)"
+                  },
+                  {
+                    "cell_id": "1.11.6",
+                    "cell_text": "1,035 (35.3)"
+                  },
+                  {
+                    "cell_id": "1.11.7",
+                    "cell_text": "3,701 (30.9)"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Nationalityb",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.12.1",
+                    "cell_text": "Bangladeshi"
+                  },
+                  {
+                    "cell_id": "1.12.2",
+                    "cell_text": "207 (7.4)"
+                  },
+                  {
+                    "cell_id": "1.12.3",
+                    "cell_text": "954 (8.5)"
+                  },
+                  {
+                    "cell_id": "1.12.4",
+                    "cell_text": "224 (8.1)"
+                  },
+                  {
+                    "cell_id": "1.12.5",
+                    "cell_text": "1,022 (9.1)"
+                  },
+                  {
+                    "cell_id": "1.12.6",
+                    "cell_text": "242 (8.3)"
+                  },
+                  {
+                    "cell_id": "1.12.7",
+                    "cell_text": "1,107 (9.3)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.13.1",
+                    "cell_text": "Egyptian"
+                  },
+                  {
+                    "cell_id": "1.13.2",
+                    "cell_text": "76 (2.7)"
+                  },
+                  {
+                    "cell_id": "1.13.3",
+                    "cell_text": "316 (2.8)"
+                  },
+                  {
+                    "cell_id": "1.13.4",
+                    "cell_text": "79 (2.8)"
+                  },
+                  {
+                    "cell_id": "1.13.5",
+                    "cell_text": "315 (2.8)"
+                  },
+                  {
+                    "cell_id": "1.13.6",
+                    "cell_text": "84 (2.9)"
+                  },
+                  {
+                    "cell_id": "1.13.7",
+                    "cell_text": "343 (2.9)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.14.1",
+                    "cell_text": "Filipino"
+                  },
+                  {
+                    "cell_id": "1.14.2",
+                    "cell_text": "240 (8.6)"
+                  },
+                  {
+                    "cell_id": "1.14.3",
+                    "cell_text": "720 (6.4)"
+                  },
+                  {
+                    "cell_id": "1.14.4",
+                    "cell_text": "245 (8.8)"
+                  },
+                  {
+                    "cell_id": "1.14.5",
+                    "cell_text": "821 (7.3)"
+                  },
+                  {
+                    "cell_id": "1.14.6",
+                    "cell_text": "263 (9.0)"
+                  },
+                  {
+                    "cell_id": "1.14.7",
+                    "cell_text": "917 (7.7)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.15.1",
+                    "cell_text": "Indian"
+                  },
+                  {
+                    "cell_id": "1.15.2",
+                    "cell_text": "495 (17.8)"
+                  },
+                  {
+                    "cell_id": "1.15.3",
+                    "cell_text": "2,342 (20.9)"
+                  },
+                  {
+                    "cell_id": "1.15.4",
+                    "cell_text": "504 (18.1)"
+                  },
+                  {
+                    "cell_id": "1.15.5",
+                    "cell_text": "2,399 (21.3)"
+                  },
+                  {
+                    "cell_id": "1.15.6",
+                    "cell_text": "527 (18.0)"
+                  },
+                  {
+                    "cell_id": "1.15.7",
+                    "cell_text": "2,517 (21.0)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.16.1",
+                    "cell_text": "Nepalese"
+                  },
+                  {
+                    "cell_id": "1.16.2",
+                    "cell_text": "206 (7.4)"
+                  },
+                  {
+                    "cell_id": "1.16.3",
+                    "cell_text": "997 (8.9)"
+                  },
+                  {
+                    "cell_id": "1.16.4",
+                    "cell_text": "208 (7.5)"
+                  },
+                  {
+                    "cell_id": "1.16.5",
+                    "cell_text": "1,017 (9.0)"
+                  },
+                  {
+                    "cell_id": "1.16.6",
+                    "cell_text": "212 (7.2)"
+                  },
+                  {
+                    "cell_id": "1.16.7",
+                    "cell_text": "1,032 (8.6)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.17.1",
+                    "cell_text": "Pakistani"
+                  },
+                  {
+                    "cell_id": "1.17.2",
+                    "cell_text": "244 (8.8)"
+                  },
+                  {
+                    "cell_id": "1.17.3",
+                    "cell_text": "1,069 (9.5)"
+                  },
+                  {
+                    "cell_id": "1.17.4",
+                    "cell_text": "249 (9.0)"
+                  },
+                  {
+                    "cell_id": "1.17.5",
+                    "cell_text": "1,086 (9.6)"
+                  },
+                  {
+                    "cell_id": "1.17.6",
+                    "cell_text": "256 (8.7)"
+                  },
+                  {
+                    "cell_id": "1.17.7",
+                    "cell_text": "1,121 (9.4)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.18.1",
+                    "cell_text": "Qatari"
+                  },
+                  {
+                    "cell_id": "1.18.2",
+                    "cell_text": "749 (26.9)"
+                  },
+                  {
+                    "cell_id": "1.18.3",
+                    "cell_text": "3,090 (27.6)"
+                  },
+                  {
+                    "cell_id": "1.18.4",
+                    "cell_text": "709 (25.5)"
+                  },
+                  {
+                    "cell_id": "1.18.5",
+                    "cell_text": "2,904 (25.7)"
+                  },
+                  {
+                    "cell_id": "1.18.6",
+                    "cell_text": "752 (25.6)"
+                  },
+                  {
+                    "cell_id": "1.18.7",
+                    "cell_text": "3,117 (26.0)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.19.1",
+                    "cell_text": "Sri Lankan"
+                  },
+                  {
+                    "cell_id": "1.19.2",
+                    "cell_text": "44 (1.6)"
+                  },
+                  {
+                    "cell_id": "1.19.3",
+                    "cell_text": "168 (1.5)"
+                  },
+                  {
+                    "cell_id": "1.19.4",
+                    "cell_text": "45 (1.6)"
+                  },
+                  {
+                    "cell_id": "1.19.5",
+                    "cell_text": "181 (1.6)"
+                  },
+                  {
+                    "cell_id": "1.19.6",
+                    "cell_text": "50 (1.7)"
+                  },
+                  {
+                    "cell_id": "1.19.7",
+                    "cell_text": "193 (1.6)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.20.1",
+                    "cell_text": "Sudanese"
+                  },
+                  {
+                    "cell_id": "1.20.2",
+                    "cell_text": "44 (1.6)"
+                  },
+                  {
+                    "cell_id": "1.20.3",
+                    "cell_text": "143 (1.3)"
+                  },
+                  {
+                    "cell_id": "1.20.4",
+                    "cell_text": "43 (1.6)"
+                  },
+                  {
+                    "cell_id": "1.20.5",
+                    "cell_text": "137 (1.2)"
+                  },
+                  {
+                    "cell_id": "1.20.6",
+                    "cell_text": "46 (1.6)"
+                  },
+                  {
+                    "cell_id": "1.20.7",
+                    "cell_text": "148 (1.2)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.21.1",
+                    "cell_text": "Other nationalities"
+                  },
+                  {
+                    "cell_id": "1.21.2",
+                    "cell_text": "478 (17.2)"
+                  },
+                  {
+                    "cell_id": "1.21.3",
+                    "cell_text": "1,402 (12.5)"
+                  },
+                  {
+                    "cell_id": "1.21.4",
+                    "cell_text": "475 (17.1)"
+                  },
+                  {
+                    "cell_id": "1.21.5",
+                    "cell_text": "1,405 (12.5)"
+                  },
+                  {
+                    "cell_id": "1.21.6",
+                    "cell_text": "502 (17.1)"
+                  },
+                  {
+                    "cell_id": "1.21.7",
+                    "cell_text": "1,479 (12.4)"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Reason for PCR testing",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.22.1",
+                    "cell_text": "Clinical suspicion"
+                  },
+                  {
+                    "cell_id": "1.22.2",
+                    "cell_text": "1,277 (45.9)"
+                  },
+                  {
+                    "cell_id": "1.22.3",
+                    "cell_text": "5,061 (45.2)"
+                  },
+                  {
+                    "cell_id": "1.22.4",
+                    "cell_text": "1,278 (46.0)"
+                  },
+                  {
+                    "cell_id": "1.22.5",
+                    "cell_text": "5,150 (45.6)"
+                  },
+                  {
+                    "cell_id": "1.22.6",
+                    "cell_text": "1,370 (46.7)"
+                  },
+                  {
+                    "cell_id": "1.22.7",
+                    "cell_text": "5,588 (46.7)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.23.1",
+                    "cell_text": "Contact tracing"
+                  },
+                  {
+                    "cell_id": "1.23.2",
+                    "cell_text": "468 (16.8)"
+                  },
+                  {
+                    "cell_id": "1.23.3",
+                    "cell_text": "1,667 (14.9)"
+                  },
+                  {
+                    "cell_id": "1.23.4",
+                    "cell_text": "464 (16.7)"
+                  },
+                  {
+                    "cell_id": "1.23.5",
+                    "cell_text": "1,655 (14.7)"
+                  },
+                  {
+                    "cell_id": "1.23.6",
+                    "cell_text": "489 (16.7)"
+                  },
+                  {
+                    "cell_id": "1.23.7",
+                    "cell_text": "1,763 (14.7)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.24.1",
+                    "cell_text": "Survey"
+                  },
+                  {
+                    "cell_id": "1.24.2",
+                    "cell_text": "468 (16.8)"
+                  },
+                  {
+                    "cell_id": "1.24.3",
+                    "cell_text": "1,984 (17.7)"
+                  },
+                  {
+                    "cell_id": "1.24.4",
+                    "cell_text": "474 (17.0)"
+                  },
+                  {
+                    "cell_id": "1.24.5",
+                    "cell_text": "2,019 (17.9)"
+                  },
+                  {
+                    "cell_id": "1.24.6",
+                    "cell_text": "491 (6.7)"
+                  },
+                  {
+                    "cell_id": "1.24.7",
+                    "cell_text": "2,075 (17.3)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.25.1",
+                    "cell_text": "Individual request"
+                  },
+                  {
+                    "cell_id": "1.25.2",
+                    "cell_text": "449 (16.1)"
+                  },
+                  {
+                    "cell_id": "1.25.3",
+                    "cell_text": "2,083 (18.6)"
+                  },
+                  {
+                    "cell_id": "1.25.4",
+                    "cell_text": "449 (16.2)"
+                  },
+                  {
+                    "cell_id": "1.25.5",
+                    "cell_text": "2,080 (18.4)"
+                  },
+                  {
+                    "cell_id": "1.25.6",
+                    "cell_text": "456 (15.5)"
+                  },
+                  {
+                    "cell_id": "1.25.7",
+                    "cell_text": "2,115 (17.7)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.26.1",
+                    "cell_text": "Healthcare routine testing"
+                  },
+                  {
+                    "cell_id": "1.26.2",
+                    "cell_text": "97 (3.5)"
+                  },
+                  {
+                    "cell_id": "1.26.3",
+                    "cell_text": "372 (3.3)"
+                  },
+                  {
+                    "cell_id": "1.26.4",
+                    "cell_text": "96 (3.5)"
+                  },
+                  {
+                    "cell_id": "1.26.5",
+                    "cell_text": "356 (3.2)"
+                  },
+                  {
+                    "cell_id": "1.26.6",
+                    "cell_text": "103 (3.5)"
+                  },
+                  {
+                    "cell_id": "1.26.7",
+                    "cell_text": "396 (3.3)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.27.1",
+                    "cell_text": "Other"
+                  },
+                  {
+                    "cell_id": "1.27.2",
+                    "cell_text": "24 (0.9)"
+                  },
+                  {
+                    "cell_id": "1.27.3",
+                    "cell_text": "34 (0.3)"
+                  },
+                  {
+                    "cell_id": "1.27.4",
+                    "cell_text": "20 (0.7)"
+                  },
+                  {
+                    "cell_id": "1.27.5",
+                    "cell_text": "27 (0.2)"
+                  },
+                  {
+                    "cell_id": "1.27.6",
+                    "cell_text": "25 (0.9)"
+                  },
+                  {
+                    "cell_id": "1.27.7",
+                    "cell_text": "37 (0.3)"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "inputfile": "../../data/processed/html_papers/10-1038_s41591-021-01583-4.html",
+      "id": "2",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": ""
+        },
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Table 2 | Demographic characteristics of cases (PCR-positive for SARS-CoV-2 Delta variant) and controls (PCR-negative) in the ≥14- d-after-second-dose analysis of vaccine effectiveness of sample A (BNT162b2), B (mRNA-1273) and C (BNT162b2 or mRNA-1273)"
+        },
+        {
+          "offset": 252,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "2.1.1",
+              "cell_text": "Characteristics"
+            },
+            {
+              "cell_id": "2.1.2",
+              "cell_text": "Cases (PCR-positive for Delta variant)|3846.0"
+            },
+            {
+              "cell_id": "2.1.3",
+              "cell_text": "Controls (PCR-negative)|= 15,977"
+            },
+            {
+              "cell_id": "2.1.4",
+              "cell_text": "Cases (PCR-positive for Delta variant)|= 2,947"
+            },
+            {
+              "cell_id": "2.1.5",
+              "cell_text": "Controls (PCR-negative)|n = 12,151"
+            },
+            {
+              "cell_id": "2.1.6",
+              "cell_text": "Cases (PCR-positive for Delta variant)|= 4,150"
+            },
+            {
+              "cell_id": "2.1.7",
+              "cell_text": "Controls (PCR-negative)|= 17,490"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.2.1",
+                    "cell_text": "Median age (IQR) years"
+                  },
+                  {
+                    "cell_id": "2.2.2",
+                    "cell_text": "30 (18-38)"
+                  },
+                  {
+                    "cell_id": "2.2.3",
+                    "cell_text": "29 (17-37)"
+                  },
+                  {
+                    "cell_id": "2.2.4",
+                    "cell_text": "28 (12-36)"
+                  },
+                  {
+                    "cell_id": "2.2.5",
+                    "cell_text": "28 (11-35)"
+                  },
+                  {
+                    "cell_id": "2.2.6",
+                    "cell_text": "30 (20-39)"
+                  },
+                  {
+                    "cell_id": "2.2.7",
+                    "cell_text": "30 (19-38)"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Age group no. (%)",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.3.1",
+                    "cell_text": "0-19 years"
+                  },
+                  {
+                    "cell_id": "2.3.2",
+                    "cell_text": "1,025 (26.7)"
+                  },
+                  {
+                    "cell_id": "2.3.3",
+                    "cell_text": "4,383 (27.4)"
+                  },
+                  {
+                    "cell_id": "2.3.4",
+                    "cell_text": "919 (31.2)"
+                  },
+                  {
+                    "cell_id": "2.3.5",
+                    "cell_text": "3,799 (31.3)"
+                  },
+                  {
+                    "cell_id": "2.3.6",
+                    "cell_text": "1,034 (24.9)"
+                  },
+                  {
+                    "cell_id": "2.3.7",
+                    "cell_text": "4,430 (25.3)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.4.1",
+                    "cell_text": "20-29 years"
+                  },
+                  {
+                    "cell_id": "2.4.2",
+                    "cell_text": "891 (23.2)"
+                  },
+                  {
+                    "cell_id": "2.4.3",
+                    "cell_text": "3,900 (24.4)"
+                  },
+                  {
+                    "cell_id": "2.4.4",
+                    "cell_text": "720 (24.4)"
+                  },
+                  {
+                    "cell_id": "2.4.5",
+                    "cell_text": "3,071 (25.3)"
+                  },
+                  {
+                    "cell_id": "2.4.6",
+                    "cell_text": "966 (23.3)"
+                  },
+                  {
+                    "cell_id": "2.4.7",
+                    "cell_text": "4,253 (24.3)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.5.1",
+                    "cell_text": "30-39 years"
+                  },
+                  {
+                    "cell_id": "2.5.2",
+                    "cell_text": "1,076 (28.0)"
+                  },
+                  {
+                    "cell_id": "2.5.3",
+                    "cell_text": "4,564 (28.6)"
+                  },
+                  {
+                    "cell_id": "2.5.4",
+                    "cell_text": "825 (28.0)"
+                  },
+                  {
+                    "cell_id": "2.5.5",
+                    "cell_text": "3,470 (28. 6)"
+                  },
+                  {
+                    "cell_id": "2.5.6",
+                    "cell_text": "1,191 (28.7)"
+                  },
+                  {
+                    "cell_id": "2.5.7",
+                    "cell_text": "5,174 (29.6)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.6.1",
+                    "cell_text": "40-49 years"
+                  },
+                  {
+                    "cell_id": "2.6.2",
+                    "cell_text": "581 (15.1)"
+                  },
+                  {
+                    "cell_id": "2.6.3",
+                    "cell_text": "2,224 (13.9)"
+                  },
+                  {
+                    "cell_id": "2.6.4",
+                    "cell_text": "385 (13.1)"
+                  },
+                  {
+                    "cell_id": "2.6.5",
+                    "cell_text": "1,503 (12.4)"
+                  },
+                  {
+                    "cell_id": "2.6.6",
+                    "cell_text": "659 (15.9)"
+                  },
+                  {
+                    "cell_id": "2.6.7",
+                    "cell_text": "2,623 (15.0)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.7.1",
+                    "cell_text": "50-59 years"
+                  },
+                  {
+                    "cell_id": "2.7.2",
+                    "cell_text": "184 (4.8)"
+                  },
+                  {
+                    "cell_id": "2.7.3",
+                    "cell_text": "649 (4.1)"
+                  },
+                  {
+                    "cell_id": "2.7.4",
+                    "cell_text": "76 (2.6)"
+                  },
+                  {
+                    "cell_id": "2.7.5",
+                    "cell_text": "254 (2.1)"
+                  },
+                  {
+                    "cell_id": "2.7.6",
+                    "cell_text": "203 (4.9)"
+                  },
+                  {
+                    "cell_id": "2.7.7",
+                    "cell_text": "730 (4.2)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.8.1",
+                    "cell_text": "60-69 years"
+                  },
+                  {
+                    "cell_id": "2.8.2",
+                    "cell_text": "59 (1.5)"
+                  },
+                  {
+                    "cell_id": "2.8.3",
+                    "cell_text": "170 (1.1)"
+                  },
+                  {
+                    "cell_id": "2.8.4",
+                    "cell_text": "14 (0.5)"
+                  },
+                  {
+                    "cell_id": "2.8.5",
+                    "cell_text": "37 (0.3)"
+                  },
+                  {
+                    "cell_id": "2.8.6",
+                    "cell_text": "67 (1.6)"
+                  },
+                  {
+                    "cell_id": "2.8.7",
+                    "cell_text": "191 (1.1)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.9.1",
+                    "cell_text": "70+ years"
+                  },
+                  {
+                    "cell_id": "2.9.2",
+                    "cell_text": "30 (0.8)"
+                  },
+                  {
+                    "cell_id": "2.9.3",
+                    "cell_text": "87 (0.5)"
+                  },
+                  {
+                    "cell_id": "2.9.4",
+                    "cell_text": "8 (0.3)"
+                  },
+                  {
+                    "cell_id": "2.9.5",
+                    "cell_text": "17 (0.1)"
+                  },
+                  {
+                    "cell_id": "2.9.6",
+                    "cell_text": "30 (0.7)"
+                  },
+                  {
+                    "cell_id": "2.9.7",
+                    "cell_text": "89 (0.5)"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Sex",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.10.1",
+                    "cell_text": "Male"
+                  },
+                  {
+                    "cell_id": "2.10.2",
+                    "cell_text": "2,316 (60.2)"
+                  },
+                  {
+                    "cell_id": "2.10.3",
+                    "cell_text": "10,057 (63.0)"
+                  },
+                  {
+                    "cell_id": "2.10.4",
+                    "cell_text": "1,879 (63.8)"
+                  },
+                  {
+                    "cell_id": "2.10.5",
+                    "cell_text": "8,223 (67.7)"
+                  },
+                  {
+                    "cell_id": "2.10.6",
+                    "cell_text": "2,464 (59.4)"
+                  },
+                  {
+                    "cell_id": "2.10.7",
+                    "cell_text": "10,808 (61.8)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.11.1",
+                    "cell_text": "Female"
+                  },
+                  {
+                    "cell_id": "2.11.2",
+                    "cell_text": "1,530 (39.8)"
+                  },
+                  {
+                    "cell_id": "2.11.3",
+                    "cell_text": "5,920 (37.1)"
+                  },
+                  {
+                    "cell_id": "2.11.4",
+                    "cell_text": "1,068 (36.2)"
+                  },
+                  {
+                    "cell_id": "2.11.5",
+                    "cell_text": "3,928 (32.3)"
+                  },
+                  {
+                    "cell_id": "2.11.6",
+                    "cell_text": "1,686 (40.6)"
+                  },
+                  {
+                    "cell_id": "2.11.7",
+                    "cell_text": "6,682 (38.2)"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Nationalityb",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.12.1",
+                    "cell_text": "Bangladeshi"
+                  },
+                  {
+                    "cell_id": "2.12.2",
+                    "cell_text": "228 (5.9)"
+                  },
+                  {
+                    "cell_id": "2.12.3",
+                    "cell_text": "1,054 (6.6)"
+                  },
+                  {
+                    "cell_id": "2.12.4",
+                    "cell_text": "230 (7.8)"
+                  },
+                  {
+                    "cell_id": "2.12.5",
+                    "cell_text": "1,061 (8.7)"
+                  },
+                  {
+                    "cell_id": "2.12.6",
+                    "cell_text": "266 (6.4)"
+                  },
+                  {
+                    "cell_id": "2.12.7",
+                    "cell_text": "1,237 (7.1)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.13.1",
+                    "cell_text": "Egyptian"
+                  },
+                  {
+                    "cell_id": "2.13.2",
+                    "cell_text": "129 (3.4)"
+                  },
+                  {
+                    "cell_id": "2.13.3",
+                    "cell_text": "543 (3.4)"
+                  },
+                  {
+                    "cell_id": "2.13.4",
+                    "cell_text": "91 (3.1)"
+                  },
+                  {
+                    "cell_id": "2.13.5",
+                    "cell_text": "374 (3.1)"
+                  },
+                  {
+                    "cell_id": "2.13.6",
+                    "cell_text": "150 (3.6)"
+                  },
+                  {
+                    "cell_id": "2.13.7",
+                    "cell_text": "637 (3.6)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.14.1",
+                    "cell_text": "Filipino"
+                  },
+                  {
+                    "cell_id": "2.14.2",
+                    "cell_text": "308 (8.0)"
+                  },
+                  {
+                    "cell_id": "2.14.3",
+                    "cell_text": "1,291 (8.1)"
+                  },
+                  {
+                    "cell_id": "2.14.4",
+                    "cell_text": "280 (9.5)"
+                  },
+                  {
+                    "cell_id": "2.14.5",
+                    "cell_text": "1,119 (9.2)"
+                  },
+                  {
+                    "cell_id": "2.14.6",
+                    "cell_text": "359 (8.7)"
+                  },
+                  {
+                    "cell_id": "2.14.7",
+                    "cell_text": "1,614 (9.2)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.15.1",
+                    "cell_text": "Indian"
+                  },
+                  {
+                    "cell_id": "2.15.2",
+                    "cell_text": "588 (15.3)"
+                  },
+                  {
+                    "cell_id": "2.15.3",
+                    "cell_text": "2,825 (17.7)"
+                  },
+                  {
+                    "cell_id": "2.15.4",
+                    "cell_text": "523 (17.8)"
+                  },
+                  {
+                    "cell_id": "2.15.5",
+                    "cell_text": "2,499 (20.6)"
+                  },
+                  {
+                    "cell_id": "2.15.6",
+                    "cell_text": "639 (15.4)"
+                  },
+                  {
+                    "cell_id": "2.15.7",
+                    "cell_text": "3,081 (17.6)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.16.1",
+                    "cell_text": "Nepalese"
+                  },
+                  {
+                    "cell_id": "2.16.2",
+                    "cell_text": "212 (5.5)"
+                  },
+                  {
+                    "cell_id": "2.16.3",
+                    "cell_text": "1,018 (6.4)"
+                  },
+                  {
+                    "cell_id": "2.16.4",
+                    "cell_text": "210 (7.1)"
+                  },
+                  {
+                    "cell_id": "2.16.5",
+                    "cell_text": "1,024 (8.4)"
+                  },
+                  {
+                    "cell_id": "2.16.6",
+                    "cell_text": "220 (5.3)"
+                  },
+                  {
+                    "cell_id": "2.16.7",
+                    "cell_text": "1,060 (6.1)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.17.1",
+                    "cell_text": "Pakistani"
+                  },
+                  {
+                    "cell_id": "2.17.2",
+                    "cell_text": "263 (6.8)"
+                  },
+                  {
+                    "cell_id": "2.17.3",
+                    "cell_text": "1,181 (7.4)"
+                  },
+                  {
+                    "cell_id": "2.17.4",
+                    "cell_text": "257 (8.7)"
+                  },
+                  {
+                    "cell_id": "2.17.5",
+                    "cell_text": "1,134 (9.3)"
+                  },
+                  {
+                    "cell_id": "2.17.6",
+                    "cell_text": "281 (6.8)"
+                  },
+                  {
+                    "cell_id": "2.17.7",
+                    "cell_text": "1,286 (7.4)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.18.1",
+                    "cell_text": "Qatari"
+                  },
+                  {
+                    "cell_id": "2.18.2",
+                    "cell_text": "1,307 (34.0)"
+                  },
+                  {
+                    "cell_id": "2.18.3",
+                    "cell_text": "5,594 (35.0)"
+                  },
+                  {
+                    "cell_id": "2.18.4",
+                    "cell_text": "745 (25.3)"
+                  },
+                  {
+                    "cell_id": "2.18.5",
+                    "cell_text": "3,060 (25.2)"
+                  },
+                  {
+                    "cell_id": "2.18.6",
+                    "cell_text": "1,336 (32.2)"
+                  },
+                  {
+                    "cell_id": "2.18.7",
+                    "cell_text": "5,771 (33.0)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.19.1",
+                    "cell_text": "Sri Lankan"
+                  },
+                  {
+                    "cell_id": "2.19.2",
+                    "cell_text": "55 (1.4)"
+                  },
+                  {
+                    "cell_id": "2.19.3",
+                    "cell_text": "195 (1.2)"
+                  },
+                  {
+                    "cell_id": "2.19.4",
+                    "cell_text": "47 (1.6)"
+                  },
+                  {
+                    "cell_id": "2.19.5",
+                    "cell_text": "193 (1.6)"
+                  },
+                  {
+                    "cell_id": "2.19.6",
+                    "cell_text": "63 (1.5)"
+                  },
+                  {
+                    "cell_id": "2.19.7",
+                    "cell_text": "237 (1.4)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.20.1",
+                    "cell_text": "Sudanese"
+                  },
+                  {
+                    "cell_id": "2.20.2",
+                    "cell_text": "56 (1.5)"
+                  },
+                  {
+                    "cell_id": "2.20.3",
+                    "cell_text": "202 (1.3)"
+                  },
+                  {
+                    "cell_id": "2.20.4",
+                    "cell_text": "48 (1.6)"
+                  },
+                  {
+                    "cell_id": "2.20.5",
+                    "cell_text": "157 (1.3)"
+                  },
+                  {
+                    "cell_id": "2.20.6",
+                    "cell_text": "63 (1.5)"
+                  },
+                  {
+                    "cell_id": "2.20.7",
+                    "cell_text": "228 (1.3)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.21.1",
+                    "cell_text": "Other nationalities"
+                  },
+                  {
+                    "cell_id": "2.21.2",
+                    "cell_text": "700 (18.2)"
+                  },
+                  {
+                    "cell_id": "2.21.3",
+                    "cell_text": "2,074 (13.0)"
+                  },
+                  {
+                    "cell_id": "2.21.4",
+                    "cell_text": "516 (17.5)"
+                  },
+                  {
+                    "cell_id": "2.21.5",
+                    "cell_text": "1,530 (12.6)"
+                  },
+                  {
+                    "cell_id": "2.21.6",
+                    "cell_text": "773 (18.6)"
+                  },
+                  {
+                    "cell_id": "2.21.7",
+                    "cell_text": "2,339 (13.4)"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Reason for PCR testing",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.22.1",
+                    "cell_text": "Clinical suspicion"
+                  },
+                  {
+                    "cell_id": "2.22.2",
+                    "cell_text": "1,932 (50.2)"
+                  },
+                  {
+                    "cell_id": "2.22.3",
+                    "cell_text": "7,933 (49.7)"
+                  },
+                  {
+                    "cell_id": "2.22.4",
+                    "cell_text": "1,356 (46.0)"
+                  },
+                  {
+                    "cell_id": "2.22.5",
+                    "cell_text": "5,573 (45.9)"
+                  },
+                  {
+                    "cell_id": "2.22.6",
+                    "cell_text": "2,092 (50.4)"
+                  },
+                  {
+                    "cell_id": "2.22.7",
+                    "cell_text": "8,788 (50.3)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.23.1",
+                    "cell_text": "Contact tracing"
+                  },
+                  {
+                    "cell_id": "2.23.2",
+                    "cell_text": "552 (14.4)"
+                  },
+                  {
+                    "cell_id": "2.23.3",
+                    "cell_text": "2,011 (12.6)"
+                  },
+                  {
+                    "cell_id": "2.23.4",
+                    "cell_text": "479 (16.3)"
+                  },
+                  {
+                    "cell_id": "2.23.5",
+                    "cell_text": "1,716 (14.1)"
+                  },
+                  {
+                    "cell_id": "2.23.6",
+                    "cell_text": "584 (14.1)"
+                  },
+                  {
+                    "cell_id": "2.23.7",
+                    "cell_text": "2,181 (12.5)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.24.1",
+                    "cell_text": "Survey"
+                  },
+                  {
+                    "cell_id": "2.24.2",
+                    "cell_text": "700 (18.2)"
+                  },
+                  {
+                    "cell_id": "2.24.3",
+                    "cell_text": "3,091 (19.4)"
+                  },
+                  {
+                    "cell_id": "2.24.4",
+                    "cell_text": "528 (17.9)"
+                  },
+                  {
+                    "cell_id": "2.24.5",
+                    "cell_text": "2,323 (19.1)"
+                  },
+                  {
+                    "cell_id": "2.24.6",
+                    "cell_text": "780 (18.8)"
+                  },
+                  {
+                    "cell_id": "2.24.7",
+                    "cell_text": "3,455 (19.8)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.25.1",
+                    "cell_text": "Individual request"
+                  },
+                  {
+                    "cell_id": "2.25.2",
+                    "cell_text": "495 (12.9)"
+                  },
+                  {
+                    "cell_id": "2.25.3",
+                    "cell_text": "2,328 (14.6)"
+                  },
+                  {
+                    "cell_id": "2.25.4",
+                    "cell_text": "457 (15.5)"
+                  },
+                  {
+                    "cell_id": "2.25.5",
+                    "cell_text": "2,136 (17.6)"
+                  },
+                  {
+                    "cell_id": "2.25.6",
+                    "cell_text": "510 (12.3)"
+                  },
+                  {
+                    "cell_id": "2.25.7",
+                    "cell_text": "2,403 (13.7)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.26.1",
+                    "cell_text": "Healthcare routine testing"
+                  },
+                  {
+                    "cell_id": "2.26.2",
+                    "cell_text": "133 (3.5)"
+                  },
+                  {
+                    "cell_id": "2.26.3",
+                    "cell_text": "551 (3.5)"
+                  },
+                  {
+                    "cell_id": "2.26.4",
+                    "cell_text": "102 (3.5)"
+                  },
+                  {
+                    "cell_id": "2.26.5",
+                    "cell_text": "371 (3.1)"
+                  },
+                  {
+                    "cell_id": "2.26.6",
+                    "cell_text": "145 (3.5)"
+                  },
+                  {
+                    "cell_id": "2.26.7",
+                    "cell_text": "589 (3.4)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.27.1",
+                    "cell_text": "Other"
+                  },
+                  {
+                    "cell_id": "2.27.2",
+                    "cell_text": "34 (0.9)"
+                  },
+                  {
+                    "cell_id": "2.27.3",
+                    "cell_text": "63 (0.4)"
+                  },
+                  {
+                    "cell_id": "2.27.4",
+                    "cell_text": "25 (0.9)"
+                  },
+                  {
+                    "cell_id": "2.27.5",
+                    "cell_text": "32 (0.3)"
+                  },
+                  {
+                    "cell_id": "2.27.6",
+                    "cell_text": "39 (0.9)"
+                  },
+                  {
+                    "cell_id": "2.27.7",
+                    "cell_text": "74 (0.4)"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

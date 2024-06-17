@@ -1,0 +1,508 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "assets-publishing-service-gov-uk_government_uploads_system_uploads_attachment_data_file_1009243_Technical_Briefing_20-pdf",
+      "inputfile": "../../data/processed/html/html_other/assets-publishing-service-gov-uk_government_uploads_system_uploads_attachment_data_file_1009243_Technical_Briefing_20-pdf.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "SARS-CoV-2 variants of concern and variants under investigation in England Technical briefing 20",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 96,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "There are 4 current variants of concern (VOCs) and 10 variants under investigation (VUIs) ( Table 1) . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 207,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "This report has been published to continue to share the detailed variant surveillance analyses which contribute to the variant risk assessments and designation of new VOCs and VUIs. The specialist technical briefings contain early data and analysis on emerging variants and findings have a high level of uncertainty. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 524,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "A new risk assessment for VUI-21JUL-01 (B.1.621) has been published and is available here. There are no updates to the Delta (B.1.617.2) risk assessment this week. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 688,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "A separate report is published covering routine data on all other VOCs and VUIs. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 769,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "Principal changes and findings are: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 805,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "• there are no new VOCs or VUIs since the last briefing • the proportion of cases sequenced and genotyped remains relatively low but has started to recover as case numbers fall and capacity expands • Delta variant accounted for approximately 99% of sequenced and 98% genotyped cases from 25 July to 31 July 2021 • PCR cycle threshold (Ct) values from routinely undertaken tests in England ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1194,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "show that Ct values (and by inference viral load) are similar between individuals who are unvaccinated and vaccinated. • the UK Genotype to Phenotype Consortium reports new data relating to VUI-21JUL-01 (B.1.621). There is evidence of reduction in pseudovirus neutralisation by serum from individuals who have been vaccinated or previously infected with Delta ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1554,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "All risk assessments are published separately on the PHE webpage, Investigation of SARS-CoV-2 variants of concern, except for Gamma, which was published within Technical Briefing 7 and Alpha within Technical Briefing 9. As Delta is the dominant variant in the UK, epidemiological data in the weekly surveillance report is also relevant. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1891,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "The collection page gives content on variants, including prior technical briefings. Definitions for variants of concern, variants under investigation, and signals in monitoring are detailed in technical briefing 8. Data on variants not detailed here is published in the variant data update. Variant risk assessments are available in prior technical briefings. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2251,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "Public Health England (PHE) curated a repository on the 5 March 2021 containing the upto-date genomic definitions for all VOCs and VUIs. The repository is accessible on GitHub. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2428,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "World Health Organization (WHO) nomenclature from 31 May 2021 is incorporated. A table incorporating WHO and UK designations with Pango lineages is provided below (Table 1) . Following the table, variants are referred to using their WHO designation where this exists and the UK designation where it does not. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2737,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "Technical briefings are published periodically. From 15 onwards, briefings include variant diagnoses made by whole-genome sequencing and a genotyping PCR test, including the categorisation of sequenced and genotyped variant results and a rules-based decision algorithm (RBDA) to identify variant and mutation (VAM) profiles from genotype assay mutation profiles. Genotyping is used to identify variants Alpha, Beta, Delta, and Gamma. Targets were updated in mid-May 2021 to prioritise accurate identification of Delta over Alpha. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3267,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "Part 1: Surveillance overview Table 1 shows the current VOC, VUI, and variants in monitoring as of 2 August. VOCs and VUIs are monitored weekly for observations within the last 12 weeks. If variants have not been detected in the UK within this period, they are moved to international status with continued monitoring. If a VOC or VUI has not been observed in the UK or international datasets within the preceding 12 weeks, it is designated as provisionally extinct, but monitoring remains in place. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3766,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "VOC-21FEB-02 (B.1.1.7 with E484K) and VUI-21MAR-01 (B.1.324.1 with E484K) have not been observed in the UK or within the international GISAID dataset within the last 12 weeks. These variants are no longer included in the data update. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4000,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "^Epsilon, Zeta and Theta were de-escalated by ECDC and by WHO. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4063,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "Sequencing capacity has been maintained, but the proportion of cases sequenced has fallen with increasing case numbers. Figure 1 shows the proportion of cases sequenced over time. Figure 2 shows the proportion of cases sequenced over time by regions. Figure  3 shows the proportion of cases sequenced amongst cases who tested positive while in hospital. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4417,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "There is a reduction in overall sequencing coverage ( Figure 1 ). Sequencing coverage is slightly higher for cases in hospital ( Figure 3 ). During the current surge period, the sequencing strategy is: ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4619,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "• hospitalised cases and hospital staff • cases among international travellers • national core priority studies • as near random a sample as possible from each region, to the maximum coverage allowed by laboratory capacity ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4842,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "The increase in cases observed in England since the middle of June 2021 has resulted in a lower proportion of samples being sent for whole-genome sequencing (WGS) and genotyping. Grey shading was applied to the previous 14 days to account for reporting delays in sequencing data. There were 5493 cases with missing regional data that were excluded. Grey shading was applied to the previous 14 days to account for reporting delays in sequencing data. From 14 to 18 June 2021 an operational issue at a sequencing site resulted in a reduction in the number of samples with sequencing data of sufficient quality for variant assignment. There were 19,502 samples reported to PHE as impacted by the incident. PHE has received approximately 10,000 sample identifiers from the list of those affected of which sequencing data has been obtained for approximately 4,300 and genotyping data for 3,300 have a reflex assay result. For approximately 2,400 samples variant assignment is not possible. This issue resulted in a reduction in genome coverage for specimen dates 10 to 15 June 2021 and may impact variant counts in figures and tables for this limited period. The unusable samples were from locations distributed around the UK and the proportions of different variants by region should be correct. In addition, the genotyping results means that this has limited impact in the interpretation of the overall data. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6248,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "1.3 VOC and VUI case numbers, proportion, deaths and case fatality rate Summary epidemiology on Delta is shown in Table 2 and for each variant is shown in Table 3 , case numbers are also updated online. Table 3 shows the number of sequenced, genotyped, and total cases and deaths for each variant. However, case fatality rates are not comparable across variants (see Table 3 footnote). Tables 4 and 5 show the number of cases who visited an NHS Emergency Department, were admitted, and died in any setting. The data is shown from 1 February 2021 onwards to enable comparisons across variants. Figure 4 shows the cumulative number of cases per variant indexed by days since the first report. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6939,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "Information on attendance to emergency care is derived from the Emergency Care Data Set (ECDS), provided by NHS Digital. These data only show whether a case has attended hospital and was subsequently admitted as an inpatient. The data excludes cases currently in hospital or were directly admitted without first presenting to emergency care. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7281,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "The crude analysis indicates that the proportion of Delta cases who present to emergency care is greater than that of Alpha, but a more detailed analysis indicates a significantly greater risk of hospitalisation among Delta cases compared to Alpha (see page 50 of Variant Technical Brief 15. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7573,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "ECDS reporting is lagged as NHS trusts routinely provide monthly data by the 21st of the following month. However, some trusts report daily data, and the linkage between coronavirus (COVID-19) cases and ECDS data is updated twice-weekly.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7812,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "0 - 0.0 - 0.0 - 0.0 ≥50 - 0.0 - 0.0 - 0.0 - 0.0 - 0.0 - 0.0 All cases - 0.0 1 14.3 1 14.3 - 0.0 - 0.0 - 0.0 Kappa <50 - 0.0 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7936,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "≥50 - 0.0 - 0.0 - 0.0 - 0.0 - 0.0 - 0.0 All cases - 0.0 - 0.0 - 0.0 - 0.0 - 0.0 - 0.0 VUI- 21MAY- 01 <50 - 0.0 1 0.6 2 1.2 - 0.0 1 0.6 - 0.0 ≥50 - 0.0 - 0.0 - 0.0 - 0.0 - 0.0 1 4.3 All cases - 0.0 1 0.5 2 1.1 - 0.0 1 0.5 1 0.5 VUI- 21MAY- 02 <50 - 0.0 8 7.3 9 8.2 2 1.8 3 2.7 - 0.0 ≥50 - 0.0 - 0.0 - 0.0 - 0.0 - 0.0 - 0.0 All cases - 0.0 8 5.6 9 6.3 2 1.4 3 2.1 - 0.0 Lambda <50 - 0.0 1 12.5 1 12.5 1 12.5 1 12.5 - 0.0 ≥50 - - - - - - - - - - - - - All ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8389,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "A list of mutations of potential antigenic significance has been compiled using the available published evidence. The full list of mutations of potential antigenic significance is compiled and continuously updated by an expert group comprising members of the variant technical group, COG-UK, and UK-G2P using literature searches and data mining from publicly available datasets. Data analysis includes GISAID data uploaded before 4 August 2021 (excluding UK data). The increase in the number of antigenic mutations over time is illustrated for all variants in Figure 9 and for variants excluding VOCs and VUIs in Figure  10 . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9015,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "The plots in Figures 9 and 10 were obtained by first counting the number of high confidence antigenic mutations for each sequence. The sequences were then grouped and the prevalence for each number of mutations was estimated weekly from March 2020 until 1 July 2021. All non-synonymous mutations at positions in the spike protein that have been associated with antigenicity were considered antigenic. VOCs or VUIs were identified by analysing their spike mutation profile to deal with low-quality and partial sequences. Table 6 shows additional spike mutations with a potential impact on antigenicity, avidity, or the furin cleavage site significance acquired by Delta in the UK. This data uses the numbers of genomes in the national genomic data set rather than case numbers. Only mutations associated with antigenic change are presented here, such as those identified by published research. The unlinked sequences represent the number of sequences not present within the English surveillance system. These sequences include those samples from the Devolved Administrations and cannot be associated with a date by PHE. 9   20  3  V445I  40  3  0  2  0   32  0  L455F  33  39  0  11  14   16  11  N501Y  29  128  0  20  8   9  15  S494P  25  25  0  9  5   13  7  K458N  23  10  0  0  18   5  5  K444N  21  38  4  15  6   5  15  F490L  20  4  0  2  1   15  1  E484Q  15  155  1  17  4   6  43  P681H  13  28  1  11  1   4  1,373  R246I  11  12  1  1  0   10  2  P499L  11  5  0  0  3   6  1  E484G  9  3  0  0  2   5  1  E484A  7  15  1  1  2   0  1  D80A  2  61  1  10  0   1  8  E484K  1  25  0  3  1   0  1  Total Delta  229, ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10642,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "This section includes secondary attack rates for traveller and non-traveller cases, and separate household contact rates, including new analysis of rates for household and nonhousehold contacts of non-traveller cases over time for Delta and Alpha variants. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10899,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "Secondary attack rates are based on positive tests amongst contacts named to NHS Test and Trace by an original case identified with a sequenced or genotyped VOC or VUI. Variant cases are identified using sequencing results supplemented with genotyping results as of 26 July 2021 and exclude low-quality results. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11211,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "Secondary attack rates are shown for cases with and without travel history. In non-travel settings, only close contacts named by the original case are included, that is, household members, face-to-face contact, people within one metre of the case for one minute or longer, or people within 2 metres for 15 minutes. In travel settings, the contacts reported are not restricted to only close contacts named by the case. For example, they may include contacts on a plane linked by additional contact tracing efforts. This likely deflates secondary attack rates amongst travellers compared to non-travellers. In addition, people recently returning from overseas are subject to stricter quarantine measures and may moderate their behaviour towards contacts. Travel history suggests where infection of the original case may have occurred. Table 7 shows secondary attack rates for all variants between 5 January 2021 and 13 July 2021, which was a period chosen to capture data for all variants. Direct comparisons between variants are not valid as vaccination levels and social restrictions in England have varied over this period. Estimates of secondary attack rates for travel-related contacts with VOCs or VUIS were considerably lower than non-travel cases due to differences in contact definitions. Figure 11 shows the secondary attack rates amongst household and non-household contacts of non-travel cases with Delta and Alpha between 29 March 2021 to 11 July 2021. Secondary attack rates amongst household and non-household contacts of cases with Delta appear steady over the last 6 weeks, with estimates of 10.4% (95% CI: 10.1% -10.7%) for household contacts and 6.2% (95% CI: 5.8% -6.7%) for non-household contacts from exposure events after 5 July 2021. Secondary attack rate estimates for contacts of cases with Alpha have not been produced for the most recent week due to low case numbers. Please see footnote to Table 7 . Data provided is for period until 11 July 2021 in order to allow time for contacts to become cases and complete weeks to be shown. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13269,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "1.7.1. Comparison of viral load Ct by vaccination status ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13326,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "In the NHS Test and Trace (NHSTT) case data, the mean and median lowest Ct values for all cases with Delta, where Ct data are available, since the 14 June 2021 are similar, with a median of 17.8 for unvaccinated and 18.0 for those with 2 vaccine doses ( Figure 12 ). This means that whilst vaccination may reduce an individual's overall risk of becoming infected, once they are infected there is limited difference in viral load (and Ct values) between those who are vaccinated and unvaccinated. Given they have similar Ct values, this suggests limited difference in infectiousness. To note, this analysis is undertaken on case data and are not age-stratified. Findings can be influenced by test-seeking behaviour, as well as true changes in the data, for example the age distribution of cases, which can also influence Ct values. Notes This Figure shows the Ct values (higher count for lower viral loads) in people who catch the Alpha variant (referred to as SGTF, shown in red, yellow and brown), or Delta variant (Delta compatible referred to as All3P or S+, shown in green, blue and purple). For each variant, a comparison is shown between Ct values of unvaccinated cases, cases with 1 vaccination dose more than 21 days ago, and cases with 2 vaccination doses more than 21 days ago. Since May 2021 the average Ct values for Delta cases overall in the NHSTT case data (using the S gene as a proxy), have decreased (meaning average viral loads have become higher), which is a known pattern in an increasing epidemic (and was previously seen when the original 'wild type' virus was no longer prevalent). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14932,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "This section contains summaries of key information reported by Variant Technical Group members for use in the variant risk assessments. Links to full published data will be provided once available. VUI-21JUL-01 is characterised by the non-synonymous mutations NSP3; T237A, T720I. NSP4; T492I. NSP6; Q160R. NSP12; P323L. NSP13; P419S, T95I. S; R346K, E484K, N501Y, D614G, P681H, D950N. ORF3a; Q57H, ORF8; T11K, P38S, S67F, and N; T205I as well as an insertion in S at 144. Recent sequences identified as B.1.621 have also contained the spike K417N mutation. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15489,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "The phylogenetic tree of UK VUI-21JUL-01 (B.1.621) cases is shown in Figure 13 , which supports multiple importation events.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15615,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "As of 2 August 2021, there are 32 VUI-21JUL-01 cases in England and 4 genomes for which case data is being sought. Cases have been detected across 6 English regions, with most cases in London (18, 56%). The most frequent age group was the under 20 age group, with 11 cases. Seven of the 32 cases have history of travel which include travel from or transit through Mexico, Spain, Dominican Republic, and Colombia.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16029,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "As of 2 August 2021, 3,854 sequences on GISAID have been assigned to the B.1.621 lineage. B.1.621 sequences have been uploaded from Aruba (76), Austria (49), Belgium (29), Bonaire (5), Brazil (5), Chile (1), Colombia (398), Costa Rica (5), Curacao (17), Denmark (5), Dominican Republic (9), Ecuador (107), Finland (3), France (9), Germany (15), Hong Kong (2), Ireland (4), Italy (61), Japan (2), Luxembourg (1), Malta (1), Mexico (193) , Netherlands (64), Poland (3), Portugal (23), Saint Martin (2), Slovakia (3), Spain (258), Switzerland (35), USA (542). Figure  15 shows the distribution of case per country over time, based on GISAID data, indicating that an increasing number of countries reported cases in June and July.  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16757,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "SARS-CoV-2 variants of concern and variants under investigation ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16821,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "Genotyping is used to identify variants Alpha, Beta, Delta and Gamma; targets were updated in mid-May 2021 to prioritise accurate identification of Delta over Alpha. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16987,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "Note that 1,253 cases were excluded due to missing region or specimen date information. SARS-CoV-2 variants of concern and variants under investigation ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17139,
+          "infons": {
+            "section_title_1": "Summary ",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "Note that 1,512 cases were excluded due to missing region or specimen date information. SARS-CoV-2 variants of concern and variants under investigation ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

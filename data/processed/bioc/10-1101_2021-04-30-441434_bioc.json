@@ -1,0 +1,225 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-04-30-441434",
+      "inputfile": "../../data/processed/html/10-1101_2021-04-30-441434.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "N440K variant of SARS-CoV-2 has Higher Infectious Fitness",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 57,
+          "infons": {
+            "section_title_1": "INTRODUCTION",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Past one year has witnessed the emergence of several variant strains of the SARS-CoV-2 (1). Some of them have gained advantage over the original or previously prevalent strains in spreading across populations and replacing them in due course. Of the several such variants of interest (VoI), a few have been implicated in increased infectivity and severity. By June 2020, a variant with D614G substitution had become the predominant strain over the ancestral strains (2). This variant was demonstrated to have higher fitness (3), (4) over the previously dominant ancestral strains. Later, the UK variant B.1.1.7 lineage, Brazilian variant P.1 lineage (5) and the South African B.1.351 (6) have emerged as variants of concern (VoC) (1). The newly evolving variants are expected to have better fitness over their ancestral strains. One prototype of the UK variants named 20I/501Y.V1 with B.1.1.7 lineage was demonstrated to have higher replicative fitness over an ancestral D614G strain (7). Comparative studies have also identified efficient infection and distinct pattern of cytokine induction by these three VoIs (8) indicating that each of these variants establish a unique relationship with the host.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1271,
+          "infons": {
+            "section_title_1": "INTRODUCTION",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "In this study, we compared the replicative fitness and infectivity of prototypes of three SARS-CoV-2 strains. Of these strains, N440K variant with the mutation in Spike is being increasingly detected in India (https://data.ccmb.res.in/gear19/). A3i variant has a characteristic A97V substitution in RdRP (Nsp12) sequence, while A2a strain has a D614G substitution in Spike and a and P323L substitution in RdRP. N440K variant has a P323L substitution in RdRP in addition to N440K in Spike. In addition to these, each of the variant had distinct variations in other sequences. Our studies unambiguously demonstrate that N440K variant prototype has capacity to generate significantly higher titers of infectious virus in shorter duration and suggest that this feature could promote its faster spread among certain populations.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2094,
+          "infons": {
+            "section_title_1": "RESULTS AND DISCUSSION",
+            "section_title_2": "Figure 1.: Analysis of the prevalence of N440K Spike variant of SARS-CoV-2.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318",
+            "iao_name_2": "discussion section",
+            "iao_id_2": "IAO:0000319"
+          },
+          "text": "We analyzed the GISAID database (9) for the prevalence of variants containing N440K substitution in Spike. A total of 1555 entries with N440K substitution could be identified from across the world. Interestingly, India contributed the largest proportion of N440K variants at 33%, followed by the USA and Germany (Figure 1A). Submissions of sequences from India contributed to 0.86% of the total submissions (Figure 1B). Of the submissions from India, 4.9% sequences contained N440K substitution (Figure 1B). However, when Indian submissions from January 2021 till 24th April 2021 were analyzed, the proportion of N440K substitution significantly went up to 8.82% (Figure 1C). A further breakdown of the recent data indicates a gradual increase in the representation of this variant with March and April 2021 adding more of this variant that the previous months (Figure 1D). An increase in the proportion of N440K variant in the Indian samples is also evident with almost 10% of the sequences submitted in April 2021 carrying this substitution (Figure 1E). Importantly, higher numbers of submissions with N440K from other parts of the world were seen in the past two months, indicating its rising spread in such countries (Figure 1F). Significantly, these months also saw increased submission of sequences from India. Karnataka, Maharashtra, Telangana and Chhattisgarh together contributed to about 50% of these samples indicating the geographically localized spread of this variant in India (Figure 2 A and B). Interestingly, over 99% of the N440K variants were in the background of D641G substitution, indicating that these variants are in the lineage of A2a strain. Taken together, the data suggests that the proportion of N440K variant has been increasing gradually and suggesting its improved replicative fitness or increased infectivity.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4033,
+          "infons": {
+            "section_title_1": "RESULTS AND DISCUSSION",
+            "section_title_2": "Figure 3.: Analysis of the replicative fitness and infectious viral particle generation for three variants used in this study.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318",
+            "iao_name_2": "discussion section",
+            "iao_id_2": "IAO:0000319"
+          },
+          "text": "Since the proportion of N440K variant has been rising among the sequenced samples from India, we asked if they have a growth advantage over some of the other strains. We compared the viral RNA titers of prototypes isolates of three strains from our repository. The genetic comparison is provided in Figure 3A. The growth of these viruses in cultured cells was analyzed by measuring the viral RNA titer and infectious viral titers of the supernatants. RNA titers in the viral culture supernatants are the default measure of the presence of SARS-CoV-2. Caco2 cells were infected by each of the three variants at 0.1 MOI Viral RNA in the supernatants were measured by RT-qPCR detection of SARS-CoV-2 genes at 24-, 48-, and 72-hours post-infection (hpi). As indicated by the relative RNA levels (Figure 3 B and C), the A2a strain replicated at significantly slower rate as compared to the other two strains. Both RdRP and E gene levels from A2a strain were lower than the other two by over a log. A3i strain had moderately higher levels of viral RNA than N440K strain until 48 hpi, but both attained similar RNA levels at 72 hpi. These results indicated that of the three strains, A3i has higher replicative rate than the other two while A2a replicated at the slowest rate. We repeated these experiments in another permissive cell line, Calu-3. Here again, A2a had the lowest RNA titers at 24 hpi, followed by N440K and A3i had the highest (Figure 3 E and F). However, at 48 and 72 hpi, A2a and A3i had almost similar levels of RNA while N440K had the lowest. These results indicate that A3i has the most competent replication across multiple cell lines.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5809,
+          "infons": {
+            "section_title_1": "RESULTS AND DISCUSSION",
+            "section_title_2": "Figure 3.: Analysis of the replicative fitness and infectious viral particle generation for three variants used in this study.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318",
+            "iao_name_2": "discussion section",
+            "iao_id_2": "IAO:0000319"
+          },
+          "text": "Next, we measured the infectious viral particles in the supernatants of the infected Caco2 cells. Surprisingly, N440K variant had the highest infectious viral titers from 24 to 72 hpi while A3i strain had the lowest among the three (Figure 3D). At 72 hpi, N440K variant achieved infectious titer around 1010 PFU/mL, which was three logs (1000 ×) higher than that of A3i. N440K variant was also produced over 10 times higher numbers than the A2a prototype. In Calu-3 cells also A3i continued to generate far fewer infectious virions (Figure 3G). N440K had higher titers at 24 hpi even though this advantage was not maintained at the later time points. These results clearly demonstrate that N440K variant prototype is able to generate far more infectious virions than both A3i and A2a strains and the A3i prototype had the lowest. Our results indicate that N440K variant has a high potential to become a dominant strain considering its capacity to produce higher titers of infectious viral particles.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6808,
+          "infons": {
+            "section_title_1": "RESULTS AND DISCUSSION",
+            "section_title_2": "Figure 3.: Analysis of the replicative fitness and infectious viral particle generation for three variants used in this study.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318",
+            "iao_name_2": "discussion section",
+            "iao_id_2": "IAO:0000319"
+          },
+          "text": "N440K mutation has been reported in several clusters in India and our analysis confirms this. This mutation has been suspected to be responsible for superinfections and quick spread of the infection in certain pockets. Our studies clearly demonstrate that the variant carrying this mutation produces large titers of infectious virions more rapidly than the other two strains tested. More importantly, the ability of N440K variant to generate about 10 folds more infectious virus particles than the A2a prototype, the strain that has been in circulation worldwide, assumes significance in the context of its widespread presence in India and certain other parts of the world. N440K variant is able to generate larger amounts of viruses in shorter time and hence should be capable of rapid spread across the population. The ability to generate larger amounts of infectious virus particles in shorter amount of time could provide it significant advantage over the other competing strains in establishing itself in a large population. Their increasing proportion in certain clusters validates this observation. Whole genome sequencing data for the viral strain samples from pan-India would facilitate a better understanding of its penetration within the Indian population.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8075,
+          "infons": {
+            "section_title_1": "RESULTS AND DISCUSSION",
+            "section_title_2": "Figure 3.: Analysis of the replicative fitness and infectious viral particle generation for three variants used in this study.",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318",
+            "iao_name_2": "discussion section",
+            "iao_id_2": "IAO:0000319"
+          },
+          "text": "It is unclear if N440K mutation provides the virus any advantage at the entry or post-entry stages. Despite sharing the D614G variation, N440K variant differs significantly from the A2a prototype by having multiple mutations in several Nsps that are shown to interfere with the host innate immune response (10). A2a strain has been in circulation across the globe for over several months and is one of the predominant strains (11). On the other hand, A3i strain that was in circulation during the early periods of the pandemic has been very limited in circulation. One of the speculated causes for its disappearance from the population is the A97V substitution in RdRP. The dominant strains that replaced A3i have a P323L substitution that was reported to have augmented the polymerase activity, thereby enhancing their replicative fitness resulting in their dominance (12). However, our studies indicate that this strain is capable of high levels of replication, but its lower infectious titers could be responsible for its disappearance from the population. Additional mutations located in Nucleocapsid (P13L) or in the non-structural proteins could be responsible for their lower infectious titer. Our studies also underline of the fallacy of depending on RT-qPCR and highlight the importance of measuring the infectious viral titers in such comparative studies.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9440,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Vero (CCL-81) African green monkey kidney epithelial cells, Caco2 colorectal adenocarcinoma and Calu-3 lung adenocarcinoma cells were cultured in Dulbecco's Modified Eagle's Medium (DMEM; from Gibco) with Fetal Bovine Serum (FBS; from Hyclone) and 1× penicillin-streptomycin cocktail (Gibco, 15140-122) at 37°C and 5% CO2. Cells were continuously passaged at 70-80% confluency and mycoplasma contamination was monitored periodically.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9894,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Three Indian isolates of SARS-CoV-2 strains were used in this study (EPI_ISL_539744 (N440K); EPI_ISL_458046 (A2a); and EPI_ISL_458075 (A3i)). The viruses were propagated in Vero (CCL-81) cells grown in 1×DMEM deficient in serum and antibiotics. Caco2 and Calu-3 cells were infected at 0.1 MOI for 2 hours in serum-free conditions after which the media was replaced with complete media and further incubated until the time of harvesting. Supernatants collected at the end of time intervals were centrifuged to remove debris and used for RNA preparation and plaque forming assay.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10471,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "The RNA was isolated using Nucleospin Viral RNA kit (MACHEREY-NAGEL GmbH & Co. KG) and the SARS-CoV-2 RNA was quantified using a commercial kit (LabGun™ COVID-19 RT-PCR Kit; CV9032B) in Roche LightCycler 480. The Ct values were normalized against the internal control references provided in the kit. ΔΔ-Ct values were plotted in the graph demonstrating the relative fold changes in the respective samples against the uninfected control samples. The infectious viral particle numbers in the supernatant were quantified using plaque-forming unit (PFU/mL) assay in Vero monolayers. Here, the supernatants were log diluted in 1× serum-free DMEM before infecting Vero monolayer. 2 hpi the cells were overlaid with agarose: DMEM mix containing 1% LMA and the plates were incubated for 6 days at 37°C. After the incubation, the cells were fixed with 4% formaldehyde and stained with crystal violet. The clear zones were counted and PFU was calculated as PFU/mL.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11425,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "The Global initiative on sharing all influenza data (GISAID) database was used for all infographic analysis used in this study. Firstly, the common mutations in all the three strains were identified by Venny 2.1.0 (13). Following this, the Venn diagram was made using Adobe photoshop. For the graph plotting of the infographs, Graphpad Prism was used. No statistical method was applied to the graphs and no tests to attain significance was done.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11870,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "All the experiments were performed in a minimum of three independent biological replicates to generate Mean ± SEM which are plotted graphically. For statistical significance, paired end, two-tailed t-test was performed and represented as P-values. *, ** and *** indicate P-values <0.05>0.01, <0.01>0.001 and <0.001 respectively.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12198,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Institutional ethics clearance (IEC-82/2020) was obtained for the patient sample processing for virus culture.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12308,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Institutional biosafety clearance was obtained for the experiments pertaining to SARS-CoV-2.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

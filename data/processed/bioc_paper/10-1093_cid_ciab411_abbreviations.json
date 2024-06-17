@@ -1,0 +1,53 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1093_cid_ciab411",
+      "inputfile": "../../data/processed/html_papers/10-1093_cid_ciab411.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VOC",
+          "text_long_1": "Variant of Concern",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VUI",
+          "text_long_1": "Variant under Investigation",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "coronavirus disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBD",
+          "text_long_1": "receptor-binding domain",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PRNT",
+          "text_long_1": "plaque reduction neutralization test",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "GMT",
+          "text_long_1": "Geometric mean titer",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CI",
+          "text_long_1": "confidence interval",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

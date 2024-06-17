@@ -1,0 +1,1428 @@
+{
+  "source": "Auto-CORPus (tables)",
+  "date": "20240501",
+  "key": "autocorpus_tables.key",
+  "infons": {},
+  "documents": [
+    {
+      "inputfile": "../../data/processed/html_papers/10-1128_aac-00568-23.html",
+      "id": "1",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": ""
+        },
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "TABLE 2 VP37 mutation and tecovirimat resistance data for human monkeypox virus specimensa (Table view)"
+        },
+        {
+          "offset": 103,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "1.1.1",
+              "cell_text": "Specimen (source)"
+            },
+            {
+              "cell_id": "1.1.2",
+              "cell_text": "VP37 mutations detected (allele frequency6)"
+            },
+            {
+              "cell_id": "1.1.3",
+              "cell_text": "GISAID° ID"
+            },
+            {
+              "cell_id": "1.1.4",
+              "cell_text": "GenBank ID"
+            },
+            {
+              "cell_id": "1.1.5",
+              "cell_text": "SRAd ID"
+            },
+            {
+              "cell_id": "1.1.6",
+              "cell_text": "ECe 50 (MM)"
+            },
+            {
+              "cell_id": "1.1.7",
+              "cell_text": "Fold change'"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "A",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.2.1",
+                    "cell_text": "A.1 (Unknown)"
+                  },
+                  {
+                    "cell_id": "1.2.2",
+                    "cell_text": "A290V (0.97)"
+                  },
+                  {
+                    "cell_id": "1.2.3",
+                    "cell_text": "EPI_ISL_15597062"
+                  },
+                  {
+                    "cell_id": "1.2.4",
+                    "cell_text": "OP748968"
+                  },
+                  {
+                    "cell_id": "1.2.5",
+                    "cell_text": "SRR22116985"
+                  },
+                  {
+                    "cell_id": "1.2.6",
+                    "cell_text": 0.2032
+                  },
+                  {
+                    "cell_id": "1.2.7",
+                    "cell_text": 12.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.3.1",
+                    "cell_text": "A.2 (Unknown)"
+                  },
+                  {
+                    "cell_id": "1.3.2",
+                    "cell_text": "N267D (0.24), A288P (0.76)"
+                  },
+                  {
+                    "cell_id": "1.3.3",
+                    "cell_text": "EPI_ISL_15896341"
+                  },
+                  {
+                    "cell_id": "1.3.4",
+                    "cell_text": "OP890565"
+                  },
+                  {
+                    "cell_id": "1.3.5",
+                    "cell_text": "SRR22398844"
+                  },
+                  {
+                    "cell_id": "1.3.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.3.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.4.1",
+                    "cell_text": "A.3 (Penis)"
+                  },
+                  {
+                    "cell_id": "1.4.2",
+                    "cell_text": "N267D (0.38), A288P (0.37), A295E (0.31), 1372N (0.22)"
+                  },
+                  {
+                    "cell_id": "1.4.3",
+                    "cell_text": "EPI_ISL_15896342"
+                  },
+                  {
+                    "cell_id": "1.4.4",
+                    "cell_text": "OP890566"
+                  },
+                  {
+                    "cell_id": "1.4.5",
+                    "cell_text": "SRR22398843"
+                  },
+                  {
+                    "cell_id": "1.4.6",
+                    "cell_text": "Culture contaminated"
+                  },
+                  {
+                    "cell_id": "1.4.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.5.1",
+                    "cell_text": "A.4 (Scrotum)"
+                  },
+                  {
+                    "cell_id": "1.5.2",
+                    "cell_text": "A288P (0.95)"
+                  },
+                  {
+                    "cell_id": "1.5.3",
+                    "cell_text": "EPI_ISL_15896343"
+                  },
+                  {
+                    "cell_id": "1.5.4",
+                    "cell_text": "OP890567"
+                  },
+                  {
+                    "cell_id": "1.5.5",
+                    "cell_text": "SRR22398842"
+                  },
+                  {
+                    "cell_id": "1.5.6",
+                    "cell_text": "Culture contaminated"
+                  },
+                  {
+                    "cell_id": "1.5.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.6.1",
+                    "cell_text": "A.5 (Lt° Thigh)"
+                  },
+                  {
+                    "cell_id": "1.6.2",
+                    "cell_text": "A288P (1.0)"
+                  },
+                  {
+                    "cell_id": "1.6.3",
+                    "cell_text": "EPI_ISL_15896344"
+                  },
+                  {
+                    "cell_id": "1.6.4",
+                    "cell_text": "OP890568"
+                  },
+                  {
+                    "cell_id": "1.6.5",
+                    "cell_text": "SRR22398841"
+                  },
+                  {
+                    "cell_id": "1.6.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.6.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.7.1",
+                    "cell_text": "A.6 (Rt Sole)"
+                  },
+                  {
+                    "cell_id": "1.7.2",
+                    "cell_text": "A295E (0.82)"
+                  },
+                  {
+                    "cell_id": "1.7.3",
+                    "cell_text": "EPI_ISL_15896345"
+                  },
+                  {
+                    "cell_id": "1.7.4",
+                    "cell_text": "OP890569"
+                  },
+                  {
+                    "cell_id": "1.7.5",
+                    "cell_text": "SRR22398840"
+                  },
+                  {
+                    "cell_id": "1.7.6",
+                    "cell_text": "Culture contaminated"
+                  },
+                  {
+                    "cell_id": "1.7.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.8.1",
+                    "cell_text": "A.7 (Rt Heel)"
+                  },
+                  {
+                    "cell_id": "1.8.2",
+                    "cell_text": "1372N (0.84)"
+                  },
+                  {
+                    "cell_id": "1.8.3",
+                    "cell_text": "EPI_ISL_15896346"
+                  },
+                  {
+                    "cell_id": "1.8.4",
+                    "cell_text": "OP890570"
+                  },
+                  {
+                    "cell_id": "1.8.5",
+                    "cell_text": "SRR22398839"
+                  },
+                  {
+                    "cell_id": "1.8.6",
+                    "cell_text": "Culture negative"
+                  },
+                  {
+                    "cell_id": "1.8.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.9.1",
+                    "cell_text": "A.8 (Lt Back Knee)"
+                  },
+                  {
+                    "cell_id": "1.9.2",
+                    "cell_text": "N267D (0.55), A288P (0.18), D294V (0.29)"
+                  },
+                  {
+                    "cell_id": "1.9.3",
+                    "cell_text": "EPI_ISL_15896347"
+                  },
+                  {
+                    "cell_id": "1.9.4",
+                    "cell_text": "OP890571"
+                  },
+                  {
+                    "cell_id": "1.9.5",
+                    "cell_text": "SRR22398838"
+                  },
+                  {
+                    "cell_id": "1.9.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.9.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.10.1",
+                    "cell_text": "A,9 (Unknown)"
+                  },
+                  {
+                    "cell_id": "1.10.2",
+                    "cell_text": "N267D (0.91)"
+                  },
+                  {
+                    "cell_id": "1.10.3",
+                    "cell_text": "EPI_ISL_15896348"
+                  },
+                  {
+                    "cell_id": "1.10.4",
+                    "cell_text": "OP890572"
+                  },
+                  {
+                    "cell_id": "1.10.5",
+                    "cell_text": "SRR22398837"
+                  },
+                  {
+                    "cell_id": "1.10.6",
+                    "cell_text": "Culture contaminated"
+                  },
+                  {
+                    "cell_id": "1.10.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.11.1",
+                    "cell_text": "A.10 (Unknown)"
+                  },
+                  {
+                    "cell_id": "1.11.2",
+                    "cell_text": "T220A (0.44), A265D (0.50) , A295E (0.51)"
+                  },
+                  {
+                    "cell_id": "1.11.3",
+                    "cell_text": "EPI_ISL_15896349"
+                  },
+                  {
+                    "cell_id": "1.11.4",
+                    "cell_text": "OP890573"
+                  },
+                  {
+                    "cell_id": "1.11.5",
+                    "cell_text": "SRR22398836"
+                  },
+                  {
+                    "cell_id": "1.11.6",
+                    "cell_text": "Culture contaminated"
+                  },
+                  {
+                    "cell_id": "1.11.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.12.1",
+                    "cell_text": "A.11 (Lt 2nd Finger)"
+                  },
+                  {
+                    "cell_id": "1.12.2",
+                    "cell_text": "A288P (0.62), 1372N (0.10)"
+                  },
+                  {
+                    "cell_id": "1.12.3",
+                    "cell_text": "EPI_ISL_15896350"
+                  },
+                  {
+                    "cell_id": "1.12.4",
+                    "cell_text": "OP890574"
+                  },
+                  {
+                    "cell_id": "1.12.5",
+                    "cell_text": "SRR22398835"
+                  },
+                  {
+                    "cell_id": "1.12.6",
+                    "cell_text": "Culture negative"
+                  },
+                  {
+                    "cell_id": "1.12.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.13.1",
+                    "cell_text": "A.12 (Lt Medial Thigh)"
+                  },
+                  {
+                    "cell_id": "1.13.2",
+                    "cell_text": "N267D (0.37), A288P (0.63)"
+                  },
+                  {
+                    "cell_id": "1.13.3",
+                    "cell_text": "EPI_ISL_15896351"
+                  },
+                  {
+                    "cell_id": "1.13.4",
+                    "cell_text": "OP890575"
+                  },
+                  {
+                    "cell_id": "1.13.5",
+                    "cell_text": "SRR22398833"
+                  },
+                  {
+                    "cell_id": "1.13.6",
+                    "cell_text": "Culture contaminated"
+                  },
+                  {
+                    "cell_id": "1.13.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.14.1",
+                    "cell_text": "A.13 (Rt Eyelid)"
+                  },
+                  {
+                    "cell_id": "1.14.2",
+                    "cell_text": "A288P (1.0)"
+                  },
+                  {
+                    "cell_id": "1.14.3",
+                    "cell_text": "EPI_ISL_15896352"
+                  },
+                  {
+                    "cell_id": "1.14.4",
+                    "cell_text": "OP890576"
+                  },
+                  {
+                    "cell_id": "1.14.5",
+                    "cell_text": "SRR22398832"
+                  },
+                  {
+                    "cell_id": "1.14.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.14.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.15.1",
+                    "cell_text": "A.14 (Tongue)"
+                  },
+                  {
+                    "cell_id": "1.15.2",
+                    "cell_text": "A288P (1.0)"
+                  },
+                  {
+                    "cell_id": "1.15.3",
+                    "cell_text": "EPI_ISL_15896353"
+                  },
+                  {
+                    "cell_id": "1.15.4",
+                    "cell_text": "OP890577"
+                  },
+                  {
+                    "cell_id": "1.15.5",
+                    "cell_text": "SRR22398831"
+                  },
+                  {
+                    "cell_id": "1.15.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.15.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.16.1",
+                    "cell_text": "A.15 (Rt Forehead)"
+                  },
+                  {
+                    "cell_id": "1.16.2",
+                    "cell_text": "1372N (0.96)"
+                  },
+                  {
+                    "cell_id": "1.16.3",
+                    "cell_text": "EPI_ISL_15896329"
+                  },
+                  {
+                    "cell_id": "1.16.4",
+                    "cell_text": "OP890553"
+                  },
+                  {
+                    "cell_id": "1.16.5",
+                    "cell_text": "SRR22398858"
+                  },
+                  {
+                    "cell_id": "1.16.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.16.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.17.1",
+                    "cell_text": "A.16 (Lt Forehead)"
+                  },
+                  {
+                    "cell_id": "1.17.2",
+                    "cell_text": "N267D (0.88), D294V (0.11)"
+                  },
+                  {
+                    "cell_id": "1.17.3",
+                    "cell_text": "EPI_ISL_15896330"
+                  },
+                  {
+                    "cell_id": "1.17.4",
+                    "cell_text": "OP890554"
+                  },
+                  {
+                    "cell_id": "1.17.5",
+                    "cell_text": "SRR22398857"
+                  },
+                  {
+                    "cell_id": "1.17.6",
+                    "cell_text": "Culture contaminated"
+                  },
+                  {
+                    "cell_id": "1.17.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.18.1",
+                    "cell_text": "A.17 (Between Eyes)"
+                  },
+                  {
+                    "cell_id": "1.18.2",
+                    "cell_text": "A288P (0.88)"
+                  },
+                  {
+                    "cell_id": "1.18.3",
+                    "cell_text": "EPI_ISL_15896331"
+                  },
+                  {
+                    "cell_id": "1.18.4",
+                    "cell_text": "OP890555"
+                  },
+                  {
+                    "cell_id": "1.18.5",
+                    "cell_text": "SRR22398855"
+                  },
+                  {
+                    "cell_id": "1.18.6",
+                    "cell_text": 10.28
+                  },
+                  {
+                    "cell_id": "1.18.7",
+                    "cell_text": 590.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.19.1",
+                    "cell_text": "A.18 (Lt Ear)"
+                  },
+                  {
+                    "cell_id": "1.19.2",
+                    "cell_text": "1372N (0.94)"
+                  },
+                  {
+                    "cell_id": "1.19.3",
+                    "cell_text": "EPI_ISL_15896332"
+                  },
+                  {
+                    "cell_id": "1.19.4",
+                    "cell_text": "OP890556"
+                  },
+                  {
+                    "cell_id": "1.19.5",
+                    "cell_text": "SRR22398854"
+                  },
+                  {
+                    "cell_id": "1.19.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.19.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.20.1",
+                    "cell_text": "A.19 (Lt Nose)"
+                  },
+                  {
+                    "cell_id": "1.20.2",
+                    "cell_text": "A288P (0.19), A290V (0.25), 1372N (0.35)"
+                  },
+                  {
+                    "cell_id": "1.20.3",
+                    "cell_text": "EPI_ISL_15896333"
+                  },
+                  {
+                    "cell_id": "1.20.4",
+                    "cell_text": "OP890557"
+                  },
+                  {
+                    "cell_id": "1.20.5",
+                    "cell_text": "SRR22398853"
+                  },
+                  {
+                    "cell_id": "1.20.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.20.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.21.1",
+                    "cell_text": "A.20 (Rt Cheek)"
+                  },
+                  {
+                    "cell_id": "1.21.2",
+                    "cell_text": "A288P (0.12), 1372N (0.87)"
+                  },
+                  {
+                    "cell_id": "1.21.3",
+                    "cell_text": "EPI_ISL_15896334"
+                  },
+                  {
+                    "cell_id": "1.21.4",
+                    "cell_text": "OP890558"
+                  },
+                  {
+                    "cell_id": "1.21.5",
+                    "cell_text": "SRR22398852"
+                  },
+                  {
+                    "cell_id": "1.21.6",
+                    "cell_text": "Culture negative"
+                  },
+                  {
+                    "cell_id": "1.21.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.22.1",
+                    "cell_text": "A.21 (Lower Lip)"
+                  },
+                  {
+                    "cell_id": "1.22.2",
+                    "cell_text": "N267D (0.70), A288P (0.22)"
+                  },
+                  {
+                    "cell_id": "1.22.3",
+                    "cell_text": "EPI_ISL_15896335"
+                  },
+                  {
+                    "cell_id": "1.22.4",
+                    "cell_text": "OP890559"
+                  },
+                  {
+                    "cell_id": "1.22.5",
+                    "cell_text": "SRR22398851"
+                  },
+                  {
+                    "cell_id": "1.22.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.22.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.23.1",
+                    "cell_text": "A.22 (Lt Neck)"
+                  },
+                  {
+                    "cell_id": "1.23.2",
+                    "cell_text": "A288P (0.85)"
+                  },
+                  {
+                    "cell_id": "1.23.3",
+                    "cell_text": "EPI_ISL_15896336"
+                  },
+                  {
+                    "cell_id": "1.23.4",
+                    "cell_text": "OP890560"
+                  },
+                  {
+                    "cell_id": "1.23.5",
+                    "cell_text": "SRR22398850"
+                  },
+                  {
+                    "cell_id": "1.23.6",
+                    "cell_text": "Culture negative"
+                  },
+                  {
+                    "cell_id": "1.23.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.24.1",
+                    "cell_text": "A.23 (Lt Chest)"
+                  },
+                  {
+                    "cell_id": "1.24.2",
+                    "cell_text": "T2201 (0.49)', P243S (0.50), A295E (0.51)"
+                  },
+                  {
+                    "cell_id": "1.24.3",
+                    "cell_text": "EPI_ISL_15896337"
+                  },
+                  {
+                    "cell_id": "1.24.4",
+                    "cell_text": "OP890561"
+                  },
+                  {
+                    "cell_id": "1.24.5",
+                    "cell_text": "SRR22398849"
+                  },
+                  {
+                    "cell_id": "1.24.6",
+                    "cell_text": "Culture negative"
+                  },
+                  {
+                    "cell_id": "1.24.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.25.1",
+                    "cell_text": "A.24 (Rt Hand)"
+                  },
+                  {
+                    "cell_id": "1.25.2",
+                    "cell_text": "A290V (0.88)"
+                  },
+                  {
+                    "cell_id": "1.25.3",
+                    "cell_text": "EPI_ISL_15896338"
+                  },
+                  {
+                    "cell_id": "1.25.4",
+                    "cell_text": "OP890562"
+                  },
+                  {
+                    "cell_id": "1.25.5",
+                    "cell_text": "SRR22398848"
+                  },
+                  {
+                    "cell_id": "1.25.6",
+                    "cell_text": "Culture negative"
+                  },
+                  {
+                    "cell_id": "1.25.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.26.1",
+                    "cell_text": "A.25 (Lt Elbow)"
+                  },
+                  {
+                    "cell_id": "1.26.2",
+                    "cell_text": "D294V (1.0)"
+                  },
+                  {
+                    "cell_id": "1.26.3",
+                    "cell_text": "EPI_ISL_15896339"
+                  },
+                  {
+                    "cell_id": "1.26.4",
+                    "cell_text": "OP890563"
+                  },
+                  {
+                    "cell_id": "1.26.5",
+                    "cell_text": "SRR22398847"
+                  },
+                  {
+                    "cell_id": "1.26.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.26.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.27.1",
+                    "cell_text": "A.26 (Lt Shoulder)"
+                  },
+                  {
+                    "cell_id": "1.27.2",
+                    "cell_text": "H238Q (0.99)"
+                  },
+                  {
+                    "cell_id": "1.27.3",
+                    "cell_text": "EPI_ISL_15896340"
+                  },
+                  {
+                    "cell_id": "1.27.4",
+                    "cell_text": "OP890564"
+                  },
+                  {
+                    "cell_id": "1.27.5",
+                    "cell_text": "SRR22398846"
+                  },
+                  {
+                    "cell_id": "1.27.6",
+                    "cell_text": 0.5803
+                  },
+                  {
+                    "cell_id": "1.27.7",
+                    "cell_text": 33.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.28.1",
+                    "cell_text": "B.1 (Unknown)"
+                  },
+                  {
+                    "cell_id": "1.28.2",
+                    "cell_text": "T2451 (0.12)', D294V (0.91)"
+                  },
+                  {
+                    "cell_id": "1.28.3",
+                    "cell_text": "EPI_ISL_15325434"
+                  },
+                  {
+                    "cell_id": "1.28.4",
+                    "cell_text": "OP615280"
+                  },
+                  {
+                    "cell_id": "1.28.5",
+                    "cell_text": "SRR21864633"
+                  },
+                  {
+                    "cell_id": "1.28.6",
+                    "cell_text": 0.382
+                  },
+                  {
+                    "cell_id": "1.28.7",
+                    "cell_text": 22.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.29.1",
+                    "cell_text": "B.2 (Rt Ear)"
+                  },
+                  {
+                    "cell_id": "1.29.2",
+                    "cell_text": "H238Q (0.27), A288P (0.21), D294V (0.15), 1372N (0.33)"
+                  },
+                  {
+                    "cell_id": "1.29.3",
+                    "cell_text": "EPI_ISL_15417996"
+                  },
+                  {
+                    "cell_id": "1.29.4",
+                    "cell_text": "OP680496"
+                  },
+                  {
+                    "cell_id": "1.29.5",
+                    "cell_text": "SRR21966131"
+                  },
+                  {
+                    "cell_id": "1.29.6",
+                    "cell_text": "~5.150"
+                  },
+                  {
+                    "cell_id": "1.29.7",
+                    "cell_text": "~290"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.30.1",
+                    "cell_text": "C.1 (Unknown)"
+                  },
+                  {
+                    "cell_id": "1.30.2",
+                    "cell_text": "A290V (1.0)"
+                  },
+                  {
+                    "cell_id": "1.30.3",
+                    "cell_text": "EPI_ISL_15896305"
+                  },
+                  {
+                    "cell_id": "1.30.4",
+                    "cell_text": "OP890529"
+                  },
+                  {
+                    "cell_id": "1.30.5",
+                    "cell_text": "SRR22398845"
+                  },
+                  {
+                    "cell_id": "1.30.6",
+                    "cell_text": "Culture negative"
+                  },
+                  {
+                    "cell_id": "1.30.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.31.1",
+                    "cell_text": "C.2 (Unknown)"
+                  },
+                  {
+                    "cell_id": "1.31.2",
+                    "cell_text": "A290V (1.0)"
+                  },
+                  {
+                    "cell_id": "1.31.3",
+                    "cell_text": "EPI_ISL_15955339"
+                  },
+                  {
+                    "cell_id": "1.31.4",
+                    "cell_text": "OP920682"
+                  },
+                  {
+                    "cell_id": "1.31.5",
+                    "cell_text": "SRR22459664"
+                  },
+                  {
+                    "cell_id": "1.31.6",
+                    "cell_text": "Culture negative"
+                  },
+                  {
+                    "cell_id": "1.31.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.32.1",
+                    "cell_text": "D.1 (Penis)"
+                  },
+                  {
+                    "cell_id": "1.32.2",
+                    "cell_text": "N267D (0.68), A288P (0.29)"
+                  },
+                  {
+                    "cell_id": "1.32.3",
+                    "cell_text": "EPI_ISL_17582852"
+                  },
+                  {
+                    "cell_id": "1.32.4",
+                    "cell_text": "OQ888843"
+                  },
+                  {
+                    "cell_id": "1.32.5",
+                    "cell_text": "SRR24326324"
+                  },
+                  {
+                    "cell_id": "1.32.6",
+                    "cell_text": 15.89
+                  },
+                  {
+                    "cell_id": "1.32.7",
+                    "cell_text": 910.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.33.1",
+                    "cell_text": "E.1 (Lt Foot Between Toes)"
+                  },
+                  {
+                    "cell_id": "1.33.2",
+                    "cell_text": "1372N (1.0)"
+                  },
+                  {
+                    "cell_id": "1.33.3",
+                    "cell_text": "EPI_ISL_15418000"
+                  },
+                  {
+                    "cell_id": "1.33.4",
+                    "cell_text": "OP680500"
+                  },
+                  {
+                    "cell_id": "1.33.5",
+                    "cell_text": "SRR21966127"
+                  },
+                  {
+                    "cell_id": "1.33.6",
+                    "cell_text": 0.07286
+                  },
+                  {
+                    "cell_id": "1.33.7",
+                    "cell_text": 3.5
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.34.1",
+                    "cell_text": "E.2 (Rt Cheek)"
+                  },
+                  {
+                    "cell_id": "1.34.2",
+                    "cell_text": "D294V (1.0)"
+                  },
+                  {
+                    "cell_id": "1.34.3",
+                    "cell_text": "EPI_ISL_15418001"
+                  },
+                  {
+                    "cell_id": "1.34.4",
+                    "cell_text": "OP680501"
+                  },
+                  {
+                    "cell_id": "1.34.5",
+                    "cell_text": "SRR21966126"
+                  },
+                  {
+                    "cell_id": "1.34.6",
+                    "cell_text": 0.3364
+                  },
+                  {
+                    "cell_id": "1.34.7",
+                    "cell_text": 19.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.35.1",
+                    "cell_text": "E.3 (Lt Hand by Thumb)"
+                  },
+                  {
+                    "cell_id": "1.35.2",
+                    "cell_text": "A290V (1.0)"
+                  },
+                  {
+                    "cell_id": "1.35.3",
+                    "cell_text": "EPI_ISL_15418002"
+                  },
+                  {
+                    "cell_id": "1.35.4",
+                    "cell_text": "OP680502"
+                  },
+                  {
+                    "cell_id": "1.35.5",
+                    "cell_text": "SRR21966125"
+                  },
+                  {
+                    "cell_id": "1.35.6",
+                    "cell_text": 0.167
+                  },
+                  {
+                    "cell_id": "1.35.7",
+                    "cell_text": 7.9
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.36.1",
+                    "cell_text": "E.4 (Lt Foot)"
+                  },
+                  {
+                    "cell_id": "1.36.2",
+                    "cell_text": "A290V (0.30), 1372N (0.86)"
+                  },
+                  {
+                    "cell_id": "1.36.3",
+                    "cell_text": "EPI_ISL_15418003"
+                  },
+                  {
+                    "cell_id": "1.36.4",
+                    "cell_text": "OP680503"
+                  },
+                  {
+                    "cell_id": "1.36.5",
+                    "cell_text": "SRR21966124"
+                  },
+                  {
+                    "cell_id": "1.36.6",
+                    "cell_text": 0.05551
+                  },
+                  {
+                    "cell_id": "1.36.7",
+                    "cell_text": 2.6
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.37.1",
+                    "cell_text": "E.5 (Lt Ring Finger)"
+                  },
+                  {
+                    "cell_id": "1.37.2",
+                    "cell_text": "H238Q (1.0)"
+                  },
+                  {
+                    "cell_id": "1.37.3",
+                    "cell_text": "EPI_ISL_15418004"
+                  },
+                  {
+                    "cell_id": "1.37.4",
+                    "cell_text": "OP680504"
+                  },
+                  {
+                    "cell_id": "1.37.5",
+                    "cell_text": "SRR21966123"
+                  },
+                  {
+                    "cell_id": "1.37.6",
+                    "cell_text": 0.539
+                  },
+                  {
+                    "cell_id": "1.37.7",
+                    "cell_text": 28.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.38.1",
+                    "cell_text": "E.6 (Rt Foot)"
+                  },
+                  {
+                    "cell_id": "1.38.2",
+                    "cell_text": "N267D (0.97)"
+                  },
+                  {
+                    "cell_id": "1.38.3",
+                    "cell_text": "EPI_ISL_15418005"
+                  },
+                  {
+                    "cell_id": "1.38.4",
+                    "cell_text": "OP680505"
+                  },
+                  {
+                    "cell_id": "1.38.5",
+                    "cell_text": "SRR21966122"
+                  },
+                  {
+                    "cell_id": "1.38.6",
+                    "cell_text": 11.05
+                  },
+                  {
+                    "cell_id": "1.38.7",
+                    "cell_text": 480.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.39.1",
+                    "cell_text": "E.7 (Lt Foot, Scab)"
+                  },
+                  {
+                    "cell_id": "1.39.2",
+                    "cell_text": "A290V (0.56), 1372N (0.77)"
+                  },
+                  {
+                    "cell_id": "1.39.3",
+                    "cell_text": "EPI_ISL_15418007"
+                  },
+                  {
+                    "cell_id": "1.39.4",
+                    "cell_text": "OP680507"
+                  },
+                  {
+                    "cell_id": "1.39.5",
+                    "cell_text": "SRR21966119"
+                  },
+                  {
+                    "cell_id": "1.39.6",
+                    "cell_text": 77.37
+                  },
+                  {
+                    "cell_id": "1.39.7",
+                    "cell_text": 4400.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.40.1",
+                    "cell_text": "E.8 (Lt Chin, Scab)"
+                  },
+                  {
+                    "cell_id": "1.40.2",
+                    "cell_text": "D294V (1.0)"
+                  },
+                  {
+                    "cell_id": "1.40.3",
+                    "cell_text": "EPI_ISL_15418008"
+                  },
+                  {
+                    "cell_id": "1.40.4",
+                    "cell_text": "OP680508"
+                  },
+                  {
+                    "cell_id": "1.40.5",
+                    "cell_text": "SRR21966118"
+                  },
+                  {
+                    "cell_id": "1.40.6",
+                    "cell_text": 0.2344
+                  },
+                  {
+                    "cell_id": "1.40.7",
+                    "cell_text": 13.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.41.1",
+                    "cell_text": "E.9 (Lt Great Toe)"
+                  },
+                  {
+                    "cell_id": "1.41.2",
+                    "cell_text": "1372N (1.0)"
+                  },
+                  {
+                    "cell_id": "1.41.3",
+                    "cell_text": "EPI_ISL_16997407"
+                  },
+                  {
+                    "cell_id": "1.41.4",
+                    "cell_text": "OQ503839"
+                  },
+                  {
+                    "cell_id": "1.41.5",
+                    "cell_text": "SRR23580660"
+                  },
+                  {
+                    "cell_id": "1.41.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.41.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.42.1",
+                    "cell_text": "E.10 (Lt 4th Finger)"
+                  },
+                  {
+                    "cell_id": "1.42.2",
+                    "cell_text": "H238Q (1.0)"
+                  },
+                  {
+                    "cell_id": "1.42.3",
+                    "cell_text": "EPI_ISL_16997408"
+                  },
+                  {
+                    "cell_id": "1.42.4",
+                    "cell_text": "OQ503840"
+                  },
+                  {
+                    "cell_id": "1.42.5",
+                    "cell_text": "SRR23580659"
+                  },
+                  {
+                    "cell_id": "1.42.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.42.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.43.1",
+                    "cell_text": "E.11 (Rt Medial Foot)"
+                  },
+                  {
+                    "cell_id": "1.43.2",
+                    "cell_text": "N267D (1.0)"
+                  },
+                  {
+                    "cell_id": "1.43.3",
+                    "cell_text": "EPI_ISL_16997409"
+                  },
+                  {
+                    "cell_id": "1.43.4",
+                    "cell_text": "OQ503841"
+                  },
+                  {
+                    "cell_id": "1.43.5",
+                    "cell_text": "SRR23580658"
+                  },
+                  {
+                    "cell_id": "1.43.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.43.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.44.1",
+                    "cell_text": "E.12 (Lt Great Toe, Tissue)"
+                  },
+                  {
+                    "cell_id": "1.44.2",
+                    "cell_text": "1372N (1.0)"
+                  },
+                  {
+                    "cell_id": "1.44.3",
+                    "cell_text": "EPI_ISL_16997410"
+                  },
+                  {
+                    "cell_id": "1.44.4",
+                    "cell_text": "OQ503842"
+                  },
+                  {
+                    "cell_id": "1.44.5",
+                    "cell_text": "SRR23580657"
+                  },
+                  {
+                    "cell_id": "1.44.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.44.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.45.1",
+                    "cell_text": "E.13 (Rt Medial Foot, Tissue)"
+                  },
+                  {
+                    "cell_id": "1.45.2",
+                    "cell_text": "N267D (0.45), 1372N (0.56)"
+                  },
+                  {
+                    "cell_id": "1.45.3",
+                    "cell_text": "EPI_ISL_16997411"
+                  },
+                  {
+                    "cell_id": "1.45.4",
+                    "cell_text": "OQ503843"
+                  },
+                  {
+                    "cell_id": "1.45.5",
+                    "cell_text": "SRR23580656"
+                  },
+                  {
+                    "cell_id": "1.45.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.45.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.46.1",
+                    "cell_text": "E.14 (Lt 4th Finger, Tissue)"
+                  },
+                  {
+                    "cell_id": "1.46.2",
+                    "cell_text": "H238Q (1.0)"
+                  },
+                  {
+                    "cell_id": "1.46.3",
+                    "cell_text": "EPI_ISL_16997412"
+                  },
+                  {
+                    "cell_id": "1.46.4",
+                    "cell_text": "OQ503844"
+                  },
+                  {
+                    "cell_id": "1.46.5",
+                    "cell_text": "SRR23580655"
+                  },
+                  {
+                    "cell_id": "1.46.6",
+                    "cell_text": "Pending"
+                  },
+                  {
+                    "cell_id": "1.46.7",
+                    "cell_text": ""
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "cmmid-github-io_topics_covid19_reports_sa-novel-variant_2021_01_11_Transmissibility_and_severity_of_501Y_V2_in_SA-pdf",
+      "inputfile": "../../data/processed/html/html_other/cmmid-github-io_topics_covid19_reports_sa-novel-variant_2021_01_11_Transmissibility_and_severity_of_501Y_V2_in_SA-pdf..html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Estimates of severity and transmissibility of novel South Africa SARS-CoV-2 variant 501Y.V2",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 91,
+          "infons": {
+            "section_title_1": "Comment "
+          },
+          "text": "On 18 December 2020, researchers reported emergence of a novel SARS-CoV-2 variant, 501Y.V2, in South Africa (1) . This coincided with an accelerating incidence of COVID-19 cases, despite the pandemic turning over earlier in the year under relaxing public health controls, consistent with dynamics reflecting substantial accumulation of immunity ( Figure  1A -B). 501Y.V2 was soon detected in other countries with probable connection to travellers from South Africa. Another fast-spreading variant appears to have emerged independently in the UK, estimated to be 1.56 (95% credible interval (CrI): 1.50-1.74) as transmissible as previously circulating lineages (2) . As with the UK variant, there is an urgent need to characterise the transmissibility and severity of 501Y.V2. Adapting the underlying model used to produce the estimates for the UK (2) , we used a less data-intensive approach to calibrate the model: only cases, deaths, and aggregate population demographics available from global data sources (3-5) were used. We used the early South African epidemic (reported cases pre-May) to estimate the average real-time reproduction number, R t (6) before and after the initial national response. This established baseline population transmissibility (from pre-intervention growth) as well as model contact and transmission reductions consistent with observed pandemic growth under control efforts (post-intervention). We then relaxed these interventions with a logistic decline timed to changes in national alert levels (starting from 1 May) to match the stable plateau in incidence during September. This relaxation results in approximately 5% (95% CrI: 0-50%) of the original intervention impact remaining by mid-October, consistent with Google Mobility patterns (7) . Under this simple calibration, we obtain a good match in epidemic trajectory prior to the appearance of 501Y.V2, and, without other changes to the circulating pathogen or population, a subsequent second wave is precluded by accumulated immunity ( Figure  1A ). This suggests 501Y.V2 may be more transmissible than existing variants or that past exposure may provide limited protection. We evaluated these two alternative explanations using the calibrated model to estimate practical boundaries for the new variant. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2392,
+          "infons": {
+            "section_title_1": "Comment "
+          },
+          "text": "Assuming complete cross-protection, we estimate 501Y.V2 was 1.50 (95% CrI: 1.20-2.13) times as transmissible than previously circulating variants. Assuming instead that 501Y.V2 is identically transmissible, the new variant evades 21% (95% CrI: 11-36%) of previously acquired immunity. Reality may lie between these extremes, with an intermediate increase in transmissibility and mildly imperfect cross-protection from past exposure. Though our analysis does not identify where on this spectrum 501Y.V2 lies, the entire range has serious public health consequences. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2957,
+          "infons": {
+            "section_title_1": "Comment "
+          },
+          "text": "We found some evidence of a change in severity ( Figure 1C) , estimated from the corrected ratio of delay-adjusted cases and deaths (8) in the Western Cape province, though there is substantial uncertainty and local reporting delays may differ from global estimates. Continued monitoring of severity, including more detailed investigation of differences in reporting, incidence in new demographic groups, or health system crowding is essential. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3402,
+          "infons": {
+            "section_title_1": "Comment "
+          },
+          "text": "The emergence of two novel variants in the UK and South Africa with similar estimated increased transmissibility suggests there will be substantial challenges with global control of SARS-CoV-2 in early 2021. This highlights the need for maintaining control measures and accelerating vaccination roll-out, as well as continued monitoring of vaccine effectiveness against novel variants to detect immune escape promptly (9) . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

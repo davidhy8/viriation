@@ -1,0 +1,56 @@
+Auto-CORPus log file from 9:12 on 1/5/2024
+Input directory provided: ../../data/processed/html/
+Output directory provided: ../../data/processed/bioc/
+Config provided: ../../data/other/config_biorxiv.json
+Output format: JSON
+46 files processed.
+0 files not processed due to errors.
+
+
+../../data/processed/html/10-1101_2021-03-25-21253802 was processed successfully.
+../../data/processed/html/10-1101_2021-03-02-433156 was processed successfully.
+../../data/processed/html/10-1101_2021-01-06-20248960 was processed successfully.
+../../data/processed/html/10-1101_2022-01-25-477724 was processed successfully.
+../../data/processed/html/10-1101_2022-02-22-481436 was processed successfully.
+../../data/processed/html/10-1101_2021-08-05-455290 was processed successfully.
+../../data/processed/html/10-1101_2021-03-18-436013 was processed successfully.
+../../data/processed/html/10-1101_2022-06-05-493249 was processed successfully.
+../../data/processed/html/10-1101_2022-05-30-493765 was processed successfully.
+../../data/processed/html/10-1101_2022-05-12-491584 was processed successfully.
+../../data/processed/html/10-1101_2021-03-22-436481 was processed successfully.
+../../data/processed/html/10-1101_2021-04-26-441517 was processed successfully.
+../../data/processed/html/10-1101_2020-11-06-372037 was processed successfully.
+../../data/processed/html/10-1101_2021-04-19-440435 was processed successfully.
+../../data/processed/html/10-1101_2021-04-22-441007 was processed successfully.
+../../data/processed/html/10-1101_2021-01-27-428529 was processed successfully.
+../../data/processed/html/10-1101_2022-06-01-494385 was processed successfully.
+../../data/processed/html/10-1101_2021-05-05-442760 was processed successfully.
+../../data/processed/html/10-1101_2021-10-04-463028 was processed successfully.
+../../data/processed/html/10-1101_2021-04-19-440414 was processed successfully.
+../../data/processed/html/10-1101_2021-05-08-443253 was processed successfully.
+../../data/processed/html/10-1101_2021-04-30-441434 was processed successfully.
+../../data/processed/html/10-1101_2022-06-24-22276144 was processed successfully.
+../../data/processed/html/10-1101_2022-06-22-22276690 was processed successfully.
+../../data/processed/html/10-1101_2021-08-06-21261721 was processed successfully.
+../../data/processed/html/10-1101_2021-02-02-21250799 was processed successfully.
+../../data/processed/html/10-1101_2021-04-27-21254849 was processed successfully.
+../../data/processed/html/10-1101_2021-03-24-436850 was processed successfully.
+../../data/processed/html/10-1101_2021-12-24-21268382v1-full was processed successfully.
+../../data/processed/html/10-1101_2021-03-09-434607v9 was processed successfully.
+../../data/processed/html/10-1101_2021-04-30-441559 was processed successfully.
+../../data/processed/html/10-1101_2020-04-10-029454 was processed successfully.
+../../data/processed/html/10-1101_2020-12-29-424708 was processed successfully.
+../../data/processed/html/10-1101_2021-03-04-433887 was processed successfully.
+../../data/processed/html/10-1101_2021-01-11-426269 was processed successfully.
+../../data/processed/html/10-1101_2021-04-09-439154 was processed successfully.
+../../data/processed/html/10-1101_2021-01-15-426849 was processed successfully.
+../../data/processed/html/10-1101_2021-05-11-21256908 was processed successfully.
+../../data/processed/html/10-1101_2021-04-13-21255281 was processed successfully.
+../../data/processed/html/10-1101_2021-03-24-21254046 was processed successfully.
+../../data/processed/html/10-1101_2022-05-09-22274623 was processed successfully.
+../../data/processed/html/10-1101_2021-09-17-21263624 was processed successfully.
+../../data/processed/html/10-1101_2021-02-01-429069 was processed successfully.
+../../data/processed/html/10-1101_2021-01-25-427948 was processed successfully.
+../../data/processed/html/10-1101_2021-05-03-441080 was processed successfully.
+../../data/processed/html/10-1101_2021-04-02-21254832 was processed successfully.
+

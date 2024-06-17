@@ -1,0 +1,48 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-03-02-433156",
+      "inputfile": "../../data/processed/html/10-1101_2021-03-02-433156.html",
+      "passages": [
+        {
+          "text_short": "UK",
+          "text_long_1": "United Kingdom",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Ct",
+          "text_long_1": "cycle threshold",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SGTF",
+          "text_long_1": "S gene target failure",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "sgRNA",
+          "text_long_1": "subgenomic RNA",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RdRp",
+          "text_long_1": "RNA Dependent RNA polymerase",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RLU",
+          "text_long_1": "Relative Light Units",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VTM",
+          "text_long_1": "viral transport medium",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

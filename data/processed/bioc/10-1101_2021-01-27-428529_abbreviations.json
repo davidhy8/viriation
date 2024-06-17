@@ -1,0 +1,23 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-01-27-428529",
+      "inputfile": "../../data/processed/html/10-1101_2021-01-27-428529.html",
+      "passages": [
+        {
+          "text_short": "CDRs",
+          "text_long_1": "complementarity determining regions",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Abs",
+          "text_long_1": "antibodies",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

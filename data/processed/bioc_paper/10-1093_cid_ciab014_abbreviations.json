@@ -1,0 +1,68 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1093_cid_ciab014",
+      "inputfile": "../../data/processed/html_papers/10-1093_cid_ciab014.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "COPD",
+          "text_long_1": "chronic obstructive pulmonary disease",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Ct",
+          "text_long_1": "cycle threshold",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "TMA",
+          "text_long_1": "Transcription-Mediated Amplification",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RLU",
+          "text_long_1": "Relative Light Unit",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RT-PCR",
+          "text_long_1": "reverse transcription polymerase chain reaction",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SOB",
+          "text_long_1": "shortness of breath",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "AV",
+          "text_long_1": "atrio-ventricular",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "WGS",
+          "text_long_1": "Whole Genome Sequencing",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "coronavirus disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PLWH",
+          "text_long_1": "people living with human immunodeficiency virus",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

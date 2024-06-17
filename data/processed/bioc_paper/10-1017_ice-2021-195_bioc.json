@@ -1,0 +1,188 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1017_ice-2021-195",
+      "inputfile": "../../data/processed/html_papers/10-1017_ice-2021-195.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Reinfection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) B.1.1.7 variant in an immunocompromised adolescent",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 128,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "with insights about how our infection prevention and control strategies and use of personal protective equipment effectively prevented disease transmission. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 293,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "There is currently a lack of standardization and definitions by local public health officials and regulatory bodies regarding the use of genomic epidemiology to identify clusters and hospital-acquired infections. We established a defined cut-off to determine relatedness based on the known mutation rate of SARS-CoV-2, which allowed us to accurately and conservatively interpret genomic data alongside clinical meta-data. We emphasize the need for clinical meta-data as part of the interpretation because 100% identical isolates with absolutely no known association are commonly detected. We do recognize that WGS is not being pursued in many COVID-19 cases tested outside of our facility, and we emphasize the need for more widespread use of WGS given the utility of these data. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1073,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In conclusion, genomic analysis during COVID-19 pandemic, as well as other infectious diseases outbreaks, can be highly effective in a clinical setting as a complement to contact-tracing efforts, and WGS will become increasingly important in future pandemics. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1333,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "To the Editor-Infection with severe acute respiratory syndrome virus 2 (SARS-CoV-2) has resulted in >137 million cases globally and >31 million cases in the United States. Whether previous COVID-19 infection is protective against reinfection with original strains or SARS-CoV-2 genomic variants of concern remains unknown. Genomic variants were first reported in South Africa, the United Kingdom, and Brazil. 1, 2 Variant B.1.1.7 rapidly became the predominant variant in the United Kingdom within 3 months. It is more transmissible, and has caused increased cases and hospitalizations in several European countries. 2 Community spread of the B.1.1.7 variant has resulted in >16,000 cases in the United States since first being reported in December 2020 in travelers from the United Kingdom. 2−5 Cases of the B.1.1.7 variant are likely underreported in the United States, and the increasing prevalence of this variant in communities adds complexity to the public health and infection control response. 5−7 This report illustrates challenges associated with reinfection in hospitalized patients and the importance of genomic sequencing in the evaluation of possible SARS-CoV-2 reinfection. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2522,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In November 2020, a 16-year-old with end-stage renal disease due to focal segmental glomerulosclerosis was electively admitted to our hospital for a trial off hemodialysis. At the time of admission, a nasopharyngeal swab was negative for detection of SARS-CoV-2 by reverse-transcriptase polymerase chain reaction (RT-PCR). On hospital day 2, the patient complained of a sore throat. She had recent exposure to an ill family member, thus repeat testing for SARS-CoV-2 was performed and was positive; cycle threshold (Ct) values for E and S genes were 32.4 and 32.0, respectively. Other symptoms included fatigue, nasal congestion, rhinorrhea, and a nonproductive cough. She remained afebrile and did not require oxygen supplementation. Her symptoms resolved in 8 days and she was discharged. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3313,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In January 2021, she was readmitted with leg pain, swelling, and fatigue. Upon readmission, a nasopharyngeal swab was tested by RT-PCR and SARS-CoV-2 was not detected. Diagnostic evaluation revealed Hodgkin's lymphoma and chemotherapy was initiated on hospital day 9. On hospital day 12, she developed severe mouth and throat pain. On hospital day 16, she developed fever, neutropenia (ANC = 120/μL), and abdominal tenderness. On that day (94 days after her initial COVID-19 infection), she was SARS-CoV-2 positive by RT-PCR (Ct values for E and S genes were 30.6 and 31.0, respectively) and SARS-CoV-2 IgM antibodies were detected though IgG antibodies were not detected. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3986,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "All patients admitted to our hospital have a nasopharyngeal swab collected for SARS-CoV-2 RNA detection. SARS-CoV-2 molecular testing is repeated if patients develop new symptoms consistent with COVID-19. The infection control and prevention practitioners review all cases with repeat positive SARS-CoV-2 results and follow the CDC common investigation protocol for cases of possible SARS-CoV-2 reinfection, including genomic sequencing. 6 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4426,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Testing for SARS-CoV-2 RNA was performed using the RealStar SARS-CoV-2 RT-PCR kit (Altona Diagnostics, Hamburg-Altona, Germany), which has US Food and Drug Administration (FDA) emergency use authorization (EUA) and detects the E and S genes of SARS-CoV-2. 8 ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4684,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Viral transport media specimens from archived SARS-CoV-2 positive samples were extracted for viral RNA (Allprep PowerViral DNA/RNA kit, Qiagen, Hilden, Germany). Viral genome sequencing (using short-read technology) was performed using the Multiplex PCR CDC protocol with ARTIC Network V3 primers and sequenced on the Illumina MiSeq using the MiSeq Reagent Kit v2, 300 cycles (Illumina, San Diego, CA). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5087,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Viral genomes were assembled using standard protocols outlined by the CDC. 9 Briefly, the variant calling and consensus assembly pipeline used cutadapt 2.10 for sequence trimming, bowtie2 v 2.1.0 for aligning reads against the Wuhan-Hu-1 (NC_045512.2) reference genome, SAMtools 1.9 and BCFtools 1.9 for variant calling and file manipulation. Lineage analysis of assembled SARS-CoV-2 genomes was completed using Phylogenetic Assignment of Named Global Outbreak LINeages (PANGOLIN, github.com/ cov-lineages/pangolin). SARS-CoV-2 genomes were submitted to GISAID (www.gisaid.org; Accession Numbers EPI_ISL_ 1482538, EPI_ISL_1482537). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5719,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Our patient had clinical and virologic resolution of the first SARS-CoV-2 infection prior to presenting with a second SARS-CoV-2 positive test >90 days later. Reinfection was due to a distinctly different genotype of SARS-CoV-2. Phylogenetic analysis classified the virus from the primary infection as the dominant North American lineage B.1.2 and the second infection as lineage B.1.1.7, a variant of concern that is rapidly becoming the dominant lineage in our pediatric population (Fig. 1) . These findings confirm that our case represents a genetically verified SARS-CoV-2 reinfection in an immunocompromised adolescent. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6344,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "This is the first report of SARS-CoV-2 reinfection by the B.1.1.7 variant in the United States that occurred >90 days after infection with the dominant North American lineage B.1.2. Neither the patient nor any of her close contacts had traveled, suggesting that this case was community acquired. Reinfection occurred shortly after the B.1.1.7 variant was first reported in Texas. 4 Our case emphasizes the importance of SARS-CoV-2 genomic sequence surveillance, not only for public health response but also for hospital infection control and prevention. Although rare, reports of reinfection in both immunocompromised and immunocompetent patients suggest mitigating strategies are important for those who have recovered from COVID-19. 6, 7 The emergence of variants of concern, such as B.1.1.7, and cases of possible reinfection present unique challenges for patients with recurrent hospitalization. Careful evaluation of possible reinfection and genomic sequencing have implications for infection control measures such as cohorting and duration of isolation. To the Editor-The Center for Disease Control (CDC) guidelines 1 for masks would benefit from an appraisal by the standardized instrument of AGREE II 2 (Appraisal of Guidelines for Research & Evaluation) because questions in the domains of stakeholder involvement and rigor of development remain unanswered. AGREE II assesses the quality of a guideline in the domains of scope and purpose, stakeholder involvement, rigor of development, applicability, editorial independence, and clarity of presentation, with 2-4 independent appraisals that require an average >70% to be considered a high-quality guideline. When evaluating the recent updates to the CDC mask guidelines, the AGREE II instrument may provide clarity to the mask guideline development process, its strengths, and its deficiencies. The rigor of development for mask guidelines has important components that are unreported, specifically (1) the criteria for selecting the evidence, (2) the explicit link between the recommendations and supporting evidence, and (3) the consideration of health benefits, side effects, and risks. The criteria for selecting the evidence is unclear, especially with observational studies rather than randomized control trials (RCTs) being used to assess mask efficacy. The former is typically useful for risk assessment and the latter for efficacy of an intervention. 3 Meta-analyses of observational studies 4 have failed to demonstrate a large enough treatment effect of masks (RR < 0.50) to mark up the rating of the quality of evidence to replace RCTs. 5, 6 On the contrary, the RCTs for mask use have shown little efficacy in preventing the transmission of respiratory infections. 7 The recent DANMASK 19 trial, assessing universal masking for preventive effect, also showed that the effectiveness of masks was negligible in preventing the transmission of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) when other nonpharmaceutical interventions (NPI) were in place. 8 Conventionally, the more restrictive the guidance (ie, universal masking), the more certain the guideline developers are of its correctness. 9 The explicit link between the recommendations and supporting evidence is missing in the recommendation for placing a cloth mask over a surgical procedure mask (double masking). The evidence is based on an experiment demonstrating that a 3-ply medical procedure mask covered by a 3-ply cloth cotton mask blocked 92.5% of potassium chloride particles on a pliable elastomeric head form used to simulate a person coughing and producing aerosols from a mouthpiece. 1 It is crucial that the confidence rests in direct evidence from similar human populations and outcomes to those targeted by the guideline rather than preclinical studies, which are intended to be exploratory and hypothesis generating. Although translational medicine acts as a bridge, its translatability from preclinical science to human application is often irreproducible. 10 Therefore, the leap from basic science research (T0) to translation to the community (T4) without assessing safety and proof of efficacy would be unprecedented. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10530,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "A balanced assessment of the benefits and harms of universal masking (and double masking) is needed. Studies on the benefits and harms of wearing medical masks are limited, increased dyspnea and work of breathing, hypoxemia, hypercapnia and headaches have been reported. 11, 12 Therefore, claim that universal mask use is a relatively benign measure 13 is imprecise. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10897,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Pertaining to stakeholder involvement, whether views and preferences of the target population (public) have been sought remains unreported. The impact of mask use on the psychological needs (autonomy, competence, and relatedness) has been well documented 14 ; therefore, including public's views in guideline development would be essential to the process. This is even more relevant with double masking because a negative attitude of masks due to psychological reactance and perceived ineffectiveness has been well described. 15 Whether the guideline development group included individuals from psychiatry remains unclear. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11520,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Although many of the CDC mask guidelines were interim guidelines due to the urgency of the pandemic, applying the slower, more robust guideline development process would be advisable. Providing the missing pieces in the domains of stakeholder involvement and rigor of development for the CDC recommendations would make the guidelines more comprehensive. The question of whether AGREE II is an appropriate appraising instrument to use during the pandemic is reasonable. However, it is the only tool that has been validated internationally, being cited in >650 publications. 16 AGREE II contains the necessary domains to assess methodological rigor, transparency of development and the overall quality of the mask guidelines, providing the much-needed ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12270,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "https://doi.org/10.1017/ice.2021.195 Published online by Cambridge University Press ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

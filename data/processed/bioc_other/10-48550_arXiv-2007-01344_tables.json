@@ -1,0 +1,1030 @@
+{
+  "source": "Auto-CORPus (tables)",
+  "date": "20240501",
+  "key": "autocorpus_tables.key",
+  "infons": {},
+  "documents": [
+    {
+      "inputfile": "../../data/processed/html/html_other/10-48550_arXiv-2007-01344.html",
+      "id": "1",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": ""
+        },
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Table 2: The 11083G>T-(L37F) mutation ratio and death ratio in each country as of June 19,2020. Here, NL37F and NS represent the total number of sequences with 11083G>T-(L37F) and the total number of sequences in each country listed in our dataset, respectively."
+        },
+        {
+          "offset": 262,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "1.1.1",
+              "cell_text": "Country/Region"
+            },
+            {
+              "cell_id": "1.1.2",
+              "cell_text": "NL37F"
+            },
+            {
+              "cell_id": "1.1.3",
+              "cell_text": "Ns"
+            },
+            {
+              "cell_id": "1.1.4",
+              "cell_text": "Mutation ratio"
+            },
+            {
+              "cell_id": "1.1.5",
+              "cell_text": "Total cases"
+            },
+            {
+              "cell_id": "1.1.6",
+              "cell_text": "Total deaths"
+            },
+            {
+              "cell_id": "1.1.7",
+              "cell_text": "Death ratio"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.2.1",
+                    "cell_text": "Singapore"
+                  },
+                  {
+                    "cell_id": "1.2.2",
+                    "cell_text": 203.0
+                  },
+                  {
+                    "cell_id": "1.2.3",
+                    "cell_text": 315.0
+                  },
+                  {
+                    "cell_id": "1.2.4",
+                    "cell_text": 0.644
+                  },
+                  {
+                    "cell_id": "1.2.5",
+                    "cell_text": 41473.0
+                  },
+                  {
+                    "cell_id": "1.2.6",
+                    "cell_text": 26.0
+                  },
+                  {
+                    "cell_id": "1.2.7",
+                    "cell_text": "0.06%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.3.1",
+                    "cell_text": "Japan"
+                  },
+                  {
+                    "cell_id": "1.3.2",
+                    "cell_text": 60.0
+                  },
+                  {
+                    "cell_id": "1.3.3",
+                    "cell_text": 103.0
+                  },
+                  {
+                    "cell_id": "1.3.4",
+                    "cell_text": 0.583
+                  },
+                  {
+                    "cell_id": "1.3.5",
+                    "cell_text": 17740.0
+                  },
+                  {
+                    "cell_id": "1.3.6",
+                    "cell_text": 935.0
+                  },
+                  {
+                    "cell_id": "1.3.7",
+                    "cell_text": "5.27%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.4.1",
+                    "cell_text": "Turkey"
+                  },
+                  {
+                    "cell_id": "1.4.2",
+                    "cell_text": 24.0
+                  },
+                  {
+                    "cell_id": "1.4.3",
+                    "cell_text": 66.0
+                  },
+                  {
+                    "cell_id": "1.4.4",
+                    "cell_text": 0.364
+                  },
+                  {
+                    "cell_id": "1.4.5",
+                    "cell_text": 184031.0
+                  },
+                  {
+                    "cell_id": "1.4.6",
+                    "cell_text": 4882.0
+                  },
+                  {
+                    "cell_id": "1.4.7",
+                    "cell_text": "2.66%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.5.1",
+                    "cell_text": "Jordan"
+                  },
+                  {
+                    "cell_id": "1.5.2",
+                    "cell_text": 7.0
+                  },
+                  {
+                    "cell_id": "1.5.3",
+                    "cell_text": 22.0
+                  },
+                  {
+                    "cell_id": "1.5.4",
+                    "cell_text": 0.318
+                  },
+                  {
+                    "cell_id": "1.5.5",
+                    "cell_text": 1001.0
+                  },
+                  {
+                    "cell_id": "1.5.6",
+                    "cell_text": 9.0
+                  },
+                  {
+                    "cell_id": "1.5.7",
+                    "cell_text": "0.90%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.6.1",
+                    "cell_text": "India"
+                  },
+                  {
+                    "cell_id": "1.6.2",
+                    "cell_text": 166.0
+                  },
+                  {
+                    "cell_id": "1.6.3",
+                    "cell_text": 540.0
+                  },
+                  {
+                    "cell_id": "1.6.4",
+                    "cell_text": 0.307
+                  },
+                  {
+                    "cell_id": "1.6.5",
+                    "cell_text": 380532.0
+                  },
+                  {
+                    "cell_id": "1.6.6",
+                    "cell_text": 12573.0
+                  },
+                  {
+                    "cell_id": "1.6.7",
+                    "cell_text": "3.30%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.7.1",
+                    "cell_text": "Norway"
+                  },
+                  {
+                    "cell_id": "1.7.2",
+                    "cell_text": 7.0
+                  },
+                  {
+                    "cell_id": "1.7.3",
+                    "cell_text": 28.0
+                  },
+                  {
+                    "cell_id": "1.7.4",
+                    "cell_text": 0.25
+                  },
+                  {
+                    "cell_id": "1.7.5",
+                    "cell_text": 8629.0
+                  },
+                  {
+                    "cell_id": "1.7.6",
+                    "cell_text": 244.0
+                  },
+                  {
+                    "cell_id": "1.7.7",
+                    "cell_text": "2.83%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.8.1",
+                    "cell_text": "Australia"
+                  },
+                  {
+                    "cell_id": "1.8.2",
+                    "cell_text": 235.0
+                  },
+                  {
+                    "cell_id": "1.8.3",
+                    "cell_text": 1141.0
+                  },
+                  {
+                    "cell_id": "1.8.4",
+                    "cell_text": 0.206
+                  },
+                  {
+                    "cell_id": "1.8.5",
+                    "cell_text": 7391.0
+                  },
+                  {
+                    "cell_id": "1.8.6",
+                    "cell_text": 102.0
+                  },
+                  {
+                    "cell_id": "1.8.7",
+                    "cell_text": "2.28%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.9.1",
+                    "cell_text": "South Korea"
+                  },
+                  {
+                    "cell_id": "1.9.2",
+                    "cell_text": 5.0
+                  },
+                  {
+                    "cell_id": "1.9.3",
+                    "cell_text": 25.0
+                  },
+                  {
+                    "cell_id": "1.9.4",
+                    "cell_text": 0.2
+                  },
+                  {
+                    "cell_id": "1.9.5",
+                    "cell_text": 12306.0
+                  },
+                  {
+                    "cell_id": "1.9.6",
+                    "cell_text": 280.0
+                  },
+                  {
+                    "cell_id": "1.9.7",
+                    "cell_text": "2.28%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.10.1",
+                    "cell_text": "Iceland"
+                  },
+                  {
+                    "cell_id": "1.10.2",
+                    "cell_text": 77.0
+                  },
+                  {
+                    "cell_id": "1.10.3",
+                    "cell_text": 425.0
+                  },
+                  {
+                    "cell_id": "1.10.4",
+                    "cell_text": 0.181
+                  },
+                  {
+                    "cell_id": "1.10.5",
+                    "cell_text": 1816.0
+                  },
+                  {
+                    "cell_id": "1.10.6",
+                    "cell_text": 10.0
+                  },
+                  {
+                    "cell_id": "1.10.7",
+                    "cell_text": "0.55%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.11.1",
+                    "cell_text": "United Kingdom"
+                  },
+                  {
+                    "cell_id": "1.11.2",
+                    "cell_text": 902.0
+                  },
+                  {
+                    "cell_id": "1.11.3",
+                    "cell_text": 6037.0
+                  },
+                  {
+                    "cell_id": "1.11.4",
+                    "cell_text": 0.149
+                  },
+                  {
+                    "cell_id": "1.11.5",
+                    "cell_text": 300473.0
+                  },
+                  {
+                    "cell_id": "1.11.6",
+                    "cell_text": 42288.0
+                  },
+                  {
+                    "cell_id": "1.11.7",
+                    "cell_text": "14.07%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.12.1",
+                    "cell_text": "Thailand"
+                  },
+                  {
+                    "cell_id": "1.12.2",
+                    "cell_text": 7.0
+                  },
+                  {
+                    "cell_id": "1.12.3",
+                    "cell_text": 58.0
+                  },
+                  {
+                    "cell_id": "1.12.4",
+                    "cell_text": 0.121
+                  },
+                  {
+                    "cell_id": "1.12.5",
+                    "cell_text": 3146.0
+                  },
+                  {
+                    "cell_id": "1.12.6",
+                    "cell_text": 58.0
+                  },
+                  {
+                    "cell_id": "1.12.7",
+                    "cell_text": "1.84%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.13.1",
+                    "cell_text": "Indonesia"
+                  },
+                  {
+                    "cell_id": "1.13.2",
+                    "cell_text": 1.0
+                  },
+                  {
+                    "cell_id": "1.13.3",
+                    "cell_text": 9.0
+                  },
+                  {
+                    "cell_id": "1.13.4",
+                    "cell_text": 0.111
+                  },
+                  {
+                    "cell_id": "1.13.5",
+                    "cell_text": 42762.0
+                  },
+                  {
+                    "cell_id": "1.13.6",
+                    "cell_text": 2339.0
+                  },
+                  {
+                    "cell_id": "1.13.7",
+                    "cell_text": "5.47%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.14.1",
+                    "cell_text": "Canada"
+                  },
+                  {
+                    "cell_id": "1.14.2",
+                    "cell_text": 18.0
+                  },
+                  {
+                    "cell_id": "1.14.3",
+                    "cell_text": 280.0
+                  },
+                  {
+                    "cell_id": "1.14.4",
+                    "cell_text": 0.064
+                  },
+                  {
+                    "cell_id": "1.14.5",
+                    "cell_text": 99853.0
+                  },
+                  {
+                    "cell_id": "1.14.6",
+                    "cell_text": 8254.0
+                  },
+                  {
+                    "cell_id": "1.14.7",
+                    "cell_text": "8.27%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.15.1",
+                    "cell_text": "Vietnam"
+                  },
+                  {
+                    "cell_id": "1.15.2",
+                    "cell_text": 3.0
+                  },
+                  {
+                    "cell_id": "1.15.3",
+                    "cell_text": 47.0
+                  },
+                  {
+                    "cell_id": "1.15.4",
+                    "cell_text": 0.064
+                  },
+                  {
+                    "cell_id": "1.15.5",
+                    "cell_text": 342.0
+                  },
+                  {
+                    "cell_id": "1.15.6",
+                    "cell_text": 0.0
+                  },
+                  {
+                    "cell_id": "1.15.7",
+                    "cell_text": "0.00%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.16.1",
+                    "cell_text": "Belgium"
+                  },
+                  {
+                    "cell_id": "1.16.2",
+                    "cell_text": 33.0
+                  },
+                  {
+                    "cell_id": "1.16.3",
+                    "cell_text": 599.0
+                  },
+                  {
+                    "cell_id": "1.16.4",
+                    "cell_text": 0.055
+                  },
+                  {
+                    "cell_id": "1.16.5",
+                    "cell_text": 60384.0
+                  },
+                  {
+                    "cell_id": "1.16.6",
+                    "cell_text": 9683.0
+                  },
+                  {
+                    "cell_id": "1.16.7",
+                    "cell_text": "16.04%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.17.1",
+                    "cell_text": "Italy"
+                  },
+                  {
+                    "cell_id": "1.17.2",
+                    "cell_text": 6.0
+                  },
+                  {
+                    "cell_id": "1.17.3",
+                    "cell_text": 109.0
+                  },
+                  {
+                    "cell_id": "1.17.4",
+                    "cell_text": 0.055
+                  },
+                  {
+                    "cell_id": "1.17.5",
+                    "cell_text": 238159.0
+                  },
+                  {
+                    "cell_id": "1.17.6",
+                    "cell_text": 34514.0
+                  },
+                  {
+                    "cell_id": "1.17.7",
+                    "cell_text": "14.49%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.18.1",
+                    "cell_text": "South Africa"
+                  },
+                  {
+                    "cell_id": "1.18.2",
+                    "cell_text": 3.0
+                  },
+                  {
+                    "cell_id": "1.18.3",
+                    "cell_text": 55.0
+                  },
+                  {
+                    "cell_id": "1.18.4",
+                    "cell_text": 0.055
+                  },
+                  {
+                    "cell_id": "1.18.5",
+                    "cell_text": 83890.0
+                  },
+                  {
+                    "cell_id": "1.18.6",
+                    "cell_text": 1737.0
+                  },
+                  {
+                    "cell_id": "1.18.7",
+                    "cell_text": "2.07%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.19.1",
+                    "cell_text": "China"
+                  },
+                  {
+                    "cell_id": "1.19.2",
+                    "cell_text": 15.0
+                  },
+                  {
+                    "cell_id": "1.19.3",
+                    "cell_text": 284.0
+                  },
+                  {
+                    "cell_id": "1.19.4",
+                    "cell_text": 0.053
+                  },
+                  {
+                    "cell_id": "1.19.5",
+                    "cell_text": 84940.0
+                  },
+                  {
+                    "cell_id": "1.19.6",
+                    "cell_text": 4645.0
+                  },
+                  {
+                    "cell_id": "1.19.7",
+                    "cell_text": "5.47%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.20.1",
+                    "cell_text": "France"
+                  },
+                  {
+                    "cell_id": "1.20.2",
+                    "cell_text": 11.0
+                  },
+                  {
+                    "cell_id": "1.20.3",
+                    "cell_text": 230.0
+                  },
+                  {
+                    "cell_id": "1.20.4",
+                    "cell_text": 0.048
+                  },
+                  {
+                    "cell_id": "1.20.5",
+                    "cell_text": 153557.0
+                  },
+                  {
+                    "cell_id": "1.20.6",
+                    "cell_text": 29537.0
+                  },
+                  {
+                    "cell_id": "1.20.7",
+                    "cell_text": "19.24%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.21.1",
+                    "cell_text": "United States"
+                  },
+                  {
+                    "cell_id": "1.21.2",
+                    "cell_text": 236.0
+                  },
+                  {
+                    "cell_id": "1.21.3",
+                    "cell_text": 5835.0
+                  },
+                  {
+                    "cell_id": "1.21.4",
+                    "cell_text": 0.04
+                  },
+                  {
+                    "cell_id": "1.21.5",
+                    "cell_text": 2149166.0
+                  },
+                  {
+                    "cell_id": "1.21.6",
+                    "cell_text": 117472.0
+                  },
+                  {
+                    "cell_id": "1.21.7",
+                    "cell_text": "5.47%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.22.1",
+                    "cell_text": "Brazil"
+                  },
+                  {
+                    "cell_id": "1.22.2",
+                    "cell_text": 5.0
+                  },
+                  {
+                    "cell_id": "1.22.3",
+                    "cell_text": 124.0
+                  },
+                  {
+                    "cell_id": "1.22.4",
+                    "cell_text": 0.04
+                  },
+                  {
+                    "cell_id": "1.22.5",
+                    "cell_text": 955377.0
+                  },
+                  {
+                    "cell_id": "1.22.6",
+                    "cell_text": 46510.0
+                  },
+                  {
+                    "cell_id": "1.22.7",
+                    "cell_text": "4.87%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.23.1",
+                    "cell_text": "Switzerland"
+                  },
+                  {
+                    "cell_id": "1.23.2",
+                    "cell_text": 7.0
+                  },
+                  {
+                    "cell_id": "1.23.3",
+                    "cell_text": 180.0
+                  },
+                  {
+                    "cell_id": "1.23.4",
+                    "cell_text": 0.039
+                  },
+                  {
+                    "cell_id": "1.23.5",
+                    "cell_text": 31117.0
+                  },
+                  {
+                    "cell_id": "1.23.6",
+                    "cell_text": 1677.0
+                  },
+                  {
+                    "cell_id": "1.23.7",
+                    "cell_text": "5.39%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.24.1",
+                    "cell_text": "Spain"
+                  },
+                  {
+                    "cell_id": "1.24.2",
+                    "cell_text": 12.0
+                  },
+                  {
+                    "cell_id": "1.24.3",
+                    "cell_text": 384.0
+                  },
+                  {
+                    "cell_id": "1.24.4",
+                    "cell_text": 0.031
+                  },
+                  {
+                    "cell_id": "1.24.5",
+                    "cell_text": 245268.0
+                  },
+                  {
+                    "cell_id": "1.24.6",
+                    "cell_text": 27136.0
+                  },
+                  {
+                    "cell_id": "1.24.7",
+                    "cell_text": "11.06%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.25.1",
+                    "cell_text": "Chile"
+                  },
+                  {
+                    "cell_id": "1.25.2",
+                    "cell_text": 5.0
+                  },
+                  {
+                    "cell_id": "1.25.3",
+                    "cell_text": 161.0
+                  },
+                  {
+                    "cell_id": "1.25.4",
+                    "cell_text": 0.031
+                  },
+                  {
+                    "cell_id": "1.25.5",
+                    "cell_text": 225103.0
+                  },
+                  {
+                    "cell_id": "1.25.6",
+                    "cell_text": 3814.0
+                  },
+                  {
+                    "cell_id": "1.25.7",
+                    "cell_text": "1.69%"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.26.1",
+                    "cell_text": "Russia"
+                  },
+                  {
+                    "cell_id": "1.26.2",
+                    "cell_text": 2.0
+                  },
+                  {
+                    "cell_id": "1.26.3",
+                    "cell_text": 166.0
+                  },
+                  {
+                    "cell_id": "1.26.4",
+                    "cell_text": 0.012
+                  },
+                  {
+                    "cell_id": "1.26.5",
+                    "cell_text": 569063.0
+                  },
+                  {
+                    "cell_id": "1.26.6",
+                    "cell_text": 7814.0
+                  },
+                  {
+                    "cell_id": "1.26.7",
+                    "cell_text": "1.37%"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "inputfile": "../../data/processed/html/html_other/10-48550_arXiv-2007-01344.html",
+      "id": "2",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": ""
+        },
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Table 3: The folding stability change and graph network descriptor consisting of wild type and mutant type of NSP6 calculated by web server [6]. The folding stability change ∆∆G = ∆Gm − ∆Gw , where ∆Gm is free energy change of wild type and ∆Gw is free energy change of mutation type. R8: FRI rigidity index with η of 8; d: edge density; 〈L〉: average path length; 〈Cb〉: average betweenness centrality; 〈Ce〉: average eigencentrality; 〈Cs〉: average subgraph centrality; 〈M〉: average communicability; 〈Θ〉: average communicability angle."
+        },
+        {
+          "offset": 533,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "2.1.1",
+              "cell_text": "Descriptors"
+            },
+            {
+              "cell_id": "2.1.2",
+              "cell_text": "Wild type"
+            },
+            {
+              "cell_id": "2.1.3",
+              "cell_text": "Mutant type"
+            },
+            {
+              "cell_id": "2.1.4",
+              "cell_text": "Relative change (%)"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.2.1",
+                    "cell_text": "R8"
+                  },
+                  {
+                    "cell_id": "2.2.2",
+                    "cell_text": 19.73
+                  },
+                  {
+                    "cell_id": "2.2.3",
+                    "cell_text": 19.83
+                  },
+                  {
+                    "cell_id": "2.2.4",
+                    "cell_text": 0.5
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.3.1",
+                    "cell_text": "d"
+                  },
+                  {
+                    "cell_id": "2.3.2",
+                    "cell_text": 0.05816
+                  },
+                  {
+                    "cell_id": "2.3.3",
+                    "cell_text": 0.05779
+                  },
+                  {
+                    "cell_id": "2.3.4",
+                    "cell_text": -0.64
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.4.1",
+                    "cell_text": "L"
+                  },
+                  {
+                    "cell_id": "2.4.2",
+                    "cell_text": 22.7394
+                  },
+                  {
+                    "cell_id": "2.4.3",
+                    "cell_text": 22.7373
+                  },
+                  {
+                    "cell_id": "2.4.4",
+                    "cell_text": -0.01
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.5.1",
+                    "cell_text": "Cb"
+                  },
+                  {
+                    "cell_id": "2.5.2",
+                    "cell_text": 0.00943
+                  },
+                  {
+                    "cell_id": "2.5.3",
+                    "cell_text": 0.00942
+                  },
+                  {
+                    "cell_id": "2.5.4",
+                    "cell_text": -0.11
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.6.1",
+                    "cell_text": "Ce"
+                  },
+                  {
+                    "cell_id": "2.6.2",
+                    "cell_text": 0.03508
+                  },
+                  {
+                    "cell_id": "2.6.3",
+                    "cell_text": 0.03514
+                  },
+                  {
+                    "cell_id": "2.6.4",
+                    "cell_text": 0.17
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.7.1",
+                    "cell_text": "Cs"
+                  },
+                  {
+                    "cell_id": "2.7.2",
+                    "cell_text": 8786858.0
+                  },
+                  {
+                    "cell_id": "2.7.3",
+                    "cell_text": 8820927.0
+                  },
+                  {
+                    "cell_id": "2.7.4",
+                    "cell_text": 0.39
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.8.1",
+                    "cell_text": "M"
+                  },
+                  {
+                    "cell_id": "2.8.2",
+                    "cell_text": 2826948.0
+                  },
+                  {
+                    "cell_id": "2.8.3",
+                    "cell_text": 2822450.0
+                  },
+                  {
+                    "cell_id": "2.8.4",
+                    "cell_text": -0.16
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.9.1",
+                    "cell_text": "O"
+                  },
+                  {
+                    "cell_id": "2.9.2",
+                    "cell_text": 1.8399
+                  },
+                  {
+                    "cell_id": "2.9.3",
+                    "cell_text": 1.8731
+                  },
+                  {
+                    "cell_id": "2.9.4",
+                    "cell_text": 1.77
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

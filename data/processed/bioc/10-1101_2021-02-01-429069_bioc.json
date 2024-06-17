@@ -1,0 +1,76 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-02-01-429069",
+      "inputfile": "../../data/processed/html/10-1101_2021-02-01-429069.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Neutralization of SARS-CoV-2 VOC 501Y.V2 by human antisera elicited by both inactivated BBIBP-CorV and recombinant dimeric RBD ZF2001 vaccines",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 142,
+          "infons": {
+            "section_title_1": "Maintext",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The rollout of vaccines is the hope to control the coronavirus disease 2019 (COVID-19) pandemic and reboot economy and society(1). However, the recent emergence of severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) variants raised global concerns because of their enhanced transmission and potential viral escape of host immunity elicited by natural infection or vaccination. Variants containing D614G mutation in spike (S) protein was first reported from the middle of 2020, which significantly increased the transmission rate and became dominant in circulating strains ever since(2). Evolved from D614G mutants, recent circulating isolates from Republic of South Africa (501Y.V2 variant) introduced further mutations that escape neutralization by COVID-19 convalescent plasma and sera from human receiving licensed mRNA vaccines expressing SARS-CoV-2 S protein(3-5). It also dramatically decreased the protective efficacy for trimeric S protein-based vaccine in phase 3 clinical trial in South Africa(6).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1166,
+          "infons": {
+            "section_title_1": "Maintext",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "501Y.V2 variant emerged in more and more countries, and was first isolated in China on January 6, 2021 from an airline pilot of South African nationality(7). This variant, GDPCC strain, contains 10 amino acid mutations sites in S protein corresponded to the features of the variant of concern (VOC) South African 501Y.V2, with 5 (D80A, ΔL242, ΔA243, ΔL244 and R246I) located at N-terminal domain (NTD), 3 (K417N, E484K and N501Y) in receptor-binding domain (RBD), and the other two in CTD2 domain and S1/S2-S2’ region (Fig.1).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1692,
+          "infons": {
+            "section_title_1": "Maintext",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The effectiveness of current vaccines against this VOC is of high importance to guide the ongoing vaccination program worldwide. To answer this question, we evaluated two representative COVID-19 vaccines developed in China for their neutralizing activities against 501Y.V2 variant. One is BBIBP-CorV, a licensed COVID-19 inactivated vaccine(8, 9). The other one is ZF2001, a protein subunit vaccine targeting S protein RBD currently in phase 3 clinical trials(10, 11). Both vaccines showed good immunogenic in their clinical trials(9, 11). For instance, ZF2001 induced neutralizing GMTs two times greater than that from convalescent samples(11). We chose 12 serum samples for each vaccine from clinical trial participants covering a range of different neutralizing titers (Table 1). The neutralizing activities of these serum samples against live SARS-CoV-2 strains GDPCC (501Y.V2) were measured by microcytopathogenic effect assay. SARS-CoV-2 strains HB02 (WT) (12, 13) and BJ01 (D614G) (14) were tested as the control. Impressively, all 12 serum samples from either ZF2001 or BBIBP-CorV recipients largely preserved neutralization of 501Y.V2 variant, with slightly reduced geometric mean titres (GMTs) compared with their titres against WT or D614G strain (Fig. 2 and Table 1). For ZF2001, the GMTs declined for 1.6-fold from 106.1 (95% CI, 75.0-150.1) to 66.6 (95% CI, 51.0-86.9) (Fig.2A). While for BBIBP-CorV, the decline is also 1.6-fold, GMTs from 110.9(95% CI, 76.7-160.2) to 70.9(95% CI, 50.8-98.8) (Fig.2B). These reductions are significantly less than those reported previously for convalescent plasma (more than 10-folds)(4) or antisera from mRNA vaccine recipients (more than 6-folds) (3, 5).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3397,
+          "infons": {
+            "section_title_1": "Maintext",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "These results suggest that the 501Y.V2 variant does not escape the immunity induced by vaccines targeting S protein RBD (ZF2001) or whole virus (BBIBP-CorV). The potential 1.6-fold reduction of neutralizing GMTs should be taken into account for its impact for the clinical efficacy of these vaccines. For both vaccines, antisera neutralize both variant 501Y.V2 and D614G, the one currently circulating globally, without statistical significances. For ZF2001, a slight significance (P=0.04) between variant 501Y.V2 and the HB02 may due to the sample selection and size. For the neutralization-reduction discrepancy between our protein-based vaccine and mRNA vaccine needs further investigation in the future.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

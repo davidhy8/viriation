@@ -1,0 +1,38 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-04-30-441434",
+      "inputfile": "../../data/processed/html/10-1101_2021-04-30-441434.html",
+      "passages": [
+        {
+          "text_short": "VoI",
+          "text_long_1": "variants of interest",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VoC",
+          "text_long_1": "variants of concern",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "DMEM",
+          "text_long_1": "Dulbecco's Modified Eagle's Medium",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FBS",
+          "text_long_1": "Fetal Bovine Serum",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "GISAID",
+          "text_long_1": "Global initiative on sharing all influenza data",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

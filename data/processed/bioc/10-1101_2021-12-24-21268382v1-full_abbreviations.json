@@ -1,0 +1,28 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-12-24-21268382v1-full",
+      "inputfile": "../../data/processed/html/10-1101_2021-12-24-21268382v1-full.html",
+      "passages": [
+        {
+          "text_short": "CCM",
+          "text_long_1": "Contact Management Solution",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "WGS",
+          "text_long_1": "whole genome sequencing",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SGTF",
+          "text_long_1": "S-gene target failure",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-05-03-441080",
+      "inputfile": "../../data/processed/html/10-1101_2021-05-03-441080.html",
+      "passages": [
+        {
+          "text_short": "MBCS",
+          "text_long_1": "multibasic cleavage site",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "AT2",
+          "text_long_1": "alveolar type 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FBS",
+          "text_long_1": "fetal bovine serum",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ALI",
+          "text_long_1": "air-liquid interface",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

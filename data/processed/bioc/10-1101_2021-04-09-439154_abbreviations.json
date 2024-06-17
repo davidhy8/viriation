@@ -1,0 +1,73 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-04-09-439154",
+      "inputfile": "../../data/processed/html/10-1101_2021-04-09-439154.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "Severe Acute Respiratory Syndrome Coronavirus-2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "coronavirus disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SGP",
+          "text_long_1": "spike glycoprotein",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBM",
+          "text_long_1": "receptor-binding motif",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBD",
+          "text_long_1": "receptor-binding domain",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "NTD",
+          "text_long_1": "N-terminal domain",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PDB",
+          "text_long_1": "Protein Data Bank",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "cryo-EM",
+          "text_long_1": "cryo-electron microscopy",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ARDS",
+          "text_long_1": "acute respiratory distress syndrome",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "HEK-293",
+          "text_long_1": "human embryonic kidney 293",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Cryo-EM",
+          "text_long_1": "cryo-electron microscopy",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SNPs",
+          "text_long_1": "single nucleotide polymorphisms",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

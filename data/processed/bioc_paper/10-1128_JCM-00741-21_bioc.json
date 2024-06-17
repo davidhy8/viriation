@@ -1,0 +1,78 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1128_JCM-00741-21",
+      "inputfile": "../../data/processed/html_papers/10-1128_JCM-00741-21.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "A SARS-CoV-2 Variant with L452R and E484Q Neutralization Resistance Mutations",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 77,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": " T he emergence of SARS-CoV-2 variants that reduce antibody neutralization and vaccine efficacy is of significant global concern. On 24 March 2021, the Indian SARS-CoV-2 Consortium on Genomics reported that a variant containing a unique combination of two spike receptor-binding domain (RBD) neutralization resistance mutations, L452R and E484Q, made up 15 to 20% of positive cases in the Maharashtra state, which includes Mumbai (https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1707177). Here, we report the rapid recognition of this variant in the San Francisco Bay Area, CA, through investigation of unusual reverse transcriptase real-time PCR (RT-qPCR) curves and confirmation by viral whole-genome sequencing (WGS). The Stanford Health Care Clinical Virology Laboratory prospectively screened SARS-CoV-2-positive respiratory specimens for three mutations, L452R (HEX), E484K (Cy5), and N501Y (FAM) using a laboratory-developed, multiplex, mutation-specific RT-qPCR (1). This approach allowed high-throughput screening for known variants of concern at the time (B.1.1.7, P.1, B.1.351, and B.1.427/B.1.429) and enabled informed deployment of sequencing resources. In early March, we observed SARS-CoV-2 samples strongly positive for L452R with unusually shaped, reproducible amplification curves in the E484K Cy5 channel (Fig. 1A). Samples with this pattern of reactivity were identified from five COVID-19 patients. Four of these individuals shared two unrelated household transmission events, one of which involved an individual in their 70s with known exposures in India who presented with moderate symptoms 3 days after their return flight to the United States. The other individuals had mild COVID-19 symptoms; one was infected more than 2 weeks after receiving a second dose of the Pfizer vaccine. SARS-CoV-2 WGS was initially performed on a specimen from one of the mildly symptomatic, unvaccinated individuals. Briefly, viral genome enrichment was conducted using laboratory-developed multiplex RT-PCRs that generate multiple overlapping amplicons ;1,200 base pairs in length. Fragment libraries were prepared using NEBNext DNA library prep reagents for Illumina (New England BioLabs, Ipswich, MA) and were sequenced on an Illumina MiSeq using single-end 150-cycle sequencing using MiSeq reagent kit v3. Genomes were assembled via a custom assembly and bioinformatics pipeline using NCBI GenBank accession no. NC_045512.2 as reference. We observed 386Â mean whole-genome coverage for this sample; 50Â coverage was obtained over 92.8% of the genome and 99.95% of spike. The sequence revealed a G/20A clade, B lineage virus containing eight nonsynonymous mutations in the spike protein,",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2784,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "clustered with the other L452R-and E484Q-containing B lineage sequences in GISAID, comprised of 64 sequences primarily from India (59.4%, 38/64) and the United Kingdom (34.4%, 22/64) (Fig. 1B) . The nearest neighbor as of 25 March 2021 was hCoV-19/ England/CAMC-1322E9F/2021jEPI_ISL_1246284j2021-02-22. The earliest date of collection was a specimen from India, sequence hCoV-19/India/MH-NEERI-NGP-26041/ 2020jEPI_ISL_1360304j2020-12-05, collected on 12 December 2020. These sequences are distinct from the B.1.427/B.1.429 lineage (Fig. 1C) . The four additional cases were subsequently confirmed by whole-genome sequencing and contain the same set of spike mutations (see Table 1 for GISAID accession numbers). ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3496,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The L452R and E484Q mutations are located in the RBD, and viruses harboring these individual mutations have reduced susceptibility to monoclonal antibodies, including bamlanivimab, as well as convalescent plasma (2) (3) (4) (5) (6) (7) (8) . The combined impact of these mutations on neutralization and vaccine efficacy remains to be determined. This case illustrates the critical nature of assay review and investigation and highlights the rapidity with which potential variants of concern can be transmitted worldwide. a Dates given in yr-mo-day format. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4052,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "July 2021 Volume 59 Issue 7 e00741-21 jcm.asm.org 2 Downloaded from https://journals.asm.org/journal/jcm on 29 April 2024 by 136.159.213.186. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4194,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "July 2021 Volume 59 Issue 7 e00741-21 jcm.asm.org 3 Downloaded from https://journals.asm.org/journal/jcm on 29 April 2024 by 136.159.213.186. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

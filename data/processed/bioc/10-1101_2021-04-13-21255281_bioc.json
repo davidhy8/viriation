@@ -1,0 +1,436 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-04-13-21255281",
+      "inputfile": "../../data/processed/html/10-1101_2021-04-13-21255281.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "The increase in the risk of severity and fatality rate of covid-19 in southern Brazil after the emergence of the Variant of Concern (VOC) SARS-CoV-2 P.1 was greater among young adults without pre-existing risk conditions",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 220,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Since the beginning of 2021, international authorities have shown great concern with the P.1 variant of SARS-CoV-2, also known as 20J / 501Y.V3 or Variant of Concern 202101/02 (VOC-202101/02). This variant probably emerged between late November and early December 2020 in Amazonas, northern Brazil, with rapid dissemination to other regions and other countries[1]. The introduction of this variant was temporally associated with increased transmissibility of covid-19 causing a critical epidemiological scenario in different places where it was detected as the Amazonas, in the north region, and the Paraná and the Rio Grande do Sul (RS) states, in the south of the country[2–5]. In the Amazonas state, a collapse of the health system was observed, which made it difficult to assess the real impact of the P.1 variant on the lethality by covid-19, which may have increased due to the overload of the health system and not exclusively by the intrinsic characteristics of the variant[2]. The emergence of variant P.1 in the RS state was confirmed by the virus identification from a patient with no travel history and presenting symptoms beginning on January 29 (EW 4/2021)[6]. In the following weeks there was a sudden increase in cases of covid-19 in several regions of the state, simultaneously. Virological surveillance data showed that in February, the variant P.1 corresponded to about 70% of the viruses sequenced in the RS state. [5,7]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1672,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The exponential increase in the hospitalization rate observed in the RS state could be explained, on one hand, by the P.1 circulation as this variant has being 2.6 times more transmissible (95% Confidence Interval (CI): 2.4–2.8) than the previous one [8]. However, on other hand, studies have suggested that the P.1 variant can also lead to more severe conditions, which would increase the need for hospitalization and contribute to the increase observed in hospitalization rates. In order to provide more evidences related to the change in the hospitalization and deaths patterns among covid-19 cases in the RS state, we performed an epidemiological analysis describing and comparing the severity and mortality profile of covid-19 cases in the RS state, considering two periods before and after the emergence of variant P.1.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2497,
+          "infons": {
+            "section_title_1": "Methodology",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "An observational, retrospective epidemiological study of covid-19 cases reported in the National Influenza Epidemiological Surveillance Information System (SIVEP-Gripe) of the Ministry of Health of Brazil was performed.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2727,
+          "infons": {
+            "section_title_1": "Methodology",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The Rio Grande do Sul state has 11,422,973 inhabitants, it is the 5th largest state in population size in the country, corresponding to 5.4% of the Brazilian population. Life expectancy at birth is 78.0 years and the HDI is 0.787[9]. The Unified Health System (SUS), the public health system in Brazil, is responsible for 72% of the 3,411 ICU beds available in the state[7].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3101,
+          "infons": {
+            "section_title_1": "Methodology",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The notification of suspected and confirmed cases of covid-19 is mandatory in Brazil, both in public and private health services. Suspected cases of covid-19 can be confirmed by laboratory, clinical, clinical-epidemiological or clinical-radiological criteria, according to the Brazilian guidelines (supplements) that follow the recommendations of the World Health Organization. In the SIVEP-Gripe system, cases can be classified as influenza syndrome (influenza-like illness (ILI)) and severe cases (severe acute respiratory infections (SARI)). SARI cases are confirmed cases of covid-19 requiring hospitalization associated with any of the following signs and symptoms: dyspnea, difficulty breathing, O2 saturation below 95% in ambient air or cyanosis. In children, in addition to the previous items, the following nasal wing beats, intercostal circulation, dehydration and lack of appetite are included.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4006,
+          "infons": {
+            "section_title_1": "Methodology",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "We accessed information on demographic data, self-reported ethnicity, presence of pre-existing risk conditions (supplements), data on the onset of symptoms, hospitalization and hospital outcome, as well as data on the occupation of ward beds and intensive care unit (ICU) beds. The data were made available by the Secretariat of Health of the Rio Grande do Sul state and by the Ministry of Health of Brazil through open access online platforms with anonymous data. The period of analysis was from the epidemiological week 17/2020 (started on April 19th 2020) to the epidemiological week 11/2021 (ended on March 20th 2021). The data were exported for analysis on April 2nd 2021. [7,10]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4690,
+          "infons": {
+            "section_title_1": "Methodology",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "We defined two epidemiological periods for the analysis: the “first wave” comprised by cases occurred during November and December 2020 (EW 45 to 53) and the “second wave” with cases occurred in February 2021 (EW 5 to 8), considering that in this month there was a predominance of the new variant P.1. The month of March 2021 was not included in the second wave due to the fact that, at the beginning of this month, the health system reached 100% of the occupancy of ICU beds, which may affect the risk of death.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5202,
+          "infons": {
+            "section_title_1": "Methodology",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "We calculated the proportion of severe forms among the total cases of covid-19, the case fatality rates (CFR) and hospital case fatality rate (hCFR) over both waves time set using the date of onset of symptoms as a reference. The hCFR was calculated dividing the number of deaths by the total number of patients who had already been classified by hospital discharged or death[11].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5582,
+          "infons": {
+            "section_title_1": "Methodology",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "We calculated the proportion of severe forms (SARI) between the total number of covid-19 cases and the case fatality rate (CFR), in the first and second waves. We analyzed separately the patients without pre-existing conditions of risk, by age and sex. For comparison between these periods, we calculated the Risk Ratio (RR) with their respective 95% confidence intervals and the p-values.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5971,
+          "infons": {
+            "section_title_1": "Methodology",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Additionally, the bed occupancy rate in the ICU was used as an indicator of the capacity of the local health system because it is the level of assistance required for the life risk patients management and it was considered by the health sector in the RS state as the principal indicator to signalize the exhaustion of the hospital capacity during the pandemic.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6331,
+          "infons": {
+            "section_title_1": "Methodology",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The data were analyzed using the STATA 16 software and followed the recommendations of the REporting of studies Conducted using Observational Routinely-collected Data (RECORD) guidelines[12], attached checklist. This study did not require approval from any research ethics committee as all data were anonymous and obtained from open and public open source databases.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6697,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "In the state of Rio Grande do Sul, 230,986 cases of covid-19 were confirmed in the first wave and 150,942 cases in the second wave, while the number of severe cases was 11,951 and 13,128, respectively (table 1). Mortality was also higher in the second wave (4,859 deaths) when compared to the first wave (3,809 deaths). The proportion of cases of covid-19 by age group did not change between the first and second waves, however, the proportion of people under 60 years of age among severe cases increased from 39% in the first wave to 47 %, in the second wave. Also, the proportion of people under the age of 60 among the cases that evolved to death raised from 18% (670 deaths) in November and December (1st wave) to 28% (1370 deaths) in February (2nd wave) (data summarized from the Table 1).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7498,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "There was no change in the proportion of women among severe covid-19 cases or among deaths between the two analyzed periods and the same profile was observed in the proportion of covid-19 cases without pre-existing risk conditions keeping around 87% in the two waves (87%). However, the proportion of patients without pre-existing risk conditions among severe cases was higher in the second wave (33%, 4,324 severe cases) than in the first wave (25%, 3,021 severe cases) (Table 1). A higher proportion of patients without pre-existing risk conditions was also observed among those who evolved to death due to covid-19 in the second wave (22%, 1,077 deaths) than in the first one (13%, 489 deaths) (Table 1).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8205,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "After the emergence of the variant P.1 (week 4/2021) in the RS state a rapid increase in the incidence of covid-19 was observed (Figure 1). The proportion of patients with severe forms of covid-19 in the first wave was 5% and after the introduction of the P.1 variant this value almost doubled, quickly reaching values close to 10% between EW 6 and 9. The increase in the total number of covid-19 cases associated with an increase in the proportion of severe cases led to an abrupt increase in the number of patients admitted from the second half of February (Figure 1).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8775,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "From the end of January, an increasing tendency in the hCFR overlaps with the begging of the local transmission of the P.1 variant. This increase occurred 2 weeks before the increase in the number of hospitalized patients and preceded by 4 weeks the exhaustion of the ICU beds, which occurred from March 3 (Figure 2).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9092,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The case fatality rate also has increased in all age groups after the identification of the local transmission of the variant P.1 (figure 3). The age groups of 20 to 39 years old and of 40 to 59 years old presented a higher proportional increase in the second wave than in the first one (figure 3). The increase in the CFR begins to be noticed as of EW 4, that is, 6 weeks before the exhaustion of ICU vacancies in the state.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9517,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "With the exception of the group of people under 20 years old, a general increase in the proportion of severe cases in different age groups and sex was observed (table 2). However, this increase was prominent in the population between 20 and 59 years old and among patients without pre-existing risk conditions. The proportion of severe cases raised in the second wave in both sexes [female RR= 1.7 (95% CI = 1.64 −1.76; p <0.0001); male RR= 1.66 (1.61 - 1.72; p <0.0001)] (Table 2).The increase in the proportion of severe cases was greater in the 20- to 39-year-old group and in both sex than in the other age groups [female RR = 2.24 (95% CI = 1.99 - 2.52; p <0.0001); male RR = 2.56 (95% CI = 2.31 - 2.84; p <0.0001)].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10238,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The proportion of severe cases more than doubled among a population with no pre-existing diseases from the first to the second wave in both sexes (Table 2). In the age group between 20 and 39 years old, the increase in the proportion of severe cases was greater than in the other age groups [(Female RR = 2.45 (95% CI = 2.05 - 2.92; p<0.0001; Male RR = 2.64 (2.31 - 3.02; p <0.0001)].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10622,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Additionally, the CFR for covid-19 increased overall and in different age groups, in both sexes, when comparing the first and second waves. The increase in CFR occurred in a greatest intensity in the population between 20 and 59 years old and among patients without pre-existing risk conditions(table 2). Women in the 20 to 39 age group, with no pre-existing risk conditions, were at risk of death 5.65 times higher in February (95%CI = 2.9 - 11.03; p <0.0001) and in the age group of 40 and 59 years old, this risk was 7.7 times higher (95%CI = 5.01-11.83; p <0.0001).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11191,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The same profile was observed among men without previous diseases: the CFR was 5.9 (95%CI = 3.2 - 10.85; p <0.0001) higher in the second wave among adults between 20 and 39 years old and 4.86 higher (95%CI = 3.73 −6.33; p <0.0001) in February among men between 40 and 59 years old.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11472,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Among the population under 20 years of age, the CFR did not change, except for the female group. In this group, there was a significant increase (RR = 11.3 (1.42-90.55); p <0.01). However, this result should be analyzed with caution due to the large wide confidence interval and the small number of events in this age group.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11796,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Our results show that there was a general increase in the severity of cases and in the CFR for covid-19 in RS state after confirmation of the community transmission of variant P.1, and that this increase started before the overload of the health system and it was higher among young people without previous diseases. There was an increase in the proportion of patients under 60 years of age and of patients without pre-existing risk conditions between severe cases and deaths.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12282,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The increase in the proportion of hospitalized cases among cases of covid-19 in 2021 reversed a downward trend in the proportion of hospitalized patients that had occurred since the beginning of the pandemic, this fact preceded the increase in the total number of hospitalized patients. Thus, the increase in severity contributed to the overload of the local health system leading to the filling of the ICU beds. As we do not yet have specific treatment for covid-19 in the initial phase of the disease to prevent worsening, this increase in the proportion of severe cases cannot be attributed to problems in health care system. The fact that the increase in CFR and hCFR occurred simultaneously with the confirmation of the emergence of variant P.1 in the state and preceded by several weeks the overload of the health system reinforces the hypothesis that the risk of death among covid-19 patients increased regardless of overload of the hospital care system.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13243,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Although there was no shortage of beds in the wards during any analyzed period of the pandemic, a proportion of the cases with symptoms that started in late February may have had difficulty in hospitalization in the ICU in March and this may have contributed to the greatest increase in CFR and in hCFR. However, this does not explain why the difference was more striking in the population of young adults, without previous diseases, than between the elderly and the population in general. Vaccination also does not seem to be a plausible explanation for the risk changes between the age groups and in the population with pre-existing diseases, since at the end of February the vaccine was only being applied to health professionals, institutionalized elderly and over 80 years old. In this age group, until February 28, 48% (156,440 individuals) had recently received the first dose and only 0.7% (2,307 individuals) had received the second dose of the covid-19 vaccine (vacina.saude.rs.gov.br).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14239,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Our studies reinforce previous findings that indicate that a P.1 variant appears to be more lethal than the previous one, especially among young patients[2,4,13]. In a previous study in Amazonas, we found that in the subgroup of female patients, the difference in risk of death was greater than in the male population, in the present study we found similar results[2].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14607,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Studies in the United Kingdom found an increase in CFR in patients with a confirmed diagnosis of variant B.1.1.7 compared to the risk ratio of previous strains 1.64 (95% confidence interval 1.32 to 2.04)[14] and 1.61 (1.42-1.82) [15].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14841,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The increase in risk of death among variant B.1.1.7 patients in the United Kingdom calculated from dividing the CFR among B.1.1.7 patients by the CFR among non-B.1.1.7 patients was relatively homogeneous in the different age groups and in both the sexes. In females, it ranged from 1.46 in those over 85 years old to 1.59 in those under 35 years old. In males, it ranged from 1.47 in those over 85 years old to 1.55 in 35-54 years old[15].",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15280,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Our study revealed a great variability in RR among the different groups by sex, age group and presence of pre-existing conditions. The heterogeneity observed between the age groups was greater when we analyzed the subgroup of the population without preexisting risk conditions where we found that the CFR in the female sex in the second wave was 1.95 times (95CI = 1.38-2.76) the CFR of the first wave in the population over 85 years old and was 7.7 times (95% CI = 5.01-11.83; p <0.0001) in the population between 40 and 59 years old. In the male population without previous diseases, the CFR in the second wave was 2.18 (95% CI 1.62-2.93) times the CFR of the first wave in the population over 85 years old and 5.9 (95% CI 3, 2-10,85; p <0, 0001) higher in the range between 20 and 39 years old. This heterogeneity occurs not only in the RR of the CFR, but also in the increase in the proportions of severe forms (RR of Severity, table 2), which excludes the impact of the overload of the health system, as we mentioned above.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16308,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Brazil has one of the worst epidemiological situations for covid-19 in the world, both in the number of cases and in the number of deaths and their rates.[13] The situation has worsened greatly since the emergence of the P.1 variant, first in the Amazon region and then throughout the country. The presence of a large proportion of patients already infected in that region may have contributed to the selection of a strain with an immune escape capacity[16]. This phenomenon may also explain the emergence of a more transmissible strain, but not a more lethal one. A year has passed since the beginning of the SARS-CoV-2 pandemic and a major change in the epidemiological scenario appears to be the emergence of these new variants. Previous studies already exist that the P.1 variant is more transmissible and has the capacity to escape immunological.[3,8] The present study suggests that this variant leads to more severe and lethal results than previous strains. In addition, this variant was able to increase severity in specific groups that were previously more spared (women, youth and patients without pre-existing risk conditions). This set of characteristics should be an alert and reinforce the importance of better understanding the epidemiological, virological, pathophysiological, immunological and clinical aspects associated with this and other variants, therefore, an international effort must be organized to increase this knowledge.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17757,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "One of the strengths of our study is its size, which includes all cases of covid-19 from the RS state officially reported to the Ministry of Health during a period when the P.1 variant was introduced in the state. Another strength is the fact that it is studying a period in which there was not yet a complete depletion of health resources in the studied place.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18118,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "This study has some limitations, such as the use of secondary data, which can present problems in the quality, integrity and delays in the recorded data. Patients were not tested individually to see if it was a strain of SARS-CoV-2, for comparison of groups. We assume that as of February, the proportion of variant P.1 among patients with covid-19 was higher than in November and December, although it is quite likely, considering other studies in reference units in the state, this assumption is quite inaccurate.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18633,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The use of CFR and hCFR as severity indicators based on epidemiological surveillance data can lead to different types of bias, however, it remains a useful tool, especially in emergency situations in public health.[17–20]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18854,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "This is an initial analysis in which a limited number of available variables have been assessed and additional individual risk factors have not been explored in depth. Despite these limitations, the results obtained in this study suggest a temporal association between the emergence of variant P.1 and severity indicators related to covid-19 measured by CFR and hCFR, in addition to a potential causal association between exposure to the new variant of SARS -CoV-2 (P.1). Therefore, subsequent specific studies must be carried out to evaluate these hypotheses.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19414,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Our findings showed an increase in the proportion of young people and people without previous illnesses among severe cases and deaths in the state of RS after the identification of the local transmission of variant P.1 in the state. There was also an increase in the proportion of severe cases and in the CFR, in almost all subgroups analyzed, this increase was heterogeneous in different age groups and sex. As far as we know, these are the first evidences that the P.1 variant can disproportionately increase the risk of severity and deaths among population without pre-existing diseases, suggesting related changes in pathogenicity and virulence profiles. New studies still need to be done to confirm and deepen these findings.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

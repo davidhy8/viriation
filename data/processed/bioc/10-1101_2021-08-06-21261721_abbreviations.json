@@ -1,0 +1,73 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-08-06-21261721",
+      "inputfile": "../../data/processed/html/10-1101_2021-08-06-21261721.html",
+      "passages": [
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "coronavirus disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "LTCH",
+          "text_long_1": "long-term care homes",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBD",
+          "text_long_1": "receptor binding domain",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "NP",
+          "text_long_1": "nucleocapsid protein",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PRNT",
+          "text_long_1": "plaque reduction neutralization titer",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "VLPs",
+          "text_long_1": "virus-like particles",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ROC",
+          "text_long_1": "receiver operator characteristic",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FPR",
+          "text_long_1": "false positive rate",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SDs",
+          "text_long_1": "standard deviations",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CMC",
+          "text_long_1": "carboxymethylcellulose",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "BMI",
+          "text_long_1": "body mass index",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

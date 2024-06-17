@@ -1,0 +1,56 @@
+Auto-CORPus log file from 15:13 on 29/4/2024
+Input directory provided: data/processed/html/
+Output directory provided: data/processed/bioc/
+Config provided: data/other/config_biorxiv.json
+Output format: JSON
+0 files processed.
+46 files not processed due to errors.
+
+
+
+data/processed/html/10-1101_2021-03-25-21253802 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-03-02-433156 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-01-06-20248960 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2022-01-25-477724 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2022-02-22-481436 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-08-05-455290 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-03-18-436013 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2022-06-05-493249 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2022-05-30-493765 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2022-05-12-491584 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-03-22-436481 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-04-26-441517 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2020-11-06-372037 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-04-19-440435 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-04-22-441007 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-01-27-428529 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2022-06-01-494385 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-05-05-442760 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-10-04-463028 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-04-19-440414 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-05-08-443253 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-04-30-441434 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2022-06-24-22276144 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2022-06-22-22276690 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-08-06-21261721 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-02-02-21250799 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-04-27-21254849 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-03-24-436850 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-12-24-21268382v1-full failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-03-09-434607v9 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-04-30-441559 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2020-04-10-029454 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2020-12-29-424708 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-03-04-433887 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-01-11-426269 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-04-09-439154 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-01-15-426849 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-05-11-21256908 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-04-13-21255281 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-03-24-21254046 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2022-05-09-22274623 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-09-17-21263624 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-02-01-429069 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-01-25-427948 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-05-03-441080 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.
+data/processed/html/10-1101_2021-04-02-21254832 failed due to [Errno 2] No such file or directory: 'src/IAO_dicts/IAO_FINAL_MAPPING.txt'.

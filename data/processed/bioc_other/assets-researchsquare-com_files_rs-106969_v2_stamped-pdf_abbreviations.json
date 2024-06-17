@@ -1,0 +1,73 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "assets-researchsquare-com_files_rs-106969_v2_stamped-pdf",
+      "inputfile": "../../data/processed/html/html_other/assets-researchsquare-com_files_rs-106969_v2_stamped-pdf.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "severe acute respiratory syndrome coronavirus 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "HCoVs",
+          "text_long_1": "human coronaviruses",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBD",
+          "text_long_1": "receptor binding domain",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "hACE2",
+          "text_long_1": "human angiotensin-converting enzyme 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBM",
+          "text_long_1": "receptor binding motif",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "NMA",
+          "text_long_1": "normal mode analysis",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "AGG",
+          "text_long_1": "A475-G476-S477G",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MD",
+          "text_long_1": "molecular dynamics simulations",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RMSF",
+          "text_long_1": "root mean square fluctuation",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SMD",
+          "text_long_1": "Steered molecular dynamics",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "COM",
+          "text_long_1": "center-of-mass",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PME",
+          "text_long_1": "Particle Mesh Ewald",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

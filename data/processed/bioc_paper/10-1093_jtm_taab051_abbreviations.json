@@ -1,0 +1,48 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1093_jtm_taab051",
+      "inputfile": "../../data/processed/html_papers/10-1093_jtm_taab051.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "Severe acute respiratory syndrome coronavirus-2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBD",
+          "text_long_1": "receptor-binding domain",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ACE2",
+          "text_long_1": "angiotensin-converting enzyme 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "AA",
+          "text_long_1": "amino acid",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PFUs",
+          "text_long_1": "plaque-forming units",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CMC",
+          "text_long_1": "carboxymethyl cellulose",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FCS",
+          "text_long_1": "fetal calf serum",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+ThreeSARS-CoV-2reinfectioncasesbythenewVariantofConcern(VOC)P.1/501Y.V3FelipeNaveca(.felipe.naveca@ocruz.br)Fiocruz, Instituto Leônidas e Maria Deane https://orcid.org/0000-0002-2888-1060 
+
+
+Fundação 
+de 
+Vigilância 
+em 
+Saúde 
+do 
+Amazonas, 
+Amazonas, 
+Brazil 
+https://orcid.org/0000-0002-7821­
+5752 
+
+
+Fiocruz, Instituto Leônidas e Maria Deane, Amazonas, Brazil https://orcid.org/0000-0002-7786-4718 
+Fiocruz, Instituto Leônidas e Maria Deane, Amazonas, Brazil https://orcid.org/0000-0002-3869-1519 
+
+
+
+Fiocruz, Instituto Leônidas e Maria Deane, Amazonas, Brazil https://orcid.org/0000-0002-4945-8878 
+Fiocruz, Instituto Leônidas e Maria Deane, Amazonas, Brazil https://orcid.org/0000-0002-8833-1925 
+Fiocruz, Instituto Leônidas e Maria Deane, Amazonas, Brazil Fiocruz, Instituto Leônidas e Maria Deane, Amazonas, Brazil Fiocruz, Instituto Leônidas e Maria Deane, Amazonas, Brazil https://orcid.org/0000-0001-9803-1996 
+Fiocruz, Instituto Leônidas e Maria Deane, Amazonas, Brazil Fiocruz, Instituto Leônidas e Maria Deane, Amazonas, Brazil Fundação de Vigilância em Saúde do Amazonas, Amazonas, Brazil Fiocruz, Instituto Leônidas e Maria Deane, Amazonas, Brazil Fiocruz, Instituto Leônidas e Maria Deane, Amazonas, Brazil Laboratório Central de Saúde Pública do Amazonas, Amazonas, Brazil Laboratório Central de Saúde Pública do Amazonas, Amazonas, Brazil 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Universidade do Estado do Amazonas, Amazonas, Brazil. Hospital Adventista de Manaus, Amazonas, Brasil Hospital Pró-Cardíaco, Rio de Janeiro, Brazil. Pathogen Genomics Center, National Institute of Infectious Diseases, Tokyo, Japan 
+
+
+
+
+Pathogen Genomics Center, National Institute of Infectious Diseases, Tokyo, Japan Pathogen Genomics Center, National Institute of Infectious Diseases, Tokyo, Japan 
+
+
+Pathogen Genomics Center, National Institute of Infectious Diseases, Tokyo, Japan Fiocruz, Instituto Oswaldo Cruz, Rio de Janeiro, Brazil Fiocruz, Instituto Aggeu Magalhães, Pernambuco, Brazil. https://orcid.org/0000-0002-1419-5713 
+Universidade Federal do Espírito Santo, Centro de Ciências Exatas, Naturais e da Saúde, Espírito Santo, 
+
+
+
+Brazil https://orcid.org/0000-0002-5746-0820 
+Fiocruz, Instituto Gonçalo Moniz, Bahia, Brazil https://orcid.org/0000-0003-4921-7975 
+Fiocruz, Instituto Oswaldo Cruz, Rio de Janeiro, Brazil https://orcid.org/0000-0002-2724-2793 
+Fiocruz, Instituto Oswaldo Cruz, Rio de Janeiro, Brazil 
+
+
+
+
+Keywords: COVID-19, SARS-CoV-2, reinfection, secondary infection, lineage P.1, Amazonas, Brazil 
+License: .. This work is licensed under a Creative Commons Attribution 4.0 International License. 
+Read 
+Full 
+License 
+The SARS-CoV-2 lineage B.1.1.28 has been evolving in Brazil since February 2020 giving origin to multiple local clades including the new Variant of Concern (VOC) designated P.1 or 501Y.V3. The recent emergence of sub-lineages with convergent mutations in the spike (S) protein raises concern about the potential impact on viral infectivity and immune escape. We describe here the rst three conrmed SARS­CoV-2 reinfections cases with the new VOC P.1 in residents of the Amazonas state, Brazil. Three female patients, 29, 40, and 50-year-old, were RT-PCR conrmed for SARS-CoV-2 on two occasions, with at least 92 days apart. Next-generation sequencing and phylogenetic analysis were conducted to precisely access the SARS-CoV-2 lineages of each infection event. SARS-CoV-2 genomic analysis conrmed three cases of reinfections caused by the VOC P.1 in patients that were primo-infected by distinct viral lineages 3–9 months earlier. Case 1 (29-year-old) was positive on March 24, 2020 (lineage B.1.195) and then on December 30, 2020 (lineage P.1); case 2 (50-year-old) was positive on October 19, 2020 (lineage B.1.1.33) and on January 19, 2021 (lineage P.1); case 3 (40-year-old) was positive on April 22, 2020 (lineage 
+
+B.1.195) and on January 29, 2021 (lineage P.1). The three patients displayed low mean Ct values (< 22) at nasopharyngeal samples and reported less severe illness during reinfection. The present study provides the rst evidence of the new VOC P.1 causing multiple reinfections during the second epidemic peak in the Amazonas state. Our ndings suggest that reinfected individuals may have been infectious. Although immune responses induced by natural infections do not necessarily prevent subsequent infections by the VOC P.1, they may still protect from severe disease. 
+Introduction 
+Since the emergence of the coronavirus disease 2019 (COVID-19), a few cases of reinfection with phylogenetically distinct variants of SARS-CoV-2 have been reported 1. These reinfection cases might be the consequence of a limited and transitory protective immunity induced by the primo-infection or might reect the reinfecting virus's ability to evade the previous immune responses. The rapid spread in the United Kingdom (UK) and South Africa of emerging SARS-CoV-2 variants carrying several mutations in the receptor-binding domain (RBD) of the spike (S) protein 2,3 granted them the title of Variants of Concern (VOC). Among these mutations, E484K and N501Y are of particular concern since they potentially reduce antibody neutralization and increase anity for ACE2 receptor 4-8 . Of note, the rst ocial record of a reinfection case with the emerging VOC B.1.1.7 circulating in the UK 9 was recently published. 
+The SARS-CoV-2 lineage B.1.1.28 has been circulating in Brazil since February 2020 without accumulating notable amino acid changes in the S protein 9,10. Nevertheless, recent genomic surveillance studies reported the emergence of two B.1.1.28 sub-clades with convergent mutations in the RBD of the S protein common to those detected in the UK and South African variants. One sub-clade, designated P.2, was rst detected in Rio de Janeiro harboring the mutation S:E484K 10 . The second sub-clade, designated P.1, was rst detected in Japanese travelers returning from the Amazonas state 11 and a few days later in residents from Manaus 12 . P.1 was classied as a VOC due to the presence of several key mutations in the RBD (K417T, E484K, and N501Y). Two recent reports described the rst documented cases of reinfection with the emerging P.2 lineage in individuals from the Brazilian Northeast region that were primo-infected by SARS-CoV-2 of lineage B.1.1.33 13,14. 
+In this study, we report the rst conrmed cases of reinfection with the newly emerging P.1 lineage in three patients from Amazonas, a Brazilian state that was severely hit by COVID-19 at the rst epidemic wave between March and July and is currently facing a spiraling surge of deaths since December 2020. The current cases reported here raise questions about the role of reinfections caused by this new VOC in the Amazonas state's second epidemic wave. 
+
+Case’s descriptions 
+All cases reported here are from female patients’ residents in Manaus, Amazonas state capital city, Brazil, with no travel history. All patients reported less severe illness in the second infection. Detailed descriptions for each event are shown. 
+Case 1 
+A 29-year-old patient presented two clinical episodes of COVID-19 infection 281 days apart (Figure 1 ­Case 1). The rst episode on 16th March 2020 evolved with long-term fever and myalgia, cough, sore throat, nausea, and back pain. The patient was classied as having mild COVID-19 with no complications regarding these clinical manifestations and based on imaging exams. On 19th December 2020, the patient reported participating in an end-of-year celebration with ten other colleagues after testing positive in an IgG rapid test (Medlevensohn, RJ, Brazil) that uses the spike protein antigen. One of the meeting participants was RT-PCR conrmed for SARS-CoV-2 infection on 24th December, and the case 1 patient exhibited the second symptomatic COVID-19 episode on 27th December, with fever, cough, sore throat, diarrhea, anosmia, ageusia, headache, runny nose, and resting pulse oximetry of 97%. 
+Case 2 
+A 50-year-old subject presented two clinical episodes of COVID-19 infection 92 days apart (Figure 1 – Case 2). Interestingly, the patient participated in a COVID-19 serum epidemiological survey, testing negative for IgM and IgG only three days before the rst symptoms onset. On 16th October 2020, presented fever, cough, and tiredness, being RT-PCR conrmed on 19th October 2020 and classied as having mild COVID-19 with no complications and did not perform imaging exams. The patient had an RT­PCR negative result on 5th November 2020 and a positive IgM/IgG rapid test result (Biomanguinhos, RJ, Brazil) on 23rd November 2020. The second symptomatic episode of mild COVID-19 raised on 16th January 2021 with cough, headache, and runny nose, without further complications. 
+Case 3 
+The third suspected reinfection case was a 40-year-old woman who presented two clinical episodes of mild COVID-19 infection 282 days apart (Figure 1 – Case 3). On 21st April 2020, she presented fever, headache, chest pain, and weakness, being RT-PCR conrmed on 22nd April 2020. No further complications were reported and on 15th May 2020, the patient had a negative SARS-CoV-2 RT-PCR test. The subject received a kidney transplant 11 years ago and is evaluated periodically in another Brazilian state. For that reason, she needed a negative RT-PCR certicate as a prerequisite for boarding. However, even asymptomatic, SARS-CoV-2 RNA was detected on 29th January 2021, one day before presenting sore throat and running nose symptoms. 
+Procedures 
+All patients had nasopharyngeal and pharyngeal swabs (NPS) collected by Fiocruz Amazônia (Fiocruz/ILMD) staff, which is part of the ocial network of the Ministry of Health for diagnostics and surveillance of the SARS-CoV-2 in the Amazonas state, Brazil. Briey, total nucleic acid was extracted from the NPS specimens with Maxwell® RSC Viral Total Nucleic Acid Purication Kit (Promega, Madison, WI) and then immediately the RNA was submitted to the SARS-CoV-2 real time RT-PCR protocol detection developed by the US CDC, targeting the viral N gene, and human RNase P as the internal control 15 . 
+For NGS, the whole-genome amplicons were generated as previously described 16, but now with a PCR scheme encompassing nine overlapping amplicons (Supplemental le -Supplementary table 1 and 2). Libraries were produced with Nextera XT and sequenced with MiSeq Reagent Micro Kit v2 (300-cycles). The FASTQ reads were obtained following the Illumina pipeline on BaseSpace, imported into Geneious v10.2.6, trimmed (BBDuk 37.25), and mapped (BBMap 37.25) against the reference sequence EPI_ISL_402124 available in EpiCoV database from GISAID (https://www.gisaid.org/). 
+In order to conrm the presence of phylogenetically different SARS-CoV-2 lineages in each episode, sequences from the suspected reinfections cases were aligned with all high quality (<1% of N) SARS-CoV­2 whole-genomes (>29 kb) from Brazil available in the EpiCoV database in GISAID by February 12th, 2021. Phylogenetic analysis was initially performed using ML with IQ-TREE v2.1.2 17 and the temporal scale of lineage P.1 viral strains associated with the reinfection cases was reconstructed using a Bayesian analysis with BEAST 1.10 18 . The time-scaled P.1 phylogeny was estimated using a strict molecular clock model with a uniform substitution rate prior (8-10 .10-4 substitutions/site/year), the GTR+I+G4 nucleotide substitution model and the Bayesian skyline coalescent prior. 
+This study followed the guidelines of the SARS-CoV-2 surveillance program of the Amazonas State Health Secretariat and was approved by the Ethics Committee of the Amazonas State University CAAE: 25430719.6.0000.5016. 
+
+
+All six collected samples were positive in the RT-PCR tests, with a cycle threshold (Ct) range from 19.7 to 
+34.0 (
+). Higher viral loads were found in reinfection samples from cases 1 and 2 (mean Ct 20.5 and 19.7, respectively) compared with the primo-infection ones (mean Ct 27.5 and 34.0, respectively). Case 3, by contrast, displayed roughly comparable Ct values at both primo-infection (19.9) and reinfection (21.0) samples. Additionally, all samples were also positive by the DPP SARS-CoV-2 Antigen test system (Chembio Diagnostics, Rio de Janeiro, Brazil), except for the 1st sample of Case 2 that had a mean Ct value above the antigen test threshold. 
+
+We recovered high-quality full SARS-CoV-2 whole-genomes from ve out of six positive NPS samples from the suspected reinfections cases (case 1: EPI_ISL_811148 and EPI_ISL_811149; case 2: EPI_ISL_1114151 and EPI_ISL_1034304; and case 3: EPI_ISL_1034305 and EPI_ISL_1034306). Consensus sequences with a mean read depth of 1,807x and 2,601x were generated for the rst infection and reinfection cases, respectively, excluding duplicated reads. Viral sequences were analyzed using the PANGO lineage system implemented in the Pangolin software version 2021-01-16 19 that indicated the presence of two different SARS-CoV-2 lineages in each COVID-19 episode. The genome of the rst sample of case 2 was not entirely covered due to the low viral load (Ct 34), but even the partial genome (14.7% Ns) contained enough SNP markers to condently assign the corresponding SARS-CoV-2 lineage with high support (1.0). The ML phylogenetic analysis conrmed that the SARS-CoV-2 sequences from primo-infections branched together with B.1.195 and B.1.1.33 Brazilian sequences (aLRT > 76.5%), while 
+emerging P.1 lineage to December 15th (95% High Posterior Density [HPD]: December 1st – December 21th) and the most recent common ancestor of the reinfecting viruses and the closest P.1 sequences to December 19th (95% HPD: December 14th -December 25th) for case 1, December 25th (95% HPD: December 15th -January 12th) for case 2, and January 1st (95% HPD: December 18th -January 15th) for case 3 (
+). This time frame condently excluded the possibility of long-term persistence of the P.1 viruses since primo-infection. 
+
+This study described the rst cases of reinfection with the emerging P.1 lineage (carrying mutations S:K417T, S:E484K and S:N501Y) in three women living in Manaus, Amazonas state, Brazil, previously infected with lineages B.1.195 (cases 1 and 3) and B.1.1.33 (case 2). Lineages B.1.195 and B.1.1.33 were prevalent SARS-COV-2 variants in the Amazonas state between March and November 2020, while lineage 
+P.1 
+was 
+frequently 
+detected 
+since 
+December 
+2020 
+(http://www.genomahcov.ocruz.br/presenca-das­
+linhagens-por-estado/) 
+20 
+. 
+These 
+ndings 
+revealed 
+that 
+natural 
+infections 
+do 
+not 
+necessarily 
+prevent 
+subsequent 
+infections 
+by 
+the 
+VOC 
+P.1. 
+Despite 
+this, 
+all 
+three 
+patients 
+reported 
+less 
+severe 
+symptoms 
+at 
+
+
+reinfections than during primo-infection, suggesting that immune responses induced by early SARS-CoV­2 variants were ecient enough to prevent severe COVID-19 cases caused by the VOC P.1. 
+Notably, samples taken from symptomatic reinfection in cases 1 and 2 displayed lower Ct values (19.7­
+20.5) than samples taken at symptomatic primo-infection (27.5-34.0), while the mean Ct value of the sample taken at symptomatic primo-infection in case 3 (19.9) was comparable to that taken at the asymptomatic reinfection (21.0). The overall low mean Ct values (< 22) detected at reinfection in all three cases suggests that VOC P.1 viruses could eciently replicate in the nasopharyngeal tract of convalescent subjects and that both symptomatic and asymptomatic reinfected individuals may have been infectious 21 . Although these ndings are consistent with the hypothesis that reinfection with the emergent VOC P.1 might have contributed to the onward transmission of the virus in a city previously overwhelmed by the COVID-19 22, the precise frequency of reinfections events among new cases in Manaus remains unclear. 
+A longitudinal study in health care workers suggests that post-infection anti-SARS-CoV-2 IgG antibodies are associated with protection from reinfection for most people for at least six months 23 . We may speculate that the patients described here developed a transient protective immunity after primo­infection, but the anti-SARS-CoV-2 antibodies substantially decayed by the time of reinfection 24 . Alternatively, the positive IgG rapid tests obtained only eight days (case 1) and two months (case 2) before the second episode suggest that reinfection in those cases might have occurred in the face of pre­existing anti-SARS-CoV-2 antibodies, although this nding should be interpreted with caution due to the limitations of rapid tests. In this hypothesis, the patients’ IgG antibodies might have low neutralizing power against P.1, making them susceptible to reinfection despite seroconversion 25 . The cases of reinfection with the B.1.1.28-derived lineages detected here (VOC P.1) and in previous reports (VOC P.2) 14,15 are consistent with the described capability of S:K484 viruses to escape from anti-SARS-CoV-2 neutralizing antibodies induced during primo-infection with S:E484 variants 4-6 . 
+Urgent studies are necessary to determine whether reinfection with newly emerging lineages harboring the mutation S:E484K is a widespread phenomenon or is limited to a few sporadic cases. It will also be crucial to understand the extent to which reinfection contributes to onward transmission of SARS-CoV-2 in previously exposed populations and the rising number of SARS-CoV-2 cases observed in Amazonas and other Brazilian states during December 2020 -January 2021. Further work is also needed to understand if P.1 can completely evade the antibody response induced by vaccines and if the cellular immune response may still protect from severe disease. 
+
+The three patients signed the informed consent. 
+
+National Council for Scientic and Technological Development (CNPq), Amazonas State Research Support Foundation (FAPEAM), and Fiocruz (Inova). 
+
+FGN contributed to writing of the report, data analysis, laboratory management, and obtaining nancial support. CC, MJB, MJ, LG, MS, TM, and LA contributed to patient and public health surveillance data. VN, VS, AC, FN, AC, DD, GS, MM, and KP contributed to diagnostics and sequencing analysis. JHS and RCF contributed to clinical data analysis. TS, KI, MH, and MK contributed with editing of the report and sharing previously unpublished data. MMS contributed to review, editing of the report, and obtaining nancial support. GLW, ED, TG, GB, and PCR contributed to formal data analysis, writing, and editing of the report. 
+
+All authors declare no competing interests. 
+
+The consensus SARS-CoV-2 sequences generated in this work are available online at EpiCoV database in GISAID https://www.gisaid.org 
+under the accession numbers: EPI_ISL_811148, EPI_ISL_811149, EPI_ISL_1114151, EPI_ISL_1034304, EPI_ISL_1034305 and EPI_ISL_1034306. 
+
+We want to thank the funding support from CGLab/MoH (General Laboratories Coordination of Brazilian Ministry of Health), CVSLR/FIOCRUZ (Coordination of Health Surveillance and Reference Laboratories of Oswaldo Cruz Foundation), CNPq COVID-19 MCTI 402457/2020-0 and 403276/2020-9; INOVA Fiocruz VPPCB-005-FIO-20-2 and VPPCB-007-FIO-18-2-30; FAPERJ: E26/210.196/2020; FAPEAM (PCTI­EmergeSaude/AM call 005/2020 and Rede Genômica de Vigilância em Saúde -REGESAM). This study was also supported by a Grant-in Aid from the Japan Agency for Medical Research and Development (AMED) under Grant number JP20fk0108103. We also appreciate the support of all Genomic Coronavirus Fiocruz Network members (http://www.genomahcov.ocruz.br/), the Multi-user Research Facility of Biosafety Level 3 Platform of the Oswaldo Cruz Institute (IOC), Fiocruz, and the CGLab/MoH and Secretary of Surveillance and Health of the Brazilian MoH (SVS-MS). Additionally, we gratefully acknowledge the Authors from the originating laboratories responsible for obtaining the specimens and the submitting laboratories where genetic sequence data were generated and shared via the GISAID 
+
+1. 
+Babiker A, Marvil C, Waggoner JJ, Collins M, Piantadosi A. The Importance and Challenges of Identifying SARS-CoV-2 Reinfections. J Clin Microbiol 2020. 
+
+2. 
+Tegally H, Wilkinson E, Giovanetti M, et al. Emergence and rapid spread of a new severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2) lineage with multiple spike mutations in South Africa. medRxiv 2020. 
+
+3. 
+Rambaut AL, N.; Pybus, O.; Barclay, W.; Barrett, J.; Carabelli, A.; Connor, T.; Peacock, T.; Robertson, D.; Volz, E.; on behalf of COVID-19 Genomics Consortium UK (CoG-UK). Preliminary genomic characterisation of an emergent SARS-CoV-2 lineage in the UK dened by a novel set of spike mutations. 
+Virologicalorg, 
+December 
+2020, 
+2020. 
+https://virological.org/t/preliminary-genomic­
+characterisation-of-an-emergent-sars-cov-2-lineage-in-the-uk-dened-by-a-novel-set-of-spike­
+mutations/563 
+(accessed 
+9th 
+January, 
+2021). 
+
+
+4. 
+Weisblum Y, Schmidt F, Zhang F, et al. Escape from neutralizing antibodies by SARS-CoV-2 spike protein variants. Elife 2020; 9. 
+
+5. 
+Greaney AJ, Loes AN, Crawford KHD, et al. Comprehensive mapping of mutations in the SARS-CoV-2 receptor-binding domain that affect recognition by polyclonal human plasma antibodies. Cell Host Microbe 2021. 
+
+
+. Baum A, Fulton BO, Wloga E, et al. Antibody cocktail to SARS-CoV-2 spike protein prevents rapid mutational escape seen with individual antibodies. Science 2020; 369(6506): 1014-8. 
+7. Candido DS, Claro IM, de Jesus JG, et al. Evolution and epidemic spread of SARS-CoV-2 in Brazil. Science 2020; 369(6508): 1255-60. 
+. Resende PC, Delatorre, E., Gräf T., Mir D., Motta F.C., Appolinario L., Paixão A. C., Mendonça A. C.,, Ogrzewalska M., Caetano B., Wallau G. L., Docena C., Santos M. C., Ferreirra J., Sousa Junior E., Silva S., Fernandes S., Vianna L. A., Souza L., Ferro J. F, Nardy V., Santos C., Riediger I., Debur M., Croda J., Oliveira, W, Abreu A,, Bello G.. Siqueira M. M. Evolutionary dynamics and dissemination pattern of the SARS-CoV-2 lineage B.1.1.33 during the early pandemic phase in Brazil. Frontier in Microbiology 2020. 
+9. Harrington D, Kele B, Pereira S, et al. Conrmed Reinfection with SARS-CoV-2 Variant VOC­202012/01. Clin Infect Dis 2021. 
+10. 
+Voloch CM, Silva F Rd, de Almeida LGP, et al. Genomic characterization of a novel SARS-CoV-2 lineage from Rio de Janeiro, Brazil. medRxiv 2020. 
+
+11. 
+Fujino T, Nomoto H, Kutsuna S, et al. Novel SARS-CoV-2 Variant Identied in Travelers from Brazil to Japan. Emerg Infect Dis 2021; 
+(4). 
+
+
+12. Faria NC, M.I.; Candido, D., Franco, L.A.M; Andrade, P.; Coletti, T.; Silva, C.A.M, Sales, F.C, Manuli, E.R.; Aguiar, R.A; Gaburo N.; Camilo, C.C.; Fraiji, N.A.; Crispim, C.A.E.; Carvalho, M.P.S.S.; Rambaut, A.; Loman, N., Pybus, O.; Sabino, E.; on behalf of CADDE Genomic Network;. Genomic characterisation of an emergent SARS-CoV-2 lineage in Manaus: preliminary ndings. Virologicaorg,, 2021. https://virological.org/t/genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-manaus­
+preliminary-ndings/586 
+(accessed 
+12th 
+January, 
+2021). 
+
+13. 
+Nonaka CKV, Franco MM, Graf T, et al. Genomic Evidence of SARS-CoV-2 Reinfection Involving E484K Spike Mutation, Brazil. Emerg Infect Dis 2021; 
+(5). 
+
+14. 
+Resende PCB, J. F.; Vasconcelos, R. H. T.; Arantes I.; Appolinario L.; Mendonça, A. C.; Paixao, A. C.; Rodrigues A. C.; Silva, T.; Rocha, A. S.; Pauvolid-Corrêa, A.; Motta, F. C.; Teixeira, D. L. F. T.; Carneiro, T. 
+
+
+F. O.; Freire Neto, F. P. F.; Herbster, I. D.; Leite, A. B.; Riediger, I. N.; Debur, M. C.; Naveca, F. G.; Almeida, 
+W.; Livorati, M.; Bello, G.; Siqueira, M. M.;. Spike E484K mutation in the rst SARS-CoV-2 reinfection case 
+conrmed 
+in 
+Brazil, 
+2020. 
+Virologicalorg, 
+2020. 
+https://virological.org/t/spike-e484k-mutation­
+in-the-rst-sars-cov-2-reinfection-case-conrmed-in-brazil-2020/584 
+(accessed 
+10th 
+January, 
+2020). 
+
+15. Centers for Disease Control and Prevention. CDC 2019-Novel Coronavirus (2019-nCoV) Real-Time RT­PCR Diagnostic Panel. 2020; (CDC-006-00019, Revision: 06): 80. 
+1. Nascimento VAD, Corado ALG, Nascimento FOD, et al. Genomic and phylogenetic characterisation of an imported case of SARS-CoV-2 in Amazonas State, Brazil. Mem Inst Oswaldo Cruz 2020; 
+: e200310. 
+17. Minh BQ, Schmidt HA, Chernomor O, et al. IQ-TREE 2: New Models and Ecient Methods for Phylogenetic Inference in the Genomic Era. Mol Biol Evol 2020; 
+(5): 1530-4. 
+1. Suchard MA, Lemey P, Baele G, Ayres DL, Drummond AJ, Rambaut A. Bayesian phylogenetic and phylodynamic data integration using BEAST 1.10. Virus Evol 2018; 4(1): vey016. 
+19. 
+Rambaut A, Holmes EC, O'Toole A, et al. A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology. Nat Microbiol 2020. 
+
+20. 
+Naveca F, Nascimento V, Souza V, et al. COVID-19 epidemic in the Brazilian state of Amazonas was driven by long-term persistence of endemic SARS-CoV-2 lineages and the recent emergence of the new 
+Variant 
+of 
+Concern 
+P.1. 
+Research 
+Square, 
+2021. 
+https://www.researchsquare.com/article/rs­
+275494/v1 
+(accessed. 
+
+
+21. 
+Bullard J, Dust K, Funk D, et al. Predicting infectious SARS-CoV-2 from diagnostic samples. Clin Infect Dis 2020. 
+
+22. 
+Sabino EC, Buss LF, Carvalho MPS, et al. Resurgence of COVID-19 in Manaus, Brazil, despite high seroprevalence. Lancet 2021; 
+(10273): 452-5. 
+
+23. 
+Lumley SF, O'Donnell D, Stoesser NE, et al. Antibody Status and Incidence of SARS-CoV-2 Infection in Health Care Workers. N Engl J Med 2020. 
+
+24. 
+Selhorst P, Van Ierssel S, Michiels J, et al. Symptomatic SARS-CoV-2 reinfection of a health care worker in a Belgian nosocomial outbreak despite primary neutralizing antibody response. Clin Infect Dis 2020. 
+
+25. 
+Hoffmann M, Arora P, Groß R, et al. SARS-CoV-2 variants B.1.351 and B.1.1.248: Escape from therapeutic antibodies and antibodies induced by infection and vaccination. bioRxiv 2021. 
+
+
+
+
+
+Timeline representing clinical and laboratory results regarding the P.1 reinfection cases in Manaus, Amazonas, Brazil. Triangles represent serological tests, while circles denote real time RT-PCR tests (gray: negative; black: positive result). Dashed lines outline symptoms onset. The real time RT-PCR Ct values and the SARS-CoV-2 lineage identied in each infection are shown below the day of sample collection. 
+
+
+Evolutionary analysis of the SARS-CoV-2 genomic sequences from the reinfection’s cases. A. ML phylogenetic tree of all SARS-CoV-2 whole-genome sequences from Brazil. Branches were colored based on the lineage, following the legend's color code. Branch supports (aLRT) are presented at key nodes. The genomes obtained from the primo-infection and reinfection for each case are indicated by circles at the tips colored according to the legend. The scale of the phylogenetic branches is given as substitutions per nucleotide site. B. Time-scaled Bayesian MCC tree of SARS-CoV-2 P.1 lineage. Colored diamonds indicate the key ancestral nodes representing the most recent common ancestor of the reinfecting viruses for each case and the closest P.1 sequences (median and the 95% High Posterior Density in the parenthesis). 
+
+This is a list of supplementary les associated with this preprint. Click to download. 
+
+SupplementalleRS.pdf 
+
+

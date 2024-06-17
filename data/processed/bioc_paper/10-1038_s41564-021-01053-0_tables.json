@@ -1,0 +1,883 @@
+{
+  "source": "Auto-CORPus (tables)",
+  "date": "20240501",
+  "key": "autocorpus_tables.key",
+  "infons": {},
+  "documents": [
+    {
+      "inputfile": "../../data/processed/html_papers/10-1038_s41564-021-01053-0.html",
+      "id": "1",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": ""
+        },
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Table 1 | Vaccine effectiveness against Alpha (B.1.1.7), Beta (B.1.351), Gamma (P.1), Beta/Gamma and Delta (B.1.617.2) variants of concern by outcome, vaccine product, number of doses received, and time between most recent vaccination date and index date for those tested for SARS-CoV-2 between 14 December 2020 and 3 August 2021 in Ontario, Canada"
+        },
+        {
+          "offset": 348,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "1.1.1",
+              "cell_text": ""
+            },
+            {
+              "cell_id": "1.1.2",
+              "cell_text": "Alpha"
+            },
+            {
+              "cell_id": "1.1.3",
+              "cell_text": "Beta"
+            },
+            {
+              "cell_id": "1.1.4",
+              "cell_text": "Gamma"
+            },
+            {
+              "cell_id": "1.1.5",
+              "cell_text": "Beta/Gammab"
+            },
+            {
+              "cell_id": "1.1.6",
+              "cell_text": "Delta"
+            },
+            {
+              "cell_id": "1.1.7",
+              "cell_text": "Non-VOC SARS-CoV-2"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "Symptomatic infection",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.2.1",
+                    "cell_text": "BNT162b2 (Pfizer-BioNTech"
+                  },
+                  {
+                    "cell_id": "1.2.2",
+                    "cell_text": "Comirnaty)d"
+                  },
+                  {
+                    "cell_id": "1.2.3",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.2.4",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.2.5",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.2.6",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.2.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.3.1",
+                    "cell_text": "14d after one dose only"
+                  },
+                  {
+                    "cell_id": "1.3.2",
+                    "cell_text": "67 (65,68)"
+                  },
+                  {
+                    "cell_id": "1.3.3",
+                    "cell_text": "50 (15,70)"
+                  },
+                  {
+                    "cell_id": "1.3.4",
+                    "cell_text": "63 (54, 70"
+                  },
+                  {
+                    "cell_id": "1.3.5",
+                    "cell_text": "64 (54, 72"
+                  },
+                  {
+                    "cell_id": "1.3.6",
+                    "cell_text": "57 (53, 61)"
+                  },
+                  {
+                    "cell_id": "1.3.7",
+                    "cell_text": "63 $ (56,68"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.4.1",
+                    "cell_text": "21c after one dose only"
+                  },
+                  {
+                    "cell_id": "1.4.2",
+                    "cell_text": "70 (69,72)"
+                  },
+                  {
+                    "cell_id": "1.4.3",
+                    "cell_text": "48 (6,71)"
+                  },
+                  {
+                    "cell_id": "1.4.4",
+                    "cell_text": "67 (57,74)"
+                  },
+                  {
+                    "cell_id": "1.4.5",
+                    "cell_text": "68 (57,76)"
+                  },
+                  {
+                    "cell_id": "1.4.6",
+                    "cell_text": "59 9(54,63)"
+                  },
+                  {
+                    "cell_id": "1.4.7",
+                    "cell_text": "65 S (58,71"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.5.1",
+                    "cell_text": ">7d after two doses"
+                  },
+                  {
+                    "cell_id": "1.5.2",
+                    "cell_text": "89 (87,90)"
+                  },
+                  {
+                    "cell_id": "1.5.3",
+                    "cell_text": "87 (8, 98)"
+                  },
+                  {
+                    "cell_id": "1.5.4",
+                    "cell_text": "88 (73, 94)"
+                  },
+                  {
+                    "cell_id": "1.5.5",
+                    "cell_text": "82 (65, 91)"
+                  },
+                  {
+                    "cell_id": "1.5.6",
+                    "cell_text": "92 (90, 94"
+                  },
+                  {
+                    "cell_id": "1.5.7",
+                    "cell_text": "93 (88, 95"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.6.1",
+                    "cell_text": "14d after two doses"
+                  },
+                  {
+                    "cell_id": "1.6.2",
+                    "cell_text": "88 (86, 90)"
+                  },
+                  {
+                    "cell_id": "1.6.3",
+                    "cell_text": "86(0,98)"
+                  },
+                  {
+                    "cell_id": "1.6.4",
+                    "cell_text": "90 (76, 96)"
+                  },
+                  {
+                    "cell_id": "1.6.5",
+                    "cell_text": "89 (74, 96)"
+                  },
+                  {
+                    "cell_id": "1.6.6",
+                    "cell_text": "92 (89,94"
+                  },
+                  {
+                    "cell_id": "1.6.7",
+                    "cell_text": "92 (87, 95)"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "mRNA-1273 (Moderna Spikevax)d",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.7.1",
+                    "cell_text": "14d after one dose only"
+                  },
+                  {
+                    "cell_id": "1.7.2",
+                    "cell_text": "82 (80,84)"
+                  },
+                  {
+                    "cell_id": "1.7.3",
+                    "cell_text": "_e"
+                  },
+                  {
+                    "cell_id": "1.7.4",
+                    "cell_text": "89 (76,95)"
+                  },
+                  {
+                    "cell_id": "1.7.5",
+                    "cell_text": "75 (53,86)"
+                  },
+                  {
+                    "cell_id": "1.7.6",
+                    "cell_text": "70 (64,76)"
+                  },
+                  {
+                    "cell_id": "1.7.7",
+                    "cell_text": "63 (47,74)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.8.1",
+                    "cell_text": "21 after one dose only"
+                  },
+                  {
+                    "cell_id": "1.8.2",
+                    "cell_text": "83 (80,85)"
+                  },
+                  {
+                    "cell_id": "1.8.3",
+                    "cell_text": "_e"
+                  },
+                  {
+                    "cell_id": "1.8.4",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.8.5",
+                    "cell_text": "74 (48,87)"
+                  },
+                  {
+                    "cell_id": "1.8.6",
+                    "cell_text": "69 (62, 75"
+                  },
+                  {
+                    "cell_id": "1.8.7",
+                    "cell_text": "70 (51, 81)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.9.1",
+                    "cell_text": ">7d after two doses"
+                  },
+                  {
+                    "cell_id": "1.9.2",
+                    "cell_text": "92 (88,95)"
+                  },
+                  {
+                    "cell_id": "1.9.3",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.9.4",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.9.5",
+                    "cell_text": "89 (21, 98)"
+                  },
+                  {
+                    "cell_id": "1.9.6",
+                    "cell_text": "95 (91, 97)"
+                  },
+                  {
+                    "cell_id": "1.9.7",
+                    "cell_text": "6 (85,9"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.10.1",
+                    "cell_text": "14c after two doses"
+                  },
+                  {
+                    "cell_id": "1.10.2",
+                    "cell_text": "92 (87, 95)"
+                  },
+                  {
+                    "cell_id": "1.10.3",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.10.4",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.10.5",
+                    "cell_text": "88 (10, 98)"
+                  },
+                  {
+                    "cell_id": "1.10.6",
+                    "cell_text": "94 4(90,91"
+                  },
+                  {
+                    "cell_id": "1.10.7",
+                    "cell_text": "98 (83,100)"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "ChAdOx1 (AstraZeneca Vaxzevria)d",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.11.1",
+                    "cell_text": "14d after one dose only"
+                  },
+                  {
+                    "cell_id": "1.11.2",
+                    "cell_text": "63 (59, 66)"
+                  },
+                  {
+                    "cell_id": "1.11.3",
+                    "cell_text": "4(-13,98)"
+                  },
+                  {
+                    "cell_id": "1.11.4",
+                    "cell_text": "41(12,60)"
+                  },
+                  {
+                    "cell_id": "1.11.5",
+                    "cell_text": "62 (37,77)"
+                  },
+                  {
+                    "cell_id": "1.11.6",
+                    "cell_text": "$8(57,76)"
+                  },
+                  {
+                    "cell_id": "1.11.7",
+                    "cell_text": "7 (44, 8"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.12.1",
+                    "cell_text": ">21d after one dose only"
+                  },
+                  {
+                    "cell_id": "1.12.2",
+                    "cell_text": "71(67,74)"
+                  },
+                  {
+                    "cell_id": "1.12.3",
+                    "cell_text": -5397.0
+                  },
+                  {
+                    "cell_id": "1.12.4",
+                    "cell_text": "46 (13, 66)"
+                  },
+                  {
+                    "cell_id": "1.12.5",
+                    "cell_text": "59 (29,76)"
+                  },
+                  {
+                    "cell_id": "1.12.6",
+                    "cell_text": "68 (57,76)"
+                  },
+                  {
+                    "cell_id": "1.12.7",
+                    "cell_text": 5691.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.13.1",
+                    "cell_text": ">7d after two doses"
+                  },
+                  {
+                    "cell_id": "1.13.2",
+                    "cell_text": "91 (62, 98)"
+                  },
+                  {
+                    "cell_id": "1.13.3",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.13.4",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.13.5",
+                    "cell_text": "_e"
+                  },
+                  {
+                    "cell_id": "1.13.6",
+                    "cell_text": "37 (69, 95)"
+                  },
+                  {
+                    "cell_id": "1.13.7",
+                    "cell_text": "_f"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.14.1",
+                    "cell_text": ">14d after two doses"
+                  },
+                  {
+                    "cell_id": "1.14.2",
+                    "cell_text": "87 (47,97)"
+                  },
+                  {
+                    "cell_id": "1.14.3",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.14.4",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.14.5",
+                    "cell_text": "_e"
+                  },
+                  {
+                    "cell_id": "1.14.6",
+                    "cell_text": "3 (68,96"
+                  },
+                  {
+                    "cell_id": "1.14.7",
+                    "cell_text": "_f"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Hospitalization or death",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.15.1",
+                    "cell_text": "BNT162b2 (Pfizer-BioNTech"
+                  },
+                  {
+                    "cell_id": "1.15.2",
+                    "cell_text": "Comirnaty)d"
+                  },
+                  {
+                    "cell_id": "1.15.3",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.15.4",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.15.5",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.15.6",
+                    "cell_text": ""
+                  },
+                  {
+                    "cell_id": "1.15.7",
+                    "cell_text": ""
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.16.1",
+                    "cell_text": "14d after one dose only"
+                  },
+                  {
+                    "cell_id": "1.16.2",
+                    "cell_text": "82 (81, 84)"
+                  },
+                  {
+                    "cell_id": "1.16.3",
+                    "cell_text": "64 (31,82)"
+                  },
+                  {
+                    "cell_id": "1.16.4",
+                    "cell_text": "80 (70, 87)"
+                  },
+                  {
+                    "cell_id": "1.16.5",
+                    "cell_text": "34 (74,90)"
+                  },
+                  {
+                    "cell_id": "1.16.6",
+                    "cell_text": "81(76,85)"
+                  },
+                  {
+                    "cell_id": "1.16.7",
+                    "cell_text": "77 (67,84)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.17.1",
+                    "cell_text": ">21d after one dose only"
+                  },
+                  {
+                    "cell_id": "1.17.2",
+                    "cell_text": "87 (85,88)"
+                  },
+                  {
+                    "cell_id": "1.17.3",
+                    "cell_text": "65 (23,84)"
+                  },
+                  {
+                    "cell_id": "1.17.4",
+                    "cell_text": "88 (79, 93)"
+                  },
+                  {
+                    "cell_id": "1.17.5",
+                    "cell_text": "87 (77,92)"
+                  },
+                  {
+                    "cell_id": "1.17.6",
+                    "cell_text": "81(76,85)"
+                  },
+                  {
+                    "cell_id": "1.17.7",
+                    "cell_text": "88 (79,94"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.18.1",
+                    "cell_text": ">7d after two doses"
+                  },
+                  {
+                    "cell_id": "1.18.2",
+                    "cell_text": "96 (94,97)"
+                  },
+                  {
+                    "cell_id": "1.18.3",
+                    "cell_text": "93 (46,99"
+                  },
+                  {
+                    "cell_id": "1.18.4",
+                    "cell_text": "89 (57,97)"
+                  },
+                  {
+                    "cell_id": "1.18.5",
+                    "cell_text": "6(68,99)"
+                  },
+                  {
+                    "cell_id": "1.18.6",
+                    "cell_text": "97 (96, 98)"
+                  },
+                  {
+                    "cell_id": "1.18.7",
+                    "cell_text": "8(90,99)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.19.1",
+                    "cell_text": "14c after two doses"
+                  },
+                  {
+                    "cell_id": "1.19.2",
+                    "cell_text": "96 (94,97)"
+                  },
+                  {
+                    "cell_id": "1.19.3",
+                    "cell_text": "92 (39,99)"
+                  },
+                  {
+                    "cell_id": "1.19.4",
+                    "cell_text": "94 (59,99"
+                  },
+                  {
+                    "cell_id": "1.19.5",
+                    "cell_text": "5 (64,99)"
+                  },
+                  {
+                    "cell_id": "1.19.6",
+                    "cell_text": "98 (96, 99)"
+                  },
+                  {
+                    "cell_id": "1.19.7",
+                    "cell_text": "97 (88,99"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "mRNA-1273 (Moderna Spikevax)d",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.20.1",
+                    "cell_text": ">14d after one dose only"
+                  },
+                  {
+                    "cell_id": "1.20.2",
+                    "cell_text": "80 (76,84)"
+                  },
+                  {
+                    "cell_id": "1.20.3",
+                    "cell_text": -7790.0
+                  },
+                  {
+                    "cell_id": "1.20.4",
+                    "cell_text": "3(63,96)"
+                  },
+                  {
+                    "cell_id": "1.20.5",
+                    "cell_text": 6899.0
+                  },
+                  {
+                    "cell_id": "1.20.6",
+                    "cell_text": "90 (82,94)"
+                  },
+                  {
+                    "cell_id": "1.20.7",
+                    "cell_text": "66 (43,80)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.21.1",
+                    "cell_text": ">21d after one dose only"
+                  },
+                  {
+                    "cell_id": "1.21.2",
+                    "cell_text": "82 (77,86)"
+                  },
+                  {
+                    "cell_id": "1.21.3",
+                    "cell_text": "_e"
+                  },
+                  {
+                    "cell_id": "1.21.4",
+                    "cell_text": "95 (63,99)"
+                  },
+                  {
+                    "cell_id": "1.21.5",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.21.6",
+                    "cell_text": "91 (83, 95)"
+                  },
+                  {
+                    "cell_id": "1.21.7",
+                    "cell_text": "70 (41,85)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.22.1",
+                    "cell_text": ">7d after two doses"
+                  },
+                  {
+                    "cell_id": "1.22.2",
+                    "cell_text": "S (92,9"
+                  },
+                  {
+                    "cell_id": "1.22.3",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.22.4",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.22.5",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.22.6",
+                    "cell_text": "98 (93,99"
+                  },
+                  {
+                    "cell_id": "1.22.7",
+                    "cell_text": "97 (78, 100)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.23.1",
+                    "cell_text": "14d after two doses"
+                  },
+                  {
+                    "cell_id": "1.23.2",
+                    "cell_text": "95 (92,97)"
+                  },
+                  {
+                    "cell_id": "1.23.3",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.23.4",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.23.5",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.23.6",
+                    "cell_text": "98 (93,100)"
+                  },
+                  {
+                    "cell_id": "1.23.7",
+                    "cell_text": "_f"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "ChAdOx1 (AstraZeneca Vaxzevria)d",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.24.1",
+                    "cell_text": ">14d after one dose only"
+                  },
+                  {
+                    "cell_id": "1.24.2",
+                    "cell_text": "87 (83,90)"
+                  },
+                  {
+                    "cell_id": "1.24.3",
+                    "cell_text": "61(-64,91"
+                  },
+                  {
+                    "cell_id": "1.24.4",
+                    "cell_text": "89 (65,97"
+                  },
+                  {
+                    "cell_id": "1.24.5",
+                    "cell_text": "76 (40,90)"
+                  },
+                  {
+                    "cell_id": "1.24.6",
+                    "cell_text": "91(82,96)"
+                  },
+                  {
+                    "cell_id": "1.24.7",
+                    "cell_text": "92 (45,99)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.25.1",
+                    "cell_text": ">21d after one dose only"
+                  },
+                  {
+                    "cell_id": "1.25.2",
+                    "cell_text": "01(88,94"
+                  },
+                  {
+                    "cell_id": "1.25.3",
+                    "cell_text": "73 (-98,96)"
+                  },
+                  {
+                    "cell_id": "1.25.4",
+                    "cell_text": "86 (57,96)"
+                  },
+                  {
+                    "cell_id": "1.25.5",
+                    "cell_text": "72 (28,89)"
+                  },
+                  {
+                    "cell_id": "1.25.6",
+                    "cell_text": "91 (81, 95)"
+                  },
+                  {
+                    "cell_id": "1.25.7",
+                    "cell_text": "90 (27, 99)"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.26.1",
+                    "cell_text": ">7d after two doses"
+                  },
+                  {
+                    "cell_id": "1.26.2",
+                    "cell_text": "82 (43,94)"
+                  },
+                  {
+                    "cell_id": "1.26.3",
+                    "cell_text": "_e"
+                  },
+                  {
+                    "cell_id": "1.26.4",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.26.5",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.26.6",
+                    "cell_text": "91(72,97)"
+                  },
+                  {
+                    "cell_id": "1.26.7",
+                    "cell_text": "_f"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.27.1",
+                    "cell_text": ">14d after two doses"
+                  },
+                  {
+                    "cell_id": "1.27.2",
+                    "cell_text": "92 (41, 99)"
+                  },
+                  {
+                    "cell_id": "1.27.3",
+                    "cell_text": "_e"
+                  },
+                  {
+                    "cell_id": "1.27.4",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.27.5",
+                    "cell_text": "_f"
+                  },
+                  {
+                    "cell_id": "1.27.6",
+                    "cell_text": "0(67,97)"
+                  },
+                  {
+                    "cell_id": "1.27.7",
+                    "cell_text": "_f"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

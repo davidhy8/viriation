@@ -1,0 +1,73 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-03-24-436850",
+      "inputfile": "../../data/processed/html/10-1101_2021-03-24-436850.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "Severe Acute Respiratory Syndrome Coronavirus-2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "Coronavirus Disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "hCoV",
+          "text_long_1": "human coronavirus",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MERS",
+          "text_long_1": "Middle East Respiratory Syndrome",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RTC",
+          "text_long_1": "replication/transcription complex",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "sgRNA",
+          "text_long_1": "subgenomic RNAs",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ACE2",
+          "text_long_1": "angiotensin-converting enzyme 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBDs",
+          "text_long_1": "receptor-binding domains",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "BLI",
+          "text_long_1": "Biolayer Interferometry",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SPR",
+          "text_long_1": "Surface plasmon resonance",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RA",
+          "text_long_1": "Relative abundance",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Python",
+          "text_long_1": "python script using the scikit-learn",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

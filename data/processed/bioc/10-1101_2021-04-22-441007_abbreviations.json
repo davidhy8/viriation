@@ -1,0 +1,68 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2021-04-22-441007",
+      "inputfile": "../../data/processed/html/10-1101_2021-04-22-441007.html",
+      "passages": [
+        {
+          "text_short": "SARS-CoV-2",
+          "text_long_1": "Severe acute respiratory syndrome coronavirus–2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "COVID-19",
+          "text_long_1": "coronavirus disease 2019",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBD",
+          "text_long_1": "receptor binding domain",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FP",
+          "text_long_1": "fusion peptide",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "HR1",
+          "text_long_1": "heptad repeat 1",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "TM",
+          "text_long_1": "transmembrane",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CD",
+          "text_long_1": "cytoplasmic domains",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ACE2",
+          "text_long_1": "angiotensin-converting enzyme 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "USA",
+          "text_long_1": "United States of America",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MD",
+          "text_long_1": "molecular dynamics",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBM",
+          "text_long_1": "receptor binding motif",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Auto-CORPus (abbreviations)",
+  "date": "20240501",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "10-1101_2020-12-29-424708",
+      "inputfile": "../../data/processed/html/10-1101_2020-12-29-424708.html",
+      "passages": [
+        {
+          "text_short": "Spike RBD",
+          "text_long_1": "Spike RBD-ACE2 interface region feature the N501 amino acid residue",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "BSA",
+          "text_long_1": "buried surface area",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RBD",
+          "text_long_1": "receptor-binding domain",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

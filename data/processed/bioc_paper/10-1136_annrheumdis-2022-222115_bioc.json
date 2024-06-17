@@ -1,0 +1,98 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1136_annrheumdis-2022-222115",
+      "inputfile": "../../data/processed/html_papers/10-1136_annrheumdis-2022-222115.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "TITLE",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": " Figure 1 Neutralisation by convalescent plasma (CP) and hCoV-2IG against SARS-CoV-2 WA1/2020 strain, delta and omicron variant. (A) SARS-CoV-2 neutralisation assays were performed by using pseudoviruses expressing the SARS-CoV-2 spike proteins of the WA1/2020 vaccine strain or the delta, or omicron variants (spike mutations are summarised in the supplementary appendix) in 293-ACE2-TMPRSS2 cells. SARS-CoV-2 neutralising antibody titres were determined in each of the control prepandemic 2019-IVIG (n=17; in black), convalescent plasma (CP; n=10; in blue) and hCoV-2IG (n=7; in red) preparations. The assay of each sample was performed in duplicate to determine the 50% neutralisation titre (PsVNA50). Each data point represents an individual sample (circles) and indicates the 50% neutralisation titre obtained with each sample against the indicated pseudovirus. The heights of the bars and the numbers over the bars indicate the geometric mean titres, and the whiskers indicate 95% CIs. The horizontal dashed line indicates the limit of detection for the neutralisation assay (PsVNA50 of 20). The RAW data and information regarding the samples and 50% neutralisation titres against SARS-CoV-2 strains are summarised in online supplemental table S1. Differences between SARS-CoV-2 strains were analysed by lme4 and emmeans packages in R using Tukey's pairwise multiple comparison test and the p values are shown. (B) The reduction in neutralisation of SARS-CoV-2 delta and omicron variant compared with WA1/2020 neutralisation titres. The dotted line indicates equal neutralisation. The heights of the bars and the numbers over the bars indicate the geometric mean ratio, and the whiskers indicate 95% CIs. Differences between the three groups within each SARS-CoV-2 strain were analysed by lme4 and emmeans packages in R using Tukey's pairwise multiple comparison test and the p values are shown. (C) Relationship of neutralising antibodies against SARS-CoV-2 WA1/2020 and variants. Correlation of SARS-CoV-2 WA1/2020 neutralising titre versus delta or omicron variant neutralising titre for convalescent plasma (CP; n=10; in blue) and hCoV-2IG (n=7; in red) preparations. The black line in the scatter plots depict the linear fit of log2 transformed PsVNA50 values with shaded area showing 95% CI. Correlations show Spearman's rank correlation coefficients and two-tailed p values. hCoV-2IG, hyperimmune SARS-CoV-2 intravenous immunoglobulin.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2461,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Neutralisation of circulating SARS-CoV-2 delta and omicron variants by convalescent plasma and SARS-CoV-2 hyperimmune intravenous human immunoglobulins for treatment of Monoclonal antibodies (MAbs), convalescent plasma (CP) and hyperimmune intravenous immunoglobulins are routinely used to treat COVID-19 patients with autoimmune disorders, organ transplant patients and patients on immunosuppressive drugs. The recent emergence of rapidly spreading SARS-CoV-2 variant of concern (VOC), omicron, contains large number of mutations in the SARS-CoV-2 spike protein. 1 Some of these mutations are known to increase resistance to antibodies elicited by prior infections or current SARS-CoV-2 vaccines. 2 The omicron variant is resistant to most of the MAbs, including those approved for treatment of SARS-CoV-2 exposed individuals. 2 In contrast to individual MAbs, CP from individuals contain a broad array of polyclonal antibodies, some of which may provide protection against currently circulating VOCs. In the hamster model, highly neutralising CP (but not CP with low neutralisation titres) protected animals from virus-induced lung lesions following challenge with ancestral SARS-CoV-2 strain. 3 Due to large variability in the SARS-CoV-2 neutralising capacity of CP, the emergency use authorisation for treatment of COVID-19 patients was updated to recommend use of only high-titre CP administered early after SARS-CoV-2 exposure. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3895,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "Hyperimmune SARS-CoV-2 intravenous immunoglobulins (hCoV-2IG) represent a concentrated form of IgG fractionated from many CP units that are prescreened for the presence of high titre antispike antibodies and predetermined SARS-CoV-2 neutralisation titres (>1:320). 4 The effectiveness of hCoV-2 IG products may be hampered by the emergence of new variants, which might be less susceptible to antibodies from recovered COVID-19 patients previously infected with ancestral SARS-COV-2 strains. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4386,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "To evaluate the therapeutic potential of polyclonal CP and hCoV-2IG against currently circulating dominant SARS-CoV-2 delta and omicron variants, we measured the neutralisation capacity of 7 hCoV-2IG lots against the ancestral SARS-CoV-2 WA1/2020 strain as well as delta and omicron VOCs in a pseudovirus neutralisation assay (PsVNA) (online supplemental appendix 1). For comparison, we also evaluated 10 CP from recovered COVID-19 patients and 17 IVIG preparations that were manufactured with prepandemic plasma units. 5 Seventeen prepandemic IVIG lots (2019-IGIV) were all negative in the PsVNA against either WA1/2020 or the two VOCs (figure 1A and online supplemental table S1). Ten individual COVID-19 CP showed heterogeneity of neutralisation titres against the WA1/2020 strain. One CP was negative, and 50% neutralisation titres (PsVNA50) of the other nine CPs ranged between 1:74 and 1:3177 (geometric mean titre (GMT): 1:282) (figure 1A, online supplemental table S1). For all CPs, the titres against delta were reduced by ~1.8-fold. In the case of omicron, only 2/10 CPs (CP-2 and CP-10) showed minimal neutralising titres (PsVNA50 of 1:29 and 1:67, respectively), with an overall 21-fold figure 1A,B, (online supplemental table S1) . ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5631,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In contrast to CPs, the hCoV-2IGs demonstrated higher 50% virus neutralisation titres against WA1/2020 strain, ranging between 1:1118 and 1:3662 (GMT of 2165). The neutralisation titres against the delta variant were reduced by 3.3-fold. Importantly, despite a significant drop in titres against the Omicron variant (average 12-fold), 6/7 lots showed neutralisation titres>1:117, which may provide at least some protection against Omicron, since protection against severe disease requires low neutralising antibody titres ( figure 1A,B , online supplemental table S1). 6 7 Strong correlations were observed between PsVNA50 against WA1/2020 and the titres against delta or omicron variant (p<0.0001) ( figure 1C ), suggesting that higher neutralisation titres against the ancestral WA1/2020 demonstrate better neutralisation of omicron. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6467,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "In conclusion, our data suggest that polyclonal hCoV-2IG could be used for pre-exposure and postexposure prophylaxis of high-risk individuals against currently circulating SARS-CoV-2 delta and omicron variants. Therefore, new hCoV-2IG batches prepared using CP donors or from vaccinated individuals 8 should be screened for high neutralisation activity against the currently dominant delta and omicron variants, which will likely improve their therapeutic effectiveness against COVID-19. Importantly, the hCoV-2IG with higher titres should be further evaluated in clinical trials as pre-exposure prophylaxis and early postexposure treatment of immunodeficient and high-risk individuals. ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7154,
+          "infons": {
+            "section_title_1": "SECTION "
+          },
+          "text": "The Centers for Disease Control and Prevention has recommended that moderately/severely immunosuppressed individuals receive an additional dose (AddDose) of COVID-19 vaccine at least 28 days after an initial mRNA vaccine series, or at least 2 months after a single adenovirus vector vaccine. 1 Rheumatoid arthritis (RA) is frequently treated with immunosuppressive disease-modifying antirheumatic drugs (DMARDs), meaning that most patients with RA are eligible for an AddDose. The American College of Rheumatology suggests patients interrupt use of ('hold') certain DMARDs around the time of COVID-19 vaccination in attempt to boost immunogenicity. 2 A small number of reports have noted no significant change in RA disease activity pre vaccination versus post vaccination against COVID-19, but they assessed RA disease activity infrequently and did not compare results  ",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

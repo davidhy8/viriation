@@ -1,0 +1,88 @@
+{
+  "source": "Auto-CORPus (full-text)",
+  "date": "20240501",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "10-1101_2021-12-24-21268382v1-full",
+      "inputfile": "../../data/processed/html/10-1101_2021-12-24-21268382v1-full.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Early estimates of SARS-CoV-2 Omicron variant severity based on a matched cohort study, Ontario, Canada",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 103,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The WHO designated Omicron as a Variant of Concern on November 26, 2021.1 Omicron has more than 30 mutations in the spike protein, and it is now evident that Omicron is rapidly replacing Delta2 due to a combination of increased transmissibility and immune escape. It is less clear how the severity of Omicron compares. Early data from South Africa suggests that Omicron may be less severe than prior lineages;3 however, the low average age, extent of previous infection, and low vaccination rates impact generalizability to certain other countries. In Ontario, we sought to examine hospitalization and death rates associated with Omicron, as compared to matched patients infected with Delta.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 806,
+          "infons": {
+            "section_title_1": "Methods",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "We conducted a retrospective population-wide matched cohort study of patients infected with Omicron and Delta variants, using Ontario’s Public Health Case and Contact Management Solution (CCM), a database containing all diagnosed SARS-CoV-2 infections, linked to Ontario Ministry of Health’s COVaxON application, containing all COVID-19 vaccination records in the province. Cases were included if onset occurred between November 22 and December 17, 2021, based on the date of the first Omicron case reported in Ontario. Case onset date was defined by symptom onset, or for asymptomatic cases, specimen collection. Cases were excluded if they were missing onset date, age or sex or were hospital-acquired. Omicron cases included those identified by whole genome sequencing (WGS), S-gene target failure (SGTF) with cycle threshold ≤30 before December 13 (date of 50% Omicron prevalence),2 and any SGTF on or after December 13. Delta cases included those detected by WGS, those with amplification of the S-gene, and all cases not identified as Omicron prior to December 3 (date of 5% Omicron prevalence).2 Omicron cases were matched to Delta cases using up to 2:1 matching on age (±5 years), gender, and onset date (±7 days). Cox proportional hazards models accounting for clustering within matched sets were used to determine the hazards of hospitalization-or-death for Omicron compared to Delta cases. Covariates in adjusted analyses included vaccine doses received (0-3), time since most recent dose (>14 days to <3 months, 3-6 months, ≥6 months) and region. Stratified analyses were performed to evaluate differences in risk by age group (<60 and ≥60 years).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2472,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We identified 6,314 Omicron cases that met eligibility criteria, of which 6,312 were matched with ≥1 Delta case (N=8,875) based on age, gender, and onset date (Table). There were 21 (0.3%) hospitalizations and 0 (0%) deaths among matched Omicron cases, compared to 116 (2.2%) hospitalizations and 7 (0.3%) deaths among matched Delta cases. The risk of hospitalization or death was 68% lower (hazard ratio, HR=0.32, 95%CI: 0.20-0.51) in Omicron compared to Delta cases (Figure). After adjustment for vaccination status, the risk of hospitalization or death was 54% lower (HR=0.46, 95%CI: 0.27-0.77). Stratified estimates by age were similar (HR<60=0.30, 95%CI: 0.16-0.57, HR≥60=0.55, 95%CI: 0.28-1.06).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3180,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "In this matched study of over 6,000 Omicron cases, we found that the risk of hospitalization was 54% lower for Omicron cases versus Delta cases. Our results align with findings from South Africa, Scotland and England, all of which have demonstrated substantial decreases in risk of hospitalization associated with Omicron. 3–5 One early hypothesis for increased transmissibility with decreased severity is the increased replication in the bronchi but decreased replication in lung parenchyma.6",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3683,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Our study has some limitations, in particular the short follow-up duration and potential misclassification due to incidental findings from hospital admission screening, and incomplete public health follow-up as incidence increased. However, Omicron appears to demonstrate lower disease severity. While severity may be reduced, the absolute number of hospitalizations and impact on the healthcare system is likely to be significant due to the increased transmissibility of Omicron.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}
