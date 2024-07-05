@@ -1,0 +1,127 @@
+{
+  "config": {
+    "title": {
+      "defined-by": [
+        {
+          "tag":"h1",
+          "attrs":{"class":"paper__title"}
+        }
+      ]
+    },
+    "keywords": {
+      "data": {},
+      "defined-by": []
+    },
+    "references": {
+      "data": {},
+      "defined-by":[
+        {
+          "tag":"li",
+          "attrs":{"id":"BIBREF\\d+"}
+        }
+      ]
+    },
+    "sections": {
+      "data": {
+        "headers": [
+          {
+            "tag":"h2",
+            "attrs":{"id":"section-body-\\d+"}
+          }
+        ]
+      },
+      "defined-by": [
+        {
+          "tag":"div",
+          "attrs":{"class":"paper__text"}
+        }
+      ]
+    },
+    "sub-sections": {
+      "data": {
+        "headers": [
+          {
+            "tag":"h3",
+            "attrs":{"class":"heading"}
+          }
+        ]
+      },
+      "defined-by": [
+        {
+          "tag": "Does-Not-Exist"
+        }
+      ]
+    },
+    "paragraphs": {
+      "defined-by": [
+        {
+          "tag":"p"
+        }
+      ]
+    },
+    "tables": {
+      "data": {
+        "caption": [
+          {
+            "tag":"caption",
+            "attrs":{"class":["paper__figure-caption"]}
+          }
+        ],
+        "table-content": [
+          {
+            "tag":"tbody"
+          }
+        ],
+        "title": [
+          {
+            "tag":"Does-Not-Exist"
+          }
+        ],
+        "footer": [
+          {
+            "tag":"Does-Not-Exist"
+          }
+        ],
+        "header-row": [
+          {
+            "tag":"tr"
+          }
+        ],
+        "header-element": [
+          {
+            "tag":"th",
+            "attrs":{"scope":"col"}
+          }
+        ],
+        "table-row": [
+          {
+            "tag":"tr"          
+          }
+        ]
+      },
+      "defined-by": [
+        {
+          "tag":"table",
+          "attrs":{"class":"paper__figure"}
+        }
+      ]
+    },
+    "figures": {
+      "data": {
+        "caption": [
+          {
+            "tag":"figcaption",
+            "attrs":{"class":"paper__figure-caption"}
+          }
+        ]
+      },
+      "defined-by": [
+        {
+          "tag":"figure",
+          "attrs":{"class":"paper__figure"}
+        }
+      ]
+    }
+  },
+  "example_source_HTML_URL": "https://www.biorxiv.org/content/10.1101/2021.08.05.455082v1.full"
+}
