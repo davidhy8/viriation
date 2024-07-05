@@ -1,0 +1,3 @@
+[submodule "submodules/autocorpus"]
+	path = submodules/autocorpus
+	url = https://github.com/omicsNLP/Auto-CORPus.git
