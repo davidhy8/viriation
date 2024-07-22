@@ -1,2 +1,4 @@
 models/
 data/
+notebook/logs/
+notebook/.ipynb_checkpoints/
