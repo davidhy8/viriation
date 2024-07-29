@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Label Data</title>
+    <style>
+
+        /* Main block */
+        .container {
+            width: 95%;
+            margin: auto;
+            background-color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* Title block */
+        .header {
+            text-align: center;
+        }
+
+        /* Page title  */
+        h1 {
+            font-weight: bolder;
+        }
+
+        /* Mutation section header */
+        .container h2 {
+            padding-top: 10px;
+            padding-bottom: 0px;
+            margin-top: 20px;
+            margin-bottom: 0px;
+        }
+
+        /* Mutation heading */
+        .container .mutation {
+            color: red;
+        }
+
+        /* DOI section header */
+        .container h3 {
+            font-weight: bold;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        /* Dashed border */
+        hr .dashed {
+            border-top: 3px dashed #2A2B2E;
+            padding-top: 2px;
+            margin-top: 3px;
+        }
+
+        /* Collapsible button */
+        .collapsible {
+            background-color: #f2f4f4;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: #5A5A66 ;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            margin-top: 15px;
+            border-radius: 15px;
+            box-shadow: 5px 10px #ccd1d1;
+        }
+
+        /* Collapsible will change color when hovered */
+        .collapsible:hover {
+            background-color: #A4C2A8;
+        }
+
+        .collapsible:after {
+            content: '\02795'; /* Unicode character for "plus" sign (+) */
+            font-size: 13px;
+            color: white;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active {
+            box-shadow: none;
+            border-radius: 15px 15px 0 0;
+            background-color: #A4C2A8;
+        }
+
+        .active:after {
+            content: "\2796"; /* Unicode character for "minus" sign (-) */
+        }
+
+        /* Style the collapsible content */
+        .content {
+            padding: 0 18px;
+            overflow: hidden;
+            background-color: #f2f4f4;
+            max-height: 0;
+            transition: max-height 0.2s ease-out;
+            border-radius: 0 0 15px 15px;
+        }
+
+        .keyword {
+            font-weight: bold;
+            background-color: #87FF65;
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .form-label {
+            width: 200px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Label new mutations</h1>
+            <p> Identified <b>{{data|length}}</b> new mutation(s). <br></p>
+        </div>
+
+        <div>
+            <form method="post">
+                {% for key, value in data.items() %}
+                    <button type="button" class="collapsible"><h2 class="mutation"> {{ key }} </h2> <br> <p> <b>{{value.text|length}}</b> mention(s) in <b>{{ value.doi|unique|list|length }}</b> scientific paper(s) associated with <b>{{key}}</b>.</p> </button>
+                    <div class="content">
+                        <hr class="dashed">
+                        {% for (doi, text) in zip(value.doi, value.text) %}
+                            <h3>Text #{{ loop.index }} associated with <b style="text-decoration: underline;">{{ doi }}</b><br></h3>
+                            <p class="text_{{ key }}">{{ text }} <br></p>
+
+                            <div class="form-group">
+                                <label for="protein" class="form-label">Which protein is mutated?</label>
+                                <select name="protein_{{ key }}_{{ doi }}" id="protein_{{ key }}_{{ doi }}">
+                                    <option value="missing">Select an option</option>
+                                    <option value="accessory">Accessory proteins</option>
+                                    <option value="envelope">Envelope proteins</option>
+                                    <option value="membrane">Membrane proteins</option>
+                                    <option value="nsp">Non-structural proteins</option>
+                                    <option value="nucleocapsid">Nucleocapsid proteins</option>
+                                </select>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="effect" class="form-label">Effect of mutation?</label>
+                                <select name="effect_{{ key }}_{{ doi }}" id="effect_{{ key }}_{{ doi }}">
+                                    <option value="missing">Select an option</option>
+                                    <option value="invasion">Host invasion</option>
+                                    <option value="neutralization">Serum neutralization</option>
+                                    <option value="transmission">Transmissibility</option>
+                                    <option value="homoplasy">Homoplasy</option>
+                                </select>
+                            </div>
+                            <br>
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+                <button type="submit">Submit</button>
+                <button type="">Save</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            {% for key, value in data.items() %}
+                $(".text_{{ key }}").each(function() {
+                    var text = $(this).html();
+                    var regex = new RegExp("{{ key }}", "gi");
+                    var bolded = text.replace(regex, "<span class='keyword'>{{ key }}</span>");
+                    $(this).html(bolded);
+                    
+                    // Highlight the second sentence
+                // var sentences = $(this).html().split('.');
+                // if (sentences.length > 1) {
+                //     sentences[1] = "<mark>" + sentences[1] + ".</mark>";
+                //     $(this).html(sentences.join('.'));
+                // }
+                });
+            {% endfor %}
+        });
+    </script>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+        content.style.maxHeight = null;
+        } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
+    }
+    </script>
+</body>
+</html> 
