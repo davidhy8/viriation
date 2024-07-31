@@ -4,6 +4,15 @@
     <title>Label Data</title>
     <style>
 
+        .submitted {
+            background-color: #d4edda; /* Light green background */
+        }
+        .feedback {
+            display: none;
+            color: green;
+            font-weight: bold;
+        }
+
         /* Main block */
         .container {
             width: 95%;
@@ -122,44 +131,46 @@
         </div>
 
         <div>
-            <form method="post">
-                {% for key, value in data.items() %}
-                    <button type="button" class="collapsible"><h2 class="mutation"> {{ key }} </h2> <br> <p> <b>{{value.text|length}}</b> mention(s) in <b>{{ value.doi|unique|list|length }}</b> scientific paper(s) associated with <b>{{key}}</b>.</p> </button>
-                    <div class="content">
-                        <hr class="dashed">
+            {% for key, value in data.items() %}
+                <button type="button" class="collapsible"><h2 class="mutation"> {{ key }} </h2> <br> <p> <b>{{value.text|length}}</b> mention(s) in <b>{{ value.doi|unique|list|length }}</b> scientific paper(s) associated with <b>{{key}}</b>.</p> </button>
+                <div class="content">
+                    <hr class="dashed">
+                    <form method="post" class="mutation-form" id="form_{{ key }}">
                         {% for (doi, text) in zip(value.doi, value.text) %}
                             <h3>Text #{{ loop.index }} associated with <b style="text-decoration: underline;">{{ doi }}</b><br></h3>
                             <p class="text_{{ key }}">{{ text }} <br></p>
-
-                            <div class="form-group">
-                                <label for="protein" class="form-label">Which protein is mutated?</label>
-                                <select name="protein_{{ key }}_{{ doi }}" id="protein_{{ key }}_{{ doi }}">
-                                    <option value="missing">Select an option</option>
-                                    <option value="accessory">Accessory proteins</option>
-                                    <option value="envelope">Envelope proteins</option>
-                                    <option value="membrane">Membrane proteins</option>
-                                    <option value="nsp">Non-structural proteins</option>
-                                    <option value="nucleocapsid">Nucleocapsid proteins</option>
-                                </select>
-                            </div>
-                            <br>
-                            <div class="form-group">
-                                <label for="effect" class="form-label">Effect of mutation?</label>
-                                <select name="effect_{{ key }}_{{ doi }}" id="effect_{{ key }}_{{ doi }}">
-                                    <option value="missing">Select an option</option>
-                                    <option value="invasion">Host invasion</option>
-                                    <option value="neutralization">Serum neutralization</option>
-                                    <option value="transmission">Transmissibility</option>
-                                    <option value="homoplasy">Homoplasy</option>
-                                </select>
-                            </div>
-                            <br>
+                                <div class="form-group">
+                                    <label for="protein" class="form-label">Which protein is mutated?</label>
+                                    <select name="protein_{{ key }}_{{ doi }}_{{loop.index}}" id="protein_{{ key }}_{{ doi }}_{{loop.index}}">
+                                        <option value="missing" disabled selected>Select an option</option>
+                                        <option value="accessory">Accessory proteins</option>
+                                        <option value="envelope">Envelope proteins</option>
+                                        <option value="membrane">Membrane proteins</option>
+                                        <option value="nsp">Non-structural proteins</option>
+                                        <option value="nucleocapsid">Nucleocapsid proteins</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <label for="effect" class="form-label">Effect of mutation?</label>
+                                    <select name="effect_{{ key }}_{{ doi }}_{{loop.index}}" id="effect_{{ key }}_{{ doi }}_{{loop.index}}">
+                                        <option value="missing" disabled selected>Select an option</option>
+                                        <option value="invasion">Host invasion</option>
+                                        <option value="neutralization">Serum neutralization</option>
+                                        <option value="transmission">Transmissibility</option>
+                                        <option value="homoplasy">Homoplasy</option>
+                                    </select>
+                                </div>
+                                <br>
                         {% endfor %}
-                    </div>
-                {% endfor %}
-                <button type="submit">Submit</button>
-                <button type="">Save</button>
-            </form>
+                    <input type="submit" value="Save" class="submit">
+                    <div class="feedback">Labels saved successfully!</div>
+                    <!-- <button type="submit">Save</button> -->
+                    </form>
+                </div>
+            {% endfor %}
+            <div id="global-feedback"></div>
+            <!-- <button type="">Save</button> -->
         </div>
     </div>
 
@@ -185,19 +196,44 @@
 
     <script>
         var coll = document.getElementsByClassName("collapsible");
-    var i;
+        var i;
 
-    for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight){
-        content.style.maxHeight = null;
-        } else {
-        content.style.maxHeight = content.scrollHeight + "px";
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+            content.style.maxHeight = null;
+            } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
         }
-    });
-    }
     </script>
+
+    <!-- <script>
+        $(document).ready(function() {
+            console.log("Document is ready");
+            $('.mutation-form').submit(function(event) {
+                event.preventDefault(); // Prevent the default form submission
+                console.log("Form submission prevented");
+
+                // var $form = $(this);
+                // $.ajax({
+                //     url: '/',
+                //     method: 'POST',
+                //     data: $form.serialize(),
+                //     dataType: 'json', // Expect a JSON response
+                //     success: function(response) {
+                //         $form.addClass('submitted'); // Add class to indicate submission
+                //         $form.find('.feedback').show(); // Show success message
+                //     },
+                //     error: function(xhr, status, error) {
+                //         $form.find('.feedback').html('An error occurred: ' + error).show().css('color', 'red');
+                //     }
+                // });
+            });
+        });
+    </script> -->
 </body>
 </html> 
