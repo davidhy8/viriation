@@ -1,4 +1,4 @@
-from flask import render_template, request, redirect, url_for
+from flask import render_template, request, redirect, url_for, jsonify
 # from . import create_app
 from app import app
 from .models import pipeline
@@ -12,19 +12,21 @@ def index():
     if request.method == 'POST':
         labels = []
         for key, value in data.items():
-            for (doi, text) in zip(value["doi"], value["text"]):
-                effect = request.form.get(f'effect_{key}_{doi}')
-                protein = request.form.get(f'protein_{key}_{doi}')
+            for index, (doi, text) in enumerate(zip(value["doi"], value["text"]), start=1):
+                effect = request.form.get(f'effect_{key}_{doi}_{index}')
+                protein = request.form.get(f'protein_{key}_{doi}_{index}')
+                print(f"Received: key={key}, doi={doi}, effect={effect}, protein={protein}")  # Debugging print
                 labels.append([key, doi, text, effect, protein])
-        save_labels(labels)
-        # labels = [[key, value, request.form.get(key)] for key, value in data.items()]
-        # save_labels(labels)
-        return redirect(url_for('success'))
+            save_labels(labels, key)
+        # return redirect(url_for('success'))
+        return jsonify({'message': 'Labels saved successfully'})
 
     return render_template('label.html', data=data)
 
-def save_labels(labels):
-    with open('data/labels.txt', 'w') as f:
+def save_labels(labels, key):
+    # print(f"Saving labels: {labels}")  # Debugging print
+    filename = 'data/pipeline_data/label/labels_' + key + '.txt'
+    with open(filename, 'w') as f:
         for label in labels:
             f.write(f"{label}\n")
 
