@@ -300,8 +300,10 @@ def load_mutations(path = "/home/david.yang1/autolit/viriation/data/pipeline_dat
     files = Path(path).glob("*.pkl")
     for file in files:
         # Initialize output dictionary
-        output = defaultdict(lambda:{"doi": [], "text": []})
-        
+        # output = defaultdict(lambda:{"mutation": [], "text": [], "doi": None})
+
+        output = defaultdict(lambda: defaultdict(list))
+
         with open(file, 'rb') as f:
             # Load NERs
             ner = pickle.load(f)
@@ -310,7 +312,7 @@ def load_mutations(path = "/home/david.yang1/autolit/viriation/data/pipeline_dat
             basename = os.path.basename(file)
             match = re.search(r'(\d+)_paper\.pkl$', basename)
             pmid = match.group(1)
-            doi = pmid2doi(pmid) 
+            # doi = pmid2doi(pmid) 
 
             for ner_chunk in ner:
                 text = ner_chunk['text']
@@ -340,8 +342,9 @@ def load_mutations(path = "/home/david.yang1/autolit/viriation/data/pipeline_dat
     
                                 context = " ".join(context)
     
-                                output[mutation]["text"].append(context)
-                                output[mutation]["doi"].append(doi)
+                                # output[pmid]["text"].append(context)
+                                output[pmid][mutation].append(context)
+                                # output[pmid]["doi"] = doi
         
     return output
 
