@@ -1,0 +1,104 @@
+<!-- app/templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        .container {
+            width: 95%;
+            margin: auto;
+            background-color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        p {
+            font-size: medium;
+        }
+
+        /* Title block */
+        .header {
+            text-align: center;
+        }
+
+        .body {
+            display: flex;
+            text-align: center
+        }
+
+        /* Page title  */
+        h1 {
+            font-weight: bolder;
+        }
+
+        .container h2 {
+            padding-top: 10px;
+            padding-bottom: 0px;
+            margin-top: 20px;
+            margin-bottom: 0px;
+            font-size: x-large;
+        }
+
+        .paper {
+            background-color: #f2f4f4;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: #5A5A66 ;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            margin-top: 15px;
+            border-radius: 15px;
+            box-shadow: 5px 10px #ccd1d1;
+            transition: all .2s ease-in-out;
+        }
+
+        /* Collapsible will change color when hovered */
+        .paper:hover {
+            transform: scale(1.05);
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap:1rem
+        }
+
+        .buttons a:hover{
+            color: #A4C2A8;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Viriation</h1>
+            <p><b>{{data|length}}</b> new paper(s) discussing SARS-CoV-2 variants were detected. Please annotate the mutations mentioned in these papers.</p>
+        </div>
+        <div class="body">
+            {% for pmid, value in data.items() %}
+                <div class="paper">
+                    {% set fetch = fetch() %}
+                    {% set article = fetch.article_by_pmid(pmid) %}
+                    {% set author = article.author_list[0] %}
+                    <h2 style="text-align: center;">{{loop.index}}. <b>{{article.title}}</b></h2>
+                    <p style="text-align: center;">
+                        <br>
+                        By: {{author}} et al.<br>
+                        <b>{{value|length}}</b> mutations discussed.
+                    </p>
+                    <div class="buttons">
+                        <a href="https://doi.org/{{ pmid2doi(pmid) }}">View paper <i class="glyphicon glyphicon-new-window"></i></a>
+                        <a href="{{ url_for('paper', paper_id=pmid, _external=True) }}">Annotate mutations <i class="glyphicon glyphicon-edit"></i></a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
