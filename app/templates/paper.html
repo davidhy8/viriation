@@ -1,0 +1,232 @@
+<!-- app/templates/paper.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ doi }}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        /* Main block */
+        .container {
+            width: 95%;
+            margin: auto;
+            background-color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* Title block */
+        .header h1 {
+            text-align: center;
+        }
+
+        .header p {
+            text-align: center;
+        }
+
+        /* Page title  */
+        h1 {
+            font-weight: bolder;
+        }
+
+        /* Mutation section header */
+        .container h2 {
+            padding-top: 10px;
+            padding-bottom: 0px;
+            margin-top: 20px;
+            margin-bottom: 0px;
+        }
+
+        /* Mutation heading */
+        .container .mutation {
+            color: red;
+        }
+
+        /* DOI section header */
+        .container h3 {
+            font-weight: bold;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        /* Dashed border */
+        hr .dashed {
+            border-top: 3px dashed #2A2B2E;
+            padding-top: 2px;
+            margin-top: 3px;
+        }
+
+        /* Collapsible button */
+        .collapsible {
+            background-color: #f2f4f4;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: #5A5A66 ;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            margin-top: 15px;
+            border-radius: 15px;
+            box-shadow: 5px 10px #ccd1d1;
+        }
+
+        /* Collapsible will change color when hovered */
+        .collapsible:hover {
+            background-color: #A4C2A8;
+        }
+
+        .collapsible:after {
+            content: '\02795'; /* Unicode character for "plus" sign (+) */
+            font-size: 13px;
+            color: white;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active {
+            box-shadow: none;
+            border-radius: 15px 15px 0 0;
+            background-color: #A4C2A8;
+        }
+
+        .active:after {
+            content: "\2796"; /* Unicode character for "minus" sign (-) */
+        }
+
+        /* Style the collapsible content */
+        .content {
+            padding: 0 18px;
+            overflow: hidden;
+            background-color: #f2f4f4;
+            max-height: 0;
+            transition: max-height 0.2s ease-out;
+            border-radius: 0 0 15px 15px;
+        }
+
+        .keyword {
+            font-weight: bold;
+            background-color: #87FF65;
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .form-label {
+            width: 200px;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 10;
+            left: 10;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="{{url_for('index')}}" class="back-button"><i class="glyphicon glyphicon-triangle-left"></i> Back</a>
+            <h1> Mutations discussed in <a href="https://doi.org/{{doi}}">{{doi}}</a></h1>
+            <p> Viriation identified <b>{{data|length}}</b> new mutation(s) in this paper. <br></p>
+        </div>
+        <div>
+            <form method="post" class="mutation-form" id="form_{{ pmid }}">
+                {% for (mutation, text) in data.items() %}
+                    <button type="button" class="collapsible">
+                        <h2 class="mutation"> {{ mutation }} </h2> <br>
+                        <p> <b>{{text|length}}</b> mention(s) in <span style="text-decoration: underline;">{{ doi }}</span>. </p> 
+                    </button>
+                    <div class="content">
+                        <hr class="dashed">
+
+                        {% for t in text %}
+                            <p class="text_{{ mutation }}">{{loop.index}}.  {{ t }} <br></p>
+                        {% endfor %}
+
+                        <div class="form-field">
+                            <div class="form-group">
+                                <label for="protein" class="form-label">Which protein does this mutation occur on?</label>
+                                <select name="protein_{{ pmid }}_{{ mutation }}" id="protein_{{ pmid }}_{{ mutation }}">
+                                    <option value="None">Select an option</option>
+                                    <option value="accessory">Accessory protein</option>
+                                    <option value="envelope">Envelope protein</option>
+                                    <option value="membrane">Membrane protein</option>
+                                    <option value="nsp">Non-structural protein</option>
+                                    <option value="nucleocapsid">Nucleocapsid protein</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <fieldset>
+                                    <legend>Select all related effect(s) of {{mutation}}:</legend>
+                                    <div>
+                                        <input type="checkbox" id="invasion_{{pmid}}_{{mutation}}" name="invasion_{{pmid}}_{{mutation}}" value="invasion">
+                                        <label for="invasion_{{pmid}}_{{mutation}}">Host invasion</label>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox" id="neutralization_{{pmid}}_{{mutation}}" name="neutralization_{{pmid}}_{{mutation}}" value="neutralization">
+                                        <label for="neutralization_{{pmid}}_{{mutation}}">Serum neutralization</label>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox" id="transmission_{{pmid}}_{{mutation}}" name="transmission_{{pmid}}_{{mutation}}" value="transmission">
+                                        <label for="transmission_{{pmid}}_{{mutation}}">Transmissibility</label>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox" id="homoplasy_{{pmid}}_{{mutation}}" name="homoplasy_{{pmid}}_{{mutation}}" value="transmission">
+                                        <label for="homoplasy_{{pmid}}_{{mutation}}">Homoplasy</label>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                <button type="submit" style="margin-top: 20px;">Save</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            {% for key, value in data.items() %}
+                $(".text_{{ key }}").each(function() {
+                    var text = $(this).html();
+                    var regex = new RegExp("{{ key }}", "gi");
+                    var bolded = text.replace(regex, "<span class='keyword'>{{ key }}</span>");
+                    $(this).html(bolded);
+                    
+                    // Highlight the second sentence
+                // var sentences = $(this).html().split('.');
+                // if (sentences.length > 1) {
+                //     sentences[1] = "<mark>" + sentences[1] + ".</mark>";
+                //     $(this).html(sentences.join('.'));
+                // }
+                });
+            {% endfor %}
+        });
+    </script>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+            content.style.maxHeight = null;
+            } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+        }
+    </script>
+</body>
+</html>
