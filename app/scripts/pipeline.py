@@ -22,6 +22,7 @@ import spacy
 import argparse
 import re
 from metapub.convert import pmid2doi
+from data_processor import get_doi_file_name
 
 
 # python -m spacy download en_core_web_sm
@@ -171,7 +172,7 @@ def prediction_chunks(df, tokenizer, trainer):
         chunks_df = pd.DataFrame(chunks, columns=["text"])
         # chunks_df["label"] = df["label"][i]
         chunks_df["position"] = chunks_df.index
-        chunks_df["pmid"] = df.loc[i, "pmid"]
+        chunks_df["doi"] = df.loc[i, "doi"]
         
         t = Dataset.from_pandas(chunks_df)
         t = t.map(tokenize_function, batched=True)
@@ -249,32 +250,33 @@ def paper_prediction(data, bst, tokenizer, trainer):
     data = chunked_data_df
     
     # Format data for lightGBM
-    grouped = data.groupby('pmid')
+    grouped = data.groupby('doi')
     
     # Maximum number of data points in any group
     max_len = 133
+    print(max(grouped.size()))
 
     # Create DataFrame with appropriate number of columns
     columns = [f'prediction_{i}' for i in range(max_len)]
-    columns.append("pmid")
+    columns.append("doi")
     
     df = pd.DataFrame(columns=columns)
     
     for name, group in grouped:
-        predictions = group["prediction"].values.astype(float)
+        predictions = group["prediction"].values.astype(float)[:133] # truncate any papers with more than 133 chunks
         entry = np.pad(predictions, (0, max_len - len(predictions)), constant_values=np.nan)
         entry = np.append(entry, name)
         df.loc[name] = entry
 
-    predictions = bst.predict(df.drop(columns="pmid"), num_iteration=bst.best_iteration)
+    predictions = bst.predict(df.drop(columns="doi"), num_iteration=bst.best_iteration)
     pred = np.where(predictions < 0.5, 0, 1)
     df["prediction"] = pred.T
 
-    df['pmid'] = df['pmid'].astype(int)
-    flagged_papers = df[df['prediction'] == 1]['pmid']
+    # df['pmid'] = df['pmid'].astype(int)
+    flagged_papers = df[df['prediction'] == 1]['doi']
     
     relevant_papers = flagged_papers.tolist()
-    flagged = chunked_data_df[chunked_data_df["pmid"].isin(relevant_papers)]
+    flagged = chunked_data_df[chunked_data_df["doi"].isin(relevant_papers)]
 
     return flagged
 
@@ -284,67 +286,70 @@ def query_plain(text, url="http://localhost:8888/plain"):
 
 
 def NER(flagged, port):
-    grouped_papers = flagged.groupby('pmid')
+    grouped_papers = flagged.groupby('doi')
     
     for name, group in grouped_papers:
+        doi_name = get_doi_file_name(name)
         NER_list = list()
         for text in group["text"]:
             NER = query_plain(text, url = port)
             NER_list.append(NER)
-        file_name = "../../data/pipeline_data/NER/" + str(name) + "_paper.pkl"
+        file_name = "../../data/pipeline_data/NER/" + str(doi_name) + "_paper.pkl"
         with open(file_name, 'wb') as f:
             pickle.dump(NER_list, f)
 
 
 def load_mutations(path = "/home/david.yang1/autolit/viriation/data/pipeline_data/NER"):
     files = Path(path).glob("*.pkl")
-    for file in files:
-        # Initialize output dictionary
-        # output = defaultdict(lambda:{"mutation": [], "text": [], "doi": None})
+    # Initialize output dictionary
+    # output = defaultdict(lambda:{"mutation": [], "text": [], "doi": None})
+    output = defaultdict(lambda: defaultdict(list))
 
-        output = defaultdict(lambda: defaultdict(list))
+    for file in files:
 
         with open(file, 'rb') as f:
             # Load NERs
             ner = pickle.load(f)
 
-            # Obtain PMID
-            basename = os.path.basename(file)
-            match = re.search(r'(\d+)_paper\.pkl$', basename)
-            pmid = match.group(1)
-            # doi = pmid2doi(pmid) 
+        # Obtain DOI
+        basename = os.path.basename(file)
+        match = re.search(r'(\d+)_paper\.pkl$', basename)
+        doi = match.group(1)
+        doi = doi.replace("_", "/")
 
-            for ner_chunk in ner:
-                text = ner_chunk['text']
+        # doi = pmid2doi(pmid) 
 
-                # Process text chunks for increased readability
-                chunk = nlp(text)
+        for ner_chunk in ner:
+            text = ner_chunk['text']
 
-                # Split text into sentences
-                sentences = [sent.text for sent in chunk.sents]
-                annotations = ner_chunk['annotations']
-                
-                for annotation in annotations:
-                    if annotation['obj'] == 'mutation':
-                        mutation = annotation["mention"]
-                        for count, sent in enumerate(sentences):
-                            if mutation in sent:
-                                context = []
+            # Process text chunks for increased readability
+            chunk = nlp(text)
+            
+            # Split text into sentences
+            sentences = [sent.text for sent in chunk.sents]
+            annotations = ner_chunk['annotations']
+            
+            for annotation in annotations:
+                if annotation['obj'] == 'mutation':
+                    mutation = annotation["mention"]
+                    for count, sent in enumerate(sentences):
+                        if mutation in sent:
+                            context = []
 
-                                # Save sentence before and after mutation
-                                if count != 0:
-                                    context.append(sentences[count-1])
-    
-                                context.append(sent)
+                            # Save sentence before and after mutation
+                            if count != 0:
+                                context.append(sentences[count-1])
 
-                                if count != (len(sentences)-1):
-                                    context.append(sentences[count+1])
-    
-                                context = " ".join(context)
-    
-                                # output[pmid]["text"].append(context)
-                                output[pmid][mutation].append(context)
-                                # output[pmid]["doi"] = doi
+                            context.append(sent)
+
+                            if count != (len(sentences)-1):
+                                context.append(sentences[count+1])
+
+                            context = " ".join(context)
+
+                            # output[pmid]["text"].append(context)
+                            output[doi][mutation].append(context)
+                            # output[pmid]["doi"] = doi
         
     return output
 
@@ -359,8 +364,8 @@ if __name__ == "__main__":
     # Parse arguments
     args = parser.parse_args()
 
-    # Load new papers
-    data = pd.read_csv(args.data)
+    with open('data/database/screened_papers.txt', 'wb') as f:
+        pickle.dump(papers, f)
 
     # Load data
     df = pd.read_csv('../../data/pipeline_data/paper_flagging_data/bert_dataset.csv')
@@ -375,9 +380,24 @@ if __name__ == "__main__":
     # Load lightbgm model
     bst = lgb.Booster(model_file='../../checkpoints/lightgbm_model.txt')
     
-    results = paper_prediction(data[:10], bst, tokenizer, trainer)
+    results = paper_prediction(data, bst, tokenizer, trainer)
+    flagged_papers = results["doi"].tolist()
+
+    # Load new papers
+    data = pd.read_csv(args.data)
+
+    # Update screened papers
+    with open('data/database/screened_papers.txt', 'rb') as f:
+        papers = pickle.load(f)
+
+    # Add papers that have been screened as irrelevant    
+    for doi in data["doi"].tolist():
+        if doi not in flagged_papers:
+            papers.add(doi)
+
+    lhost = str(args.url) + "/plain"
     
-    NER(results, args.url)
+    NER(results, lhost)
 
 
 
