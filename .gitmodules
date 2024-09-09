@@ -1,3 +1,6 @@
 [submodule "submodules/autocorpus"]
 	path = submodules/autocorpus
 	url = https://github.com/omicsNLP/Auto-CORPus.git
+[submodule "BERN2"]
+	path = submodules/BERN2
+	url = https://github.com/dmis-lab/BERN2.git

@@ -1,4 +1,9 @@
 models/
 data/
-notebook/logs/
-notebook/.ipynb_checkpoints/
+logs/
+.ipynb_checkpoints/
+.venv/
+notes.md
+__pycache__
+.vscode
+run_p1.sh
