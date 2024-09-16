@@ -1,6 +1,8 @@
 # Viriation
 This project combines state-of-the-art BERT models with gradient boosting to monitor the latest scientific publications for discussions on new variants of the virus under study. It identifies, flags, and summarizes mutations and their effects, consolidating the information into a comprehensive summary file.
 
+![Pipeline overview](https://github.com/davidhy8/viriation/blob/28d73824401848c8718c8d8adba4e66a2d9f1de3/pipeline.jpg)
+
 # Introduction 
 As the viral landscape evolves, keeping up-to-date with the latest mutations and their implications is critical for research and public health. To date, over 600,000 papers discussing COVID-19 have been published, with an additional 100 to 400 papers released daily. This sheer volume of literature highlights the urgent need for an automated solution to efficiently identify and flag relevant studies, ensuring that researchers can stay informed about new viral mutations amidst the overwhelming influx of information. Viriation automates the surveillance of recent publications, identifying and summarizing novel variants and their potential impact on the virus. This repository currently focuses on tracking SARS-CoV-2 variants, but our ultimate goal is to create a versatile framework that can be applied to monitor and analyze variants of any viral type.
 
