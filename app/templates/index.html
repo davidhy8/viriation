@@ -6,6 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Papers</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script>
+        // Function to set the base URL dynamically
+        function setBaseURL() {
+        // Get the full current URL (the base URL of your application)
+        const origin = window.location.origin;
+        console.log("Origin: ", origin)
+        const path = window.location.pathname.split('/').slice(0, -1).join('/'); // Extract path excluding the last segment
+        console.log("Path: ", path)
+
+        const fullBaseURL = origin + path;
+
+        // Find the link element
+        const links = document.getElementsByClassName('annotation');
+
+        // Set the full URL by appending the base URL to the href value
+        // Convert HTMLCollection to an array (optional but helpful in modern JS)
+        Array.from(links).forEach(link => {
+            const originalHref = link.getAttribute('href');  // Get the existing href
+            
+            if (originalHref) {
+                // Combine base URL with the original href
+                link.setAttribute('href', fullBaseURL + originalHref);
+                console.log("Updated href:", link.getAttribute('href'));
+            } 
+            else {
+                console.error("No href found for this link:", link);
+            }
+        });
+        }
+    
+        // Execute the function once the page is loaded
+        window.onload = setBaseURL;
+
+    </script>
+
     <style>
         .container {
             width: 95%;
@@ -24,8 +60,10 @@
         }
 
         .body {
+            text-align: center;
             display: flex;
-            text-align: center
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
 
         /* Page title  */
@@ -42,15 +80,16 @@
         }
 
         .paper {
+            flex-basis: 48%; /* adjust the width of each item */
             background-color: #f2f4f4;
             cursor: pointer;
             padding: 18px;
-            width: 100%;
+            width: 50%;
             border: #5A5A66 ;
             text-align: left;
             outline: none;
             font-size: 15px;
-            margin-top: 15px;
+            margin: 15px;
             border-radius: 15px;
             box-shadow: 5px 10px #ccd1d1;
             transition: all .2s ease-in-out;
@@ -76,25 +115,23 @@
 </head>
 <body>
     <div class="container">
+
         <div class="header">
             <h1>Viriation</h1>
-            <p><b>{{data|length}}</b> new paper(s) discussing SARS-CoV-2 variants were detected. Please annotate the mutations mentioned in these papers.</p>
+            <p><b>{{info|length}}</b> new paper(s) discussing SARS-CoV-2 variants were detected. Please annotate the mutations mentioned in these papers.</p>
         </div>
         <div class="body">
-            {% for pmid, value in data.items() %}
-                <div class="paper">
-                    {% set fetch = fetch() %}
-                    {% set article = fetch.article_by_pmid(pmid) %}
-                    {% set author = article.author_list[0] %}
-                    <h2 style="text-align: center;">{{loop.index}}. <b>{{article.title}}</b></h2>
+            {% for key, row in info.iterrows() %}
+                <div class="paper">                    
+                    <h2 style="text-align: center;">{{loop.index}}. <b>{{row["title"]}}</b></h2>
                     <p style="text-align: center;">
                         <br>
-                        By: {{author}} et al.<br>
-                        <b>{{value|length}}</b> mutations discussed.
+                        Publication date: <b>{{row["date"]}}</b> <br>
+                        By: {{row["authors"]}} et al.<br>
                     </p>
                     <div class="buttons">
-                        <a href="https://doi.org/{{ pmid2doi(pmid) }}">View paper <i class="glyphicon glyphicon-new-window"></i></a>
-                        <a href="{{ url_for('paper', paper_id=pmid, _external=True) }}">Annotate mutations <i class="glyphicon glyphicon-edit"></i></a>
+                        <a href="https://doi.org/{{ row['doi'] }}">View paper <i class="glyphicon glyphicon-new-window"></i></a>
+                        <a class="annotation" href="{{ url_for('paper', doi_id=row['doi_id']) }}">Annotate mutations <i class="glyphicon glyphicon-edit"></i></a>
                     </div>
                 </div>
             {% endfor %}

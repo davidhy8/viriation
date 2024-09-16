@@ -130,7 +130,7 @@
             <p> Identified <b>{{data|length}}</b> new mutation(s). <br></p>
         </div>
 
-        <div>
+        <div class="body">
             {% for key, value in data.items() %}
                 <button type="button" class="collapsible"><h2 class="mutation"> {{ key }} </h2> <br> <p> <b>{{value.text|length}}</b> mention(s) in <b>{{ value.doi|unique|list|length }}</b> scientific paper(s) associated with <b>{{key}}</b>.</p> </button>
                 <div class="content">

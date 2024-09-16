@@ -4,20 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ doi }}</title>
+    <title>{{ title }} <br> {{ doi }}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script>
+        // Function to set the base URL dynamically
+        function setBaseURL() {
+        // Get the full current URL (the base URL of your application)
+        const origin = window.location.origin;
+        console.log("Origin: ", origin)
+        const path = window.location.pathname.split('/').slice(0, -2).join('/'); // Extract path excluding the last segment
+        console.log("Path: ", path)
+
+        const fullBaseURL = origin + path;
+
+        // Find the link element
+        const link = document.getElementById('back-button');
+        const originalHref = link.getAttribute('href');
+
+        // Set the full URL by appending the base URL to the href value
+        link.setAttribute('href', fullBaseURL + originalHref);
+
+        console.log("Updated href:", link.getAttribute('href'));
+        }
+    
+        // Execute the function once the page is loaded
+        window.onload = setBaseURL;
+
+    </script>
     <style>
         /* Main block */
         .container {
             width: 95%;
             margin: auto;
             background-color: white;
-            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center the title horizontally */
+            padding: 10px;
+            position: relative; /* To allow absolute positioning of the back button */
         }
 
         /* Title block */
         .header h1 {
             text-align: center;
+            padding-top: 20px;
         }
 
         .header p {
@@ -40,6 +73,7 @@
         /* Mutation heading */
         .container .mutation {
             color: red;
+            font-weight: bold;
         }
 
         /* DOI section header */
@@ -109,20 +143,59 @@
             background-color: #87FF65;
         }
 
-        .form-group {
+        .form-field {
             display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .form-group {
             align-items: center;
-            margin-bottom: 10px;
+            margin: 10px;
+            flex-basis: 48%; 
         }
 
         .form-label {
             width: 200px;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
         }
 
-        .back-button {
+        select {
+            width: 50%;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        fieldset {
+            margin-top: 10px;
+        }
+
+        legend {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        #back-button {
             position: absolute;
-            top: 10;
-            left: 10;
+            top: 10px;
+            left: 10px;
+            text-decoration: none;
+        }
+
+        #back-button:hover {
+            color: #0056b3; /* Change color on hover */
+        }
+
+        .form-checkbox-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .form-checkbox-group input[type="checkbox"] {
+            margin-right: 8px;
         }
     </style>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -131,64 +204,67 @@
 <body>
     <div class="container">
         <div class="header">
-            <a href="{{url_for('index')}}" class="back-button"><i class="glyphicon glyphicon-triangle-left"></i> Back</a>
-            <h1> Mutations discussed in <a href="https://doi.org/{{doi}}">{{doi}}</a></h1>
-            <p> Viriation identified <b>{{data|length}}</b> new mutation(s) in this paper. <br></p>
+            <a href="{{url_for('index')}}" id="back-button"><i class="glyphicon glyphicon-triangle-left"></i> Back</a>
+            <h1> <a href="https://doi.org/{{doi}}" text-decoration="none">{{ title }}</a></h1>
+            <p> Viriation identified <b>{{data|length}}</b> mutation(s) in this paper. <br></p>
         </div>
         <div>
-            <form method="post" class="mutation-form" id="form_{{ pmid }}">
+            <form method="post" class="mutation-form" id="form_{{ doi_id }}">
                 {% for (mutation, text) in data.items() %}
                     <button type="button" class="collapsible">
                         <h2 class="mutation"> {{ mutation }} </h2> <br>
-                        <p> <b>{{text|length}}</b> mention(s) in <span style="text-decoration: underline;">{{ doi }}</span>. </p> 
+                        <p> <b>{{text|length}}</b> mention(s) of {{ mutation }} in current paper.</p> 
                     </button>
                     <div class="content">
                         <hr class="dashed">
 
                         {% for t in text %}
-                            <p class="text_{{ mutation }}">{{loop.index}}.  {{ t }} <br></p>
+                            <p class="text_{{ mutation }}"><b>{{loop.index}}.</b>  {{ t }} <br></p>
                         {% endfor %}
 
                         <div class="form-field">
                             <div class="form-group">
-                                <label for="protein" class="form-label">Which protein does this mutation occur on?</label>
-                                <select name="protein_{{ pmid }}_{{ mutation }}" id="protein_{{ pmid }}_{{ mutation }}">
-                                    <option value="None">Select an option</option>
-                                    <option value="accessory">Accessory protein</option>
-                                    <option value="envelope">Envelope protein</option>
-                                    <option value="membrane">Membrane protein</option>
-                                    <option value="nsp">Non-structural protein</option>
-                                    <option value="nucleocapsid">Nucleocapsid protein</option>
-                                </select>
+                                <fieldset>
+                                    <legend>Which protein does this mutation occur on?</legend>
+                                    <select name="protein_{{ doi_id }}_{{ mutation }}" id="protein_{{ doi_id }}_{{ mutation }}">
+                                        <option value="None">Select an option</option>
+                                        <option value="accessory">Accessory protein</option>
+                                        <option value="envelope">Envelope protein</option>
+                                        <option value="membrane">Membrane protein</option>
+                                        <option value="nsp">Non-structural protein</option>
+                                        <option value="nucleocapsid">Nucleocapsid protein</option>
+                                    </select>
+                                </fieldset>
                             </div>
                             <div class="form-group">
                                 <fieldset>
                                     <legend>Select all related effect(s) of {{mutation}}:</legend>
-                                    <div>
-                                        <input type="checkbox" id="invasion_{{pmid}}_{{mutation}}" name="invasion_{{pmid}}_{{mutation}}" value="invasion">
-                                        <label for="invasion_{{pmid}}_{{mutation}}">Host invasion</label>
+
+                                    <div class="form-checkbox-group">
+                                        <input type="checkbox" id="invasion_{{doi_id}}_{{mutation}}" name="invasion_{{doi_id}}_{{mutation}}" value="invasion">
+                                        <label for="invasion_{{ doi_id }}_{{mutation}}">Host invasion</label>
                                     </div>
                                     
-                                    <div>
-                                        <input type="checkbox" id="neutralization_{{pmid}}_{{mutation}}" name="neutralization_{{pmid}}_{{mutation}}" value="neutralization">
-                                        <label for="neutralization_{{pmid}}_{{mutation}}">Serum neutralization</label>
+                                    <div class="form-checkbox-group">
+                                        <input type="checkbox" id="neutralization_{{doi_id}}_{{mutation}}" name="neutralization_{{doi_id}}_{{mutation}}" value="neutralization">
+                                        <label for="neutralization_{{ doi_id }}_{{mutation}}">Serum neutralization</label>
                                     </div>
                                     
-                                    <div>
-                                        <input type="checkbox" id="transmission_{{pmid}}_{{mutation}}" name="transmission_{{pmid}}_{{mutation}}" value="transmission">
-                                        <label for="transmission_{{pmid}}_{{mutation}}">Transmissibility</label>
+                                    <div class="form-checkbox-group">
+                                        <input type="checkbox" id="transmission_{{doi_id}}_{{mutation}}" name="transmission_{{doi_id}}_{{mutation}}" value="transmission">
+                                        <label for="transmission_{{ doi_id }}_{{mutation}}">Transmissibility</label>
                                     </div>
                                     
-                                    <div>
-                                        <input type="checkbox" id="homoplasy_{{pmid}}_{{mutation}}" name="homoplasy_{{pmid}}_{{mutation}}" value="transmission">
-                                        <label for="homoplasy_{{pmid}}_{{mutation}}">Homoplasy</label>
+                                    <div class="form-checkbox-group">
+                                        <input type="checkbox" id="homoplasy_{{doi_id}}_{{mutation}}" name="homoplasy_{{doi_id}}_{{mutation}}" value="transmission">
+                                        <label for="homoplasy_{{ doi_id }}_{{mutation}}">Homoplasy</label>
                                     </div>
                                 </fieldset>
                             </div>
                         </div>
                     </div>
                 {% endfor %}
-                <button type="submit" style="margin-top: 20px;">Save</button>
+                <button type="submit" style="margin-top: 20px; border-radius: 5px;">Save</button>
             </form>
         </div>
     </div>
