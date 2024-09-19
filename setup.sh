@@ -1,11 +1,19 @@
 BASE_PATH=/home/david.yang1/autolit/viriation/
 cd $BASE_PATH
 
-# Set up directories
-mkdir data 
+# pipeline directory
 cd data
+cd ../pipeline_data
+mkdir NER
+
+# scraper directories
+cd ../
 mkdir scraper
 cd scraper
 mkdir pubmed rxiv
-cd ../pipeline_data
-mkdir NER
+cd rxiv
+mkdir bioc html server_dumps
+
+# database directory
+cd ../../
+mkdir database
