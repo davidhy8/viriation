@@ -10,6 +10,7 @@ import pandas as pd
 import os
 import xml.etree.ElementTree as ET
 import re
+from data_processor import get_doi_file_name
 
 
 def wrap_xml_with_root(input_path, output_path, new_root="all_roots"):
@@ -138,7 +139,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Load list of papers previously looked at
-    with open(args.path + '/data/database/completed_papers.txt', 'rb') as f:
+    with open(args.path + '/data/database/screened_papers.pkl', 'rb') as f:
         papers = pickle.load(f)
 
     # LitCovid search terms
@@ -169,7 +170,7 @@ if __name__ == "__main__":
     # Create empty BioC JSON dictionary
     dois = litcovid_data["doi"].tolist()
     litcovid_papers = {}
-    for doi in dois[:30]:
+    for doi in dois:
         litcovid_papers[str(doi)] = None
 
     # Fetch BioC JSON data  
@@ -207,7 +208,7 @@ if __name__ == "__main__":
     dois = rxiv["doi"].tolist()
 
     rxiv_papers = {}
-    for doi in dois[:30]:
+    for doi in dois:
         print(doi)
         rxiv_papers[str(doi)] = None
 
@@ -223,6 +224,7 @@ if __name__ == "__main__":
     # Create metadata
     rxiv_subset = rxiv[['title', 'doi', 'date', 'authors']]
     info = pd.concat([rxiv_subset, litcovid_data], ignore_index = True, sort = False)
+    info["doi_id"] = info["doi"].astype(str).apply(get_doi_file_name)
 
     info.to_csv(args.path + '/data/scraper/info.csv')
     

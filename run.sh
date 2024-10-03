@@ -12,7 +12,7 @@ do
 done
 
 # Activate conda
-CONDA_PATH=~/miniconda3/etc/profile.d/conda.sh
+CONDA_PATH=~/miniconda3/etc/profile.d/conda.sh 
 source $CONDA_PATH
 
 # Activate environments

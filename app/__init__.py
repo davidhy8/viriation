@@ -1,5 +1,5 @@
 from flask import Flask, request
-from config import Config
+# from config import Config
 import jinja2
 from werkzeug.middleware.proxy_fix import ProxyFix
 from metapub.convert import pmid2doi
@@ -9,7 +9,7 @@ from metapub import PubMedFetcher
 app = Flask(__name__)
 app.debug = True
 app.jinja_env.globals.update(zip=zip, pmid2doi=pmid2doi, fetch=PubMedFetcher)
-app.config.from_object(Config)
+# app.config.from_object(Config)
 from app import routes
 
 # Figure redirect issues due to proxy

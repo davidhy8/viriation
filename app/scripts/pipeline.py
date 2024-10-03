@@ -22,7 +22,7 @@ import spacy
 import argparse
 import re
 from metapub.convert import pmid2doi
-from data_processor import get_doi_file_name
+from app.scripts.data_processor import get_doi_file_name
 
 
 # python -m spacy download en_core_web_sm
@@ -248,6 +248,7 @@ def paper_prediction(data, bst, tokenizer, trainer):
 
     # Format lightGBM data 
     data = chunked_data_df
+    print(data)
     
     # Format data for lightGBM
     grouped = data.groupby('doi')
@@ -268,7 +269,7 @@ def paper_prediction(data, bst, tokenizer, trainer):
         entry = np.append(entry, name)
         df.loc[name] = entry
 
-    predictions = bst.predict(df.drop(columns="doi"), num_iteration=bst.best_iteration)
+    predictions = bst.predict(df.drop(columns="doi").astype(float), num_iteration=bst.best_iteration)
     pred = np.where(predictions < 0.5, 0, 1)
     df["prediction"] = pred.T
 
@@ -313,7 +314,7 @@ def load_mutations(path = "/home/david.yang1/autolit/viriation/data/pipeline_dat
 
         # Obtain DOI
         basename = os.path.basename(file)
-        match = re.search(r'(\d+)_paper\.pkl$', basename)
+        match = re.search(r'(.+)_paper\.pkl$', basename)
         doi = match.group(1)
         doi = doi.replace("_", "/")
 
@@ -364,36 +365,36 @@ if __name__ == "__main__":
     # Parse arguments
     args = parser.parse_args()
 
-    with open('data/database/screened_papers.txt', 'wb') as f:
-        pickle.dump(papers, f)
-
     # Load data
     df = pd.read_csv('../../data/pipeline_data/paper_flagging_data/bert_dataset.csv')
     ds = ds_preparation(df, val_count=128)
     
     # Load model
     def model_init():
-        return AutoModelForSequenceClassification.from_pretrained("../../checkpoints/chunks-pubmed-bert-v2", num_labels=2)
+        return AutoModelForSequenceClassification.from_pretrained("../../models/chunks-pubmed-bert-v2", num_labels=2)
     
     trainer = fine_tune_model(ds, model_init, train=False)
 
     # Load lightbgm model
-    bst = lgb.Booster(model_file='../../checkpoints/lightgbm_model.txt')
-    
-    results = paper_prediction(data, bst, tokenizer, trainer)
-    flagged_papers = results["doi"].tolist()
+    bst = lgb.Booster(model_file='../../models/lightgbm_model.txt')
 
     # Load new papers
     data = pd.read_csv(args.data)
 
+    results = paper_prediction(data, bst, tokenizer, trainer)
+    flagged_papers = results["doi"].tolist()
+
     # Update screened papers
-    with open('data/database/screened_papers.txt', 'rb') as f:
+    with open('../../data/database/screened_papers.pkl', 'rb') as f:
         papers = pickle.load(f)
 
     # Add papers that have been screened as irrelevant    
     for doi in data["doi"].tolist():
         if doi not in flagged_papers:
             papers.add(doi)
+
+    with open('../../data/database/screened_papers.pkl', 'wb') as f:
+        pickle.dump(papers, f)
 
     lhost = str(args.url) + "/plain"
     

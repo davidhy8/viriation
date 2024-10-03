@@ -252,8 +252,8 @@ def regex_filtering(data):
 
 def date_filtering(data, date_cutoff):
     filtered_papers = {}
-
     for doi, paper in data.items():
+        print(paper)
         p = paper[1:-1] if paper[0] == "[" else paper
         bioc_collection = biocjson.loads(p)
         date_cutoff = date.fromisoformat(str(date_cutoff))
@@ -312,8 +312,10 @@ if __name__ == "__main__":
     print(f"Original: {len(data)}")
 
     # Filter by date 
-    filtered_data = date_filtering(data, args.cutoff)
-    print(f"Date filtered: {len(filtered_data)}")
+    # filtered_data = date_filtering(data, args.cutoff)
+    # print(f"Date filtered: {len(filtered_data)}")
+    
+    filtered_data = data
     
     # Filter by regex
     filtered_data = regex_filtering(data)
