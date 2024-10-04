@@ -197,7 +197,70 @@
         .form-checkbox-group input[type="checkbox"] {
             margin-right: 8px;
         }
+
+        .text-chunk {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .strikethrough {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        .x-button {
+            cursor: pointer;
+            color: red;
+        }
     </style>
+    <script>
+        // Track which text chunks are irrelevant
+        let irrelevantTextChunks = {};
+
+        // Mark a text chunk as irrelevant by adding a strikethrough and saving to the list
+        function markIrrelevant(mutationId, chunkId) {
+            const chunkElement = document.getElementById(`text_${mutationId}_${chunkId}`);
+            const xButton = document.getElementById(`x_button_${mutationId}_${chunkId}`);
+            chunkElement.classList.toggle('strikethrough');
+
+            // Toggle the irrelevance
+            if (!irrelevantTextChunks[mutationId]) {
+                irrelevantTextChunks[mutationId] = [];
+            }
+
+            if (chunkElement.classList.contains('strikethrough')) {
+                irrelevantTextChunks[mutationId].push(chunkElement.textContent);
+            } else {
+                const index = irrelevantTextChunks[mutationId].indexOf(chunkElement.textContent);
+                if (index > -1) {
+                    irrelevantTextChunks[mutationId].splice(index, 1);
+                }
+            }
+
+            // Print the current state of irrelevantTextChunks to the console
+            console.log('Updated irrelevantTextChunks:', irrelevantTextChunks);
+        }
+
+        // Submit irrelevant text chunks along with the form
+        function submitForm() {
+            const form = document.getElementById('mutation-form');
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.name = 'irrelevant_chunks';
+            input.value = JSON.stringify(irrelevantTextChunks);
+            
+            // Log the input to check if it's created and has the correct value
+            console.log('Input created:', input);
+
+            form.appendChild(input);
+
+            // Log the form to check if the input has been appended
+            console.log('Form with appended input:', form);
+
+            form.submit();
+        }
+    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
@@ -209,7 +272,7 @@
             <p> Viriation identified <b>{{data|length}}</b> mutation(s) in this paper. <br></p>
         </div>
         <div>
-            <form method="post" class="mutation-form" id="form_{{ doi_id }}">
+            <form method="post" class="mutation-form" id="mutation-form">
                 {% for (mutation, text) in data.items() %}
                     <button type="button" class="collapsible">
                         <h2 class="mutation"> {{ mutation }} </h2> <br>
@@ -217,12 +280,14 @@
                     </button>
                     <div class="content">
                         <hr class="dashed">
-
-                        {% for t in text %}
-                            <p class="text_{{ mutation }}"><b>{{loop.index}}.</b>  {{ t }} <br></p>
-                        {% endfor %}
-
                         <div class="form-field">
+                            {% for t in text %}
+                                <div class="text-chunk" id="text_chunk_{{ mutation }}">
+                                    <p class="text_{{ mutation }}" id="text_{{ mutation }}_{{ loop.index }}"><b>{{ loop.index }}.</b> {{ t }}</p>
+                                    <span class="x-button" id="x_button_{{ mutation }}_{{ loop.index }}" onclick="markIrrelevant('{{ mutation }}', '{{ loop.index }}')" title="Irrelevant text chunk">X</span>
+                                </div>
+                            {% endfor %}
+
                             <div class="form-group">
                                 <fieldset>
                                     <legend>Which protein does this mutation occur on?</legend>
@@ -264,7 +329,7 @@
                         </div>
                     </div>
                 {% endfor %}
-                <button type="submit" style="margin-top: 20px; border-radius: 5px;">Save</button>
+                <button type="button" style="margin-top: 20px; border-radius: 5px;" onclick="submitForm()">Save</button>
             </form>
         </div>
     </div>

@@ -7,6 +7,7 @@ import pickle
 import time
 from .scripts.data_processor import get_doi_file_name
 import pandas as pd
+import json
 
 current_timestamp = time.time()
 print("Initialization:", current_timestamp)
@@ -51,6 +52,10 @@ def paper(doi_id):
 
     if request.method == 'POST':
         labels = []
+        irrelevant_chunks = request.form.get('irrelevant_chunks')
+        if irrelevant_chunks:
+            irrelevant_chunks = json.loads(irrelevant_chunks) 
+
         for mutation, text in data[doi].items():
             effect = []
 
@@ -70,6 +75,11 @@ def paper(doi_id):
             labels.append([mutation, doi, protein, effect, text])
 
         save_labels(labels, doi_id)
+
+         # Save the irrelevant text chunks
+        if irrelevant_chunks:
+            save_irrelevant_chunks(doi_id, irrelevant_chunks)
+
         update_completion_list(doi)
         return redirect(url_for('index'))
     return render_template('paper.html', data = data[doi], title = title, authors=authors, doi = doi, doi_id = doi_id)
@@ -112,7 +122,7 @@ def update_completion_list(doi):
         papers = pickle.load(f)
 
     # papers[pmid] = "labelled" # indicate the paper has been labelled
-    # papers = set()
+    papers = set()
     papers.add(doi)
 
     with open('data/database/screened_papers.pkl', 'wb') as f:
@@ -122,7 +132,7 @@ def update_data(data):
     with open('data/database/screened_papers.pkl', 'rb') as f:
         papers = pickle.load(f)
     
-    # papers = set()
+    papers = set()
     
     # res = {k: v for k, v in data.items() if k not in papers.keys()}
     res = {k: v for k, v in data.items() if k not in papers}
@@ -133,5 +143,16 @@ def save_labels(labels, key):
     with open(filename, 'w') as f:
         for label in labels:
             f.write(f"{label}\n") 
+
+# Save the irrelevant chunks to a separate file
+def save_irrelevant_chunks(doi, irrelevant_chunks):
+    filename = f'data/database/{doi}_irrelevant_chunks.txt'
+    with open(filename, 'w') as f:
+        for mutation, chunks in irrelevant_chunks.items():
+            f.write(f'Mutation: {mutation}\n')
+            for chunk in chunks:
+                chunk = chunk[3:]
+                f.write(f'{chunk}\n')
+            f.write('\n')
 
 
