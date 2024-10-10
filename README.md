@@ -14,6 +14,31 @@ As the viral landscape evolves, keeping up-to-date with the latest mutations and
 - **Comprehensive Mutation Database**: Maintains a living repository of viral mutations and their associated effects, constantly updated with new findings.
 - **Self-Training Model**: Continuously improves classification accuracy through self-training, using user annotations and feedback to retrain the ensemble model over time.
 
+# Project structure
+├── app                                     # Flask interface
+│   └── templates         
+
+├── data                                    
+│   ├── database                            # User annotations & intermediaries
+│   ├── other                               
+│   ├── pipeline_data                       # Data input and output for pipeline  
+│   ├── pokay                               # Model training data
+│   ├── scraper                             # Literature retrieval
+
+├── models                                  # Model checkpoints
+│   ├── NeuML
+│   ├── chunks-pubmed-bert
+│   ├── chunks-pubmed-bert-v2
+│   ├── digitalepidemiologylab
+│   └── dmis-lab
+
+├── notebooks                               # Jupyter notebooks for explorative tasks
+├── scripts                                 # Python scripts for pipeline
+├── submodules                           
+│   ├── BERN2                               # Named Entity Recognition
+│   └── autocorpus                          # File conversions
+└── tests                                   # Testing for core functionalities
+
 # Installation guide
 Running Viriation requires installing various dependencies, both for Viriation itself and for the submodules it utilizes. As a result, multiple environments need to be set up.
 
