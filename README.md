@@ -15,6 +15,7 @@ As the viral landscape evolves, keeping up-to-date with the latest mutations and
 - **Self-Training Model**: Continuously improves classification accuracy through self-training, using user annotations and feedback to retrain the ensemble model over time.
 
 # Project structure
+```
 ├── app                                     # Flask interface
 │   └── templates         
 
@@ -38,6 +39,7 @@ As the viral landscape evolves, keeping up-to-date with the latest mutations and
 │   ├── BERN2                               # Named Entity Recognition
 │   └── autocorpus                          # File conversions
 └── tests                                   # Testing for core functionalities
+```
 
 # Installation guide
 Running Viriation requires installing various dependencies, both for Viriation itself and for the submodules it utilizes. As a result, multiple environments need to be set up.
