@@ -8,6 +8,7 @@ import time
 from .scripts.data_processor import get_doi_file_name
 import pandas as pd
 import json
+import os
 
 current_timestamp = time.time()
 print("Initialization:", current_timestamp)
@@ -71,10 +72,16 @@ def paper(doi_id):
                 effect.append("Transmissibility")
             if request.form.get(f'homoplasy_{doi_id}_{mutation}'):
                 effect.append("Homoplasy")
+            if request.form.get(f'irrelevant_paper'):
+                irrelevant_text = True
+            else:
+                irrelevant_text = False
+
 
             labels.append([mutation, doi, protein, effect, text])
 
-        save_labels(labels, doi_id)
+
+        save_labels(labels, doi_id, irrelevant_text)
 
          # Save the irrelevant text chunks
         if irrelevant_chunks:
@@ -138,21 +145,38 @@ def update_data(data):
     res = {k: v for k, v in data.items() if k not in papers}
     return res
 
-def save_labels(labels, key):
-    filename = 'data/database/' + str(key) + '.txt'
+def save_labels(labels, key, irrelevant):
+    filename = 'data/database/annotations/' + str(key) + '.txt'
     with open(filename, 'w') as f:
         for label in labels:
-            f.write(f"{label}\n") 
+            f.write(f"{label}\n")
+
+    if not os.path.exists('data/database/self-train/papers_retrain_data.pkl'):
+        with open('data/database/self-train/papers_retrain_data.pkl', 'wb') as file:
+            papers = {}
+            pickle.dump(papers, file)
+
+    with open('data/database/self-train/papers_retrain_data.pkl', 'rb') as f:
+        papers = pickle.load(f)
+        if key not in papers:
+            papers[key] = "irrelevant" if irrelevant else "relevant"
+
+    print(papers)
+
+    with open('data/database/papers_retrain_data.pkl', 'wb') as f:
+        pickle.dump(papers, f)
 
 # Save the irrelevant chunks to a separate file
 def save_irrelevant_chunks(doi, irrelevant_chunks):
-    filename = f'data/database/{doi}_irrelevant_chunks.txt'
+    filename = f'data/database/self-train/chunks_retrain_data.txt'
     with open(filename, 'w') as f:
         for mutation, chunks in irrelevant_chunks.items():
-            f.write(f'Mutation: {mutation}\n')
+            # f.write(f'Mutation: {mutation}\n')
             for chunk in chunks:
                 chunk = chunk[3:]
-                f.write(f'{chunk}\n')
-            f.write('\n')
+                f.write(f'Irrelevant\t{chunk}\n')
+            
+        # for mutation
+            # f.write('\n')
 
 
