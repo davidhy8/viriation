@@ -6,10 +6,13 @@ This project combines state-of-the-art BERT models with gradient boosting to mon
 # Introduction 
 As the viral landscape evolves, keeping up-to-date with the latest mutations and their implications is critical for research and public health. To date, over 600,000 papers discussing COVID-19 have been published, with an additional 100 to 400 papers released daily. This sheer volume of literature highlights the urgent need for an automated solution to efficiently identify and flag relevant studies, ensuring that researchers can stay informed about new viral mutations amidst the overwhelming influx of information. Viriation automates the surveillance of recent publications, identifying and summarizing novel variants and their potential impact on the virus. This repository currently focuses on tracking SARS-CoV-2 variants, but our ultimate goal is to create a versatile framework that can be applied to monitor and analyze variants of any viral type.
 
-Features:
-- **Automated Literature Monitoring**: Scans and analyzes the latest publications and preprints for relevant content. 
-- **Mutation Identification and Annotation**: Extracts discussion of new viral mutations and provides an interface for users to label its effect and location. 
-- **Comprehensive Database**: Updates a summary file with all identified variants and their details.
+## Key Features
+- **Automated Literature Retrieval**: Continuously scans and retrieves the latest publications and preprints, ensuring up-to-date content on relevant topics.
+- **Paper Classification**: Uses an ensemble model of PubMedBERT and LightGBM to classify full-text biomedical literature based on relevance.
+- **Named Entity Recognition**: Automatically extracts critical entities such as genes, diseases, chemicals, species, mutations, cell lines, cell types, DNA, and RNA using neural network-based NER.
+- **Interactive Web Interface**: Provides a user-friendly interface to display flagged papers, with discussions on new viral mutations and tools for user annotation and feedback.
+- **Comprehensive Mutation Database**: Maintains a living repository of viral mutations and their associated effects, constantly updated with new findings.
+- **Self-Training Model**: Continuously improves classification accuracy through self-training, using user annotations and feedback to retrain the ensemble model over time.
 
 # Installation guide
 Running Viriation requires installing various dependencies, both for Viriation itself and for the submodules it utilizes. As a result, multiple environments need to be set up.
