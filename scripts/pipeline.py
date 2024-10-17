@@ -22,7 +22,8 @@ import spacy
 import argparse
 import re
 from metapub.convert import pmid2doi
-from app.scripts.data_processor import get_doi_file_name
+from scripts.data_processor import get_doi_file_name
+from scripts.history import History
 
 
 # python -m spacy download en_core_web_sm
@@ -35,6 +36,13 @@ tokenizer = AutoTokenizer.from_pretrained("NeuML/pubmedbert-base-embeddings")
 
 # Tokenize the data
 def tokenize_function(df):
+    """
+    Tokenize and process the text in df with truncation and padding
+
+    Parameters:
+        df (pd.DataFrame): Dataframe containing a column called text containing the text data to process
+    """
+
     return tokenizer(
         df['text'],
         padding="longest",
@@ -45,6 +53,17 @@ def tokenize_function(df):
 
 # Load training and validation dataset
 def ds_preparation(df, val_count=0):
+    """
+    Prepare Dataset dictionary for model fine tuning
+
+    Parameters:
+        df (Pandas DataFrame): DataFrame containing a column for text and a column for label
+        val_count (int): Number of validation data points to have
+
+    Returns:
+        (DatasetDict): Dataset dictionary containing training and validation data
+    """
+
     # Balance classes if needed
     df = df.groupby('label').sample(n=min(df['label'].value_counts()), random_state=42)
     
@@ -78,6 +97,16 @@ def ds_preparation(df, val_count=0):
 
 # Compute confusion matrix for data
 def compute_metrics(pred):
+    """
+    Compute the accuracy, F1, precision and recall score given a set of predictions
+
+    Parameters:
+        pred (NamedTuple): NamedTuple from trainer.predict() function with label_ids & predictions as keys
+
+    Returns:
+        (dict): Dictionary containing accuracy, F1, precision and recall score 
+    """
+
     labels = pred.label_ids
     preds = pred.predictions.argmax(-1)
     precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average='binary')
@@ -93,6 +122,17 @@ def compute_metrics(pred):
 
 # Fine tune model
 def fine_tune_model(ds, model_init, train=False):
+    """
+    Configure and fine-tune (optionally) model with DatasetDict
+
+    Parameters:
+        ds (DatasetDict): A Hugging Face `DatasetDict` object that contains the training and validation datasets. Expected keys are `train` and `validation`.
+        model_init (PreTrainedModel): A callable function that returns a pre-trained model (such as BERT, GPT-2, etc.) that is fine-tuned during the training process. This is used to initialize the model.
+
+    Returns:
+        (Trainer): An instance of the `transformers.Trainer` class, which encapsulates the training and evaluation logic.
+    """
+
     # Define the training arguments
     training_args = TrainingArguments(
         output_dir='./results',
@@ -126,6 +166,22 @@ def fine_tune_model(ds, model_init, train=False):
 
 # Split text into <512 token chunks
 def split_text_into_chunks(text, tokenizer, max_tokens=512, overlap_sentences=2):
+    """
+    Splits a long text into chunks of a maximum token length, ensuring that no chunk exceeds the specified token limit. The function also allows for sentence overlap between chunks for better context preservation in sequence-based tasks (e.g., in NLP models).
+
+    Parameters:
+        text (str): The input text that needs to be split into smaller chunks.
+    
+        tokenizer (PreTrainedTokenizer): A tokenizer (typically a Hugging Face BERT or similar transformer tokenizer) used to tokenize the text. It must have a `tokenize` method that splits sentences into tokens.
+
+        max_tokens (int, optional): The maximum number of tokens allowed in each chunk. Default is 512, which is commonly used in transformer models like BERT.
+
+        overlap_sentences (int, optional): The number of sentences to overlap between consecutive chunks. This helps maintain continuity between chunks. Default is 2 sentences.
+
+    Returns:
+        (list): A list of strings, where each string is a chunk of the input text that contains no more than `max_tokens` tokens.
+    """
+
     # Tokenize the text into sentences
     sentences = sent_tokenize(text)
     
@@ -165,6 +221,30 @@ def split_text_into_chunks(text, tokenizer, max_tokens=512, overlap_sentences=2)
 
 # Predict label of dataframe
 def prediction_chunks(df, tokenizer, trainer):
+    """
+    Splits text data into manageable chunks, tokenizes them, and runs predictions using a Hugging Face Trainer.
+
+    This function processes a DataFrame with text data by splitting long text entries into smaller chunks that fit within the token limit, 
+    tokenizing each chunk, and using a pre-trained model to predict labels and probabilities for each chunk. The results are returned 
+    along with the predicted outputs.
+
+    Parameters:
+        df (pd.DataFrame): A pandas DataFrame containing a column `"text"` with text entries to be split into chunks for prediction. The DataFrame should also contain a `"doi"` column representing unique document identifiers for each row.
+        tokenizer (PreTrainedTokenizer):  A Hugging Face tokenizer used for tokenizing the text chunks before prediction.
+
+        trainer (Trainer): An instance of the Hugging Face `Trainer` class, which is used for running predictions on the processed text chunks.
+
+    Returns:
+        output (pd.DataFrame): A DataFrame containing the processed chunks, predictions, and associated probabilities. The DataFrame includes the following columns:
+            - `"text"`: The text chunks.
+            - `"position"`: The index position of each chunk within the original text.
+            - `"doi"`: The document identifier (from the original input DataFrame).
+            - `"prediction"`: The predicted labels for each chunk.
+            - `"probability"`: The confidence score (softmax probability) of the predicted label.
+
+        pred (Object): The raw prediction object returned by the `Trainer.predict()` function, containing the logits and other details from the prediction step.
+    """
+
     output = pd.DataFrame()
     for i, text in enumerate(df["text"]):
         chunks = split_text_into_chunks(text, tokenizer)
@@ -199,6 +279,20 @@ def prediction_chunks(df, tokenizer, trainer):
 
 # Validate model performance
 def validate_model(trainer):
+    """
+    Loads labeled text chunks, tokenizes them, and evaluates the performance of a trained model using the Hugging Face Trainer.
+
+    This function consolidates labeled text chunks from multiple CSV files, processes them into a tokenized dataset, and tests the 
+    performance of the model using the provided Trainer. The function returns the computed evaluation metrics.
+
+    Parameters:
+        trainer (Trainer): An instance of the Hugging Face `Trainer` class, which is used to perform model evaluation on the processed test dataset.
+
+    Returns:
+        (dict): A dictionary containing evaluation metrics (e.g., accuracy, precision, recall, F1-score) computed by the `compute_metrics` function.
+
+    """
+
     # Load prediction chunks
     pred_chunks_0 = pd.read_csv("../../data/pipeline_data/paper_flagging_data/0_chunks_labelled.csv")
     pred_chunks_1 = pd.read_csv("../../data/pipeline_data/paper_flagging_data/1_chunks_labelled.csv")
@@ -244,6 +338,29 @@ def validate_model(trainer):
 
 # Predict whether papers are relevant or not
 def paper_prediction(data, bst, tokenizer, trainer):
+    """
+    Predicts relevant papers by processing text data into chunks, making predictions using a Hugging Face model, 
+    and subsequently predicting paper relevance using a LightGBM model.
+
+    This function first divides the text data into chunks, uses a pre-trained Hugging Face model to generate 
+    predictions for each chunk, then groups the chunk-level predictions by paper DOI, and formats them into a 
+    feature matrix for LightGBM. The LightGBM model predicts the relevance of each paper based on chunk-level 
+    predictions, and relevant papers are returned.
+
+    Parameters:
+        data (pd.DataFrame): A pandas DataFrame containing paper text data with at least a "text" and "doi" column.
+
+        bst (lightgbm.Booster): A pre-trained LightGBM Booster model used to classify papers as relevant or not based on chunk-level predictions.
+
+        tokenizer (PreTrainedTokenizer): A Hugging Face tokenizer object used to tokenize the text into chunks.
+        
+        trainer (Trainer): A Hugging Face Trainer object used to predict chunk-level labels using a pre-trained model.
+
+    Returns:
+        (pd.DataFrame): A DataFrame containing the flagged papers (those predicted as relevant) with their respective chunks and predictions.
+
+    """
+
     chunked_data_df, chunked_data_pred = prediction_chunks(data, tokenizer, trainer)
 
     # Format lightGBM data 
@@ -283,10 +400,35 @@ def paper_prediction(data, bst, tokenizer, trainer):
 
 
 def query_plain(text, url="http://localhost:8888/plain"):
+    """
+    Sends a plain text query to a specified server URL and returns the response.
+
+    Parameters:
+        text (str): The plain text to be sent in the POST request body.
+
+        url (str, optional): The URL of the server where the request is sent. Defaults to "http://localhost:8888/plain".
+
+    Returns:
+        (dict): The response from the server, parsed as a JSON object.
+    """
+
     return requests.post(url, json={'text': text}).json()
 
 
 def NER(flagged, port):
+    """
+    Performs Named Entity Recognition (NER) on flagged papers and saves the results to disk.
+
+    This function processes flagged scientific papers by performing Named Entity Recognition (NER)
+    on each paper's text using a specified API endpoint. The results are grouped by document identifier 
+    (DOI), and the NER results for each paper are saved to a pickle file.
+
+    Parameters:
+        flagged (pd.DataFrame): A DataFrame containing flagged papers. It should include columns such as 'doi' (document identifier) and 'text' (the text content of each paper).
+
+        port (str): The URL of the server endpoint where NER queries are sent. This is passed to the `query_plain` function for sending the text to be processed.
+    """
+
     grouped_papers = flagged.groupby('doi')
     
     for name, group in grouped_papers:
@@ -301,6 +443,21 @@ def NER(flagged, port):
 
 
 def load_mutations(path = "/home/david.yang1/autolit/viriation/data/pipeline_data/NER"):
+    """
+    Loads mutation data from pickle files and organizes it into a structured output.
+
+    This function reads all the pickle files in the specified directory that contain Named Entity Recognition (NER)
+    results for scientific papers. It extracts mutations and their contexts from the NER data, organizing them
+    into a dictionary structure based on their corresponding Document Object Identifiers (DOIs).
+
+    Parameters:
+        path (str): The directory path where the NER pickle files are located. Default is "/home/david.yang1/autolit/viriation/data/pipeline_data/NER".
+
+    Returns:
+        output (dict): A nested dictionary where the keys are DOIs and the values are dictionaries containing mutations as keys and lists of corresponding context sentences as values. 
+
+    """
+
     files = Path(path).glob("*.pkl")
     # Initialize output dictionary
     # output = defaultdict(lambda:{"mutation": [], "text": [], "doi": None})
@@ -385,16 +542,18 @@ if __name__ == "__main__":
     flagged_papers = results["doi"].tolist()
 
     # Update screened papers
-    with open('../../data/database/screened_papers.pkl', 'rb') as f:
-        papers = pickle.load(f)
+    with open('../data/database/history.pkl', 'rb') as f:
+        h = pickle.load(f)
 
     # Add papers that have been screened as irrelevant    
     for doi in data["doi"].tolist():
         if doi not in flagged_papers:
-            papers.add(doi)
+            h.addPaper(doi)
 
-    with open('../../data/database/screened_papers.pkl', 'wb') as f:
-        pickle.dump(papers, f)
+    h.updatePapers(irrelevant_papers = irrelevant)
+
+    with open('../data/database/history.pkl', 'wb') as f:
+        pickle.dump(h, f)
 
     lhost = str(args.url) + "/plain"
     

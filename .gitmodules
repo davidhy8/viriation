@@ -4,3 +4,6 @@
 [submodule "submodules/BERN2"]
 	path = submodules/BERN2
 	url = https://github.com/dmis-lab/BERN2.git
+[submodule "submodules/pokay"]
+	path = submodules/pokay
+	url = https://github.com/nodrogluap/pokay.git

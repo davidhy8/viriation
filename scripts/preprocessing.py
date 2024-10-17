@@ -8,11 +8,24 @@ import pypdf
 import os
 import argparse
 from datetime import date
-from data_processor import get_doi_file_name
+from scripts.data_processor import get_doi_file_name
 from pathlib import Path
  
 
 def check_dictionary(d):
+    """
+    Checks the contents of a dictionary and prints information about its size 
+    and the status of its keys.
+
+    This function iterates through the provided dictionary, checking the value 
+    of each key. It prints the size of the dictionary, and for each key, it 
+    checks if the value is `None` or the string "converting". If either 
+    condition is met, it prints the corresponding key with a message.
+
+    Parameters:
+        d (dict): A dictionary to check. Keys can be of any hashable type, and values can be of any type.
+    """
+
     print("size: " + str(len(d)))
     for key in d:
         if d[key] is None:
@@ -23,6 +36,22 @@ def check_dictionary(d):
 
 
 def get_file_name(key):
+    """
+    Generates a sanitized file name from a given DOI or URL string.
+
+    This function checks if the provided key is a DOI link and extracts the 
+    relevant portion to create a file name. The function replaces certain 
+    characters (periods and slashes) in the DOI with safe alternatives 
+    (dashes and underscores, respectively) to ensure the resulting 
+    file name is valid.
+
+    Parameters:
+        key (str): A DOI or URL string from which to generate a file name.
+
+    Returns:
+        (str): A sanitized file name derived from the input string.
+    """
+
     doi_pattern = r'https:\/\/doi\.org\/[\w/.-]+'
     doi = re.search(doi_pattern, key)
 
@@ -42,6 +71,21 @@ def get_file_name(key):
 
 
 def extract_nested_elements(input_string):
+    """
+    Extracts nested elements enclosed in curly braces from a string.
+
+    This function scans the input string for nested elements, defined as 
+    substrings enclosed in matching curly braces (`{}`). It keeps track 
+    of the current nesting level and captures complete elements whenever 
+    a matching closing brace is found.
+
+    Parameters:
+        input_string (str): A string potentially containing nested elements enclosed in curly braces.
+
+    Returns:
+        (list): A list of extracted nested elements as strings.
+    """
+    
     elements = []
     start = 0
     brace_count = 0
@@ -63,6 +107,16 @@ def extract_nested_elements(input_string):
 
 
 def pubtator_extract(paper):
+    """
+    Extracts text from a BioC JSON formatted paper originating from pubtator API.
+
+    Parameters:
+        paper (str): A string representation of the BioC JSON formatted paper.
+
+    Returns:
+        (str): Extracted text from the paper, or None if extraction fails.
+    """
+
     text = ""
     paper = paper[1:-1]
 
@@ -94,10 +148,20 @@ def pubtator_extract(paper):
 
 
 def pdf_extract(data):
+    """
+    Extracts text from a BioC JSON formatted paper originating from PDF conversions.
+
+    Parameters:
+        data (str): A string representation of the BioC JSON formatted paper.
+
+    Returns:
+        str: Extracted text from the paper, or None if extraction fails.
+    """
+
     text = ""
 
     try:
-        bioc_collection = biocjson.loads(paper)
+        bioc_collection = biocjson.loads(data)
 
     except:
         return None
@@ -121,6 +185,15 @@ def pdf_extract(data):
 
 
 def jats_extract(paper):
+    """
+    Extracts text from a BioC JSON formatted paper originating from JATS XML conversions.
+
+    Parameters:
+        paper (str): A string representation of the BioC JSON formatted paper.
+
+    Returns:
+        (str): Extracted text from the paper, or None if extraction fails.
+    """
     text = ""
     
     try:
@@ -153,6 +226,15 @@ def jats_extract(paper):
     
 
 def text_extract(paper):
+    """
+    Attempts to extract text from a BioC JSON paper obtained from various sources and conversions (PubTator, JATS, PDF).
+
+    Parameters:
+        paper (str or None): The BioC JSON paper to extract text from.
+
+    Returns:
+        (str): Extracted text, or the text from a PDF file (manually downloaded) if the paper cannot be obtained through API links.
+    """
     text_extracted = False
     text = ""
     
@@ -194,8 +276,8 @@ def text_extract(paper):
             pass
 
     else:
-        file = get_file_name(key)
-        file = "/home/david.yang1/autolit/viriation/data/raw/pdf/unconverted/" + file + ".pdf"
+        file = get_file_name(key) # file name of paper PDF
+        file = "/home/david.yang1/autolit/viriation/data/raw/pdf/unconverted/" + file + ".pdf" # file location of PDF 
         isExist = os.path.exists(file) 
         if isExist:
             print(file)
@@ -208,6 +290,15 @@ def text_extract(paper):
 
 
 def related_paper(paper):
+    """
+    Checks if a paper was previously scraped and annotated in the pokay database (training data)
+
+    Parameters:
+        paper (str): DOI link of paper
+
+    Returns:
+        (bool): True if the paper is in the pokay dataset, False otherwise.
+    """
     try:
         doi = paper["passages"][0]['infons']['article-id_doi']
         
@@ -221,6 +312,24 @@ def related_paper(paper):
 
 
 def regex_filtering(data):
+    """
+    Filter papers based on mutation-related patterns found in the text.
+
+    This function applies regular expressions to extract genetic mutation 
+    information from provided papers. It identifies one-letter and three-letter 
+    amino acid changes as well as genome changes. Papers containing any 
+    identified mutations are stored in a filtered dictionary.
+
+    Args:
+        data (dict): A dictionary where keys are DOIs and values are paper data (typically in a structured format).
+
+    Returns:
+        dict: A dictionary containing only the papers that have identified mutations. Each entry has the DOI as the key and the original paper text as the value.
+
+    Raises:
+        Exception: If any errors occur during text extraction or regular expression matching.
+    """
+    
     # Regular expressions
     one_letter_aa_change = r'\b([ARNDCQEGHILKMFPSTWYV])([1-9]+\d*)(del|(?!\1)[ARNDCQEGHILKMFPSTWYV])\b'
     three_letter_aa_change = r'\b((?:ALA|ARG|ASN|ASP|CYS|GLN|GLU|GLY|HIS|ILE|LEU|LYS|MET|PHE|PRO|SER|THR|TRP|TYR|VAL))([1-9]+\d*)(?!(\1))(ALA|ARG|ASN|ASP|CYS|DEL|GLN|GLU|GLY|HIS|ILE|LEU|LYS|MET|PHE|PRO|SER|THR|TRP|TYR|VAL)\b'
@@ -251,6 +360,23 @@ def regex_filtering(data):
 
 
 def date_filtering(data, date_cutoff):
+    """
+    Filter papers based on a specified publication date cutoff.
+
+    This function checks the publication date of each paper and retains 
+    only those published after the provided date cutoff. The papers are 
+    stored in a filtered dictionary.
+
+    Args:
+        data (dict): A dictionary where keys are DOIs and values are paper data (typically in a structured format).
+        date_cutoff (str): The cutoff date in ISO format (YYYY-MM-DD) for filtering papers.
+
+    Returns:
+        dict: A dictionary containing only the papers published after the specified date cutoff. Each entry has the DOI as the key and the original paper text as the value.
+
+    Raises:
+        Exception: If any errors occur during date extraction or processing.
+    """
     filtered_papers = {}
     for doi, paper in data.items():
         print(paper)
@@ -270,6 +396,24 @@ def date_filtering(data, date_cutoff):
 
 
 def subset_sample(original, n):
+    """
+    Create a random subset of papers from the original dataset.
+
+    This function shuffles the original list of papers and extracts 
+    a subset of size `n`. The remaining papers are returned alongside 
+    the sampled subset.
+
+    Args:
+        original (pd.DataFrame): A dataframe of paper data.
+        n (int): The number of samples to extract.
+
+    Returns:
+        df (list): The dataframe containing the remaining papers after sampling.
+        sub (list): The sampled subset of papers.
+
+    Raises:
+        ValueError: If `n` is greater than the length of the original list.
+    """
     sub = []
     df = copy.deepcopy(original)
     random.seed(42)

@@ -10,7 +10,8 @@ import pandas as pd
 import os
 import xml.etree.ElementTree as ET
 import re
-from data_processor import get_doi_file_name
+from scripts.data_processor import get_doi_file_name
+from history import History
 
 
 def wrap_xml_with_root(input_path, output_path, new_root="all_roots"):
@@ -58,7 +59,7 @@ def process_xml_file(file_path: str, fields: list) -> pd.DataFrame:
     """
     Processes the esearch XML file and extracts the specified fields into a DataFrame.
 
-    Args:
+    Parameters:
         file_path (str): Path to the XML file.
         fields (list): List of fields to extract.
 
@@ -82,6 +83,12 @@ def process_xml_file(file_path: str, fields: list) -> pd.DataFrame:
 
     # Define a processing function for each field if needed
     def process_authors(authors_element):
+        """
+        Processes author list
+        
+        Returns:
+            String of author list separated by comma
+        """
         return ", ".join([author.find('Name').text for author in authors_element.findall('Author')])
 
     process_fields = {
@@ -139,8 +146,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Load list of papers previously looked at
-    with open(args.path + '/data/database/screened_papers.pkl', 'rb') as f:
-        papers = pickle.load(f)
+    with open(args.path + '/data/database/history.pkl', 'rb') as f:
+        h = pickle.load(f)
 
     # LitCovid search terms
     covid_terms = ['coronavirus', 'ncov', 'cov', '2019-nCoV', 'SARS-CoV-2', 'COVID19', 'COVID']
@@ -154,7 +161,8 @@ if __name__ == "__main__":
     litcovid_data = process_xml_file(args.path + "/data/scraper/pubmed/wrapped_litcovid.xml", fields)
 
     # Filter LitCovid data for repetitive papers
-    litcovid_data = litcovid_data[~litcovid_data["doi"].isin(papers)]
+    # litcovid_data = litcovid_data[~litcovid_data["doi"].isin(papers)]
+    litcovid_data = litcovid_data[~litcovid_data["doi"].apply(h.checkPaper)]
 
     # Fill NAs for missing dates
     litcovid_data["date"] = litcovid_data["date"].fillna(litcovid_data["other_date"])
@@ -198,7 +206,8 @@ if __name__ == "__main__":
     rxiv = pd.concat([medrxiv, biorxiv], ignore_index = True, sort = False)
     
     # Filter rxiv data for repetitive papers
-    rxiv = rxiv[~rxiv["doi"].isin(papers)]
+    # rxiv = rxiv[~rxiv["doi"].isin(papers)]
+    rxiv = rxiv[~rxiv["doi"].apply(h.checkPaper)]
 
     # Format date
     rxiv["date"] = pd.to_datetime(rxiv["date"])
@@ -227,4 +236,13 @@ if __name__ == "__main__":
     info["doi_id"] = info["doi"].astype(str).apply(get_doi_file_name)
 
     info.to_csv(args.path + '/data/scraper/info.csv')
-    
+
+    # save scraped date range
+    with open('data/database/history.pkl', 'rb') as f:
+        history = dill.load(f)
+
+    history.addDateRange((args.start, args.end))
+    history.updateTree()
+
+    with open('data/database/history.pkl', 'wb') as f:
+        dill.dump(history, f)     

@@ -139,6 +139,16 @@ def recategorize_pokay(directory):
 @sleep_and_retry
 @limits(calls=3, period=1)
 def get_pubtator_bioc_json(id):
+    """
+    Returns the BioC JSON for a paper with a specific pubmed ID
+
+    Parameters:
+        id (str): PubMED ID for paper
+    
+    Returns:
+        (str): BioC JSON for paper
+    """
+
     # API link for BioC
     url = "https://www-ncbi-nlm-nih-gov.ezproxy.lib.ucalgary.ca/research/bionlp/RESTful/pmcoa.cgi/BioC_json/" + str(id) + "/unicode"
     bioc = requests.get(url, allow_redirects=True)
@@ -157,6 +167,16 @@ def get_pubtator_bioc_json(id):
 @sleep_and_retry
 @limits(calls=3, period=1)
 def get_pmid(doi):
+    """
+    Returns the PubMED ID of a specific DOI
+
+    Parameters:
+        doi (str): DOI link for paper
+    
+    Returns:
+        (str): PubMED ID of paper
+    """
+
     # pmid = doi2pmid(doi)
     doi_part = doi.split('doi.org/')[-1]
 
@@ -173,6 +193,17 @@ def get_pmid(doi):
 @sleep_and_retry
 @limits(calls=1, period=1)
 def get_rxiv_details(doi, is_biorxiv):
+    """
+    Returns general information for a preprint paper including JATS XML link, title and authors 
+
+    Parameters:
+        doi (str): DOI link of the paper
+        is_biorxiv (bool): True if BioRxiv paper, False if MedRxiv paper
+    
+    Returns:
+        (str): information pertaining to the preprint paper
+    """
+
     doi_part = doi.split('doi.org/')[-1]
     
     if is_biorxiv:
@@ -193,6 +224,17 @@ def get_rxiv_details(doi, is_biorxiv):
 @sleep_and_retry
 @limits(calls=3, period=1)
 def get_rxiv_pmid(doi, is_biorxiv):
+    """
+    Returns the PubMED ID of the preprint paper
+
+    Parameters:
+        doi (str): DOI link of paper
+        is_biorxiv (bool): True if BioRxiv paper, False if MedRxiv paper
+
+    Returns:
+        (str): PubMED ID of the paper
+    """
+
     details = get_rxiv_details(doi,is_biorxiv).decode('utf-8')
     pmid = None
     
@@ -210,6 +252,16 @@ def get_rxiv_pmid(doi, is_biorxiv):
 
 
 def get_rxiv_published_doi(details):
+    """
+    Retrieves the published DOI of a preprint paper when available
+
+    Parameters:
+        details (str): JSON of preprint paper containing general information pertaining to the paper of interest
+    
+    Returns:
+        (str): If the preprint is published, the DOI is returned
+    """
+
     data = json.loads(details)
 
     # Check if it is published
@@ -221,6 +273,16 @@ def get_rxiv_published_doi(details):
 
 
 def get_rxiv_jats_xml(details):
+    """
+    Fetches the JATS XML of a preprint when given it's information
+
+    Parameters:
+        details (str): JSON of preprint paper containing general information pertaining to the paper of interest
+
+    Returns:
+        (str): JATS XML file of the paper
+    """
+
     data = json.loads(details)
     
     # Grab the JATS XML
@@ -230,6 +292,14 @@ def get_rxiv_jats_xml(details):
 
 
 def convert_jatsxml_to_html(input_file, output_file):
+    """
+    Convert JATS XML file to HTML file
+    
+    Parameters:
+        input_file (str): JATS XML file as string
+        output_file (str): location to save output file
+    """
+    
     # dom = ET.parse(input_file)
     dom = ET.fromstring(input_file)
 
@@ -241,11 +311,30 @@ def convert_jatsxml_to_html(input_file, output_file):
 
 
 def command_line_call(call):
+    """
+    Perform command line calls in Python
+    
+    Parameters:
+        call (str): command line call
+    """
+
     x = call.split(" ")
     subprocess.run(x)
 
 
 def get_journal_publication_bioc(dict, isPmidDict = False):
+    """
+    Retrieve the BioC JSONs given a dictionary of publication DOI links
+
+    Parameters:
+        dict (dict): Dictionary containing DOIs of publications as keys and BioC JSON as values. When initially passed in all values are None
+        isPmidDict (bool): whether the keys of dict are PubMED IDs (str) instead
+    
+    Returns:
+        dict (dict): Dictionary containing DOIs as keys and BioC JSON as values.
+        unk_dict (dict): Dictionary containing DOIs where BioC JSON files could not be retrieved.
+    """
+
     count = 0
     unk_dict = {}
     for key in dict:
@@ -299,6 +388,17 @@ def get_journal_publication_bioc(dict, isPmidDict = False):
 
 
 def get_rxiv_bioc(dict):
+     """
+    Retrieve the BioC JSON for all preprints in dict
+
+    Parameters:
+        dict (dict): Dictionary containing the DOIs of preprints as the key and BioC JSON as values. When initially passed in all values are None.
+
+    Returns:
+        dict (dict): Dictionary containing DOIs as keys and BioC JSON as values.
+        unk_dict (dict): Dictionary containing DOIs where BioC JSON files could not be retrieved.
+    """
+
     count = 0
     unk_dict = {}
     for key in dict:
@@ -432,6 +532,16 @@ def get_rxiv_bioc(dict):
 
 
 def get_file_name(key):
+    """
+    Creates and formats a file name for a doi link that can be saved locally
+
+    Parameters:
+        key (str): DOI link
+
+    Returns:
+        (str): file name
+    """
+    
     doi = re.search(doi_pattern, key)
 
     if doi is not None:

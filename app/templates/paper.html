@@ -283,7 +283,7 @@
                         <div class="form-field">
                             {% for t in text %}
                                 <div class="text-chunk" id="text_chunk_{{ mutation }}">
-                                    <p class="text_{{ mutation }}" id="text_{{ mutation }}_{{ loop.index }}"><b>{{ loop.index }}.</b> {{ t }}</p>
+                                    <p><b>{{ loop.index }}. </b></p> <p class="text_{{ mutation }}" id="text_{{ mutation }}_{{ loop.index }}">{{ t }}</p>
                                     <span class="x-button" id="x_button_{{ mutation }}_{{ loop.index }}" onclick="markIrrelevant('{{ mutation }}', '{{ loop.index }}')" title="Irrelevant text chunk">X</span>
                                 </div>
                             {% endfor %}
