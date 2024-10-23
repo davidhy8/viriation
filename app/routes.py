@@ -23,6 +23,19 @@ data = {k: my_dict[k] for i, k in enumerate(my_dict) if i < 10}
 # Load metadata
 metadata = pd.read_csv("data/scraper/info.csv")
 
+# Load mutation data from pokay
+with open("submodules/pokay/output_2.json") as f:
+    mutations_data = json.load(f)
+
+@app.route('/get_mutations/<mutation_id>')
+def get_mutations(mutation_id):
+    # Filter data based on whether the mutation_id is in the URL
+    relevant_mutations = [
+        mutation for mutation in mutations_data
+        if mutation_id in mutation["url"] # filter for relevant mutations
+    ]
+    # return jsonify(relevant_mutations)
+    return render_template('mutation.html', mutations=relevant_mutations, mutation_id=mutation_id)
 
 @app.route('/')
 def index():

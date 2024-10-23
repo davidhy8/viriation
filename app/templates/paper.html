@@ -9,27 +9,40 @@
     <script>
         // Function to set the base URL dynamically
         function setBaseURL() {
-        // Get the full current URL (the base URL of your application)
-        const origin = window.location.origin;
-        console.log("Origin: ", origin)
-        const path = window.location.pathname.split('/').slice(0, -2).join('/'); // Extract path excluding the last segment
-        console.log("Path: ", path)
+            // Get the full current URL (the base URL of your application)
+            const origin = window.location.origin;
+            console.log("Origin: ", origin)
+            const path = window.location.pathname.split('/').slice(0, -2).join('/'); // Extract path excluding the last segment
+            console.log("Path: ", path)
 
-        const fullBaseURL = origin + path;
+            const fullBaseURL = origin + path;
 
-        // Find the link element
-        const link = document.getElementById('back-button');
-        const originalHref = link.getAttribute('href');
+            // Find the link element
+            const link = document.getElementById('back-button');
+            const originalHref = link.getAttribute('href');
 
-        // Set the full URL by appending the base URL to the href value
-        link.setAttribute('href', fullBaseURL + originalHref);
+            // Set the full URL by appending the base URL to the href value
+            link.setAttribute('href', fullBaseURL + originalHref);
 
-        console.log("Updated href:", link.getAttribute('href'));
+            console.log("Updated href:", link.getAttribute('href'));
+
+            // Fix mutation links
+            const mutation_links = document.getElementsByClassName('mutation_link');
+            // console.log(fullBaseURL);  // Should log the correct base URL
+            // console.log(document.getElementsByClassName('mutation_link'));  // Should log an HTMLCollection of links
+
+            // Loop through each element in the mutation_links collection
+            for (let i = 0; i < mutation_links.length; i++) {
+                const link = mutation_links[i];  // Get the individual link
+                const originalHref = link.getAttribute('href');  // Get the current href value
+
+                // Set the full URL by appending the base URL to the href value
+                link.setAttribute('href', fullBaseURL + originalHref);
+            }
         }
     
         // Execute the function once the page is loaded
         window.onload = setBaseURL;
-
     </script>
     <style>
         /* Main block */
@@ -273,9 +286,11 @@
         </div>
         <div>
             <form method="post" class="mutation-form" id="mutation-form">
-                {% for (mutation, text) in data.items() %}
+                {% for (mutation, text) in data.items() %}            
                     <button type="button" class="collapsible">
-                        <h2 class="mutation"> {{ mutation }} </h2> <br>
+                        <h2 class="mutation"> {{ mutation }}</h2> 
+                        <a href="{{ url_for('get_mutations', mutation_id=mutation) }}" target="_blank" class="mutation_link"><i class="glyphicon glyphicon-info-sign"></i></a> <br>
+                        <!-- <a href="javascript:window.open({{ url_for('get_mutations', mutation_id=mutation) }}, 'mutation', 'width=200,height=150');" target="_blank" class="mutation_link"><i class="glyphicon glyphicon-info-sign"></i></a> <br> -->
                         <p> <b>{{text|length}}</b> mention(s) of {{ mutation }} in current paper.</p> 
                     </button>
                     <div class="content">
@@ -339,6 +354,7 @@
             </form>
         </div>
     </div>
+
     <script>
         $(document).ready(function() {
             {% for key, value in data.items() %}

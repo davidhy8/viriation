@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutation Data</title>
+</head>
+<body>
+    <h1>{{mutation_id}}</h1>
+
+    {% if mutations %}
+        {% for mutation in mutations %}
+            <h2>{{ mutation.description }}</h2>
+            <a href="{{ mutation.url }}" target="_blank"> {{ mutation.url }} </a>
+            <h3>Summary</h3>
+            <ul>
+                {% for line in mutation.summary.split(';') %}
+                    <li>{{ line }}</li>
+                {% endfor %}
+            </ul>
+
+            <h3>Deletions</h3>
+            <ul>
+                {% if mutation.deletions %}
+                    {% for deletion in mutation.deletions %}
+                        <li>Gene: {{ deletion.S }}, Codon: {{ deletion.codon }}, RefAA: {{ deletion.refAA }}</li>
+                    {% endfor %}
+                {% else %}
+                    <p>No deletions</p>
+                {% endif %}
+            </ul>
+
+            <h3>Substitutions</h3>
+            <ul>
+                {% if mutation.substitutions %}
+                    {% for substitution in mutation.substitutions %}
+                        <li>Gene: {{ substitution.gene }}, Codon: {{ substitution.codon }}, QueryAA: {{ substitution.queryAA }}, RefAA: {{ substitution.refAA }}</li>
+                    {% endfor %}
+                {% else %}
+                    <p>No substitutions</p>
+                {% endif %}
+            </ul> 
+            <hr class="dashed">
+        {% endfor %}
+    {% else %}
+        <p>No mutations found for the given mutation ID.</p>
+    {% endif %}
+</body>
+</html>
