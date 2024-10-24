@@ -16,7 +16,7 @@ CONDA_PATH=~/miniconda3/etc/profile.d/conda.sh
 source $CONDA_PATH
 
 # Activate environments
-BASE_PATH=/home/david.yang1/autolit/viriation/
+BASE_PATH="$(dirname "$0")"
 conda activate viriation
 cd $BASE_PATH
 source .venv/bin/activate

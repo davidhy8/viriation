@@ -1,9 +1,8 @@
-BASE_PATH=/home/david.yang1/autolit/viriation/
+BASE_PATH="$(dirname "$0")"
 cd $BASE_PATH
 
 # pipeline directory
-cd data
-cd ../pipeline_data
+cd data/pipeline_data
 mkdir NER
 
 # scraper directories
