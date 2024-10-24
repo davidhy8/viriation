@@ -563,7 +563,7 @@ def get_file_name(key):
 
 # publication_bioc, publication_key, rxiv_bioc, rxiv_key, grey_bioc, grey_key = categorize_pokay('../data/raw/pokay')
 # publication_bioc_2, publication_key_2, rxiv_bioc_2, rxiv_key_2, grey_bioc_2, grey_key_2 = recategorize_pokay('../data/raw/pokay')
-publication_bioc, publication_key, rxiv_bioc, rxiv_key, grey_bioc, grey_key = recategorize_pokay('../data/raw/pokay')
+publication_bioc, publication_key, rxiv_bioc, rxiv_key, grey_bioc, grey_key = recategorize_pokay('../submodules/pokay/data/literature/NC_045512')
 
 
 # # Load local dictionary
@@ -875,7 +875,7 @@ for key in publication_unk_bioc:
 # Fetch manual conversions: converted these by downloading pdf -> html -> bioc_json format
 for key in cannot_convert_publication:
     file = get_file_name(key)
-    file = "/home/david.yang1/autolit/viriation/data/processed/bioc_paper/" + file + "_bioc.json"
+    file = "../data/processed/bioc_paper/" + file + "_bioc.json"
     try:
         # print(file)
         cannot_convert_publication[key] = Path(file).read_text().replace('\n', '')
@@ -896,7 +896,7 @@ for key in cannot_convert_publication:
 for key in rxiv_bioc:
     if rxiv_bioc[key] == "converting":
         file = get_file_name(key)
-        file = "/home/david.yang1/autolit/viriation/data/processed/bioc/" + file + "_bioc.json"
+        file = "../data/processed/bioc/" + file + "_bioc.json"
         try:
             rxiv_bioc[key] = Path(file).read_text().replace('\n', '')
         except:
@@ -911,7 +911,7 @@ for key in rxiv_bioc:
 for key in rxiv_unk_bioc:
     if rxiv_unk_bioc[key] == "converting":
         file = get_file_name(key)
-        file = "/home/david.yang1/autolit/viriation/data/processed/bioc/" + file + "_bioc.json"
+        file = "../data/processed/bioc/" + file + "_bioc.json"
         try:
             rxiv_unk_bioc[key] = Path(file).read_text().replace('\n', '')
         except:
@@ -956,7 +956,7 @@ print(sum(x == 'converting' for x in rxiv_unk_bioc.values()))
 # Fetch manual conversions. pdf -> html -> bioc json
 for key in cannot_convert_rxiv:
     file = get_file_name(key)
-    file = "/home/david.yang1/autolit/viriation/data/processed/bioc_other/" + file + "_bioc.json"
+    file = "../data/processed/bioc_other/" + file + "_bioc.json"
     try:
         # print(file)
         cannot_convert_rxiv[key] = Path(file).read_text().replace('\n', '')
@@ -993,7 +993,7 @@ for key in grey_bioc:
 # Fetch manual conversion
 for key in cannot_convert_grey:
     file = get_file_name(key)
-    file = "/home/david.yang1/autolit/viriation/data/processed/bioc_other/" + file + "_bioc.json"
+    file = "../data/processed/bioc_other/" + file + "_bioc.json"
     try:
         # print(file)
         cannot_convert_grey[key] = Path(file).read_text().replace('\n', '')

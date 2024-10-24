@@ -277,7 +277,7 @@ def text_extract(paper):
 
     else:
         file = get_file_name(key) # file name of paper PDF
-        file = "/home/david.yang1/autolit/viriation/data/raw/pdf/unconverted/" + file + ".pdf" # file location of PDF 
+        file = "../data/raw/pdf/unconverted/" + file + ".pdf" # file location of PDF 
         isExist = os.path.exists(file) 
         if isExist:
             print(file)
@@ -446,7 +446,7 @@ if __name__ == "__main__":
     for key in data:
         if data[key] == "converting":
             file = get_doi_file_name(key)
-            file = "/home/david.yang1/autolit/viriation/data/scraper/rxiv/bioc/" + file + "_bioc.json"
+            file = "../data/scraper/rxiv/bioc/" + file + "_bioc.json"
             try:
                 data[key] = Path(file).read_text().replace('\n', '')
             except:

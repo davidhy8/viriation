@@ -442,7 +442,7 @@ def NER(flagged, port):
             pickle.dump(NER_list, f)
 
 
-def load_mutations(path = "/home/david.yang1/autolit/viriation/data/pipeline_data/NER"):
+def load_mutations(path = "../data/pipeline_data/NER"):
     """
     Loads mutation data from pickle files and organizes it into a structured output.
 

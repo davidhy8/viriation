@@ -154,7 +154,7 @@ if __name__ == "__main__":
     query = [covid_terms]
 
     # Format LitCovid data
-    wrap_xml_with_root('/home/david.yang1/autolit/viriation/data/scraper/pubmed/litcovid.xml', '/home/david.yang1/autolit/viriation/data/scraper/pubmed/wrapped_litcovid.xml')
+    wrap_xml_with_root('../data/scraper/pubmed/litcovid.xml', '../data/scraper/pubmed/wrapped_litcovid.xml')
     
     # Load LitCovid data
     fields = ["title", "authors", "date", "doi", "other_date"]  # Define the fields you want to extract
