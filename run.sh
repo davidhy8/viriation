@@ -42,9 +42,8 @@ cd $BASE_PATH/scripts
 python preprocessing.py --data ${BASE_PATH}/data/scraper/scraped_papers.txt --out ${BASE_PATH}/data/scraper/papers.csv
 
 # Activate the first conda environment and start the localhost server in the background
-BERN2_PATH=/home/david.yang1/autolit/BERN2/scripts
 conda activate bern2
-cd $BERN2_PATH
+cd ../submodules/BERN2/scripts
 bash stop_bern2.sh
 bash run_bern2_cpu.sh > output.txt &
 sleep 200
