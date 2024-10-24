@@ -27,7 +27,7 @@ end_pm="${end_date//-/\/}"
 esearch -db pubmed -query "('coronavirus'[All Fields] OR 'ncov'[All Fields] OR 'cov'[All Fields] OR '2019-nCoV'[All Fields] OR 'SARS-CoV-2'[All Fields] OR 'COVID19'[All Fields] OR 'COVID-19'[All Fields] OR 'COVID'[All Fields]) AND (\"${start_pm}\"[CRDT] : \"${end_pm}\"[CRDT]) NOT preprint[pt]" | efetch -format docsum > data/scraper/pubmed/litcovid.xml 
 
 # Scrape new pubmed and rxiv papers
-cd app/scripts/
+cd scripts/
 python scrape_papers.py --start $start_date --end $end_date --path $BASE_PATH
 # Process xmls with multiple root structures
 
@@ -38,7 +38,7 @@ python run_app.py -c "${BASE_PATH}/data/other/config_allen.json" -t "${BASE_PATH
 
 # Preprocess the papers
 conda activate viriation
-cd $BASE_PATH/app/scripts 
+cd $BASE_PATH/scripts 
 python preprocessing.py --data ${BASE_PATH}/data/scraper/scraped_papers.txt --out ${BASE_PATH}/data/scraper/papers.csv
 
 # Activate the first conda environment and start the localhost server in the background
@@ -55,5 +55,5 @@ echo $LOCALHOST_PID
 
 # Screen papers
 conda activate viriation
-cd ${BASE_PATH}/app/scripts
+cd ${BASE_PATH}/scripts
 python pipeline.py --data "${BASE_PATH}/data/scraper/papers.csv" --url $LOCALHOST_PID
