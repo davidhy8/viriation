@@ -1,5 +1,5 @@
 import pandas as pd
-import pickle
+import dill
 import data_processor as processor
 import json
 from paperscraper.pubmed import get_and_dump_pubmed_papers
@@ -10,6 +10,10 @@ import pandas as pd
 import os
 import xml.etree.ElementTree as ET
 import re
+
+import sys
+sys.path.append('/home/david.yang1/autolit/virus-trial/viriation') # replace with your folder location
+
 from scripts.data_processor import get_doi_file_name
 from history import History
 
@@ -147,7 +151,7 @@ if __name__ == "__main__":
 
     # Load list of papers previously looked at
     with open(args.path + '/data/database/history.pkl', 'rb') as f:
-        h = pickle.load(f)
+        history = dill.load(f)
 
     # LitCovid search terms
     covid_terms = ['coronavirus', 'ncov', 'cov', '2019-nCoV', 'SARS-CoV-2', 'COVID19', 'COVID']
@@ -162,7 +166,7 @@ if __name__ == "__main__":
 
     # Filter LitCovid data for repetitive papers
     # litcovid_data = litcovid_data[~litcovid_data["doi"].isin(papers)]
-    litcovid_data = litcovid_data[~litcovid_data["doi"].apply(h.checkPaper)]
+    litcovid_data = litcovid_data[~litcovid_data["doi"].apply(history.checkPaper)]
 
     # Fill NAs for missing dates
     litcovid_data["date"] = litcovid_data["date"].fillna(litcovid_data["other_date"])
@@ -207,7 +211,7 @@ if __name__ == "__main__":
     
     # Filter rxiv data for repetitive papers
     # rxiv = rxiv[~rxiv["doi"].isin(papers)]
-    rxiv = rxiv[~rxiv["doi"].apply(h.checkPaper)]
+    rxiv = rxiv[~rxiv["doi"].apply(history.checkPaper)]
 
     # Format date
     rxiv["date"] = pd.to_datetime(rxiv["date"])
@@ -236,10 +240,6 @@ if __name__ == "__main__":
     info["doi_id"] = info["doi"].astype(str).apply(get_doi_file_name)
 
     info.to_csv(args.path + '/data/scraper/info.csv')
-
-    # save scraped date range
-    with open('data/database/history.pkl', 'rb') as f:
-        history = dill.load(f)
 
     history.addDateRange((args.start, args.end))
     history.updateTree()

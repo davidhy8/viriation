@@ -8,6 +8,10 @@ import pypdf
 import os
 import argparse
 from datetime import date
+
+import sys
+sys.path.append('/home/david.yang1/autolit/virus-trial/viriation') # replace with your folder location
+
 from scripts.data_processor import get_doi_file_name
 from pathlib import Path
  

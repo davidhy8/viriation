@@ -18,10 +18,15 @@ import lightgbm as lgb
 from pathlib import Path
 import requests
 import pickle
+import dill
 import spacy
 import argparse
 import re
 from metapub.convert import pmid2doi
+
+import sys
+sys.path.append('/home/david.yang1/autolit/virus-trial/viriation') # replace with your folder location
+
 from scripts.data_processor import get_doi_file_name
 from scripts.history import History
 
@@ -543,7 +548,7 @@ if __name__ == "__main__":
 
     # Update screened papers
     with open('../data/database/history.pkl', 'rb') as f:
-        h = pickle.load(f)
+        h = dill.load(f)
 
     # Add papers that have been screened as irrelevant    
     for doi in data["doi"].tolist():
@@ -553,7 +558,7 @@ if __name__ == "__main__":
     h.updatePapers(irrelevant_papers = irrelevant)
 
     with open('../data/database/history.pkl', 'wb') as f:
-        pickle.dump(h, f)
+        dill.dump(h, f)
 
     lhost = str(args.url) + "/plain"
     
