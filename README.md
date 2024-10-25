@@ -64,9 +64,17 @@ $ pip install --upgrade pip
 ```
 # Goto base directory
 cd ../../
+conda env create --name viriation --file=viriation.yaml
+conda activate viriation
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
+Next, run pokay to load the current annotations we have available. Afterward, you will need to verify that submodules/pokay/output.json has no issues.
+```
+# Load pokay
+cd submodules/pokay
+perl text2ui VOCs.tab data/literature/NC_045512/ html/ output.json
 ```
 
 ## Step 3: Download pre-trained model
@@ -81,7 +89,7 @@ bash setup.sh
 ## Step 5: Running the program
 To run the program, you need to specify the date range that you would like to study. Replace the `$start` and `$end` (format=YYYY-MM-DD)
 ```
-bash run.sh --start_date $start --end_date $end
+bash run.sh -s $start -e $end
 ```
 
 # License 
